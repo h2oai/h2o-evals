@@ -4,8 +4,8 @@ H2O Evals is a collection of Large Language Model datasets for a range of differ
 
 ### 💯 Collection of LLM Evaluation Datasets 
 
-- Banking
-- Telcom
-- Government
-- Insurance
-- Medical 
+- `Banking`
+- `Telcom`
+- `Government`
+- `Insurance`
+- `Medical` 
