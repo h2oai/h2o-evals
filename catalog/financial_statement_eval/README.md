@@ -5,8 +5,8 @@ Welcome to the Financial Statement Dataset, part of the H2O.ai LLM Evaluation Da
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Finance sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [2023Q1_alphabet_earnings_release.pdf](https://github.com/h2oai/h2o-evals/tree/main/catalog/financial_statement_eval)
-2. [TSLA_Q1_2023_update.pdf](https://github.com/h2oai/h2o-evals/tree/main/catalog/financial_statement_eval)
+1. [2023Q1_alphabet_earnings_release.pdf](https://github.com/h2oai/h2o-evals/blob/4b3a9eba91da49a8c8cafdde9b9272bdea5e6998/catalog/financial_statement_eval/used_documents/doc1.pdf)
+2. [TSLA_Q1_2023_update.pdf](https://github.com/h2oai/h2o-evals/blob/4b3a9eba91da49a8c8cafdde9b9272bdea5e6998/catalog/financial_statement_eval/used_documents/TSLA-Q1-2023-Update.pdf)
 <!-- 2. [Document Name 2]
 3. [Document Name 3] -->
 
@@ -43,7 +43,7 @@ The dataset is carefully curated from a diverse set of documents within the fina
 
 **Answer:** ['$68,011', '$69,787', '$74,548', '$61,961']
 
-![multi_choice_question_image][]
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/2e12107f1b90038a4e5db956c774ee41966ecab9/catalog/financial_statement_eval/screenshots/2.png)
 
 #### Here is a sample Token presence from the dataset:
 
@@ -53,7 +53,7 @@ The dataset is carefully curated from a diverse set of documents within the fina
 
 **Token Presence:**  ['$23.3 billion', '24%']
 
-![token_presence_image][]
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/2e12107f1b90038a4e5db956c774ee41966ecab9/catalog/financial_statement_eval/screenshots/3.png)
 
 
 ## Usage
