@@ -34,7 +34,7 @@ The dataset is carefully curated from a diverse set of documents within the fina
 
 **Answer:** Some of the factors that could affect Tesla's ability to ramp its factories in accordance with its plans include the ability to procure supply of battery cells, including through its own manufacturing, and risks relating to international expansion.
 
-![conditional_question_image][]
+![conditional_question_image][https://github.com/h2oai/h2o-evals/blob/2e12107f1b90038a4e5db956c774ee41966ecab9/catalog/financial_statement_eval/screenshots/1.png]
 
 
 #### Here is a sample Multi choice questions from the dataset:
