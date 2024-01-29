@@ -19,6 +19,7 @@ The evaluation datasets in this collection are for a range of different evaluati
 The datasets in this project are generated based on documents for different industries, for example:
 
 - `Banking`
+- `Finance`
 - `Manufacturing`
 - `AI4Good`
 - `Media`
@@ -38,4 +39,4 @@ Following is the collection of 100 Datasets by different industries, different e
 
 | # | Dataset Name | Industry | Sub Industry | No of Entries | Prompt Type | Evaluation Type(rag/LLM) | Evaluation Techniques |
 |---| -------------- | ------- | ----------------- | ----- |-------------- | --------- |---|
-| 1. | [Business Related Dataset](https://github.com/h2oai/h2o-evals/tree/main/catalog/financial_statement_eval)| Banking |Loan Management | 1200 |      |RAG | Conditional Questions|
+| 1. | [Financial Statement Dataset](https://github.com/h2oai/h2o-evals/tree/main/catalog/financial_statement_eval)| Finance |Company financial statement | 1200 |      |RAG | Conditional Questions|
