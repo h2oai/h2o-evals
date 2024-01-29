@@ -38,4 +38,4 @@ Following is the collection of 100 Datasets by different industries, different e
 
 | # | Dataset Name | Industry | Sub Industry | No of Entries | Prompt Type | Evaluation Type(rag/LLM) | Evaluation Techniques |
 |---| -------------- | ------- | ----------------- | ----- |-------------- | --------- |---|
-| 1. | [Business Related Dataset](https://github.com/h2oai/h2o-evals/tree/read-me-repo-structure/Datasets/Business_related_dataset)| Banking |Loan Management | 1200 |      |RAG | Conditional Questions|
+| 1. | [Business Related Dataset](https://github.com/h2oai/h2o-evals/tree/main/catalog/financial_statement_eval)| Banking |Loan Management | 1200 |      |RAG | Conditional Questions|
