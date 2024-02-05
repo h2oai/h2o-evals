@@ -34,9 +34,7 @@ def generate_dataset_info(row):
 
     used_documents_folder = os.path.join(row['Dataset_link'].split('/')[-1], 'used_documents')
     # used_documents_folder = os.path.join('https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog', used_documents_folder)
-    print(used_documents_folder)
     documents = os.listdir(f"./catalog/{used_documents_folder}")
-    print(documents)
     for index, document in enumerate(documents, start=1):
         document_path = os.path.join(used_documents_folder, document)
         dataset_info += f"{index}. [{document}](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/{document_path})\n"
@@ -61,6 +59,7 @@ def process_folders(root_folder_path, csv_file_path):
     
     for i, row in df.iterrows():
         folder_name = row['Dataset_link']
+        print(folder_name)
         folder_path = os.path.join(root_folder_path, folder_name.split('/')[-1])
         if True:
             questions = []
