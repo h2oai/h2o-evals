@@ -35,7 +35,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Token Presence:** ['$23.3 billion', '24%']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/financial_statement_eval/screenshots/token_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/financial_statement_eval/screenshots/tokens_present.png)
 
 #### Sample Multi choice questions from the dataset:
 
