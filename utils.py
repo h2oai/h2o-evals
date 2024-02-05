@@ -20,7 +20,7 @@ def generate_token_presence_question(folder_name, row):
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
     question += f"**Token Presence:** {row['tokens_present']}\n\n"
-    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/token_presence.png)\n\n"
+    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/token_present.png)\n\n"
     return question
 
 def generate_dataset_info(row):
