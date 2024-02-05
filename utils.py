@@ -5,14 +5,14 @@ def generate_conditional_question(folder_name, row):
     question = f"#### Sample Conditional questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
-    question += f"![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/{folder_name}/screenshots/question_type.png)\n\n"
+    question += f"![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/{folder_name}/screenshots/question_type.png)\n\n"
     return question
 
 def generate_multi_choice_question(folder_name, row):
     question = f"#### Sample Multi choice questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['choices']}\n\n"
-    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/{folder_name}/screenshots/multi_choice.png)\n\n"
+    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/{folder_name}/screenshots/multi_choice.png)\n\n"
     return question
 
 def generate_token_presence_question(folder_name, row):
@@ -20,7 +20,7 @@ def generate_token_presence_question(folder_name, row):
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
     question += f"**Token Presence:** {row['tokens_present']}\n\n"
-    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/{folder_name}/screenshots/token_presence.png)\n\n"
+    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/{folder_name}/screenshots/token_presence.png)\n\n"
     return question
 
 def generate_dataset_info(row):
@@ -37,7 +37,7 @@ def generate_dataset_info(row):
     documents = os.listdir(f"./catalog/{used_documents_folder}")
     for index, document in enumerate(documents, start=1):
         document_path = os.path.join(used_documents_folder, document)
-        dataset_info += f"{index}. [{document}](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/{document_path})\n"
+        dataset_info += f"{index}. [{document}](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/{document_path})\n"
 
     dataset_info += (
         "\n## Dataset Details\n"
@@ -94,7 +94,7 @@ def process_folders(root_folder_path, csv_file_path):
                     f.write("## Additional Information\n\n")
                     f.write("For further details or inquiries, feel free to contact [H2O.ai](https://www.h2o.ai/) or refer to the comprehensive documentation provided by H2O.ai for their LLM Data Studio.\n\n")
 
-root_folder_path = 'https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/catalog'
-csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/d21027d3518ec941f48b11e6bcec429cf6400e9f/data_file.csv'
+root_folder_path = 'https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog'
+csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/db9b1d6883239c3b857b54c99d350f68468dbd80/data_file.csv'
 
 process_folders(root_folder_path, csv_file_path)

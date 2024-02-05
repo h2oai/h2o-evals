@@ -5,7 +5,7 @@ Welcome to the Telecom Dataset , part of the H2O.ai LLM Evaluation Datasets coll
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Telecom sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [T-TUT-PROTO-2019-PDF-E.pdf](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/telcom_eval/used_documents/T-TUT-PROTO-2019-PDF-E.pdf)
+1. [T-TUT-PROTO-2019-PDF-E.pdf](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/telcom_eval/used_documents/T-TUT-PROTO-2019-PDF-E.pdf)
 
 ## Dataset Details
 - **Industry:** Telecom
@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Tele
 
 **Answer:** The main issue that inhibits the mitigation of vulnerabilities in the "DFS over telecom" ecosystem is a misalignment of interests and misplaced liability between the telecom and financial regulators.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/catalog/telcom_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/telcom_eval/screenshots/question_type.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Tele
 
 **Answer:** ['It provides a technical description of SS7 and Diameter protocols.', 'It describes the vulnerabilities of SS7 and their effect on digital financial services.', 'It provides mitigation measures for operators and DFS providers.', 'It provides a template for a model MOU between a telecommunication regulator and central bank related to DFS security.']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/catalog/telcom_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/telcom_eval/screenshots/multi_choice.png)
 
 ## Usage
 
