@@ -1,32 +1,28 @@
 import os
 import pandas as pd
 
-# Function to generate Conditional questions
 def generate_conditional_question(folder_name, row):
     question = f"#### Sample Conditional questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
-    question += f"![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/{folder_name}/screenshots/question_type.png)\n\n"
+    question += f"![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/{folder_name}/screenshots/question_type.png)\n\n"
     return question
 
-# Function to generate Multi choice questions
 def generate_multi_choice_question(folder_name, row):
     question = f"#### Sample Multi choice questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['choices']}\n\n"
-    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/{folder_name}/screenshots/multi_choice.png)\n\n"
+    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/{folder_name}/screenshots/multi_choice.png)\n\n"
     return question
 
-# Function to generate Token presence questions
 def generate_token_presence_question(folder_name, row):
     question = f"#### Sample Token presence from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
     question += f"**Token Presence:** {row['tokens_present']}\n\n"
-    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/{folder_name}/screenshots/token_presence.png)\n\n"
+    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/{folder_name}/screenshots/token_presence.png)\n\n"
     return question
 
-# Function to generate dataset information
 def generate_dataset_info(row):
     dataset_info = (
         f"# {row['Dataset']}\n\n"
@@ -60,7 +56,6 @@ def generate_dataset_info(row):
 
     return dataset_info
 
-# Main function to process folders
 def process_folders(root_folder_path, csv_file_path):
     df = pd.read_csv(csv_file_path.split('/')[-1], encoding='unicode_escape')
     
@@ -100,9 +95,7 @@ def process_folders(root_folder_path, csv_file_path):
                     f.write("## Additional Information\n\n")
                     f.write("For further details or inquiries, feel free to contact [H2O.ai](https://www.h2o.ai/) or refer to the comprehensive documentation provided by H2O.ai for their LLM Data Studio.\n\n")
 
-# Set your root folder path and CSV file path here
 root_folder_path = 'https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog'
 csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/64ee8b5162e03fa569fda7a49261cc28aa1fe939/data_file.csv'
 
-# Process folders
 process_folders(root_folder_path, csv_file_path)
