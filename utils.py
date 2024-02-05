@@ -12,7 +12,7 @@ def generate_multi_choice_question(folder_name, row):
     question = f"#### Sample Multi choice questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['choices']}\n\n"
-    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/{folder_name}/screenshots/multi_choice.png)\n\n"
+    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/multi_choice.png)\n\n"
     return question
 
 def generate_token_presence_question(folder_name, row):
@@ -20,7 +20,7 @@ def generate_token_presence_question(folder_name, row):
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
     question += f"**Token Presence:** {row['tokens_present']}\n\n"
-    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/{folder_name}/screenshots/token_presence.png)\n\n"
+    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/token_presence.png)\n\n"
     return question
 
 def generate_dataset_info(row):

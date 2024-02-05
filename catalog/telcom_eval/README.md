@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Tele
 
 **Answer:** ['It provides a technical description of SS7 and Diameter protocols.', 'It describes the vulnerabilities of SS7 and their effect on digital financial services.', 'It provides mitigation measures for operators and DFS providers.', 'It provides a template for a model MOU between a telecommunication regulator and central bank related to DFS security.']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/telcom_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/telcom_eval/screenshots/multi_choice.png)
 
 ## Usage
 

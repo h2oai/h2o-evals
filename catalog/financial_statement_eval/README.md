@@ -35,7 +35,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Token Presence:** ['$23.3 billion', '24%']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/financial_statement_eval/screenshots/token_presence.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/financial_statement_eval/screenshots/token_presence.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -43,7 +43,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Answer:** ['$68,011', '$69,787', '$74,548', '$61,961']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/financial_statement_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/financial_statement_eval/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 

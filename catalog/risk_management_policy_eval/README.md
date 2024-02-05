@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Risk
 
 **Answer:** ['The Governing Authority', 'The Corporate Secretary of the University', 'The Risk Management Officer', 'The Primary Register Owner']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/risk_management_policy_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/risk_management_policy_eval/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
