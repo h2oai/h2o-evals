@@ -35,7 +35,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Token Presence:** ['$23.3 billion', '24%']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/financial_statement_eval/screenshots/token_presence.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/catalog/financial_statement_eval/screenshots/token_presence.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -43,7 +43,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Answer:** ['$68,011', '$69,787', '$74,548', '$61,961']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/financial_statement_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/catalog/financial_statement_eval/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -51,7 +51,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Answer:** The change in accounting estimate reduced depreciation expense by $988 million and increased net income by $770 million, or $0.06 per basic and $0.06 per diluted share.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/financial_statement_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/d21027d3518ec941f48b11e6bcec429cf6400e9f/catalog/financial_statement_eval/screenshots/question_type.png)
 
 ## Usage
 
