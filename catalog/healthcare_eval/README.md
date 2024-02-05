@@ -5,7 +5,7 @@ Welcome to the Healthcare Dataset, part of the H2O.ai LLM Evaluation Datasets co
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Health sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [Singapore_Healthcare_System.pdf](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/healthcare_eval/used_documents/Singapore_Healthcare_System.pdf)
+1. [Singapore_Healthcare_System.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/healthcare_eval/used_documents/Singapore_Healthcare_System.pdf)
 
 ## Dataset Details
 - **Industry:** Health
@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** The population of Singapore is 5.2 million.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/healthcare_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/healthcare_eval/screenshots/question_type.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** ['The government extended the network of hospitalization, including general hospitals, satellite out-patient dispensaries, and maternal and child health clinics.', 'The country started building up a healthy population with preventive healthcare and encouraging healthy lifestyles.', 'The government introduced the "3M" (Medisave, Medishield, and Medifund) system to promote personal responsibility towards healthy living.', "Singapore had an island network of outpatient polyclinics and private medical practitioners' clinics to provide primary healthcare services."]
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/healthcare_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/healthcare_eval/screenshots/multi_choice.png)
 
 ## Usage
 

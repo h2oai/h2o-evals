@@ -5,7 +5,7 @@ Welcome to the RiskManagement Dataset, part of the H2O.ai LLM Evaluation Dataset
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Risk Management sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [gain-risk-management-policy.pdf](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/risk_management_policy_eval/used_documents/gain-risk-management-policy.pdf)
+1. [gain-risk-management-policy.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/risk_management_policy_eval/used_documents/gain-risk-management-policy.pdf)
 
 ## Dataset Details
 - **Industry:** Risk Management
@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Risk
 
 **Answer:** ['The Governing Authority', 'The Corporate Secretary of the University', 'The Risk Management Officer', 'The Primary Register Owner']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/risk_management_policy_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/risk_management_policy_eval/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Risk
 
 **Answer:** The purpose of the Risk Management Policy is to provide a framework for identifying, assessing, and managing risks that could impact the University's ability to achieve its objectives.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/db9b1d6883239c3b857b54c99d350f68468dbd80/catalog/risk_management_policy_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/risk_management_policy_eval/screenshots/question_type.png)
 
 ## Usage
 
