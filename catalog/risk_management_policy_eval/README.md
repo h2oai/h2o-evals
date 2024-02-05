@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Risk
 
 **Answer:** ['The Governing Authority', 'The Corporate Secretary of the University', 'The Risk Management Officer', 'The Primary Register Owner']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/catalog/risk_management_policy_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/risk_management_policy_eval/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Risk
 
 **Answer:** The purpose of the Risk Management Policy is to provide a framework for identifying, assessing, and managing risks that could impact the University's ability to achieve its objectives.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/catalog/risk_management_policy_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/risk_management_policy_eval/screenshots/question_type.png)
 
 ## Usage
 

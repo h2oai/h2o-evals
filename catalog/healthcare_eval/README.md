@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** The population of Singapore is 5.2 million.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/catalog/healthcare_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/healthcare_eval/screenshots/question_type.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** ['The government extended the network of hospitalization, including general hospitals, satellite out-patient dispensaries, and maternal and child health clinics.', 'The country started building up a healthy population with preventive healthcare and encouraging healthy lifestyles.', 'The government introduced the "3M" (Medisave, Medishield, and Medifund) system to promote personal responsibility towards healthy living.', "Singapore had an island network of outpatient polyclinics and private medical practitioners' clinics to provide primary healthcare services."]
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/catalog/healthcare_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog/healthcare_eval/screenshots/multi_choice.png)
 
 ## Usage
 
