@@ -99,7 +99,7 @@ def update_master_readme():
 
 	html = """
 | # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |Evaluation Type(rag/LLM) |Evaluation Techniques|
-|---| -------------- | --------- | -------- | ----- | ----- | --------- | -------- |\n"""
+|---| -------------- | --------- | -------------- | ----- | ----- | --------- | ------------------- |\n"""
 
 	for i, r in df.iterrows():
 		r = dict(r) 

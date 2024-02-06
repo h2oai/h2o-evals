@@ -37,7 +37,7 @@ The datasets in this project are generated based on documents for different indu
 Following is the collection of 100 Datasets by different industries, different evaluation types, built in H2O LLM Data Studio. Click on any dataset to get more details.
 
 | # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |Evaluation Type(rag/LLM) |Evaluation Techniques|
-|---| -------------- | --------- | -------- | ----- | ----- | --------- | -------- |
+|---| -------------- | --------- | -------------- | ----- | ----- | --------- | ------------------- |
 | 1. | [2023Q1_alphabet_earnings_release](https://github.com/h2oai/h2o-evals/tree/main/2023Q1_alphabet_earnings_release)| Banking | Company financial statement | 520 | RAG | RAG | Conditional Questions Multi Choice and Tokens Presence |
 | 2. | [Healthcare_System_in_Singapore](https://github.com/h2oai/h2o-evals/tree/main/Healthcare_System_in_Singapore)| Health | Health | 97 | RAG | RAG | Conditional Questions and Multi Choice |
 | 3. | [Risk_Management_Policy](https://github.com/h2oai/h2o-evals/tree/main/Risk_Management_Policy)| Risk Management | risk management | 160 | RAG | RAG | Conditional Questions and Multi Choice |
