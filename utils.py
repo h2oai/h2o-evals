@@ -97,4 +97,21 @@ def process_folders(root_folder_path, csv_file_path):
 root_folder_path = 'https://github.com/h2oai/h2o-evals/blob/main/catalog/'
 csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/main/data_file.csv'
 
-process_folders(root_folder_path, csv_file_path)
+def update_master_readme():
+	df = pd.read_csv("data_file.csv", encoding= 'unicode_escape')
+
+	html = """
+| # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |Evaluation Type(rag/LLM) |Evaluation Techniques|
+|---| -------------- | --------- | -------- | ----- | ----- | --------- | -------- |\n"""
+
+	for i, r in df.iterrows():
+		r = dict(r) 
+		url = "https://github.com/h2oai/h2o-evals/tree/main/"
+		html += f"| {int(r['ID'])}. | [{r['Dataset']}]({url + r['Dataset_link'].strip()})| {r['Industry']} | {r['Sub_Industry']} | {r['No_of_entries']} | {r['Prompt_type']} | {r['Evaluation_type(rag/LLM)']} | {r['Evaluation_technique']} |"
+		html += "\n"
+	return html
+
+
+if __name__ == '__main__':
+    # process_folders(root_folder_path, csv_file_path)
+    print(update_master_readme())
