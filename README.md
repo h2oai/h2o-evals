@@ -38,8 +38,8 @@ Following is the collection of 100 Datasets by different industries, different e
 
 | # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |Evaluation Type(rag/LLM) |Evaluation Techniques|
 |---| -------------- | --------- | -------- | ----- | ----- | --------- | -------- |
-| 1. | [Financial Statement Dataset](https://github.com/h2oai/h2o-evals/tree/main/financial_statement_eval)| Banking | Company financial statement | 1200 | RAG | RAG | Conditional Questions |
-| 2. | [Healthcare Dataset](https://github.com/h2oai/h2o-evals/tree/main/healthcare_eval)| Health | Health | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
-| 3. | [RiskManagement Dataset](https://github.com/h2oai/h2o-evals/tree/main/risk_management_policy_eval)| Risk Management | risk management | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
-| 4. | [Telecom Dataset ](https://github.com/h2oai/h2o-evals/tree/main/telcom_eval)| Telecom | Telecom | 600 | RAG | RAG | Conditional Questions and Multi Choice |
-| 5. | [Government Dataset](https://github.com/h2oai/h2o-evals/tree/main/government_eval)| Government | Government | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
+| 1. | [2023Q1_alphabet_earnings_release](https://github.com/h2oai/h2o-evals/tree/main/2023Q1_alphabet_earnings_release)| Banking | Company financial statement | 520 | RAG | RAG | Conditional Questions Multi Choice and Tokens Presence |
+| 2. | [Healthcare_System_in_Singapore](https://github.com/h2oai/h2o-evals/tree/main/Healthcare_System_in_Singapore)| Health | Health | 97 | RAG | RAG | Conditional Questions and Multi Choice |
+| 3. | [Risk_Management_Policy](https://github.com/h2oai/h2o-evals/tree/main/Risk_Management_Policy)| Risk Management | risk management | 160 | RAG | RAG | Conditional Questions and Multi Choice |
+| 4. | [T-TUT-PROTO-2019-PDF-E](https://github.com/h2oai/h2o-evals/tree/main/T-TUT-PROTO-2019-PDF-E)| Telecom | Telecom | 130 | RAG | RAG | Conditional Questions and Multi Choice |
+| 5. | [Constitution_of_the_Republic_of_Singapore](https://github.com/h2oai/h2o-evals/tree/main/Constitution_of_the_Republic_of_Singapore)| Government | Government | 160 | RAG | RAG | Conditional Questions and Multi Choice |
