@@ -111,6 +111,27 @@ def update_master_readme():
 		html += "\n"
 	return html
 
+def update_webpage_html():
+	visited = []
+	url = "https://github.com/h2oai/h2o-evals/blob/main/catalog/"
+	html = ""
+	df = pd.read_csv("data_file.csv", encoding= 'utf-8').fillna("NA")
+	for i, r in df.iterrows():
+		r = dict(r)
+
+		## Uncomment to create new options in dropdown in HTML
+		if r['Industry'].replace(" ", "") not in visited:
+			visited.append(r['Industry'].replace(" ", ""))
+			print (f"""<option value="{r['Industry'].replace(" ", "")}">{r['Industry']}</option>""")
+		
+		html += f"""<div class="card mb-4 all {r['Dataset'].replace(" ", "")} {r['Industry']} {r['Sub_Industry']}">
+	<font color='#ffc107'><i class="fa-solid fa-2x fa-fire"></i></font>
+	<h3 class="card-title">{r['Evaluation_technique']}</h3>
+	<p>{r['Prompt_type']}</p>
+	<p><span class="badge1">{r['Dataset']}</span> <span class="badge1">{r['Industry']}</span> <span class="badge1">{r['Sub_Industry']}</span> </p>
+	<p class="card-icon"><a target='_blank' href="{url + r['Dataset_link'].strip()}"><i class="fa-solid fa-arrow-right"></i></a></p>
+</div>"""
+	return html
 
 if __name__ == '__main__':
     # process_folders(root_folder_path, csv_file_path)
