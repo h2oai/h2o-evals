@@ -38,8 +38,8 @@ Following is the collection of 100 Datasets by different industries, different e
 
 | # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |Evaluation Type(rag/LLM) |Evaluation Techniques|
 |---| -------------- | --------- | -------- | ----- | ----- | --------- | -------- |
-| 1. | [Financial Statement Dataset](https://github.com/h2oai/h2o-evals/tree/main/catalog/financial_statement_eval)| Banking | Company financial statement | 1200 | RAG | RAG | Conditional Questions |
-| 2. | [Healthcare Dataset](https://github.com/h2oai/h2o-evals/tree/main/catalog/healthcare_eval)| Health | Health | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
-| 3. | [RiskManagement Dataset](https://github.com/h2oai/h2o-evals/tree/main/catalog/risk_management_policy_eval)| Risk Management | risk management | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
-| 4. | [Telecom Dataset ](https://github.com/h2oai/h2o-evals/tree/main/catalog/telcom_eval)| Telecom | Telecom | 600 | RAG | RAG | Conditional Questions and Multi Choice |
-| 5. | [Government Dataset](https://github.com/h2oai/h2o-evals/tree/main/catalog/government_eval)| Government | Government | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
+| 1. | [Financial Statement Dataset](https://github.com/h2oai/h2o-evals/tree/main/financial_statement_eval)| Banking | Company financial statement | 1200 | RAG | RAG | Conditional Questions |
+| 2. | [Healthcare Dataset](https://github.com/h2oai/h2o-evals/tree/main/healthcare_eval)| Health | Health | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
+| 3. | [RiskManagement Dataset](https://github.com/h2oai/h2o-evals/tree/main/risk_management_policy_eval)| Risk Management | risk management | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
+| 4. | [Telecom Dataset ](https://github.com/h2oai/h2o-evals/tree/main/telcom_eval)| Telecom | Telecom | 600 | RAG | RAG | Conditional Questions and Multi Choice |
+| 5. | [Government Dataset](https://github.com/h2oai/h2o-evals/tree/main/government_eval)| Government | Government | 1000 | RAG | RAG | Conditional Questions and Multi Choice |
