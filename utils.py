@@ -34,10 +34,10 @@ def generate_dataset_info(row):
 
     used_documents_folder = os.path.join(row['Dataset_link'].split('/')[-1], 'used_documents')
     # used_documents_folder = os.path.join('https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog', used_documents_folder)
-    documents = os.listdir(f"./catalog/{used_documents_folder}")
+    documents = os.listdir(f"./{used_documents_folder}")
     for index, document in enumerate(documents, start=1):
         document_path = os.path.join(used_documents_folder, document)
-        dataset_info += f"{index}. [{document}](https://github.com/h2oai/h2o-evals/blob/main/catalog/{document_path})\n"
+        dataset_info += f"{index}. [{document}](https://github.com/h2oai/h2o-evals/blob/main/{document_path})\n"
 
     dataset_info += (
         "\n## Dataset Details\n"
@@ -94,11 +94,8 @@ def process_folders(root_folder_path, csv_file_path):
                     f.write("## Additional Information\n\n")
                     f.write("For further details or inquiries, feel free to contact [H2O.ai](https://www.h2o.ai/) or refer to the comprehensive documentation provided by H2O.ai for their LLM Data Studio.\n\n")
 
-root_folder_path = 'https://github.com/h2oai/h2o-evals/blob/main/catalog/'
-csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/main/data_file.csv'
-
 def update_master_readme():
-	df = pd.read_csv("data_file.csv", encoding= 'unicode_escape')
+	df = pd.read_csv("data.csv", encoding= 'unicode_escape')
 
 	html = """
 | # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |Evaluation Type(rag/LLM) |Evaluation Techniques|
@@ -113,9 +110,9 @@ def update_master_readme():
 
 def update_webpage_html():
 	visited = []
-	url = "https://github.com/h2oai/h2o-evals/blob/main/catalog/"
+	url = "https://github.com/h2oai/h2o-evals/blob/main/"
 	html = ""
-	df = pd.read_csv("data_file.csv", encoding= 'utf-8').fillna("NA")
+	df = pd.read_csv("data.csv", encoding= 'utf-8').fillna("NA")
 	for i, r in df.iterrows():
 		r = dict(r)
 
@@ -132,6 +129,9 @@ def update_webpage_html():
 	<p class="card-icon"><a target='_blank' href="{url + r['Dataset_link'].strip()}"><i class="fa-solid fa-arrow-right"></i></a></p>
 </div>"""
 	return html
+
+root_folder_path = 'https://github.com/h2oai/h2o-evals/blob/main/'
+csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/main/data.csv'
 
 if __name__ == '__main__':
     # process_folders(root_folder_path, csv_file_path)
