@@ -1,16 +1,16 @@
-# Healthcare Dataset
+# Healthcare_System_in_Singapore
 
 ## Overview
-Welcome to the Healthcare Dataset, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Health industry, focusing on Conditional Questions and Multi Choice.
+Welcome to the Healthcare_System_in_Singapore, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Health industry, focusing on Conditional Questions and Multi Choice.
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Health sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [Singapore_Healthcare_System.pdf](https://github.com/h2oai/h2o-evals/blob/main/healthcare_eval/used_documents/Singapore_Healthcare_System.pdf)
+1. [Healthcare_System_in_Singapore.pdf](https://github.com/h2oai/h2o-evals/blob/main/Healthcare_System_in_Singapore/used_documents/Healthcare_System_in_Singapore.pdf)
 
 ## Dataset Details
 - **Industry:** Health
 - **Sub Industry:** Health
-- **Number of Question-Answer Pairs:** 1000
+- **Number of Question-Answer Pairs:** 97
 - **Prompt Type:** RAG
 - **Evaluation Techniques:** Conditional Questions and Multi Choice
 
@@ -18,7 +18,7 @@ The dataset is derived from a selection of key documents within the Health secto
 The H2O LLM Evaluation Datasets encompass various industries and evaluation types. This dataset, specifically tailored for the Health sector, focuses on conditional questions, Multi choice questions and Token presence to ensure targeted evaluation.
 
 ## Dataset Content
-The dataset is carefully curated from a diverse set of documents within the Health industry. It comprises a rich set of 1000 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions and Multi Choice.
+The dataset is carefully curated from a diverse set of documents within the Health industry. It comprises a rich set of 97 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions and Multi Choice.
 
 ## Dataset Configuration
 
@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** The population of Singapore is 5.2 million.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/healthcare_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/Healthcare_System_in_Singapore/screenshots/question_type.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** ['The government extended the network of hospitalization, including general hospitals, satellite out-patient dispensaries, and maternal and child health clinics.', 'The country started building up a healthy population with preventive healthcare and encouraging healthy lifestyles.', 'The government introduced the "3M" (Medisave, Medishield, and Medifund) system to promote personal responsibility towards healthy living.', "Singapore had an island network of outpatient polyclinics and private medical practitioners' clinics to provide primary healthcare services."]
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/healthcare_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/Healthcare_System_in_Singapore/screenshots/multi_choice.png)
 
 ## Usage
 

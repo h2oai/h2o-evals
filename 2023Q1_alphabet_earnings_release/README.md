@@ -1,25 +1,25 @@
-# Financial Statement Dataset
+# 2023Q1_alphabet_earnings_release
 
 ## Overview
-Welcome to the Financial Statement Dataset, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Banking industry, focusing on Conditional Questions.
+Welcome to the 2023Q1_alphabet_earnings_release, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Banking industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Banking sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [TSLA-Q1-2023-Update.pdf](https://github.com/h2oai/h2o-evals/blob/main/financial_statement_eval/used_documents/TSLA-Q1-2023-Update.pdf)
-2. [doc1.pdf](https://github.com/h2oai/h2o-evals/blob/main/financial_statement_eval/used_documents/doc1.pdf)
+1. [2023Q1_alphabet_earnings_release.pdf](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/used_documents/2023Q1_alphabet_earnings_release.pdf)
+2. [TSLA-Q1-2023-Update.pdf](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/used_documents/TSLA-Q1-2023-Update.pdf)
 
 ## Dataset Details
 - **Industry:** Banking
 - **Sub Industry:** Company financial statement
-- **Number of Question-Answer Pairs:** 1200
+- **Number of Question-Answer Pairs:** 520
 - **Prompt Type:** RAG
-- **Evaluation Techniques:** Conditional Questions
+- **Evaluation Techniques:** Conditional Questions Multi Choice and Tokens Presence
 
 ## Industries and Evaluation Types
 The H2O LLM Evaluation Datasets encompass various industries and evaluation types. This dataset, specifically tailored for the Banking sector, focuses on conditional questions, Multi choice questions and Token presence to ensure targeted evaluation.
 
 ## Dataset Content
-The dataset is carefully curated from a diverse set of documents within the Banking industry. It comprises a rich set of 1200 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions.
+The dataset is carefully curated from a diverse set of documents within the Banking industry. It comprises a rich set of 520 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions Multi Choice and Tokens Presence.
 
 ## Dataset Configuration
 
@@ -35,7 +35,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Token Presence:** ['$23.3 billion', '24%']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/financial_statement_eval/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/screenshots/tokens_present.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -43,7 +43,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Answer:** ['$68,011', '$69,787', '$74,548', '$61,961']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/financial_statement_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -51,7 +51,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Answer:** The change in accounting estimate reduced depreciation expense by $988 million and increased net income by $770 million, or $0.06 per basic and $0.06 per diluted share.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/financial_statement_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/screenshots/question_type.png)
 
 ## Usage
 

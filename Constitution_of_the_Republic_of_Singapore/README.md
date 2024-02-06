@@ -1,16 +1,16 @@
-# Government Dataset
+# Constitution_of_the_Republic_of_Singapore
 
 ## Overview
-Welcome to the Government Dataset, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Government industry, focusing on Conditional Questions and Multi Choice.
+Welcome to the Constitution_of_the_Republic_of_Singapore, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Government industry, focusing on Conditional Questions and Multi Choice.
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Government sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [Constitution_of_the_Republic_of_Singapore.pdf](https://github.com/h2oai/h2o-evals/blob/main/government_eval/used_documents/Constitution_of_the_Republic_of_Singapore.pdf)
+1. [Constitution_of_the_Republic_of_Singapore.pdf](https://github.com/h2oai/h2o-evals/blob/main/Constitution_of_the_Republic_of_Singapore/used_documents/Constitution_of_the_Republic_of_Singapore.pdf)
 
 ## Dataset Details
 - **Industry:** Government
 - **Sub Industry:** Government
-- **Number of Question-Answer Pairs:** 1000
+- **Number of Question-Answer Pairs:** 160
 - **Prompt Type:** RAG
 - **Evaluation Techniques:** Conditional Questions and Multi Choice
 
@@ -18,7 +18,7 @@ The dataset is derived from a selection of key documents within the Government s
 The H2O LLM Evaluation Datasets encompass various industries and evaluation types. This dataset, specifically tailored for the Government sector, focuses on conditional questions, Multi choice questions and Token presence to ensure targeted evaluation.
 
 ## Dataset Content
-The dataset is carefully curated from a diverse set of documents within the Government industry. It comprises a rich set of 1000 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions and Multi Choice.
+The dataset is carefully curated from a diverse set of documents within the Government industry. It comprises a rich set of 160 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions and Multi Choice.
 
 ## Dataset Configuration
 
@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Gove
 
 **Answer:** ['To provide advice to the President on matters related to minority rights.', 'To promote and protect the rights of minority communities in Singapore.', 'To investigate complaints of discrimination against minority groups.', 'To make recommendations to the government on policies related to minority rights.']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/government_eval/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/Constitution_of_the_Republic_of_Singapore/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Gove
 
 **Answer:** The name of the supreme law of Singapore is the Constitution of the Republic of Singapore.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/government_eval/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/Constitution_of_the_Republic_of_Singapore/screenshots/question_type.png)
 
 ## Usage
 
