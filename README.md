@@ -12,8 +12,8 @@ The evaluation datasets in this collection are for a range of different evaluati
 - `Conditional Questions`
 - `Multi-hop Reasoning Questions`
 - `Standard QA Question`
-- `Situational Questions`
-- `Summarisation`
+- `Situational Questions` - To Do
+- `Summarisation` - To Add
 - `Token Presence`
 
 The datasets in this project are generated based on documents for different industries, for example:
