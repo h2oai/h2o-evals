@@ -1,0 +1,753 @@
+{
+    "tests": [
+        {
+            "key": "a66d5c3c-25b0-4a2b-aed6-1d0bd408bbe0",
+            "documents": [
+                "Healthcare_System_in_Singapore.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "75cf87e0-9a28-46c5-9bd1-ead7818c1b79",
+                    "prompt": "Question: What is the population of Singapore?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The population of Singapore is 5.2 million."
+                    ]
+                },
+                {
+                    "key": "37f51348-0652-46e1-b996-c45e8ebb9bbe",
+                    "prompt": "Question: What was the primary health care system in Singapore after independence in 1965?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The primary health care system in Singapore after independence in 1965 was a mass inoculation program against severe tropical epidemic diseases."
+                    ]
+                },
+                {
+                    "key": "7a0e84fe-389a-4ff7-bfec-20dc29ade3c3",
+                    "prompt": "Question: What is the purpose of the National Health Plan in 1983?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The purpose of the National Health Plan in 1983 was to detail the infrastructural plan for the next 20 years and to promote the idea of Medisave."
+                    ]
+                },
+                {
+                    "key": "e4232474-7eb5-47ed-ad44-0385fc4597f7",
+                    "prompt": "Question: What is the philosophy of Singapore's healthcare system?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The philosophy of Singapore's healthcare system consists of three pillars: building a healthy population through preventive healthcare and healthy lifestyles, emphasizing personal responsibility towards healthy living through the \"3M\" system, and keeping healthcare costs down by controlling the supply side of healthcare services and providing heavy subsidies at public healthcare institutions."
+                    ]
+                },
+                {
+                    "key": "db888637-b673-468d-bd28-aefb81357bcb",
+                    "prompt": "Question: Who are the three main regulators in Singapore's healthcare system?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The three main regulators in Singapore's healthcare system are the Minister of Health (MOH), Central Provident Fund (CPF), and Monetary Authority of Singapore (MAS)."
+                    ]
+                },
+                {
+                    "key": "42da98e7-56bc-43f4-baa6-7544052a9f2e",
+                    "prompt": "Question: What is the role of the Minister of Health (MOH) in Singapore's healthcare system?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Minister of Health (MOH) oversees the provision and regulation of healthcare services in Singapore, including promoting health education, monitoring accessibility and quality of healthcare services, preventing and controlling diseases, allocating resources and specialists, and administrating required licenses for healthcare establishments."
+                    ]
+                },
+                {
+                    "key": "11ed1a07-aab0-410b-ac4f-6fed152ebfa1",
+                    "prompt": "Question: What is the role of the Central Provident Fund (CPF) in Singapore's healthcare system?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Central Provident Fund (CPF) is a comprehensive and compulsory social security savings plan that ensures working Singaporeans and permanent residents (PRs) can support themselves in old age. It has expanded its objectives to meet the population's needs in retirement, housing, family protection, asset enhancement, and healthcare."
+                    ]
+                },
+                {
+                    "key": "0ebe0811-0358-45e3-93b5-b8d7cffd73c9",
+                    "prompt": "Question: What is the role of the Monetary Authority of Singapore (MAS) in Singapore's healthcare system?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Monetary Authority of Singapore (MAS) regulates the financial aspect of the insurance sector in Singapore, including the registration and licensing requirements for insurers, and provides directions and practice notes for regulating insurance activities."
+                    ]
+                },
+                {
+                    "key": "77959ee0-6e49-414f-86c5-35b8c2e416ba",
+                    "prompt": "Question: What are the four types of healthcare delivery systems in Singapore?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The four types of healthcare delivery systems in Singapore are primary healthcare, hospital care, long-term care, and other integrated care."
+                    ]
+                },
+                {
+                    "key": "ed90d15a-31fc-4ad8-9fc0-04241d8a7967",
+                    "prompt": "Question: What is the primary healthcare system in Singapore?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The primary healthcare system in Singapore consists of outpatient polyclinics and private medical practitioners' clinics that provide primary medical treatments, preventive healthcare, and health education. Eighty percent of primary healthcare services are offered by 2000 private medical clinics, while the remaining 20% is delivered by 18 government polyclinics."
+                    ]
+                },
+                {
+                    "key": "b1abdb4f-a427-465e-92a2-39556bc13cc0",
+                    "prompt": "Question: What are the three primary components of Singapore's healthcare public financing system, and how do they differ in their functions and benefits?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The three main components of the public financing system for healthcare in Singapore are Medisave, MediShield, and Medifund."
+                    ]
+                },
+                {
+                    "key": "15b8dab7-cbc2-4e95-9998-fb62c744ae39",
+                    "prompt": "Question: What is the dual role of Medisave in Singapore's healthcare system, and how does it differ from MediShield and Medifund?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Medisave is a national medical insurance scheme that allows members to build savings for their healthcare needs. Members can use their Medisave accounts to pay for hospitalization expenses, certain outpatient treatments, and MediShield premiums."
+                    ]
+                },
+                {
+                    "key": "3e4a3921-1964-487d-9af7-4406c558efcc",
+                    "prompt": "Question: What is the maximum amount that can be withdrawn from a Medisave account per year, and how does it contribute to the healthcare financing system in Singapore?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount that can be withdrawn from a Medisave account per year is S$41,000."
+                    ]
+                },
+                {
+                    "key": "f95c45be-f3c3-48d7-9f2a-10c242471b3b",
+                    "prompt": "Question: How does Medisave's function in Singapore's healthcare system, and what is its impact on the population's access to healthcare?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "As of 2012, there were three million Medisave accounts with a total balance of 50.2 billion."
+                    ]
+                },
+                {
+                    "key": "d216b51d-cdd9-4f30-8a5b-7fb6b77df19f",
+                    "prompt": "Question: How does MediShield complement Medisave in providing financial protection for medical expenses in Singapore's healthcare system?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "MediShield is a catastrophic medical insurance that enables members to settle part of the expenses arising from prolonged hospitalization and certain outpatient treatments for serious illnesses incurred in medical institutions involved. It complements Medisave by providing additional financial protection for members who need it."
+                    ]
+                },
+                {
+                    "key": "bc701994-a0c4-40f1-bbfb-b2dff57af9dc",
+                    "prompt": "Question: Under what circumstances can a person opt in to MediShield, and how does it complement Medisave in providing financial protection for healthcare expenses in Singapore?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Singapore citizens and PRs are eligible to opt in to MediShield."
+                    ]
+                },
+                {
+                    "key": "270c2bad-07bd-4d17-bdbe-ca2c004305e9",
+                    "prompt": "Question: What is the maximum annual premium for MediShield, a catastrophic medical insurance plan that complements Medisave, for individuals aged 84-85, considering the public financing system in Singapore, which includes Medisave, MediShield, and Medifund, and the fact that Medishield does not provide coverage for individuals aged 85 and above?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum annual premium for MediShield is S$1,123 for members aged 84-85."
+                    ]
+                },
+                {
+                    "key": "d713063c-1625-4255-a430-23982ab54aa7",
+                    "prompt": "Question: How does ElderShield differ from MediShield in terms of its purpose and coverage?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "ElderShield is an affordable severe disability insurance that provides basic financial protection to those who need long-term care, especially for the elderly population. Unlike MediShield, which provides coverage for hospitalization and outpatient treatments, ElderShield provides a monthly payout to help cover the costs of long-term care."
+                    ]
+                },
+                {
+                    "key": "0e7c49ac-64ab-40b9-bb2a-0458892f5bda",
+                    "prompt": "Question: How is ElderShield funded, and what purpose does it serve in Singapore's healthcare system?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "ElderShield is funded through a combination of premiums paid by policyholders and government subsidies."
+                    ]
+                },
+                {
+                    "key": "a62168b1-8800-477f-867e-def1c72000c3",
+                    "prompt": "Question: How does Medifund assist patients who cannot afford medical expenses, and how does it complement Medisave and MediShield in Singapore's healthcare system?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Medifund is an endowment fund set up by the Singapore government to help citizens and PRs whose Medisave and MediShield are inadequate to pay medical expenses. The fund provides financial assistance to eligible patients who cannot afford medical expenses, subject to the approval of Medifund-approved institutions."
+                    ]
+                },
+                {
+                    "key": "768ac617-06c3-4798-8486-8c8fddf006f9",
+                    "prompt": "Question: What is the monetary assistance provided by Medifund in Singapore, and how does it impact the country's healthcare expenditure?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Medifund is a fund established by the Singapore government to provide financial assistance to patients who cannot afford medical expenses, especially those who are elderly or have chronic illnesses."
+                    ]
+                },
+                {
+                    "key": "72cbe938-03cb-4cc9-9964-95ce95f8c530",
+                    "prompt": "Question: What is the total size of Medifund in 2010, considering the fund's dual purpose of providing financial assistance and ensuring stability for patients in need?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The total size of Medifund amounted to S$1.3875 billion in 2010."
+                    ]
+                },
+                {
+                    "key": "099ad6a0-166a-4426-b0f9-9c1243fb6f70",
+                    "prompt": "Question: Considering the context of Medifund's financial and social circumstances, what criteria must be met for patients to qualify for Medifund assistance, and how does the approval process work?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Patients who are Singapore citizens or permanent residents and have financial and social circumstances that meet certain criteria set by Medifund-approved institutions (MFI) are eligible to apply for Medifund assistance."
+                    ]
+                },
+                {
+                    "key": "40a2d0aa-027c-42f9-9ecb-c45d187788e5",
+                    "prompt": "Question: What are the two types of private insurance plans available in Singapore, and how do they differ from each other and from public financing options like Medifund?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Private insurers in Singapore offer two types of plans, namely Private Medical Insurance Scheme (PMIS) and Non-PMIS Private Medical Insurance. PMIS is a catastrophic medical insurance plan that provides additional benefits based on MediShield, while Non-PMIS Private Medical Insurance includes group plans and individual plans."
+                    ]
+                },
+                {
+                    "key": "a7892285-5727-40d9-a69d-4ae493d4171c",
+                    "prompt": "Question: How do actuaries in health insurance in Singapore balance the need for affordable coverage with the increasing demand for healthcare services, given the role of Medifund and private insurance plans?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Actuaries are essential in health insurance as they are responsible for pricing, calculating reserves, performing analysis, and managing risks. The Singapore Actuarial Society (SAS) is the acknowledged representative body of the actuarial profession in Singapore and sets professional standards for its members."
+                    ]
+                },
+                {
+                    "key": "aa3d1cab-44e0-45c5-afa0-4074c26b33e6",
+                    "prompt": "Question: What is the impact of Singapore's aging population on the country's healthcare expenditure trend, considering the existing public and private financing systems, including Medifund and private insurance plans?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The healthcare expenditure in Singapore has been increasing over the years, with a slight decrease in 2006 due to the SARS outbreak. The ratio of public expenditure and private expenditure has been relatively stable, with private expenditure constituting a higher proportion. Out-of-pocket expenditure is still the major source of private sector healthcare financing, while prepaid private insurance plans play a minor role."
+                    ]
+                },
+                {
+                    "key": "de560ac5-dc4d-4843-95d5-d8f6c228b30b",
+                    "prompt": "Question: Considering the increasing elderly population and healthcare inflation, what factors contribute to the growth of healthcare expenditure in Singapore, particularly in regards to public and private financing, reinsurance, actuaries, and private insurance plans?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Inflation and aging population are two important factors that affect the trend of healthcare expenditure in Singapore. The healthcare inflation rate has been kept below the general inflation rate, and the elderly population has been increasing at a rate of 3.33% from 2010 to 2011."
+                    ]
+                },
+                {
+                    "key": "d6b8b723-d7bf-4530-b488-d60d23323486",
+                    "prompt": "Question: How does the government encourage product innovations in the reinsurance industry, given the availability of public financing through Medifund and private financing through insurance plans, as well as the presence of industry associations and actuaries who set professional standards?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The government has announced a series of favorable policies to expand the scope of local reinsurance business, encourage product innovations, and nurture reinsurance professionals."
+                    ]
+                },
+                {
+                    "key": "df52b419-7654-4685-86bb-fcf6b7fb72f0",
+                    "prompt": "Question: What role does the Singapore Reinsurers' Association (SRA) play in facilitating cooperation among reinsurance businesses in Singapore, and how does it aim to improve reinsurance expertise in the country?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The SRA is a trade association that aims to facilitate and encourage cooperation among all companies transacting reinsurance business in Singapore. It aims to improve reinsurance expertise in Singapore."
+                    ]
+                },
+                {
+                    "key": "c776a5b6-0e64-48b9-9d6f-50b8d935e06c",
+                    "prompt": "Question: How does the role of actuaries in health insurance relate to the increasing healthcare expenditure in Singapore, given that the Singapore Actuarial Society had 543 members as of March 11th, 2011?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "As of March 11th, 2011, the total membership of SAS numbered 543."
+                    ]
+                },
+                {
+                    "key": "d6d27778-d9bb-42d8-a138-fcc102d6569e",
+                    "prompt": "Question: What's the healthcare CPI in SG in 2011?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The healthcare CPI in Singapore in 2011 was 101.9, which is 0.9 points higher than the general CPI."
+                    ]
+                },
+                {
+                    "key": "f10acb99-cedd-4534-8c97-d28ce6034ac5",
+                    "prompt": "Question: What was the average household healthcare expenditure proportion in Singapore in 2008?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The average proportion of monthly household healthcare expenditure in Singapore in 2008 was 5.3%, which is an increase from 3.5% in 1998."
+                    ]
+                },
+                {
+                    "key": "321d7b49-c875-4045-8811-71ae2d08b2d5",
+                    "prompt": "Question: What's the percentage of elderly people in Singapore?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The elderly population in Singapore as a percentage of the total population was 9.3% in 2011."
+                    ]
+                },
+                {
+                    "key": "81589bda-7b2e-447b-9a83-abc9b43c3b4d",
+                    "prompt": "Question: What's Singapore's fertility rate?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The total fertility rate in Singapore was 1.15 in 2010, which is a decline from 1.60 in 2000."
+                    ]
+                },
+                {
+                    "key": "d64dcbaa-02e8-46df-b7cf-910294216343",
+                    "prompt": "Question: What's the deal with Singapore's aging population?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The old-age support-ratio in Singapore was 7.9% in 2010, which is a decline from 8.2% in 2000."
+                    ]
+                },
+                {
+                    "key": "3a8568e8-dd13-45d9-b38c-763631e59827",
+                    "prompt": "Question: How does Singapore's healthcare system stack up against the US's?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The healthcare system in Singapore is more efficient than the US system, with a higher life expectancy and lower healthcare expenditure. Singapore's system is also more focused on personal responsibility, with a larger portion of healthcare expenditure coming from personal savings."
+                    ]
+                },
+                {
+                    "key": "06101142-911f-45f8-8784-ac2a4bf8f1d9",
+                    "prompt": "Question: What's ailing Singapore's healthcare?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Some of the problems faced by the healthcare system in Singapore include insufficient coverage for post-retirement healthcare expenses, particularly for the elderly above 85 years old, and a lack of social risk pooling, which can result in inefficient and inequitable healthcare treatment allocation."
+                    ]
+                },
+                {
+                    "key": "6402cfa6-217c-4b4d-8bc7-7b9d2a3a4181",
+                    "prompt": "Question: How does Singapore's healthcare spending stack up against the US?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Singapore's healthcare expenditure is lower than the US, with a higher life expectancy. Singapore's healthcare system also has a higher proportion of healthcare expenditure coming from personal savings, while the US relies more on employer-based health insurance and government programs."
+                    ]
+                },
+                {
+                    "key": "b281dd60-211b-47f9-b96f-6030ef2df72e",
+                    "prompt": "Question: How does the healthcare system in Singapore compare to that of the US, according to the World Health Organization?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "According to the World Health Organization, Singapore's healthcare system ranks 6th out of 191 countries, while the US ranks 37th."
+                    ]
+                },
+                {
+                    "key": "8041f999-4ee6-431a-9667-efe8eda71829",
+                    "prompt": "Question: What's the difference in healthcare approach between Singapore and the US?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Singapore's healthcare philosophy emphasizes personal responsibility, with a larger portion of healthcare expenditure coming from personal savings, while the US has a more complex system with a mix of public and private healthcare providers and a greater emphasis on employer-based health insurance."
+                    ]
+                },
+                {
+                    "key": "f14de922-8f71-4b2b-85a0-b3b14023a1fa",
+                    "prompt": "Question: What's the biggest plus of Singapore's healthcare system?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The main advantage of the Singapore healthcare system is that it has achieved one of the most successful healthcare systems in terms of delivery of excellent healthcare services as well as efficiency and effectiveness, through the joint responsibilities among government, individuals, and employers."
+                    ]
+                },
+                {
+                    "key": "894f71c5-2cc3-4356-8d45-312e1196b2bc",
+                    "prompt": "Question: What's the government's part in SG healthcare?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The government plays an active role in regulating the supply and prices of healthcare services in Singapore."
+                    ]
+                },
+                {
+                    "key": "3f664714-a5a2-4e73-bec7-e83486a7d7c6",
+                    "prompt": "Question: What sets Singapore's healthcare system apart?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Singapore healthcare system is constructed on many unique features, including the lack of social risk pooling, which is believed to improve efficiency and equity in a healthcare system."
+                    ]
+                },
+                {
+                    "key": "ab0c454e-b46d-4fb6-9096-d051162620f9",
+                    "prompt": "Question: What's the issue with personal financing in healthcare?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Without risk pooling, individuals have to be responsible for their own costs, which may result in less reasonable healthcare treatment allocation, and the inefficiency of individual financing with no risk pooling will most likely add burden to the society."
+                    ]
+                },
+                {
+                    "key": "32f6ac23-f66c-48d0-99bc-2910eef4cca6",
+                    "prompt": "Question: What's the role of Medisave in SG healthcare?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Medisave is a scheme in the Singapore healthcare system that allows individuals to save money for their healthcare expenses, which can be used to pay for medical bills and other healthcare-related expenses."
+                    ]
+                },
+                {
+                    "key": "0e1f877c-8fad-477f-abba-06c242deae35",
+                    "prompt": "Question: How is healthcare funded in SG?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The healthcare system in Singapore is funded by a combination of personal savings, employer contributions, and government subsidies."
+                    ]
+                },
+                {
+                    "key": "e18e3856-2c8e-451f-86d1-61b5255f8ad6",
+                    "prompt": "Question: How does Singapore's healthcare system stack up against others?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Singapore healthcare system is considered one of the best in the world, with high-quality healthcare services and efficient delivery, but it is also considered hard to replicate in other countries due to its unique features."
+                    ]
+                },
+                {
+                    "key": "5e3ead57-7032-4a8b-bb3e-42afd1d65124",
+                    "prompt": "Question: What's the biggest healthcare hurdle in Singapore?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "One of the main challenges facing the healthcare system in Singapore is the aging population, which puts pressure on the healthcare system to provide quality care to an increasing number of elderly citizens."
+                    ]
+                },
+                {
+                    "key": "2305c298-42fc-4f84-aa1a-60afbbb4df6c",
+                    "prompt": "Question: How does Singapore's healthcare system tackle age-related challenges?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The healthcare system in Singapore addresses the challenge of an aging population by providing preventive care and health promotion programs, as well as increasing the capacity of healthcare facilities and training more healthcare professionals."
+                    ]
+                },
+                {
+                    "key": "c6a431e3-f0c1-412b-ac05-96f3b94885b2",
+                    "prompt": "Question: What's the prognosis for Singapore's healthcare?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The future outlook for the healthcare system in Singapore is positive, with the government committed to maintaining and improving the system, and with ongoing efforts to address the challenges posed by an aging population."
+                    ]
+                },
+                {
+                    "key": "45afdbfa-07cf-49ab-abba-dd4e59731247",
+                    "prompt": "Question: How does the Monetary Authority of Singapore's regulation of the financial aspect of the insurance sector impact the delivery of healthcare services in Singapore, given the country's emphasis on personal responsibility towards healthy living through the '3M' system and the government's effort to keep healthcare costs down by controlling the supply side of healthcare services and providing heavy subsidies at public healthcare institutions?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Monetary Authority of Singapore's regulation of the financial aspect of the insurance sector has a significant impact on the delivery of healthcare services in Singapore. The MAS's oversight of insurance companies ensures that they operate in a financially sustainable manner, which in turn allows them to provide affordable health insurance options to the population. This is particularly important in Singapore's healthcare system, where individuals are encouraged to take personal responsibility for their healthcare expenses through the '3M' system. By ensuring the financial stability of insurance companies, the MAS helps to ensure that individuals have access to affordable health insurance options, which in turn allows them to make informed choices about their healthcare and take preventive measures to maintain their health. Additionally, the MAS's regulation of the insurance sector helps to keep healthcare costs down by promoting competition among insurance companies, which incentivizes them to offer lower premiums and better coverage. This helps to alleviate some of the financial burden on the government, which can then focus on providing subsidies and support for public healthcare institutions. Overall, the MAS's role in regulating the financial aspect of the insurance sector is crucial in ensuring the sustainability and affordability of healthcare services in Singapore."
+                    ]
+                },
+                {
+                    "key": "dc654420-b145-48a0-b479-2ff9e76a6f45",
+                    "prompt": "Question: How does the Minister of Health (MOH) ensure that the healthcare system in Singapore is efficient and widely covered, given the country's aging population and increasing healthcare demands?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Minister of Health (MOH) ensures that the healthcare system in Singapore is efficient and widely covered by implementing various measures. Firstly, the MOH has introduced the concept of '3M' (Medisave, Medishield, and Medifund) to encourage personal responsibility towards healthy living and to provide financial support for healthcare expenses. Secondly, the MOH has established a comprehensive network of healthcare facilities, including public hospitals, polyclinics, and private medical clinics, to provide accessible and quality healthcare services to the population. Thirdly, the MOH has implemented various initiatives to promote preventive healthcare, such as health screening programs and public education campaigns. Fourthly, the MOH has introduced the ElderShield plan to provide financial support for the elderly and severely disabled. Lastly, the MOH has established the Healthcare Workforce Development Program to ensure a sufficient supply of healthcare professionals to meet the increasing healthcare demands."
+                    ]
+                },
+                {
+                    "key": "5f3f0315-44de-4a98-a1c7-88da174cab83",
+                    "prompt": "Question: What are the roles of the three main regulators in ensuring the efficiency and sustainability of Singapore's healthcare system, and how do they collaborate to achieve this goal?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Minister of Health (MOH) oversees the provision and regulation of healthcare services, including promoting health education, monitoring accessibility and quality of healthcare services, preventing and controlling diseases, allocating resources, and administrating required licenses for healthcare establishments. The Central Provident Fund (CPF) ensures working Singaporeans and permanent residents support themselves in retirement, housing, family protection, asset enhancement, and healthcare through monthly contributions to the employees\u201a\u00c4\u00f4 CPF into three accounts: ordinary account, special account, and the Medisave account. The Monetary Authority of Singapore (MAS) regulates the financial aspect of the insurance sector, protecting policyholders' interests and regulating insurers' activities, including registration and licensing requirements. MAS periodically provides directions and practice notes for regulating insurance activities. The three regulators collaborate to ensure the healthcare system's efficiency and sustainability by coordinating efforts to control healthcare costs, ensure accessibility to healthcare services, and promote healthy lifestyles."
+                    ]
+                },
+                {
+                    "key": "5d6713eb-85f6-49da-aa8c-8ba90e7a7e8d",
+                    "prompt": "Question: What was the total expenditure on health per capita in Singapore in 2009, and how did it compare to the total expenditure on health per capita in the United States in the same year?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "According to Table 10, the total expenditure on health per capita in Singapore in 2009 was $2,086, while the total expenditure on health per capita in the United States was $7,410. Therefore, the total expenditure on health per capita in the United States was approximately 3.5 times higher than in Singapore in 2009."
+                    ]
+                },
+                {
+                    "key": "85676881-66be-44a0-a627-d7e7b9c504ed",
+                    "prompt": "Question: What was the total expenditure on health per capita in Singapore in 2009, and how did it compare to the total expenditure on health per capita in the United States in the same year?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "According to Table 10, the total expenditure on health per capita in Singapore in 2009 was $2,086. In comparison, the total expenditure on health per capita in the United States in 2009 was $7,410, which is approximately 3.5 times higher than that of Singapore."
+                    ]
+                },
+                {
+                    "key": "2d121971-180c-4f19-8379-453948abe475",
+                    "prompt": "Question: What was the total healthcare expenditure in Singapore in 2009, and how did it compare to the country's GDP? Also, what was the percentage of private expenditure in total healthcare expenditure in Singapore in 2009, and how did it change over time?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "According to Table 7, the total healthcare expenditure in Singapore in 2009 was 65.8% of GDP. Additionally, private expenditure accounted for 55.1% of total healthcare expenditure in 2009, which decreased from 62.3% in 2008. Furthermore, the out-of-pocket expenditure as a percentage of private healthcare expenditure in Singapore was 94.3% in 2009, while private prepaid plans accounted for 2.7% of private healthcare expenditure. Lastly, the per capita total expenditure on health in Singapore was US$2,086 in 2009, with a life expectancy at birth of 79/84 years for males and females."
+                    ]
+                },
+                {
+                    "key": "f09fdad9-1a06-43a9-8d6d-4adc72c05f2e",
+                    "prompt": "Question: What was the percentage of private expenditure on healthcare in Singapore in 2009, and how did it compare to the percentage of private expenditure on healthcare in the United States in the same year?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "According to Table 7, the percentage of private expenditure on healthcare in Singapore in 2009 was 55.1%. According to Table 11, the percentage of private expenditure on healthcare in the United States in 2009 was 34.2%. Therefore, in 2009, Singapore had a higher percentage of private expenditure on healthcare compared to the United States."
+                    ]
+                }
+            ]
+        }
+    ]
+}
