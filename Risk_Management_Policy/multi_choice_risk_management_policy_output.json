@@ -1,0 +1,727 @@
+{
+    "tests": [
+        {
+            "key": "4d054d8a-79e9-4c82-a70a-518a2714a31e",
+            "documents": [
+                "risk-management-policy"
+            ],
+            "test_cases": [
+                {
+                    "key": "4e1db415-d453-4e24-926e-39cabe5fefe6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for ensuring that the Policy is implemented and monitored?\nHow do you respond?\nA. The Governing Authority\nB. The Corporate Secretary of the University\nC. The Risk Management Officer\nD. The Primary Register Owner\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f751892b-a62d-49d6-bf65-f2c10aac6828",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of risk in the context of the University?\nHow do you respond?\nA. The possibility of an event or situation that may negatively impact the University's strategic objectives.\nB. The likelihood of a loss or damage to the University's assets, reputation, or operations.\nC. The potential for the University to miss an opportunity to achieve its objectives.\nD. The uncertainty associated with the University's ability to manage its financial resources.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "086fc2c6-a289-48c7-9db1-66bd8eeb19bb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different categories of risks identified in the Policy?\nHow do you respond?\nA. Strategic, Operational, Financial, and Reputational Risks\nB. Corporate, Local, and Project Risks\nC. Fundamental, Faculty/Division, and Project Level Risks\nD. Internal, External, Opportunity, and Threat Risks\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6662c4f7-843d-425c-86cf-af36c7eb432b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process of determining what can happen, why and how?\nHow do you respond?\nA. Risk assessment\nB. Risk management\nC. Risk monitoring\nD. Risk identification\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "94c74359-bc92-4544-9a64-f09dfa41faea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for managing a particular risk and is accountable to their line manager for doing so?\nHow do you respond?\nA. Risk Owner (RO)\nB. Primary Register Owner (PRO)\nC. Risk Management Officer (RMO)\nD. Internal Auditor\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d0cb4b63-fff0-4fb0-ac8e-eef25d366c0b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Primary Register Owner (PRO) and what is their role?\nHow do you respond?\nA. The Risk Management Officer (RMO) is the PRO and is responsible for managing and monitoring the University's risk management framework.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "47ffa6e6-08a6-4ae9-99cf-6bddefe378f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the systematic use of available information to determine the likelihood of specific events occurring and the magnitude of their consequences/impact on the University?\nHow do you respond?\nA. Risk Identification\nB. Risk Analysis\nC. Risk Assessment\nD. Risk Monitoring\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "90306e84-5c46-430f-830c-3e0eeb2c604f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process of assessing and prioritizing risks based on their likelihood of occurrence and resulting impact should they materialize?\nHow do you respond?\nA. Risk Identification\nB. Risk Analysis\nC. Risk Assessment\nD. Risk Monitoring\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f7a9698a-bcfe-434b-8146-d0ccb0b060da",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Risk Management Officer (RMO) in the University?\nHow do you respond?\nA. To report to the Operations Sub Committee, Executive Committee, and Governing Authority Audit & Risk Committee.\nB. To monitor and review all Risk Registers to ensure compliance with the Risk Management Framework.\nC. To develop reports on the implementation of the Framework and Policy for the consideration of Executive Committee, Governing Authority Audit & Risk Committee, and/or Governing Authority.\nD. To ensure that the process and procedures are in place to enable employees adhere to the provisions of this Risk Management Policy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ec268c11-6641-4de0-849c-ba385b7aa12e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is risk appetite, and how does it apply to the University?\nHow do you respond?\nA. Risk appetite is the amount of risk an organization is prepared to accept based on the expected return of the development/activity in question. The University can be risk-taking or risk-averse, and different levels of risk appetite can apply to different activities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "99c13643-71e4-4290-81b0-bc752cef8f36",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Risk Management Policy?\nHow do you respond?\nA. To ensure that the University can demonstrably pursue its strategic objectives in research, learning and teaching, commercial undertakings, and community engagement.\nB. To establish the University's risk appetite and tolerance levels for different activities.\nC. To provide a framework for risk management that is embedded into governance, enterprise, and operational strategy, planning, and management.\nD. To ensure compliance with statutory and regulatory instruments, such as the 1997 Universities Act and ISO 3100 (2018) Standard.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "68b97561-2c55-4e5d-9d1c-d364ad9c7304",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the principles of risk management that the University adopts?\nHow do you respond?\nA. Create and protect value, are an integral part of all organisational processes, is part of decision making, explicitly address uncertainty, are systematic, structured, and timely, are based on the best available information, are customized for the internal and external context, and take human and cultural factors into account.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "60f55d3b-35e8-4eb5-9314-1e5bd415d1ea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for reporting to the Governing Authority, Executive Committee, and the Audit & Risk Committee?\nHow do you respond?\nA. The Risk Management Officer (RMO)\nB. The Internal Auditor\nC. The Corporate Secretary\nD. The President\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3d6cb645-5ad1-4f98-89bd-c8ac7e87502c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the legal and regulatory context for the Risk Management Policy?\nHow do you respond?\nA. The 1997 Universities Act and the Code of Governance for Irish Universities 2019.\nB. ISO 3100 (2018) Risk Management Principles and Guidelines and the University's Risk Appetite Statement.\nC. The University's strategic objectives in research, learning, and teaching, commercial undertakings, and community engagement.\nD. The University's approach to risk management, which pursues both effectiveness and efficiency.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4159b7fd-ee05-45ed-84bb-986c68fae798",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the University ensure compliance with the principles of risk management?\nHow do you respond?\nA. By embedding risk management principles and practices into governance, enterprise, and operational strategy, planning, and management, policies, values, and culture.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c3bc9e5c-eb80-498d-87fa-a0855ac7f421",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Executive Committee in risk management?\nHow do you respond?\nA. The Executive Committee is responsible for setting the University's risk appetite and reviewing the Risk Appetite Statement annually.\nB. The Executive Committee is responsible for monitoring and reviewing all Risk Registers to ensure compliance with the Risk Management Framework.\nC. The Executive Committee is responsible for developing reports on the implementation of the Risk Management Policy and the Risk Management Framework.\nD. The Executive Committee is responsible for ensuring that risk management principles and practices are embedded into all organizational processes.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "c1aa7f23-0617-4856-9dc9-caa6a9e9e2eb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often should faculties/divisions and other functional areas review and update their local risk registers?\nHow do you respond?\nA. Annually\nB. Bi-annually\nC. Quarterly\nD. As needed\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a4221029-b578-47db-8da9-fc3453ea8382",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two dimensions used to measure the size of a risk in the University's risk assessment process?\nHow do you respond?\nA. Impact and Likelihood\nB. Probability and Controls\nC. Risk and Opportunity\nD. Current and Residual\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "35b766df-96fe-486b-8594-e526fa6281d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the University's risk management framework?\nHow do you respond?\nA. To identify and eliminate all potential risks that could impact the University's objectives.\nB. To understand and measure risk to minimize losses and maximize opportunities.\nC. To prioritize risk identification and review exercises on an annual basis.\nD. To assist Faculties/Divisions and other functional areas in risk assessment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "223793ad-fc7e-487c-abfa-106273b0b9e5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for assisting faculties/divisions and other functional areas in identifying and assessing risks?\nHow do you respond?\nA. The Risk Management Office (RMO)\nB. The Faculty/Divisional/Functional area meetings\nC. The Audit & Risk Committee\nD. The senior management team\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "334624d2-6a6e-4b94-b8cd-2ffb5ca2f515",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Audit & Risk Committee in the University's risk management framework?\nHow do you respond?\nA. To assist Faculties/Divisions and other functional areas in identifying and assessing risks.\nB. To provide assurance to the senior management team and the Governing Authority that risks have been identified, assessed, and managed appropriately.\nC. To undertake formal risk identification and review exercises on at least a bi-annual basis.\nD. To manage and monitor the University's risk register and ensure that risk management processes are followed across all areas of the University.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d6059fe5-d3e6-41a9-8bef-2acfa96bca99",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the University's risk management framework ensure continual improvement in decision-making?\nHow do you respond?\nA. By identifying and assessing risks on an annual basis and updating the Local Risk Registers and Fundamental Risk Register.\nB. By continually self-assessing, monitoring, and reviewing its risk profile and identifying new and emerging risks.\nC. By minimizing losses and maximizing opportunities through a logical and systematic method of identifying, analyzing, evaluating, treating, monitoring, and communicating risks.\nD. By avoiding or totally eliminating risks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2a7262c4-cb70-4e51-810d-1d382d65a2f3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the University's risk register?\nHow do you respond?\nA. To identify and assess potential risks that could impact the University's objectives.\nB. To provide a list of current controls and treatments for risks identified.\nC. To measure the impact and likelihood of risks identified.\nD. To monitor and review the effectiveness of risk management strategies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "edcc52df-da0d-432f-ab59-f18147a04643",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Vice President/Dean/Head of Division in risk management?\nHow do you respond?\nA. To develop and maintain the University's Risk Management Policy.\nB. To develop a 'local' risk register (LRR) and submit it to the Executive Committee for review.\nC. To monitor and report on the implementation of the Risk Management Framework.\nD. To conduct an external review of the effectiveness of the University's Risk Management Framework.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bebfd809-526f-48a7-9a0a-66de64081afa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the RMO in risk management?\nHow do you respond?\nA. The RMO is responsible for reviewing, rejecting, or publishing identified risks in the Local Risk Registers (LRRs) submitted by the Primary Register Owner (PRO) and for escalating serious/extreme risks directly to the Executive Committee as required.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "14dadca2-5c2f-4da3-823a-e202cbadc8c8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Operations Sub-Committee in risk management?\nHow do you respond?\nA. To develop a 'local' risk register (LRR) and submit it to the Executive Committee for review.\nB. To review and update the University's Fundamental Risk Register.\nC. To monitor and report on the effectiveness of the Risk Management Framework.\nD. To escalate serious/extreme risks directly to the Executive Committee.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "cd16b254-00ae-44bc-95be-21f922d0abb0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Audit & Risk Committee in the University's Risk Management Framework?\nHow do you respond?\nA. To implement the University's Risk Management Policy.\nB. To provide an external review of the effectiveness of the University's Risk Management Framework and its governance on a periodic basis.\nC. To identify, update, and monitor fundamental risks that could impact the achievement of the University's strategic objectives.\nD. To ensure that local level risks are appropriately managed through the review of Local Risk Registers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "28bd9e5f-f676-4e43-8fbd-6481375766b8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the responsibilities of the University Executive Committee in relation to risk management?\nHow do you respond?\nA. Implementing the University's Risk Management Policy, encouraging a risk management culture, identifying and monitoring fundamental risks, issuing reports to the Audit & Risk Committee, and ensuring local level risks are appropriately managed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "aad4f1ec-5dc6-4873-9c95-0756ba4fe46b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the frequency of external review of the University's Risk Management Framework?\nHow do you respond?\nA. Annually\nB. Biennially\nC. Every three years\nD. Periodically\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "e0c88651-40be-456b-836e-90b3714b8b18",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for ensuring that risk management is a standing agenda item at the Audit & Risk Committee meetings?\nHow do you respond?\nA. University Executive Committee\nB. Operations Sub-Committee\nC. Audit & Risk Committee\nD. Governing Authority\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b693cbfe-2a9c-461e-ae6a-f5f858dc2654",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Fundamental Risk Register in the University's risk management process?\nHow do you respond?\nA. To identify and manage risks that could impact the University's strategic objectives.\nB. To provide a list of all potential risks that could affect the University's operations.\nC. To monitor and review the effectiveness of the University's Risk Management Framework.\nD. To assign responsibility for managing risks to specific individuals within the University.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1a411717-0b7f-4e8d-8a53-e737e8342437",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for identifying and updating fundamental risks in the University's risk management process?\nHow do you respond?\nA. Audit & Risk Committee\nB. University Executive Committee\nC. Operations Sub-Committee\nD. Risk Owner\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "444f08e0-f355-41f1-bc52-249b60a1e2ae",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often does the University Executive Committee review the Fundamental Risk Register?\nHow do you respond?\nA. Annually\nB. Quarterly\nC. Monthly\nD. Ad-hoc\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d8150620-31ad-4912-ab8d-7645b09b1959",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Local Risk Register in the University's risk management process?\nHow do you respond?\nA. To document and manage risks that are specific to a particular department or unit within the University.\nB. To provide a comprehensive list of all risks that may impact the University's strategic objectives.\nC. To track the progress of mitigation measures for risks identified in the Fundamental Risk Register.\nD. To report on the overall effectiveness of the University's risk management framework.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7252c097-9094-4f21-8d8c-ed662eb084ea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Operations Sub-Committee in risk management?\nHow do you respond?\nA. The Operations Sub-Committee is responsible for implementing University Policy in relation to risk management within their area of control.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2a1df029-d034-4e00-8e30-ad596748a758",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the responsibilities of Vice Presidents/Deans/Heads of Administrative Units in relation to risk management?\nHow do you respond?\nA. Implementation of University Policy in relation to Risk Management within their area of control, identification, assessment, management, and ownership of risk within their area of control, establishment and regular review of the LRR in their area, reporting annually to the Operations Sub-Committee on the LRRs within their areas of control, identification of new and emerging risks that cannot be managed locally and reporting of such risks to the Operations Sub-Committee or if required, directly to Executive Committee for escalation to the Fundamental Risk Register, ensuring that all substantial projects or new programs undergo risk assessment and that such assessment is included in the project/program proposal, and reporting on same to the Executive Committee, supporting the embedding of risk management in their area and the development of a risk-aware culture.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "405d6d15-ca43-44f5-bccf-210529898966",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of staff in ensuring the effectiveness of risk management?\nHow do you respond?\nA. To identify, assess, and manage risks within their areas of responsibility.\nB. To report risks beyond their scope of authority or resources to their line manager.\nC. To provide training and awareness to Risk Register Owners.\nD. To maintain the University's Fundamental Risk Register.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1758d6b3-5790-4c2b-a1db-b48af8195d59",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for ensuring that procedures and processes are in place to enable adherence to the Risk Management Policy?\nHow do you respond?\nA. Vice Presidents/Deans/Heads of Administrative Units\nB. Operations Sub-Committee\nC. Corporate Secretary of the University\nD. Internal Audit\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "81c09207-a556-477c-9b8b-d1f30de5c161",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of Internal Audit in risk management?\nHow do you respond?\nA. Internal Audit is responsible for the review of internal controls within the University and takes a risk-based approach.\nB. Internal Audit is responsible for identifying, assessing, and managing risks within the University.\nC. Internal Audit is responsible for providing independent assurance to the Governing Authority that risks are being managed appropriately.\nD. Internal Audit is responsible for developing the University's Fundamental Risk Register and local risk registers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b8637098-1310-4726-a173-d9e464014327",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the options for treating risks?\nHow do you respond?\nA. Transfer the risk.\nB. Tolerate the risk.\nC. Terminate the risk.\nD. Treat the risk.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8a73b34d-3165-418d-a494-2b74d5c4a1de",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for reporting major developments/activities that may pose a significant risk to the University?\nHow do you respond?\nA. The development/activity must be reported to the Executive Committee for consideration immediately they arise.\nB. The development/activity must be reported to the Operations Sub-Committee for review and approval.\nC. The development/activity must be reported to the Risk Management Function for assessment and approval.\nD. The development/activity must be reported to the Internal Audit for review and approval.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "862fcecc-e233-4c28-86b7-25dd14a92056",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the four commonly used headings for identifying risks in the University?\nHow do you respond?\nA. Strategic Risks, Operational Risks, Financial Risks, and Reputational Risks.\nB. Strategic Risks, Operational Risks, Reputational Risks, and Compliance Risks.\nC. Financial Risks, Operational Risks, Reputational Risks, and Cybersecurity Risks.\nD. Strategic Risks, Financial Risks, Reputational Risks, and Environmental Risks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3a325ebb-b069-4f09-865a-9cf32858a4f5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How will risks be identified and prioritized in the University?\nHow do you respond?\nA. Risks will be identified and prioritized using a variety of techniques such as interviews, workshops, Faculty/Divisional meetings, etc. (Correct)\nB. Risks will be identified and prioritized based on their potential impact and likelihood of being realized.\nC. Risks will be identified and prioritized based on their strategic and operational objectives as set out in the Strategic Plan.\nD. Risks will be identified and prioritized based on stakeholder relationship management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "87747390-be2a-4c93-98b1-f22852a4b613",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the method used in assessing risk impact in the University?\nHow do you respond?\nA. Risk Management online training program\nB. Risk Appetite Statement\nC. Impact rating method\nD. Fundamental Risk Register\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4801cfe6-537c-4043-b918-c29562a3cbc9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between extreme, serious, and moderate risk impact?\nHow do you respond?\nA. Extreme risks have a high likelihood of occurrence, serious risks have a moderate likelihood of occurrence, and moderate risks have a low likelihood of occurrence.\nB. Extreme risks have a high impact, serious risks have a moderate impact, and moderate risks have a low impact.\nC. Extreme risks are risks that have not been identified, serious risks are risks that have been identified but not assessed, and moderate risks are risks that have been identified and assessed.\nD. Extreme risks are risks that are not likely to happen, serious risks are risks that are likely to happen, and moderate risks are risks that are unlikely to happen.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ba7913f3-64f8-4cb0-b3db-06f682af7268",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the University's risk appetite statement?\nHow do you respond?\nA. To define the University's tolerance for risk.\nB. To identify potential risks that could impact the University.\nC. To prioritize risks based on their impact and likelihood.\nD. To outline the procedures for risk management and assessment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6fe22cd0-d988-4c44-89b7-85a7e80e8d81",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often is the University's risk appetite statement reviewed?\nHow do you respond?\nA. Annually\nB. Biennially\nC. Triennially\nD. Quadrennially\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bd7ed13b-059c-4b59-9ab9-8151df5048b5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Risk Management Officer in the University?\nHow do you respond?\nA. To identify and assess risks, and provide training to staff on risk management.\nB. To develop and implement the University's risk management policy and procedures.\nC. To review and approve all risk management plans and reports submitted by departments.\nD. To conduct audits of departments to ensure compliance with risk management policies and procedures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "dfafbaf5-1004-4e0d-9d61-8f16b2c79fea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the procedure for reviewing the University's risk management policy?\nHow do you respond?\nA. The policy will be reviewed every 3 years in line with the University Policy Framework (2020) to ensure adherence to best practice, thereby continuing to enhance the decision-making processes in the operation of the University.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "37c64f6b-f557-46f9-8f44-9d2075286a87",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the University's document control procedure?\nHow do you respond?\nA. To ensure that all documents are reviewed and approved annually\nB. To provide a framework for managing risks associated with documents\nC. To ensure that all staff members receive training on document management\nD. To maintain a record of all documents and their versions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "1fb139cd-5fa7-4a0d-86a2-983dfacba454",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of risk assessment?\nHow do you respond?\nA. To identify potential risks and their likelihood and impact.\nB. To implement controls to mitigate risks.\nC. To assess the effectiveness of current controls.\nD. To remove risks entirely.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7fde3955-701a-42b4-b77c-ceddbde16cc1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the three levels of risk likelihood?\nHow do you respond?\nA. Very Probable, Probable, and Improbable.\nB. Very Unlikely, Likely, and Very Probable.\nC. Possible, Improbable, and Quite Probable.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "945eba8a-5ced-4480-9969-6a367cf25ee5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often should risk assessments be conducted?\nHow do you respond?\nA. Annually, to ensure that current controls are effective and relevant.\nB. Quarterly, to monitor the implementation of future controls.\nC. Monthly, to assess the likelihood and impact of new risks.\nD. Once every 5 years, to coincide with strategic planning.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "82005da1-70e0-4183-afd8-0861d4468821",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the three characteristics of a control?\nHow do you respond?\nA. Action, owner, and timeline.\nB. Risk, impact, and likelihood.\nC. Policy, procedure, practice, process, or technology.\nD. Implementation, assessment, and mitigation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ccd361cd-b999-4a13-a29b-35d8f8204577",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between current controls and future controls?\nHow do you respond?\nA. Current controls are measures or actions that have been implemented to mitigate risk, while future controls are measures or actions that have been identified to be implemented to mitigate risk in the future.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4ffabed1-0a2e-4cd2-992a-ff52896c8769",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: When can a future control become a current control?\nHow do you respond?\nA. When it has been implemented fully.\nB. When it has been identified and added to the risk register.\nC. When it has been planned and scheduled for implementation.\nD. When the risk it is intended to mitigate has been eliminated.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "73bab6e0-42ce-471e-ad08-df5b3375a180",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should a risk be monitored before it can be removed from the Register?\nHow do you respond?\nA. One year\nB. Two review periods\nC. Three years\nD. Five years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0d4c260e-61c0-408d-b1d5-f88995aadd0f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Risk & Control Template?\nHow do you respond?\nA. To assess the likelihood and impact of potential risks.\nB. To identify and prioritize potential risks.\nC. To implement and monitor risk mitigation measures.\nD. To evaluate the effectiveness of existing controls.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "12174bfe-3fe4-4edd-a50b-d7c433b09b92",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different levels of risk tolerance mentioned in the text?\nHow do you respond?\nA. Extreme, Serious, Moderate, Minor\nB. High, Medium, Low, Very Low\nC. High, Medium, Low\nD. Extreme, High, Medium, Low\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6b021684-fe6d-4b34-a974-88509f5b3aea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for managing risks at the moderate level?\nHow do you respond?\nA. Head of Department/Unit\nB. Line Manager\nC. Director of Finance\nD. Executive Committee\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8c2db74c-49d4-410a-ad8e-c10b7e09878d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Residual Risk Heat Map?\nHow do you respond?\nA. To assess the likelihood of a risk occurring.\nB. To evaluate the effectiveness of current controls.\nC. To prioritize risks for further analysis.\nD. To identify potential risk mitigation strategies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e4095c6e-dd82-43e9-91f7-842621c93c0f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often should the Risk Register be reviewed?\nHow do you respond?\nA. Monthly\nB. Quarterly\nC. Annually\nD. Bi-annually\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "407e5e29-d3bb-4758-8d34-5e20b82d95c7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for ensuring that the Risk Register is up to date?\nHow do you respond?\nA. Risk Owner\nB. Head of Department/Unit\nC. Financial Controller\nD. Director of Finance\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2dec2b9f-5c59-43b1-883b-0c20df1615ea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Executive Committee in risk management?\nHow do you respond?\nA. The Executive Committee is responsible for assessing and managing risks at the University.\nB. The Executive Committee is responsible for approving the University's Risk Register.\nC. The Executive Committee is responsible for implementing controls to mitigate risks.\nD. The Executive Committee is responsible for monitoring and reviewing the effectiveness of risk management strategies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "55f2d2b2-6278-49a7-921f-f61ee74fbfff",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should be done if a risk is deemed to be extreme?\nHow do you respond?\nA. The Executive Committee should be informed immediately so that action can be taken to moderate the risk or close the activity/project.\nB. The risk should be reported to the Executive Committee at its bi-annual risk management meetings.\nC. The Head of Department/Unit should be informed so that they can approve the activity/project to continue.\nD. The Line Manager should conduct re-assessment of the risk factors at regular intervals.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}
