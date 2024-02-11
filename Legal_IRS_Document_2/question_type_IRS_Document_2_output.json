@@ -1,0 +1,1663 @@
+{
+    "tests": [
+        {
+            "key": "1aac5e34-f474-444d-a854-b07afc37da7b",
+            "documents": [
+                "question_type_telcom.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "4a053d73-8ee2-45fa-abe4-f8a157e7e31c",
+                    "prompt": "Question: Who can check the \"Married filing jointly\" box at the top of Form 1040 or 1040-SR?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can check the \"Married filing jointly\" box at the top of Form 1040 or 1040-SR if you were married at the end of 2023, even if you didn't live with your spouse at the end of 2023, your spouse died in 2023 and you didn't remarry in 2023, or you were married at the end of 2023 and your spouse died in 2024 before filing a 2023 return."
+                    ]
+                },
+                {
+                    "key": "14a9f208-292a-4c8f-8a91-6e6162ad6318",
+                    "prompt": "Question: Can I file a joint return if my spouse doesn't have an SSN or ITIN?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If your spouse doesn't have an SSN or ITIN, you can still file a joint return. Enter \"NRA\" in the entry space below the filing status checkboxes for your spouse's SSN or ITIN."
+                    ]
+                },
+                {
+                    "key": "f0cdcf47-9426-446b-b11d-dbc4eecf97a6",
+                    "prompt": "Question: Can I file as head of household if the person I kept up a home for was born or died in 2023?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you may still be able to file as head of household if the person was born or died in 2023, as long as you meet the other requirements."
+                    ]
+                },
+                {
+                    "key": "549933cb-17ba-4d58-9855-7502232b98f1",
+                    "prompt": "Question: My filing status is married filing separately, and my spouse itemizes deductions on their return. What box should I check?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You should check the \"Spouse itemizes on a separate return or you were a dual-status alien\" box."
+                    ]
+                },
+                {
+                    "key": "00ccbe0f-89b9-444a-aaeb-e17acfe12325",
+                    "prompt": "Question: How do I determine if my qualifying child qualifies me for the child tax credit or credit for other dependents?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can determine if your qualifying child qualifies you for the child tax credit or credit for other dependents by following the steps outlined in the text."
+                    ]
+                },
+                {
+                    "key": "437402b0-77d3-4821-9a62-3c2c3c27457d",
+                    "prompt": "Question: Can I claim a child as my dependent if they had gross income of $4,700 or more in 2023?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, you cannot claim a child as your dependent if they had gross income of $4,700 or more in 2023."
+                    ]
+                },
+                {
+                    "key": "e5e140b5-3881-434e-89e9-a31549055023",
+                    "prompt": "Question: My spouse died in 2023 before reaching age 65. Do I still need to check the box for \"Spouse was born before January 2, 1959\"?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, if your spouse died before reaching age 65, you should not check the box."
+                    ]
+                },
+                {
+                    "key": "fb37d87c-b998-4218-a713-f7d1ac100de2",
+                    "prompt": "Question: What is the deadline for filing Form 1040 or 1040-SR for the 2023 tax year?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The deadline for filing Form 1040 or 1040-SR for the 2023 tax year is April 15, 2024, or April 17, 2024, for residents of Maine or Massachusetts."
+                    ]
+                },
+                {
+                    "key": "febc9033-3d26-41e1-b8a0-329343df5bca",
+                    "prompt": "Question: Who qualifies for an automatic extension of time to file without filing Form 4868?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "U.S. citizens or resident aliens who live outside the United States and Puerto Rico and have their main place of business or post of duty outside the United States and Puerto Rico, or those who are in military or naval service on duty outside the United States and Puerto Rico, qualify for an automatic extension of time to file without filing Form 4868."
+                    ]
+                },
+                {
+                    "key": "5e236feb-5ee9-4ada-b1cd-1ddfa19339d0",
+                    "prompt": "Question: Can I file a joint return if I am claimed as a dependent on someone else's return?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can file a joint return if you are married and your spouse is claiming you as a dependent, but only if you are filing the return to claim a refund of withheld income tax or estimated tax paid."
+                    ]
+                },
+                {
+                    "key": "ec499165-f29b-4741-bd49-9a8020860b4e",
+                    "prompt": "Question: Does the child have to live with me for the entire year to be considered a qualifying child?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, the child only needs to have lived with you for more than half of the part of the year that they were alive."
+                    ]
+                },
+                {
+                    "key": "73a50119-0549-4759-9ccf-83a06d62d42d",
+                    "prompt": "Question: Can I use an Individual Taxpayer Identification Number (ITIN) instead of an SSN?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If you are a nonresident or resident alien and you don't have and aren't eligible to get an SSN, you must apply for an ITIN. You can use your ITIN wherever your SSN is requested on your tax return. Some ITINs must be renewed."
+                    ]
+                },
+                {
+                    "key": "7953e7a3-5032-4d63-ab58-e80c439769b7",
+                    "prompt": "Question: What is the deadline for filing Form 1040 or 1040-SR for the 2023 tax year?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The deadline for filing Form 1040 or 1040-SR for the 2023 tax year is April 15, 2024, or April 17, 2024, for residents of Maine or Massachusetts."
+                    ]
+                },
+                {
+                    "key": "a629b8ef-23df-45bf-a75d-84101f0728f2",
+                    "prompt": "Question: Can a child be claimed as a dependent on someone else's tax return?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a child can be claimed as a dependent on someone else's tax return if they meet the conditions to be a qualifying child of that person."
+                    ]
+                },
+                {
+                    "key": "55dbf019-8139-4c45-af9a-d60880a36dc6",
+                    "prompt": "Question: Can a nonresident alien or dual-status alien file a joint return with their spouse?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Generally, a nonresident alien or dual-status alien can't file a joint return with their spouse. However, if you were a nonresident alien or a dual-status alien and were married to a U.S. citizen or resident alien at the end of 2023, you can elect to be treated as a resident alien and file a joint return."
+                    ]
+                },
+                {
+                    "key": "8aba448a-8032-46d5-97d2-a2370e8eb1df",
+                    "prompt": "Question: What is the deadline for filing Form 1040 or 1040-SR for the 2023 tax year?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The deadline for filing Form 1040 or 1040-SR for the 2023 tax year is April 15, 2024."
+                    ]
+                },
+                {
+                    "key": "53524084-a612-4a3b-9573-3addb027439b",
+                    "prompt": "Question: Where can I find more information about the schedules and instructions for Form 1040 and 1040-SR?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can find more information about the schedules and instructions for Form 1040 and 1040-SR on the IRS website at irs.gov/Form1040."
+                    ]
+                },
+                {
+                    "key": "f8abc76d-ad25-4d50-8c5c-e16c805cf29b",
+                    "prompt": "Question: Do I have to file Form 8949 and Schedule D if I sold a capital asset?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You must file Form 8949 and Schedule D if you sold a capital asset, such as a stock or bond, unless you meet certain exceptions, such as not having any capital losses and only having capital gain distributions from Form(s) 1099-DIV."
+                    ]
+                },
+                {
+                    "key": "ce162576-de3e-4b11-854b-efcd3e6d4d67",
+                    "prompt": "Question: Can I claim a child as my dependent if I could be claimed as a dependent on someone else's return?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, you cannot claim a child as your dependent if you could be claimed as a dependent on someone else's return."
+                    ]
+                },
+                {
+                    "key": "672bf135-1dab-4e41-a1f1-7b56d97ac357",
+                    "prompt": "Question: How do I indicate that I was born before January 2, 1959, or was blind at the end of 2023?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can check the appropriate boxes on the line labeled \"Age/Blindness\" on your tax return."
+                    ]
+                },
+                {
+                    "key": "7248c90c-b847-424a-9fb1-144460dd5c52",
+                    "prompt": "Question: Can I claim the child tax credit or credit for other dependents?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you may be able to claim the child tax credit or credit for other dependents if you have a qualifying child."
+                    ]
+                },
+                {
+                    "key": "62ab9469-2a64-4df6-bd8f-12b15195c9bb",
+                    "prompt": "Question: Can I claim a child as my dependent if they filed a joint return?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, you cannot claim a child as your dependent if they filed a joint return."
+                    ]
+                },
+                {
+                    "key": "fdeebaa8-1de2-41f1-a7e6-ce72e2797898",
+                    "prompt": "Question: Can I file as a qualifying surviving spouse if my spouse died in 2023?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, you cannot file as a qualifying surviving spouse if your spouse died in 2023. Instead, see the instructions for Married Filing Jointly."
+                    ]
+                },
+                {
+                    "key": "5a0252f4-7d1d-43fb-8d44-876b6cd99ab5",
+                    "prompt": "Question: Who can check the \"Single\" box at the top of Form 1040 or 1040-SR?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can check the \"Single\" box at the top of Form 1040 or 1040-SR if you were never married, legally separated according to your state law under a decree of divorce or separate maintenance, or widowed before January 1, 2023, and didn't remarry before the end of 2023."
+                    ]
+                },
+                {
+                    "key": "a271caae-ec6f-4655-87fb-1e8c340e868b",
+                    "prompt": "Question: Do I need to attach Form 8962 to my tax return if I received advance payments of the premium tax credit?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, if you received advance payments of the premium tax credit, you must file a 2023 tax return and attach Form 8962. You should have received Form 1095-A from the Marketplace with information about your coverage and any advance payments."
+                    ]
+                },
+                {
+                    "key": "e625832c-aa51-4a8a-a794-1a0d98176b76",
+                    "prompt": "Question: How do I report the credit for qualified sick and family leave wages on my tax return?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The credit for qualified sick and family leave wages is reported on Schedule 3, line 13c."
+                    ]
+                },
+                {
+                    "key": "8fc3eaac-b6b0-4f60-afb7-f466bceb3c72",
+                    "prompt": "Question: What is the Qualified Dividends and Capital Gain Tax Worksheet?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Qualified Dividends and Capital Gain Tax Worksheet is a worksheet used to figure your tax on qualified dividends and capital gains. It is used when you don't have to file Schedule D."
+                    ]
+                },
+                {
+                    "key": "f06b796f-8cb1-4324-809f-d116fcec09d0",
+                    "prompt": "Question: What is the maximum amount of unearned income that a single dependent can have and still be required to file a tax return?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount of unearned income that a single dependent can have and still be required to file a tax return is $1,250."
+                    ]
+                },
+                {
+                    "key": "3bd2835f-884d-439d-bf29-ba69a89a398e",
+                    "prompt": "Question: How do I reconcile my advance payments of the premium tax credit with my premium tax credit for the year, given that I have received Form 1095-A and need to attach it to my tax return, Form 1040, 1040-SR, or 1040-NR, and I may also have received Form 1095-C from my employer, which shows whether they offered me health insurance coverage?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You will need to complete Form 8962 to reconcile advance payments of the premium tax credit with your premium tax credit for the year."
+                    ]
+                },
+                {
+                    "key": "26820c99-c49c-4b91-b6e1-5a6b8ed722d2",
+                    "prompt": "Question: Considering the IRS's designated private delivery services, what are the conditions under which taxpayers can use these services to file their tax returns and meet the \"timely mailing treated as timely filing/paying\" rule?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The designated private delivery services include FedEx First Overnight, FedEx Priority Overnight, FedEx Standard Overnight, FedEx 2 Day, FedEx International Next Flight Out, FedEx International Priority, FedEx International First, and FedEx International Economy. DHL Express 9:00, DHL Express 10:30, DHL Express 12:00, DHL Express Worldwide, DHL Express Envelope, DHL Import Express 10:30, DHL Import Express 12:00, and DHL Import Express Worldwide. UPS Next Day Air Early A.M., UPS Next Day Air, UPS Next Day Air Saver, UPS 2nd Day Air, UPS 2nd Day Air A.M., UPS Worldwide Express Plus, and UPS Worldwide Express."
+                    ]
+                },
+                {
+                    "key": "df65812d-10e4-4cd9-9838-02f69c9d48b0",
+                    "prompt": "Question: How can one obtain documented evidence of the mailing date when using a private delivery service to submit a tax return, considering the various private delivery services designated by the IRS, such as FedEx and UPS, and the requirement for written proof of mailing for tax returns and payments?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can get written proof of the mailing date from the private delivery service that you use to file your tax return."
+                    ]
+                },
+                {
+                    "key": "3796a430-a7ad-4608-beca-e7edebc0d880",
+                    "prompt": "Question: What should you do if your name or social security number on your social security card is incorrect, and how will it affect your tax return?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If your name or SSN on your social security card is incorrect, you should contact the SSA as soon as possible to make sure your earnings are credited to your social security record. You can also file a Form SS-5 to correct your name or SSN."
+                    ]
+                },
+                {
+                    "key": "846518b7-c9ec-4328-aa3b-937ec18b9eae",
+                    "prompt": "Question: How can taxpayers provide feedback to the IRS through the Taxpayer Advocacy Panel (TAP) to improve customer service, and what are the responsibilities of TAP?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can provide feedback to the IRS through TAP by visiting their website at ImproveIRS.org."
+                    ]
+                },
+                {
+                    "key": "78de6c45-0bed-43ab-a902-62628b814544",
+                    "prompt": "Question: How do I report credit for previously owned clean vehicles on my tax return, considering the changes in the clean vehicle credit and the introduction of the previously owned clean vehicle credit?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The credit for previously owned clean vehicles is reported on Form 8936 and Schedule 3, line 6f."
+                    ]
+                },
+                {
+                    "key": "3ed6a71b-584b-4833-a6c4-c2198b929601",
+                    "prompt": "Question: Considering the given context, what is the minimum gross income threshold for a 65-year-old individual to file a tax return when using a private delivery service, and how does it differ from the threshold for those filing jointly or as a qualifying surviving spouse?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, you do not need to file a tax return if you are 65 or older and your gross income was less than $27,700."
+                    ]
+                },
+                {
+                    "key": "df3b1275-61fd-4388-a9bc-f202078a2c8c",
+                    "prompt": "Question: What is the maximum amount of earned income that a single dependent can have and still be required to file a tax return, considering the conditions of their age, blindness, unearned income, and gross income?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount of earned income that a single dependent can have and still be required to file a tax return is $13,850."
+                    ]
+                },
+                {
+                    "key": "ac398068-7bf3-457c-8523-0ef4a06b6d22",
+                    "prompt": "Question: What dual purpose do plant roots serve concerning soil nutrients and stability?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To claim a child as a dependent on your tax return, you must complete columns (1) through (3) of the Dependents section on page 1 of Form 1040 or 1040-SR for that child."
+                    ]
+                },
+                {
+                    "key": "21a6e52b-bad9-4c33-bfd1-d49f256cfcd8",
+                    "prompt": "Question: Can I take the standard deduction if I have itemized deductions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "In most cases, your federal income tax will be less if you take the larger of your itemized deductions or standard deduction. You can take the standard deduction even if you have itemized deductions."
+                    ]
+                },
+                {
+                    "key": "ab9784d1-15f4-4481-9ebc-79d816939906",
+                    "prompt": "Question: Considering the Taxpayer Advocate Service (TAS) helps taxpayers and protects taxpayer rights, what dual role does it serve in ensuring every taxpayer is treated fairly while providing free assistance to those facing financial difficulties or systematic issues with the IRS?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Taxpayer Advocate Service (TAS) is an independent organization within the Internal Revenue Service (IRS) that helps taxpayers and protects taxpayer rights. TAS strives to ensure that every taxpayer is treated fairly and that you know and understand your rights under the Taxpayer Bill of Rights."
+                    ]
+                },
+                {
+                    "key": "45e0599d-5404-428b-9940-847ac08daff8",
+                    "prompt": "Question: How do I report estimated tax payments made in 2023 on Form 1040, considering the additional Medicare tax withheld, federal income tax withheld on Form(s) W-2G, and joint or separate estimated tax payments?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Estimated tax payments made in 2023 should be reported on Line 26 of Form 1040."
+                    ]
+                },
+                {
+                    "key": "7e7bdaaf-7cc3-4124-a3a1-2e5e53b119df",
+                    "prompt": "Question: How do estimated tax payments function for separate returns when spouses have paid jointly?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can divide the estimated tax payments in any way you choose, as long as you both agree. If you can't agree, you must divide the payments in proportion to each spouse's individual tax as shown on your separate returns for 2023."
+                    ]
+                },
+                {
+                    "key": "370d85dd-706b-4c97-a75f-101dca61ff43",
+                    "prompt": "Question: How does the adopted child's status affect the process of filing as head of the household, considering the child's placement and the home's maintenance cost?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, an adopted child is always treated as your own child, and you can file as head of household if you meet the other requirements."
+                    ]
+                },
+                {
+                    "key": "47ec5136-9592-46db-8246-9da3a227d320",
+                    "prompt": "Question: Considering the conditions stated in the provided chart, what is the minimum gross income required for a single dependent to be obligated to file a tax return, taking into account their age, earned and unearned income, and blindness status?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, you do not need to file a tax return if you are under 65 and your gross income was less than $13,850."
+                    ]
+                },
+                {
+                    "key": "6a213bc7-54b6-4311-8466-deb99bac99a3",
+                    "prompt": "Question: How can I combine my tax records under my SSN if I previously used an ITIN, given that I've received an SSN and want to replace my ITIN with my SSN for future tax returns?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If you receive an SSN after previously using an ITIN, stop using your ITIN. You can write a letter to the IRS explaining that you now have an SSN and want all your tax records combined under your SSN. Details about what to include with the letter and where to mail it are at IRS.gov/ITIN."
+                    ]
+                },
+                {
+                    "key": "8cefd76c-41ff-42b6-b8bc-7bf6be986603",
+                    "prompt": "Question: How do I report accrued leave payment on my tax return, considering the lump-sum election method for benefits and capital gains or losses from investments?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Accrued leave payment received as a lump sum is considered a salary payment and should be included in your income in the tax year you receive it."
+                    ]
+                },
+                {
+                    "key": "21be8e2d-9984-4340-8ce1-cf66b2134b27",
+                    "prompt": "Question: How can a taxpayer receive notices from the IRS in Braille or large print, and what conditions must be met for the taxpayer to be eligible for this service?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can use Form 9000, Alternative Media Preference, to request notices in an alternative format, including Braille, large print, audio, or electronic."
+                    ]
+                },
+                {
+                    "key": "47d0a95a-5c6e-46c8-ba88-f43e1a7d73ed",
+                    "prompt": "Question: How can I prepare and e-file my tax return for free, given that I meet the income requirements for free software usage, and what are the various options available for free tax preparation and e-filing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If your adjusted gross income was $79,000 or less in 2023, you can use free tax software to prepare and e-file your tax return through the IRS's Free File program. If you earned more, you can use Free File Fillable Forms, which is best for people experienced in preparing their own tax returns."
+                    ]
+                },
+                {
+                    "key": "ff144880-24ed-46db-a69a-efb047e52bcd",
+                    "prompt": "Question: Can a nonresident alien spouse use an ITIN to file a joint return, or do they need an SSN?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, your nonresident alien spouse must have either an SSN or an ITIN if you file a joint return or your spouse is filing a separate return."
+                    ]
+                },
+                {
+                    "key": "2b4f0716-9918-453f-813d-d308ba1593ef",
+                    "prompt": "Question: Can a kidnapped child be claimed as a dependent if they were abducted during 2023, and their status as a qualifying child or foster child is affected by their absence?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, see the instructions for Kidnapped child under Who Qualifies as Your Dependent, later."
+                    ]
+                },
+                {
+                    "key": "d2aec702-7250-4645-8ec7-371e5d7f0a1b",
+                    "prompt": "Question: What is the maximum amount of the premium tax credit for the 2023 tax year, considering the changes in the credit amount and requirements, and the new clean vehicle credit, as well as the previously owned clean vehicle credit, and how does one reconcile advance payments of the premium tax credit with the actual credit amount on Form 8962, and what are the implications for health coverage reporting on Form 1095-C and Schedule 3, line 9, and how does one determine eligibility for the credit and complete Form 8962 to claim the credit, and what are the changes in the standard deduction amount and additional child tax credit amount, and how does one report the credit for previously owned clean vehicles on Form 8936 and Schedule 3, line 6m, and what is the deadline to file Form 1040 or 1040-SR, and how does one make an elective payment election on Form 3800?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount of the premium tax credit for the 2023 tax year is $1,600 for each qualifying child."
+                    ]
+                },
+                {
+                    "key": "1ee25ceb-e213-4c83-a041-67b63ed3638c",
+                    "prompt": "Question: How can one get a social security number (SSN)?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can get an SSN by applying for one at your local SSA office, by calling the SSA at 800-772-1213, or by downloading and mailing in Form SS-5. It usually takes 2 weeks to receive your SSN once the SSA has all the necessary information."
+                    ]
+                },
+                {
+                    "key": "83ba3bf8-f471-42f0-a3c7-902976c3155b",
+                    "prompt": "Question: Can a section 962 election provide a tax benefit by allowing a deduction for a specific type of income inclusion under section 951A?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If you made a section 962 election and are taking a deduction under section 250 with respect to any income inclusions under section 951A, don't report the deduction on line 12. Instead, report the tax with respect to a section 962 election on line 16 and include in the statement required by line 16 how you figured the section 250 deduction."
+                    ]
+                },
+                {
+                    "key": "1b40f4cd-3945-4df3-9f8c-8cd11f19c78d",
+                    "prompt": "Question: What is the refund issuance timeline for earned income credit (EIC) claims, and how does it relate to overall refunds, given that there may be a delay due to reckless or intentional disregard of EIC rules, and what are the consequences of fraudulently claiming the credit?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Refunds for returns claiming the EIC can't be issued before mid-February 2024, and this delay applies to the entire refund, not just the portion associated with the EIC."
+                    ]
+                },
+                {
+                    "key": "7c0a7f4c-8ca5-4894-9d22-dcc30346ee4a",
+                    "prompt": "Question: Under what conditions can a child be considered a qualifying child for the purpose of claiming dependents, child tax credit or credit for other dependents, and how does their status as a qualifying child affect the tax return of the person claiming them as a dependent?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A child must meet the following conditions to be considered a qualifying child:\n\n* Be under age 19 at the end of 2023 and younger than the taxpayer (or their spouse if filing jointly)\n* Be under age 24 at the end of 2023, a student, and younger than the taxpayer (or their spouse if filing jointly)\n* Be permanently and totally disabled, regardless of age\n* Not provide over half of their own support for 2023\n* Not be filing a joint return for 2023 or is filing a joint return only to claim a refund of withheld income tax or estimated tax paid\n* Live with the taxpayer for more than half of 2023"
+                    ]
+                },
+                {
+                    "key": "10971264-e306-44d5-b979-271e657f3760",
+                    "prompt": "Question: Under what circumstances can an individual be eligible for the premium tax credit, and how does it relate to health insurance purchased from the Marketplace and employer-offered health insurance coverage?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Eligibility for the premium tax credit is determined by the Marketplace, and information on eligibility can be found in the Instructions for Form 8962."
+                    ]
+                },
+                {
+                    "key": "62e4d324-1e32-44db-bfa0-b5e4b2663c36",
+                    "prompt": "Question: Can a foster child be considered a qualifying child if they were lawfully placed with you for legal adoption during 2023, and you kept up a home for them for more than half of the part of the year they were alive, even if they didn't live with you for the entire year?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a foster child can be considered a qualifying child as long as they were placed with you by an authorized placement agency or by judgment, decree, or other order of any court of competent jurisdiction."
+                    ]
+                },
+                {
+                    "key": "5acca93a-bf9f-4070-a015-bd099f6bd87c",
+                    "prompt": "Question: Under what conditions can Form 1040-SR be used, and what dual purpose does it serve for taxpayers born before January 2, 1959?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Form 1040-SR is an option for taxpayers who were born before January 2, 1959."
+                    ]
+                },
+                {
+                    "key": "ac79afbd-8b42-4405-a2c5-a44af13f1621",
+                    "prompt": "Question: How does one reconcile advance payments of the premium tax credit with the actual credit amount on their tax return, given the possibility of changes in income or family size during the year?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can claim the premium tax credit on Schedule 3, line 9, of your tax return."
+                    ]
+                },
+                {
+                    "key": "161e2458-ce19-4512-922b-1d649cfa8353",
+                    "prompt": "Question: Considering the IRS's stipulated conditions for using private delivery services, what are the chances of using a private delivery service to file tax returns while ensuring timely payment?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can use certain private delivery services designated by the IRS to file your tax return."
+                    ]
+                },
+                {
+                    "key": "ad3b0e1a-ed9b-41f8-9c6b-fc6b09b8e818",
+                    "prompt": "Question: What are the consequences of not paying taxes by the due date, and what options are available for an extension?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If you don\u2019t pay your tax by the original due date of your return, you will owe interest on the unpaid tax and may owe penalties. You can file Form 4868 to request an extension of time to file, which will give you an extra 2 months to pay the tax, but interest will be charged on any unpaid tax."
+                    ]
+                },
+                {
+                    "key": "7e5963bd-1cff-472f-b295-4fe8bfeefdc6",
+                    "prompt": "Question: Considering the conditions for filing tax returns, how does the income threshold for single dependents compare to that of married dependents, and what additional factors must be considered for both categories?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you must file a tax return if you received wages from a church or qualified church-controlled organization that is exempt from employer social security and Medicare taxes and the wages were $108.28 or more."
+                    ]
+                },
+                {
+                    "key": "d293d654-2b91-4282-90cd-ea9b2aca29aa",
+                    "prompt": "Question: Under what conditions can a person file for the earned income credit and child and dependent care credit while being married?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If you file a separate return, you can only take the earned income credit and child and dependent care credit in very limited circumstances."
+                    ]
+                },
+                {
+                    "key": "62340987-134a-425d-93e3-e82299df7c47",
+                    "prompt": "Question: What is the minimum unearned income requiring a tax return in 2023, considering filing jointly and separately, and how does it differ for those who are 65 or older, blind, or have earned income?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum amount of unearned income that requires filing a tax return in 2023 is $1,250."
+                    ]
+                },
+                {
+                    "key": "b765f097-9be0-4a49-a641-a4677a517291",
+                    "prompt": "Question: How do Low Income Taxpayer Clinics (LITCs) aid taxpayers in resolving tax issues with the IRS, and what services do they offer to those who meet certain income requirements?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "LITCs are independent from the Internal Revenue Service (IRS) and the Taxpayer Advocate Service (TAS). LITCs represent individuals whose income is below a certain level and who need to resolve tax problems with the IRS. LITCs can represent taxpayers in audits, appeals, and tax collection disputes before the IRS and in court."
+                    ]
+                },
+                {
+                    "key": "3eea7d51-d107-4bb1-92e4-d2eab7546356",
+                    "prompt": "Question: Under what conditions can one qualify for an automatic extension of time to file their tax return, and how does it affect their tax payment obligations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can get an automatic 6-month extension of time to file your tax return by filing Form 4868. This extension gives you an extra 2 months to file and pay the tax, but interest will be charged on any unpaid tax."
+                    ]
+                },
+                {
+                    "key": "ef7a00a6-4950-4b24-875f-3f2d48cc6cde",
+                    "prompt": "Question: How can I determine if I am eligible for free tax software, and what are the various options available for free tax preparation and e-filing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The IRS's Free File program offers free tax software to those who earned $79,000 or less in 2023. You can visit IRS.gov/FreeFile to see all the eligibility criteria for free usage or use an online tool to find which free software products match your situation."
+                    ]
+                },
+                {
+                    "key": "8eb6d96c-7316-4f02-a590-550207e74d98",
+                    "prompt": "Question: Can a person claim the Earned Income Credit (EIC) even if their qualifying child doesn't have a valid Social Security Number (SSN)?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can still take the EIC even if your qualifying child doesn't have a valid SSN. You will need to complete Schedule EIC and provide the child's ITIN or ATIN."
+                    ]
+                },
+                {
+                    "key": "26ddbbdc-8502-46ef-951d-a4670229897d",
+                    "prompt": "Question: How can taxpayers benefit from the Free File program, and what are the eligibility requirements for using it?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can file your taxes electronically for free through the IRS's Free File program or Free File Fillable Forms. Free File Fillable Forms is best for people experienced in preparing their own tax returns and supports only federal tax forms."
+                    ]
+                },
+                {
+                    "key": "ce467aaf-31eb-4584-bdb6-cd570b5e98fc",
+                    "prompt": "Question: Can a child's income be reported on a parent's tax return under specific conditions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If certain conditions apply, you can elect to include on your return the income of a child who was under age 19 at the end of 2023 or was a full-time student under age 24 at the end of 2023. To do so, use Form 8814."
+                    ]
+                },
+                {
+                    "key": "fc1d64b1-0148-419a-b56b-eb5941f13805",
+                    "prompt": "Question: How do temporary absences affect the requirement of living together for more than half a year when it comes to claiming a child as a dependent?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, temporary absences for special circumstances, such as school, vacation, business, medical care, military service, or detention in a juvenile facility, count as time lived in the home."
+                    ]
+                },
+                {
+                    "key": "9574fbfe-84a3-47a0-af2d-392d81b9b562",
+                    "prompt": "Question: Form 1040-SR; eligibility for pre-1959 births?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can file Form 1040-SR if you were born before January 2, 1959."
+                    ]
+                },
+                {
+                    "key": "3a9c7d09-5cb4-4ea3-96bc-74ec6e2ad798",
+                    "prompt": "Question: What's the minimum income requirement for filing taxes in 2023?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum amount of net earnings from self-employment that requires filing a tax return in 2023 is $400."
+                    ]
+                },
+                {
+                    "key": "c49e86a5-f7d7-4496-95b2-5538287a484a",
+                    "prompt": "Question: Is an ITIN sufficient for US employment?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, an ITIN does not entitle you to work in the United States or change your immigration status. It is only for tax purposes."
+                    ]
+                },
+                {
+                    "key": "2b2b1571-50eb-42db-b7aa-da23aec9f157",
+                    "prompt": "Question: What's the max income before taxes in '23?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount of gross income that can be earned before filing a tax return in 2023 is $1,250, or $4,950 if 65 or older and blind."
+                    ]
+                },
+                {
+                    "key": "82b47f1b-d01d-4b02-bfc9-31197fbe05f5",
+                    "prompt": "Question: What's the point of the dependant standard deduction worksheet?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Standard Deduction Worksheet for Dependents is used to figure the standard deduction for dependents who are filing a tax return. It takes into account the dependent's income and the amount that can be claimed as a deduction by the person who can claim the dependent."
+                    ]
+                },
+                {
+                    "key": "f6eb142b-3b1a-43ca-9fc1-43b4982ed020",
+                    "prompt": "Question: What's the tax form for capital gains?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Capital gain distributions are reported on line 7 of Form 1040 and are checked on that line. If you received capital gain distributions as a nominee, you should report only the amount that belongs to you."
+                    ]
+                },
+                {
+                    "key": "96d40745-b3df-483b-bb22-9d656c51d2f4",
+                    "prompt": "Question: Is private delivery an option for tax returns?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can use certain private delivery services designated by the IRS to meet the \u201ctime-ly mailing treated as timely filing/paying\u201d rule for tax returns and payments."
+                    ]
+                },
+                {
+                    "key": "fd51362d-a5e9-4d21-b725-18c1b84e8fe1",
+                    "prompt": "Question: Can I e-file my return with schedules determined by software?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, if you e-file your return, the software you use will generally determine which schedules you need."
+                    ]
+                },
+                {
+                    "key": "db6b0e09-4d75-4477-87d6-ec27c55d7458",
+                    "prompt": "Question: What's the ITIN renewal deadline?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The deadline for renewing your ITIN is January 31, 2024. If you haven't used your ITIN on a federal tax return at least once for tax years 2020, 2021, or 2022, it will expire on January 31, 2024, and must be renewed if you need to file a federal tax return."
+                    ]
+                },
+                {
+                    "key": "9088bc4c-c50c-4ce8-b8ea-a683553050cb",
+                    "prompt": "Question: How do I reconcile advance payments of the premium tax credit?\n\nRewritten Question:\nWhat's the process for reconciling advance payments of the premium tax credit?\n\nNote: The rewritten question is shorter and more concise while still conveying the same meaning as the original question. The use of \"what's the process for\" instead of \"how do I\" makes the question more indirect.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If you received advance payments of the premium tax credit, you must file a 2023 tax return and attach Form 8962. You should have received Form 1095-A from the Marketplace with information about your coverage and any advance payments. You must attach Form 8962 even if someone else enrolled you, your spouse, or your dependent."
+                    ]
+                },
+                {
+                    "key": "5a9ff030-620f-4677-b68c-93e885a26a41",
+                    "prompt": "Question: What's required to prepare a return for a deceased spouse?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You should see Pub. 501 for guidance on how to complete the standard deduction information for a deceased taxpayer."
+                    ]
+                },
+                {
+                    "key": "40e2b8c7-b281-4820-9fdc-14b60b4ad0b9",
+                    "prompt": "Question: Is a tax return necessary if taxes aren't owed?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you should still file a tax return even if you don't have to pay taxes. You may be eligible for credits such as the Earned Income Tax Credit, Additional Child Tax Credit, or Premium Tax Credit, which you can only receive if you file a tax return."
+                    ]
+                },
+                {
+                    "key": "984b042d-13f6-4d39-9fea-dd44ea13591d",
+                    "prompt": "Question: What's the minimum income requirement for filing taxes in 2023?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum amount of earned income that requires filing a tax return in 2023 is $13,850."
+                    ]
+                },
+                {
+                    "key": "83a9cf12-d147-4b1d-acc4-8a1e0c33f8b6",
+                    "prompt": "Question: What's required for U.S. citizens with income or residence in a U.S. territory to file?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "U.S. citizens who lived in or had income from a U.S. territory should see Pub. 570 for filing requirements. Residents of Puerto Rico can use Tax Topic 901 to see if they must file."
+                    ]
+                },
+                {
+                    "key": "32dcf1f1-1530-48b8-9776-a7b3807323b4",
+                    "prompt": "Question: What's the exception to the time requirement?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The exception to the time lived with you requirement is if the child didn't live with the taxpayer for the required time, but the taxpayer can still claim the child as a qualifying child if the child would have met the conditions to be a qualifying child of any other person (other than the taxpayer's spouse if filing jointly) for 2023."
+                    ]
+                },
+                {
+                    "key": "9a509f64-2129-4609-9c26-f70be680ceda",
+                    "prompt": "Question: Sure! Here's a rewritten question that is shorter and more indirect while still conveying the same meaning:\n\nOriginal Question:\nCan I file my tax return after the deadline?\nRewritten Question:\nIs late tax filing an option?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can file your tax return after the deadline, but you may have to pay interest and penalties. If you file after the deadline, you should attach a statement explaining why you filed late."
+                    ]
+                },
+                {
+                    "key": "a251c45b-1a54-4257-9251-4a4302b0bcdf",
+                    "prompt": "Question: What's the distance between Earth and Moon?\n\nWhat's needed for a chocolate cake?\n\nWhat filing status options are available for taxpayers?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The different filing statuses available for taxpayers are Single, Married Filing Jointly, Married Filing Separately, Head of Household, and Qualifying Surviving Spouse."
+                    ]
+                },
+                {
+                    "key": "bea0e07a-c8fd-4420-8f34-5193c1bace13",
+                    "prompt": "Question: Do I need to file a tax return if I received certain health account distributions in 2023?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you must file a tax return if you received health savings account, Archer MSA, or Medicare Advantage MSA distributions in 2023."
+                    ]
+                },
+                {
+                    "key": "4de3c702-d6e2-4379-9dc3-5fa71f474b6d",
+                    "prompt": "Question: Who can deduct interest on student loans or claim education credits?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If you file a separate return, you can't take the student loan interest deduction or the education credits."
+                    ]
+                },
+                {
+                    "key": "610cf8c9-c35d-41a2-bfad-bd9cf36c999d",
+                    "prompt": "Question: What's the purpose of 1040's 25c?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Line 25c is used to report any federal income tax withheld on Form(s) W-2G, as well as any Additional Medicare Tax withheld, and any federal income tax withheld that is shown on a Schedule K-1."
+                    ]
+                },
+                {
+                    "key": "25eecb29-62e4-46cc-be0a-b1402ae9400f",
+                    "prompt": "Question: How can I quickly get my tax refund?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The fastest way to get your tax refund is to e-file your tax return through the IRS's Free File program. You can also use the IRS's electronic payment options to make payments online, by phone, or from a mobile device."
+                    ]
+                },
+                {
+                    "key": "44b280b3-1d21-4ee8-91bf-c9a314f69388",
+                    "prompt": "Question: What's the diff between joint & separate filing?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "When you file jointly, you report your combined income and deduct your combined allowable expenses on one return. When you file separately, you generally report only your own income, deductions, and credits."
+                    ]
+                },
+                {
+                    "key": "f88b0d91-26bd-4c85-94dd-ea7725688c79",
+                    "prompt": "Question: What's the reason for separate filing by couples?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A couple might want to file separately if they believe their spouse isn't reporting all of their income, or they don't want to be responsible for any taxes due if their spouse doesn't have enough tax withheld or doesn't pay enough estimated tax."
+                    ]
+                },
+                {
+                    "key": "fe65c12f-7777-49e5-bbcf-6e5b48b1417d",
+                    "prompt": "Question: What's TAP's purpose?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The TAP is a Federal Advisory Committee comprised of an independent panel of citizen volunteers who listen to taxpayers, identify taxpayers' systemic issues, and make suggestions for improving IRS customer service."
+                    ]
+                },
+                {
+                    "key": "ea0b4150-d029-4322-89e3-89d9fe7d739b",
+                    "prompt": "Question: What's the point of 1095-A?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Form 1095-A is used to report information about advance payments of the premium tax credit made to your insurance company to reduce your monthly premium payment."
+                    ]
+                },
+                {
+                    "key": "1068e9f7-ace3-4e5c-a7d8-a92c8f6c5e2b",
+                    "prompt": "Question: Who needs to file 8862?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Form 8862 must be filed by anyone who takes the EIC and who has been denied the credit for 2 years due to reckless or intentional disregard of the EIC rules."
+                    ]
+                },
+                {
+                    "key": "af796978-54c7-458a-8873-5c6b97df0c04",
+                    "prompt": "Question: How can I prove my blindness to the authorities?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can get a statement certified by your eye doctor (ophthalmologist or optometrist) that states you have a visual acuity of 20/200 or worse in your better eye with glasses or contact lenses, or that your field of vision is 20 degrees or less."
+                    ]
+                },
+                {
+                    "key": "e3b62ce2-cf6f-43df-81cb-950ba9dfa192",
+                    "prompt": "Question: What's the point of the premium tax credit?\n\nThe rewritten question is shorter and more indirect while still conveying the same meaning as the original question. By using the phrase \"What's the point of,\" the rewritten question avoids directly asking about the purpose of the premium tax credit, while still eliciting the same information.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The premium tax credit helps pay premiums for health insurance purchased from the Marketplace. Eligible individuals may have advance payments of the premium tax credit made on their behalf directly to the insurance company."
+                    ]
+                },
+                {
+                    "key": "455a67d0-d940-44ab-9fb5-e9fad60561d0",
+                    "prompt": "Question: Can I e-file my taxes?\n\nThe original question, \"Can I file my tax return electronically?\" is quite direct and straightforward. To make it more indirect and shorter, we can rephrase it as \"Can I e-file my taxes?\" This revised question still conveys the same meaning but in a more concise manner.\n\nBy using abbreviations like \"e-file\" and omitting unnecessary words, we can shorten the question while retaining its essence. This approach allows us to create a more indirect question that still gets straight to the point.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, you can file your tax return electronically. You can e-file your return through the IRS website or through a tax preparation software."
+                    ]
+                },
+                {
+                    "key": "4de1e53e-5aa3-43bc-a444-f3dcdf07ccaf",
+                    "prompt": "Question: Are there any free tax assistance programs?\n\nThe rewritten question is shorter and more indirect while still conveying the same meaning as the original question. The use of \"any\" and the absence of the word \"available\" make the question more concise while still conveying the same information. Additionally, \"free tax assistance programs\" can be easily understood as a single concept, making the question more straightforward.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, the IRS offers free tax assistance programs, such as the Volunteer Income Tax Assistance (VITA) program and the Tax Counseling for the Elderly (TCE) program. These programs offer free tax help to low-to-moderate-income individuals and elderly taxpayers. You can visit IRS.gov/VITA or IRS.gov/TCE to find a location near you."
+                    ]
+                },
+                {
+                    "key": "a983119e-f9c6-471b-9aa3-5ea6bbf2771b",
+                    "prompt": "Question: Alternative tax form sources?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You can download or view online tax forms and publications in a variety of formats, including text-only, Braille-ready files, browser-friendly HTML (other than tax forms), accessible PDF, and large print, on the IRS website."
+                    ]
+                },
+                {
+                    "key": "de304d02-565d-4bf0-9025-d7a49140acf4",
+                    "prompt": "Question: What's the point of 1095-C?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Form 1095-C is used by employers to report information about health insurance coverage offered to employees."
+                    ]
+                },
+                {
+                    "key": "de918e22-3f6f-44f8-abdc-007ff186f8ae",
+                    "prompt": "Question: What's the best way to get up to speed on taxpayer rights?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Taxpayer Bill of Rights describes 10 basic rights that all taxpayers have when dealing with the IRS. The TAS website, TaxpayerAdvocate.IRS.gov, can help you understand what these rights mean to you and how they apply."
+                    ]
+                },
+                {
+                    "key": "9fde78c4-e897-47ee-8d1c-f63b70fd1338",
+                    "prompt": "Question: When is the 2023 tax return due?\n\nThe rewritten question is shorter, more indirect, and retains the essence of the original question. It uses abbreviations (e.g., \"When\" instead of \"What is the deadline for\") to make it more concise.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The deadline for filing tax returns in 2023 is April 15, 2024."
+                    ]
+                },
+                {
+                    "key": "9dae18e3-72ff-4416-9aa9-5278cf55c37a",
+                    "prompt": "Question: What's the definition of a U.S. resident alien?\n\nRewritten Question:\nWhat does it mean to be a U.S. resident alien?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A U.S. resident alien is a person who is not a U.S. citizen but who has passed the substantial presence test and is considered a resident of the United States for tax purposes."
+                    ]
+                },
+                {
+                    "key": "0eb77ae3-70fb-49a4-b11b-bbfda26d724e",
+                    "prompt": "Question: What is the latest date that a U.S. citizen or resident alien who lives outside the United States and Puerto Rico, and has their main place of business or post of duty outside the United States and Puerto Rico, can file their tax return without incurring any interest or penalties?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A U.S. citizen or resident alien who lives outside the United States and Puerto Rico, and has their main place of business or post of duty outside the United States and Puerto Rico, can file their tax return by June 17, 2024, without incurring any interest or penalties. This is because they are eligible for an automatic 2-month extension of time to file, which gives them an extra 2 months to file and pay the tax, and an additional 4-month extension of time to file if they file Form 4868 by June 17, 2024."
+                    ]
+                },
+                {
+                    "key": "12fd41c4-2dd4-41bb-adf3-2dedea75447a",
+                    "prompt": "Question: Can you claim your qualifying child as a dependent on your 2023 tax return, and do they also qualify you to take the child tax credit or the credit for other dependents?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To determine this, you must follow a series of steps. First, ensure the child meets the definition of a qualifying child (as described in the initial answer). Then, determine if the child was a U.S. citizen, U.S. national, U.S. resident alien, or a resident of Canada or Mexico. If they were not, you cannot claim them as a dependent. If they were, proceed to question 2. Next, determine if the child was married. If they were, see the instructions for married persons. If not, proceed to question 3. If you are filing a joint return for 2023, you can claim this child as a dependent. If not, determine if you could be claimed as a dependent on someone else's 2023 tax return. If so, you cannot claim any dependents. If not, you can claim this child as a dependent and proceed to question 4. Finally, determine if your qualifying child qualifies you for the child tax credit or credit for other dependents."
+                    ]
+                },
+                {
+                    "key": "50bb554f-86cf-4c2e-a29b-db24efc6a30a",
+                    "prompt": "Question: Can a nonresident alien who is a dependent of a U.S. citizen or resident alien and was born on January 1, 2000, file their tax return electronically without attaching Form 8962, and if so, would they qualify for an automatic 6-month extension of time to file without filing Form 4868, and how would they determine their filing status and any applicable tax treaty benefits?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a nonresident alien who is a dependent of a U.S. citizen or resident alien and was born on January 1, 2000, can file their tax return electronically without attaching Form 8962. They would qualify for an automatic 6-month extension of time to file without filing Form 4868, as they meet the conditions for an automatic extension. They must include a statement showing that they meet the requirements. To determine their filing status and any applicable tax treaty benefits, they should refer to Pub. 519. They may also qualify for certain tax treaty benefits, and should consult Pub. 519 for details."
+                    ]
+                },
+                {
+                    "key": "789280dd-11b1-4d4f-9d35-ad253ccc13f1",
+                    "prompt": "Question: What are some ways in which the Taxpayer Advocate Service (TAS) helps taxpayers beyond resolving individual tax issues, and how can taxpayers take advantage of these services?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Besides resolving individual tax issues, TAS works to address large-scale problems that affect many taxpayers. Taxpayers can report these issues to TAS at IRS.gov/SAMS. Additionally, TAS provides information about taxpayer rights and responsibilities in different languages for individuals who speak English as a second language. Taxpayers can also seek assistance from Low Income Taxpayer Clinics (LITCs) which are independent from the IRS and TAS, and can represent taxpayers in audits, appeals, and tax collection disputes before the IRS and in court. Furthermore, taxpayers can provide direct feedback to the IRS through the Taxpayer Advocacy Panel (TAP) which is a Federal Advisory Committee comprised of citizen volunteers who listen to taxpayers, identify systemic issues, and make suggestions for improving IRS customer service."
+                    ]
+                },
+                {
+                    "key": "ace09b18-fff9-432c-99a0-c3d298215aae",
+                    "prompt": "Question: How can you ensure that you are eligible for the Earned Income Credit (EIC) and avoid reckless or intentional disregard of the EIC rules, which can lead to a 2-year or 10-year ban on taking the credit, or even penalties, and how does the IRS determine the validity of a qualifying child for purposes of claiming the EIC?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To ensure eligibility for the EIC and avoid any potential penalties, you should follow the steps outlined in the instructions for Form 1040, line 27, and complete the applicable worksheet. Additionally, if you have a qualifying child who does not have a valid SSN, you should complete and attach Schedule EIC. The IRS determines the validity of a qualifying child for purposes of claiming the EIC by considering various factors, such as the child's age, relationship to you, residency, and citizenship or immigration status. You can use the 'Check if You Qualify' tool on the IRS website to help determine your eligibility for the EIC. It is important to note that the IRS takes the EIC rules seriously, and failure to comply may result in a 2-year or 10-year ban on taking the credit, or even penalties."
+                    ]
+                },
+                {
+                    "key": "ccf78677-d1cd-4105-a97f-95919657fecb",
+                    "prompt": "Question: What information can be found on Page 2 of the 2023 Form 1040 instructions, and how does it relate to the purpose of the 2023 Tax Table?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Page 2 of the 2023 Form 1040 instructions contains information about the different parts of the form, including the filing requirements, line instructions, and refund information. The purpose of the 2023 Tax Table, which is to calculate tax liability, is mentioned in the instructions for Schedule 1, Part I, which is referenced on Page 2. Additionally, the instructions for Schedule 2, Part I, also referenced on Page 2, mention the use of the Tax Table to calculate alternative minimum tax (AMT). Therefore, understanding the information on Page 2 is necessary to properly use the 2023 Tax Table to calculate tax liability."
+                    ]
+                },
+                {
+                    "key": "d94c08fe-49fe-402e-9fde-70dddf4275c4",
+                    "prompt": "Question: How do you report accrued leave payment for disability retirement on Form 1040, and how does it affect the taxable amount of Social Security benefits received, considering lump-sum election method and capital gain distributions from Form(s) 1099-DIV, and do you need to file Schedule D or Form 8949 for capital gain or loss, and how does it impact total income and adjusted gross income, and how do you claim the standard deduction or itemized deductions on Form 1040 or Form 1040-SR, respectively?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "{'report accrued leave payment for disability retirement on Form 1040': ['Accrued leave payment for disability retirement should be reported as a salary payment on line 6a of Form RRB-1099, not as a disability payment. If you need to report a lump-sum payment for accrued annual leave, it should be included in your income in the tax year you receive it.'], 'affect the taxable amount of Social Security benefits received': ['If you elect to use the lump-sum election method for your benefits, you may be able to reduce the taxable amount of your Social Security benefits. See Lump-Sum Election in Pub. 915 for details.'], 'capital gain distributions from Form(s) 1099-DIV': ['If you received capital gain distributions from Form(s) 1099-DIV, you should report them on line 7 of Form 1040. If you have no capital losses and your only capital gains are capital gain distributions from Form(s) 1099-DIV, and none of the Form(s) 1099-DIV have an amount in box 2b, 2c, or 2d, you don\u2019t have to file Form 8949 or Schedule D.'], 'file Schedule D or Form 8949 for capital gain or loss': ['If you have capital gains or losses, you must file Schedule D, but you don\u2019t have to file Form 8949 if you meet certain conditions. See the instructions for Schedule D for more information.'], 'impact total income and adjusted gross income': ['Capital gain distributions and capital gains or losses from transactions reported on Schedule D or Form 8949 can impact your total income and adjusted gross income. You should include any capital gain distributions on line 7 of Form 1040 and report any capital gains or losses on Schedule D or Form 8949.'], 'claim the standard deduction or itemized deductions on Form 1040 or Form 1040-SR, respectively': ['You can claim the standard deduction or itemized deductions on Form 1040 or Form 1040-SR, respectively. If you made a section 962 election and are taking a deduction under section 250 with respect to any income inclusions under section 951A, don\u2019t report the deduction on line 12. Instead, report the tax with respect to a section 962 election on line 16 and include in the statement required by line 16 how you figured the section 250 deduction.']}"
+                    ]
+                },
+                {
+                    "key": "9c73997b-cde3-4c95-bd0e-9e2e01965c78",
+                    "prompt": "Question: What are the steps involved in resolving a large-scale tax problem affecting many taxpayers, and how can the Taxpayer Advocate Service and Low Income Taxpayer Clinics help in this process?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To resolve a large-scale tax problem affecting many taxpayers, the Taxpayer Advocate Service (TAS) and Low Income Taxpayer Clinics (LITCs) can assist in several ways. TAS can identify and report broad issues that affect multiple taxpayers through the Systemic Advocacy Management System (SAMS) and work to resolve them. Additionally, LITCs can represent individuals who meet certain income requirements and need help resolving tax problems with the IRS, including audits, appeals, and tax collection disputes. They can also provide information about taxpayer rights and responsibilities in different languages for individuals who speak English as a second language. To find an LITC near you, visit the LITC page at TaxpayerAdvocate.IRS.gov/LITCMap or call the IRS toll-free at 800-TAX-FORM (800-829-3676). Taxpayers can also provide feedback to the IRS through the Taxpayer Advocacy Panel (TAP) to improve customer service."
+                    ]
+                },
+                {
+                    "key": "a42b0378-5f1b-4a4d-b5f8-6ceb259cf2e9",
+                    "prompt": "Question: What is the process for reporting advance payments of the premium tax credit on a tax return in 2023, considering filing requirements, gross income thresholds, and potential additional taxes or recapture taxes, while taking into account different scenarios for single and married dependents, as well as special taxes, such as alternative minimum tax, and including details on how to locate the necessary forms and instructions?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To report advance payments of the premium tax credit on a tax return in 2023, first determine if you meet the filing requirements based on your age, blindness, unearned income, earned income, and gross income. Single dependents must file a return if their unearned income was over $1,250, earned income was over $13,850, or gross income was more than the larger of $1,250 or their earned income plus $400. Married dependents must file a return if their unearned income was over $1,250, earned income was over $13,850, gross income was at least $5 and their spouse files a separate return and itemizes deductions, or their gross income was more than the larger of $1,250 or their earned income plus $400. If you must file a return, you will need to report the advance payments of the premium tax credit on Form 1040 or 1040-SR. You should receive Form(s) 1095-A showing the amount of the advance payments. Additional taxes or recapture taxes may apply, such as alternative minimum tax, and you may need to complete additional schedules or forms, such as Schedule 2. You can visit IRS.gov for more information, forms, and instructions. Free File makes available free brand-name software and free e-file. Visit IRS.gov/FreeFile for details and to see if you are eligible."
+                    ]
+                },
+                {
+                    "key": "30bf0b0e-99cc-47d8-8683-17b358b18ce1",
+                    "prompt": "Question: How do you report a lump-sum benefit payment for an earlier year on your tax return, and how does the lump-sum election method work in relation to capital gains and losses, and what are the exceptions to reporting capital gains and losses on Form 8949 and Schedule D?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To report a lump-sum benefit payment for an earlier year on your tax return, you would include it on line 6a of Form 1040 and complete the Social Security Benefits Worksheet to determine if any part of the payment is taxable. If you elect to use the lump-sum election method, you may be able to reduce the taxable amount of the benefit payment by treating it as if it were received in the earlier year. However, this method does not apply to accrued leave payments received as a disability payment. Additionally, if you have capital gains and losses, you may need to file Form 8949 and Schedule D, unless certain exceptions apply, such as if you have no capital losses and your only capital gains are capital gain distributions from Form(s) 1099-DIV and none of the Form(s) 1099-DIV have an amount in box 2b, 2c, or 2d. If you do need to file Form 8949 and Schedule D, you must report your capital gains and losses, including capital gain distributions, capital loss carryovers from 2022, gains from Form 2439 or 6252 or Part I of Form 4797, gains or losses from Form 4684, 6781, or 8824, gains or losses from partnerships, S corporations, estates, or trusts, and gains and losses from transactions for which you received a Form 1099-B that shows basis was reported to the IRS and the QOF box in box 3 isn't checked, and you don't need to make any adjustments in column (g) of Form 8949 or enter any codes in column (f) of Form 8949. If you received capital gain distributions as a nominee, you would report only the amount that belongs to you on line 7 of Form 1040 and attach a statement showing the full amount you received and the amount you received as a nominee."
+                    ]
+                },
+                {
+                    "key": "233c8eb0-71f2-4aaa-9777-183ea32095a4",
+                    "prompt": "Question: How does one qualify for the Presidential Election Campaign Fund, and how does it affect one's tax return, given the requirements for nonresident aliens to obtain an ITIN, and the fact that an ITIN does not entitle one to social security benefits or change their employment or immigration status under U.S. law?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To qualify for the Presidential Election Campaign Fund, one must check the box on their tax return, which will direct $3 to the fund. If one is filing a joint return, their spouse can also contribute $3 to the fund. However, if one is a nonresident alien, they must have either an SSN or an ITIN to qualify for the fund. An ITIN can be obtained by applying for one, and it takes about 7 weeks to receive it. If one already has an ITIN, they must renew it if they haven't used it on a federal tax return at least once for tax years 2020, 2021, or 2022. An ITIN does not entitle one to social security benefits or change their employment or immigration status under U.S. law. The Presidential Election Campaign Fund does not affect one's tax return or refund."
+                    ]
+                },
+                {
+                    "key": "6a69d425-5f99-41df-adc6-7962c57d6996",
+                    "prompt": "Question: What information can be found in the 'Instructions for Schedule 1' section of the 2023 Form 1040 instructions, and how does it relate to the purpose of Schedule 3, Part I?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The 'Instructions for Schedule 1' section of the 2023 Form 1040 instructions provides guidance on how to report various types of income, including wages, salaries, tips, and self-employment income. This information is relevant to the purpose of Schedule 3, Part I, as it helps taxpayers determine which nonrefundable credits they may be eligible for, such as the earned income tax credit, American opportunity tax credit, or additional child tax credit. These credits are reported on Schedule 3, Part I, and can help reduce the amount of tax owed or increase the amount of refund received."
+                    ]
+                },
+                {
+                    "key": "f49944c3-2baf-4039-a09b-1b45d5c9eaa5",
+                    "prompt": "Question: What information must be included on Schedule EIC when claiming the Earned Income Credit (EIC) for a qualifying child who does not have a valid Social Security number, and how does the IRS determine the amount of the credit for such a child, and what are the consequences of recklessly or intentionally disregarding the EIC rules when claiming the credit?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "When claiming the Earned Income Credit (EIC) for a qualifying child who does not have a valid Social Security number, Schedule EIC must be completed and attached to the tax return, following the instructions provided by the IRS. The IRS determines the amount of the credit for such a child by using the information provided on Schedule EIC, and the credit may give a refund even if the taxpayer does not owe any tax or did not have any tax withheld. However, if it is determined that the taxpayer recklessly or intentionally disregarded the EIC rules when claiming the credit, they will not be allowed to take the credit for 2 years, and fraudulent claims can result in a 10-year ban on taking the credit, as well as penalties. Refunds for returns claiming the EIC are also subject to a delay until mid-February 2024."
+                    ]
+                },
+                {
+                    "key": "c5f8e5ac-6313-45eb-baa4-a1214739daca",
+                    "prompt": "Question: What information can be found in Schedule 3, Part III of Form 1040 or 1040-SR, and how does it relate to other parts of the form, such as Schedule 1, Part I, Schedule 2, Part I, and Schedule 2, Part II?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Schedule 3, Part III of Form 1040 or 1040-SR is used to report other taxes, such as self-employment tax, household employment taxes, additional tax on IRAs or other qualified retirement plans and tax-favorable accounts. This information is related to other parts of the form, such as Schedule 1, Part I, which reports income from wages, salaries, tips, and other taxable income, and Schedule 2, Part I, which reports taxes owed on unearned income, such as interest, dividends, and capital gains. Additionally, Schedule 2, Part II, reports other taxes, such as the alternative minimum tax, and Schedule 3, Part III, reports other taxes that cannot be reported on Schedule 2, such as self-employment tax and household employment taxes. All of this information is used to calculate the total tax liability of the taxpayer, which is reported on the main form."
+                    ]
+                },
+                {
+                    "key": "d717ea60-616a-4ed3-a4f6-bfce27725a03",
+                    "prompt": "Question: What are the different filing requirements and extensions for U.S. citizens, resident aliens, nonresident aliens, and dual-status aliens, and how do I determine if I qualify for an automatic extension of time to file without filing Form 4868, and what are the consequences of not paying my tax by the original due date of my return?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "U.S. citizens and resident aliens must file Form 1040 or 1040-SR by April 15, 2024, while nonresident aliens and dual-status aliens have different filing requirements and may have to file Form 1040-NR. If you are unable to file on time, you can get an automatic 6-month extension by filing Form 4868, but interest will be charged on any unpaid tax. If you qualify, you may also be able to get an additional 4-month extension. However, if you don't pay your tax by the original due date of your return, you will owe interest and may owe penalties. To determine if you qualify for an automatic extension without filing Form 4868, you must meet certain conditions, such as living outside the United States and Puerto Rico or being in military or naval service on duty outside the United States and Puerto Rico. It is important to carefully review the instructions for Form 1040 and 1040-SR, as well as Pub. 519, for more information on filing requirements and extensions for U.S. citizens, resident aliens, nonresident aliens, and dual-status aliens."
+                    ]
+                },
+                {
+                    "key": "0b9a94ac-4286-4ac4-bc66-e95354b3c31c",
+                    "prompt": "Question: What form should you use if you have additional income, such as business or farm income or loss, unemployment compensation, or prize or award money, and you also have any adjustments to income, such as student loan interest, self-employment tax, or educator expenses, and you can claim a refundable credit, such as the net premium tax credit, and you have other payments, such as an amount paid with a request for an extension to file or excess social security tax withheld, and you owe alternative minimum tax (AMT) or need to make an excess advance premium tax credit repayment, and you can claim a nonrefundable credit, such as the foreign tax credit, education credits, or general business credit, and you owe other taxes, such as self-employment tax, household employment taxes, additional tax on IRAs or other qualified retirement plans and tax-favored accounts?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "You should use Form 1040 or Form 1040-SR, and you may need to complete Schedule 1, Part I, Schedule 1, Part II, Schedule 2, Part I, Schedule 3, Part I, Schedule 2, Part II, and Schedule 3, Part III."
+                    ]
+                },
+                {
+                    "key": "7dc114dc-fb35-4182-ade2-b9d842ca1965",
+                    "prompt": "Question: What are the conditions that must be met for a taxpayer to be eligible to claim the standard deduction, and how can they ensure they meet these conditions, given the various factors that may affect their eligibility such as filing status, age, blindness, and the death of a spouse or taxpayer in 2023?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To be eligible to claim the standard deduction, a taxpayer must meet certain conditions, which may vary depending on their filing status, age, blindness, and other factors. If the taxpayer is filing Form 1040-SR, they can use the Standard Deduction Chart on the last page of the form to calculate their standard deduction in most situations. However, if the taxpayer or their spouse (if filing jointly) can be claimed as a dependent on someone else's return, they must check the appropriate box in the Standard Deduction section. Additionally, if the taxpayer or their spouse were born before January 2, 1959, or were blind at the end of 2023, they must check the appropriate boxes on the line labeled 'Age/Blindness.' If the taxpayer's spouse died in 2023, certain rules apply regarding their eligibility for the standard deduction. Taxpayers who were born before January 2, 1959, and died in 2023, are considered to reach age 65 on the day before their 65th birthday. If a taxpayer is preparing a return for someone who died in 2023, they should see Pub. 501 for more information before completing the standard deduction information. Furthermore, if a taxpayer wasn't totally blind as of December 31, 2023, they must get a statement certified by their eye doctor (ophthalmologist or optometrist) that states their vision cannot be improved beyond 20/200 in their better eye with glasses or contact lenses, or their field of vision is 20 degrees or less. The statement must be kept for their records. If a taxpayer receives a notice or letter and prefers it in Braille or large print, they can use Form 9000 to request notices in an alternative format. Married taxpayers filing separately whose spouse itemizes deductions on their return must check the 'Spouse itemizes on a separate return or you were a dual-status alien' box. If a taxpayer's spouse was born before January 2, 1959, or was blind at the end of 2023, and had no income, is not filing a return, and cannot be claimed as a dependent on another person's return, the taxpayer can check the appropriate boxes on the line labeled 'Age/Blindness' if they are filing separately and their spouse is not filing a return. Taxpayers can visit IRS.gov for more information or forms."
+                    ]
+                },
+                {
+                    "key": "26acd5ea-9438-4336-a5c7-77bb8a7b7ba2",
+                    "prompt": "Question: What are the consequences of recklessly or intentionally disregarding the EIC rules, and how does it affect my ability to claim the credit in the future?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If it is determined that your error in claiming the EIC is due to reckless or intentional disregard of the EIC rules, you won't be allowed to take the credit for 2 years even if you are otherwise eligible to do so. Additionally, if you fraudulently take the EIC, you won't be allowed to take the credit for 10 years. You may also have to pay penalties. It's important to carefully follow the instructions and ensure you meet the eligibility requirements before claiming the EIC to avoid these consequences."
+                    ]
+                },
+                {
+                    "key": "764e67ed-aa1b-4beb-bd4e-0d804a106160",
+                    "prompt": "Question: What are the steps to take in order to renew an expired ITIN, and how does one go about obtaining a new ITIN if they are not eligible for an SSN, while also considering the impact of a name or SSN discrepancy on tax credits and deductions, and the requirement for a nonresident alien spouse to have an SSN or ITIN if filing jointly, and the option to contribute $3 to the Presidential Election Campaign Fund when filing a joint return?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To renew an expired ITIN, you can find more information at IRS.gov/ITIN. If you are not eligible for an SSN, you must apply for an ITIN. It takes about 7 weeks to get an ITIN. If you already have an ITIN, enter it wherever your SSN is requested on your tax return. Some ITINs must be renewed. If you haven't used your ITIN on a federal tax return at least once for tax years 2020, 2021, or 2022, it has expired and must be renewed if you need to file a federal tax return. You don't need to renew your ITIN if you don't need to file a federal tax return. If you previously submitted a renewal application and it was approved, you do not need to renew again unless you haven't used your ITIN on a federal tax return at least once for tax years 2020, 2021, or 2022. An ITIN is for tax use only. It doesn't entitle you to social security benefits or change your employment or immigration status under U.S. law. For more information on ITINs, including application, expiration, and renewal, see Form W-7 and its instructions. If you receive an SSN after previously using an ITIN, stop using your ITIN. Use your SSN instead. Visit a local IRS office or write a letter to the IRS explaining that you now have an SSN and want all your tax records combined under your SSN. Details about what to include with the letter and where to mail it are at IRS.gov/ITIN. Nonresident Alien Spouse If your spouse is a nonresident alien, your spouse must have either an SSN or an ITIN if: \u2022You file a joint return, or \u2022Your spouse is filing a separate return. Presidential Election Campaign Fund This fund helps pay for Presidential election campaigns. The fund reduces candidates' dependence on large contributions from individuals and groups and places candidates on an equal financial footing in the general election. The fund also helps pay for pediatric medical research. If you want $3 to go to this fund, check the box. If you are filing a joint return, your spouse can also have $3 go to the fund. If you check a box, your tax or refund won't change."
+                    ]
+                },
+                {
+                    "key": "8d404afc-16a8-4a03-a70c-74d941db07b8",
+                    "prompt": "Question: How can a nonresident alien who has been issued an SSN but has not used it on a federal tax return at least once for tax years 2020, 2021, or 2022, and whose ITIN has expired, renew their ITIN and ensure that their tax return is filed correctly, while also contributing $3 to the Presidential Election Campaign Fund?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A nonresident alien in this situation can renew their expired ITIN by submitting a Form W-7 and supporting documentation to the IRS. They should also file their tax return using their renewed ITIN and check the box to contribute $3 to the Presidential Election Campaign Fund. It is important to note that an ITIN does not entitle the individual to social security benefits or change their employment or immigration status under U.S. law."
+                    ]
+                },
+                {
+                    "key": "2c13f163-7d40-4491-92d8-213c1c1c5759",
+                    "prompt": "Question: What is the total amount of capital gain distributions you received from Form(s) 1099-DIV, box 2a, that you need to report on line 7 of Form 1040, and how do you know if you have to file Schedule D and/or Form 8949, and how do you figure your standard deduction or itemized deductions, and what should you do if you made a section 962 election and are taking a deduction under section 250 with respect to any income inclusions under section 951A?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To figure the total amount of capital gain distributions you received from Form(s) 1099-DIV, box 2a, that you need to report on line 7 of Form 1040, you need to look at the amounts listed on the forms. If you have to file Schedule D, you will also need to complete Form 8949. To determine if you have to file Schedule D and/or Form 8949, you need to check if you have any capital losses, and if you do, you will need to file Schedule D. If you do not have any capital losses, and your only capital gains are capital gain distributions from Form(s) 1099-DIV, box 2a, and none of the Form(s) 1099-DIV have an amount in box 2b, 2c, or 2d, then you do not have to file Form 8949 or Schedule D. To figure your standard deduction or itemized deductions, you will need to fill out Schedule A. If you made a section 962 election and are taking a deduction under section 250 with respect to any income inclusions under section 951A, you should report the tax with respect to a section 962 election on line 16 and include in the statement required by line 16 how you figured the section 250 deduction."
+                    ]
+                },
+                {
+                    "key": "059d4c3b-1f94-4bc1-b31b-bb0dd31fb89b",
+                    "prompt": "Question: What are the different ways to contact the Taxpayer Advocate Service (TAS) if you are experiencing financial difficulties due to a tax problem and need help resolving the issue, and how can you learn about your taxpayer rights and find Low Income Taxpayer Clinics (LITCs) that can represent you in audits, appeals, and tax collection disputes before the IRS and in court?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To reach TAS, you can call their toll-free number at 877-777-4778, visit their website at TaxpayerAdvocate.IRS.gov/contact-us, download Publication 1546, Taxpayer Advocate Service Is Your Voice at the IRS, or check your local directory for TAS offices in your state, the District of Columbia, or Puerto Rico. Additionally, you can find information on taxpayer rights and LITCs on the TAS website, TaxpayerAdvocate.IRS.gov, or by calling the IRS toll-free at 800-TAX-FORM (800-829-3676). LITCs can help resolve tax problems with the IRS and provide information about taxpayer rights and responsibilities in different languages for individuals who speak English as a second language. Services are offered for free or a small fee. To find an LITC near you, see the LITC page at TaxpayerAdvocate.IRS.gov/LITCMap or IRS Publication 4134, Low Income Taxpayer Clinic List, which is available online at IRS.gov/Forms-Pubs or by calling the IRS toll-free at 800-TAX-FORM (800-829-3676)."
+                    ]
+                }
+            ]
+        }
+    ]
+}

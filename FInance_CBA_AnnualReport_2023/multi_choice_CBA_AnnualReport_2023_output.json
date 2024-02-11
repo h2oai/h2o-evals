@@ -1,0 +1,1178 @@
+{
+    "tests": [
+        {
+            "key": "076d1fa8-0c26-4a1e-9f16-c85840f124ff",
+            "documents": [
+                "2023Q1_alphabet_earnings_release.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "74ed31fb-c0ed-40b7-97ff-7e5020112c3b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the bank that released the 2023 Annual Report?\nHow do you respond?\nA. Commonwealth Bank of Australia\nB. BlueScope Steel Ltd\nC. TXU Energy\nD. Coles Group Limited\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dcff449b-c52f-4b76-a03d-e6f6b3adfe07",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the document that contains the Financial Statements for the years ended 30 June 2021, 2022, and 2023?\nHow do you respond?\nA. Commonwealth Bank of Australia Financial Report (US Version) - Year Ended 30 June 2023\nB. Commonwealth Bank of Australia Financial Report (US Version) \u2013 Year Ended 30 June 2022\nC. Basel III Pillar 3 Capital Adequacy and Risk Disclosures as at 30 June 2023\nD. Melbourne Cricket Ground Trust\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "cfca881d-6ea1-4ffd-b0bf-0f7e099b8782",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Managing Director and Chief Executive Officer of Commonwealth Bank of Australia?\nHow do you respond?\nA. Paul O'Malley\nB. Matt Comyn\nC. Catherine Livingstone\nD. Coles Group Limited\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "db83d771-15b2-40a7-a3e6-419ad989912e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Chair of the Board of Directors of Commonwealth Bank of Australia?\nHow do you respond?\nA. Paul O'Malley\nB. Matt Comyn\nC. Catherine Livingstone\nD. None of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6683d252-5f99-4ebb-8db0-4938139fcf7e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the website where the Commonwealth Bank of Australia Basel III Pillar 3 Capital Adequacy and Risk Disclosures as at 30 June 2023 can be found?\nHow do you respond?\nA. US Investor Website\nB. Commonwealth Bank of Australia Website\nC. Melbourne Cricket Ground Trust\nD. Financial Markets Foundation for Children\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "98ccd1ed-5779-4893-82fb-bb28ca5a9e6f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: When did Catherine Livingstone retire as Chairman and a Non-Executive Director of Commonwealth Bank of Australia?\nHow do you respond?\nA. 10 August 2022\nB. 9 April 2018\nC. 1 January 2019\nD. 30 June 2023\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "eab67aaf-5ccb-4cca-8129-1b35652dd632",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the city where the registered office of Commonwealth Bank of Australia is located?\nHow do you respond?\nA. Sydney\nB. Melbourne\nC. Dallas\nD. New York\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9d1c3a70-6d12-4fc6-bd5f-d3a13baf68af",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the document that contains the Financial Statements for the years ended 30 June 2020, 2021, and 2022, and as at 30 June 2021 and 2022?\nHow do you respond?\nA. Commonwealth Bank of Australia Financial Report (US Version) - Year Ended 30 June 2023\nB. Commonwealth Bank of Australia Financial Report (US Version) \u2013 Year Ended 30 June 2022\nC. Basel III Pillar 3 Capital Adequacy and Risk Disclosures as at 30 June 2023\nD. Melbourne Cricket Ground Trust\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5c81957b-6958-496e-9a3a-4d47ff17ba23",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Managing Director and Chief Executive Officer of App Finance?\nHow do you respond?\nA. Paul O'Malley\nB. Matt Comyn\nC. Genevieve Bell\nD. Lyn Cobley\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "56246600-eba8-4983-8e97-a80e9052bda8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Chairman of the Board of Directors of App Finance?\nHow do you respond?\nA. Paul O'Malley\nB. Matt Comyn\nC. Catherine Livingstone\nD. Genevieve Bell\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f3b1905c-4a19-4c86-9987-635e00d992c8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the committee that Matt Comyn chairs?\nHow do you respond?\nA. Nominations\nB. Audit\nC. People & Remuneration\nD. Risk & Compliance\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "3fcf9a70-2c4b-44aa-b921-6146a186e5b0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who retired as Chairman and a Non-Executive Director of App Finance on 10 August 2022?\nHow do you respond?\nA. Paul O'Malley\nB. Catherine Livingstone\nC. Matt Comyn\nD. Lyn Cobley\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9e224d01-a51e-46cd-853f-db12859cb427",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who retired as a Non-Executive Director of App Finance on 12 October 2022?\nHow do you respond?\nA. Catherine Livingstone\nB. Shirish Apte\nC. Matt Comyn\nD. Lyn Cobley\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "40c00853-2d4c-42ac-add7-2ea05db3ffe5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Genevieve Bell's profession?\nHow do you respond?\nA. Cultural anthropologist\nB. Technologist\nC. Futurist\nD. Banking and financial services leader\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e1bae725-3ee6-4392-9aad-53c82fefc404",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Lyn's experience in the financial industry?\nHow do you respond?\nA. She has over 30 years of experience in senior positions at Australian and global banks.\nB. She has experience in investment banking and audit.\nC. She has over 22 years of experience in banking across business, institutional, and retail.\nD. She has experience as a cultural anthropologist, technologist, and futurist.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "85de04e5-7af6-4eda-8530-39fca52fec7e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Paul O'Malley's background in finance and accounting?\nHow do you respond?\nA. Investment banking and audit\nB. Business, institutional, and retail banking\nC. Technology and digital products\nD. Financial risk management, leadership, and culture\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "892dcb31-d28d-4c2d-beb8-ced23d203a0d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Matt Comyn's experience in banking?\nHow do you respond?\nA. 22 years' experience in banking across business, institutional, and retail.\nB. 10 years' experience as Managing Director and Chief Executive Officer of BlueScope Steel Ltd.\nC. 18 years' experience working at Intel Corporation in Silicon Valley, including as Vice President.\nD. 30 years' experience in senior positions at Australian and global banks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2ed16de1-8520-4097-a65b-29af72d85803",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the online share trading business that Matt Comyn oversaw?\nHow do you respond?\nA. CommSec\nB. Westpac Institutional Bank\nC. TXU Energy\nD. Coles Group Limited\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1a3982a8-d25b-4d89-98e1-9afd058c261e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the university where Genevieve Bell is a Distinguished Professor?\nHow do you respond?\nA. Australian National University\nB. University of Melbourne\nC. University of Sydney\nD. Harvard University\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "30c8546a-449d-475e-80fc-e6b58fa14a5b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Lyn Cobley's professional background?\nHow do you respond?\nA. Risk management, leadership, and culture in a highly regulated environment\nB. Financial services, strategy, risk, and regulatory experience\nC. Technology, process effectiveness, and business strategy\nD. Insurance, customer service, and innovation\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9fb39430-4eba-4193-8ca5-1215bb7a82e4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Julie Galbo's professional background?\nHow do you respond?\nA. Risk management, leadership, and culture in a highly regulated environment\nB. Technology, process effectiveness, and business strategy\nC. Insurance, customer service, and innovation\nD. Banking, strategy, risk, and regulatory experience\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "57343082-951e-4f37-a868-230675cbcc19",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Peter Harmer's professional background?\nHow do you respond?\nA. Risk management, leadership, and culture in a highly regulated environment\nB. Financial services, strategy, risk, and regulatory experience\nC. Technology, process effectiveness, and business strategy\nD. Insurance, customer service, and innovation\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e87f52ab-b1aa-47a2-8ae0-a5ca39b4fa8b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Simon Moutter's professional background?\nHow do you respond?\nA. Financial services\nB. Technology and business strategy\nC. Risk management and sustainability financing\nD. Insurance and customer service\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5754413f-c6dd-4e3f-b15f-3edab79ff7ef",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Lyn Cobley's current role at Macquarie University?\nHow do you respond?\nA. Council member and Chair of the finance and facilities committee\nB. Member of the faculty of the Board Academy\nC. Deputy Director General of the Danish Financial Services Authority\nD. Chairman of the board of Fundamental Fondsm\u00e6glerselskab A/S\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ffdcabc9-d083-4922-9ac0-339a5c053762",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Julie Galbo's current role at Copenhagen Business School?\nHow do you respond?\nA. Member of the faculty of the Board Academy\nB. Chair of the advisory council of the International Association of Credit Portfolio Managers\nC. Senior Advisor to the European Union Global AML/CFT Facility\nD. Dean of Copenhagen Business School\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "51fbbb4c-a996-424e-a06d-0926189a6397",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Peter Harmer's current role with Lawcover Insurance Pty Limited?\nHow do you respond?\nA. Managing Director\nB. Chief Executive Officer\nC. Director\nD. Member of the Board\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "1d2df083-e57e-47f8-bba7-f86c7818b062",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Simon Moutter's current role with Smart Environmental Group Ltd?\nHow do you respond?\nA. Chief Executive Officer\nB. Chairman\nC. Managing Director\nD. Executive Director\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a4e6f5b5-ae50-42f5-8469-9740fc233448",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many years of experience does Lyn Cobley have in financial markets?\nHow do you respond?\nA. 20 years\nB. 10 years\nC. 30 years\nD. 40 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f8ddbdcf-7c52-4dea-928d-6f38174a124b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Julie Galbo's educational background?\nHow do you respond?\nA. BEc, GAICD\nB. LLM, Executive Management Program (INSEAD)\nC. Harvard Advanced Management Program\nD. Bachelor of Arts\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "081d30fb-20c5-4957-9ce2-71d47d0e384a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Peter Harmer's educational background?\nHow do you respond?\nA. Harvard Advanced Management Program\nB. BEc, GAICD\nC. LLM, Executive Management Program (INSEAD)\nD. None of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c7a7651f-faff-420a-95df-2ad883a34e2d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Simon Moutter's current role?\nHow do you respond?\nA. Managing Director of Spark New Zealand\nB. Chairman of three privately owned businesses - Smart Environmental Group Ltd, Les Mills International Ltd, and Designer Wardrobe Ltd.\nC. Chief Executive Officer of Auckland International Airport\nD. Global Vice Chairman of Ashurst LLP\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a132f8bd-8510-40f3-ae13-77c84fff6438",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Mary Padbury's current role?\nHow do you respond?\nA. Chairman of Ashurst Australia\nB. Chairman of the Macfarlane Burnet Institute for Medical Research and Public Health Ltd\nC. Managing Director and Chief Executive Officer of Insurance Australia Group Ltd\nD. Chief Executive Officer of Auckland International Airport\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "29bc9fd0-3515-4ef3-9bab-57825af53f66",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Chairman of three privately owned businesses?\nHow do you respond?\nA. Simon Moutter\nB. Mary Padbury\nC. Peter Harmer\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "053f8009-a811-40cd-9c14-9619139a80e8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Peter Harmer's current role?\nHow do you respond?\nA. Managing Director and Chief Executive Officer of Insurance Australia Group Ltd (IAG)\nB. Executive Mentor with Merryck & Co ANZ and a member of the Bain Advisory Council\nC. Director of Lawcover Insurance Pty Limited\nD. Independent Non-Executive Director\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "496c3778-2a13-4709-8ae8-22c9560c12e0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was Mary Padbury's previous role before her retirement?\nHow do you respond?\nA. Chairman of Ashurst Australia\nB. Managing Director and Chief Executive Officer of Insurance Australia Group Ltd\nC. Chief Executive Officer of Auckland International Airport\nD. Partner of Ashurst\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "d6f3c1e1-5a8a-4804-a6ea-df4fc97ce559",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Chairman of the Macfarlane Burnet Institute for Medical Research and Public Health Ltd?\nHow do you respond?\nA. Simon Moutter\nB. Mary Padbury\nC. Peter Harmer\nD. Les Mills International Ltd\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6baa9780-3761-4ccf-b21c-3f6877f231de",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Simon Moutter's previous experience?\nHow do you respond?\nA. Former Chief Executive Officer of Auckland International Airport and senior management roles in telecommunications and energy companies.\nB. Managing Director and Chief Executive Officer of Insurance Australia Group Ltd (IAG) and Chief Executive Officer of AON Ltd UK.\nC. Chairman of three privately owned businesses \u2013 Smart Environmental Group Ltd, Les Mills International Ltd and Designer Wardrobe Ltd.\nD. Chairman of the Macfarlane Burnet Institute for Medical Research and Public Health Ltd, member of Chief Executive Women, Board member of the Brandenburg Ensemble (Australian Brandenburg Orchestra), the Richmond Football Club and its wholly owned subsidiary, Aligned Leisure Pty Ltd.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ddf247a9-9120-4ea2-8a5d-8c8fab261e84",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Managing Director of Spark New Zealand?\nHow do you respond?\nA. Simon Moutter\nB. Peter Harmer\nC. Mary Padbury\nD. Davis\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8a1baf90-d7a5-4858-b88d-5fb44f8d64cd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Peter Harmer's area of expertise?\nHow do you respond?\nA. Technology, process effectiveness, and business strategy. (Correct)\nB. Insurance, customer service, and innovation.\nC. Intellectual property, governance, and medical research.\nD. Environmental, social, and governance practices.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "151b675c-90fb-4070-8ab5-a6c66be20869",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Mary Padbury's area of expertise?\nHow do you respond?\nA. Technology\nB. Risk management\nC. Intellectual property and trade practices law\nD. Customer service and innovation\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "ea20b233-b6da-4863-b182-3c1cf36f1a78",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the Group's statutory net profit after tax for the financial year ended 30 June 2023?\nHow do you respond?\nA. $10,188 million\nB. $10,090 million\nC. $10,164 million\nD. $9,673 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "da27ba39-f75b-4361-9af9-fffdcbf20ce8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the increase in total operating income for the financial year ended 30 June 2023?\nHow do you respond?\nA. 10%\nB. 5%\nC. 7%\nD. 4%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a9eae922-b0ef-41b6-bfe6-572e2527e5db",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the increase in operating expenses for the financial year ended 30 June 2023?\nHow do you respond?\nA. 4%\nB. 5%\nC. 6%\nD. 7%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "388732d4-0acd-42ad-b48f-64b269bbe1e8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the increase in loan impairment expense for the financial year ended 30 June 2023?\nHow do you respond?\nA. $1,465 million.\nB. $515 million.\nC. $474 million.\nD. $569 million.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1839fe67-5fae-40fa-87fb-4c8917e7c571",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the statutory net loss after tax from discontinued operations for the financial year ended 30 June 2023?\nHow do you respond?\nA. $98 million\nB. $1,098 million\nC. $1,465 million\nD. $515 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1312e23e-84c0-41b3-b4db-6b7c2bb374ee",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the cash net profit after tax including discontinued operations for the year ended 30 June 2023?\nHow do you respond?\nA. $10,164 million.\nB. $10,182 million.\nC. $10,090 million.\nD. $10,771 million.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8aac3d8b-a942-45c7-95f6-7347cf098190",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the increase in cash net profit after tax excluding discontinued operations for the year ended 30 June 2023?\nHow do you respond?\nA. $474 million\nB. $569 million\nC. $1,465 million\nD. $515 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b2108e2d-9da9-4ef7-8fff-29cbb4ef4db3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the non-cash items included in statutory net profit after tax?\nHow do you respond?\nA. Gain/(loss) on acquisition, disposal, closure, and demerger of businesses and associates (classified as discontinued operations), Hedging and IFRS volatility.\nB. Gain/(loss) on acquisition, disposal, closure, and demerger of businesses and associates (classified as discontinued operations), Hedging and IFRS volatility, Assets and liabilities.\nC. Gain/(loss) on acquisition, disposal, closure, and demerger of businesses and associates (classified as discontinued operations), Hedging and IFRS volatility, Deposits.\nD. Gain/(loss) on acquisition, disposal, closure, and demerger of businesses and associates (classified as discontinued operations), Hedging and IFRS volatility, Debt issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "492afcd1-9f55-4788-a055-041f3beb11f4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the increase in home loans for the financial year ended 30 June 2023?\nHow do you respond?\nA. $17 billion or 7%\nB. $30 billion or 5%\nC. $41 billion or 5%\nD. $5 billion or 5%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4bbe4012-0cdd-41d9-92b8-dea65e191314",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the increase in deposits for the financial year ended 30 June 2023?\nHow do you respond?\nA. $41 billion or 5%\nB. $5 billion or 5%\nC. $30 billion or 5%\nD. $17 billion or 7%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "54997aa4-7b53-4c16-afda-8042ccb9fe62",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of investments in and loans to controlled entities as of June 30, 2023?\nHow do you respond?\nA. $8,623\nB. $54,636\nC. $124 million\nD. $150 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f8e7f40b-6b7a-455f-80a3-2eb45760943a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the professional indemnity insurance policy issued by one of the Bank's subsidiaries to the Group's controlled entities?\nHow do you respond?\nA. To cover potential remediation of ongoing service failures to customers, inappropriate advice, and other matters.\nB. To cover the Bank's aggregate investments in and loans to controlled entities.\nC. To insure the Bank's loans to controlled entities at amortized cost.\nD. To insure the Bank's loans to controlled entities at fair value through the income statement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c34e7ae8-0963-42c3-9cef-f032e836448e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount insured under the professional indemnity insurance policy as of June 30, 2023?\nHow do you respond?\nA. $124 million\nB. $174 million\nC. $150 million\nD. $535 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dbc4fcb5-cc4a-4f79-8426-ebea3131f5fd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the tax funding agreement between the Bank and its tax consolidated entities?\nHow do you respond?\nA. To provide loans to controlled entities at amortized cost.\nB. To cover potential remediation of ongoing service failures to customers, inappropriate advice, and other matters.\nC. To share tax liabilities and receivables among the tax consolidated entities.\nD. To provide professional indemnity insurance to the Group's controlled entities holding an Australian Financial Services or Australian Credit license.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "95a40f2e-1fc6-4e66-93c4-03d5e4c59eb6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the amount receivable by the Bank under the tax funding agreement with tax consolidated entities as of June 30, 2023?\nHow do you respond?\nA. $190 million\nB. $202 million\nC. $124 million\nD. $174 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "678edc71-4fb7-44fb-81f8-97b4200c5221",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the uncertainty regarding the outcomes and total costs associated with regulatory actions and reviews that the Board is monitoring?\nHow do you respond?\nA. The outcomes and total costs associated with such regulatory actions and reviews, and possible claims remain uncertain.\nB. The outcomes and total costs associated with such regulatory actions and reviews, and possible claims are certain.\nC. The outcomes and total costs associated with such regulatory actions and reviews, and possible claims are not uncertain.\nD. The outcomes and total costs associated with such regulatory actions and reviews, and possible claims are not monitored by the Board.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "58f7b3b4-f7fa-4f5d-a7e6-4c4811f33120",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the nature of the litigation and regulatory matters referred to in the text?\nHow do you respond?\nA. Prosecution under a statute that proscribes any attempt to commit murder.\nB. Defense of ten class actions\nC. Modern Slavery Act 2018 (Cth)\nD. National Greenhouse and Energy Reporting (NGER) scheme.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "079db59f-6b24-424a-9ee9-8330dcac7239",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the change in the state of affairs of the Group during the financial year related to the Board of Directors?\nHow do you respond?\nA. Changes in the Board's composition.\nB. Changes in the nature of principal activities.\nC. Changes in the state of affairs of the Group related to litigation and regulatory matters.\nD. No changes occurred in the state of affairs of the Group related to the Board of Directors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1d1bf53c-fa7e-4c86-a2c9-570cae8760b3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the fully franked final dividend per share amounting to $4,023 million that the Directors have determined?\nHow do you respond?\nA. 240 cents per share\nB. 300 cents per share\nC. 400 cents per share\nD. 500 cents per share\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e6fea0f5-0d16-41b9-aab5-a28560cfd469",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Dividend Reinvestment Plan (DRP) for the final dividend for the year ended 30 June 2023?\nHow do you respond?\nA. To ensure that the Group meets the NGER requirements.\nB. To provide shareholders with an opportunity to reinvest their dividends in additional shares of the company.\nC. To mitigate modern slavery and human trafficking risks in the Group's operations and supply chain.\nD. To defend ten class actions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9f79c44f-46e2-49ee-81a9-34396c586a7a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the amount of the on-market purchase of shares that the Bank expects to satisfy the Dividend Reinvestment Plan (DRP) for the final dividend?\nHow do you respond?\nA. $3 billion\nB. $700 million\nC. $1 billion\nD. $4,023 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e903a251-294d-4c6b-bd24-032fdaa76b0f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the National Greenhouse and Energy Reporting (NGER) scheme?\nHow do you respond?\nA. To regulate the greenhouse gas emissions, energy production, and energy consumption of corporations.\nB. To provide financial assistance to corporations that exceed certain threshold levels of greenhouse gas emissions.\nC. To monitor and report on the environmental impact of corporations operating in Australia.\nD. To promote sustainable practices and reduce carbon footprints of corporations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "08b7ef23-64f4-43d0-b5d9-0beb08facd6f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus of the Group's sustainability reporting?\nHow do you respond?\nA. The Group's efforts to reduce its carbon footprint and energy consumption.\nB. The Group's compliance with modern slavery and human trafficking regulations.\nC. The Group's approach to managing environmental risks and impacts.\nD. The Group's efforts to promote ethical practices in its supply chain.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "16b76249-d767-410c-a002-efafdfb68605",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can further detail on the Group's disclosures related to modern slavery and human trafficking be found?\nHow do you respond?\nA. Note 7.1 in the Financial report on pages 114-117\nB. The Financial report on pages 2-5\nC. The Modern Slavery and Human Trafficking statement at commbank.com.au/sustainabilityreporting8\nD. The Board of Directors section on pages 2-5\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "1dcbba30-f6d6-4403-a1d4-6fcfe5ff31f9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the wealth remediation provision included in the text?\nHow do you respond?\nA. An estimate of customer refunds relating to certain superannuation and other products, and the related program costs.\nB. A settlement reached with no admissions as to liability regarding the Bankwest class action.\nC. Payment of a penalty of $700 million and legal costs concerning contraventions of the Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (Cth).\nD. Compensation for losses allegedly suffered by CBA shareholders who acquired an interest in CBA shares between 16 June 2014 and 3 August 2017.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "412a80bd-7256-4a37-8711-2a5523e47999",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main litigated claim against the Group as at 30 June 2023?\nHow do you respond?\nA. Bankwest class action\nB. Shareholder class actions\nC. Superannuation class actions\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "29c5596c-7228-4c13-84bf-d0bd07ecc2dd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the status of the Bankwest class action settlement?\nHow do you respond?\nA. The settlement is still subject to court approval.\nB. The Group does not expect to incur a loss as a result of the settlement.\nC. The settlement has been approved by the court.\nD. The Group has not provided for the legal costs expected to be incurred in this matter.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fb64f583-5a9d-4ccf-81a2-63b72fdd3c30",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are there any shareholder class actions against the Group?\nHow do you respond?\nA. Yes, there is one shareholder class action against the Group.\nB. No, there are no shareholder class actions against the Group.\nC. Yes, there are two shareholder class actions against the Group.\nD. Yes, there are three shareholder class actions against the Group.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "edce1316-e54f-48f5-9bb0-d750acdc9599",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is the Group defending the shareholder class actions?\nHow do you respond?\nA. Yes, the Group is defending the shareholder class actions.\nB. No, the Group is not defending the shareholder class actions.\nC. The Group is defending one of the shareholder class actions.\nD. The Group is not defending any of the shareholder class actions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "cb726c87-918c-4d2b-82f9-e3cf16080c4c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are there any class actions related to superannuation products?\nHow do you respond?\nA. Yes, there is a class action related to superannuation products.\nB. No, there are no class actions related to superannuation products.\nC. Yes, there are two class actions related to superannuation products.\nD. Yes, there are three class actions related to superannuation products.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "41a836c0-dc6b-4fa0-bd1f-bf5217553392",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main claim made in the first superannuation class action?\nHow do you respond?\nA. Members received lower interest rates than they could have received had CFSIL/AIL offered similar products made available in the market by another bank with comparable risk.\nB. CFSIL/AIL retained the margin that arises through the internal transfer pricing process in respect of deposits made with CBA, for their own benefit.\nC. CFSIL/AIL breached their duties as a trustee of the funds, CFSIL breached its duties as a Responsible Entity of the underlying managed investment schemes, and CBA was involved in CFSIL/AIL's breaches.\nD. Members suffered losses as a result of the alleged conduct.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f62e9ea6-4438-4a28-9110-287c84aff540",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the status of the first superannuation class action?\nHow do you respond?\nA. It has been settled, with the Group providing for the legal costs expected to be incurred.\nB. It is currently being defended by the Group, with a trial taking place in November and December 2022 and judgement reserved.\nC. It has been dismissed by the court.\nD. It is still in the mediation process, with a court-ordered deadline of June 14, 2024.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "7e3a854f-7a4b-4a10-b285-4a21dbd6a88a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the legislation that requires the Group to report on greenhouse gas emissions, energy production, and energy consumption?\nHow do you respond?\nA. National Greenhouse and Energy Reporting (NGER) scheme.\nB. Modern Slavery Act 2018 (Cth).\nC. Environment Protection and Biodiversity Conservation Act 1999 (Cth).\nD. Climate Change (National Framework for Adaptation and Mitigation) Act 2020 (Cth).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3679c639-56e0-448e-a229-276b1ecdc4e4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is the Group subject to any other significant environmental reporting regulations under the law of the Commonwealth or a State or Territory of Australia?\nHow do you respond?\nA. Yes, the Group is subject to the Environment Protection and Biodiversity Conservation Act 1999 (Cth).\nB. No, the Group is not subject to any other significant environmental reporting regulations under the law of the Commonwealth or a State or Territory of Australia.\nC. Yes, the Group is subject to the Climate Change (National Framework for Adaptation and Mitigation) Act 2020 (Cth).\nD. Yes, the Group is subject to the Environmental Planning and Assessment Act 1979 (NSW).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "83746bf7-1dd7-4eca-a7ca-76150fdf3cec",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the legislation that requires the Group to report on modern slavery and human trafficking risks in its operations and supply chain?\nHow do you respond?\nA. Modern Slavery Act 2018 (Cth)\nB. National Greenhouse and Energy Reporting (NGER) scheme\nC. UK Modern Slavery Act 2015\nD. Environmental Reporting Regulations 2023\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d1c978f9-c84f-4dee-a30e-51fd064512d8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many times did the Board of the Commonwealth Bank of Australia meet during the year ended 30 June 2023?\nHow do you respond?\nA. 10 times\nB. 5 times\nC. 12 times\nD. 8 times\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6e820c57-f547-4704-962a-83bc475c8214",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who retired as Chair of the People & Remuneration Committee effective 10 August 2022?\nHow do you respond?\nA. Paul O'Malley\nB. Shirish Apte\nC. Lyn Cobley\nD. Catherine Livingstone AO\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fbb9d0fd-34a3-4e42-9b1f-066846f8a411",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who are indemnified under the Constitution of the Commonwealth Bank of Australia?\nHow do you respond?\nA. All current and former Directors and Executive Officers of the Bank, as defined in the Constitution.\nB. All current and former Directors, Executive Officers, and officers or former officers of the Bank, or of its related bodies corporate, as determined by the CBA Board.\nC. Only the Directors and Company Secretaries of the Bank, as named on pages 74\u201377 of the report.\nD. Only the Group Executives of the Bank.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c96f8671-64cf-440b-a04c-b2300647df0c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Have individual deeds of indemnity been provided to certain individuals?\nHow do you respond?\nA. Yes, they have been provided to all Directors, Company Secretaries, and Group Executives.\nB. Yes, they have been provided to all Directors, Company Secretaries, Group Executives, and certain other officers.\nC. No, they have not been provided to any individuals.\nD. Yes, they have been provided to all officers of the Bank and its related bodies corporate.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "df7adb4d-d0a2-4851-8153-44a6e97c5568",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the indemnity deed poll executed by the Bank?\nHow do you respond?\nA. To provide indemnification to certain officers of the Bank on substantially the same terms as those provided in the Constitution.\nB. To provide indemnification to all current and former Directors and Executive Officers of the Bank, as defined in the Constitution.\nC. To provide indemnification to the Directors, and other individuals described in the preceding paragraph, who rely on the terms of their individual deed of indemnity and not the indemnity deed poll.\nD. To provide indemnification to the Bank's Directors, and other individuals described in the preceding paragraph, who rely on the terms of their individual deed of indemnity and not the indemnity deed poll.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4fd0b4f9-2af1-462c-bc8d-5462d5b1a56d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who relies on the terms of their individual deed of indemnity and not the indemnity deed poll?\nHow do you respond?\nA. Directors and Company Secretaries of the Bank\nB. Group Executives\nC. Australian based non-executive directors and company secretaries of CBA subsidiaries\nD. Secretaries and senior managers of the Bank\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c7baab3c-f03b-44fe-9c95-05d075dd7dba",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who are the individuals who have given written notices stating that they hold office in specified companies and accordingly are to be regarded as having an interest in any contract or proposed contract that may be made between the Group and any of those companies?\nHow do you respond?\nA. Directors and Company Secretaries of the Bank\nB. Directors, secretaries, or senior managers of a related body corporate of the Bank\nC. Persons who, at the request of the Bank or a related body corporate, act as directors, secretaries, or senior managers of a body corporate which is not a related body corporate of the Bank\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "0c62cf6e-ba3a-40e2-a379-27744be3ca1b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who else is indemnified by the Bank under the deed poll?\nHow do you respond?\nA. The Bank's Directors and Company Secretaries\nB. The Bank's Group Executives\nC. The directors, secretaries, and senior managers of the Bank's related bodies corporate\nD. The members of the compliance committee of a registered scheme for which the Bank's related body corporate is the responsible entity\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f5738f08-f3b6-4ea5-a481-46c42e0f7d4c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who are the individuals who, at the request of the Bank or a related body corporate, act as director, secretary or senior manager of a body corporate which is not a related body corporate of the Bank?\nHow do you respond?\nA. Directors and Company Secretaries of the Bank.\nB. Group Executives.\nC. Persons who, at the request of the Bank or a related body corporate, act as director, secretary, or senior manager of a body corporate which is not a related body corporate of the Bank.\nD. Australian based non-executive directors and company secretaries of CBA subsidiaries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "9b53e5ab-b306-425d-9372-0183919fac12",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who are the individuals who, at the request of a related body corporate of the Bank, act as a member of the compliance committee of a registered scheme for which the related body corporate of the Bank is the responsible entity?\nHow do you respond?\nA. Directors and Company Secretaries of the Bank\nB. Group Executives\nC. Persons who, at the request of the Bank or a related body corporate, act as director, secretary, or senior manager of a body corporate which is not a related body corporate of the Bank\nD. Persons who, at the request of a related body corporate of the Bank, act as a member of the compliance committee of a registered scheme for which the related body corporate of the Bank is the responsible entity\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "387c23fd-0f54-4716-9592-6f0108d9cc4f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the Board exercise its discretion to increase the Group NPAT and Profit after Capital Charge (PACC) targets mid-year?\nHow do you respond?\nA. By considering rapid changes in macroeconomic factors, such as central bank interest rate increases, which differed from their assumptions at the start of the year.\nB. By focusing on sustainable performance and aligning executive remuneration outcomes with balanced financial and non-financial performance outcomes.\nC. By monitoring executives' performance during the financial year and exercising discretion to increase targets mid-year.\nD. By building on robust risk management foundations and demonstrating values of Care, Courage, and Commitment to progress the strategy of building tomorrow's bank today for customers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "bc148145-4d07-43ba-bdb8-acc278bc2d61",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus of the Bank's remuneration framework?\nHow do you respond?\nA. To align executive remuneration with financial performance outcomes.\nB. To prioritize non-financial measures of performance.\nC. To ensure sustainable long-term value creation.\nD. To reward executives for meeting customer service targets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6fcea9aa-e1b4-450f-9ba2-39893962adf8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome of Group NPAT and PACC results in FY23?\nHow do you respond?\nA. They exceeded the target.\nB. They met the target.\nC. They were below the target.\nD. There was no result.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3bd30d26-f08e-4c66-8c2a-95d608ceaf1d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the non-financial measures that are part of the remuneration framework?\nHow do you respond?\nA. Customer advocacy as measured by net promoter score (NPS)\nB. Employee engagement\nC. Gender diversity goals\nD. Corporate reputation as measured independently by RepTrak\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2d74ee55-be13-4258-98e3-fe27cc6931cf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the Bank perform in terms of customer advocacy in FY23?\nHow do you respond?\nA. The bank ranked first relative to other major peer banks in customer advocacy as measured by net promoter score (NPS).\nB. The bank's customer advocacy rating decreased compared to the previous year.\nC. The bank's customer advocacy rating remained unchanged compared to the previous year.\nD. The bank did not measure customer advocacy in FY23.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b4fd21b1-3ec4-4c3e-b765-92cdd4f0771f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What steps has the Bank taken to support customers who are under pressure in the current environment?\nHow do you respond?\nA. The Bank has provided enhanced procedures, assistance measures, and tools and training for its people to provide the right support when customers need it most.\nB. The Bank has not taken any steps to support customers who are under pressure in the current environment.\nC. The Bank has reduced the interest rates on loans to support customers who are struggling to repay their debts.\nD. The Bank has launched a new product line to help customers save money and budget effectively.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "57a38d19-7e77-44a9-b690-3caab7ac1792",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the Bank prioritize ESG obligations and ambitions?\nHow do you respond?\nA. The Bank prioritizes ESG obligations and ambitions by incorporating them into executive performance scorecards and risk milestones.\nB. The Bank prioritizes ESG obligations and ambitions by setting aside a dedicated budget for ESG initiatives.\nC. The Bank prioritizes ESG obligations and ambitions by engaging with stakeholders to understand their ESG concerns.\nD. The Bank prioritizes ESG obligations and ambitions by reporting on ESG performance separately from financial performance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ff7df391-19c9-46d6-bfa8-397580abba44",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome of the Bank's gender diversity goals in FY23?\nHow do you respond?\nA. The bank exceeded its gender diversity goals in FY23.\nB. The bank did not meet its gender diversity goals in FY23.\nC. The bank made progress towards achieving its gender diversity goals in FY23, but did not meet them entirely.\nD. The bank's gender diversity goals were not mentioned in the provided context.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "fbed203e-e408-42b8-ad11-6d5a3719d998",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the Bank's corporate reputation compare to its peers?\nHow do you respond?\nA. The Bank's corporate reputation is the highest among its peers, as measured independently by RepTrak.\nB. The Bank's corporate reputation is lower than that of its peers, as it has not met its gender diversity goals.\nC. The Bank's corporate reputation is average compared to its peers, as it has made progress towards achievement of its gender diversity goals.\nD. The Bank's corporate reputation is the lowest among its peers, as it has not met its risk management expectations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "31b499e2-d5e5-4956-8b3f-3ab1e8214ff5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the average increase in fixed remuneration (FR) for the other Executive KMP in FY23?\nHow do you respond?\nA. 1.3%\nB. 39%\nC. 75%\nD. 94%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7407bd24-a7ca-4144-9311-3c42d1b02cc1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the range of short-term variable remuneration (STVR) outcomes for FY23?\nHow do you respond?\nA. Between 73% and 100% of the maximum.\nB. Between 50% and 75% of the maximum.\nC. Between 30% and 50% of the maximum.\nD. Between 0% and 30% of the maximum.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3e76f733-a02b-440c-b284-535d65d8fc8d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Was there a reduction in the long-term variable remuneration (LTAR) grant for FY23?\nHow do you respond?\nA. Yes, there was a reduction in the LTAR grant for FY23.\nB. No, there was no reduction in the LTAR grant for FY23.\nC. The LTAR grant for FY23 was increased by 10%.\nD. The LTAR grant for FY23 was abolished.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "788f9ba3-2b20-4a8f-b491-3701dacfcffe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the vesting outcome for the FY20 long-term variable remuneration (LTVR) grant?\nHow do you respond?\nA. 70%\nB. 92.5%\nC. 100%\nD. 75%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8fa99fac-64de-485d-9b13-b29eb7ffb4d3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the People & Remuneration Committee?\nHow do you respond?\nA. To ensure that the company's remuneration strategy and practices support the company's strategic priorities and cultural ambitions and are future fit and compliant with all applicable local and global regulatory requirements.\nB. To provide market-competitive remuneration to attract and retain high-quality talent while reflecting role scope and accountabilities.\nC. To drive collective focus on increasing the value of CBA over time and individual focus on leadership and strategy execution.\nD. To vary remuneration outcomes in line with longer-term performance measures, with a focus on relative shareholder returns to support sustainable long-term shareholder value.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ab9616e2-e3b6-406f-b2ff-778241056ee4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What changes have been made to the remuneration framework starting from July 1, 2023?\nHow do you respond?\nA. Changes have been made to simplify the performance assessment approach through clarity and appropriate alignment of KPIs in scorecards.\nB. Changes have been made to strengthen variable remuneration linkage in line with individual and collective performance.\nC. Changes have been made to increase the target opportunity of 75% of FR with a maximum opportunity of 94% of FR, based on a balanced performance scorecard, risk scorecard, and values assessment.\nD. Changes have been made to introduce a new pre-vest assessment for FY23.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bda8b8c0-f4ea-4e23-94f3-46ab81ffe742",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the performance assessment approach?\nHow do you respond?\nA. To attract and retain high-quality talent\nB. To drive collective focus on increasing the value of CBA over time\nC. To vary remuneration outcomes in line with annual performance achievement\nD. To support sustainable long-term shareholder value\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "d3b07ea2-3dd7-461a-89c2-becc08032a70",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the face value of the award at vesting for the FY20 LTVR grant?\nHow do you respond?\nA. $72.84\nB. $101.52\nC. 39% higher than at the time of grant\nD. 59%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c2cfe71b-4c12-4a5c-9458-ca70c3e224c1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the TSR over the four-year performance period ending June 30, 2022?\nHow do you respond?\nA. 59%\nB. 70%\nC. 92.5%\nD. 100%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5203962a-ec62-409a-adb9-eecd1b1e6418",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Did the non-executive directors' fees change in FY23?\nHow do you respond?\nA. Yes, they increased.\nB. No, they remained the same.\nC. They were reduced.\nD. They were eliminated.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "47e16e9d-622c-4268-a4a9-da258c9acbab",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the remuneration for Group Executives and CEO ASB different from the CEO's remuneration?\nHow do you respond?\nA. The CEO's remuneration includes a higher percentage of short-term variable remuneration compared to Group Executives and CEO ASB.\nB. The CEO's remuneration has a higher maximum opportunity of 70% of FR, while Group Executives and CEO ASB have a maximum opportunity of 75% of FR.\nC. The CEO's remuneration includes a holding period after a four-year performance period, while Group Executives and CEO ASB do not have a holding period.\nD. The CEO's remuneration is assessed on relative TSR, measured against two equally-weighted comparator groups, while Group Executives and CEO ASB are assessed on a balanced performance scorecard, risk scorecard, and values assessment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "d69dd9fc-7de7-4b18-ad7f-c2e45382f05b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the remuneration framework support sustainable long-term shareholder value?\nHow do you respond?\nA. Through the use of short-term variable remuneration (STVR) which focuses on annual performance achievement.\nB. Through the use of long-term variable remuneration (LTVR) which considers future financial factors and individual non-financial performance of leadership and strategy execution.\nC. Through the use of a mix of fixed remuneration (FR) and deferred shares, which aligns with shareholder value creation and encourages long-term performance.\nD. Through the use of a general ASX peer group and a financial services peer group, which measures relative TSR and supports long-term sustainable performance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                }
+            ]
+        }
+    ]
+}
