@@ -1,7 +1,7 @@
 # Healthcare_System_in_Singapore
 
 ## Overview
-Welcome to the Healthcare_System_in_Singapore, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Health industry, focusing on Conditional Questions and Multi Choice.
+Welcome to the Healthcare_System_in_Singapore, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Health industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Health sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
@@ -12,13 +12,13 @@ The dataset is derived from a selection of key documents within the Health secto
 - **Sub Industry:** Health
 - **Number of Question-Answer Pairs:** 97
 - **Prompt Type:** RAG
-- **Evaluation Techniques:** Conditional Questions and Multi Choice
+- **Evaluation Techniques:** Conditional Questions Multi Choice and Tokens Presence
 
 ## Industries and Evaluation Types
 The H2O LLM Evaluation Datasets encompass various industries and evaluation types. This dataset, specifically tailored for the Health sector, focuses on conditional questions, Multi choice questions and Token presence to ensure targeted evaluation.
 
 ## Dataset Content
-The dataset is carefully curated from a diverse set of documents within the Health industry. It comprises a rich set of 97 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions and Multi Choice.
+The dataset is carefully curated from a diverse set of documents within the Health industry. It comprises a rich set of 97 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions Multi Choice and Tokens Presence.
 
 ## Dataset Configuration
 
@@ -26,13 +26,15 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 # Sample Questions
 
-#### Sample Conditional questions from the dataset:
+#### Sample Token presence from the dataset:
 
-**Question:** What is the population of Singapore?
+**Question:** What is the purpose of the National Health Plan in 1983?
 
-**Answer:** The population of Singapore is 5.2 million.
+**Answer:** The purpose of the National Health Plan in 1983 was to detail the infrastructural plan for the next 20 years and to promote the idea of Medisave.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/Healthcare_System_in_Singapore/screenshots/question_type.png)
+**Token Presence:** ['The purpose of the National Health Plan in 1983 was to detail the infrastructural plan for the next 20 years and to promote the idea of Medisave.']
+
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/Healthcare_System_in_Singapore/screenshots/tokens_present.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -41,6 +43,14 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 **Answer:** ['The government extended the network of hospitalization, including general hospitals, satellite out-patient dispensaries, and maternal and child health clinics.', 'The country started building up a healthy population with preventive healthcare and encouraging healthy lifestyles.', 'The government introduced the "3M" (Medisave, Medishield, and Medifund) system to promote personal responsibility towards healthy living.', "Singapore had an island network of outpatient polyclinics and private medical practitioners' clinics to provide primary healthcare services."]
 
 ![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/Healthcare_System_in_Singapore/screenshots/multi_choice.png)
+
+#### Sample Conditional questions from the dataset:
+
+**Question:** What is the population of Singapore?
+
+**Answer:** The population of Singapore is 5.2 million.
+
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/Healthcare_System_in_Singapore/screenshots/question_type.png)
 
 ## Usage
 

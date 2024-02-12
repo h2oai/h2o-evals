@@ -1,12 +1,12 @@
-# 2023Q1_alphabet_earnings_release
+# Banking_Financial_Statements_Alphabet_Tesla
 
 ## Overview
-Welcome to the 2023Q1_alphabet_earnings_release, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Banking industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
+Welcome to the Banking_Financial_Statements_Alphabet_Tesla, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Banking industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Banking sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [2023Q1_alphabet_earnings_release.pdf](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/used_documents/2023Q1_alphabet_earnings_release.pdf)
-2. [TSLA-Q1-2023-Update.pdf](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/used_documents/TSLA-Q1-2023-Update.pdf)
+1. [2023Q1_alphabet_earnings_release.pdf](https://github.com/h2oai/h2o-evals/blob/main/Banking_Financial_Statements_Alphabet_Tesla/used_documents/2023Q1_alphabet_earnings_release.pdf)
+2. [TSLA-Q1-2023-Update.pdf](https://github.com/h2oai/h2o-evals/blob/main/Banking_Financial_Statements_Alphabet_Tesla/used_documents/TSLA-Q1-2023-Update.pdf)
 
 ## Dataset Details
 - **Industry:** Banking
@@ -27,6 +27,14 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 # Sample Questions
 
+#### Sample Multi choice questions from the dataset:
+
+**Question:** What was the revenue of Alphabet Inc. in the first quarter of 2023?
+
+**Answer:** ['$68,011', '$69,787', '$74,548', '$61,961']
+
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/Banking_Financial_Statements_Alphabet_Tesla/screenshots/multi_choice.png)
+
 #### Sample Token presence from the dataset:
 
 **Question:** What was the total revenue for Tesla in Q1 2023?
@@ -35,15 +43,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Token Presence:** ['$23.3 billion', '24%']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/screenshots/tokens_present.png)
-
-#### Sample Multi choice questions from the dataset:
-
-**Question:** What was the revenue of Alphabet Inc. in the first quarter of 2023?
-
-**Answer:** ['$68,011', '$69,787', '$74,548', '$61,961']
-
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/screenshots/multi_choice.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/Banking_Financial_Statements_Alphabet_Tesla/screenshots/tokens_present.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -51,7 +51,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Answer:** The change in accounting estimate reduced depreciation expense by $988 million and increased net income by $770 million, or $0.06 per basic and $0.06 per diluted share.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/2023Q1_alphabet_earnings_release/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/Banking_Financial_Statements_Alphabet_Tesla/screenshots/question_type.png)
 
 ## Usage
 
