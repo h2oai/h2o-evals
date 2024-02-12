@@ -1,0 +1,350 @@
+{
+    "tests": [
+        {
+            "key": "b86bd8c9-be71-4bad-b073-92d64dc9d035",
+            "documents": [
+                "T-TUT-PROTO-2019-PDF-E"
+            ],
+            "test_cases": [
+                {
+                    "key": "4c54a23b-79ed-4e41-a62a-a082af0a45eb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the main issue that inhibits the mitigation of vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['misalignment', 'interests', 'misplaced', 'liability', 'telecom', 'financial', 'regulators']"
+                    ],
+                    "expected_output": [
+                        "The main issue that inhibits the mitigation of vulnerabilities in the \"DFS over telecom\" ecosystem is a misalignment of interests and misplaced liability between the telecom and financial regulators."
+                    ]
+                },
+                {
+                    "key": "fbedec2b-cbb7-4a0e-b0d2-8b4a3e106966",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of ITU-T Study Group 11 in mitigating the vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ITU-T', 'Study Group 11', 'baseline security measures', 'interconnection environment', 'secure solutions']"
+                    ],
+                    "expected_output": [
+                        "ITU-T Study Group 11 could develop technical guidelines for the baseline security measures for each category (3G/4G/5G) to ensure a more secure interconnection environment and encourage the industry to develop more secure solutions."
+                    ]
+                },
+                {
+                    "key": "f7ad000b-42ae-4792-a5f2-52af4ae3f8a6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of educating telecom and financial services regulators on the vulnerabilities that plague the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['significance', 'vulnerabilities', 'DFS', 'telecom', 'financial', 'regulators', 'awareness', 'mitigation', 'regulations', 'secure']"
+                    ],
+                    "expected_output": [
+                        "Educating telecom and financial services regulators on the vulnerabilities that plague the \"DFS over telecom\" ecosystem is significant because it raises awareness of the existence of these vulnerabilities and the need for mitigation measures, which can lead to the implementation of regulations and measures to secure the ecosystem."
+                    ]
+                },
+                {
+                    "key": "b9374191-543d-4555-9a64-bee59422efe0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the potential impact of not mitigating the vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['significant', 'continued', 'fraud', 'theft']"
+                    ],
+                    "expected_output": [
+                        "The potential impact of not mitigating the vulnerabilities in the \"DFS over telecom\" ecosystem is significant, as it can lead to continued fraud and theft"
+                    ]
+                },
+                {
+                    "key": "fd2dd0ba-d827-4e1e-bc34-2da50b0f9ba4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between MT-SMS and MO-SMS?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['MT-SMS', 'MO-SMS']"
+                    ],
+                    "expected_output": [
+                        "MT-SMS stands for Mobile Terminated SMS, which is sent from a telecom operator to a mobile device, while MO-SMS stands for Mobile Originated SMS, which is sent from a mobile device to a telecom operator."
+                    ]
+                },
+                {
+                    "key": "364c32e4-66fd-4118-969e-00a99b2740f5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is social engineering, and how is it used in the USSD attack described in clause 6.3?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Social engineering', 'psychological manipulation', 'trick', 'confidential information', 'USSD message', 'account number', 'PIN', 'take over']"
+                    ],
+                    "expected_output": [
+                        "Social engineering is the use of psychological manipulation to trick individuals into divulging confidential information or performing actions that can be exploited by attackers. In the USSD attack described in clause 6.3, the attacker impersonates the DFS provider and sends a USSD message to the victim, tricking them into entering their account number and PIN, which can then be used to take over the victim's account."
+                    ]
+                },
+                {
+                    "key": "6697aa09-e8ca-4d79-88df-aea1188970bd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the main security vulnerability in the SS7 network, according to clause 7?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['outdated protocols', 'SS7 protocol', 'known vulnerabilities', 'Diameter']"
+                    ],
+                    "expected_output": [
+                        "The main security vulnerability in the SS7 network, according to clause 7, is the use of outdated protocols, such as the SS7 protocol, which has been around since the 1980s and has known vulnerabilities that have not been addressed in newer versions of the protocol, such as Diameter."
+                    ]
+                },
+                {
+                    "key": "15f621b8-c1bd-4003-84ba-7adb49eb4f38",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can an attacker locate a target subscriber using the location tracking vulnerability, according to clause 8?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['exploiting', 'mobile', 'networks', 'home', 'send', 'messages', 'contact']"
+                    ],
+                    "expected_output": [
+                        "An attacker can locate a target subscriber using the location tracking vulnerability, according to clause 8, by exploiting the fact that mobile networks need to efficiently route messages to subscribers, and therefore the home network knows where to send messages to contact any given subscriber."
+                    ]
+                },
+                {
+                    "key": "d2880ff3-5a05-45fe-b96f-5a9b441a55f0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the protocol used for signaling in 4G-LTE networks, according to clause 7?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Diameter']"
+                    ],
+                    "expected_output": [
+                        "The name of the protocol used for signaling in 4G-LTE networks, according to clause 7, is Diameter."
+                    ]
+                },
+                {
+                    "key": "1c0ce17a-65aa-460c-9b07-b8a7cfc20101",
+                    "prompt": "Respond to the following question.\n\nQuestion: How much does it cost to create a basic MITM system that can intercept cellular communications?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['$500']"
+                    ],
+                    "expected_output": [
+                        "Creating a basic MITM system that can intercept cellular communications can cost as little as $500, using open-source software and hardware that can be purchased on e-commerce platforms."
+                    ]
+                },
+                {
+                    "key": "626199c1-382a-4b4b-b20f-b4de796b01eb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the SS7 network, and why is it vulnerable to attacks?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SS7 network', 'global network', 'mobile operators', 'licensed mobile operators', 'non-licensed entities', 'hackers', 'unauthorized access', 'cellular vulnerabilities']"
+                    ],
+                    "expected_output": [
+                        "The SS7 network is a global network used by mobile operators to communicate with each other and exchange information. It is vulnerable to attacks because it was previously considered a \"walled garden\" that could only be accessed by licensed mobile operators, but now, other non-licensed entities have gained access to the network, and it can be exploited by hackers who can gain unauthorized access to the network and exploit cellular vulnerabilities."
+                    ]
+                },
+                {
+                    "key": "00d15406-f652-4e1a-b399-b0104b3a3bca",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the cellular attack kill chain, and what information does an attacker need to obtain to execute each step in the kill chain?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['cellular attack kill chain', 'attacker', 'sensitive data', 'online account takeover', \"victim's phone number\", 'location', 'authentication data']"
+                    ],
+                    "expected_output": [
+                        "The cellular attack kill chain is a series of steps an attacker must take to gain access to sensitive data and execute attacks such as online account takeover. An attacker needs to obtain information such as the victim's phone number, location, and authentication data to execute each step in the kill chain."
+                    ]
+                },
+                {
+                    "key": "b9195092-b1f5-4d03-9d80-66c442286aa2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the fact that the encryption used in cellular communications can be cracked?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The fact that', 'can be cracked', 'means that', 'an attacker can', 'intercept and decrypt', 'cellular communications', 'including calls', 'SMS', 'HTTP traffic', 'which can lead to', 'theft of sensitive information', 'execution of cellular attacks']"
+                    ],
+                    "expected_output": [
+                        "The fact that the encryption used in cellular communications can be cracked means that an attacker can intercept and decrypt cellular communications, including calls, SMS, and HTTP traffic, which can lead to theft of sensitive information and execution of cellular attacks."
+                    ]
+                },
+                {
+                    "key": "2e3e6fd6-0804-4a30-87a7-273bc6928c90",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of rerouting the victim's calls and SMS in the cellular attack kill chain?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['intercept', 'manipulate', 'MITM', 'sensitive information']"
+                    ],
+                    "expected_output": [
+                        "Rerouting the victim's calls and SMS allows the attacker to intercept and manipulate the victim's communication, enabling the attacker to perform MITM attacks and steal sensitive information."
+                    ]
+                },
+                {
+                    "key": "d33b07ba-2985-40d6-95a2-57920f625e6d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the simplest attack to execute and scale an attack using USSD?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['phishing', 'USSD', 'fraudulent', 'sensitive information', 'account number', 'PIN code']"
+                    ],
+                    "expected_output": [
+                        "The simplest attack to execute and scale an attack using USSD is phishing, where the attacker sends a fraudulent USSD message to the user, spoofing the identity of the financial service provider, and luring the user to divulge sensitive information such as account number and PIN code."
+                    ]
+                },
+                {
+                    "key": "3667cd08-81ee-424b-a106-76724cde6cbe",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can an attacker cause denial of service (DoS) for selected subscribers or a network-wide outage using SS7?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "An attacker can cause denial of service (DoS) for selected subscribers or a network-wide outage using SS7 by sending an update location message with an out-of-network serving address, deleting a subscriber's record from the serving visitor location register (VLR), or performing each attack in scale (automatically for a range of IMSIs)."
+                    ]
+                },
+                {
+                    "key": "a18ceaf1-255a-4e0d-8cc9-6c9b3dd00019",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is SIM card swap, and how does it allow an attacker to take over a victim's account?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SIM', 'card', 'swap', 'attacker', 'victim', 'mobile', 'carrier', 'social', 'engineer', 'issue', 'cloned', 'DFS', 'provider', 'USSD', 'menu', 'reset', 'PIN', 'account', 'transfer', 'funds']"
+                    ],
+                    "expected_output": [
+                        "SIM card swap is a type of attack where an attacker social engineers the mobile carrier to issue them a SIM card belonging to the victim, by impersonating the victim at a point of service, and claiming that they have lost the original SIM card. Once in possession of the cloned SIM, the attacker can access the DFS provider's USSD menu and reset the PIN of the account, allowing them to log in to the account and transfer funds out."
+                    ]
+                },
+                {
+                    "key": "3916f0e1-8b9d-4cbc-a19a-3a4751df177b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between a DoS attack and a DDoS attack?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['DoS', 'DDoS', 'floods', 'network', 'system', 'traffic', 'unavailable', 'compromised', 'targeted']"
+                    ],
+                    "expected_output": [
+                        "A DoS (denial of service) attack is an attack that floods a network or system with traffic in an attempt to make it unavailable to users. A DDoS (distributed denial of service) attack is a type of DoS attack that uses multiple compromised systems to flood a targeted network or system with traffic."
+                    ]
+                },
+                {
+                    "key": "60b93196-4d5e-45d9-8454-62c97c08c91e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the focus of the document FS.11?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SS7', 'interconnect', 'security', 'monitoring', 'guidelines']"
+                    ],
+                    "expected_output": [
+                        "The document FS.11 focuses on SS7 interconnect security monitoring guidelines, providing strategies for mobile operators to monitor SS7 traffic and detect potential attacks."
+                    ]
+                },
+                {
+                    "key": "5e0ace0a-38ed-489f-bb9c-c82dae62cd5b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the focus of the document IR.82?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The document IR.82 outlines general security measures for SS7 security', 'including SMS specific security measures', 'many SS7 stack related security measures']"
+                    ],
+                    "expected_output": [
+                        "The document IR.82 outlines general security measures for SS7 security, including SMS specific security measures and many SS7 stack related security measures."
+                    ]
+                },
+                {
+                    "key": "fe6217fa-0f27-4d44-91c9-179d0678ba9d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the focus of the document IR.88?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['LTE', 'interconnect', 'roaming', 'security', 'measures', 'routing', 'attacks', 'DoS', 'location', 'tracking', 'diameter-based', 'interconnection', 'attacks']"
+                    ],
+                    "expected_output": [
+                        "The document IR.88 outlines LTE interconnect (roaming) security measures, covering aspects such as routing attacks, DoS, location tracking, and other types of diameter-based interconnection attacks."
+                    ]
+                },
+                {
+                    "key": "45221617-7567-4b62-af6d-62ec52be382d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the reason for the lack of implementation of mitigation strategies among mobile operators, according to the article?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['not really addressed']"
+                    ],
+                    "expected_output": [
+                        "The reason for the lack of implementation of mitigation strategies among mobile operators, according to the article, is that mobile operators have not really addressed the issue of SS7 telecom vulnerabilities."
+                    ]
+                },
+                {
+                    "key": "684dbfcc-4982-4cbb-85c5-789a62e200a2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the SS7 protocol in the telecommunications industry?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SS7', 'protocol', 'telecommunications', 'industry', 'signal', 'control', 'infrastructure', 'public', 'switched', 'telephone', 'networks', 'mobile', 'call', 'setup', 'teardown', 'management']"
+                    ],
+                    "expected_output": [
+                        "The SS7 protocol is a critical component of the telecommunications industry, as it provides the signaling and control infrastructure for public switched telephone networks (PSTNs) and mobile networks. It is used for a variety of purposes, including call setup, call teardown, and call management."
+                    ]
+                },
+                {
+                    "key": "c4b5c7bd-8f4a-4ad9-b05b-62baf97e8091",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the importance of implementing best of breed authentication and encryption mechanisms for DFS providers?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['implementing', 'authentication', 'encryption', 'mechanisms', 'protect', 'users', 'personal', 'information', 'prevent', 'fraudulent', 'transactions', 'build', 'trust', 'confidence', 'success']"
+                    ],
+                    "expected_output": [
+                        "Implementing best of breed authentication and encryption mechanisms for DFS providers is important to protect users' personal information and prevent fraudulent transactions. It also helps to build trust and confidence in the DFS service, which is essential for its success."
+                    ]
+                },
+                {
+                    "key": "03a721f7-8b53-40d0-a57f-d186b28bdb05",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the DFS provider ascertaining the location of the account holder's phone and the IMEI of the phone performing the transaction?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['detect', 'mitigate', 'interception', 'MO-USSD', 'transaction', 'location', 'phone', 'IMEI', 'compromised', 'fraudulent']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the DFS provider ascertaining the location of the account holder's phone and the IMEI of the phone performing the transaction is to detect and mitigate interception of MO-USSD transactions. By comparing the location of the phone performing the current transaction to the last reported location of the phone, the DFS provider can identify any abrupt changes in network location, which may indicate that the phone has been compromised. Additionally, by checking the IMEI of the phone performing the transaction, the DFS provider can ensure that it matches the IMEI of the account holder's phone, which helps to prevent fraudulent transactions."
+                    ]
+                },
+                {
+                    "key": "9cbaabb6-df96-4164-82ff-0d4eb2b2e406",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the DFS provider blocking the account pending account verification procedures, for example, via a voice call or an agent?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "[\"The purpose of the DFS provider blocking the account pending account verification procedures is to prevent fraudulent transactions and protect the security of the account holder's information. By blocking the account, the DFS provider can ensure that no further transactions can be performed until the account holder has\"]"
+                    ],
+                    "expected_output": [
+                        "The purpose of the DFS provider blocking the account pending account verification procedures is to prevent fraudulent transactions and protect the security of the account holder's information. By blocking the account, the DFS provider can ensure that no further transactions can be performed until the account holder has"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,415 @@
+{
+    "tests": [
+        {
+            "key": "1e52fbfe-14dc-427f-827e-73954ab419bc",
+            "documents": [
+                "IRS_Document_2"
+            ],
+            "test_cases": [
+                {
+                    "key": "cc8adb6b-7284-4bca-96c4-29c0507f49a9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the deadline for filing Form 1040 or 1040-SR for the 2023 tax year?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['April 15, 2024']"
+                    ],
+                    "expected_output": [
+                        "The deadline for filing Form 1040 or 1040-SR for the 2023 tax year is April 15, 2024."
+                    ]
+                },
+                {
+                    "key": "e2d1eaaf-eaf7-4943-9756-979acf30a7ae",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the Taxpayer Advocate Service (TAS)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Taxpayer Advocate Service', 'TAS', 'Internal Revenue Service', 'IRS', 'taxpayer rights', 'Taxpayer Bill of Rights']"
+                    ],
+                    "expected_output": [
+                        "The Taxpayer Advocate Service (TAS) is an independent organization within the Internal Revenue Service (IRS) that helps taxpayers and protects taxpayer rights. TAS strives to ensure that every taxpayer is treated fairly and that you know and understand your rights under the Taxpayer Bill of Rights."
+                    ]
+                },
+                {
+                    "key": "1293704a-dd61-4f90-8d07-f83ed62f1f69",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are Low Income Taxpayer Clinics (LITCs)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['LITCs', 'IRS', 'TAS', 'taxpayers', 'income', 'audits', 'appeals', 'tax collection disputes', 'court']"
+                    ],
+                    "expected_output": [
+                        "LITCs are independent from the Internal Revenue Service (IRS) and the Taxpayer Advocate Service (TAS). LITCs represent individuals whose income is below a certain level and who need to resolve tax problems with the IRS. LITCs can represent taxpayers in audits, appeals, and tax collection disputes before the IRS and in court."
+                    ]
+                },
+                {
+                    "key": "7b2e35b3-0f6b-4267-b9d0-48561c127dd5",
+                    "prompt": "Respond to the following question.\n\nQuestion: How do I reconcile advance payments of the premium tax credit with my premium tax credit for the year?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['You will need to complete Form 8962 to reconcile advance payments of the premium tax credit with your premium tax credit for the year.']"
+                    ],
+                    "expected_output": [
+                        "You will need to complete Form 8962 to reconcile advance payments of the premium tax credit with your premium tax credit for the year."
+                    ]
+                },
+                {
+                    "key": "18b3fe87-4397-4e3e-8ce5-4fbc2105c10a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Form 1095-A?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Form 1095-A', 'premium tax credit', 'insurance company', 'monthly premium payment']"
+                    ],
+                    "expected_output": [
+                        "Form 1095-A is used to report information about advance payments of the premium tax credit made to your insurance company to reduce your monthly premium payment."
+                    ]
+                },
+                {
+                    "key": "734a7292-5c6c-4b93-ba9b-cb2bfd111f3f",
+                    "prompt": "Respond to the following question.\n\nQuestion: How do I report the credit for previously owned clean vehicles on my tax return?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The credit for previously owned clean vehicles is reported on Form 8936 and Schedule 3, line 6f.']"
+                    ],
+                    "expected_output": [
+                        "The credit for previously owned clean vehicles is reported on Form 8936 and Schedule 3, line 6f."
+                    ]
+                },
+                {
+                    "key": "72987ece-ad6f-4a39-b520-a1c9f48d01ad",
+                    "prompt": "Respond to the following question.\n\nQuestion: How do I report accrued leave payment on my tax return?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['salary payment', 'tax year']"
+                    ],
+                    "expected_output": [
+                        "Accrued leave payment received as a lump sum is considered a salary payment and should be included in your income in the tax year you receive it."
+                    ]
+                },
+                {
+                    "key": "48b92374-ae88-4d38-8418-1f1fd3d1f885",
+                    "prompt": "Respond to the following question.\n\nQuestion: How do I report capital gain distributions on my tax return?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Capital gain distributions', 'Form 1040', 'line 7']"
+                    ],
+                    "expected_output": [
+                        "Capital gain distributions are reported on line 7 of Form 1040 and are checked on that line. If you received capital gain distributions as a nominee, you should report only the amount that belongs to you."
+                    ]
+                },
+                {
+                    "key": "fb4a5503-44e7-40d4-a2be-67b46e289ec0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Standard Deduction Worksheet for Dependents?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['dependent', 'deduction', 'income', 'claim', 'person']"
+                    ],
+                    "expected_output": [
+                        "The Standard Deduction Worksheet for Dependents is used to figure the standard deduction for dependents who are filing a tax return. It takes into account the dependent's income and the amount that can be claimed as a deduction by the person who can claim the dependent."
+                    ]
+                },
+                {
+                    "key": "65b728ca-c63a-4ec6-9646-63baaaa18c87",
+                    "prompt": "Respond to the following question.\n\nQuestion: Do I have to file a tax return if I don't have to pay taxes?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, you should still file a tax return even if you don't have to pay taxes. You may be eligible for credits such as the Earned Income Tax Credit, Additional Child Tax Credit, or Premium Tax Credit, which you can only receive if you file a tax return."
+                    ]
+                },
+                {
+                    "key": "ca26eb67-01ab-46ea-8c13-f97e67276dd8",
+                    "prompt": "Respond to the following question.\n\nQuestion: How do I know if I'm eligible for free tax software?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['$79,000', '2023', 'IRS.gov/FreeFile']"
+                    ],
+                    "expected_output": [
+                        "The IRS's Free File program offers free tax software to those who earned $79,000 or less in 2023. You can visit IRS.gov/FreeFile to see all the eligibility criteria for free usage or use an online tool to find which free software products match your situation."
+                    ]
+                },
+                {
+                    "key": "21fba515-adb0-4506-a35b-fc92d6954fb5",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can I file my taxes electronically for free?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, you can file your taxes electronically for free through the IRS's Free File program or Free File Fillable Forms. Free File Fillable Forms is best for people experienced in preparing their own tax returns and supports only federal tax forms."
+                    ]
+                },
+                {
+                    "key": "ac2d7024-418f-4967-ab25-625f62e2c979",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can I include my child's income on my tax return?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['under age 19', 'full-time student', 'under age 24', 'Form 8814']"
+                    ],
+                    "expected_output": [
+                        "If certain conditions apply, you can elect to include on your return the income of a child who was under age 19 at the end of 2023 or was a full-time student under age 24 at the end of 2023. To do so, use Form 8814."
+                    ]
+                },
+                {
+                    "key": "d3e91a23-e03d-467c-aec5-3d658df14e02",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can I get an extension of time to file my tax return?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, you can get an automatic 6-month extension of time to file your tax return by filing Form 4868. This extension gives you an extra 2 months to file and pay the tax, but interest will be charged on any unpaid tax."
+                    ]
+                },
+                {
+                    "key": "e49dceb6-d8a1-4cdc-b354-577469ed6c73",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who qualifies for an automatic extension of time to file without filing Form 4868?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['U.S. citizens', 'resident aliens', 'live outside the United States and Puerto Rico', 'main place of business or post of duty', 'military or naval service', 'duty outside the United States and Puerto Rico']"
+                    ],
+                    "expected_output": [
+                        "U.S. citizens or resident aliens who live outside the United States and Puerto Rico and have their main place of business or post of duty outside the United States and Puerto Rico, or those who are in military or naval service on duty outside the United States and Puerto Rico, qualify for an automatic extension of time to file without filing Form 4868."
+                    ]
+                },
+                {
+                    "key": "201a91f7-d742-4b4f-9a89-ce3a97c98c80",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can I use a private delivery service to mail my tax return?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, you can use certain private delivery services designated by the IRS to meet the \u201ctime-ly mailing treated as timely filing/paying\u201d rule for tax returns and payments."
+                    ]
+                },
+                {
+                    "key": "e8cc0527-d73f-4692-9df4-795277e3931f",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can I use a private delivery service to file my tax return?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, you can use certain private delivery services designated by the IRS to file your tax return."
+                    ]
+                },
+                {
+                    "key": "15ce3f18-ba74-42d9-af34-d6552609b3ba",
+                    "prompt": "Respond to the following question.\n\nQuestion: Do I need to file a tax return if I am 65 or older and my gross income was less than $27,700?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, you do not need to file a tax return if you are 65 or older and your gross income was less than $27,700."
+                    ]
+                },
+                {
+                    "key": "65956626-4300-4038-a520-b4db7395ff73",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the maximum amount of unearned income that a single dependent can have and still be required to file a tax return?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['$1,250']"
+                    ],
+                    "expected_output": [
+                        "The maximum amount of unearned income that a single dependent can have and still be required to file a tax return is $1,250."
+                    ]
+                },
+                {
+                    "key": "f35275c4-ac7b-480c-a566-83bcf9e48924",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the minimum amount of earned income that requires filing a tax return in 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['$13,850']"
+                    ],
+                    "expected_output": [
+                        "The minimum amount of earned income that requires filing a tax return in 2023 is $13,850."
+                    ]
+                },
+                {
+                    "key": "9bb44ac6-cea4-40aa-9ac2-d00408d97188",
+                    "prompt": "Respond to the following question.\n\nQuestion: Must I file a tax return if I received health savings account, Archer MSA, or Medicare Advantage MSA distributions in 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, you must file a tax return if you received health savings account, Archer MSA, or Medicare Advantage MSA distributions in 2023."
+                    ]
+                },
+                {
+                    "key": "454ec688-6f94-4e54-87ad-f139d47be5bb",
+                    "prompt": "Respond to the following question.\n\nQuestion: Must I file a tax return if I received wages from a church or qualified church-controlled organization that is exempt from employer social security and Medicare taxes?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, you must file a tax return if you received wages from a church or qualified church-controlled organization that is exempt from employer social security and Medicare taxes and the wages were $108.28 or more."
+                    ]
+                },
+                {
+                    "key": "3e4482cf-eead-402f-9655-43bc9fd83430",
+                    "prompt": "Respond to the following question.\n\nQuestion: How do I report estimated tax payments made in 2023 on Form 1040?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Estimated', 'tax', 'payments', 'made', 'in', '2023', 'should', 'be', 'reported', 'on', 'Line', '26', 'of', 'Form', '1040']"
+                    ],
+                    "expected_output": [
+                        "Estimated tax payments made in 2023 should be reported on Line 26 of Form 1040."
+                    ]
+                },
+                {
+                    "key": "f0372fe5-2578-47d6-b90a-50e5222d2529",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can I get a social security number (SSN)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SSN', 'apply', 'local SSA office', 'calling', 'SSA', 'downloading', 'mailing', 'Form SS-5', '2 weeks']"
+                    ],
+                    "expected_output": [
+                        "You can get an SSN by applying for one at your local SSA office, by calling the SSA at 800-772-1213, or by downloading and mailing in Form SS-5. It usually takes 2 weeks to receive your SSN once the SSA has all the necessary information."
+                    ]
+                },
+                {
+                    "key": "4ad288ac-9a7c-4379-bd95-188cb402c3e5",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can I use an Individual Taxpayer Identification Number (ITIN) instead of an SSN?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['If', 'you', 'are', 'a', 'nonresident', 'or', 'resident', 'alien', 'and', 'you', \"don't\", 'have', 'and', \"aren't\", 'eligible', 'to', 'get', 'an', 'SSN', 'you', 'must', 'apply', 'for', 'an', 'ITIN', '.', 'You', 'can', 'use', 'your', 'ITIN', 'wherever', 'your', 'SSN', 'is', 'requested', 'on', 'your', 'tax', 'return', '.', 'Some', 'ITINs', 'must', 'be', 'renewed']"
+                    ],
+                    "expected_output": [
+                        "If you are a nonresident or resident alien and you don't have and aren't eligible to get an SSN, you must apply for an ITIN. You can use your ITIN wherever your SSN is requested on your tax return. Some ITINs must be renewed."
+                    ]
+                },
+                {
+                    "key": "ec0ccbee-625b-4775-8bda-595523e4b84a",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can I use my ITIN to work in the United States?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, an ITIN does not entitle you to work in the United States or change your immigration status. It is only for tax purposes."
+                    ]
+                },
+                {
+                    "key": "8228856a-8fcc-4c2c-ab8c-03f3b1a51bdf",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the deadline for renewing my ITIN?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['January 31, 2024']"
+                    ],
+                    "expected_output": [
+                        "The deadline for renewing your ITIN is January 31, 2024. If you haven't used your ITIN on a federal tax return at least once for tax years 2020, 2021, or 2022, it will expire on January 31, 2024, and must be renewed if you need to file a federal tax return."
+                    ]
+                },
+                {
+                    "key": "86c3b26d-c951-4765-bad1-13f16477a433",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the different filing statuses available for taxpayers?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Single', 'Married Filing Jointly', 'Married Filing Separately', 'Head of Household', 'Qualifying Surviving Spouse']"
+                    ],
+                    "expected_output": [
+                        "The different filing statuses available for taxpayers are Single, Married Filing Jointly, Married Filing Separately, Head of Household, and Qualifying Surviving Spouse."
+                    ]
+                },
+                {
+                    "key": "111b0120-f2e6-4da9-a9f9-9108693d2ee5",
+                    "prompt": "Respond to the following question.\n\nQuestion: Why might a couple want to file separately?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['they', 'their', 'spouse', 'income', 'tax', 'withheld', 'estimated']"
+                    ],
+                    "expected_output": [
+                        "A couple might want to file separately if they believe their spouse isn't reporting all of their income, or they don't want to be responsible for any taxes due if their spouse doesn't have enough tax withheld or doesn't pay enough estimated tax."
+                    ]
+                },
+                {
+                    "key": "648cf45a-835b-4db4-b15b-d97efba1f9a5",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can a nonresident alien or dual-status alien file a joint return with their spouse?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Generally', 'nonresident alien', 'dual-status alien', \"can't file\", 'joint return', 'U.S. citizen', 'resident alien', 'elect to be treated', 'file a joint return']"
+                    ],
+                    "expected_output": [
+                        "Generally, a nonresident alien or dual-status alien can't file a joint return with their spouse. However, if you were a nonresident alien or a dual-status alien and were married to a U.S. citizen or resident alien at the end of 2023, you can elect to be treated as a resident alien and file a joint return."
+                    ]
+                },
+                {
+                    "key": "f2f66e00-1001-4d46-9772-d313722fff93",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can I file a joint return if my spouse doesn't have an SSN or ITIN?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['NRA']"
+                    ],
+                    "expected_output": [
+                        "If your spouse doesn't have an SSN or ITIN, you can still file a joint return. Enter \"NRA\" in the entry space below the filing status checkboxes for your spouse's SSN or ITIN."
+                    ]
+                }
+            ]
+        }
+    ]
+}
