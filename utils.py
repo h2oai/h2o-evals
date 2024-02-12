@@ -134,5 +134,5 @@ root_folder_path = 'https://github.com/h2oai/h2o-evals/blob/main/'
 csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/main/data.csv'
 
 if __name__ == '__main__':
-    # process_folders(root_folder_path, csv_file_path)
-    print(update_master_readme())
+    process_folders(root_folder_path, csv_file_path)
+    # print(update_master_readme())

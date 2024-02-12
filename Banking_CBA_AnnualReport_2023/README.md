@@ -9,8 +9,8 @@ The dataset is derived from a selection of key documents within the Banking sect
 
 ## Dataset Details
 - **Industry:** Banking
-- **Sub Industry:** Banking
-- **Number of Question-Answer Pairs:** 160
+- **Sub Industry:** Annual Report
+- **Number of Question-Answer Pairs:** 120
 - **Prompt Type:** RAG
 - **Evaluation Techniques:** Conditional Questions Multi Choice and Tokens Presence
 
@@ -18,7 +18,7 @@ The dataset is derived from a selection of key documents within the Banking sect
 The H2O LLM Evaluation Datasets encompass various industries and evaluation types. This dataset, specifically tailored for the Banking sector, focuses on conditional questions, Multi choice questions and Token presence to ensure targeted evaluation.
 
 ## Dataset Content
-The dataset is carefully curated from a diverse set of documents within the Banking industry. It comprises a rich set of 160 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions Multi Choice and Tokens Presence.
+The dataset is carefully curated from a diverse set of documents within the Banking industry. It comprises a rich set of 120 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions Multi Choice and Tokens Presence.
 
 ## Dataset Configuration
 

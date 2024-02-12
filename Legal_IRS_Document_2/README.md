@@ -9,8 +9,8 @@ The dataset is derived from a selection of key documents within the Legal sector
 
 ## Dataset Details
 - **Industry:** Legal
-- **Sub Industry:** Legal
-- **Number of Question-Answer Pairs:** 160
+- **Sub Industry:** IRS Filing Policy
+- **Number of Question-Answer Pairs:** 126
 - **Prompt Type:** RAG
 - **Evaluation Techniques:** Conditional Questions Multi Choice and Tokens Presence
 
@@ -18,7 +18,7 @@ The dataset is derived from a selection of key documents within the Legal sector
 The H2O LLM Evaluation Datasets encompass various industries and evaluation types. This dataset, specifically tailored for the Legal sector, focuses on conditional questions, Multi choice questions and Token presence to ensure targeted evaluation.
 
 ## Dataset Content
-The dataset is carefully curated from a diverse set of documents within the Legal industry. It comprises a rich set of 160 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions Multi Choice and Tokens Presence.
+The dataset is carefully curated from a diverse set of documents within the Legal industry. It comprises a rich set of 126 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions Multi Choice and Tokens Presence.
 
 ## Dataset Configuration
 
