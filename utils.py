@@ -5,14 +5,14 @@ def generate_conditional_question(folder_name, row):
     question = f"#### Sample Conditional questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
-    question += f"![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/{folder_name}/screenshots/question_type.png)\n\n"
+    question += f"![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/question_type.png)\n\n"
     return question
 
 def generate_multi_choice_question(folder_name, row):
     question = f"#### Sample Multi choice questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['choices']}\n\n"
-    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/{folder_name}/screenshots/multi_choice.png)\n\n"
+    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/multi_choice.png)\n\n"
     return question
 
 def generate_token_presence_question(folder_name, row):
@@ -20,7 +20,7 @@ def generate_token_presence_question(folder_name, row):
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
     question += f"**Token Presence:** {row['tokens_present']}\n\n"
-    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/{folder_name}/screenshots/tokens_present.png)\n\n"
+    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/tokens_present.png)\n\n"
     return question
 
 def generate_dataset_info(row):
@@ -58,7 +58,7 @@ def process_folders(root_folder_path, csv_file_path):
     df = pd.read_csv(csv_file_path.split('/')[-1], encoding='unicode_escape')
     
     for i, row in df.iterrows():
-        folder_name = row['Dataset_link']
+        folder_name = 'catalog/'+row['Dataset_link']
         print(folder_name)
         folder_path = os.path.join(root_folder_path, folder_name.split('/')[-1])
         if True:
@@ -134,5 +134,5 @@ root_folder_path = 'https://github.com/h2oai/h2o-evals/blob/main/catalog/'
 csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/main/data.csv'
 
 if __name__ == '__main__':
-    # process_folders(root_folder_path, csv_file_path)
-    print(update_master_readme())
+    process_folders(root_folder_path, csv_file_path)
+    # print(update_master_readme())

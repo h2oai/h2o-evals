@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Tele
 
 **Answer:** The main issue that inhibits the mitigation of vulnerabilities in the "DFS over telecom" ecosystem is a misalignment of interests and misplaced liability between the telecom and financial regulators.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Telcom_Technical_Report/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Telcom_Technical_Report/screenshots/question_type.png)
 
 #### Sample Token presence from the dataset:
 
@@ -42,7 +42,7 @@ The dataset is carefully curated from a diverse set of documents within the Tele
 
 **Token Presence:** ['misalignment', 'interests', 'misplaced', 'liability', 'telecom', 'financial', 'regulators']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Telcom_Technical_Report/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Telcom_Technical_Report/screenshots/tokens_present.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -50,7 +50,7 @@ The dataset is carefully curated from a diverse set of documents within the Tele
 
 **Answer:** ['It provides a technical description of SS7 and Diameter protocols.', 'It describes the vulnerabilities of SS7 and their effect on digital financial services.', 'It provides mitigation measures for operators and DFS providers.', 'It provides a template for a model MOU between a telecommunication regulator and central bank related to DFS security.']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Telcom_Technical_Report/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Telcom_Technical_Report/screenshots/multi_choice.png)
 
 ## Usage
 

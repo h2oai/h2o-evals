@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 **Answer:** No, a grant by a private foundation to a Section 509(a)(1), (2), or (3) organization will not be considered an act of self-dealing merely because one of the organization's officers, directors, or trustees is also a manager of or a substantial contributor to the private foundation.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Legal_IRS_Document_1/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_IRS_Document_1/screenshots/question_type.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -40,7 +40,7 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 **Answer:** ['Discrete transactions are single events, while continuing transactions are ongoing.', 'Discrete transactions are ongoing, while continuing transactions are single events.', 'Discrete transactions involve multiple events, while continuing transactions involve a single event.', 'Discrete transactions involve a single event, while continuing transactions involve multiple events.']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Legal_IRS_Document_1/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_IRS_Document_1/screenshots/multi_choice.png)
 
 ## Usage
 

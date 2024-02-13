@@ -33,7 +33,7 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 **Answer:** ['Environmental concerns.', 'Health and safety concerns.', 'Democracy and rule of law concerns.', 'Employment concerns.']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Legal_EU_AI_Act/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_EU_AI_Act/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -41,7 +41,7 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 **Answer:** The rights protected by the EU Charter that are relevant to the use of AI systems in the context of manufacturing or personal assistance and care include the right to safety, the right to health, and the right to non-discrimination.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Legal_EU_AI_Act/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_EU_AI_Act/screenshots/question_type.png)
 
 #### Sample Token presence from the dataset:
 
@@ -51,7 +51,7 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 **Token Presence:** ['impact', 'artificial intelligence', 'systems', 'democracy', 'rule of law', 'environment']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Legal_EU_AI_Act/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_EU_AI_Act/screenshots/tokens_present.png)
 
 ## Usage
 

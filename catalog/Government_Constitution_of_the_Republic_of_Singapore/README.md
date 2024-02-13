@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Gove
 
 **Answer:** The name of the supreme law of Singapore is the Constitution of the Republic of Singapore.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Government_Constitution_of_the_Republic_of_Singapore/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Government_Constitution_of_the_Republic_of_Singapore/screenshots/question_type.png)
 
 #### Sample Token presence from the dataset:
 
@@ -42,7 +42,7 @@ The dataset is carefully curated from a diverse set of documents within the Gove
 
 **Token Presence:** ['sovereign', 'independent', 'protection', 'sovereignty', 'fundamental', 'liberties', 'citizens']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Government_Constitution_of_the_Republic_of_Singapore/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Government_Constitution_of_the_Republic_of_Singapore/screenshots/tokens_present.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -50,7 +50,7 @@ The dataset is carefully curated from a diverse set of documents within the Gove
 
 **Answer:** ['To provide advice to the President on matters related to minority rights.', 'To promote and protect the rights of minority communities in Singapore.', 'To investigate complaints of discrimination against minority groups.', 'To make recommendations to the government on policies related to minority rights.']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Government_Constitution_of_the_Republic_of_Singapore/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Government_Constitution_of_the_Republic_of_Singapore/screenshots/multi_choice.png)
 
 ## Usage
 

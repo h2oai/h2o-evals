@@ -34,7 +34,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Token Presence:** ['Commonwealth Bank of Australia']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Banking_CBA_AnnualReport_2023/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Banking_CBA_AnnualReport_2023/screenshots/tokens_present.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -42,7 +42,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Answer:** ['Commonwealth Bank of Australia', 'BlueScope Steel Ltd', 'TXU Energy', 'Coles Group Limited']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Banking_CBA_AnnualReport_2023/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Banking_CBA_AnnualReport_2023/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -50,7 +50,7 @@ The dataset is carefully curated from a diverse set of documents within the Bank
 
 **Answer:** Persons who, at the request of the Bank or a related body corporate, act as director, secretary or senior manager of a body corporate which is not a related body corporate of the Bank are indemnified by the Bank under the deed poll.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Banking_CBA_AnnualReport_2023/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Banking_CBA_AnnualReport_2023/screenshots/question_type.png)
 
 ## Usage
 

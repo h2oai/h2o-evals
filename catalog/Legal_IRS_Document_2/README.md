@@ -32,7 +32,7 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 **Answer:** You can check the "Married filing jointly" box at the top of Form 1040 or 1040-SR if you were married at the end of 2023, even if you didn't live with your spouse at the end of 2023, your spouse died in 2023 and you didn't remarry in 2023, or you were married at the end of 2023 and your spouse died in 2024 before filing a 2023 return.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Legal_IRS_Document_2/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_IRS_Document_2/screenshots/question_type.png)
 
 #### Sample Token presence from the dataset:
 
@@ -42,7 +42,7 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 **Token Presence:** ['April 15, 2024']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Legal_IRS_Document_2/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_IRS_Document_2/screenshots/tokens_present.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -50,7 +50,7 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 **Answer:** ['By contacting the Taxpayer Advocate Service (TAS) for assistance.', 'By visiting the TAS website (TaxpayerAdvocate.IRS.gov) to understand the Taxpayer Bill of Rights.', 'By calling the IRS toll-free at 800-TAX-FORM (800-829-3676) to request information.', 'By consulting a tax professional or attorney for advice.']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Legal_IRS_Document_2/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_IRS_Document_2/screenshots/multi_choice.png)
 
 ## Usage
 

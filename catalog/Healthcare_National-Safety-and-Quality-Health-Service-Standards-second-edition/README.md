@@ -34,7 +34,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Token Presence:** ['Preventing', 'Controlling', 'Healthcare-Associated', 'Infection', 'Standard']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/tokens_present.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -42,7 +42,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** The health service organisation establishes and maintains a clinical governance framework that includes strategies to meet the organisation’s safety and quality priorities for Aboriginal and Torres Strait Islander people.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/question_type.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -50,7 +50,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** ['5', '8', '10', '12']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/multi_choice.png)
 
 ## Usage
 

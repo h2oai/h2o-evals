@@ -34,7 +34,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Token Presence:** ['The purpose of the National Health Plan in 1983 was to detail the infrastructural plan for the next 20 years and to promote the idea of Medisave.']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Healthcare_System_in_Singapore/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_System_in_Singapore/screenshots/tokens_present.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -42,7 +42,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** ['The government extended the network of hospitalization, including general hospitals, satellite out-patient dispensaries, and maternal and child health clinics.', 'The country started building up a healthy population with preventive healthcare and encouraging healthy lifestyles.', 'The government introduced the "3M" (Medisave, Medishield, and Medifund) system to promote personal responsibility towards healthy living.', "Singapore had an island network of outpatient polyclinics and private medical practitioners' clinics to provide primary healthcare services."]
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Healthcare_System_in_Singapore/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_System_in_Singapore/screenshots/multi_choice.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -50,7 +50,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** The population of Singapore is 5.2 million.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/catalog/Healthcare_System_in_Singapore/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_System_in_Singapore/screenshots/question_type.png)
 
 ## Usage
 
