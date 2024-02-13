@@ -5,14 +5,14 @@ def generate_conditional_question(folder_name, row):
     question = f"#### Sample Conditional questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
-    question += f"![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/question_type.png)\n\n"
+    question += f"![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/{folder_name}/screenshots/question_type.png)\n\n"
     return question
 
 def generate_multi_choice_question(folder_name, row):
     question = f"#### Sample Multi choice questions from the dataset:\n\n"
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['choices']}\n\n"
-    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/multi_choice.png)\n\n"
+    question += f"![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/{folder_name}/screenshots/multi_choice.png)\n\n"
     return question
 
 def generate_token_presence_question(folder_name, row):
@@ -20,7 +20,7 @@ def generate_token_presence_question(folder_name, row):
     question += f"**Question:** {row['question']}\n\n"
     question += f"**Answer:** {row['answer']}\n\n"
     question += f"**Token Presence:** {row['tokens_present']}\n\n"
-    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/{folder_name}/screenshots/tokens_present.png)\n\n"
+    question += f"![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/{folder_name}/screenshots/tokens_present.png)\n\n"
     return question
 
 def generate_dataset_info(row):
@@ -34,10 +34,10 @@ def generate_dataset_info(row):
 
     used_documents_folder = os.path.join(row['Dataset_link'].split('/')[-1], 'used_documents')
     # used_documents_folder = os.path.join('https://github.com/h2oai/h2o-evals/tree/64ee8b5162e03fa569fda7a49261cc28aa1fe939/catalog', used_documents_folder)
-    documents = os.listdir(f"./{used_documents_folder}")
+    documents = os.listdir(f"./catalog/{used_documents_folder}")
     for index, document in enumerate(documents, start=1):
         document_path = os.path.join(used_documents_folder, document)
-        dataset_info += f"{index}. [{document}](https://github.com/h2oai/h2o-evals/blob/main/{document_path})\n"
+        dataset_info += f"{index}. [{document}](https://github.com/h2oai/h2o-evals/blob/main/catalog/{document_path})\n"
 
     dataset_info += (
         "\n## Dataset Details\n"
@@ -103,14 +103,14 @@ def update_master_readme():
 
 	for i, r in df.iterrows():
 		r = dict(r) 
-		url = "https://github.com/h2oai/h2o-evals/tree/main/"
+		url = "https://github.com/h2oai/h2o-evals/tree/main/catalog/"
 		html += f"| {int(r['ID'])}. | [{r['Dataset']}]({url + r['Dataset_link'].strip()})| {r['Industry']} | {r['Sub_Industry']} | {r['No_of_entries']} | {r['Prompt_type']} | {r['Evaluation_type(rag/LLM)']} | {r['Evaluation_technique']} |"
 		html += "\n"
 	return html
 
 def update_webpage_html():
 	visited = []
-	url = "https://github.com/h2oai/h2o-evals/blob/main/"
+	url = "https://github.com/h2oai/h2o-evals/blob/main/catalog/"
 	html = ""
 	df = pd.read_csv("data.csv", encoding= 'utf-8').fillna("NA")
 	for i, r in df.iterrows():
@@ -130,7 +130,7 @@ def update_webpage_html():
 </div>"""
 	return html
 
-root_folder_path = 'https://github.com/h2oai/h2o-evals/blob/main/'
+root_folder_path = 'https://github.com/h2oai/h2o-evals/blob/main/catalog/'
 csv_file_path = 'https://github.com/h2oai/h2o-evals/blob/main/data.csv'
 
 if __name__ == '__main__':
