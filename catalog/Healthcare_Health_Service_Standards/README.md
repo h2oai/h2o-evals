@@ -1,15 +1,15 @@
-# Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition
+# Healthcare_Health_Service_Standards
 
 ## Overview
-Welcome to the Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Health industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
+Welcome to the Healthcare_Health_Service_Standards, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Health industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Health sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [National-Safety-and-Quality-Health-Service-Standards-second-edition.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/used_documents/National-Safety-and-Quality-Health-Service-Standards-second-edition.pdf)
+1. [Health_Service_Standards.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_Health_Service_Standards/used_documents/Health_Service_Standards.pdf)
 
 ## Dataset Details
 - **Industry:** Health
-- **Sub Industry:** Health
+- **Sub Industry:** Health Service Standards
 - **Number of Question-Answer Pairs:** 82
 - **Prompt Type:** RAG
 - **Evaluation Techniques:** Conditional Questions Multi Choice and Tokens Presence
@@ -34,7 +34,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Token Presence:** ['Preventing', 'Controlling', 'Healthcare-Associated', 'Infection', 'Standard']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_Health_Service_Standards/screenshots/tokens_present.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -42,7 +42,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** The health service organisation establishes and maintains a clinical governance framework that includes strategies to meet the organisation’s safety and quality priorities for Aboriginal and Torres Strait Islander people.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_Health_Service_Standards/screenshots/question_type.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -50,7 +50,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** ['5', '8', '10', '12']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_National-Safety-and-Quality-Health-Service-Standards-second-edition/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_Health_Service_Standards/screenshots/multi_choice.png)
 
 ## Usage
 

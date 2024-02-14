@@ -9,7 +9,7 @@ The dataset is derived from a selection of key documents within the Risk Managem
 
 ## Dataset Details
 - **Industry:** Risk Management
-- **Sub Industry:** risk management
+- **Sub Industry:** Risk Management
 - **Number of Question-Answer Pairs:** 160
 - **Prompt Type:** RAG
 - **Evaluation Techniques:** Conditional Questions Multi Choice and Tokens Presence
