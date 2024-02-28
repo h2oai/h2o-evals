@@ -48,3 +48,4 @@ Following is the collection of 100 Datasets by different industries, different e
 | 8. | [Legal_IRS_Document_1](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_IRS_Document_1)| Legal | IRS Filing Policy | 145 | RAG | RAG | Conditional Questions Multi Choice and Tokens Presence |
 | 9. | [Legal_IRS_Document_2](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_IRS_Document_2)| Legal | IRS Filing Policy | 126 | RAG | RAG | Conditional Questions Multi Choice and Tokens Presence |
 | 10. | [Banking_CBA_AnnualReport_2023](https://github.com/h2oai/h2o-evals/tree/main/catalog/Banking_CBA_AnnualReport_2023)| Banking | Annual Report | 120 | RAG | RAG | Conditional Questions Multi Choice and Tokens Presence |
+| 11. | [Government_Home_Affairs](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_Home_Affairs)| Government | Home Affairs | 116 | RAG | RAG | Conditional Questions Multi Choice and Tokens Presence |
