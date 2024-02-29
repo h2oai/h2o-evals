@@ -5,7 +5,7 @@ Welcome to the Finance_Product_Disclosure_Statement, part of the H2O.ai LLM Eval
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Finance sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [Product Disclosure Statement.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Finance_Product_Disclosure_Statement/used_documents/Product Disclosure Statement.pdf)
+1. [Product_Disclosure_Statement.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Finance_Product_Disclosure_Statement/used_documents/Product_Disclosure_Statement.pdf)
 
 ## Dataset Details
 - **Industry:** Finance
