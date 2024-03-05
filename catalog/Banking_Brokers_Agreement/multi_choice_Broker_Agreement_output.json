@@ -1,0 +1,221 @@
+{
+    "tests": [
+        {
+            "key": "ef12cf52-a118-4cf5-9eac-e381f809f59a",
+            "documents": [
+                "Broker_Agreement.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "154b5f50-1019-4166-9b2c-dc24ae3c89da",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What laws and regulations must the seller comply with?\nHow do you respond?\nA. Federal, State, and local laws and regulations that directly or indirectly relate to the seller's activities under the agreement.\nB. Laws and regulations that apply to the seller's business, including those related to lending, banking, and financial services.\nC. Laws and regulations that apply to the seller's formation, existence, and standing, such as corporate law and licensing requirements.\nD. Laws and regulations that apply to the seller's interactions with LSB, including contract law and privacy laws.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "477aa8cb-82c5-40b7-917d-7df57959905b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are there any pending or threatened actions, suits, proceedings, or investigations against the seller?\nHow do you respond?\nA. Yes, there is a pending investigation against the seller.\nB. No, there are no pending or threatened actions, suits, proceedings, or investigations against the seller.\nC. Yes, there is a threatened lawsuit against the seller.\nD. Yes, there is a pending proceeding against the seller.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d92e0535-15d2-4519-9771-78ced7657a47",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the duration of the agreement?\nHow do you respond?\nA. One year\nB. Two years\nC. Three years\nD. The duration of the agreement is not specified in the provided context.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "dc734876-78f7-4e9d-9dae-06ac0dac8498",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the agreement between Seller and LSB?\nHow do you respond?\nA. To outline the terms and conditions for LSB to purchase loans from Seller.\nB. To establish a non-exclusive agreement for Seller to market LSB's products and services.\nC. To require Seller to maintain adequate security measures for Confidential Information provided by LSB.\nD. To provide LSB with indemnification for any claims arising from Seller's performance or failure to perform under the agreement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1f92b849-9482-4b6c-95cd-bffddc62ef43",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the duration of the agreement?\nHow do you respond?\nA. 10 days\nB. The duration of the agreement is not specified in the given context.\nC. 1 year\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "92694623-70b8-451f-ad2e-d7b7f081132f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens in the event of termination of the agreement?\nHow do you respond?\nA. LSB will purchase all loans from Seller.\nB. Seller must assist LSB in completing the processing and resolution of all matters relating to registered applications and closed loans.\nC. LSB will provide Seller with a list of approved loan applications.\nD. Seller must return all Confidential Information to LSB.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7a4c52dd-71ce-4909-957c-31ae84b77a93",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the governing law for the agreement?\nHow do you respond?\nA. The laws of the state of Ohio and applicable federal law.\nB. The laws of the state where the agreement is executed.\nC. The laws of the state where the parties reside.\nD. The laws of the United States.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f2a9972a-260e-4c99-a071-a2ec25c1ce11",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the governing law for this agreement?\nHow do you respond?\nA. The laws of the state of Ohio and applicable federal law.\nB. The laws of the state where the loan mortgagor is located.\nC. The laws of the state where LSB is located.\nD. The laws of the state where Seller is located.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b8e547ef-2e1f-4744-be36-99dc78fc2a7c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How shall notices be sent between the parties?\nHow do you respond?\nA. By registered, certified, or first-class mail, postage fully prepaid.\nB. By email or fax.\nC. By hand delivery or courier.\nD. By posting on a public bulletin board.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7df019b3-17ef-479a-92cb-bd8b6c9c20f8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the address for notices to be sent to LSB?\nHow do you respond?\nA. 3435 Airborne Rd, STE. B, Wilmington, OH 45177\nB. Attention: Broker Approval\nC. Or another address may be designated in writing by LSB from time to time.\nD. Seller's office address\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3b538d8e-8b84-48e4-979b-f78b99b6fd4c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the email address for notices to be sent to Seller?\nHow do you respond?\nA. [Seller's email address]\nB. [LSB's email address]\nC. [Broker Approval email address]\nD. [Email address not specified in the agreement]\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "15a6f0ab-9b43-4a0f-9559-38751a043071",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can this agreement be modified by Seller?\nHow do you respond?\nA. Yes, Seller can modify this agreement at any time.\nB. No, this agreement cannot be modified by Seller.\nC. Yes, Seller can modify this agreement with the written consent of LSB.\nD. No, this agreement can be modified by Seller, but only if LSB agrees to the modification in writing.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b64f560f-2aeb-4f55-ae36-1e85d0a325b4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process for purchasing loans from Seller by LSB?\nHow do you respond?\nA. LSB purchases loans from Seller without reviewing the loan documentation.\nB. LSB reviews the loan documentation and agrees to purchase the loan at a price agreed upon by LSB and Seller.\nC. Seller transfers all rights, title, and interest in the loans to LSB on the date of purchase.\nD. LSB requires Seller to refund the service release premium previously paid to Seller by LSB for the loan.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f18d316b-9dcb-4378-bb66-e97c5bfdc49b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if LSB determines that a loan was originated in violation of the agreement or applicable law?\nHow do you respond?\nA. LSB may require Seller to correct or cure the defect within a specified time.\nB. LSB may request that Seller repurchase the defective loan at the original purchase price.\nC. LSB may terminate the agreement and demand that Seller refund the purchase price of all loans purchased.\nD. LSB may offset the purchase price of the defective loan against any outstanding fees or other amounts owing from Seller to LSB.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "468affd3-d95b-4691-822f-b1eca4f1d92e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How must Seller pay the Repurchase Price to LSB or such secondary market investor?\nHow do you respond?\nA. By cashier\u2019s check or wire transfer of immediately available federal funds.\nB. By credit card or online payment platform.\nC. By check or money order.\nD. By bank draft or ACH transfer.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5c4d724e-c7bf-4d30-83da-59f5d647b824",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the timeframe for Seller to pay the Repurchase Price to LSB and/or secondary market investor upon request?\nHow do you respond?\nA. Within five (5) business days of Seller's receipt of the repurchase request.\nB. Within ten (10) business days of Seller's receipt of the repurchase request.\nC. Within fifteen (15) business days of Seller's receipt of the repurchase request.\nD. Within twenty (20) business days of Seller's receipt of the repurchase request.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "56390698-adfd-4292-9683-f7f6b336992a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the fees to be paid to Seller by LSB?\nHow do you respond?\nA. $1000\nB. $1500\nC. 1.00%\nD. 2.75%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6e7252fc-04a8-4200-afd2-22184181a8a0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often can the fees be adjusted?\nHow do you respond?\nA. Monthly\nB. Quarterly\nC. Annually\nD. Every 6 months\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1b31925a-6178-4b78-a625-7ebe3191c1f1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the required notice period for Seller to deliver the Broker Comp Change Form to LSB?\nHow do you respond?\nA. 10 business days\nB. 30 business days\nC. 60 business days\nD. 90 business days\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}
