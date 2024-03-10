@@ -1,0 +1,716 @@
+{
+    "tests": [
+        {
+            "key": "0db79894-84f6-4709-9648-1c45a8c269b1",
+            "documents": [
+                "Singapore_Cyber_Landscape.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "32d94e8c-1ce0-4add-a78e-d65aa016ffda",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the \"Singapore Cyber Landscape 2022\" publication?\nHow do you respond?\nA. To provide a comprehensive overview of the global cyber threat landscape in 2022.\nB. To analyze the latest cybersecurity trends and their impact on Singapore's cyberspace.\nC. To provide a detailed guide on how to protect oneself from cyber threats.\nD. To highlight the importance of cybersecurity awareness among the general public.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "70c03e46-101b-4a53-9cc8-56faa7318116",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus of Pillar 1 of Singapore's cybersecurity strategy?\nHow do you respond?\nA. Developing a vibrant cybersecurity ecosystem\nB. Enhancing international cyber cooperation\nC. Building resilient infrastructure\nD. Growing a robust cyber talent pipeline\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "626d6dca-905a-4401-9317-2bf18cd55f3a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the objective of Pillar 2 of Singapore's cybersecurity strategy?\nHow do you respond?\nA. To enhance international cyber cooperation.\nB. To develop a vibrant cybersecurity ecosystem.\nC. To grow a robust cyber talent pipeline.\nD. To counter ransomware attacks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "2d51376c-27ca-482e-a7c4-a6217d8eb5b4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main theme of Chapter 4 of the \"Singapore Cyber Landscape 2022\" publication?\nHow do you respond?\nA. \"Cracking the Code: Lessons Learnt from Cyber-Attacks\"\nB. \"Enhancing International Cyber Cooperation\"\nC. \"Building a Safer Cyberspace with the Community\"\nD. \"Understanding the SocGholish Malware Compromise: Implications and Protective Measures for Organizations\"\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c6a566df-9699-43d4-95a6-405c30ec3d8d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus of Chapter 5 of the \"Singapore Cyber Landscape 2022\" publication?\nHow do you respond?\nA. Cybersecurity measures for critical infrastructure.\nB. Emerging cyber threats and collective efficacy.\nC. Cybersecurity talent pipeline and vibrant ecosystem.\nD. Lessons learned from cyber-attacks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "32977e85-4897-4ceb-8621-207725fecd45",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the theme of the cyber threat landscape in 2022?\nHow do you respond?\nA. The rise of ransomware attacks and the importance of international collaboration to combat them.\nB. The impact of geopolitical instability on cybersecurity and the need for heightened vigilance.\nC. The increase in hacktivist attacks and the importance of strengthening critical infrastructure.\nD. The emergence of bespoke exploits targeting industrial Operational Technology systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2d919a31-a49c-4ca1-876d-8d5fe1b8d8f9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were some of the disconcerting developments in the cyber threat landscape in 2022?\nHow do you respond?\nA. Increase in ransomware attacks on essential organizations\nB. Targeted attacks on industrial Operational Technology (OT) systems\nC. Global service disruptions caused by hacktivist groups\nD. Opportunistic exploits of cybercriminals as COVID-19 restrictions began to ease.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ab1f88ff-2b33-4258-90e6-ea5ab15de95f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the theme of the Singapore Cyber Landscape 2022 report?\nHow do you respond?\nA. The impact of geopolitical instability on Singapore's cybersecurity.\nB. The importance of preventing cybercrimes such as scams and ransomware.\nC. The role of emerging technologies like Artificial Intelligence in cybersecurity.\nD. The assessment of cybersecurity posture and adoption of good Internet security practices.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "27599671-7e86-4ab7-be72-49f8e263909c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Internet Hygiene Portal (IHP) launched by the CSA?\nHow do you respond?\nA. To provide a platform for reporting cybercrimes and cybersecurity threats.\nB. To assess the security and hygiene levels of websites and email domains.\nC. To educate the public about the latest scam campaigns and techniques.\nD. To provide a one-stop solution for cybersecurity services and consultation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8b190419-1a21-44c5-a894-8b69917f2e74",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the new AI chatbot that has been showcasing increasingly astounding capabilities?\nHow do you respond?\nA. ChatGPT\nB. Bard\nC. SingChat\nD. CyberBot\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c6e21420-30f6-4263-8d0f-933e64a01b50",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the concern of cybersecurity experts regarding emerging technologies like AI chatbots?\nHow do you respond?\nA. That AI chatbots will replace human cybersecurity experts.\nB. That AI chatbots will be used to enable malicious cyber activities.\nC. That AI chatbots will not be able to keep up with the pace of technological advancements.\nD. That AI chatbots will only be used for positive purposes such as enhancing cybersecurity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "caf77bd8-28ce-4117-aa02-1c71823e2431",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the malware that was discovered in April 2022, specifically developed to disrupt industrial processes?\nHow do you respond?\nA. Incontroller\nB. Pipedream\nC. Stuxnet\nD. Carnage\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a4ba4a33-7437-427b-b243-442ff249fad7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Stuxnet computer worm in the context of cybersecurity?\nHow do you respond?\nA. It demonstrated the potential for cyber attacks to cause physical damage and disrupt critical infrastructure.\nB. It was the first malware to target Operational Technology (OT) systems.\nC. It was a ransomware attack that targeted industrial operations.\nD. It was a wiper malware that permanently disabled Iran's nuclear facility.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "61a7fc8d-047c-4d6e-ac64-7027b62c9b70",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are Operational Technology (OT) systems?\nHow do you respond?\nA. Computer worms that disable Internet-disconnected nuclear facilities.\nB. Malware packages that target Supervisory Control and Data Acquisition (SCADA) devices.\nC. Custom-made tools that can scan, compromise and control affected devices.\nD. Systems that interact with machines and are found in automated and industrial applications.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "b37f0a20-6f08-46f1-901e-e0afd35a7ae8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Incontroller malware?\nHow do you respond?\nA. To disable or disrupt industrial processes and systems.\nB. To steal sensitive information from industrial systems.\nC. To take control of industrial systems and equipment.\nD. To protect industrial systems from cyber threats.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "500d652b-f31d-48bd-8199-3e4880afa8f0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does Incontroller malware differ from other OT systems malware?\nHow do you respond?\nA. Incontroller is designed to target both OT and IT systems.\nB. Incontroller is specifically developed to disrupt industrial processes.\nC. Incontroller can only be used against US Critical Infrastructure.\nD. Incontroller has wiper capabilities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1141a791-fe3d-41bb-8143-b5930f7cecb7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Russia-Ukraine conflict in the context of cybersecurity?\nHow do you respond?\nA. The conflict has led to an increase in cyberattacks against Ukrainian critical infrastructure, highlighting the vulnerability of OT systems.\nB. The conflict has resulted in a surge in ransomware attacks against Russian organizations, demonstrating the evolving threat of cybercrime.\nC. The conflict has exposed the vulnerability of global supply chains to cyber threats, as countries have imposed sanctions on Russia.\nD. The conflict has highlighted the need for greater international cooperation in cybersecurity to prevent future conflicts.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "01b8aece-06d8-48a2-99ab-815021453afe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of digitalisation in cybersecurity?\nHow do you respond?\nA. Digitalization has made cybersecurity more important than ever, as it has increased the number of potential vulnerabilities that attackers can exploit.\nB. Digitalization has made cybersecurity less important, as it has allowed for the automation of many security processes.\nC. Digitalization has had no impact on cybersecurity.\nD. Digitalization has made cybersecurity more challenging, as it has created new opportunities for attackers to exploit.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "8194090d-da07-4095-a746-628f026a6b4c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the primary reason for isolating OT systems from IT networks?\nHow do you respond?\nA. To prevent cyber-attacks from affecting OT systems.\nB. To allow OT systems to be controlled and monitored remotely.\nC. To enable OT systems to interface with IT networks securely.\nD. To prevent unauthorized access to OT systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "63c3f5ed-c2a8-427a-adc5-a6d4775ffb65",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the term used to describe the isolation of OT systems from IT networks?\nHow do you respond?\nA. Air gapping\nB. Network segmentation\nC. Remote access\nD. IIoT integration\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d40aa10e-1bec-414f-90c9-b6c393aa7da9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the malware that targeted Iran's Natanz nuclear-enrichment facility in 2010?\nHow do you respond?\nA. Triton\nB. Stuxnet\nC. Industroyer\nD. IIoT\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ec4341d0-4faf-42d4-8263-1fef0ef3e743",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the malware that targeted a Saudi Arabian petrochemical facility in 2017?\nHow do you respond?\nA. Stuxnet\nB. Triton\nC. Industroyer\nD. IIoT\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c8372c84-8dbe-4141-8029-7988d43c1bd9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the malware that targeted Ukraine's electrical grid in 2016?\nHow do you respond?\nA. Stuxnet\nB. Industroyer\nC. Triton\nD. IIoT\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c8ac7ef4-94b6-4d02-be3f-0ae51f14cf2a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the stage in a cyber-attack where the attacker surveys the targeted network environment?\nHow do you respond?\nA. Engagement\nB. Reconnaissance\nC. Exploitation\nD. Intrusion\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0af97ade-d217-4620-b3e7-c988d0190cfe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the stage in a cyber-attack where the attacker gains control of a management workstation?\nHow do you respond?\nA. Reconnaissance\nB. Engagement\nC. Exploitation\nD. Intrusion\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "213a1d9c-eb7a-4c02-8939-05c5bc67d217",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the IIoT interface in OT systems?\nHow do you respond?\nA. To isolate OT systems from IT networks\nB. To allow OT systems to be controlled and monitored remotely\nC. To provide a security layer between OT and IT networks\nD. To enable OT systems to communicate with each other\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fd46dcc9-9011-4b62-912c-1057d9c172b9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of malware targets individual components in OT systems to cause malfunction?\nHow do you respond?\nA. Ransomware\nB. Pipedream\nC. Stuxnet\nD. Triton\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "06586c02-5441-43da-bcfd-9a5cc57203c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can organizations protect themselves from ransomware attacks?\nHow do you respond?\nA. Conducting regular backups and testing recovery processes to ensure fast and effective recovery.\nB. Implementing strong cyber hygiene practices across IT and OT networks to prevent accidental or purposeful intrusions.\nC. Investing in advanced threat detection and mitigation tools to prevent ransomware from entering the network.\nD. Providing regular training and awareness programs for employees to recognize and report suspicious activities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e8d0d9d7-8f16-4103-8148-6bce33dbffd7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the malware that targeted around 30 Costa Rican government institutions?\nHow do you respond?\nA. Pipedream\nB. Conti\nC. BlackFog\nD. Triton\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d968191c-9eba-49b6-8dcc-dcf762440f07",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the estimated revenue of ransomware groups in 2022?\nHow do you respond?\nA. US$456.8 million\nB. US$765.6 million\nC. US$1.2 million\nD. US$5000000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3ab18732-b36c-4b9e-8506-fbbaa41be474",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the reason behind ransomware groups' increasing audaciousness?\nHow do you respond?\nA. The falling ransomware revenue and concerted, coordinated global efforts to counter their nefarious operations.\nB. The continued proliferation of Ransomware-as-a-Service (RaaS) affiliate models.\nC. Their negotiation tactics became more aggressive.\nD. The increasing number of cloud-based network attacks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8004503f-a19c-457a-9514-353960f7680b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How have ransomware groups evolved in terms of their branding and customer support?\nHow do you respond?\nA. They have become more commercial and professional-like, branding their ransomware and ransom notes with a distinctive logo and style, and providing \"customer support\" functions to help victims through the ransom payment and file decryption processes.\nB. They have become more aggressive and threatening, using scare tactics to pressure victims into paying the ransom quickly.\nC. They have become more sophisticated and targeted, using advanced techniques to evade detection and target specific organizations.\nD. They have become more opportunistic, using a combination of phishing and brute force attacks to gain access to systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9856e50a-7c87-4200-8712-143a587179fc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Conti ransomware group's rebranding?\nHow do you respond?\nA. It indicates a shift in their targeting strategy, focusing on smaller, more vulnerable organizations.\nB. It is a response to the decline in ransomware revenue and a way to avoid law enforcement.\nC. It reflects their new focus on providing customer support and a more professional, commercial approach.\nD. It is a tactic to evade detection by security researchers and vendors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fa2c92fb-f7c1-471f-819d-c336153c7bbe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the trend in terms of ransomware attacks on cloud services?\nHow do you respond?\nA. Ransomware attacks on cloud services are decreasing.\nB. Ransomware attacks on cloud services are increasing.\nC. Ransomware attacks on cloud services remain the same.\nD. Ransomware attacks on cloud services are no longer a concern.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "15eaf644-0120-4f7b-86b2-8f1c0aa676d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do ransomware groups exploit cloud services?\nHow do you respond?\nA. By compromising one system to spread ransomware rapidly to connected systems and organizations.\nB. By targeting managed service providers for the cloud to impact many downstream customers.\nC. By exploiting a two-year-old vulnerability in VMWare ESXi software.\nD. By confusing customers about cybersecurity obligations, leading to misconfiguration or unpatched vulnerabilities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "133d3637-dfab-4ac1-9179-c3375a843dfa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of managed service providers for cloud security?\nHow do you respond?\nA. Managed service providers are not impacted by cloud security threats.\nB. Managed service providers are prime targets for ransomware attacks.\nC. Managed service providers are responsible for securing their customers' cloud infrastructure.\nD. Managed service providers are not responsible for securing their customers' cloud infrastructure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c6016f05-f28e-4601-9822-4f11fc37cf6b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the vulnerability exploited in the VMWare ESXi ransomware attacks in February 2023?\nHow do you respond?\nA. A two-year-old vulnerability in VMWare ESXi software.\nB. A recently discovered vulnerability in cloud services.\nC. Misconfiguration or unpatched vulnerabilities on the customers' end.\nD. A vulnerability in the cloud infrastructure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a506d572-e431-42f5-a253-46b704cd243f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the lesson learned from the VMWare ESXi ransomware attacks?\nHow do you respond?\nA. Ransomware groups now target cloud services and infrastructure.\nB. Ransomware groups exploit unpatched vulnerabilities in software.\nC. Cloud security is a shared responsibility between vendors and customers.\nD. Managed service providers for the cloud are not prime targets for ransomware attacks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fbf09435-5b54-40d8-b318-ff8c97487369",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the future outlook for ransomware groups?\nHow do you respond?\nA. They will continue to evolve and adapt to new technologies and security measures.\nB. They will eventually disappear as law enforcement and cybersecurity measures become more effective.\nC. They will shift their focus to other forms of cybercrime, such as phishing or malware attacks.\nD. They will become more specialized and target specific industries or organizations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "eee69c4e-a809-49dd-b0bd-29a54cf50679",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the ransomware group that claimed multiple high-profile attacks against tech companies such as Nvidia and Samsung, and targets healthcare institutions in the US?\nHow do you respond?\nA. BlackCat\nB. Lapsus$\nC. Karakurt\nD. RansomExx\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "757ac50b-0451-4a7d-b83e-37a1f777274c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the reason behind the increase in malware-free ransomware attacks, according to the article?\nHow do you respond?\nA. The absence of a malware payload and a protracted encryption process makes such ransomware attacks harder to detect and stealthier.\nB. Ransomware groups are focusing on expanding their attacks towards maximizing profits, without worrying about updating their encryption malware.\nC. They abuse valid credentials and legitimate tools in the victim's environment (e.g. PowerShell), which is perceived by attackers to be more reliable.\nD. The growth in the malware-free mode of ransomware attacks might have been sparked by the increasing use of cloud-oriented ransomware.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a4cd345a-4f70-46c5-a35d-286a54872908",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the cross-platform language that ransomware groups such as BlackCat, Hive, and RansomExx have developed versions of their malware in, to customize their malware for both the Windows and Linux operating systems?\nHow do you respond?\nA. Java\nB. Python\nC. Rust\nD. C++\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6cea47b3-bc15-4d88-97c6-2e3e2d65e5b2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason behind the ransomware attack on the Leigh Valley Health Network?\nHow do you respond?\nA. The attackers were seeking to exploit vulnerabilities in the healthcare industry.\nB. The attackers were attempting to steal sensitive patient data.\nC. The attackers were seeking to disrupt healthcare services.\nD. The attackers were attempting to extort money from the healthcare network.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "2c123c3f-0885-4292-b883-b24b13d9b1da",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome of the ransomware attack on the Minneapolis Public Schools?\nHow do you respond?\nA. The school district paid the ransom and successfully regained access to their data.\nB. The school district refused to pay the ransom, and their data remained encrypted.\nC. The school district paid the ransom, but still encountered system errors and corrupted data after decryption.\nD. The school district was not affected by the ransomware attack.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "579611b3-0558-48b1-a249-e6fa3a0905fb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome for organizations that paid the ransom in the Cybereason's research?\nHow do you respond?\nA. 80% of organizations that paid the ransom were hit by a second ransomware attack, 48% of which was perpetrated by the same attackers, and 68% demanding a higher ransom.\nB. Only 42% of organizations that paid the ransom managed to restore all their systems and data.\nC. 54% of organizations that paid the ransom were still encountered system errors and corrupted data after decryption using keys provided by the attackers.\nD. Nearly 60% of organizations were unable to recover all their systems and data even after paying up.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "14429699-a8e5-4b80-aa94-4ec1124a2a4e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the CRI (Cybersecurity Resilience Index) in the context of ransomware attacks?\nHow do you respond?\nA. The CRI measures the effectiveness of an organisation's cybersecurity measures in preventing ransomware attacks.\nB. The CRI assesses the likelihood of an organisation paying the ransom in the event of a ransomware attack.\nC. The CRI evaluates the severity of the impact of ransomware attacks on an organisation's systems and data.\nD. The CRI tracks the number of successful ransomware attacks on an organisation over time.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "d988c726-ecf8-4094-8a2b-bbc104a698b8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the impact of the ransomware attack on the Royal Mail in the UK?\nHow do you respond?\nA. The attack did not have any significant impact on the Royal Mail's operations.\nB. The attack disrupted the overseas delivery of parcels and letters for two weeks.\nC. The attack resulted in the theft of sensitive customer data, including credit card information.\nD. The attack caused a complete shutdown of the Royal Mail's systems, resulting in a nationwide postal service disruption.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "86d64e77-0845-42d8-bbe6-e78fe619eef9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the impact of the ransomware attack on the Hospital Clinic de Barcelona in Spain?\nHow do you respond?\nA. The hospital's emergency rooms, laboratories, and pharmacy were shut down, and up to 3,000 patient check-ups and 150 non-urgent operations were cancelled.\nB. The hospital's systems were encrypted, and the attackers demanded a ransom to provide the decryption keys.\nC. The attack was successfully contained, and no systems or data were compromised.\nD. The hospital's staff were able to negotiate with the attackers and paid a reduced ransom.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "563b6499-b226-469b-a10b-2db8db8d8f52",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the pro-Ukraine hacktivist group that has been involved in the conflict?\nHow do you respond?\nA. AgainstTheWest\nB. NB65\nC. Anonymous\nD. IT Army of Ukraine\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4366325d-6354-43e5-b54c-2c49b1c678f5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the ransomware that has been used by pro-Ukraine hacktivists?\nHow do you respond?\nA. Conti\nB. RaaS\nC. CRI\nD. NB65\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "85acd95b-b581-400e-9ad1-825c75d56e25",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the collective that has been involved in the conflict and has been accused of leaking data obtained from the Chinese Communist Party?\nHow do you respond?\nA. Anonymous\nB. AgainstTheWest (previously Cybersecurity Implications of the Russia-Ukraine Conflict: A Year On GLOBAL TRENDS IN 2022GLOBAL TRENDS IN 2022)\nC. Killnet\nD. NB65\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2a847a7a-d4eb-4e9f-9237-a4e4ec261000",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the malware that has been used by hacktivists to disrupt essential services?\nHow do you respond?\nA. Conti\nB. Killnet\nC. Anonymous\nD. Ransomware\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "f70269b4-481d-4b01-be09-c76075e55c70",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What has been the impact of hacktivist activities in the Russia-Ukraine conflict?\nHow do you respond?\nA. Hacktivists have significantly shifted the course of the war in favor of Ukraine through their cyberattacks.\nB. Hacktivists have disrupted the operations of Russian entities, but their impact is limited and pales in comparison to military campaigns.\nC. Hacktivists have caused significant harm to Ukrainian civilians and infrastructure through their cyberattacks.\nD. Hacktivists have not had any impact on the Russia-Ukraine conflict.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b3c5af04-fd70-453f-8626-9aba82c62b28",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How have Big Tech companies been involved in the Russia-Ukraine conflict?\nHow do you respond?\nA. Big Tech companies have been providing tactical support to Ukraine on the physical and cyber battlefields.\nB. Big Tech companies have been actively taking sides, demonstrating their support for Russia in various ways.\nC. Big Tech companies have been playing a key role in the conflict by supplying technology and platforms used daily by billions of individuals and organisations around the world.\nD. Big Tech companies have been avoiding the need to pick sides to minimise losses to their bottom line.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b7ab25b1-df69-4df3-8e44-d65d268b5405",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of Big Tech companies' willingness to support a geopolitical cause?\nHow do you respond?\nA. It demonstrates their ability to remain neutral in geopolitical conflicts.\nB. It highlights their willingness to prioritize profits over ethical considerations.\nC. It shows their growing influence on global events and their ability to shape geopolitical outcomes.\nD. It indicates their lack of concern for the impact of their actions on global stability.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4da6fdbb-9010-4491-beaf-b3a7723a9770",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who makes the decisions in Big Tech companies regarding their involvement in geopolitical conflicts?\nHow do you respond?\nA. The CEO\nB. The shareholders\nC. The employees\nD. The government\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3c4526d3-49ae-45c1-a40b-6f88233488ed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the key trends and statistics of malicious cyber activities observed in Singapore's cyber landscape in 2022?\nHow do you respond?\nA. An increase in ransomware attacks, with more than one case reported every three days, and a significant rise in phishing attempts.\nB. A significant decrease in ransomware attacks, with a slight increase in phishing attempts.\nC. A steady rate of ransomware attacks, with a significant decrease in phishing attempts.\nD. A complete eradication of ransomware and phishing attacks in Singapore's cyber landscape.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bb0d499c-09b3-4890-8bcd-22b8e049fe5b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How has the Russia-Ukraine conflict affected the global cyber landscape?\nHow do you respond?\nA. It has resulted in an increased risk of collateral damage and unintended effects on uninvolved countries.\nB. It has demonstrated the unprecedented involvement of Big Tech companies in geopolitical conflicts.\nC. It has led to a significant shift in the course of the war due to hacktivist activities.\nD. It has resulted in a decrease in the number of cyber-attacks globally.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1720a634-2075-4b06-964d-2dbf7612e5ca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the growth of Big Tech companies in the context of cyber conflicts?\nHow do you respond?\nA. Big Tech companies can play a key role in shaping geopolitical and wartime developments by deciding what capabilities to supply and to whom.\nB. Big Tech companies can minimize losses to their bottom line by remaining neutral in geopolitical conflicts.\nC. Big Tech companies' involvement in cyber conflicts is insignificant compared to military campaigns.\nD. Big Tech companies' growth will lead to an increased risk of collateral damage and unintended effects on uninvolved countries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "87ceb653-e0ae-44c5-9dad-8cdd4d4b8610",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of hacktivism in the Russia-Ukraine conflict?\nHow do you respond?\nA. Hacktivists have been actively supporting Ukraine, launching cyberattacks against Russian entities and disrupting their operations.\nB. Hacktivists have been working with Russian entities to launch cyberattacks against Ukrainian targets.\nC. Hacktivists have not played a significant role in the conflict.\nD. Hacktivists have been working independently, launching cyberattacks against both Russian and Ukrainian targets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "82f50d2b-fa36-4eaf-9757-6e0cd95406be",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of remaining vigilant in the context of cyber conflicts?\nHow do you respond?\nA. To avoid significant revenue losses for Big Tech companies.\nB. To minimize the impact of hacktivist activities.\nC. To prevent unintended effects on uninvolved countries.\nD. To protect the safety of local communities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "134e4063-9faa-4f35-9764-77ef7d5b0b16",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the number of ransomware incidents in Singapore in 2022?\nHow do you respond?\nA. 132 cases\nB. 137 cases\nC. 94,000 cases\nD. 81,500 cases\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "77210a00-ed6e-4ce0-90c8-b7d8ff28101e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the main reason for the decrease in infected infrastructure in Singapore in 2022?\nHow do you respond?\nA. Improved cyber hygiene levels due to increased public awareness and education.\nB. Enhanced cybersecurity measures implemented by organizations and individuals.\nC. Reduced number of smart devices connected to the internet.\nD. Increased use of ransomware and phishing attacks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "726c3a3e-c244-4019-a776-7d1d41327ffe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the decrease in Singapore's global share of infected infrastructure in 2022?\nHow do you respond?\nA. The decrease indicates a significant improvement in Singapore's cybersecurity measures.\nB. The decrease is due to a global decrease in infected infrastructure.\nC. The decrease is a result of a change in reporting methodology.\nD. The decrease indicates that cybercriminals are targeting other countries more.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                }
+            ]
+        }
+    ]
+}
