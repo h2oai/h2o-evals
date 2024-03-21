@@ -98,13 +98,13 @@ def update_master_readme():
 	df = pd.read_csv("data.csv", encoding= 'unicode_escape')
 
 	html = """
-| # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |Evaluation Type(rag/LLM) |Evaluation Techniques|
-|---| -------------- | --------- | -------------- | ----- | ----- | --------- | ------------------- |\n"""
+| # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |
+|---| -------------- | --------- | -------------- | ----- | ----- |\n"""
 
 	for i, r in df.iterrows():
 		r = dict(r) 
 		url = "https://github.com/h2oai/h2o-evals/tree/main/catalog/"
-		html += f"| {int(r['ID'])}. | [{r['Dataset']}]({url + r['Dataset_link'].strip()})| {r['Industry']} | {r['Sub_Industry']} | {r['No_of_entries']} | {r['Prompt_type']} | {r['Evaluation_type(rag/LLM)']} | {r['Evaluation_technique']} |"
+		html += f"| {int(r['ID'])}. | [{r['Dataset']}]({url + r['Dataset_link'].strip()})| `{r['Industry']}` | {r['Sub_Industry']} | {r['No_of_entries']} | {r['Prompt_type']} |"
 		html += "\n"
 	return html
 
