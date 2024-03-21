@@ -23,9 +23,9 @@ These datasets were generated using LLM DataStudio which can also be utilized to
 
 The evaluation datasets in this collection are for a range of different evaluation types: 
 
-- Conditional Questions : The complexity of the question is increased by incorporating a scenario or condition that affects the context of the question.
-- Multi-hop Reasoning Questions: The complexity of the question is increased, where the question should require the reader to make multiple logical connections or inferences using the information available in given context.
-- Token Presence: Extract the minimum tokens necessary for accurate answers for the question.
+- **Conditional Questions** : The complexity of the question is increased by incorporating a scenario or condition that affects the context of the question.
+- **Multi-hop Reasoning Questions** : The complexity of the question is increased, where the question should require the reader to make multiple logical connections or inferences using the information available in given context.
+- **Token Presence** : Extract the minimum tokens necessary for accurate answers for the question.
 
 The datasets in this project are generated based on documents for different industries, for example:
 
