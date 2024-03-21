@@ -1,0 +1,1728 @@
+{
+    "tests": [
+        {
+            "key": "f958ae3a-cad5-4da7-9f8b-339286141ae2",
+            "documents": [
+                "Cyber_Security_Policy.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "6f33c906-abb6-49cc-b16f-64bfb54c0414",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['commitment', 'managing', 'information', 'security', 'risks', 'effectively', 'efficiently', 'globally', 'compliance', 'regulations', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Information Security Policy is to express <Organization>\u2019s commitment to managing information security risks effectively and efficiently, coordinated globally and in compliance with applicable regulations wherever it conducts business."
+                    ]
+                },
+                {
+                    "key": "23645dad-f2b2-44d0-8189-f86a21e4dcfc",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who does the Information Security Policy apply to?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['employees', 'vendors', 'contractors', 'consultants', '<Organization>\u2019s', 'information technology systems']"
+                    ],
+                    "expected_output": [
+                        "The Information Security Policy applies to all employees, vendors, contractors, and consultants who create, distribute, access, or manage information by means of <Organization>\u2019s information technology systems, including personal or corporate computers, networks, and communication services by which they are connected."
+                    ]
+                },
+                {
+                    "key": "6a0abe47-24e3-4ebe-ab17-8e0aece2e734",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of an Information Owner?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Information Owners', 'responsible', 'acquisition', 'development', 'maintenance', 'applications', 'sensitivity', 'classification', 'criticality', 'users', 'access', 'utilized']"
+                    ],
+                    "expected_output": [
+                        "Information Owners are responsible for the acquisition, development, and maintenance of applications that process <Organization> information. They designate the relevant sensitivity classification, designate the appropriate level of criticality, define which users will be granted access, and approve requests for various ways in which the information will be utilized."
+                    ]
+                },
+                {
+                    "key": "d3b55ae7-aa2a-4b17-b3ef-c140dd7b2526",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who are Custodians?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Custodians', 'information', 'Organization', 'responsible', 'safeguarding', 'access', 'control', 'systems', 'disclosure', 'backups', 'critical']"
+                    ],
+                    "expected_output": [
+                        "Custodians are in physical or logical possession of either <Organization> information or information that has been entrusted to <Organization>. They are responsible for safeguarding the information, including implementing access control systems to prevent inappropriate disclosure, and making backups so that critical information will not be lost."
+                    ]
+                },
+                {
+                    "key": "456cf9a5-9e77-4a8e-b5b2-7107fa2ca2a9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the scope of the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['all', 'aspects', 'information', 'security', 'continuity', 'device', 'store', 'process', 'communicate', '<Organization>', 'proprietary', 'protected']"
+                    ],
+                    "expected_output": [
+                        "The Information Security Policy applies to all aspects of information security and continuity from initial design of a system through implementation and operation. It also addresses any device used to store, process, or communicate <Organization> proprietary or other protected information."
+                    ]
+                },
+                {
+                    "key": "c1f6c62a-e2b7-4983-8593-e8763e4727d3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Policy Change Log?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['track', 'document', 'changes', 'Information Security Policy']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Policy Change Log is to track and document all changes made to the Information Security Policy."
+                    ]
+                },
+                {
+                    "key": "e9af764b-89c1-420b-8981-46a1451f069b",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for implementing and enforcing the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'Security', 'Officer']"
+                    ],
+                    "expected_output": [
+                        "The Security Officer is responsible for implementing and enforcing the Information Security Policy."
+                    ]
+                },
+                {
+                    "key": "661c539f-f963-4c7d-85fd-f850cb011c39",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Security Awareness Program?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'Security', 'Awareness', 'Program', 'is', 'designed', 'to', 'educate', 'employees', 'and', 'users', 'of', 'information', 'systems', 'at', '<Organization>', 'locations', 'about', 'the', 'importance', 'of', 'information', 'security', 'and', 'their', 'role', 'in', 'protecting', 'it']"
+                    ],
+                    "expected_output": [
+                        "The Security Awareness Program is designed to educate employees and users of information systems at <Organization> locations about the importance of information security and their role in protecting it."
+                    ]
+                },
+                {
+                    "key": "c91f4b58-694e-4558-bf5f-3567ae10007a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Disaster Recovery/Business Continuity Planning?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Disaster', 'Recovery', 'Business', 'Continuity', 'Planning']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Disaster Recovery/Business Continuity Planning is to ensure that critical business functions can continue to operate in the event of a disaster or disruption."
+                    ]
+                },
+                {
+                    "key": "2737e7ed-9075-4d3c-94ef-297f9327cc84",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should the Information Security Policy be reviewed and updated?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['annually', 'or', 'as needed']"
+                    ],
+                    "expected_output": [
+                        "The Information Security Policy should be reviewed and updated annually, or as needed, to ensure that it remains current and effective."
+                    ]
+                },
+                {
+                    "key": "5d6a8bdc-8529-422a-888a-f063815948b1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Information Classification and Handling Policy in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['privacy', 'confidentiality', 'authorized personnel']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Information Classification and Handling Policy in <Organization> is to ensure that information is treated with privacy and confidentiality, and that access to information is restricted to authorized personnel only."
+                    ]
+                },
+                {
+                    "key": "564536e0-5725-4785-abc8-b1296d7643e7",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for ensuring the security, confidentiality, integrity, and availability of <Organization> information and information processing infrastructure?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The Security Officer of <Organization>']"
+                    ],
+                    "expected_output": [
+                        "The Security Officer of <Organization> is responsible for ensuring the security, confidentiality, integrity, and availability of <Organization> information and information processing infrastructure."
+                    ]
+                },
+                {
+                    "key": "20e87e76-ba3e-4ea6-b8e7-2c3a71c4f632",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for accessing administrative data in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['<Organization> employees', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "Access to administrative data in <Organization> is granted to <Organization> employees only, and individuals outside of <Organization> can be authorized access only if that authorization is granted by the Information Owner."
+                    ]
+                },
+                {
+                    "key": "b4f6b318-c795-4dd4-b04c-1b12db2f9c20",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of employees in regard to information security in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['comply', 'urgency', 'diligence']"
+                    ],
+                    "expected_output": [
+                        "Employees in <Organization> are required to comply with management\u2019s direction for the use and protection of information technology processing systems and information, and must act with urgency and diligence to fulfill these requirements."
+                    ]
+                },
+                {
+                    "key": "92a3a0de-7df4-4775-9345-fe3a5dffee65",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Security Officer in evaluating security exposures, misuse, or non-compliance situations in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'Security', 'Officer', 'in', '<Organization>', 'is', 'responsible', 'for', 'evaluating', 'security', 'exposures', 'misuse', 'or', 'non-compliance', 'situations', 'and', 'ensuring', 'implementation', 'of', 'security', 'controls', 'to', 'address', 'those', 'incidences']"
+                    ],
+                    "expected_output": [
+                        "The Security Officer in <Organization> is responsible for evaluating security exposures, misuse, or non-compliance situations and ensuring implementation of security controls to address those incidences."
+                    ]
+                },
+                {
+                    "key": "002e23b7-1f33-4c38-80ca-a202f41accab",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should the documented security policies, standards, and procedures be reviewed and updated in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['periodically']"
+                    ],
+                    "expected_output": [
+                        "The documented security policies, standards, and procedures in <Organization> should be reviewed, updated, and maintained periodically by appropriate individuals."
+                    ]
+                },
+                {
+                    "key": "e276f8a7-c217-470d-be1c-c953aa7ee5c3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Security Awareness Program in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['educate', 'importance', 'information', 'security', 'responsibilities']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Security Awareness Program in <Organization> is to educate employees on the importance of information security and to ensure that they understand their security responsibilities."
+                    ]
+                },
+                {
+                    "key": "a723c9a4-7bd8-41c4-9a32-6017e7827bf3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for sharing User IDs in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['prohibited', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "Sharing of User IDs is prohibited in <Organization>, except in specific, approved situations."
+                    ]
+                },
+                {
+                    "key": "fe37816e-cd7a-445b-a249-a16c4999a4c2",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should access to information be authorized in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['information owner', 'business requirements']"
+                    ],
+                    "expected_output": [
+                        "Access to information in <Organization> should be authorized by the information owner, with access granted or revoked based on business requirements only."
+                    ]
+                },
+                {
+                    "key": "813d3a80-7038-4f7a-8cda-b14ca1cc8e24",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of management in developing secure processing systems and operating these systems in a controlled environment in <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Management', 'developing', 'operating', 'controlled', 'environment']"
+                    ],
+                    "expected_output": [
+                        "Management in <Organization> is responsible for developing secure processing systems and operating these systems in a controlled environment."
+                    ]
+                },
+                {
+                    "key": "ac7d4dd0-94bd-4870-abd5-5a85d8cd3859",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of employees regarding security in the organization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsible', 'security', 'policies', 'standards', 'procedures']"
+                    ],
+                    "expected_output": [
+                        "Employees are responsible for executing their security responsibilities in accordance with related policies, standards, and procedures."
+                    ]
+                },
+                {
+                    "key": "f7180df4-0137-4a73-b9f9-e49283f64bc6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of developing and implementing the Security Awareness Program?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['protect', 'information', 'resources', 'computer', 'software', 'support', 'systems', 'sensitive', 'critical', 'processed', 'stored', 'communicated']"
+                    ],
+                    "expected_output": [
+                        "The purpose of developing and implementing the Security Awareness Program is to protect information resources, including computer software and support systems, and to maintain the sensitivity and critical nature of information that is processed, stored, or communicated."
+                    ]
+                },
+                {
+                    "key": "a6747603-4538-4819-b61b-61be46eeb6b3",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should information systems be protected to ensure unauthorized access is prevented?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['information', 'systems', 'protected', 'unauthorized', 'access', 'prevented']"
+                    ],
+                    "expected_output": [
+                        "Information systems should be protected in such a manner to ensure that unauthorized persons are not able to directly access the device and either cause physical damage or modify internal components that could affect the results of computing or other processes."
+                    ]
+                },
+                {
+                    "key": "9ea49609-1c98-463f-aeb4-a5a9b6ab0b04",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for assessing the appropriateness of physical and environmental controls?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'Security', 'Officer']"
+                    ],
+                    "expected_output": [
+                        "The Security Officer is responsible for assessing the appropriateness of physical and environmental controls."
+                    ]
+                },
+                {
+                    "key": "79f43cc0-59a1-48e2-a938-7d70e0094e07",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for identifying and managing risks relating to the security, integrity, and continuity of information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Systems', 'information', 'owners', 'responsible', 'risks', 'security', 'integrity', 'continuity', 'information']"
+                    ],
+                    "expected_output": [
+                        "Systems and information owners are responsible for identifying and managing risks relating to the security, integrity, and continuity of information, and for the business processes and system functions that create, modify, delete, or use this information."
+                    ]
+                },
+                {
+                    "key": "798e2953-bf8a-4416-b13a-2b9c038d7449",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for determining the impact to the organization if information, business processes, or system functions were not available or if they are misused?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Systems', 'information', 'owners', 'responsible', 'impact', 'organization']"
+                    ],
+                    "expected_output": [
+                        "Systems and information owners are responsible for determining the impact to the organization if information, business processes, or system functions were not available or if they are misused."
+                    ]
+                },
+                {
+                    "key": "5080e92d-5bd0-4088-916c-e45b7899bff4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the principle of least privilege that <Organization> commits to?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['business need', 'information owners', 'access', 'systems', 'information']"
+                    ],
+                    "expected_output": [
+                        "<Organization> commits to the principle of least privilege, which means that access to systems and information is provided based on business need and that information owners are required to authorize requests for access to information or systems and to verify that such access meets a legitimate business need."
+                    ]
+                },
+                {
+                    "key": "e1c53bae-586d-4132-8af2-d865336b1cc0",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who must authorize requests for access to information or systems?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['information owners', 'authorize', 'access', 'systems']"
+                    ],
+                    "expected_output": [
+                        "Information owners must authorize requests for access to information or systems and verify that such access meets a legitimate business need, prior to access being implemented."
+                    ]
+                },
+                {
+                    "key": "60c7a69d-1950-4fbe-b77f-874aebceda93",
+                    "prompt": "Respond to the following question.\n\nQuestion: What must be completed when approval for outside access to <Organization> information is granted?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['When', 'approval', 'access', 'information', 'granted', 'instructions', 'recipient', 'security', 'requirements', 'confidentiality', 'distribution', 'organization', 'procedures', 'destruction', 'return', 'period']"
+                    ],
+                    "expected_output": [
+                        "When approval for outside access to <Organization> information is granted, instructions must be provided to the recipient notifying them of any security requirements, including the need to maintain the confidentiality of the information, requirements for distribution of the information within their organization, and procedures for destruction or return of the information following the period of access."
+                    ]
+                },
+                {
+                    "key": "2d13d44f-cd5c-474f-ace5-d8016b8d7c86",
+                    "prompt": "Respond to the following question.\n\nQuestion: What must non-employees sign when granted access to <Organization> information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Non-disclosure Agreement']"
+                    ],
+                    "expected_output": [
+                        "Non-employees must sign a Non-disclosure Agreement when granted access to <Organization> information."
+                    ]
+                },
+                {
+                    "key": "f0dd3f5d-ad96-4eba-92d9-f3b4bdca2414",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of providing instructions to recipients of outside access to <Organization> information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['including', 'requirements', 'distribution', 'destruction', 'return']"
+                    ],
+                    "expected_output": [
+                        "The purpose of providing instructions to recipients of outside access to <Organization> information is to notify them of any security requirements, including the need to maintain the confidentiality of the information, requirements for distribution of the information within their organization, and procedures for destruction or return of the information following the period of access."
+                    ]
+                },
+                {
+                    "key": "59758d11-82b0-45a0-8828-f443472e331a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the Security Officer in implementing monitoring capabilities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['implement', 'detect', 'compromise', 'security', 'integrity', 'information', 'technology', 'systems']"
+                    ],
+                    "expected_output": [
+                        "The responsibility of the Security Officer in implementing monitoring capabilities is to implement appropriate measures to detect attempts to compromise the security or integrity of information or information technology systems."
+                    ]
+                },
+                {
+                    "key": "15cf4509-2813-47b8-9052-e184dc13018e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should Head of Business Units do when they are notified of an employee termination/resignation?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['review', 'disposition', 'User', 'files', 'separation', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "When a Head of Business Unit is notified of an employee termination/resignation, they should review the disposition of the User\u2019s data and files with the User prior to separation from <Organization> ."
+                    ]
+                },
+                {
+                    "key": "2eb2fa98-5d6b-4152-bdb2-852b20c294aa",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a Non-disclosure Agreement?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Non-disclosure Agreement', 'confidentiality', 'information']"
+                    ],
+                    "expected_output": [
+                        "The purpose of a Non-disclosure Agreement is to ensure that all non-employees who have access to <Organization> information maintain the confidentiality of the information."
+                    ]
+                },
+                {
+                    "key": "24710174-4776-45d3-a992-d34c45157936",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should management do to ensure that all Users of information understand how to protect company assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Management', 'ensure', 'all', 'Users', 'information', 'understand', 'protect', 'company', 'assets', 'comply', 'security', 'policies', 'standards', 'procedures']"
+                    ],
+                    "expected_output": [
+                        "Management should ensure that all Users of information understand how to protect company assets, including information and information resources and comply with security policies, standards, and procedures."
+                    ]
+                },
+                {
+                    "key": "2d43afb4-beea-45e4-a50f-3e6918f1cb53",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for developing and implementing an Information Security Awareness Program?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The Security Officer']"
+                    ],
+                    "expected_output": [
+                        "The Security Officer is responsible for developing and implementing an Information Security Awareness Program that supports employee awareness."
+                    ]
+                },
+                {
+                    "key": "1040be16-3441-4b18-bab3-74053a636175",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be documented in the event of a suspected information security incident?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['intrusion', 'infection', 'system compromise', 'circumstances', 'actions', 'persons', 'investigating', 'transpired', 'damage', 'systems', 'files']"
+                    ],
+                    "expected_output": [
+                        "The facts surrounding an intrusion, infection, or system compromise must be documented, reported to the Security Officer, and include the circumstances that led to the discovery of the incident, actions which were immediately taken, the names of persons involved in investigating the incident, and detailed observations about what transpired, what damage was caused, and what systems or files were compromised."
+                    ]
+                },
+                {
+                    "key": "ce9dde86-692d-469a-b37c-ddf408be7339",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a Business Continuity Plan (BCP)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['minimize', 'reduce', 'ensure', 'continuity']"
+                    ],
+                    "expected_output": [
+                        "The purpose of a Business Continuity Plan (BCP) is to minimize loss, reduce impact, and ensure continuity of the organization\u2019s functions and revenue stream in the event of an incident that affects the confidentiality, integrity or availability of systems or information."
+                    ]
+                },
+                {
+                    "key": "db9a302d-ca88-45bd-84bf-a3be9177f3b3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be addressed in a Business Continuity Plan (BCP)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['pre-planning', 'crisis', 'business', 'recovery']"
+                    ],
+                    "expected_output": [
+                        "A Business Continuity Plan (BCP) should address pre-planning risk control, crisis management, and business recovery."
+                    ]
+                },
+                {
+                    "key": "75d355e3-ad8e-4b59-b6c9-1a143cf37b02",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of management in ensuring the security of information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Management', 'responsible', 'security', 'information', 'implementation', 'measures', 'detect', 'respond', 'security', 'incidents', 'development', 'implementation', 'Business', 'Continuity', 'Plan', 'minimize', 'loss', 'ensure', 'continuity', 'organization', 'functions', 'revenue', 'stream']"
+                    ],
+                    "expected_output": [
+                        "Management is responsible for ensuring the security of information, including the implementation of appropriate measures to detect and respond to security incidents, and the development and implementation of a Business Continuity Plan (BCP) to minimize loss and ensure continuity of the organization\u2019s functions and revenue stream."
+                    ]
+                },
+                {
+                    "key": "3a41f968-36f1-43b2-af04-d7afd35212e0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Business Continuity Plan (BCP)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ensure', 'disaster', 'disruption', 'risk', 'crisis', 'business', 'recovery']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Business Continuity Plan (BCP) is to ensure that the organization can continue to operate effectively in the event of a disaster or disruption, by addressing pre-planning risk control, crisis management, and business recovery."
+                    ]
+                },
+                {
+                    "key": "9061decf-6178-4453-b8c2-ff9b1f4d11ca",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the scope of the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The scope', 'information', 'systems', 'unauthorized', 'access', 'use', 'disclosure', 'disruption', 'modification', 'destruction']"
+                    ],
+                    "expected_output": [
+                        "The scope of the Information Security Policy is to protect the organization's information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction."
+                    ]
+                },
+                {
+                    "key": "eb93e044-91e3-4ec2-9552-f6c83143ead4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Security Officer in the organization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'Security', 'Officer', 'is', 'responsible', 'for', 'ensuring', 'that', 'the', 'organization', 'complies', 'with', 'all', 'applicable', 'federal', 'state', 'provincial', 'local', 'industry', 'and', 'contractual', 'regulations', 'related', 'to', 'information', 'security']"
+                    ],
+                    "expected_output": [
+                        "The Security Officer is responsible for ensuring that the organization complies with all applicable federal, state, provincial, local, industry, and contractual regulations related to information security."
+                    ]
+                },
+                {
+                    "key": "78512900-763f-4752-9a1c-445afd3326fe",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the process for addressing violations of the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['reporting', 'violation', 'Security Officer', 'company', 'management', 'System Administrators', 'resolve', 'issue', 'steps', 'future', 'violations']"
+                    ],
+                    "expected_output": [
+                        "The process for addressing violations of the Information Security Policy includes reporting the violation to the Security Officer, who will work with company management and System Administrators to resolve the issue and take steps to prevent future violations."
+                    ]
+                },
+                {
+                    "key": "21c8dc1c-e10c-43fa-8091-d48965a22a46",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the escalation process for addressing violations of the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['reporting', 'violation', 'Security Officer', 'company management', 'System Administrators', 'resolve', 'issue', 'future violations']"
+                    ],
+                    "expected_output": [
+                        "The escalation process for addressing violations of the Information Security Policy is defined in the policy and includes reporting the violation to the Security Officer, who will work with company management and System Administrators to resolve the issue and take steps to prevent future violations."
+                    ]
+                },
+                {
+                    "key": "4cff6a01-ee20-44ba-8ef5-5fe6a2b8e65d",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the organization ensure secure practices in the delivery of its products and services?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['awareness', 'training', 'industry best practices']"
+                    ],
+                    "expected_output": [
+                        "The organization promotes secure practices in the delivery of its products and services through awareness, training, and industry best practices."
+                    ]
+                },
+                {
+                    "key": "33e21d66-def9-4ef6-9a85-9bd2c0fec5d1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Acceptable Use Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Acceptable', 'Use', 'Policy', 'organization', 'computing', 'resources', 'employees', 'contractors', 'responsibilities']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Acceptable Use Policy is to define the acceptable use of the organization's computing resources and to ensure that employees and contractors are aware of their responsibilities when using these resources."
+                    ]
+                },
+                {
+                    "key": "387c31f6-3126-4a94-8a29-a6218232c3a9",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often is the Information Security Policy reviewed and updated?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['annually', 'or', 'as required']"
+                    ],
+                    "expected_output": [
+                        "The Information Security Policy is reviewed and updated annually, or as required."
+                    ]
+                },
+                {
+                    "key": "484f3687-5745-45ac-bc58-868965c6af0a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Delivery Partner Management in ensuring data protection and system availability?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Delivery Partner Management', 'service capability', 'partners', 'suppliers', 'defined service objectives']"
+                    ],
+                    "expected_output": [
+                        "The Delivery Partner Management ensures processes exist to evaluate the service capability of potential business partners and monitors partners and suppliers to ensure defined service objectives are met."
+                    ]
+                },
+                {
+                    "key": "a4a1457f-b61c-4eaa-8d6e-3e49cfaa14c9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Physical and Environmental Security policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['physical', 'environmental', 'security', 'policy', 'risks', 'fires', 'floods', 'power', 'loss', 'data', 'protection', 'system', 'availability']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Physical and Environmental Security policy is to maintain controls to limit access to physical assets and mitigate risks associated with environmental issues (fires, floods, power loss) to help ensure data protection and system availability."
+                    ]
+                },
+                {
+                    "key": "70e6b47d-814c-4895-bc49-6f2aead0055a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Incident Response Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['outline', 'procedures', 'responding', 'managing', 'security', 'incidents', 'identifying', 'containing', 'resolving', 'restoring', 'recovering']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Incident Response Policy is to outline the procedures for responding to and managing security incidents, including identifying, containing, and resolving security incidents, as well as restoring normal operations and recovering from the incident."
+                    ]
+                },
+                {
+                    "key": "fc58839c-02ca-4770-aaea-0242f7471eb8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the policy outlined in the text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['policy', 'risks', 'malware', 'compromise', 'network', 'services', 'legal', 'issues']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the policy is to outline the acceptable use of information systems and computing equipment at <Organization> to protect the employee and <Organization> from various risks, including malware attacks, compromise of network systems and services, loss of confidential information, and legal issues."
+                    ]
+                },
+                {
+                    "key": "5b51f5df-4097-4124-a7bb-7237acc2e3dc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the scope of the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['all', 'devices', 'employees', 'contractors', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "The policy applies to all <Organization> devices, employees, and contractors. All employees and contractors with access to <Organization> computing devices or information systems shall comply with this policy as it applies to their job duties."
+                    ]
+                },
+                {
+                    "key": "f2f706b9-dca6-439a-8b13-f5e1c960f1d1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is defined as Protected Information in the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Protected Information', 'Payment Card Information', 'Personally Identifiable Information']"
+                    ],
+                    "expected_output": [
+                        "Protected Information is information that is highly sensitive and must be safeguarded in accordance with legislative or regulatory requirements. Examples include Protected Health Information, Payment Card Information, and most forms of Personally Identifiable Information (PII)."
+                    ]
+                },
+                {
+                    "key": "4b4e4b64-b50a-47b1-9b3a-f63f33c96aa2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of PII (Personally Identifiable Information)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['PII', 'NIST', 'Special', 'Publication', '800-122', 'information', 'individual', 'agency', 'identity', 'name', 'social', 'security', 'number', 'date', 'place', 'birth', \"mother's\", 'maiden', 'name', 'biometric', 'records', 'linked', 'linkable', 'medical', 'educational', 'financial', 'employment']"
+                    ],
+                    "expected_output": [
+                        "PII is defined in NIST Special Publication 800-122 as any information about an individual maintained by an agency, including any information that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or biometric records; and any other information that is linked or linkable to an individual, such as medical, educational, financial, and employment information."
+                    ]
+                },
+                {
+                    "key": "df49c9a3-af78-444b-8317-f46bc21ae0ee",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for ensuring implementation of the policy requirements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', '<Organization>', 'Security', 'Officer', 'or', 'other', 'authorized', 'representative', 'shall', 'be', 'responsible', 'for', 'ensuring', 'implementation', 'of', 'all', 'items', 'listed', 'in', 'the', 'Policy', 'Requirements', 'section']"
+                    ],
+                    "expected_output": [
+                        "The <Organization> Security Officer or other authorized representative shall be responsible for ensuring implementation of all items listed in the Policy Requirements section."
+                    ]
+                },
+                {
+                    "key": "9ecf28d8-82fd-46fb-8b84-03170f9827b4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some of the prohibited activities for employees and contractors when using <Organization> computing devices or information systems?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['illegal', 'violates', 'download', 'install', 'copy', 'distribute', 'access', 'authorization', 'claims', 'associate']"
+                    ],
+                    "expected_output": [
+                        "Employees and contractors shall not, under any circumstances, use <Organization> computing devices or information systems to engage in any activity that is illegal or violates the rights of any person, download or install software of any type without authorization, copy or distribute any copyrighted material without authorization, access the personal information of others without authorization, make any claims on behalf of <Organization> unless authorized to do so, or associate <Organization>\u2019s name with any activity that would harm the reputation of the organization."
+                    ]
+                },
+                {
+                    "key": "6bdf0425-4cd7-4d45-936d-672bbdd6ad60",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is considered Confidential Information in the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Confidential Information', 'information', 'organization', 'security', 'protections']"
+                    ],
+                    "expected_output": [
+                        "Confidential Information is information owned by the organization or entrusted to the organization that is not intended for sharing with the public. Security protections must be applied to this information to safeguard its confidentiality, integrity, and availability."
+                    ]
+                },
+                {
+                    "key": "4ece248c-c47c-42bd-a6c8-ae5f7f405a13",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Policy Change Log?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['policy', 'change', 'log', 'document', 'date', 'person', 'reason']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Policy Change Log is to document all changes made to the policy, including the date of the change, the person who made the change, and the reason for the change."
+                    ]
+                },
+                {
+                    "key": "5e92c3d2-3cc6-4a58-bf27-1b31623eee2f",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should employees and contractors report security incidents?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['report', 'security', 'incidents', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "Employees and contractors should report security incidents to the <Organization> Security Officer or other authorized representative."
+                    ]
+                },
+                {
+                    "key": "1b895bc7-5b23-432f-b644-264c532fe371",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the importance of protecting the organization from cyber threats?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['crucial', 'financial loss', 'reputational damage', 'legal liability', 'negative consequences']"
+                    ],
+                    "expected_output": [
+                        "Protecting the organization from cyber threats is crucial to prevent unauthorized access, use, disclosure, disruption, modification, or destruction of information systems and data, which can result in financial loss, reputational damage, legal liability, and other negative consequences."
+                    ]
+                },
+                {
+                    "key": "8c74ea71-9c8a-4735-b499-471c95037ec4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What types of software are prohibited from being downloaded or installed on <Organization> computing devices?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['without authorization']"
+                    ],
+                    "expected_output": [
+                        "The policy prohibits the download or installation of any software without authorization."
+                    ]
+                },
+                {
+                    "key": "51cdc075-7997-4d76-8a13-af71063a99f6",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees or contractors copy or distribute copyrighted material without permission?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits the copying or distribution of copyrighted material without authorization."
+                    ]
+                },
+                {
+                    "key": "b9d6f441-624d-4f4c-87e5-4201afd3d27f",
+                    "prompt": "Respond to the following question.\n\nQuestion: Is it acceptable to access personal information without authorization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits accessing personal information without authorization, except as part of the employee's or associate's assigned duties."
+                    ]
+                },
+                {
+                    "key": "f31b204a-d918-4e07-9879-43a6c6d1ddb9",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees or contractors make claims on behalf of <Organization> without authorization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits making claims on behalf of <Organization> without authorization."
+                    ]
+                },
+                {
+                    "key": "a5aeeec0-491d-4c87-ba10-1ac69388b5d0",
+                    "prompt": "Respond to the following question.\n\nQuestion: Are employees or contractors allowed to visit websites that exhibit sexually explicit material or promote illegal activities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits visiting websites that exhibit sexually explicit material, gambling sites, or sites related to illegal activities."
+                    ]
+                },
+                {
+                    "key": "9f24f578-3f72-480f-9062-209336fbc14a",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees or contractors visit websites that encourage discrimination or violate the rights of any group or individual?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits visiting websites that encourage discrimination or violate the rights of any group or individual, except in the course of authorized research."
+                    ]
+                },
+                {
+                    "key": "c5ba9d1f-597e-4f15-9081-3db40524fc20",
+                    "prompt": "Respond to the following question.\n\nQuestion: Is it acceptable to share music or other files on a peer-to-peer basis or otherwise share content in violation of copyright laws?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits sharing music or other files on a peer-to-peer basis or otherwise sharing content in violation of copyright laws."
+                    ]
+                },
+                {
+                    "key": "2c20dbce-7bde-4978-9988-d575f48668ef",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees or contractors engage in activities that interfere with the ability of another organization or individual to conduct computing activities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits engaging in any activity that interferes with the ability of another organization or individual to conduct computing activities."
+                    ]
+                },
+                {
+                    "key": "2dd1ba6b-1cb0-4bdd-a000-c8a4e08d62a8",
+                    "prompt": "Respond to the following question.\n\nQuestion: Is it acceptable to provide information about <Organization> or its employees, clients, customers, patients, or associates to any outside party without authorization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits providing information about <Organization> or its employees, clients, customers, patients, or associates to any outside party without explicit authorization."
+                    ]
+                },
+                {
+                    "key": "fe7ce77f-6e27-477d-a694-650940d0fe3b",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees or contractors post comments or information to social networking sites or blogs on behalf of or using the name of the organization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the policy prohibits posting comments or information to social networking sites or blogs on behalf of or using the name of the organization, unless explicitly authorized to do so."
+                    ]
+                },
+                {
+                    "key": "89bd7428-f701-4ae5-a7ea-27d8f974de67",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is considered email spam according to the organization's policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['unsolicited', 'junk mail', 'advertising', 'material']"
+                    ],
+                    "expected_output": [
+                        "Sending unsolicited email messages, including sending \u201cjunk mail\u201d or other advertising material to individuals who did not specifically request such material."
+                    ]
+                },
+                {
+                    "key": "c62e6839-1db1-4ffa-b6f7-50b28f00b506",
+                    "prompt": "Respond to the following question.\n\nQuestion: Is it acceptable to use email or IM for personal use at the organization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, employees may use their organization email and IM for a reasonable degree of acceptable personal use, providing such use does not contravene any part of the policy."
+                    ]
+                },
+                {
+                    "key": "c60e4a8d-3943-4f21-9e93-04d2d51ddea7",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy on posting non-business-related messages to internet posting sites?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['not', 'allowed']"
+                    ],
+                    "expected_output": [
+                        "Posting the same or similar non-business-related messages to large numbers of internet posting sites is not allowed."
+                    ]
+                },
+                {
+                    "key": "ac6e4aed-7179-45a1-b637-58a3f7ee26cf",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees use IM to conduct business?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, IM must not be used to conduct business, other than to arrange meetings and calls."
+                    ]
+                },
+                {
+                    "key": "22da771b-e176-4643-8ea4-2b31c3914b3e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should employees be aware of when expressing personal opinions or views via email and IM?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['employees', 'caution', 'polite', 'respectful']"
+                    ],
+                    "expected_output": [
+                        "Employees must exercise caution when expressing personal opinions or views via email and IM. Language used should always remain polite and respectful."
+                    ]
+                },
+                {
+                    "key": "1b11a9ca-167a-48ba-bb67-257d9aead37a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy on downloading or installing software without authorization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['may not', 'without authorization']"
+                    ],
+                    "expected_output": [
+                        "Employees and contractors may not download or install any software application without the authorization of an authorized company representative."
+                    ]
+                },
+                {
+                    "key": "5323c46f-95a6-4c1e-bfba-a265afa39529",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees post to social media sites on behalf of the organization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, employees or contractors shall post to any social media site on behalf of the organization or purport to represent the organization in any way, without authorization."
+                    ]
+                },
+                {
+                    "key": "e04347f9-dd40-4d96-9139-21e0e18c9e1d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the standards for employees authorized to post to social media sites on behalf of the organization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['be respectful', 'use the first person', 'be accurate', 'cite source material', 'clearly state that their opinions are their own', 'not use profanity', 'ethnic slurs', 'abusive language']"
+                    ],
+                    "expected_output": [
+                        "Employees authorized to post to social media sites on behalf of the organization must adhere to the following standards: be respectful, use the first person, be accurate, cite source material, clearly state that their opinions are their own, and not use profanity, ethnic slurs or abusive language."
+                    ]
+                },
+                {
+                    "key": "37b69547-e25b-4028-a64f-ec9079e3492d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should employees do if they make an error regarding facts in a social media post?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['post', 'correction', 'retraction', 'as soon as possible']"
+                    ],
+                    "expected_output": [
+                        "If employees make an error regarding facts in a social media post, they should post a correction or retraction as soon as possible."
+                    ]
+                },
+                {
+                    "key": "190913d3-c7f5-4f65-9650-01b2ad02433a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should you do if you have obtained information from an online or other resource?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['cite', 'source', 'original']"
+                    ],
+                    "expected_output": [
+                        "You should cite the source, and if possible, cite the original source."
+                    ]
+                },
+                {
+                    "key": "2a51a682-73c7-4270-ba2c-874a2a427494",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should you state your opinions if they are not facts?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['You', 'should', 'clearly', 'state', 'that', 'your', 'opinions', 'are', 'your', 'own', 'and', 'that', 'they', 'are', 'not', 'the', 'official', 'opinions', 'of', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "You should clearly state that your opinions are your own and that they are not the official opinions of <Organization>."
+                    ]
+                },
+                {
+                    "key": "73b5be4c-6a63-473d-945a-eb3e13a770aa",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should you avoid using in your posts or communications?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['profanity', 'ethnic', 'slurs', 'abusive']"
+                    ],
+                    "expected_output": [
+                        "You should avoid using profanity, ethnic slurs, or abusive language."
+                    ]
+                },
+                {
+                    "key": "9217dfc4-08b3-4859-ae1f-95f7b8be9d10",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should you do if you make an error regarding facts?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['post', 'correction', 'retraction', 'as soon as possible']"
+                    ],
+                    "expected_output": [
+                        "You should post a correction or retraction as soon as possible."
+                    ]
+                },
+                {
+                    "key": "aad07c48-db61-49fe-addc-faabc9ea9353",
+                    "prompt": "Respond to the following question.\n\nQuestion: What information should you protect and not disclose without permission?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['confidential', 'proprietary', 'personal matter', 'coworkers', 'clients', 'business partners', 'suppliers']"
+                    ],
+                    "expected_output": [
+                        "You should protect confidential or proprietary information and information that relates to a personal matter within the workplace, and not identify coworkers, clients, business partners, or suppliers without permission."
+                    ]
+                },
+                {
+                    "key": "06e17e51-6477-4834-9bd1-1753f8cfcdb6",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can you use copyrights, trademarks, or logos without permission?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, you should not use copyrights, trademarks, or logos without permission."
+                    ]
+                },
+                {
+                    "key": "b74902a7-3c03-4e0a-bc84-7409ceec4151",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be the tone of your posts or communications?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['professional']"
+                    ],
+                    "expected_output": [
+                        "Your posts or communications should be professional."
+                    ]
+                },
+                {
+                    "key": "3a8a140b-5868-42b5-8161-9b6b82d5a8c2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should you do if you are asked for information or data regarding <Organization> or its clients?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['XXX']"
+                    ],
+                    "expected_output": [
+                        "You should direct any requests for information, data, or views on <Organization> or its clients to XXX for guidance."
+                    ]
+                },
+                {
+                    "key": "a3cca905-3aaf-44cb-839a-8004ae07b0d5",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can you install any software or application that allows access to <Organization>\u2019s systems from a remote location without authorization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, you should not install any software or application that allows access to <Organization>\u2019s systems from a remote location without appropriate authorization from <Organization>."
+                    ]
+                },
+                {
+                    "key": "af5a478b-3b52-441a-8239-5a394e2b263a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should you do if you observe any unauthorized disclosure of Protected Information or Confidential Information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['report', 'Security Officer', 'incident']"
+                    ],
+                    "expected_output": [
+                        "You should report it to the Security Officer or another authorized <Organization> representative as a security incident."
+                    ]
+                },
+                {
+                    "key": "23e90c1f-c42c-4239-aad7-bf55b8616a4e",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should you handle phishing or social engineering attacks?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['caution', 'suspicious', 'Protected Information', 'Confidential Information', 'insecure connection', 'contact information']"
+                    ],
+                    "expected_output": [
+                        "You should exercise caution with email attachments and links, be suspicious of requests for confidential information, never send Protected Information or Confidential Information over an insecure connection, and contact the sender using contact information you have previously recorded."
+                    ]
+                },
+                {
+                    "key": "6d8fdb2d-59d7-4191-95f0-f9f358c642df",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should you do if someone asks you for a password or account information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['be suspicious', 'not provide', 'phishing attempt']"
+                    ],
+                    "expected_output": [
+                        "You should be suspicious and not provide the information as it could be a phishing attempt."
+                    ]
+                },
+                {
+                    "key": "34a41f93-c255-41fd-b312-c5a759d87adc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a secure connection?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['https', 'protect', 'sensitive', 'information']"
+                    ],
+                    "expected_output": [
+                        "A secure connection starts with https:// in the browser address bar and is used to protect sensitive information."
+                    ]
+                },
+                {
+                    "key": "2f6a3643-e3a7-46ef-b528-f87b76ce6a4d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should you avoid clicking on when browsing the web?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['banner ads', 'malicious websites']"
+                    ],
+                    "expected_output": [
+                        "You should avoid clicking on banner ads or ads along the top, sides, or bottoms of web pages as they may link to malicious websites."
+                    ]
+                },
+                {
+                    "key": "27a0bb8d-ed2a-4100-ad0c-dbeffc4c3d2d",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for protecting user credentials such as usernames, passwords, and PINs?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Employees']"
+                    ],
+                    "expected_output": [
+                        "Employees are responsible for protecting user credentials and must follow certain guidelines to ensure their security."
+                    ]
+                },
+                {
+                    "key": "37071082-88d7-4665-9cfc-82f84af1a7d2",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should employees change their passwords?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['at', 'least', 'every', '90', 'days']"
+                    ],
+                    "expected_output": [
+                        "Employees should change their passwords at least every 90 days."
+                    ]
+                },
+                {
+                    "key": "b26e22ef-bd91-4d20-a5fd-877b74bcb83d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should employees do if they suspect that someone else may know their password or PIN?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['change', 'password', 'PIN']"
+                    ],
+                    "expected_output": [
+                        "Employees must change their passwords and PINs immediately if they suspect that someone else may know them."
+                    ]
+                },
+                {
+                    "key": "944011b5-cbaf-4adf-a326-7841c2608b5c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the minimum length for passwords recommended by the organization?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['12']"
+                    ],
+                    "expected_output": [
+                        "The organization recommends using passwords of at least 12 characters in length where systems allow it."
+                    ]
+                },
+                {
+                    "key": "f72cac48-cf4d-4ce2-9193-bcde6d4fdb5c",
+                    "prompt": "Respond to the following question.\n\nQuestion: Must employees use a combination of letters, numbers, and symbols when selecting a new password?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, employees must use a combination of letters, numbers, and symbols when selecting a new password."
+                    ]
+                },
+                {
+                    "key": "22c04ad6-64ef-49a1-a3ac-312f98b3673c",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees reuse a previous password?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, employees must not reuse a previous password."
+                    ]
+                },
+                {
+                    "key": "d9941a61-cee6-48e7-81e3-3ce50b7a6a07",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the organization's Clear Desk Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['minimize', 'risk', 'unauthorized', 'information', 'loss']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the organization's Clear Desk Policy is to minimize the risk of unauthorized information loss."
+                    ]
+                },
+                {
+                    "key": "249004ad-14e2-4082-810a-a98b88a30a49",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should employees do with sensitive information and items when they leave their desks unattended?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['lock', 'away']"
+                    ],
+                    "expected_output": [
+                        "Employees must lock away sensitive information and items when they leave their desks unattended."
+                    ]
+                },
+                {
+                    "key": "fc00336f-8184-4f25-bda8-e54642a10b2c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the policy described in the text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ensure', 'security', 'remote', 'working', 'mobile', 'device', 'use', 'employees', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the policy is to ensure the security of remote working and mobile device use by employees of <Organization>."
+                    ]
+                },
+                {
+                    "key": "a2c8ab1e-df49-4bbd-8dea-7d9f8615bba6",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for ensuring compliance with the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', '<Organization>', 'Security', 'Officer', 'or', 'other', 'authorized', 'representative', 'shall', 'be', 'responsible', 'for', 'ensuring', 'implementation', 'of', 'all', 'items', 'listed', 'in', 'the', 'Policy', 'Requirements', 'section']"
+                    ],
+                    "expected_output": [
+                        "The <Organization> Security Officer or other authorized representative shall be responsible for ensuring implementation of all items listed in the Policy Requirements section."
+                    ]
+                },
+                {
+                    "key": "bcd53df8-b9be-4283-ae98-6826b06b0239",
+                    "prompt": "Respond to the following question.\n\nQuestion: What types of devices are considered mobile computing devices according to the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['laptop', 'USB', 'mobile', 'external', 'optical']"
+                    ],
+                    "expected_output": [
+                        "Mobile computing devices include any computing device or media that is easily transportable outside of <Organization> premises, such as laptop computers, USB mass storage devices, mobile phones, external hard drives, and optical media (CD/DVD/Blu-ray)."
+                    ]
+                },
+                {
+                    "key": "900f4b61-877d-45b1-8c80-7582d1a41b24",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of a mobile phone according to the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['portable phone device', 'smart', 'confidential information']"
+                    ],
+                    "expected_output": [
+                        "A mobile phone is any portable phone device (smart or otherwise) that, in addition to having the capability to make and receive phone calls, is also capable of receiving, transmitting, and/or storing confidential information."
+                    ]
+                },
+                {
+                    "key": "09bf94d5-e36a-4496-b196-0c39882ea844",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is considered confidential information according to the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Confidential', 'Personally', 'Identifiable', 'Information', 'financial', 'operating', 'proprietary', 'employee', 'customer', 'business', 'strategies']"
+                    ],
+                    "expected_output": [
+                        "Confidential information includes any individual\u2019s Personally Identifiable Information (PII), financial, operating, or other proprietary <Organization> information, and other <Organization> information that is confidential in nature (e.g., employee information, customer information, or business strategies)."
+                    ]
+                },
+                {
+                    "key": "a50ac261-abc3-46a6-815c-d49f889d799a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some of the potential risks associated with mobile device use according to the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['theft', 'loss', 'unauthorized access', 'exposure of confidential information', 'misuse of <Organization> resources']"
+                    ],
+                    "expected_output": [
+                        "The policy highlights the potential risks associated with mobile device use, including theft, loss, unauthorized access, exposure of confidential information, and misuse of <Organization> resources."
+                    ]
+                },
+                {
+                    "key": "f01388f7-2206-4dec-9763-acebe8a6c960",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for mobile device management according to the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['must', 'managed', 'MDM']"
+                    ],
+                    "expected_output": [
+                        "The policy requires that all mobile computing devices used for <Organization> business must be managed by the <Organization> Mobile Device Management (MDM) solution."
+                    ]
+                },
+                {
+                    "key": "82ed7af8-c38d-4878-89cc-f36b264c8a61",
+                    "prompt": "Respond to the following question.\n\nQuestion: Are there any restrictions on data storage for mobile devices according to the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, the policy requires that all data stored on mobile devices must be encrypted and that no sensitive or confidential information can be stored on mobile devices."
+                    ]
+                },
+                {
+                    "key": "eca42bb2-a599-4d99-ad55-2c38c189be9d",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can employees use their personally owned mobile devices for <Organization> business according to the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, employees can use their personally owned mobile devices for <Organization> business, but they must comply with the policy requirements and implement company-approved measures to prevent theft and unauthorized access."
+                    ]
+                },
+                {
+                    "key": "25a83b54-e14a-4529-9ea8-13899be091ea",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the procedure for reporting a lost or stolen mobile device according to the policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['immediately', 'reported', 'lost', 'stolen', 'mobile', 'device', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "The policy requires that all lost or stolen mobile devices must be reported immediately to the <Organization> Security Officer or other authorized representative, who will then take appropriate action to protect <Organization> data and assets."
+                    ]
+                },
+                {
+                    "key": "6b8daefd-25e8-45d0-90a6-297e5ffecd12",
+                    "prompt": "Respond to the following question.\n\nQuestion: What types of mobile phones are permitted for conducting business at <Organization>?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Only', '<Organization>-issued', 'personal']"
+                    ],
+                    "expected_output": [
+                        "Only <Organization>-issued mobile phones are permitted for conducting business, unless an employee's leader has approved the use of a personal mobile phone."
+                    ]
+                },
+                {
+                    "key": "253341e6-991e-4dc3-93a7-42c49dd6ca51",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some examples of external storage devices that are not allowed to be used for storing <Organization> data?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['USB', 'eSata', 'Firewire', 'Bluetooth', 'wireless']"
+                    ],
+                    "expected_output": [
+                        "USB, eSata, Firewire, Bluetooth, and wireless devices are not allowed to be used for storing <Organization> data."
+                    ]
+                },
+                {
+                    "key": "ffa51ab6-6f4d-4c98-8665-b26bfffb3dee",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy on using personal mobile phones for conducting <Organization> business?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['strictly prohibited', 'personal mobile phone', 'leader']"
+                    ],
+                    "expected_output": [
+                        "The use of personal mobile phones for conducting <Organization> business is strictly prohibited unless the use of a personal mobile phone has been approved by an employee's leader."
+                    ]
+                },
+                {
+                    "key": "eaf05b0c-660f-4d13-8188-031ba1efd86f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some requirements for mobile devices that are in effect for all mobile devices used for <Organization> business?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['password', 'PIN', 'biometric', 'security', 'Acceptable', 'Policy', 'malicious', 'unauthorized', 'tools', 'remote', 'locking', 'wipe', 'functionality']"
+                    ],
+                    "expected_output": [
+                        "Mobile devices must have strong authentication using password, PIN and/or biometric security, and must be password protected in accordance with <Organization>'s Acceptable Use Policy. Additionally, installing malicious programs, unauthorized software or tools onto mobile devices is prohibited, and remote locking and wipe functionality should be configured and enabled where available."
+                    ]
+                },
+                {
+                    "key": "82930c37-a6c7-4628-92f9-f23cf9734c99",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some precautions that employees must take when using mobile devices for <Organization> business?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['never', 'personal', 'text', 'email', 'click']"
+                    ],
+                    "expected_output": [
+                        "Employees must keep their mobile phones in a secure location when not in use and never leave them unattended. They must also install apps only from trusted sources, avoid sending personal information via text or email, and be careful what they click."
+                    ]
+                },
+                {
+                    "key": "4b2b8f94-607c-4134-9b86-492a54818441",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy on using public networks for conducting <Organization> business?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['must not', 'public networks']"
+                    ],
+                    "expected_output": [
+                        "Employees must not connect to company resources from public networks, such as coffee shops, restaurants, libraries, airports, etc."
+                    ]
+                },
+                {
+                    "key": "8e5b947d-83af-44ce-b5f6-65a167a8d9a7",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for laptop encryption software when used for <Organization> business?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['full hard disk encryption software', 'switched on', 'keys', 'stored securely']"
+                    ],
+                    "expected_output": [
+                        "All laptops used for <Organization> business must have full hard disk encryption software switched on, and the keys must be stored securely."
+                    ]
+                },
+                {
+                    "key": "6ed6ee0c-18f4-4c71-8949-9dd51ee5fba9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy on sharing and accessing information on mobile devices for <Organization> business?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['secure', 'file-sharing', 'site', 'application']"
+                    ],
+                    "expected_output": [
+                        "Employees must only use a secure file-sharing site and application to securely access, share and save information."
+                    ]
+                },
+                {
+                    "key": "ec00f639-146f-4ac9-a37f-ace722a29762",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy on minimizing data storage on mobile devices for <Organization> business?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['minimizing', 'data', 'loss']"
+                    ],
+                    "expected_output": [
+                        "Minimizing data storage on mobile devices will minimize the risk to data loss."
+                    ]
+                },
+                {
+                    "key": "df5fbbfd-3fb4-42a4-9738-233973209405",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy on restricting remote access to <Organization> network?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['<Organization>']"
+                    ],
+                    "expected_output": [
+                        "<Organization> reserves the right to restrict, prevent, or otherwise control remote access to its network if it believes that such remote access is not being used in accordance with its directive, any directive, or supporting documents, or is otherwise detrimental to the interests of <Organization>."
+                    ]
+                },
+                {
+                    "key": "275f6cd1-6323-4d94-8e9f-4ceac3884011",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the requirements for hardware and software configurations for remote access computers?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['must', 'not']"
+                    ],
+                    "expected_output": [
+                        "Hardware and software configurations for remote access computers must meet the same requirements as set out for equipment used on <Organization> premises. Any workstation, either laptop or desktop, with non-approved hardware/software configurations must not connect to <Organization> networks."
+                    ]
+                },
+                {
+                    "key": "10cfb21a-5dd0-4c28-a3a7-e3090888b3bb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy on installing non-approved hardware/software on remote access computers?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['not', 'allowed']"
+                    ],
+                    "expected_output": [
+                        "Installing non-approved hardware/software on remote access computers is not allowed."
+                    ]
+                },
+                {
+                    "key": "1c0ec9be-7e28-4a7f-91b8-5c11968125ca",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the procedure for reporting a suspected security breach related to remote access?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['A', 'suspected', 'security', 'breach', 'related', 'remote', 'access', '<Organization> leader']"
+                    ],
+                    "expected_output": [
+                        "A suspected security breach related to remote access must be immediately reported to a <Organization> leader."
+                    ]
+                },
+                {
+                    "key": "8959d53b-5f3a-4abe-8d17-44a5e7c807a5",
+                    "prompt": "Respond to the following question.\n\nQuestion: How must remote access VPN employ cryptography?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['cryptography', 'conformance', 'good', 'computing', 'practices']"
+                    ],
+                    "expected_output": [
+                        "Remote access VPN must employ cryptography that is in conformance with good computing practices."
+                    ]
+                },
+                {
+                    "key": "27485d21-22d9-4abb-8a11-0095207c4346",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for logging and audit trails for remote access connections?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['remote access', 'logged', 'audit trail', 'security', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "Remote access connection activity must be logged and have an audit trail for the security of <Organization> networks."
+                    ]
+                },
+                {
+                    "key": "746bff0b-1fd4-4db8-b594-65e2f5e7860f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What types of mobile devices are allowed to connect to <Organization> networks?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        NaN
+                    ],
+                    "expected_output": [
+                        "Only the following types of mobile devices shall be connected to <Organization> networks: [List specific types, brands, models, etc. that should be allowed]."
+                    ]
+                },
+                {
+                    "key": "b85e362b-0223-4e0a-83a2-1ca518a714a8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What types of devices are not allowed to connect to <Organization> networks?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['not', 'allowed', 'devices', '<Organization>']"
+                    ],
+                    "expected_output": [
+                        "The following types of devices shall not be connected to any <Organization> network: [List any types of devices that you do NOT want to allow to connect]."
+                    ]
+                },
+                {
+                    "key": "77b42ae6-54fb-4f21-83cf-0e6b02ec3241",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the allowed connection methods for mobile devices connecting to <Organization> networks?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['<Organization> networks', '<List specific connection methods that you want to allow>']"
+                    ],
+                    "expected_output": [
+                        "Mobile devices connecting to <Organization> networks shall use the following connection methods only: [List specific connection methods that you want to allow]."
+                    ]
+                },
+                {
+                    "key": "f7502152-5440-4ff5-ae1c-27dff16c856f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What data types shall not be stored on mobile devices?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['not', 'mobile', 'devices']"
+                    ],
+                    "expected_output": [
+                        "The following data types shall not be stored on mobile devices: [List any specific types of data that you do not want users to store on mobile devices]."
+                    ]
+                },
+                {
+                    "key": "7759c39d-7000-4807-b61c-727135e9606d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What restrictions apply to mobile devices connecting to <Organization> networks?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Mobile', 'device', 'connect', 'MDM', 'applications', 'GPS', 'disabling', 'report', 'lost', 'stolen', 'misplaced', 'control', 'remotely', 'delete', 'personal', 'data', 'device']"
+                    ],
+                    "expected_output": [
+                        "Mobile devices connecting to <Organization> networks shall have <Organization>\u2019s Mobile Device Management (MDM) software installed and shall be subject to the following restrictions: Devices with operating system modifications (e.g. \u201crooted\u201d or \u201cjail-broken\u201d devices) shall not be allowed to connect. All devices shall have the following applications installed: [List applications that are required]. Any devices with the following applications installed shall not be connected to any <Organization> network. If found on a device, these applications may be remotely uninstalled. Device location may be tracked by <Organization> via the device\u2019s Global Positioning System (GPS) feature. Disabling the GPS feature is prohibited. You must immediately report any device that has been lost, stolen, misplaced, or is no longer under your direct control. If a device is lost or stolen, data may be remotely deleted from the device. This may include any personal data that has been stored on the device."
+                    ]
+                }
+            ]
+        }
+    ]
+}

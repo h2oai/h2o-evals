@@ -1,0 +1,936 @@
+{
+    "tests": [
+        {
+            "key": "1a95a0a3-1652-463c-9a51-bcb88de877bc",
+            "documents": [
+                "HSBC_Annual_Report.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "9c795a6a-b2d3-41e3-a430-9f8b47a69aca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the credit card launched by HSBC Holdings plc in May 2023?\nHow do you respond?\nA. TravelOne\nB. TravelTwo\nC. TravelThree\nD. TravelFour\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ca3ccbe5-8fe1-4301-850a-85c7d64f0f00",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of HSBC Holdings plc's wealth strategy?\nHow do you respond?\nA. To grow its cross-border international customer franchise and unsecured lending business in south Asia.\nB. To provide financial support to start-ups and small businesses.\nC. To promote sustainable and socially responsible investing practices.\nD. To offer financial planning and advisory services to high net worth individuals.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "18360b39-ddef-4c32-b889-5beeb4584939",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the report provided by the independent auditors of HSBC Holdings plc?\nHow do you respond?\nA. Audited Financial Statements.\nB. Independent Auditors' Report.\nC. Annual Report and Accounts 2023.\nD. Financial Statements and Notes.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "41918be0-c878-4fab-abfb-2642aac67549",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for the independent auditors' opinion on the financial statements of HSBC Holdings plc?\nHow do you respond?\nA. International Standards on Auditing (UK) (\u201cISAs (UK)\u201d) and International Standards on Auditing issued by the International Auditing and Assurance Standards Board (\u201cISAs\u201d)\nB. UK-adopted international accounting standards\nC. International financial reporting standards adopted pursuant to Regulation (EC) No 1606/2002 as it applies in the European Union\nD. The financial statements, included within the Annual Report and Accounts 2023\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0a2a0817-10bc-4571-a9f5-01ac13c6df5f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the note that provides material accounting policy information and other explanatory information in the financial statements of HSBC Holdings plc?\nHow do you respond?\nA. \"Notes on the financial statements\"\nB. \"Risk review\"\nC. \"Directors' remuneration report\"\nD. \"International financial reporting standards adopted pursuant to Regulation (EC) No 1606/2002 as it applies in the European Union.\"\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8260104f-9ad6-4fcd-8b8f-e9d82575031d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the section in the Annual Report and Accounts 2023 that includes the consolidated and parent company balance sheets, income statements, statements of comprehensive income, statements of changes in equity, and statements of cash flows?\nHow do you respond?\nA. Risk review\nB. Directors' remuneration report\nC. Financial statements\nD. Notes on the financial statements\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5d1f23eb-45f3-46fe-801e-86bec535ff45",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the committee that the independent auditors report to in relation to their audit of the financial statements of HSBC Holdings plc?\nHow do you respond?\nA. Group Audit Committee (GAC)\nB. Board of Directors\nC. International Accounting Standards Board (IASB)\nD. European Union\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ed4dd31a-bc68-43ea-8621-6d61c4e9978b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for the auditors' opinion?\nHow do you respond?\nA. ISAs (UK) and ISAs.\nB. FRC's Ethical Standard and IESBA Code.\nC. International Standards on Auditing issued by the International Auditing and Assurance Standards Board.\nD. Regulation (EU) No 537/2014.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "14695d31-7136-4ce6-a014-5dc2e9ec2162",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the auditors assess the risks of material misstatement?\nHow do you respond?\nA. They determined materiality and assessed the risks of material misstatement in the financial statements. (Correct)\nB. They conducted their audit in accordance with International Standards on Auditing (UK) (\u201cISAs (UK)\u201d), International Standards on Auditing issued by the International Auditing and Assurance Standards Board (\u201cISAs\u201d), and applicable law.\nC. They fulfilled their ethical responsibilities in accordance with the ethical requirements that are relevant to their audit of the financial statements in the UK.\nD. They provided no non-audit services to the parent company or its controlled undertakings in the period under audit.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0fcdff86-e353-4f0c-9032-cda3398a170e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of materiality in the context of the audit?\nHow do you respond?\nA. The magnitude of the impact of a transaction or event on the financial statements.\nB. The likelihood of a transaction or event occurring in the financial statements.\nC. The monetary threshold used to determine the significance of a transaction or event.\nD. The degree of precision required for financial statement measurements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5d19c9c8-1854-4a78-b548-1dd2204d972b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the overall group materiality for the audit?\nHow do you respond?\nA. US$1.5bn\nB. US$1.6bn\nC. US$2.1bn\nD. US$950m\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "020b42db-c009-4f34-8cef-352749b85cf7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the overall parent company materiality for the audit?\nHow do you respond?\nA. US$1.6bn\nB. US$1.5bn\nC. US$2.1bn\nD. US$950m\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cea70ecc-a09a-4002-a8e2-ded9977eabae",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the key audit matters identified by the auditors?\nHow do you respond?\nA. They represent the most significant risks of material misstatement in the financial statements.\nB. They are the matters that had the greatest effect on the overall audit strategy.\nC. They are the risks that were assessed as most likely to result in material misstatement due to fraud.\nD. They are the matters that were addressed in the context of the audit of the financial statements as a whole.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ea46b989-c46b-48e7-a43c-108236d53070",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is the list of key audit matters exhaustive?\nHow do you respond?\nA. Yes, the list of key audit matters is exhaustive.\nB. No, the list of key audit matters is not exhaustive.\nC. The list of key audit matters is exhaustive, but only for the group financial statements.\nD. The list of key audit matters is exhaustive, but only for the parent company financial statements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8f60451e-f3e3-4317-a97d-20db9179bc7e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the nature of the key audit matter related to expected credit losses?\nHow do you respond?\nA. Determining the probability weightings of economic scenarios\nB. Estimating discounted cash flow projections for defaulted exposures\nC. Assessing the severity of economic scenarios\nD. Identifying credit impaired triggers\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "96c4991d-7f95-41e6-9d5c-2c16d86c5919",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the significant assumptions that the audit focused on in estimating ECL?\nHow do you respond?\nA. Assumptions made in determining judgemental management adjustments.\nB. Assumptions used to estimate the discounted cash flow projections for defaulted exposures in relation to the mainland China commercial real estate portfolio.\nC. Assumptions made in determining the severity and probability weighting of economic scenarios.\nD. Assumptions related to the impact of macroeconomic conditions on certain industry sectors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c5b78956-8c99-4a53-8b9a-6dfaf47116d4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the level of estimation uncertainty and judgement in estimating ECL during 2023?\nHow do you respond?\nA. Low, as management has made significant judgemental adjustments to address limitations in the reliability of historical experience-based modelling methodologies.\nB. High, as management judgement and estimation uncertainty remain significant due to the uncertainties in the macroeconomic and geopolitical environment, persistently high levels of inflation in some territories, and the rising global interest rate environment.\nC. Moderate, as management has implemented effective governance and controls over the estimation of ECL, including review and challenge in governance forums.\nD. Minimal, as the impact of the prevailing macroeconomic conditions has resulted in certain limitations in the reliability of historical experience-based modelling methodologies, but management has not made significant judgemental adjustments.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b966f311-4ce1-4a1e-bb6e-5846fa1781e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the audit address the key audit matter related to expected credit losses?\nHow do you respond?\nA. The audit assessed the design and effectiveness of governance and controls over the estimation of ECL.\nB. The audit involved the group audit committee in governance forums for the determination of economic scenarios and their probability weightings.\nC. The audit tested controls over model validation and monitoring, the identification of credit impaired triggers, and the input of critical data into source systems.\nD. The audit involved the economic experts in assessing the significant assumptions made in determining the severity and probability weighting of economic scenarios.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "13164871-39b5-404f-a24e-edec0302e8b5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the areas of focus of the discussions held with the Group Audit Committee regarding ECL?\nHow do you respond?\nA. The severity of economic scenarios and their related probability weightings across territories.\nB. The impact of macroeconomic conditions on the reliability of modelling methodologies used to estimate ECL.\nC. The assessment of management judgemental adjustments.\nD. The disclosures made in relation to ECL.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e9285d5d-a9f7-4439-a12a-f25fe68b650d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the audit involve economic experts in assessing the significant assumptions made in determining the severity and probability weighting of economic scenarios?\nHow do you respond?\nA. The audit team consulted with external economists to obtain their views on the probability weighting of economic scenarios.\nB. The audit team involved their own economic experts in assessing the significant assumptions made in determining the severity and probability weighting of economic scenarios.\nC. The audit team reviewed the Group's external economic forecasts to assess the probability weighting of economic scenarios.\nD. The audit team used a third-party economic model to assess the severity and probability weighting of economic scenarios.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9058b8fe-3dde-451d-9997-09a31947d08a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the limitations of the modelling methodologies used to estimate ECL?\nHow do you respond?\nA. They do not incorporate all factors that are relevant to estimating ECL, such as the differentiated impact of economic conditions on certain industry sectors.\nB. They are developed using historical experience, which may not accurately reflect future customer defaults.\nC. They are not subject to estimation uncertainty.\nD. They do not require management judgemental adjustments.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c113b3f3-2d5d-4816-9808-69bdca4c40f1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the carrying value of the investment in BoCom at 31 December 2023?\nHow do you respond?\nA. US$21.2bn\nB. US$3.0bn\nC. US$18.2bn\nD. US$24.2bn\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "72d99b9f-4c59-4d51-8889-0b16a73645f3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the impairment of the investment in BoCom?\nHow do you respond?\nA. The fair value of the investment in BoCom, based on the share price, had been lower than the carrying amount for a number of years, indicating potential impairment.\nB. Management's judgement and subjectivity in deriving various assumptions, such as the discount rate, short-term and long-term growth rates, and capital-related assumptions, resulted in significant estimation uncertainty.\nC. The investment in BoCom was impaired by US$3.0bn due to a sudden drop in market demand for BoCom's products and services.\nD. The impairment was caused by a change in the regulatory environment that negatively impacted BoCom's ability to operate profitably.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "62188800-a02e-45e5-aa30-a013e0eaea33",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What methodology was used by management to assess the impairment of the investment in BoCom?\nHow do you respond?\nA. Value in use (V IU) model.\nB. Discounted cash flow (DCF) model.\nC. Asset-based model.\nD. Income approach model.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4bf39305-6980-4bb3-8099-ac1e79c3f3d3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the auditors assess the appropriateness of the methodology and assumptions used in the VIU model?\nHow do you respond?\nA. They discussed the methodology and assumptions with the Group Audit Committee.\nB. They performed substantive testing over the compliance of ECL methodologies and assumptions with the requirements of IFRS 9.\nC. They involved their modelling specialists in assessing the appropriateness of the significant assumptions and methodologies used for models and certain management judgemental adjustments.\nD. They independently re-performed the calculations for a sample of those models and certain management judgemental adjustments.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "cac3998c-9661-48c0-827d-59cfd96cb244",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the result of the impairment assessment of the investment in BoCom?\nHow do you respond?\nA. The investment in BoCom was not impaired.\nB. The investment in BoCom was impaired by US$3.0bn.\nC. The investment in BoCom was impaired by US$5.0bn.\nD. The investment in BoCom was impaired by US$10.0bn.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fa64b416-d805-4ee4-bbef-25d05dcd4bf7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the auditors address the key audit matter in their audit?\nHow do you respond?\nA. They performed substantive testing over the compliance of ECL methodologies and assumptions with the requirements of IFRS 9.\nB. They discussed the appropriateness of the methodology, its consistent application period over period, and significant assumptions with the GAC.\nC. They independently re-performed the calculations for a sample of those models and certain management judgemental adjustments.\nD. They involved their business recovery experts in assessing the discounted cash flows for a sample of credit impaired exposures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8395e7c2-7f69-429e-9962-c76c52425b93",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What disclosures were made in relation to the impairment of the investment in BoCom in the Annual Report and Accounts 2023?\nHow do you respond?\nA. Disclosure of the carrying value of the investment in BoCom at 31 December 2023.\nB. Disclosure of the fair value of the investment in BoCom based on the share price at 31 December 2023.\nC. Disclosure of the impairment loss recognized in the statement of comprehensive income.\nD. Disclosure of the significant assumptions used in the value in use (VIU) model.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "d0f4957e-2c3f-42f2-bda1-0e474b754bed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the nature of the key audit matter discussed with the Group Audit Committee?\nHow do you respond?\nA. The appropriateness of the methodology and significant assumptions used in the value in use (V IU) model for assessing the impairment of the investment in Bank of Communications Co., Ltd (BoCom).\nB. The accuracy of the discount rate and short-term assumptions for operating income growth rate, loans and advances to customers growth rate, cost-income ratio, and expected credit losses as a percentage of loans and advances to customers.\nC. The appropriateness of the disclosures made in relation to BoCom, including the use of sensitivity analysis to explain estimation uncertainty.\nD. The consistency of the methodology and its application period over period.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "213b1ce8-b210-4e64-a470-4542c7fac7e2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the result of management's assessment of the investment in HOHU?\nHow do you respond?\nA. An impairment charge of US$5.5bn was recognized.\nB. No impairment charge was recognized.\nC. An impairment charge of US$10bn was recognized.\nD. The investment in HOHU was written off entirely.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d6fb8c77-2923-4ebe-ba00-73bcfa423afe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the purpose of the meetings observed by the component auditor, management, and BoCom management?\nHow do you respond?\nA. To discuss the disclosures made in relation to BoCom.\nB. To identify facts and circumstances impacting the significant assumptions relevant to the determination of the VIU.\nC. To assess the appropriateness of the methodology used to determine the recoverable amount.\nD. To challenge the appropriateness of the significant assumptions and their interrelationships.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e05589d0-2336-4ee6-8bdb-d7363187cdf9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the audit team assess the appropriateness of the methodology used to determine the recoverable amounts?\nHow do you respond?\nA. By reviewing the methodology used against the requirements of IAS 36.\nB. By assessing the methodology's consistency with industry practices.\nC. By evaluating the methodology's ability to capture the impact of management's judgments.\nD. By testing the methodology's mathematical accuracy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "4c5b6eb6-551b-4275-bc20-ae4df51e4c08",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the basis for the impairment charge recognized in prior periods?\nHow do you respond?\nA. Fair value less cost to sell.\nB. Value in use (VIU).\nC. Recoverable amount.\nD. Long-term growth rates.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8c8bbd1d-2058-40cc-8f6b-2cc49be21e4c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the role of the Group Audit Committee in relation to the impairment charge for HOHU?\nHow do you respond?\nA. The Group Audit Committee was responsible for assessing the appropriateness of the methodology used to determine the recoverable amount.\nB. The Group Audit Committee was responsible for challenging the appropriateness of the significant assumptions made by management.\nC. The Group Audit Committee was responsible for estimating the recoverable amount using the higher of value in use or fair value less cost to sell.\nD. The Group Audit Committee was responsible for reviewing investments in subsidiaries for indicators of impairment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a4de6096-ffef-484f-96bf-c3ecc2d0239b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the audit team assess the design and effectiveness of controls in place over significant assumptions and the model used to determine the recoverable amounts?\nHow do you respond?\nA. They tested the controls and model by using sensitivity analysis to evaluate estimation uncertainty.\nB. They reviewed management's judgments and experts' opinions to assess the reasonableness of the significant assumptions.\nC. They recalculated the recoverable amounts using their own assumptions to compare with management's estimates.\nD. They evaluated the design and effectiveness of controls by reviewing the minutes of meetings with management and the Group Audit Committee.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "feff2ab8-16d6-445e-9ced-ca46278e8c7a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the nature of the key audit matter discussed with the Group Audit Committee?\nHow do you respond?\nA. The appropriateness of the methodology used to determine the recoverable amount.\nB. The impairment charge for HOHU.\nC. The design and effectiveness of controls over significant assumptions.\nD. Management's assessment of the investment in HOHU.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "21e2ebb1-d4a1-4d49-bd2f-d52b4a083b76",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome of the audit work performed by the component audit team in Hong Kong?\nHow do you respond?\nA. The audit team identified material weaknesses in controls over the significant assumptions used to determine the recoverable amount.\nB. The audit team concluded that the methodology used to estimate the recoverable amount was appropriate and consistent with IAS 36.\nC. The audit team identified indicators of possible management bias in the judgments made in determining the significant assumptions.\nD. The audit team recommended an impairment charge of US$5.5bn in relation to the investment in HSBC Overseas Holdings (UK) Limited.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "218668fc-4abd-4b75-b83b-9d8757316e17",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the focus of the audit in relation to the recoverable amounts?\nHow do you respond?\nA. Assessing the design and tested the effectiveness of controls in place over significant assumptions and the model used to determine the recoverable amounts.\nB. Evaluating evidence relating to significant assumptions, from a combination of historical experience and external market and other financial information.\nC. Assessing the sensitivity of the recoverable amount to reasonable variations in significant assumptions, both individually and in aggregate.\nD. Determining a reasonable range for the discount rate used within the model, with the assistance of our valuation experts, and comparing it to the discount rate used by management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6423fbe5-007e-4d42-b10e-efd30905a623",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the significant assumptions that were tested in relation to the recoverable amounts?\nHow do you respond?\nA. Assumptions related to the discount rate, inflation rate, and mortality rate.\nB. Assumptions related to the cash flows included in the model and their compliance with the relevant accounting standard.\nC. Assumptions related to the achievement of historic forecasts and the prospects for HSBC's businesses.\nD. Assumptions related to the methodology used within the model and its objectivity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fc8dd06d-caf1-4d6f-b988-928ab945df62",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the audit address the valuation of defined benefit pension obligations?\nHow do you respond?\nA. The audit assessed the design and tested the effectiveness of governance and controls in place over the methodologies and significant assumptions used by management to determine the value of the defined benefit obligation.\nB. The audit evaluated the objectivity and competence of management's expert involved in the valuation of the defined benefit obligation of the principal plan.\nC. The audit used actuarial experts to understand the judgements made by management and their actuarial expert in determining the significant assumptions and compared these assumptions to independently compiled expected ranges based on market observable indices and the knowledge and opinions of the audit's actuarial experts.\nD. The audit evaluated and tested the disclosures made in the Annual Report in relation to the defined benefit pension obligation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c2596706-a59a-499d-b5cf-5c95f71c2869",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the nature of the key audit matter in relation to investment in subsidiaries?\nHow do you respond?\nA. Valuation of defined benefit pension obligations (group)\nB. Assessing the design and tested the effectiveness of governance and controls in place over the methodologies and the significant assumptions.\nC. Determining a reasonable range for the discount rate used within the model, with the assistance of our valuation experts, and comparing it to the discount rate used by management.\nD. Evaluating and testing the disclosures made in the Annual Report in relation to investment in subsidiaries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "e4521b41-298a-47fe-b0dc-e8a29079647e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the scope of the audit in relation to the defined benefit pension obligation?\nHow do you respond?\nA. The audit scope only included testing the mathematical accuracy of the calculations used to estimate the liability.\nB. The audit scope included assessing the design and testing the effectiveness of governance and controls over the methodologies and significant assumptions used in the valuation of the defined benefit obligation.\nC. The audit scope included evaluating the objectivity and competence of management's expert involved in the valuation of the defined benefit obligation, but did not include assessing the appropriateness of the methodology used.\nD. The audit scope included assessing the appropriateness of the methodology used and testing the accuracy of the calculations, but did not include assessing the design and testing the effectiveness of governance and controls over the methodologies and significant assumptions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f2bd7d70-2755-4c1f-9676-e10e501a0f6e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the basis for evaluating the disclosures made in the Annual Report in relation to investment in subsidiaries?\nHow do you respond?\nA. The auditor's expertise in valuing defined benefit pension obligations.\nB. The appropriateness of the methodology used to estimate the liability.\nC. The assessment of the design and effectiveness of governance and controls.\nD. The interdependencies between the risks that HSBC faces.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "72a2190c-9778-4d10-a8d7-aba576d1b4e8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the audit assess the objectivity and competence of management\u2019s expert involved in the valuation of the defined benefit obligation?\nHow do you respond?\nA. The audit assessed the expert's qualifications, experience, and reputation in the field of actuarial science.\nB. The audit evaluated the expert's independence from management and the group, as well as their lack of bias.\nC. The audit reviewed the expert's methodology and assumptions, and compared them to industry standards and best practices.\nD. The audit assessed the expert's ability to communicate complex actuarial concepts to non-technical stakeholders.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6a775720-cf5d-4c6a-91da-7d3eeb321d07",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the basis for assessing the appropriateness of the methodology used in the valuation of defined benefit pension obligations?\nHow do you respond?\nA. By comparing the methodology used by management's expert to the methodology used by the auditor's experts.\nB. By evaluating the objectivity and competence of management's expert involved in the valuation.\nC. By assessing the appropriateness of the methodology used, and testing the accuracy of the calculation, to estimate the liability.\nD. By reviewing the disclosures made in the Annual Report in relation to the defined benefit pension obligation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "405209e9-863b-48ac-8414-3b8d4ddf4ae5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did PwC assess the impact of climate change risk on HSBC's financial statements?\nHow do you respond?\nA. By performing a full scope audit of HSBC's financial statements.\nB. By evaluating management's assessment of the impact of climate change risk, including their use of stress testing and scenario analysis.\nC. By assessing the impact of climate change risk on HSBC's ESG data.\nD. By reviewing HSBC's progress towards its climate ambition.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "af3a17dc-7fc6-40a6-a2b2-b5ee66644adb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the areas in the financial statements that are most likely to be impacted by climate risk, according to HSBC's management?\nHow do you respond?\nA. The impact on ECL on loans and advances to customers, for both physical and transition risk.\nB. The forecast cash flows from management's five-year business plan and long-term growth rates used in estimating recoverable amounts as part of impairment assessments of investments in subsidiaries, goodwill, and intangible assets.\nC. The impact of climate-related terms on the solely payments of principal and interest test for classification and measurement of loans and advances to customers.\nD. Climate risks relating to contingent liabilities as HSBC faces increased reputational, legal, and regulatory risk as it progresses towards its climate ambition.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1eb0de89-c00d-4a1d-8c3a-6d866707f6dc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between the work performed for a limited assurance report and a financial audit?\nHow do you respond?\nA. A financial audit provides reasonable assurance, while a limited assurance report provides substantially less assurance.\nB. A financial audit provides substantially less assurance, while a limited assurance report provides reasonable assurance.\nC. A financial audit and a limited assurance report provide the same level of assurance.\nD. A financial audit is performed for a limited assurance report.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "440be470-94ef-4653-b0cf-89e725dc3905",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did PwC determine which entities and balances to test in order to support their group opinion?\nHow do you respond?\nA. By assessing the risks of material misstatement and identifying the most financially significant entities and balances.\nB. By evaluating the interdependencies between the risks and stakeholders.\nC. By reviewing management's assessment of the impact of climate change risk.\nD. By considering the complex and disaggregated group structure, accounting processes, and controls, and industry.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "83cc2d1e-7fee-4069-9444-438ff9e1b2a0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did PwC assess the risks of material misstatement in HSBC's financial statements?\nHow do you respond?\nA. By evaluating the impact of climate change risk on HSBC's financial statements.\nB. By performing a full scope audit of all entities within the HSBC group.\nC. By assessing the risks of material misstatement in HSBC's financial statements through a limited assurance engagement.\nD. By obtaining audit opinions over specific balances for all entities within the HSBC group.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "04b1a02d-8048-41ef-8694-d453b574f10b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the scope of the audit opinions obtained for HSBC UK Bank plc and HSBC Bank Canada?\nHow do you respond?\nA. Full scope audit opinions for both HSBC UK Bank plc and HSBC Bank Canada.\nB. Audit opinions over specific balances for both HSBC UK Bank plc and HSBC Bank Canada.\nC. Full scope audit opinions for HSBC UK Bank plc only.\nD. Audit opinions over specific balances for HSBC Bank Canada only.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "ee1b797e-fa0d-426e-8582-4165c20632c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the scope of the audit opinions obtained for HSBC Mexico S.A. Banco?\nHow do you respond?\nA. Full scope audit opinion (Correct)\nB. Audit opinion over specific balances\nC. Audit opinion over entity-level controls\nD. Audit opinion over financial statement consolidation\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7e88d49c-0643-4721-af5b-4b464fbcd5c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the function that performs financial reporting processes and controls for HSBC?\nHow do you respond?\nA. Group Finance\nB. Finance Operations\nC. Digital Business Services (DBS)\nD. Global Risk\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "041ac37b-16a4-4fe8-99b5-f2ccbf9da519",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the function that performs IT and operational processes and controls relevant to financial reporting for HSBC?\nHow do you respond?\nA. Group Finance\nB. Finance Operations\nC. Digital Business Services (DBS)\nD. Global Risk\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4c71f8f8-0ef3-476a-a1d4-66f1c341d346",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the overall materiality levels ranged from for the Significant Subsidiaries?\nHow do you respond?\nA. US$107m to US$1.0bn\nB. US$100,000 to US$100m\nC. US$1m to US$10m\nD. US$10m to US$100m\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f4f3e875-1724-42b5-b19c-8ab96393b58b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the overall materiality for the financial statements as a whole for the group?\nHow do you respond?\nA. US$1.6bn\nB. US$2.1bn\nC. US$1.2bn\nD. US$750m\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "835e3811-68e8-4e0f-bd82-cfbb59ab7c7d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the team determine the scope of their audit and the nature and extent of their testing?\nHow do you respond?\nA. They used a standard benchmark of 5% of profit before tax adjusted for notable items.\nB. They used a benchmark of total assets.\nC. They used performance materiality in determining the scope of their audit and the nature and extent of their testing.\nD. They relied on management assurance testing of certain controls across the group.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "cd1ffdce-13d9-4a1b-af6b-73b8c907ab4a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the performance materiality used by the team in determining sample sizes?\nHow do you respond?\nA. 5% of profit before tax adjusted for notable items.\nB. 75% of overall materiality.\nC. 0.75% of total assets.\nD. 1% of total operating income.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "acb5854b-8f36-4cee-a669-18f9f5d660e3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What percentage of total assets and operating income did the Significant Subsidiaries cover?\nHow do you respond?\nA. 85% of total assets and 75% of operating income.\nB. 83% of total assets and 74% of operating income.\nC. 70% of total assets and 60% of operating income.\nD. 90% of total assets and 80% of operating income.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f88ba4b2-0e78-4b2b-9fef-ea124c49ab3b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the team assess the competence and objectivity of those performing testing?\nHow do you respond?\nA. By relying on management assurance testing of certain controls across the group.\nB. By re-performing a portion of the testing to ensure appropriate quality of testing.\nC. By assessing the competence and objectivity of those performing the testing.\nD. By obtaining audit evidence from work that is scoped and provided by other auditors that are engaged by third parties.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "65c64222-c433-429c-ba3a-404de30d3751",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the primary purpose of the parent company, according to the text?\nHow do you respond?\nA. To generate operating profits.\nB. To act as a holding parent company with investments in the group's subsidiaries.\nC. To perform management assurance testing of certain controls across the group.\nD. To determine the scope of the audit and the nature, timing, and extent of audit procedures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "07f3f6cf-d9ef-483e-9cea-3c5e05c19fc4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the performance materiality for the group financial statements in 2023?\nHow do you respond?\nA. US$1.2bn (2022: US$750m)\nB. US$1.1bn (2022: US$712m)\nC. US$80m (group audit) (2022: US$50m)\nD. US$750m (2022: US$750m)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fb0c6a02-11ec-47fc-b74a-a493b00c5411",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the performance materiality for the parent company financial statements in 2023?\nHow do you respond?\nA. US$1.1bn (2022: US$712m)\nB. US$1.2bn (2022: US$750m)\nC. US$80m (2022: US$50m)\nD. US$750m (2022: US$712m)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5d21ef41-424d-42cf-9fa6-05d868352204",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of determining performance materiality?\nHow do you respond?\nA. To determine the scope of the audit and the nature and extent of testing.\nB. To evaluate the effectiveness of controls.\nC. To identify factors that could impact the going concern basis of accounting.\nD. To assess the risk of material misstatement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "67695c7c-96a9-4a44-a4cf-0b7e4d41f46c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What factors were considered when determining performance materiality?\nHow do you respond?\nA. The history of misstatements, risk assessment, and aggregation risk and the effectiveness of controls.\nB. Macroeconomic conditions, industry trends, and regulatory changes.\nC. The group's financial forecasts, stress testing of liquidity and regulatory capital, and credit rating agency ratings and actions.\nD. The directors' assessment of the group's and the parent company's ability to continue to adopt the going concern basis of accounting.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a436929e-d2cd-41d9-a306-339beda45665",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the amount of misstatements identified during the audit that were reported to the GAC?\nHow do you respond?\nA. US$80m (group audit) and US$80m (parent company audit)\nB. US$50m (group audit) and US$50m (parent company audit)\nC. US$1.2bn (group financial statements) and US$1.1bn (parent company financial statements)\nD. US$750m (group financial statements) and US$712m (parent company financial statements)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4504fd29-d8a1-4893-aee0-5c3f0499efbd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What did the auditor's evaluation of the directors' assessment of going concern include?\nHow do you respond?\nA. Evaluating the group's financial forecasts.\nB. Assessing the effectiveness of controls.\nC. Reviewing credit rating agency ratings and actions.\nD. Performing a risk assessment to identify factors that could impact the going concern basis of accounting.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "26611aec-b136-4572-b823-9ca6fa63975e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the auditor's responsibility with respect to other information in the Annual Report?\nHow do you respond?\nA. The auditor is responsible for expressing an audit opinion on the other information.\nB. The auditor is responsible for reading the other information and considering whether it is materially inconsistent with the financial statements or the auditor's knowledge obtained in the audit.\nC. The auditor is not responsible for reviewing the other information.\nD. The auditor is responsible for performing procedures to conclude whether there is a material misstatement of the other information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "81de165c-58f0-4897-b62e-1bba021a95ee",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the audit described in the text?\nHow do you respond?\nA. To evaluate the effectiveness of the company's internal controls over financial reporting.\nB. To provide an opinion on the fairness and accuracy of the financial statements.\nC. To assess the company's compliance with the UK Companies Act 2006.\nD. To review the directors' statements regarding going concern, longer-term viability, and compliance with the UK Corporate Governance Code.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "48ed4800-e018-49da-b2aa-b110b09eeca5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the responsibilities of the auditor with respect to the Strategic report and Report of the Directors?\nHow do you respond?\nA. To express an opinion on the fairness of the financial statements.\nB. To report on whether the disclosures required by the UK Companies Act 2006 have been included.\nC. To assess the going concern basis of accounting in preparing the financial statements.\nD. To evaluate the reasonableness of the directors' assessment of the group's and parent company's prospects.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4ea25ade-5d5e-4950-b9d8-049c1fe3794b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the auditor's responsibilities with respect to Directors' Remuneration?\nHow do you respond?\nA. To audit the Directors' Remuneration Report and ensure that it is properly prepared in accordance with the Companies Act 2006.\nB. To review the Directors' Remuneration Report to ensure that it is consistent with the financial statements and our knowledge obtained during the audit.\nC. To assess the reasonableness of the directors' remuneration and benefits and report any excessive payments.\nD. To evaluate the alignment of the directors' remuneration with the company's performance and provide recommendations for improvement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8996f413-4d03-4529-abd5-165317d020d4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the audit described in the text?\nHow do you respond?\nA. To evaluate management's incentives and opportunities for fraudulent manipulation of the financial statements.\nB. To assess the group's and parent company's ability to continue as a going concern.\nC. To obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement.\nD. To design procedures to detect material misstatements in respect of irregularities, including fraud.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "bba35040-8e2c-49c1-9c62-420d6805552e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the level of assurance that the audit provides?\nHow do you respond?\nA. Reasonable assurance\nB. Absolute assurance\nC. Limited assurance\nD. No assurance\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ef821872-23b4-4b5b-b5b2-5852d81b6286",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the principal risks of non-compliance with laws and regulations that the auditors identified?\nHow do you respond?\nA. Breaches of financial crime laws and regulations and regulatory compliance, including regulatory reporting requirements and conduct of business.\nB. Inappropriate journal entries in relation to cost targets, and management bias in accounting estimates.\nC. Posting inappropriate journal entries in relation to cost targets, and management bias in accounting estimates.\nD. Breaches of financial crime laws and regulations and regulatory compliance, including regulatory reporting requirements and conduct of business, and management bias in accounting estimates.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a9ae3104-600d-480c-a40b-9aa2df297b4b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the auditors assess the risk of fraudulent manipulation of the financial statements?\nHow do you respond?\nA. They evaluated management\u2019s incentives and opportunities for fraudulent manipulation of the financial statements.\nB. They identified the principal risks of non-compliance with laws and regulations related to breaches of financial crime laws and regulations and regulatory compliance.\nC. They designed procedures in line with their responsibilities outlined above to detect material misstatements in respect of irregularities, including fraud.\nD. They considered management\u2019s incentives and opportunities for fraudulent manipulation of the financial statements, and determined that the principal risks were related to posting inappropriate journal entries in relation to cost targets, and management bias in accounting estimates.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "5e1b33be-2e14-4d77-a4dd-d639e5f38dce",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Directors\u2019 responsibility statement?\nHow do you respond?\nA. To provide a fair and balanced view of the company's financial position and performance.\nB. To assess the effectiveness of the company's risk management and internal control systems.\nC. To disclose any departures from the Code that may affect the company's compliance.\nD. To take responsibility for the preparation of the financial statements and their accuracy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "4d884d64-a14c-4129-96f5-3d264dd2c7f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis of accounting used in the financial statements?\nHow do you respond?\nA. Going concern basis\nB. Cash basis\nC. Accrual basis\nD. Tax basis\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "cc817420-ee55-4b49-a75b-865465d10d26",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the group engagement team in the audit?\nHow do you respond?\nA. To assess the group's and parent company's ability to continue as a going concern.\nB. To design procedures to detect material misstatements in respect of irregularities, including fraud.\nC. To evaluate management's incentives and opportunities for fraudulent manipulation of the financial statements.\nD. To prepare the financial statements in accordance with the applicable framework.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4f9e9dcb-ac0d-41c7-92c8-34d851827eda",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are inherent limitations in the audit procedures described above?\nHow do you respond?\nA. The risk of not detecting a material misstatement resulting from fraud is higher than the risk of not detecting one resulting from error.\nB. The audit procedures described above are not designed to detect errors or fraud.\nC. The audit procedures described above are guaranteed to detect all material misstatements.\nD. The audit procedures described above are not limited to the financial statements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d8cf1cb2-e02c-4ab3-9c8d-b850c75fe250",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the audit testing typically work?\nHow do you respond?\nA. The auditor tests a limited number of items from a population, rather than testing the entire population, and may use audit sampling to draw conclusions about the population.\nB. The auditor tests every item in the population to ensure a thorough understanding of the risks and to detect any material misstatements.\nC. The auditor only tests items that are deemed high risk or have a large size or risk characteristic.\nD. The auditor relies on management's assessment of the risks and does not perform any additional testing.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5593f557-28d1-4130-91a4-265f3fb05152",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of professional judgement and scepticism in an audit?\nHow do you respond?\nA. To exercise professional judgement and maintain professional scepticism throughout the audit.\nB. To identify and assess the risks of material misstatement of the consolidated financial statements, whether due to fraud or error.\nC. To design and perform audit procedures responsive to those risks and obtain audit evidence that is sufficient and appropriate to provide a basis for the auditor's opinion.\nD. To evaluate the appropriateness of accounting policies used and the reasonableness of accounting estimates and related disclosures made by management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1853fc26-c7d0-429d-be15-48a552ba6443",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of obtaining an understanding of internal controls relevant to the audit?\nHow do you respond?\nA. To design audit procedures that are appropriate in the circumstances. (Correct)\nB. To express an opinion on the effectiveness of the group's and parent company's internal controls.\nC. To identify and assess the risks of material misstatement of the consolidated financial statements.\nD. To evaluate the appropriateness of accounting policies used and the reasonableness of accounting estimates and related disclosures made by management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2b790401-19db-473c-b3cd-4424c9f9e5fb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of evaluation of accounting policies and estimates in an audit?\nHow do you respond?\nA. To express an opinion on the effectiveness of the company's internal controls.\nB. To assess the appropriateness of management's use of the going concern basis of accounting.\nC. To design audit procedures responsive to the risks of material misstatement.\nD. To evaluate the reasonableness of management's judgments and accounting estimates.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "3dfa2510-8884-48b2-9c25-3ff93a77a3d1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can additional information about the auditor's responsibilities be found?\nHow do you respond?\nA. The auditor's report\nB. The company's website\nC. The Financial Reporting Council's (FRC) website\nD. The Prudential Regulation Authority's (PRA) website\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                }
+            ]
+        }
+    ]
+}

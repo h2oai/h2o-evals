@@ -1,0 +1,892 @@
+{
+    "tests": [
+        {
+            "key": "6c61c8ff-38c2-4340-8a7f-2ca3fca9c592",
+            "documents": [
+                "Cyber_Security_Policy.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "c33b9f9e-c892-453e-9fbf-2f7488fe0dcb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of an Information Owner?\nHow do you respond?\nA. To implement, operate, and maintain security measures defined by Information Owners.\nB. To designate the relevant sensitivity classification and appropriate level of criticality for information.\nC. To safeguard information, including implementing access control systems and making backups.\nD. To create, distribute, access, or manage information by means of <Organization>\u2019s information technology systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bec6f7b7-1fcb-4185-a247-11e4a9704c23",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for implementing and enforcing the Information Security Policy?\nHow do you respond?\nA. Information Owners\nB. Custodians\nC. System Administrators\nD. Users\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c0043f6f-1843-42b7-8201-c7da38d0230b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Disaster Recovery/Business Continuity Planning?\nHow do you respond?\nA. To ensure business continuity and minimize the impact of disruptions to critical business operations.\nB. To plan for the recovery of critical business operations in the event of a disaster or disruption.\nC. To minimize the risk of data loss and ensure the integrity of critical data.\nD. To ensure compliance with regulatory requirements and industry standards.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1a141c68-caf2-48df-8901-4016bcca595a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often should the Information Security Policy be reviewed and updated?\nHow do you respond?\nA. Annually, to ensure it remains current and effective.\nB. Quarterly, to reflect changes in technology and threats.\nC. Whenever there is a significant change in the organization or its information systems.\nD. Never, as the policy is static and does not need to be updated.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "71232e38-157c-407f-a04b-69251e9de4f3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Information Classification and Handling Policy in <Organization>?\nHow do you respond?\nA. To ensure that information security, confidentiality, integrity, and availability are achieved.\nB. To grant access to administrative data only to <Organization> employees.\nC. To ensure that employees execute their security responsibilities in accordance with related policies, standards, and procedures.\nD. To develop and implement the Security Awareness Program.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "70747ff2-0161-4977-9070-39a689dbf9b8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for ensuring the security, confidentiality, integrity, and availability of <Organization> information and information processing infrastructure?\nHow do you respond?\nA. The Security Officer of <Organization>\nB. The Head of Business Unit\nC. The System Administrator\nD. All employees of <Organization>\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "30ebf070-0c35-4d9e-bef4-804c5192c8fe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for accessing administrative data in <Organization>?\nHow do you respond?\nA. Access must be granted by the Information Owner.\nB. Access must be granted by the System Administrator.\nC. Access must be granted by the Chief Information Officer.\nD. Access must be granted by the employee's manager.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "09f931b6-9350-4e5e-b2c5-33a5ebb295d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the responsibility of employees in regard to information security in <Organization>?\nHow do you respond?\nA. Employees are responsible for developing secure processing systems and operating them in a controlled environment.\nB. Employees must comply with management's direction for the use and protection of information technology processing systems and information.\nC. Employees are required to act with urgency and diligence to fulfill information security requirements.\nD. Employees are responsible for evaluating security exposures, misuse, or non-compliance situations and ensuring implementation of security controls to address those incidences.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "42962ba3-d2a3-4276-9612-ecf1503d96f7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often should the documented security policies, standards, and procedures be reviewed and updated in <Organization>?\nHow do you respond?\nA. Annually\nB. Quarterly\nC. Monthly\nD. Ad-hoc\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "374149db-be5c-4e27-81d3-dd4f358f9f16",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Security Awareness Program in <Organization>?\nHow do you respond?\nA. To ensure that employees are aware of the importance of information security and act with urgency and diligence to fulfill security requirements.\nB. To grant access to administrative data to <Organization> employees only and authorize access to <Organization> data to individuals outside of <Organization> only if granted by the Information Owner.\nC. To develop and implement secure processing systems and operate them in a controlled environment.\nD. To evaluate security exposures, misuse, or non-compliance situations and ensure implementation of security controls to address those incidences.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "173a259c-ec12-4769-932a-79e534748b88",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for sharing User IDs in <Organization>?\nHow do you respond?\nA. Sharing of User IDs is prohibited except in specific, approved situations.\nB. All individuals with access to the systems will use a User ID that has been authorized by company management and specifically assigned to that individual.\nC. Sharing of User IDs is mandatory for all employees to ensure collaboration and teamwork.\nD. User IDs can be shared with external vendors and contractors for ease of access.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8f420099-b8a2-4c76-8629-35528cc149ed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should access to information be authorized in <Organization>?\nHow do you respond?\nA. By the Information Owner, based on business requirements.\nB. By the System Administrator, based on security clearance levels.\nC. By management, based on employee job descriptions.\nD. By the Security Officer, based on risk assessments.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "578cbe88-e2cc-46b6-ad40-035cc0efd894",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the responsibility of management in developing secure processing systems and operating these systems in a controlled environment in <Organization>?\nHow do you respond?\nA. Management is responsible for developing secure processing systems and operating these systems in a controlled environment.\nB. The Security Officer of <Organization> is responsible for developing secure processing systems and operating these systems in a controlled environment.\nC. Employees are responsible for developing secure processing systems and operating these systems in a controlled environment.\nD. The responsibility of management in developing secure processing systems and operating these systems in a controlled environment is to ensure that employees execute their security responsibilities in accordance with related policies, standards, and procedures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "17bc23fe-3d86-485c-b5cf-fb832fbea814",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the responsibility of employees regarding security in the organization?\nHow do you respond?\nA. Employees are responsible for developing and implementing the Security Awareness Program.\nB. Employees are responsible for protecting information resources and ensuring that unauthorized persons do not access devices that could affect the results of computing or other processes.\nC. Employees are responsible for owning all information, applications, systems, and software developed, used, or distributed to employees or designated representatives of entities operating as business partners.\nD. Employees are responsible for assessing the level of risk to the organization and determining the impact if information, business processes, or system functions were not available or if they are misused.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "36292ea6-01df-4206-9530-726af6738586",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of developing and implementing the Security Awareness Program?\nHow do you respond?\nA. To ensure that employees execute their security responsibilities in accordance with related policies, standards, and procedures.\nB. To protect information resources including computer software and support systems.\nC. To communicate facilities and equipment from unauthorized modification and tampering.\nD. To provide access to systems and information based on business needs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c5d345c3-5176-432d-9c60-999826dc8f83",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should information systems be protected to ensure unauthorized access is prevented?\nHow do you respond?\nA. Information systems should be protected using environmental and security controls that are appropriate for the level of risk.\nB. Information systems should be protected using the principle of least privilege.\nC. Information systems should be protected by restricting access to sensitive information.\nD. Information systems should be protected by implementing a Non-disclosure Agreement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2a93b2a9-e94d-42ff-9f7d-d6abe94bdf8a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for assessing the appropriateness of physical and environmental controls?\nHow do you respond?\nA. The Security Officer\nB. The Information Owner\nC. The Head of the Business Unit\nD. The User\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4f9fef63-82eb-411a-bc60-813271c2c364",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for identifying and managing risks relating to the security, integrity, and continuity of information?\nHow do you respond?\nA. Information Owners\nB. System Owners\nC. Security Officer\nD. Users\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5b8b0170-eef6-4655-a87a-cc1c1318f02b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for determining the impact to the organization if information, business processes, or system functions were not available or if they are misused?\nHow do you respond?\nA. The Security Officer\nB. The Information Owner\nC. The Head of the Business Unit\nD. The User\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "116111e8-6dca-4ae3-b3c9-b6e63a21cdad",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the principle of least privilege that <Organization> commits to?\nHow do you respond?\nA. The principle of least privilege states that users should have the minimum level of access necessary to perform their job functions.\nB. The principle of least privilege states that users should have unlimited access to all systems and information.\nC. The principle of least privilege states that users should have access to only sensitive information.\nD. The principle of least privilege states that users should have access to all information and systems, but only during specific retention periods.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0f455218-1513-423e-ba3d-41327ba3913a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who must authorize requests for access to information or systems?\nHow do you respond?\nA. The Security Officer\nB. Information Owners\nC. Head of Business Unit\nD. Users\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a2e32811-c706-4b05-b6f8-0cbbb0a50062",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What must be completed when approval for outside access to <Organization> information is granted?\nHow do you respond?\nA. The recipient must sign a Non-disclosure Agreement.\nB. Instructions must be provided to the recipient notifying them of any security requirements.\nC. A risk assessment must be conducted to determine the level of access granted.\nD. The Information Owner must authorize requests for access to information or systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5a3ff7b8-f720-4c8f-a50f-cb44738f1a2a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What must non-employees sign when granted access to <Organization> information?\nHow do you respond?\nA. Non-disclosure Agreement\nB. Access Request Form\nC. Security Awareness Program\nD. License Agreement\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "362bbbd5-062b-4c6c-8354-6fb2188a691c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of providing instructions to recipients of outside access to <Organization> information?\nHow do you respond?\nA. To ensure that the recipients can access the information without any restrictions.\nB. To inform the recipients of the security requirements, including the need to maintain confidentiality and procedures for destruction or return of the information.\nC. To grant the recipients permission to distribute the information within their organization.\nD. To notify the recipients of the potential risks associated with the information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a73d8d21-1b6b-4ddb-a709-a2294530694e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Non-disclosure Agreement?\nHow do you respond?\nA. To provide instructions to the recipient of confidential information on maintaining its confidentiality and procedures for its destruction or return.\nB. To grant approval for outside access to an organization's information.\nC. To implement appropriate measures to detect attempts to compromise the security or integrity of information or information technology systems.\nD. To ensure that all Users of information understand how to protect company assets, including information and information resources, and comply with security policies, standards, and procedures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6060d57f-d9ef-4238-afbc-ed1d31677db0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should management do to ensure that all Users of information understand how to protect company assets?\nHow do you respond?\nA. Ensure that all Users sign a Non-disclosure Agreement.\nB. Develop and implement an Information Security Awareness Program.\nC. Provide training on security policies, standards, and procedures to all Users.\nD. Implement appropriate measures to detect attempts to compromise the security or integrity of information or information technology systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "89aab926-450f-48ac-b548-d60c811eee59",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for developing and implementing an Information Security Awareness Program?\nHow do you respond?\nA. The Security Officer\nB. The Head of Business Unit\nC. The User\nD. The Supervisor\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6772d569-7e3c-4c9e-a207-1cf9353be8ed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should be documented in the event of a suspected information security incident?\nHow do you respond?\nA. The name of the person who discovered the incident.\nB. The circumstances that led to the discovery of the incident, actions which were immediately taken, the names of persons involved in investigating the incident, and detailed observations about what transpired, what damage was caused, and what systems or files were compromised.\nC. The steps taken to contain the incident and prevent further damage.\nD. The impact of the incident on the organization's revenue stream.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c211501b-78c7-4438-819e-117c752071ff",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should be addressed in a Business Continuity Plan (BCP)?\nHow do you respond?\nA. Pre-planning risk control, crisis management, and business recovery\nB. Information security incidents affecting the confidentiality, integrity, or availability of data\nC. Security requirements, including the need to maintain the confidentiality of information\nD. Procedures for revoking access and disciplinary actions for security violations\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c3478f7d-4ddc-49ac-832c-625c59653f9a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the responsibility of management in ensuring the security of information?\nHow do you respond?\nA. Management is responsible for developing and implementing an Information Security Awareness Program.\nB. Management is responsible for ensuring that all Users of information understand how to protect company assets, including information and information resources and comply with security policies, standards, and procedures.\nC. Management is responsible for implementing appropriate measures to detect attempts to compromise the security or integrity of information or information technology systems.\nD. Management is not responsible for ensuring the security of information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "dca8a9c6-b480-4a15-9325-dd60d4a4a5ba",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Business Continuity Plan (BCP)?\nHow do you respond?\nA. To ensure compliance with all applicable federal, state, provincial, local, industry, and contractual regulations.\nB. To develop and test for effectiveness in addressing pre-planning risk control, crisis management, and business recovery.\nC. To promote secure practices in the delivery of products and services through awareness, training, and industry best practices.\nD. To monitor partners and suppliers to ensure defined service objectives are met.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "35058277-c5f4-43cf-9709-d042613ea3c2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the scope of the Information Security Policy?\nHow do you respond?\nA. It applies to all employees, contractors, and third-party vendors who have access to the organization's computing systems.\nB. It applies only to the IT department and its personnel.\nC. It applies to all policies and procedures related to information security.\nD. It applies only to the CEO and senior management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d4f83bfe-c9c5-4aff-9a26-8489bb5aa5e6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Security Officer in the organization?\nHow do you respond?\nA. The Security Officer is responsible for ensuring compliance with all applicable federal, state, provincial, local, industry, and contractual regulations.\nB. The Security Officer works with company management and System Administrators to ensure that non-compliance or violation of the Information Security Policy is resolved and to address necessary steps to eliminate future violations.\nC. The Security Officer is responsible for developing and testing the Business Continuity Plan (BCP) for effectiveness.\nD. The Security Officer is responsible for evaluating the service capability of potential business partners through non-disclosure agreements and due diligence, including references, accreditations, etc.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "18777faf-1261-4e37-82e8-9b79be0584d4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process for addressing violations of the Information Security Policy?\nHow do you respond?\nA. The Security Officer will work with company management and System Administrators to ensure that the problem is resolved and to address necessary steps to eliminate future violations.\nB. Service Delivery <Organization>  promotes secure practices in delivery of its products and services through awareness, training, and industry best practices.\nC. Delivery Partner Management <Organization>  ensures processes exist to evaluate the service capability of potential business partners through: \u2022 Non-disclosure agreements. \u2022 Due diligence, including references, accreditations, etc.\nD. Acceptable (Computer) Use Policy\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9b6e0c2e-215c-43d9-bc07-a1cee4ccea49",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the organization ensure secure practices in the delivery of its products and services?\nHow do you respond?\nA. The organization promotes secure practices in the delivery of its products and services through awareness, training, and industry best practices.\nB. The organization conducts regular security audits and risk assessments to identify and mitigate potential vulnerabilities.\nC. The organization has implemented a robust incident response plan to quickly respond to security incidents and minimize their impact.\nD. The organization has established a security governance framework that defines roles, responsibilities, and policies for secure practices.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3c0ae302-c11a-4915-9baa-db5379f9249a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Acceptable Use Policy?\nHow do you respond?\nA. To ensure that employees and contractors understand what is considered acceptable use of computing resources.\nB. To outline the steps to be taken in case of a security breach.\nC. To define the roles and responsibilities of employees and contractors in relation to information security.\nD. To provide guidelines for the development and testing of a Business Continuity Plan.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3b3d6309-3714-4bb2-bc39-e9e1e308c21d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often is the Information Security Policy reviewed and updated?\nHow do you respond?\nA. Annually\nB. Quarterly\nC. Monthly\nD. Ad-hoc\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f46cb03e-9ccc-4cba-a58b-4680d7b2bf4b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Delivery Partner Management in ensuring data protection and system availability?\nHow do you respond?\nA. Delivery Partner Management ensures processes exist to evaluate the service capability of potential business partners through non-disclosure agreements and due diligence, including references, accreditations, etc.\nB. Delivery Partner Management monitors partners and suppliers to ensure defined service objectives are met and ensures processes exist for vendor termination that provide minimal disruptions and maintain data confidentiality.\nC. Delivery Partner Management maintains controls to limit access to physical assets and mitigates risks associated with environmental issues (fires, floods, power loss) to help ensure data protection and system availability.\nD. Delivery Partner Management is responsible for creating an Acceptable Use Policy that meets the needs of the organization and affects every person in the organization.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "be5fa19f-4088-4467-9079-41e9c4325718",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Physical and Environmental Security policy?\nHow do you respond?\nA. To ensure data protection and system availability by limiting access to physical assets and mitigating risks associated with environmental issues.\nB. To monitor partners and suppliers to ensure defined service objectives are met.\nC. To provide secure practices in delivery of products and services through awareness, training, and industry best practices.\nD. To discipline, terminate, suspend, or prosecute individuals who violate the Information Security Policy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "24cf388d-93a9-4bf8-ae55-d467f598362c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the policy outlined in the text?\nHow do you respond?\nA. To protect the organization from cyber threats and inappropriate use of information systems and computing equipment.\nB. To outline the acceptable use of information systems and computing equipment at the organization.\nC. To safeguard confidential information and protect the employee and organization from legal issues.\nD. To provide guidelines for reporting security incidents and implementing specific procedures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "74848546-c65e-4f49-b573-eadaf4222ba2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the prohibited activities for employees and contractors when using <Organization> computing devices or information systems?\nHow do you respond?\nA. Engage in any activity that is legal and ethical.\nB. Download or install software of any type on <Organization> computing devices without authorization.\nC. Access the personal information of others without authorization, except as part of the employee's or associate's assigned duties.\nD. Make any claims on behalf of <Organization> unless authorized to do so.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5e6f8916-59f3-4aa2-9bb1-eed1a8bce93c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of protecting the organization from cyber threats?\nHow do you respond?\nA. To protect the organization's reputation.\nB. To prevent legal issues.\nC. To safeguard confidential information and protect employees and the organization.\nD. To prevent malware attacks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "55c89b6b-85b2-4bc0-8917-869c26c57fe3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What types of software are prohibited from being downloaded or installed on <Organization> computing devices?\nHow do you respond?\nA. Software that is not authorized by the organization.\nB. Software that is not compatible with the organization's computing devices.\nC. Software that is not available for free.\nD. Software that is not open-source.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f8a7162b-23b5-43ee-be34-73671384e95c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are employees or contractors allowed to visit websites that exhibit sexually explicit material or promote illegal activities?\nHow do you respond?\nA. Yes, employees and contractors are allowed to visit such websites for personal use during authorized hours.\nB. No, employees and contractors are not allowed to visit such websites, as it violates the organization's internet use policy.\nC. Yes, employees and contractors are allowed to visit such websites, but only for research purposes and with explicit authorization.\nD. No, employees and contractors are not allowed to visit such websites, as it may harm the organization's reputation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "de25e5a8-7962-48a0-a0e8-8295a798574e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can employees or contractors visit websites that encourage discrimination or violate the rights of any group or individual?\nHow do you respond?\nA. Yes, employees and contractors are free to visit any website they choose.\nB. No, employees and contractors are not allowed to visit websites that encourage discrimination or violate the rights of any group or individual, except for authorized research purposes.\nC. Yes, but only if the website does not promote hate speech or violence.\nD. No, employees and contractors can visit such websites, but they must report it to their supervisor or HR.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e0618e67-97d1-4d07-83e0-128bbaf2b5a3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can employees use IM to conduct business?\nHow do you respond?\nA. Yes, employees can use IM to conduct business, but only to arrange meetings and calls.\nB. No, employees cannot use IM to conduct business. It is only for personal use.\nC. Yes, employees can use IM to conduct business, but only if they have authorization from an authorized company representative.\nD. Yes, employees can use IM to conduct business, and they can also use it to communicate with clients and customers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "16669b1e-a44b-4f70-b10b-d4371de040e6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should employees be aware of when expressing personal opinions or views via email and IM?\nHow do you respond?\nA. They should use language that is always respectful and polite.\nB. They should avoid expressing personal opinions or views via email and IM.\nC. They should use email and IM to express their personal opinions or views freely.\nD. They should use profanity, ethnic slurs, or abusive language when expressing personal opinions or views.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b1c94655-e7a6-4954-8cce-77823aa21b42",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the standards for employees authorized to post to social media sites on behalf of the organization?\nHow do you respond?\nA. Be respectful of the organization, as well as its employees, associates, and competitors. Do not post derogatory, malicious, demeaning, insulting, or inflammatory comments about anyone or any organization.\nB. Use the first person (I, not we) and always appropriately identify yourself.\nC. Be accurate.\nD. Cite source material. If you have obtained information from an online or other resource, cite the source. If possible, cite the original source. If you are stating an opinion, rather than a fact, make sure this is clearly represented.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1f324ff4-a89a-4fbe-9ed3-b95e7c7112af",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should you do if you have obtained information from an online or other resource?\nHow do you respond?\nA. Cite the source.\nB. State that it is your opinion.\nC. Use the information without citing the source.\nD. Ask your manager for permission to use the information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fb575837-78d2-4a05-a3f8-880e378f7c5c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should you state your opinions if they are not facts?\nHow do you respond?\nA. Clearly state that your opinions are your own and not the official opinions of the organization. (Correct)\nB. State your opinions as if they are facts, but provide no evidence or support.\nC. Avoid stating your opinions altogether to avoid confusion with facts.\nD. State your opinions as facts, but clarify that they are not the organization's official stance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "350f814b-4748-4942-9dc5-3442d9e9d993",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should you avoid using in your posts or communications?\nHow do you respond?\nA. Profanity, ethnic slurs, or abusive language\nB. Copyrights, trademarks, or logos without permission\nC. Personal opinions that are not supported by facts\nD. Confidential or proprietary information\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "8cae41b2-6cb7-4329-9a4e-7d2033edc4cb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should you do if you make an error regarding facts?\nHow do you respond?\nA. Ignore the error and hope no one notices.\nB. Post a correction or retraction as soon as possible.\nC. Blame someone else for the error.\nD. Keep quiet and let someone else correct the error.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b2b1fc32-8b21-4c76-bb7d-4d3732044201",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What information should you protect and not disclose without permission?\nHow do you respond?\nA. Protected Information and Confidential Information\nB. Personal information about employees and contractors\nC. Information about social engineering attacks\nD. Information about phishing attacks\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "26be0a1a-4886-49f0-85d4-e71c34c108e6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should you do if you are asked for information or data regarding <Organization> or its clients?\nHow do you respond?\nA. Provide the requested information or data, but only if it is publicly available and does not contain any confidential or proprietary information.\nB. Direct the request to the appropriate person or department within <Organization>, such as the public relations or marketing department.\nC. Ignore the request and do not respond.\nD. Provide the requested information or data without proper authorization or verification of the requester's identity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c869783e-1376-48fd-8236-92dc5b218fb5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should you handle phishing or social engineering attacks?\nHow do you respond?\nA. Reply to the email with your password and account information to confirm your identity.\nB. Contact the sender using contact information you have previously recorded.\nC. Install the software application requested in the email to protect your computer from malware.\nD. Ignore the email and do not report it to anyone.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "207245ff-ce3b-4dad-b580-a73d62c41147",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should you do if someone asks you for a password or account information?\nHow do you respond?\nA. Provide the information, but only if the person asking is from a trusted organization.\nB. Ask for the person's identity and purpose before sharing the information.\nC. Immediately report the request to your supervisor or IT department.\nD. Ignore the request and do not respond.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c6f92191-0eca-4230-8ac2-55956fc490d8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a secure connection?\nHow do you respond?\nA. To protect against malware and viruses\nB. To protect confidential information and data\nC. To ensure high-speed internet connectivity\nD. To access blocked websites\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4a160572-d661-4c40-9d8f-32fce243e5bc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for protecting user credentials such as usernames, passwords, and PINs?\nHow do you respond?\nA. The organization's IT department\nB. The user who uses the credentials\nC. The manager of the employee who uses the credentials\nD. The cybersecurity team\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "af0c459d-dfab-4a4a-b0b2-2ffa46267c2c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often should employees change their passwords?\nHow do you respond?\nA. Every 90 days\nB. Every 60 days\nC. Every 120 days\nD. Never\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ee178441-fee4-428b-b048-a1721689edfd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should employees do if they suspect that someone else may know their password or PIN?\nHow do you respond?\nA. Change their password or PIN immediately and inform their supervisor.\nB. Share their password or PIN with a trusted colleague for added security.\nC. Use the same password or PIN for multiple accounts to minimize memory load.\nD. Ignore the suspicion and continue using the password or PIN as usual.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1fb80034-d813-46fb-9d64-885b5fcde7ce",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Must employees use a combination of letters, numbers, and symbols when selecting a new password?\nHow do you respond?\nA. Yes, always.\nB. No, symbols are not necessary.\nC. Only if the system requires it.\nD. It is optional but recommended.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a6ee6cfe-1739-410c-883d-a494fc7c1a42",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can employees reuse a previous password?\nHow do you respond?\nA. Yes, employees can reuse a previous password.\nB. No, employees cannot reuse a previous password.\nC. Employees can reuse a previous password if it has been 90 days since it was last used.\nD. Employees can reuse a previous password if it has been 120 days since it was last used.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cfb232ef-b314-4b8f-8338-a5ace8afcfd3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should employees do with sensitive information and items when they leave their desks unattended?\nHow do you respond?\nA. Leave them unattended and easily accessible to anyone.\nB. Lock them away in a secure location.\nC. Give them to a colleague for safekeeping.\nD. Take them with you, even if it means leaving the office with sensitive information in plain sight.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4d6bd4d5-1cea-48bf-be26-92d29d307576",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the policy described in the text?\nHow do you respond?\nA. To ensure the security of remote working and mobile device use by employees of <Organization>.\nB. To provide guidelines for the use of mobile devices and remote computing mechanisms at <Organization>.\nC. To prevent the theft of <Organization>-owned/leased desktop and mobile computing devices.\nD. To ensure compliance with federal, state, and local fines associated with exposure of confidential employee or customer information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "891d1fe1-acc9-44e1-bbf7-2b53b0656fd6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for ensuring compliance with the policy?\nHow do you respond?\nA. The <Organization> Security Officer or other authorized representative.\nB. The employee using the mobile device.\nC. The contractor responsible for implementing the policy.\nD. The IT department.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7ed65347-de48-44a1-88f5-dd0337cdb4fb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What types of devices are considered mobile computing devices according to the policy?\nHow do you respond?\nA. Laptops, tablets, and smartphones\nB. Desktop computers, laptops, and mobile phones\nC. Mobile phones, external hard drives, and optical media\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "4f03e6d7-77c6-49bb-a98b-6be4a2ae7ef7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of a mobile phone according to the policy?\nHow do you respond?\nA. Any portable phone device that can make and receive phone calls.\nB. Any portable device that can receive, transmit, and/or store confidential information.\nC. Any device that can access remote dialup scripts, email addresses, and passwords.\nD. Any computing device or media that is easily transportable outside of <Organization> premises.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fc2b25b8-cbec-43d7-ba42-dc44d2284be8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for mobile device management according to the policy?\nHow do you respond?\nA. All mobile devices must be personally owned by employees.\nB. All mobile devices must be approved and managed by the organization.\nC. All mobile devices must have company-approved measures to prevent theft.\nD. All mobile devices must be password-protected.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "329cfe14-1a00-4b64-9d3d-f12f9860aaa4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are there any restrictions on data storage for mobile devices according to the policy?\nHow do you respond?\nA. Yes, only stored data on mobile devices is restricted.\nB. Yes, all types of data storage on mobile devices are restricted.\nC. No, there are no restrictions on data storage for mobile devices.\nD. Yes, data storage restrictions apply only to mobile devices used for remote access.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7052d464-5a12-4bf2-89e7-0fea22142214",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What types of mobile phones are permitted for conducting business at <Organization>?\nHow do you respond?\nA. Only smartphones that have been approved by the employee's leader.\nB. Any type of mobile phone that meets <Organization>\u2019s Acceptable Use Policy.\nC. Only cell phones that have been approved by the employee's leader.\nD. Any type of mobile phone that has been jail-broken or rooted.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f972463b-e91c-4d78-97c6-bf05ed5f4323",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the policy on using personal mobile phones for conducting <Organization> business?\nHow do you respond?\nA. Employees are allowed to use their personal mobile phones for conducting <Organization> business with the approval of their leader.\nB. Employees are not allowed to use their personal mobile phones for conducting <Organization> business unless it has been approved by the IT department.\nC. Employees are allowed to use their personal mobile phones for conducting <Organization> business without any approval.\nD. Employees are not allowed to use their personal mobile phones for conducting <Organization> business under any circumstances.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4b9314fd-3c02-40e6-b52c-c4c2d83a4713",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the policy on using public networks for conducting <Organization> business?\nHow do you respond?\nA. Public networks can be used for conducting <Organization> business, but only if the employee has received prior approval from their leader.\nB. Public networks can be used for conducting <Organization> business, but only if the data being transmitted is encrypted.\nC. Public networks cannot be used for conducting <Organization> business under any circumstances.\nD. Public networks can be used for conducting <Organization> business, but only if the employee has a virtual private network (VPN) installed on their device.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c5dfb6fc-54d6-4025-9404-a0ba86691756",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the policy on sharing and accessing information on mobile devices for <Organization> business?\nHow do you respond?\nA. Employees must only use a secure file-sharing site and application to securely access, share and save information.\nB. Employees can use any file-sharing site or application to access and share information for <Organization> business.\nC. Employees must not use any file-sharing sites or applications to access or share information for <Organization> business.\nD. Employees can use a secure file-sharing site and application, but only if they have received prior approval from their leader.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d521018e-c7e6-4994-95fc-2911679e1792",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the policy on minimizing data storage on mobile devices for <Organization> business?\nHow do you respond?\nA. Minimizing data storage on mobile devices is not a policy for <Organization> business.\nB. Minimizing data storage on mobile devices is encouraged but not enforced for <Organization> business.\nC. Minimizing data storage on mobile devices is required for all <Organization> business to minimize the risk of data loss.\nD. Minimizing data storage on mobile devices is only required for certain departments within <Organization> business.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "d0973409-abb7-496f-9df8-c6cbcfdbb6b5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for logging and audit trails for remote access connections?\nHow do you respond?\nA. Remote access connections must be logged and have an audit trail.\nB. Logging and audit trails are not required for remote access connections.\nC. Only remote access connections that use VPN require logging and an audit trail.\nD. Logging and audit trails are required only for remote access connections that access sensitive data.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "138504b5-29bc-444d-bdc4-8445d4080013",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What types of mobile devices are allowed to connect to <Organization> networks?\nHow do you respond?\nA. Only iOS devices\nB. Only laptops\nC. Only devices that have been approved by <Organization>\u2019s Security Team\nD. All types of mobile devices\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b2eedeaa-3d42-4756-b564-faaf950c0195",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What types of devices are not allowed to connect to <Organization> networks?\nHow do you respond?\nA. Devices with operating system modifications (e.g. \u201crooted\u201d or \u201cjail-broken\u201d devices)\nB. Devices that have been approved by <Organization>\u2019s Security Team\nC. USB storage devices\nD. All types of mobile devices\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "11965a18-0af1-4497-9514-369944c060e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the allowed connection methods for mobile devices connecting to <Organization> networks?\nHow do you respond?\nA. Only VPN connections using the organization's approved VPN client.\nB. Any type of connection method, including VPN, Wi-Fi, Bluetooth, and cellular data.\nC. VPN connections using any VPN client that is compliant with industry standards.\nD. Only Wi-Fi connections to the organization's authorized Wi-Fi networks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2333315d-3794-404b-8ee5-e0f7d05b51a5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What data types shall not be stored on mobile devices?\nHow do you respond?\nA. Client lists only.\nB. Financial records only.\nC. Patient records and financial records.\nD. Patient records, client lists, and financial records.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "00d80897-b925-4e72-92f4-59c081e9afc3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What restrictions apply to mobile devices connecting to <Organization> networks?\nHow do you respond?\nA. Only devices with the MDM software installed and approved by the security team can connect.\nB. All mobile devices can connect, but they must use a specific VPN or remote access application.\nC. Only devices with the operating system modifications (e.g., \"rooted\" or \"jail-broken\" devices) can connect.\nD. All mobile devices can connect, but they must have specific applications installed and disabled GPS features.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}
