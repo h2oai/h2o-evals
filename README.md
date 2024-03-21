@@ -40,7 +40,7 @@ The datasets in this project are generated based on documents for different indu
 
 ## Available Datasets
 
-Following is the collection of 10 Datasets by different industries, different evaluation types, built in H2O LLM Data Studio. Click on any dataset to get more details.
+Following is the collection of 25 Datasets by different industries, different evaluation types, built in H2O LLM Data Studio. Click on any dataset to get more details.
 
 | # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |
 |---| -------------- | --------- | -------------- | ----- | ----- |
