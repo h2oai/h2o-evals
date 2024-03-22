@@ -67,6 +67,8 @@ Following is the collection of 25 Datasets by different industries, different ev
 | 21. | [Risk_Management_Risk_Management_Guidelines](https://github.com/h2oai/h2o-evals/tree/main/catalog/Risk_Management_Risk_Management_Guidelines)| `Risk Management` | Risk Management Guidelines | 123 | RAG |
 | 22. | [Telcom_Annual_Report_Singtel](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Annual_Report_Singtel)| `Telecom` | Annual Report | 153 | RAG |
 | 23. | [Legal_IRS_Strategic_Operating_Plan](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_IRS_Strategic_Operating_Plan)| `Legal` | IRS Strategic Operating Plan | 128 | RAG |
+| 24. | [Government_Immigration_in_Singapore](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_Immigration_in_Singapore)| `Government` | Immigration in Singapore | 122 | RAG |
+| 25. | [Telcom_Telecommunications_regulation_strategy_policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecommunications_regulation_strategy_policy)| `Telecom` | Telecommunications Regulations | 116 | RAG |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/h2oai/h2o-evals/issues) for any improvements, suggestions or errors in the content.
