@@ -1,0 +1,826 @@
+{
+    "tests": [
+        {
+            "key": "9689945e-743a-4dcf-a24f-77c14859e37a",
+            "documents": [
+                "Defense_Management.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "f9ec241a-28b5-4251-9c07-46e14a3de956",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who are the editors of the book \"Defence Management: An Introduction\"?\nHow do you respond?\nA. Hari Bucur-Marcu, Philipp Fluri, and Todor Tagarev\nB. Hari Bucur-Marcu only\nC. Philipp Fluri only\nD. Todor Tagarev only\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c47cd0f7-93dc-4e57-88da-3e0ecbc03c0c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between democratic control and defense management?\nHow do you respond?\nA. Democratic control is essential for defense management to function effectively.\nB. Defense management operates independently of democratic control.\nC. Democratic control and defense management have no direct relationship.\nD. Democratic control is a hindrance to effective defense management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0e280493-f07a-44fa-addf-47110069baac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of \"defense management\"?\nHow do you respond?\nA. Defense management is the science or coherent way an organization acts to meet its objectives in a given condition, in an effective and efficient manner, by adequately performing the functions of planning, organizing, leading, and controlling.\nB. Defense management is the process of turning defense policies into practice, developing appropriate and sustainable planning mechanisms, support systems, and infrastructure.\nC. Defense management is the way an organization produces public goods in an efficient manner.\nD. Defense management is the study of how governments can provide defense in a more efficient manner.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "eb604cfc-be39-41fd-b30b-f79174cbde11",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of management in defense organizations?\nHow do you respond?\nA. Management plays no role in defense organizations.\nB. Management helps defense organizations turn policies into practice, develop planning mechanisms, support systems, and infrastructure, and improve efficiency.\nC. Management is responsible for ensuring that defense organizations have adequate resources, including personnel, equipment, and funding.\nD. Management's role is to provide strategic guidance and direction to defense organizations, but it does not involve in day-to-day operations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "061cd1a2-317d-48ee-a6fd-81cd68573742",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the goal of modernizing the defense sector?\nHow do you respond?\nA. To respond to new security challenges of the 21st century\nB. To build new defense institutions\nC. To produce public goods efficiently\nD. To transition from communist to democratic regimes\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4e9f6fc4-0b98-46d1-af99-0e884c7c60bf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the challenges faced by defense organizations in the Euro-Atlantic community?\nHow do you respond?\nA. Decreased defense spending due to the end of the Cold War and increased demand for deployable forces.\nB. Transforming armed forces to respond to new 21st-century security challenges.\nC. Building new defense institutions in nations that have recently transitioned from communist to democratic regimes.\nD. Managing the impact of climate change on military operations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "86312322-b8e8-470d-8d1d-25bba79a0975",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the NATO-EAPC initiative in the field of partnership cooperation?\nHow do you respond?\nA. An initiative to promote inter-agency cooperation in defense management.\nB. A programme to support defense institution building in partner countries.\nC. An initiative to enhance transparency and accountability in defense spending.\nD. A platform for NATO member countries to share their defense resources and expertise.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "06938052-8571-4bfd-aac2-5f5dea41000e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the objective of PAP-DIB?\nHow do you respond?\nA. To promote inter-agency cooperation in defense management.\nB. To support nations in building defense institutions.\nC. To enhance the combat readiness of military forces.\nD. To formulate defense policies for member nations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9303370b-7b11-478d-b690-eaf65115cdec",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does organizing imply in a managerial sense?\nHow do you respond?\nA. Reorganizing rigid structures by rearranging work processes within them.\nB. Bringing flexibility to rigid structures by reorganizing work processes within them.\nC. Organizing work processes within rigid structures to bring flexibility.\nD. Rearranging work processes within structures to reorganize them.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "92818d36-0d98-464f-83cd-6d074956f815",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does leading imply in a managerial sense?\nHow do you respond?\nA. Assigning responsibilities and delegating elements of the decision-making process.\nB. Planning for military operations and procurement of major military equipment.\nC. Reorganizing rigid structures and bringing flexibility to work processes.\nD. Focusing on the ultimate goals as stated in relevant policies and promoting inter-agency cooperation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ecb58e95-ee28-4ccb-ae93-3541dac9a931",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does controlling mean in a managerial sense?\nHow do you respond?\nA. Tracking developments and intervening when necessary to refocus staff on objectives.\nB. Reorganizing rigid structures by reorganizing work processes within these structures.\nC. Assigning responsibilities and delegating elements of the decision-making process.\nD. Planning for military operations and acquiring combat readiness.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "74867a6f-3c9a-459f-b75d-89fa6e3a8672",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where is defense management situated within the defense sector?\nHow do you respond?\nA. Between defense policy formulation and actual command and control of the military forces.\nB. Within the military forces, as a part of the command chain.\nC. As a part of defense policy formulation, to ensure effective implementation of policies.\nD. As a separate entity, independent of both defense policy formulation and military operations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ce304ea6-7198-4d06-83ea-121114dac697",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main observation made in the text regarding management approaches in defence management?\nHow do you respond?\nA. There is no specific management system or philosophy that is ideal for defense management.\nB. Defense management should always prioritize strategic problems over operational ones.\nC. Managerial tools developed for the private sector can be successfully applied to public sector defense management.\nD. There is a need for a unique management system for each level of defense organizational level.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f4470cfb-a0b1-4ef8-82bf-10f6d5bd69eb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two main management approaches described in the text?\nHow do you respond?\nA. Strategic and operational management\nB. Identifying problems and finding solutions, and finding solutions for how to do things better\nC. Planning, programming, budgeting, and performance management\nD. Total Quality Management and Performance Management System\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c5b2e42f-35ce-4bc4-b393-372366d250c0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of strategic defence management?\nHow do you respond?\nA. To address strategic problems and implement strategic solutions\nB. To manage day-to-day problems and solutions in any defence command or unit\nC. To deal with the opportunity costs of defence versus other public goods\nD. To identify and solve operational problems in defence performance\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2175c32d-e498-4253-94e1-7e8519a9ab8a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some examples of strategic problems addressed by strategic defence management?\nHow do you respond?\nA. Deciding how to allocate resources between defense and other public goods.\nB. Identifying and solving logistical problems at the service level.\nC. Finding solutions for how to do things better in defense management.\nD. Addressing the opportunity costs of defense versus other public goods.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a0416b0a-af14-490c-b96b-b7edefc315f4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is operational management in defence management?\nHow do you respond?\nA. It addresses the problems of defence performance, especially at the services level.\nB. It deals with day-to-day problems and solutions in any defence command or unit.\nC. It is the locus where strategic problems are identified and strategic solutions are analysed, decided, and implemented.\nD. It addresses the opportunity costs of defence versus other public goods and an optimal allocation of national resources.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4be822c3-67ff-4d95-bcd7-c2b1813ee95e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do the managerial tools used in defence management differ according to the level of application?\nHow do you respond?\nA. They differ in terms of their level of complexity, with strategic management tools being the most complex and operational management tools being the least complex.\nB. They differ in terms of their level of focus, with strategic management tools focusing on long-term goals and operational management tools focusing on short-term objectives.\nC. They differ in terms of their level of authority, with strategic management tools being used by senior leaders and operational management tools being used by middle managers.\nD. They are the same regardless of the level of application, as they are developed regardless of their level of application.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "2334eafc-cbdc-42da-bfa4-73d22050386d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of introducing a managerial culture in the defence sector?\nHow do you respond?\nA. To ensure that the defence sector can effectively implement strategic policies and plans.\nB. To provide a framework for identifying and solving strategic problems.\nC. To enable the defence sector to efficiently manage day-to-day problems and solutions.\nD. To facilitate the delegation of sovereignty in defence capabilities to other partners or allies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "443ee1ad-121a-4796-830e-1c739e46e758",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of Table 1 in the text?\nHow do you respond?\nA. It highlights the differences between strategic and operational management in the defence sector.\nB. It shows the various levels of management within the ministry of defense and how they relate to policy formulation and planning.\nC. It provides a comparison of managerial tools used in different defense organizations.\nD. It illustrates the importance of identifying problems and finding solutions in defense management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d7b3c996-0539-4714-afc3-0db462ee12b7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main challenge in implementing successful defence management?\nHow do you respond?\nA. Ensuring appropriate dialogue between policy makers at all levels of government.\nB. Defining requirements for creating the appropriate conditions for management.\nC. Institutionalizing managerial principles and procedures.\nD. Implementing resource allocation based on programs and multi-annual planning.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8889f21d-3d87-45d8-90cf-064a82614bbc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between defence management and defence institutionalisation?\nHow do you respond?\nA. Defence management is a component of defence institutionalisation.\nB. Defence institutionalisation is a component of defence management.\nC. Defence management and defence institutionalisation are unrelated.\nD. Defence management is a prerequisite for defence institutionalisation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "ca8158fb-55a5-419f-9a85-d839e94e7115",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of adopting a managerial philosophy in defence management?\nHow do you respond?\nA. To ensure that the ministry of defence adopts the same managerial philosophy as the general government.\nB. To facilitate the flow of resources necessary for implementing policies.\nC. To ensure that the defence staff has a separate organisational structure.\nD. To provide an appropriate dialogue between policy makers at all levels of government.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9a84a617-a180-414b-a0fc-03c51e8e05ac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the ministry of defence in introducing managerial tools and practices?\nHow do you respond?\nA. The ministry of defence should adopt the same managerial philosophy as the general government.\nB. The ministry of defence should develop its own managerial tools and practices separate from the general government.\nC. The ministry of defence should only focus on policy making and not worry about managerial tools and practices.\nD. The ministry of defence should outsource its managerial needs to external consultants.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8fdba90e-77a9-44f6-a5fc-555a62d72eda",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between defence planning and defence management?\nHow do you respond?\nA. Defence planning is a component of defence management.\nB. Defence management is a component of defence planning.\nC. Defence planning and defence management are unrelated.\nD. Defence planning and defence management are the same thing.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ec5e078f-73e8-4990-9232-cb2fae22b96e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of multi-annual planning in defence management?\nHow do you respond?\nA. It allows for more effective resource allocation and programme implementation.\nB. It enables better coordination between different defence organizations and levels of government.\nC. It facilitates a more efficient implementation of management principles and procedures.\nD. It ensures a more appropriate dialogue between policy makers at all levels of government.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "48508c4e-18ab-4c92-843c-dd28fb71ca54",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of legality in defence management?\nHow do you respond?\nA. It ensures that managerial decisions are made in accordance with established laws and regulations.\nB. It provides a framework for decision-making and accountability within the defence organisation.\nC. It allows civilian leaders to maintain their current roles and responsibilities while military commanders focus on operational tasks.\nD. It ensures that the introduction of managerial frameworks in the defence sector is accompanied or preceded by appropriate legislation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "34f4e327-357f-4ff6-a9db-cdd8c421e2b3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the separation between civilian and military leadership and their staffs work in defence management?\nHow do you respond?\nA. Military leaders and their staff are responsible for military operations, while civilian leaders and their staff are responsible for management.\nB. Civilian leaders and their staff are responsible for military operations, while military leaders and their staff are responsible for management.\nC. Military and civilian leaders share responsibility for both military operations and management.\nD. There is no separation between civilian and military leadership and their staffs in defence management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c81366cf-e64a-43d9-b457-a2846fef37c5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Defence Council in the United Kingdom's defence management?\nHow do you respond?\nA. To provide senior-level leadership and strategic management of Defence.\nB. To serve as the highest decision-making body for the conduct of defence affairs.\nC. To examine operational requirements and financial and economic information relating to investments within the Ministry before they are launched.\nD. To deal with budgetary issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c4d91746-5242-440b-b798-bcc60ab3427e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Defence Management Board in the United Kingdom's defence management?\nHow do you respond?\nA. To provide senior-level leadership and strategic management of Defence.\nB. To serve as the highest decision-making body for the conduct of defence affairs.\nC. To examine operational requirements and financial and economic information relating to investments within the Ministry before they are launched.\nD. To deal with budgetary issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2c30c152-7bf0-42a5-ae70-45e500945a5c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Defence Management Council in the United States of America's defence management?\nHow do you respond?\nA. To provide senior-level leadership and strategic management of Defence.\nB. To examine operational requirements and financial and economic information relating to investments within the Ministry before they are launched.\nC. To serve as the highest decision-making body for the conduct of defence affairs.\nD. To mirror an internal board of directors in a corporation and comprise senior civilians and military in high positions in the Department of Defence.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "adb91b18-1bda-4508-ae73-7bc247310190",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two committees at the level of the Ministry of Defence in France?\nHow do you respond?\nA. Ministerial Committee on Defence Investments and Finance Committee.\nB. Defence Management Board and Defence Council.\nC. Military Committee and Civilian Committee.\nD. Operational Requirements Committee and Financial Investments Committee.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0e8c86da-ba9c-47ac-b2bf-86804280c464",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of appropriate training of personnel involved in managerial actions in defence management?\nHow do you respond?\nA. To ensure that all personnel have the necessary skills and knowledge to effectively implement managerial decisions.\nB. To provide an opportunity for personnel to learn about the latest management trends and best practices.\nC. To ensure that personnel are aware of their roles and responsibilities in the managerial framework.\nD. To enable personnel to make informed decisions about investments within the Ministry of Defence.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4993aa48-e362-4f4a-a655-3241e93f8159",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of institutionalisation of defence management?\nHow do you respond?\nA. It ensures that military operations are conducted effectively and efficiently.\nB. It enhances the organisational enhances the organisational capabilities of the defence sector.\nC. It provides a framework for managerial decisions and supervision.\nD. It allows for the separation of civilian and military roles in defence leadership.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "217a2acc-7103-4987-b18c-e51f5d8fce82",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two committees at the Ministry of Defence in France that are involved in defence investments?\nHow do you respond?\nA. Ministerial Committee on Defence Investments and Finance Committee\nB. Ministerial Committee on Defence Investments and Committee on Budgetary Issues\nC. Finance Committee and Committee on Budgetary Issues\nD. Ministerial Committee on Defence Investments and Committee on Policy Implementation\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3863999e-39e6-44b0-abe3-da4de2853fa0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Ministerial Committee on Defence Investments?\nHow do you respond?\nA. To oversee the implementation of defence policies.\nB. To examine operational requirements and financial and economic information related to investments within the Ministry of Defence before they are launched.\nC. To manage the budget and financial resources of the Ministry of Defence.\nD. To evaluate the effectiveness of defence strategies and doctrines.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6f9fbbae-146d-4ac9-8d10-60c4bf158204",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Finance Committee in the Ministry of Defence?\nHow do you respond?\nA. To examine operational requirements and financial and economic information relating to the most important investments within the Ministry before they are launched.\nB. To deal with budgetary issues and ensure that the policy is consistent with the supreme goals and interests of the nation.\nC. To provide flexibility in policy implementation and make decisions on resource allocation.\nD. To oversee the implementation of policies and ensure that the objectives remain the same.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bf3125c9-0932-4420-be06-8141b385e418",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of having clear-cut legal provisions in the security and defence sectors?\nHow do you respond?\nA. To provide flexibility in policy implementation.\nB. To ensure that policies are consistent with the supreme goals and interests of the nation.\nC. To prevent abuses and corruption.\nD. To assign responsibility to both military and civilian leaders for their decisions and actions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "97d2eb9b-1be7-4e6f-b081-6c8efd6c5885",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the advantage of having a legally established decision-making system in the defence sector?\nHow do you respond?\nA. It allows for flexibility in policy implementation.\nB. It ensures that policies are consistent with the supreme goals and interests of the nation.\nC. It prevents abuses and corruption.\nD. It allows decision-makers to take corrective managerial actions in policy implementation without reiterating the process of policy formulation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "0b3c1d28-9a04-4163-8d51-88dde45be4ce",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens in a fully bureaucratic and rigid system when the policy implementation fails?\nHow do you respond?\nA. The policy formulation process is reiterated, and a referral is made to the decision-makers at the most senior levels.\nB. Corrective managerial actions are taken in policy implementation, while using discretionary powers to choose appropriate paths for implementing the policy.\nC. The system permits taking corrective managerial actions in policy implementation, but only if the objectives remain the same.\nD. The policy implementation is abandoned, and resources already invested are written off as a loss.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b552e931-7200-44d0-b455-5bf33fd9cac9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of institutionalizing supervision mechanisms in the defence sector?\nHow do you respond?\nA. To ensure that military personnel understands the policy fully.\nB. To provide flexibility in policy implementation.\nC. To prevent abuses and corruption.\nD. To ensure that the policy is consistent with the supreme goals and interests of the nation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "419778c1-e1df-477e-8552-5fb9259e6e70",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different levels of supervision mechanisms that should be developed in the defence sector?\nHow do you respond?\nA. Strategic, operational, and tactical levels\nB. Ministerial, executive, and operational levels\nC. Policy formulation, implementation, and evaluation levels\nD. Civilian, military, and joint levels\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b8ecd34d-0c70-4299-974f-f6360efeaa98",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main purpose of defence management institutionalisation?\nHow do you respond?\nA. To enhance organisational performance in accomplishing missions and finding solutions to identified problems.\nB. To regulate the use of technical tools such as charts, diagrams, calculators, and brainstorming.\nC. To establish a comprehensive reporting system that reveals partial and final results of programmes and actions.\nD. To encourage staff members to participate in all processes of policy implementation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8666ffd9-c42a-48a8-9adb-f9d1de2b2332",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two types of tools used in defence management?\nHow do you respond?\nA. Authorization tools and verification tools\nB. Technical tools and managerial tools\nC. Planning tools and programming tools\nD. Accountability tools and reporting tools\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7b8da1c6-a537-49ff-bb4a-00c86a846960",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a comprehensive reporting system in defence management?\nHow do you respond?\nA. To facilitate hierarchical and peer exchange of information within and between defence structures.\nB. To replace classical auditing systems.\nC. To encourage staff members to participate in all processes of policy implementation.\nD. To provide a framework for training and organisational learning.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "98b759cf-37c1-4a3c-bde4-0ddade6508c0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of inclusiveness in defence management institutionalisation?\nHow do you respond?\nA. To ensure that all staff members are involved in decision-making processes.\nB. To encourage participation in policy implementation.\nC. To enhance organisational performance in accomplishing missions.\nD. To facilitate both hierarchical and peer exchange of information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d4a45ec6-23be-4b18-9102-97f53723ad47",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between defence management and managerial tools?\nHow do you respond?\nA. Defence management employs managerial tools to enhance organisational performance in accomplishing missions and finding solutions to identified problems.\nB. Managerial tools are employed across defence organisations, and the ministry of defence decides which main tools would be employed.\nC. The use of technical tools such as charts and diagrams, calculators, pathways, graphs, brainstorming, and many others does not need much regulation.\nD. Managerial tools are not relevant to defence management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d2091ff6-c1aa-4de2-92ad-a34a04b4005b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is it important to regulate the tools and mechanisms employed in defence management?\nHow do you respond?\nA. To ensure that all members of the organisation speak the same language and understand each other.\nB. To facilitate training and organisational learning.\nC. To allow units within the defence organisation to choose which management tools they want to employ.\nD. To prevent the use of 'technical' tools such as charts and diagrams, calculators, pathways, graphs, brainstorming, and many others.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "676c92de-33d9-4c50-8872-9f19955a79bc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of this introductory text on defence management?\nHow do you respond?\nA. To provide a comprehensive overview of defence management theories and practices.\nB. To discuss the importance of institutionalizing managerial tools in defence organisations.\nC. To highlight the significance of inclusiveness in defence management institutionalization.\nD. To explain the concept of unity of purpose in defence management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3ddfb1a8-9129-4c05-bfdb-6a29a91a22ad",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main focus of the book discussed in the text?\nHow do you respond?\nA. Defence management and its role in ensuring efficient and effective defence institutions.\nB. The importance of policy making, management, administration, command, and control in defence.\nC. The impact of defence institutionalisation, democratic control, policy, and strategy on defence management.\nD. The role of leadership in managing defence resources and achieving desired goals and objectives.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "935d4bc0-4c96-4d82-8b09-e7ea51498929",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the first chapter of the book?\nHow do you respond?\nA. To provide a comprehensive analysis of the topic of defense management from both theoretical and practical points of view.\nB. To set a framework for further discussion on the topic of defense management and its place among complementary and competing concepts of policy making, management, administration, command and control, and leadership.\nC. To explore the complexity of manpower management in the context of national security and present a comprehensive analysis of demand and supply of human resources for defense.\nD. To introduce and assess the main principles and theories underlying changes in the managerial approach to defense, as well as best practices in specific areas such as organizational management, planning, manpower, acquisition, and finance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "70bb344b-8c57-4806-ab0f-43a07c0ca80c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the topic of the second chapter of the book?\nHow do you respond?\nA. Defense planning as a core process within defense management.\nB. Program-based force development.\nC. Management of finances.\nD. Manpower management in the context of national security.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "13474445-97da-4638-ad05-775255d6607f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main challenge discussed in the fifth chapter of the book?\nHow do you respond?\nA. Manpower management in the context of national security.\nB. Acquisition management and identifying appropriate requirements.\nC. Finance management in defence.\nD. Program-based force development.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "915d75f6-4fb1-4824-8fe0-9ae67592e1a6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus of the sixth chapter of the book?\nHow do you respond?\nA. Acquisition management and the specifics of identifying appropriate requirements, acquiring and maintaining complex weapon systems, other equipment, and services for the defense sector.\nB. Management of finances and introduction and assessment of the key issues of finance management in defense.\nC. Program-based force development and relating policy objectives to resource allocation decisions.\nD. Legislative framework for formulating defense policies and managing their implementation, with a focus on best practices in ensuring proper spending of public resources.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bfeed178-4473-41db-97ec-a74c96fe8eac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the final chapter of the book?\nHow do you respond?\nA. To provide insight into the legislative framework for formulating defense policies and managing their implementation.\nB. To explore the complexity of manpower management in the context of national security.\nC. To introduce and assess the main principles and theories underlying changes in the managerial approach to defense.\nD. To assess the key issues of finance management in defense.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d1d0b362-caed-4428-9ece-93fe58d53096",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the aim of the authors of the book?\nHow do you respond?\nA. To provide a comprehensive analysis of the topic of defense management and its various aspects.\nB. To clarify specific roles and interactions between defense management and other defense topics.\nC. To emphasize the importance of transparency and accountability in defense institutions.\nD. To explore the challenges of managing defense resources in an era of constrained resources and changing strategic requirements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ff8a08dd-daa6-4b05-86ad-9a2f9ca655a2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the underlying idea of a modern defense institution, according to the text?\nHow do you respond?\nA. It is able to define and achieve desired goals and objectives in an efficient manner and within an empowering democratic environment.\nB. It is able to produce desired effects without waste, minimizing energy and costs.\nC. It is able to provide a new balance between the tasks of the armed forces and the means available.\nD. It is able to extract maximum benefit from the money spent on defense.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "42d4e7f3-a6a5-4a4d-ac1f-ad994eae2422",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of defense management?\nHow do you respond?\nA. To provide strategic leadership and direction for the armed forces.\nB. To manage the resources and operations of the defense institution efficiently and effectively.\nC. To ensure that the defense institution is run in isolation from the country's political, administrative, and cultural realities.\nD. To extract maximum benefit from the money spent on defense.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "77931a40-6fb8-4190-89fd-6a46b1effb0c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does defense management differ from traditional military bureaucratic or command approaches?\nHow do you respond?\nA. Defense management focuses on maximizing efficiency and effectiveness, while traditional military approaches prioritize discipline and obedience.\nB. Defense management involves the integration of business practices and strategic leadership, while traditional military approaches rely on a strict chain of command.\nC. Defense management prioritizes political directing and governance, while traditional military approaches focus on operational control and tactical decision-making.\nD. Defense management emphasizes strategic planning and collaboration, while traditional military approaches prioritize individual leadership and hierarchical decision-making.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "200b2119-d003-4e29-87e2-ae3285f25006",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of strategic leadership in defense institutions?\nHow do you respond?\nA. To provide a new balance between the tasks of the armed forces and the means available.\nB. To extract maximum benefit from the money spent on defense.\nC. To create affordable armed forces with sufficient room for operations and capital investments.\nD. To manage defense organizations purely like businesses.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "447c69b9-7e27-4d53-991e-6d28388caf2a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the key issues in defense institution-building, development, and transformation?\nHow do you respond?\nA. Governance, management, command, and leadership.\nB. Political directing, public administration, strategic leadership, and command and control.\nC. Bureaucratization, rationalism, effectiveness, and efficiency.\nD. Culture, economic and social maturity, and strategic environment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "780e9808-1c0e-4ce1-a001-b845583cef7f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do the efforts to create, reform, or transform a national defense institution require the elaboration of a sufficiently coherent concept with adequate breadth and depth?\nHow do you respond?\nA. By providing guidance for building an organization capable of performing politically designated roles and functions effectively and efficiently.\nB. By considering the political development of any single country to create a particular case for defense institution-building.\nC. By isolating the defense institution from the country's political, administrative, and cultural realities.\nD. By adopting modern business practices to enhance the effectiveness and efficiency of the defense institution.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3452b313-96bc-4483-bf29-959d08228ada",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the lessons learned from the experience of other countries in defense institution-building?\nHow do you respond?\nA. They provide a comprehensive framework for building an effective and efficient defense institution.\nB. They serve as a guide for creating a defense institution that is tailored to a country's unique political, administrative, and cultural realities.\nC. They are not relevant to defense institution-building in a particular country, as each country's political development makes its defense institution a particular case.\nD. They are essential for creating a defense institution that is capable of performing politically designated roles and functions effectively and efficiently.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c4257b16-c4b4-466a-9abb-a66bee4cc309",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What did Aristotle say about the true forms of government?\nHow do you respond?\nA. The true forms of government are those in which the one, the few, or the many govern with a view to the common interest.\nB. The true forms of government are those in which the one or the few govern with a view to their own interest.\nC. The true forms of government are those in which the many govern with a view to their own interest.\nD. The true forms of government are those in which the one, the few, or the many govern with a view to the interest of the ruling class.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "34dcfb80-b7ce-4971-85fc-120d1f933f66",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the strength of real democracy according to the text?\nHow do you respond?\nA. The government being the servant of the people.\nB. The people having control over the government.\nC. The protection of individual rights and freedoms.\nD. The ability to use military power and deadly violence.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cad25ddd-2c02-4062-b4ba-893b166e4055",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of government in a democracy according to the text?\nHow do you respond?\nA. To ensure that political power is sufficiently dispersed and decentralized to avoid monopolization and keep the people in control of governance as much as possible.\nB. To establish effective and efficient liberal democracies that prioritize freedom and equality.\nC. To ensure that the government itself should be the servant of the people\u2014rather than their master\u2014for the strength of real democracy depends on certain fundamental rights and freedoms.\nD. To command, manage, and lead the people in the decision-making process, keeping in mind the common interest.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "70e65a63-8d92-4904-8ecf-5531d5e3be72",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of an effective system of checks and balances in a democracy according to the text?\nHow do you respond?\nA. It ensures that political power is sufficiently dispersed and decentralized to avoid any possible monopolization and keep the people in control of governance as much as possible.\nB. It allows for a speedy and efficient decision-making process.\nC. It provides an opportunity for the government to command and control the people.\nD. It ensures that the government has a monopoly on the use of military power and deadly violence.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "65522507-eebe-4bad-939c-7ba7959d7fb8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of defense policy according to the text?\nHow do you respond?\nA. A plan outlining the use of military power and deadly violence to protect a nation's interests.\nB. A policy that outlines how a democratic government should manage and implement its defense strategy.\nC. A strategy that aims to establish effective and efficient liberal democracies in modern societies.\nD. A plan that ensures the protection of a nation's natural resources, land, roads, and foreign policy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f82286fb-f36b-4238-bdf9-26db9c5ae7df",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relation between defense policy and defense management according to the text?\nHow do you respond?\nA. Defense policy is a part of defense management.\nB. Defense management is a part of defense policy.\nC. Defense policy and defense management are unrelated concepts.\nD. Defense policy is the process of formulating and implementing defense management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "0fefa3eb-4a4a-4109-b416-74f66353da9a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between governance and democracy?\nHow do you respond?\nA. Governance is a form of control that replaces democracy.\nB. Governance is a form of control that complements democracy.\nC. Governance is a form of control that is separate from democracy.\nD. Governance is a form of control that is opposed to democracy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bbad270f-5f03-4ac4-8e17-90d924a53225",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the aim of the concept of \"good governance\"?\nHow do you respond?\nA. To promote democratic values and human rights in governance.\nB. To create a stable and conducive environment for private economic actions.\nC. To establish a socialist economic system with a strong role for the state.\nD. To promote transparency and accountability in government decision-making.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a592f4d4-da2e-4ec8-a9c6-4e572d869cad",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is meant by \"responsiveness\" in the context of \"good governance\"?\nHow do you respond?\nA. Institutions try to serve all stakeholders and, respectively, implement adequate procedures.\nB. Decision-makers in government, the private sector, and civil society organisations are accountable to the public.\nC. Processes, institutions, and information are directly accessible by those concerned.\nD. All men and women have opportunities to improve or maintain their well-being.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "adf63a8a-841e-4c19-8ce7-bec60c9dad43",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is meant by \"accountability\" in the context of \"good governance\"?\nHow do you respond?\nA. Decision-makers in government, the private sector, and civil society organizations are accountable to the public and institutional stakeholders.\nB. The government is responsible for ensuring that the private sector and civil society organizations are accountable to the public.\nC. Civil society organizations are responsible for holding the government and private sector accountable for their actions.\nD. The private sector is accountable only to its shareholders and stakeholders, and not to the public or government.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "052b94c9-e8f7-4878-82bf-a3fce856e20d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is meant by \"equity\" in the context of \"good governance\"?\nHow do you respond?\nA. All men and women have opportunities to improve or maintain their well-being.\nB. The fair and impartial enforcement of laws, particularly those regarding human rights.\nC. The ability of state and social institutions, laws, and regulations to promote human and citizen values.\nD. The promotion of investments and firm macroeconomic policies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2053 @@
+{
+    "tests": [
+        {
+            "key": "f20c49d9-33a6-4b7d-bd20-e9ed1c78fa41",
+            "documents": [
+                "Information_Security_Policy.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "771fbe4e-90b1-4311-a664-08e4ed2b516d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['confidentiality', 'integrity', 'availability', 'information assets']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Information Security Policy is to protect the confidentiality, integrity, and availability of the State of Oklahoma's information assets."
+                    ]
+                },
+                {
+                    "key": "0d332c9b-6100-4746-b92e-3dbfa2ec3e18",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for the security of information assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['all', 'employees', 'contractors', 'third-party', 'vendors', 'access', 'information']"
+                    ],
+                    "expected_output": [
+                        "The responsibility for the security of information assets lies with all employees, contractors, and third-party vendors who have access to the information."
+                    ]
+                },
+                {
+                    "key": "2e831846-3b11-44b7-a7dd-ab24adcd81f2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the three main areas of focus for the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Information Security Management', 'Information Access and Use', 'Physical and Environmental Security']"
+                    ],
+                    "expected_output": [
+                        "The three main areas of focus for the Information Security Policy are: 1) Information Security Management, 2) Information Access and Use, and 3) Physical and Environmental Security."
+                    ]
+                },
+                {
+                    "key": "ef523892-80c5-4043-a67c-aeec853fce4d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Central Security Program in information security management?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Central', 'Security', 'Program', 'responsible', 'overseeing', 'implementing', 'guidance', 'support', 'agencies', 'monitoring', 'compliance']"
+                    ],
+                    "expected_output": [
+                        "The Central Security Program is responsible for overseeing and implementing the Information Security Policy, providing guidance and support to agencies, and monitoring compliance."
+                    ]
+                },
+                {
+                    "key": "2ab49b58-57b6-4c2d-a4f4-9d88ee8b4cf2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of incident management procedures?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['incident', 'management', 'procedures', 'respond', 'minimize', 'impact', 'organization']"
+                    ],
+                    "expected_output": [
+                        "The purpose of incident management procedures is to respond to and manage security incidents in a timely and effective manner to minimize the impact on the organization."
+                    ]
+                },
+                {
+                    "key": "5f06c8ee-ef61-4584-a8e1-e3bd2d0fd872",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Incident Response Team in managing security incidents?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Incident', 'Response', 'Team', 'coordinate', 'investigate', 'contain', 'mitigate']"
+                    ],
+                    "expected_output": [
+                        "The Incident Response Team is responsible for coordinating the response to security incidents, conducting investigations, and implementing measures to contain and mitigate the incident."
+                    ]
+                },
+                {
+                    "key": "bdfe7951-0aa6-44ae-94c8-6461a93ac642",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some of the physical and environmental security measures that should be implemented to protect information assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['access controls', 'surveillance cameras', 'secure storage of media', 'proper disposal of sensitive materials']"
+                    ],
+                    "expected_output": [
+                        "Some of the physical and environmental security measures that should be implemented to protect information assets include: access controls, surveillance cameras, secure storage of media, and proper disposal of sensitive materials."
+                    ]
+                },
+                {
+                    "key": "c6856285-95b5-4d07-ae92-b0d031900f60",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of media sanitization procedures?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ensure', 'erased', 'destroyed', 'disposed', 'reused']"
+                    ],
+                    "expected_output": [
+                        "The purpose of media sanitization procedures is to ensure that all electronic storage media containing sensitive information is properly erased or destroyed before it is disposed of or reused."
+                    ]
+                },
+                {
+                    "key": "fae42419-71bc-4d8e-9236-53ced178b333",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Information Security Officer in implementing the Information Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['developing', 'implementing', 'enforcing', 'training', 'awareness']"
+                    ],
+                    "expected_output": [
+                        "The Information Security Officer is responsible for developing, implementing, and enforcing the Information Security Policy, as well as providing training and awareness programs for employees."
+                    ]
+                },
+                {
+                    "key": "bcdf662e-1bda-45a2-9b30-a6d66291ecb9",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should the Information Security Policy be reviewed and updated?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['annually', 'or as needed']"
+                    ],
+                    "expected_output": [
+                        "The Information Security Policy should be reviewed and updated annually, or as needed, to ensure that it remains current and effective in addressing new security risks and threats."
+                    ]
+                },
+                {
+                    "key": "316352c2-a699-4a6f-9e65-fdb218e25b91",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the document titled \"Information Security Policies, Procedures, Guidelines\"?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['minimum', 'Information', 'Security', 'Policy', 'procedures', 'guidelines', 'best', 'practices', 'protection', 'information', 'assets', 'State', 'Oklahoma']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the document is to provide the minimum Information Security Policy, as well as procedures, guidelines, and best practices for the protection of the information assets of the State of Oklahoma."
+                    ]
+                },
+                {
+                    "key": "884b32c6-fd77-45f9-ade1-2589f2f68c2d",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for communicating the Policy, procedures, guidelines, and best practices to all state agencies?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The Office of Management and Enterprise Services Information Services (OMES IS)']"
+                    ],
+                    "expected_output": [
+                        "The Office of Management and Enterprise Services Information Services (OMES IS) is responsible for communicating the Policy, procedures, guidelines, and best practices to all state agencies."
+                    ]
+                },
+                {
+                    "key": "04856aff-9e6f-4182-9169-fb10ccf29fd3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between guidelines and best practices in the document?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Guidelines', 'best practices', 'mandatory', 'recommended']"
+                    ],
+                    "expected_output": [
+                        "Guidelines are generally prefaced with \"should\" and are considered mandatory unless limited by functional or environmental considerations, while best practices are also prefaced with \"should\" and are recommended but not required."
+                    ]
+                },
+                {
+                    "key": "d3f0f93c-c391-48a3-ba7b-8f72b49a82dc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the process for resolving system limitations that do not conform to the Policy, procedures, guidelines, and best practices indicated in the document?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['A', 'plan', 'for', 'resolution', 'of', 'these', 'system', 'limitations', 'should', 'be', 'created', 'documented', 'and', 'available', 'on', 'request']"
+                    ],
+                    "expected_output": [
+                        "A plan for resolution of these system limitations should be created, documented, and available on request."
+                    ]
+                },
+                {
+                    "key": "0e82d99e-c9e7-4448-b2b6-b20cc098f868",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are revisions to the document maintained?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        NaN
+                    ],
+                    "expected_output": [
+                        "Revisions to the document are maintained collectively in Appendix E: Revisions, which includes a \"Revision Table\" describing each addition, change, or deletion and the date it was implemented."
+                    ]
+                },
+                {
+                    "key": "101221db-a912-468b-ac19-463eabef679d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of information as stated in the Security Policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['information', 'data', 'knowledge', 'collected', 'processed', 'stored', 'managed', 'transferred', 'disseminated', 'method']"
+                    ],
+                    "expected_output": [
+                        "Information includes any data or knowledge collected, processed, stored, managed, transferred, or disseminated by any method."
+                    ]
+                },
+                {
+                    "key": "3654959d-015a-4b45-a434-a4bd8bd18d2e",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is the owner of the information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['State Agency', 'responsible', 'producing', 'collecting', 'maintaining', 'authenticity', 'integrity', 'accuracy']"
+                    ],
+                    "expected_output": [
+                        "The owner of the information is the State Agency responsible for producing, collecting, and maintaining the authenticity, integrity, and accuracy of the information."
+                    ]
+                },
+                {
+                    "key": "fd9d27f0-7e53-4c54-b6bb-0c8e83a617d6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Hosting State Agency?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Hosting State Agency', 'physical', 'operational', 'control', 'hardware', 'software', 'communications', 'data bases', 'files', 'owning Agency']"
+                    ],
+                    "expected_output": [
+                        "The Hosting State Agency has physical and operational control of the hardware, software, communications, and data bases (files) of the owning Agency."
+                    ]
+                },
+                {
+                    "key": "acf6a502-fd1f-4280-95c3-51f6d978ecaf",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Acceptable Use Policy for Mobile Computing Devices?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['guidelines', 'security', 'integrity', 'State', 'information']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Acceptable Use Policy for Mobile Computing Devices is to provide guidelines for the use of mobile computing devices to ensure the security and integrity of State information."
+                    ]
+                },
+                {
+                    "key": "d5e375ba-4d30-4d49-8f2d-d2637ce0473b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Media Sanitization Procedures for the Destruction or Disposal of Electronic Storage Media?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['properly sanitized', 'disposal', 'destruction', 'sensitive information']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Media Sanitization Procedures is to ensure that all electronic storage media containing State information are properly sanitized before disposal or destruction to prevent unauthorized access to sensitive information."
+                    ]
+                },
+                {
+                    "key": "1f4c48f3-b9e1-4afd-baa4-057103e30e97",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for the confidentiality of information created or hosted by a State Agency?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['State Agency', 'responsible', 'confidentiality']"
+                    ],
+                    "expected_output": [
+                        "The State Agency responsible for producing, collecting, and maintaining the information is responsible for its confidentiality."
+                    ]
+                },
+                {
+                    "key": "3deb4b0e-d275-470b-afd5-64a458dc5b28",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting State Agency regarding information security?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsibility', 'hosting', 'State', 'Agency', 'information', 'security', 'strategic', 'operational', 'control', 'hardware', 'software', 'telecommunication', 'facilities', 'safeguards', 'firewalls', 'unauthorized', 'access']"
+                    ],
+                    "expected_output": [
+                        "The hosting State Agency is responsible for securing strategic and operational control of its hardware, software, and telecommunication facilities, and implementing effective safeguards and firewalls to prevent unauthorized access."
+                    ]
+                },
+                {
+                    "key": "ac4482e0-63f6-4e95-88ef-3fb33bce2e3b",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for interpreting confidentiality restrictions imposed by information security policies, procedures, guidelines, laws, and statutes?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The State Agency Director']"
+                    ],
+                    "expected_output": [
+                        "The State Agency Director, whose agency collects and maintains the information, is responsible for interpreting confidentiality restrictions."
+                    ]
+                },
+                {
+                    "key": "f230abe7-cb64-4c7f-8723-d7f01fdcfb9f",
+                    "prompt": "Respond to the following question.\n\nQuestion: How is information access controlled and managed?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['legal', 'restrictions', 'approval', 'processes', 'owning', 'hosting', 'procedures', 'authorized', 'changes', 'timely']"
+                    ],
+                    "expected_output": [
+                        "Information access is subject to legal restrictions and appropriate approval processes of the owning State Agency, and the hosting State Agency has the responsibility to adhere to procedures and put into effect all authorized changes received from the owning State Agencies in a timely manner."
+                    ]
+                },
+                {
+                    "key": "b96ba39f-3c1f-48ac-af5b-b7fd71db7b19",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting State Agency regarding information availability?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsibility', 'information', 'availability', 'State', 'Agency']"
+                    ],
+                    "expected_output": [
+                        "The hosting State Agency is responsible for ensuring information availability and granting access to information as needed to all State Agencies to support their required processes, functions, and timelines."
+                    ]
+                },
+                {
+                    "key": "d950ffcd-d525-4663-bc1d-ecaa5c099a17",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Information Security Policy, Procedures, and Guidelines document?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['policy', 'procedures', 'secure', 'environment', 'storage', 'dissemination', 'information']"
+                    ],
+                    "expected_output": [
+                        "The document outlines the policy and procedures required for creating and maintaining a secure environment for the storage and dissemination of information."
+                    ]
+                },
+                {
+                    "key": "e5a7b455-e660-46f4-b16b-70a666640410",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for developing, controlling, and communicating Information Security Policy, Procedures, and Guidelines for the State of Oklahoma?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['OMES', 'IS']"
+                    ],
+                    "expected_output": [
+                        "OMES IS is responsible for developing, controlling, and communicating Information Security Policy, Procedures, and Guidelines for the State of Oklahoma."
+                    ]
+                },
+                {
+                    "key": "c63e1029-c106-4247-9e7f-8236d01c4142",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the minimum requirement for information security at all State Agencies?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'minimum', 'requirements', 'information', 'security', 'State', 'Agencies']"
+                    ],
+                    "expected_output": [
+                        "The Information Security Policy, Procedures, and Guidelines document represents the minimum requirements for information security at all State Agencies."
+                    ]
+                },
+                {
+                    "key": "79cc65d5-1f86-494b-8e75-91fa3e5876e0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the State Agencies in protecting the confidentiality of information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['State', 'Agencies', 'responsibility', 'protect', 'confidentiality', 'information']"
+                    ],
+                    "expected_output": [
+                        "State Agencies that access the systems have the responsibility to protect the confidentiality of information which they use in the course of their assigned duties."
+                    ]
+                },
+                {
+                    "key": "78862d6c-e1e9-40d7-8a98-70374dc31668",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the importance of commitment to protecting the information of the State?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['critical', 'fully', 'commit', 'high', 'required']"
+                    ],
+                    "expected_output": [
+                        "It is critical that all agencies and their staff are fully aware of the Policy, procedures, guidelines, and best practices and commit to protecting the information of the State. Common sense and high ethical standards are required to complement the security guidelines."
+                    ]
+                },
+                {
+                    "key": "3e1f8912-45d2-4242-aaa0-0c04a80fa906",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Policy and procedures outlined in the document?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['minimum', 'security', 'levels', 'storage', 'dissemination', 'information']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Policy and procedures outlined in the document is to establish minimum security levels required for creating and maintaining a secure environment for the storage and dissemination of information."
+                    ]
+                },
+                {
+                    "key": "f89de4dc-2ed9-43d2-a4e5-73f22b35b028",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for establishing minimum mandatory standards for information security and internal controls?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['OMES', 'IS']"
+                    ],
+                    "expected_output": [
+                        "OMES IS has the responsibility to establish minimum mandatory standards for information security and internal controls as well as contingency planning and disaster recovery."
+                    ]
+                },
+                {
+                    "key": "390c2f73-655d-4a5b-a79d-a0a9e46d4691",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the scope of the Policy and procedures outlined in the document?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['all', 'hardware', 'software', 'communication', 'facilities', 'information']"
+                    ],
+                    "expected_output": [
+                        "The Policy and procedures outlined in the document apply to all agencies and are inclusive of their hardware facilities, software installations, communication networks / facilities as well as information."
+                    ]
+                },
+                {
+                    "key": "8093f452-a052-45b8-b3ca-47b1fec93091",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for communicating the details of the Policy and procedures to State employees, contractors, or other entities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsible', 'communicating', 'details', 'Policy', 'procedures', 'State', 'employees', 'contractors', 'entities']"
+                    ],
+                    "expected_output": [
+                        "The Policy and procedures are distributed to all State agencies through their respective Security Representative who will then be responsible for communicating the details to State employees as well as contractors or other entities whose position responsibilities include the creation, maintenance, or access of State information residing on any computer system or platform."
+                    ]
+                },
+                {
+                    "key": "1972abc2-a2f2-4013-a956-89a8257abd1f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the primary focus of the information security policies, procedures, guidelines, and best practices outlined in the document?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['confidentiality', 'integrity', 'information', 'State']"
+                    ],
+                    "expected_output": [
+                        "The primary focus of the information security policies, procedures, guidelines, and best practices outlined in the document is on the confidentiality and integrity of the information required for delivering information throughout the State."
+                    ]
+                },
+                {
+                    "key": "9942420e-35b3-425f-a260-079486129e7b",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for the confidentiality of all information created or hosted by a State Agency?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['all', 'State', 'Agency']"
+                    ],
+                    "expected_output": [
+                        "The confidentiality of all information created or hosted by a State Agency is the responsibility of all State Agencies."
+                    ]
+                },
+                {
+                    "key": "389116d4-e563-4398-b94e-32256f83ccb1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the criteria for releasing information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['strictly', 'job-related', 'Confidentiality', 'compromised']"
+                    ],
+                    "expected_output": [
+                        "Release of information is strictly for job-related functions. Confidentiality is compromised when knowingly or inadvertently, information crosses the boundaries of job-related activities."
+                    ]
+                },
+                {
+                    "key": "440387ea-f781-4a7c-acbe-c7c217c5788f",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should users select and use passwords?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['passwords', 'security', 'practices', 'identity', 'access', 'rights', 'information', 'processing', 'facilities', 'services']"
+                    ],
+                    "expected_output": [
+                        "Users must be required to follow good security practices in the selection and use of passwords. Passwords provide a means of validating a user's identity and thereby establish access rights to information processing facilities or services."
+                    ]
+                },
+                {
+                    "key": "f3bbdab8-21f4-487a-806b-3674d6b91ab4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the minimum requirement for information security and internal controls?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['minimum', 'security', 'levels', 'required']"
+                    ],
+                    "expected_output": [
+                        "The Policy, procedures, guidelines, and best practices outlined in the document represent the minimum security levels required and must be used as a guide in developing a detailed security plan and additional policies (if required)."
+                    ]
+                },
+                {
+                    "key": "925728e0-8f04-46f7-88f8-0f0c647c2e06",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Oklahoma Statute, Title 62. Section 34.12(A)(3) referenced in the document?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['establish', 'minimum', 'mandatory', 'standards', 'information', 'security', 'internal', 'controls', 'contingency', 'planning', 'disaster', 'recovery']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Oklahoma Statute, Title 62. Section 34.12(A)(3) is to establish minimum mandatory standards for information security and internal controls as well as contingency planning and disaster recovery."
+                    ]
+                },
+                {
+                    "key": "a68c9233-5a4b-4411-af1d-b9c9c50c2634",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the information security policy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['protect', 'inadvertent', 'intentional', 'damage', 'unauthorized', 'disclosure', 'use', 'authenticity', 'integrity', 'accuracy', 'information']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the information security policy is to protect information from inadvertent or intentional damage, unauthorized disclosure or use, and to ensure the authenticity, integrity, and accuracy of information."
+                    ]
+                },
+                {
+                    "key": "31eed8c9-3113-4af6-90f0-8f792bd2a665",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for maintaining the confidentiality of information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['All', 'agency', 'staff']"
+                    ],
+                    "expected_output": [
+                        "All agency staff are responsible for maintaining the confidentiality of information."
+                    ]
+                },
+                {
+                    "key": "a57e33af-ef2a-4771-96ac-533d8e99c758",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some good security practices for selecting and using passwords?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['avoiding', 'changing', 'not', 'first', 'not']"
+                    ],
+                    "expected_output": [
+                        "Good security practices for selecting and using passwords include keeping passwords confidential, avoiding keeping a paper record of passwords, changing passwords whenever there is any indication of possible system or password compromise, selecting quality passwords with a minimum length of eight characters that are easy to remember and not based on anything somebody else could easily guess or obtain using person-related information, avoiding consecutive identical characters or all-numeric or all-alphabetical groups, changing passwords at regular intervals, avoiding reusing or cycling old passwords, changing temporary passwords at the first log-on, not including passwords in any automated log-on process, and not sharing individual user passwords."
+                    ]
+                },
+                {
+                    "key": "91ac1fa2-8e1e-433e-9899-439fa01e1c9f",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for protecting information from inadvertent or intentional damage?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'owning', 'State', 'Agency', 'is', 'responsible', 'for', 'protecting', 'information', 'from', 'inadvertent', 'or', 'intentional', 'damage']"
+                    ],
+                    "expected_output": [
+                        "The owning State Agency is responsible for protecting information from inadvertent or intentional damage."
+                    ]
+                },
+                {
+                    "key": "7b2d13bf-2343-44de-b29b-7848e81d7936",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should all information content reflect?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['actual', 'state', 'affairs', 'Agency']"
+                    ],
+                    "expected_output": [
+                        "All information content must reflect the actual state of affairs of the respective Agency."
+                    ]
+                },
+                {
+                    "key": "caf47a7f-5a5c-47ac-9473-b06b59778064",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who should be notified immediately in the event of a dismissal?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['hosting agency', 'Security Administration']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency's Security Administration should be notified immediately in the event of a dismissal."
+                    ]
+                },
+                {
+                    "key": "0d17c58c-e33a-4c8d-9765-117cc95abe09",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the security representative?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['communicating', 'policy', 'procedures', 'guidelines', 'best practices', 'user', 'access', 'system', 'deviations']"
+                    ],
+                    "expected_output": [
+                        "The security representative's role includes communicating the information security policy to all their respective agency's employees, communicating the appropriate procedures, guidelines, and best practices to the responsible user, owner, or people directly responsible for hosting activities, granting user access to system functions, and reporting all deviations to the policy, procedures, guidelines, and best practices."
+                    ]
+                },
+                {
+                    "key": "072fe0ed-76c1-45a2-b251-7f150599d8da",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting agency's Security Administration function?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['confirming', 'set-up', 'complete', 'role', 'Security', 'Representative', 'use', 'roles', 'assigned', 'daily', 'report', 'list', 'terminations']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency's Security Administration function is responsible for confirming set-up to the Agency Director and the individual concerned via email when the set-up is complete for the role of Security Representative, confirming set-up to the Security Representative and the individual concerned when the set-up is complete for the use roles assigned, and running a daily report to list terminations."
+                    ]
+                },
+                {
+                    "key": "b08e8100-31f1-417d-b8bf-6905c8c89585",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should agencies notify the hosting agency of terminations?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['using', 'formal', 'notice', 'phone', 'email', 'dismissals']"
+                    ],
+                    "expected_output": [
+                        "Agencies should notify the hosting agency of terminations using agreed-upon formal notice or by phone and/or email in the case of dismissals."
+                    ]
+                },
+                {
+                    "key": "676b3766-61f0-4959-ab3c-9ad6923b0a8b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be done to ensure the authenticity, integrity, and accuracy of information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['authenticity', 'integrity', 'accuracy', 'information', 'security', 'policy']"
+                    ],
+                    "expected_output": [
+                        "The owning State Agency should ensure the authenticity, integrity, and accuracy of information by following the procedures outlined in the information security policy."
+                    ]
+                },
+                {
+                    "key": "eed98640-58b8-45db-9d5a-e6cbe6b5c7be",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting agency regarding terminations?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'hosting', 'agency', 'will', 'run', 'a', 'daily', 'report', 'to', 'list', 'terminations', 'and', 'lock', 'the', 'access', 'privileges', 'of', 'terminated', 'users', 'at', 'the', 'end', 'of', 'the', 'day', 'on', 'the', 'effective', 'date']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency will run a daily report to list terminations and lock the access privileges of terminated users at the end of the day on the effective date."
+                    ]
+                },
+                {
+                    "key": "6effae74-759d-4473-a48a-a6ff754f2533",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of all agencies regarding terminations?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsibility', 'notifying', 'hosting', 'terminations', 'dismissals']"
+                    ],
+                    "expected_output": [
+                        "All agencies are responsible for notifying the hosting agency of terminations using agreed-upon formal notice or by phone and/or email in the case of dismissals."
+                    ]
+                },
+                {
+                    "key": "4fef5d29-94e2-4b6a-8102-96154d4f0908",
+                    "prompt": "Respond to the following question.\n\nQuestion: What happens to users who do not use the system for 60 days?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['will', 'be', 'deactivated']"
+                    ],
+                    "expected_output": [
+                        "Users who do not use the system for 60 days will be automatically deactivated."
+                    ]
+                },
+                {
+                    "key": "9490764f-a915-4d18-ae4c-251b515c57a1",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for interpreting confidentiality restrictions imposed by laws and statutes?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'State', 'Agency', 'Director', 'laws', 'statutes']"
+                    ],
+                    "expected_output": [
+                        "The State Agency Director whose agency collects and maintains the information is responsible for interpreting all confidentiality restrictions imposed by laws and statutes."
+                    ]
+                },
+                {
+                    "key": "5beda1b0-ee20-4aaa-8be6-cc754699aa10",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the minimum requirement for password length and complexity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['8', 'numeric']"
+                    ],
+                    "expected_output": [
+                        "Passwords must be a minimum of 8 characters long and contain at least one numeric character."
+                    ]
+                },
+                {
+                    "key": "6e9d0918-b735-489a-8610-9dcc0e7a4d6e",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often do passwords expire?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['90 days']"
+                    ],
+                    "expected_output": [
+                        "Passwords will expire in a maximum of 90 days."
+                    ]
+                },
+                {
+                    "key": "3a71c8a4-aaca-4986-9f48-38e1e27a42ce",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting State Agency regarding information availability?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsibility', 'hosting', 'State', 'Agency', 'information', 'availability']"
+                    ],
+                    "expected_output": [
+                        "The hosting State Agency is responsible for ensuring the confidentiality, integrity, and availability of information."
+                    ]
+                },
+                {
+                    "key": "553c85fd-4afc-4f7f-b7b5-8e7244f199b2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Service Level Agreement?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['purpose', 'Service', 'Level', 'Agreement', 'users', 'response', 'time', 'hours', 'availability', 'services']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Service Level Agreement is to publish the level of service that users can expect from the system, including response time, hours of availability, and all other services contracted."
+                    ]
+                },
+                {
+                    "key": "4286e9f9-b25a-4ffa-bb82-87f59324cff1",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for ensuring backups are current and secure?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The hosting State Agency', 'responsible', 'ensuring', 'backups', 'current', 'secure', 'accessible']"
+                    ],
+                    "expected_output": [
+                        "The hosting State Agency is responsible for ensuring all backups are current, secure, and accessible."
+                    ]
+                },
+                {
+                    "key": "078b0e5f-a4a8-4afb-a816-b2ec2c93a9fc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the State Agencies regarding the confidentiality of information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'State', 'Agencies', 'have', 'the', 'responsibility', 'to', 'protect', 'the', 'confidentiality', 'of', 'information']"
+                    ],
+                    "expected_output": [
+                        "The State Agencies that access the systems have the responsibility to protect the confidentiality of information which they use in the course of their assigned duties."
+                    ]
+                },
+                {
+                    "key": "5262756a-2eb2-4917-91f0-800be2a58998",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the main responsibility of the OMES IS in regards to information security?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['information security', 'policies', 'guidelines', 'protection', 'information assets']"
+                    ],
+                    "expected_output": [
+                        "The OMES IS is responsible for direction and leadership in all aspects of information security, including developing, maintaining, and communicating policies and guidelines for the protection of information assets."
+                    ]
+                },
+                {
+                    "key": "900327e6-489e-478b-8a42-24315ad08e9c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the three components of security program management?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['central security program', 'hosting agency security', 'agency security']"
+                    ],
+                    "expected_output": [
+                        "The three components of security program management are central security program, hosting agency security, and agency security."
+                    ]
+                },
+                {
+                    "key": "30262453-c342-4dad-a2a9-4cf90b0bb80f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of agencies hosting information and systems for their own use or for the use of other agencies?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['agencies', 'information', 'systems', 'policies', 'guidelines', 'protection', 'hardware', 'software', 'communications']"
+                    ],
+                    "expected_output": [
+                        "Agencies hosting information and systems must develop, maintain, and communicate policies and guidelines for the protection of information assets, including hardware, software, information, and communications."
+                    ]
+                },
+                {
+                    "key": "f7b86fec-5579-41b0-91eb-6724bf3b96bb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the minimum standards issued by the OMES IS for information security?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['systems', 'planning', 'development', 'documentation', 'hardware', 'requirements', 'compatibility', 'operating', 'software', 'acquisition', 'information', 'security', 'internal', 'database', 'contingency', 'planning', 'disaster', 'recovery']"
+                    ],
+                    "expected_output": [
+                        "The OMES IS issues minimum standards for systems planning, systems development methodology, documentation, hardware requirements and compatibility, operating systems compatibility, software and hardware acquisition, information security and internal controls, data base compatibility, and contingency planning and disaster recovery."
+                    ]
+                },
+                {
+                    "key": "d6f81e4b-5035-42f0-a405-f943de7d09cc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of agencies in protecting their information assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Agencies', 'responsible', 'protecting', 'information', 'assets', 'security', 'policies', 'procedures', 'guidelines', 'best', 'practices']"
+                    ],
+                    "expected_output": [
+                        "Agencies are responsible for protecting their information assets from disclosure, loss, or misuse. They must adhere to and have documented procedures for security of information flow, information retention, information disposal, and communication of information security policies, procedures, guidelines, and best practices."
+                    ]
+                },
+                {
+                    "key": "130660d4-5e0c-4961-b043-08d64b6ef74b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is incident management, and what are its responsibilities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['incident', 'management', 'responsibilities', 'security', 'incidents', 'procedures', 'information', 'system', 'failures', 'denial', 'service', 'errors', 'incomplete', 'inaccurate', 'business', 'information', 'breaches', 'confidentiality']"
+                    ],
+                    "expected_output": [
+                        "Incident management is the process of responding to security incidents. Its responsibilities include establishing procedures to cover all potential types of security incidents, such as information system failures, denial of service, errors resulting from incomplete or inaccurate business information, and breaches of confidentiality."
+                    ]
+                },
+                {
+                    "key": "7248d4ed-b515-4811-901b-3cdf3f103786",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the two types of contingency plans that agencies must establish?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['normal', 'quickly', 'analysis', 'identification', 'incident', 'remedies', 'recurrence', 'audit', 'trails', 'evidence', 'communication', 'affected', 'involved', 'recovery', 'incident', 'reporting', 'action', 'security', 'administration', 'function', 'hosting', 'agency']"
+                    ],
+                    "expected_output": [
+                        "Agencies must establish two types of contingency plans: normal contingency plans designed to recover systems or services as quickly as possible, and plans that cover analysis and identification of the cause of the incident, planning and implementation of remedies to prevent recurrence, collection of audit trails and similar evidence, communication with those affected by or involved with recovery from the incident, and reporting the action to the security administration function at the hosting agency."
+                    ]
+                },
+                {
+                    "key": "47e426f6-55ef-4c2a-9ac9-bb86ce40511a",
+                    "prompt": "Respond to the following question.\n\nQuestion: Why are audit trails and similar evidence collected and secured?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['internal', 'problem', 'analysis', 'evidence', 'breach', 'contracts', 'policies', 'regulatory', 'requirements', 'civil', 'criminal', 'proceedings']"
+                    ],
+                    "expected_output": [
+                        "Audit trails and similar evidence are collected and secured for internal problem analysis, use as evidence in relation to a potential breach of contracts, policies, or regulatory requirements, and use in the event of civil or criminal proceedings."
+                    ]
+                },
+                {
+                    "key": "92ae27c4-a1db-4ec9-a658-27f955ccfc35",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for developing and testing contingency planning and disaster recovery?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Hosting', 'agencies']"
+                    ],
+                    "expected_output": [
+                        "Hosting agencies are responsible for developing and testing contingency planning and disaster recovery."
+                    ]
+                },
+                {
+                    "key": "a023833c-d801-41a5-9833-73f8c5250deb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the central security program?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['direction', 'leadership', 'information', 'security', 'policies', 'guidelines', 'protection', 'information assets']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the central security program is to provide direction and leadership in all aspects of information security, including developing, maintaining, and communicating policies and guidelines for the protection of information assets."
+                    ]
+                },
+                {
+                    "key": "3d1d15cd-57cf-4e5c-b2aa-4c5c801637ca",
+                    "prompt": "Respond to the following question.\n\nQuestion: What must be collected and secured as appropriate for internal problem analysis and use as evidence in relation to potential breaches of contracts, policies, or regulatory requirements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Audit', 'trails', 'and', 'similar', 'evidence']"
+                    ],
+                    "expected_output": [
+                        "Audit trails and similar evidence."
+                    ]
+                },
+                {
+                    "key": "ea38f85f-88fb-4aba-9e20-cccf8eb7ccb2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be documented in detail during emergency actions taken to recover from security breaches and correct system failures?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['all', 'emergency', 'actions', 'taken', 'steps', 'personnel', 'involved']"
+                    ],
+                    "expected_output": [
+                        "All emergency actions taken, including the steps taken and the personnel involved."
+                    ]
+                },
+                {
+                    "key": "875f57e4-a1aa-4191-ad72-884500b9dda3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What must be confirmed with minimal delay during emergency actions taken to recover from security breaches and correct system failures?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['integrity', 'business', 'systems', 'controls']"
+                    ],
+                    "expected_output": [
+                        "The integrity of business systems and controls."
+                    ]
+                },
+                {
+                    "key": "14530644-0cbc-46be-a048-a179431d1b36",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be produced and kept for an agreed period to assist in future investigations and access control monitoring?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Audit logs']"
+                    ],
+                    "expected_output": [
+                        "Audit logs recording exceptions and other security-relevant events."
+                    ]
+                },
+                {
+                    "key": "cbbe0034-8117-44b4-a44b-6558d87392a2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be included in audit logs recording exceptions and other security-relevant events?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['User IDs', 'dates', 'times', 'terminal identity', 'location', 'records', 'successful', 'rejected', 'system access attempts', 'data', 'resource access attempts']"
+                    ],
+                    "expected_output": [
+                        "User IDs, dates and times for log-on and log-off, terminal identity or location if possible, records of successful and rejected system access attempts, and records of successful and rejected data and other resource access attempts."
+                    ]
+                },
+                {
+                    "key": "0df883ae-5345-4073-8cb8-e0ef2f061fdc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What must be established to ensure that users are only performing activities that have been explicitly authorized?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['procedures', 'monitoring', 'use', 'information', 'processing', 'facilities']"
+                    ],
+                    "expected_output": [
+                        "Procedures for monitoring use of information processing facilities."
+                    ]
+                },
+                {
+                    "key": "25624beb-8394-4c01-87d9-f384852367d6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be considered when determining the level of monitoring required for individual facilities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['risk assessment', 'authorized access', 'privileged operations', 'unauthorized access attempts', 'system alerts', 'failures', 'security-relevant events']"
+                    ],
+                    "expected_output": [
+                        "The risk assessment of the facility, including authorized access, privileged operations, unauthorized access attempts, system alerts or failures, and other security-relevant events."
+                    ]
+                },
+                {
+                    "key": "91fc4adb-5f95-429a-9a8a-8134b5ad6b38",
+                    "prompt": "Respond to the following question.\n\nQuestion: What encompasses risk assessment, risk mitigation, as well as evaluation and assessment?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Risk', 'management']"
+                    ],
+                    "expected_output": [
+                        "Risk management."
+                    ]
+                },
+                {
+                    "key": "a22a3794-e48f-4eca-9dd6-5a37efe17aac",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for determining the likelihood of an adverse event, the threats to system resources, the vulnerability of the system, and the impact such an adverse event may have?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['hosting agency']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency."
+                    ]
+                },
+                {
+                    "key": "819f635f-967f-4822-892b-b2137aecf556",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some sources of threats to system resources?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['hackers', 'criminals', 'terrorists', 'espionage', 'insiders']"
+                    ],
+                    "expected_output": [
+                        "System intruders (hackers), criminals, terrorists, espionage, and insiders (either malicious or a result of poor training)."
+                    ]
+                },
+                {
+                    "key": "8d8eaa94-96bd-47da-a8c8-8f29b7616172",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is a threat?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['threat', 'possibility', 'potentially', 'harmful', 'event', 'vulnerability']"
+                    ],
+                    "expected_output": [
+                        "A threat is a possibility of a potentially harmful event that can exploit a vulnerability."
+                    ]
+                },
+                {
+                    "key": "ffe0fa76-52b6-4c15-9ff2-4cbf6f76bf29",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is a vulnerability?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['weakness', 'intentional', 'accidentally', 'triggered']"
+                    ],
+                    "expected_output": [
+                        "A vulnerability is a weakness that can be intentionally or accidentally triggered."
+                    ]
+                },
+                {
+                    "key": "7eb6b0ee-ba73-47e8-992e-b6fd8b8673d4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some sources of threats?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['system intruders', 'criminals', 'terrorists', 'espionage', 'insiders']"
+                    ],
+                    "expected_output": [
+                        "Threats can come from various sources, including system intruders (hackers), criminals, terrorists, espionage, insiders (malicious or due to poor training), and others."
+                    ]
+                },
+                {
+                    "key": "646c713a-432b-44ae-8bcc-b3445e0f0069",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can vulnerabilities be identified?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['hardware', 'software', 'network', 'system interfaces', 'data', 'information', 'people', 'sensitivity']"
+                    ],
+                    "expected_output": [
+                        "Vulnerabilities can be identified by considering various factors, such as hardware, software, network, system interfaces, data and information, people who support and use the system, and information sensitivity."
+                    ]
+                },
+                {
+                    "key": "4b165c28-581c-4ceb-934e-62d79a1b034e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the impact of an adverse event?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['loss', 'integrity', 'availability', 'confidentiality', 'information']"
+                    ],
+                    "expected_output": [
+                        "The impact of an adverse event is the loss of integrity, availability, or confidentiality of information."
+                    ]
+                },
+                {
+                    "key": "988915d8-b7a3-49ab-9a10-6ec46c89c8aa",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the options for risk mitigation?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['risk assumption', 'risk avoidance', 'risk limitation', 'risk planning', 'research and acknowledgment', 'risk transference']"
+                    ],
+                    "expected_output": [
+                        "The options for risk mitigation include risk assumption, risk avoidance, risk limitation, risk planning, research and acknowledgment, and risk transference."
+                    ]
+                },
+                {
+                    "key": "0804890f-1cd8-4eae-9135-710a727b0d9f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of personnel regarding information security?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['adhering', 'policy', 'procedures', 'guidelines', 'best practices']"
+                    ],
+                    "expected_output": [
+                        "Personnel are responsible for adhering to the information security policy, procedures, guidelines, and best practices."
+                    ]
+                },
+                {
+                    "key": "3a062d44-ffef-445f-b1cb-595b89784a16",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the importance of staffing and training in information security?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['staffing', 'training', 'security', 'IT', 'alert', 'trained', 'offensive', 'defensive', 'protect']"
+                    ],
+                    "expected_output": [
+                        "Adequate staffing, training, and backup are essential to maintain a secure environment, and IT staff must be alert and trained in offensive and defensive methods to protect the State information assets."
+                    ]
+                },
+                {
+                    "key": "2b59bf2c-4df7-4b09-8242-94c98448e35c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of security awareness presentations?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['security', 'awareness', 'presentations', 'focus', 'attention', 'security', 'concerns', 'respond']"
+                    ],
+                    "expected_output": [
+                        "The purpose of security awareness presentations is to focus attention on security and allow individuals to recognize IT security concerns and respond accordingly."
+                    ]
+                },
+                {
+                    "key": "32d68f1c-4d6f-47ef-9417-eda13881cef1",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can security awareness presentations be effective?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ongoing', 'creative', 'motivational', 'focusing', 'attention', 'incorporated', 'conscious', 'decision-making']"
+                    ],
+                    "expected_output": [
+                        "Security awareness presentations must be designed to be ongoing, creative, and motivational, with the objective of focusing attention so that the learning will be incorporated into conscious decision-making."
+                    ]
+                },
+                {
+                    "key": "1b0d6bb7-e42d-42f9-a2f5-32214c8b385d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between awareness and training in the context of IT security?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['awareness', 'training', 'IT', 'security', 'difference']"
+                    ],
+                    "expected_output": [
+                        "Awareness is about reaching broad audiences and focusing attention to incorporate learning into conscious decision-making, whereas training is more formal and has a goal of building knowledge and skills to facilitate job performance."
+                    ]
+                },
+                {
+                    "key": "27029069-355d-4e33-a1ca-bda451193ccd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the responsibilities of the OMES IS?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['communicating', 'minimum', 'standards', 'policies', 'procedures', 'information', 'security', 'recommendations', 'best', 'practices', 'guidelines']"
+                    ],
+                    "expected_output": [
+                        "The OMES IS is responsible for communicating minimum standards for all related policies and procedures, providing recommendations for best practices in selected areas related to information security, and providing all necessary information for the development of an Information Security Policies, Procedures, Guidelines."
+                    ]
+                },
+                {
+                    "key": "ad5e26e4-8c8d-4f39-ab0e-3c23525c0af3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the requirements for all state agencies regarding security awareness sessions?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['all', 'state', 'agencies', 'must', 'create', 'present', 'security', 'awareness', 'sessions', 'staff', 'members', 'attend']"
+                    ],
+                    "expected_output": [
+                        "All state agencies must create and present security awareness sessions for their staff members and ensure that all staff members have attended an awareness session."
+                    ]
+                },
+                {
+                    "key": "5ba10346-9b18-41a9-a07e-7358396b1d91",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the access requirements for employees or contractors who have access to information assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['access', 'requirements', 'employees', 'contractors', 'information', 'assets', 'briefed', 'acknowledging', 'receipt']"
+                    ],
+                    "expected_output": [
+                        "Employees or contractors who have access to information assets must be briefed by the hiring or contracting agency on the access requirements of their position or contract, their responsibilities for safeguarding sensitive information and assets, all information security policies, procedures, guidelines and best practices, and a written document outlining the contents of the briefing and the date, which should be signed by the individual briefed acknowledging receipt of its contents."
+                    ]
+                },
+                {
+                    "key": "11115e7a-324a-43dc-a51b-7c14374f7aba",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of providing personal computer usage policies?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['protect', 'integrity', 'network', 'systems', 'comply', 'policies', 'laws', 'usage', 'communication', 'information']"
+                    ],
+                    "expected_output": [
+                        "The purpose of providing personal computer usage policies is to protect the integrity of the statewide network and its systems, and to ensure that all users comply with State and agency policies and all state and federal laws governing usage and communication of information."
+                    ]
+                },
+                {
+                    "key": "628df9c7-2123-4a72-bed2-5094dc226b51",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some prohibited activities when using agency computers?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['sending email', 'installing software', 'IP spoofing', 'downloading materials', 'transmitting personal comments', 'accessing discriminatory material']"
+                    ],
+                    "expected_output": [
+                        "Some prohibited activities when using agency computers include sending email using someone else's identity, taking any action that knowingly will interfere with the normal operation of the network, installing any system or software on the network without prior approval, installing any software systems or hardware that will knowingly install a virus, Trojan horse, worm or any other known or unknown destructive mechanism, attempting IP spoofing, attempting the unauthorized downloading, posting or dissemination of copyrighted materials, transmitting personal comments or statements in a manner that may be mistaken as the position of the State, and accessing, creating, transmitting (sending or receiving), printing or downloading material that is discriminatory, derogatory, defamatory, obscene, sexually explicit, offensive or harassing based on gender, race, religion, national origin, ancestry, age, disability, medical condition, sexual orientation or any other status protected by state and federal laws."
+                    ]
+                },
+                {
+                    "key": "21a35179-f75b-4513-9652-55df74a4688b",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for ensuring compliance with personal computer usage policies?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsible', 'compliance', 'personal', 'computer', 'usage', 'policies']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency's security and information systems staff are responsible for ensuring compliance with personal computer usage policies and may take appropriate action, including denial of access privileges, disciplinary action up to and including dismissal for employees, and cancellation of the contractual agreement for contractors."
+                    ]
+                },
+                {
+                    "key": "1d789982-36b7-4225-9a42-d23092a18e01",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can personal messages and information stored on the agency's electronic mail system, voicemail system or computer systems be considered State property?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, all messages sent and received, including personal messages, and all information stored on the agency's electronic mail system, voicemail system or computer systems are considered State property regardless of the content."
+                    ]
+                },
+                {
+                    "key": "65128596-3800-42ce-a504-0d766b7572b1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the state's position regarding messages sent and received on its electronic mail system?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The state', 'reserves', 'right', 'access', 'inspect', 'monitor', 'usage', 'technology', 'resources', 'emails', 'voicemails', 'computer', 'systems', 'ensure', 'compliance', 'policies', 'legal', 'proceedings', 'investigate', 'misconduct', 'locate', 'information', 'business', 'purpose']"
+                    ],
+                    "expected_output": [
+                        "The state reserves the right to access, inspect, and monitor the usage of all its technology resources, including emails, voicemails, and computer systems, to ensure compliance with its policies, for legal proceedings, to investigate misconduct, to locate information, or for any other business purpose."
+                    ]
+                },
+                {
+                    "key": "dc4f52d5-95bf-41e1-866c-a867cded964f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of providing email accounts to agency staff?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['assist', 'performing', 'work', 'jeopardize', 'operation', 'reputation', 'integrity', 'state']"
+                    ],
+                    "expected_output": [
+                        "Email accounts are provided to assist agency staff in performing their work, and their use must not jeopardize the operation of the system or the reputation and/or integrity of the state."
+                    ]
+                },
+                {
+                    "key": "6883c390-73d8-4b87-bfa0-38bfa31eb8a1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some examples of improper use of email technology that may jeopardize systems integrity, security, and service levels?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['improper use', 'email technology', 'commercial solicitation', 'hoaxes', 'chain letters', 'advertisements', 'rude', 'obscene', 'threatening', 'harassing', 'pornographic material', 'hate literature', 'harassing staff', 'executable programs', 'games', 'potentially offensive material', 'propagating viruses']"
+                    ],
+                    "expected_output": [
+                        "Improper use of email technology includes using it for commercial solicitation, distributing hoaxes, chain letters, advertisements, sending rude, obscene, threatening or harassing messages, distributing pornographic material or hate literature, harassing other staff members, sending executable programs or games, sending potentially offensive material, and propagating viruses knowingly or maliciously."
+                    ]
+                },
+                {
+                    "key": "b6ed16a1-6361-48d3-a0e2-ac7e179e1a1e",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can users send large distribution lists concerning non-government business via email?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, users must not send, forward, or reply to large distribution lists concerning non-government business via email."
+                    ]
+                },
+                {
+                    "key": "286cfa90-ad5f-4d45-8ec4-d26235ad4e78",
+                    "prompt": "Respond to the following question.\n\nQuestion: How must email be managed to comply with existing legislation, regulations, policies, and standards?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['must', 'managed', 'record']"
+                    ],
+                    "expected_output": [
+                        "Email is a record and must be managed accordingly, including proper storage, retrieval, and disposal."
+                    ]
+                },
+                {
+                    "key": "217bbf6b-75ed-483d-88df-2af718d3d32c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the consequences of alleged inappropriate use of email technology?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['dismissal', 'cancellation', 'litigation']"
+                    ],
+                    "expected_output": [
+                        "Alleged inappropriate use of email technology will be reviewed on a case-by-case basis and may lead to disciplinary action up to and including dismissal, cancellation of contractual arrangements, or litigation."
+                    ]
+                },
+                {
+                    "key": "b54d0495-9d3e-4410-b53f-da37c7d2d9b4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between the World Wide Web (WWW) and an Intranet?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['World Wide Web', 'WWW', 'Intranet', 'Internet', 'proprietary', 'network', 'entity', 'State']"
+                    ],
+                    "expected_output": [
+                        "The World Wide Web (WWW) is a system for exchanging information over the Internet, while an Intranet is a proprietary network specific to an entity, such as the State."
+                    ]
+                },
+                {
+                    "key": "40c62e65-5458-4d8a-b6ec-e70e4d344d1e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the two principal components of the Web?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Web servers', 'Web browsers']"
+                    ],
+                    "expected_output": [
+                        "The two principal components of the Web are Web servers, which make information available over the Internet, and Web browsers, which are used to access and display the information stored on Web servers."
+                    ]
+                },
+                {
+                    "key": "d8a2f5af-aeca-49c2-9a10-b818c4c84175",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the most targeted and attacked host on most organizations' network?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Web server']"
+                    ],
+                    "expected_output": [
+                        "The Web server is the most targeted and attacked host on most organizations' network."
+                    ]
+                },
+                {
+                    "key": "87fda619-e5d9-416c-a7e6-4297cd19f87a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is an intranet?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['intranet', 'proprietary', 'network', 'entity', 'State']"
+                    ],
+                    "expected_output": [
+                        "An intranet is a proprietary network that is specific to an entity, such as the State."
+                    ]
+                },
+                {
+                    "key": "bfa966c2-9e2f-4e9a-a63f-6c2fe2ad64a3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the two principal components of the Web?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Web servers', 'Web browsers']"
+                    ],
+                    "expected_output": [
+                        "The two principal components of the Web are Web servers, which make information available over the Internet, and Web browsers, which are used to access and display the information stored on Web servers."
+                    ]
+                },
+                {
+                    "key": "04842e13-ab55-4492-8af0-7cf16ad8d504",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some common security threats to Web servers?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['malicious', 'entities', 'exploiting', 'software', 'bugs', 'gain', 'unauthorized', 'access', 'denial', 'service', 'attacks', 'distribution', 'sensitive', 'information', 'unauthorized', 'individuals', 'interception', 'transmission', 'changes', 'Web', 'server', 'malicious', 'purposes']"
+                    ],
+                    "expected_output": [
+                        "Some common security threats to Web servers include malicious entities exploiting software bugs to gain unauthorized access, denial of service attacks, distribution of sensitive information to unauthorized individuals, interception of sensitive information during transmission, and changes to Web server information for malicious purposes."
+                    ]
+                },
+                {
+                    "key": "d5aa8237-9bd9-4fde-a7ee-b6fa0d992aef",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting agency in maintaining a secure Web server?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['configuring', 'protecting', 'analyzing', 'backing up', 'maintaining', 'establishing', 'following', 'testing', 'applying', 'periodically']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency is responsible for configuring, protecting, and analyzing log files, backing up critical information frequently, maintaining a protected authoritative copy of the organization's Web content, establishing and following procedures for recovering from compromise, testing and applying patches in a timely manner, and testing security periodically."
+                    ]
+                },
+                {
+                    "key": "c3008ef4-9e85-4bf3-b5cb-2853bb5cf958",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some controls that can be implemented to protect Web servers from unauthorized access or modification?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['installing', 'enabling', 'limiting', 'defining', 'disabling', 'defining']"
+                    ],
+                    "expected_output": [
+                        "Some controls that can be implemented to protect Web servers from unauthorized access or modification include installing or enabling only necessary services, limiting uploads to directories that are not readable by the Web server, defining a single directory for all external scripts or programs executed as part of Web content, disabling the use of hard or symbolic links, and defining a complete Web content access matrix."
+                    ]
+                },
+                {
+                    "key": "3245b65e-aa9a-47d5-a386-3ef3e5a7b3b9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a firewall environment?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['filter', 'inspect', 'proxy', 'monitor', 'authenticate']"
+                    ],
+                    "expected_output": [
+                        "The purpose of a firewall environment is to filter packets and protocols, perform inspection of connections, perform proxy operations or selected applications, monitor traffic allowed or denied by the firewall, and provide authentication to users using a form of authentication that does not rely on static, reusable passwords that can be sniffed."
+                    ]
+                },
+                {
+                    "key": "0a296813-5b7b-4c00-b8db-f4f8bd3ad569",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting agency in terms of Internet security?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['up to date']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency responsible for Internet security will keep operational systems and applications software up to date, because software systems are so complex that it is common for security-related problems to be discovered only after the software has been in widespread use."
+                    ]
+                },
+                {
+                    "key": "eec4a12f-dcc2-4501-abc9-92732966eef2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the importance of testing and applying patches in a timely manner?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['testing', 'patches', 'security', 'vulnerabilities', 'malicious']"
+                    ],
+                    "expected_output": [
+                        "Testing and applying patches in a timely manner is important to ensure that security vulnerabilities are addressed before they can be exploited by malicious entities."
+                    ]
+                },
+                {
+                    "key": "e84a9312-08ad-475b-8c6e-49f90060c195",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a host-based intrusion detection system?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['host-based', 'intrusion', 'detection', 'system']"
+                    ],
+                    "expected_output": [
+                        "A host-based intrusion detection system is used to detect intrusions and verify Web content."
+                    ]
+                },
+                {
+                    "key": "782b707f-80b1-4450-9dfc-184d70e090c0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a Web content access matrix?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['which', 'and', 'by']"
+                    ],
+                    "expected_output": [
+                        "A Web content access matrix is used to identify which folders and files within the Web server document directory are restricted and which are accessible, and by whom."
+                    ]
+                },
+                {
+                    "key": "d947cd17-c4b1-4c45-96d5-7c31811d251f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting agency responsible for Internet security?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['keep', 'restrict', 'configure', 'protect', 'allow', 'design', 'implement', 'monitor']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency responsible for Internet security will keep operational systems and applications software up to date, restrict only essential network services and operating system on the host server, configure computers for file backup, protect computers from viruses and programmed threats, allow only appropriate physical access to computers, and design, implement and monitor an effective firewall system."
+                    ]
+                },
+                {
+                    "key": "104b50c2-657b-4dc6-8920-d621052d9488",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the characteristics of a world-class Help Desk?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsiveness', 'knowledge', 'feedback', 'improvement']"
+                    ],
+                    "expected_output": [
+                        "A world-class Help Desk is characterized by responsiveness, knowledge, feedback, and improvement. The speed at which issues are resolved, the number of requests handled by the first level in support, the follow-up with the user community on status, security, and the monitoring of performance with the goal of continuous improvement are the characteristics that separate a progressive, secure, mission-critical operation from the ordinary, reactive operation."
+                    ]
+                },
+                {
+                    "key": "1a00fcee-8048-495b-b9ad-3f8df39b128b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the mandate of the help desk function?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['adherence', 'policies', 'procedures', 'ownership', 'calls', 'front-line', 'password', 'printer', 'routing', 'system', 'technical', 'queries', 'knowledge', 'expert', 'reporting', 'monitoring', 'incidents', 'suspicious', 'activity', 'violations', 'security']"
+                    ],
+                    "expected_output": [
+                        "The mandate of the help desk function includes adherence to all policies and procedures as published, recommendation of new and/or changes to policies and procedures, ownership of all calls until reassigned or routed, performance of all front-line tasks such as password resets, printer resets, etc., routing of system or technical queries to the knowledge expert responsible, reporting on and monitoring calls, and reporting and escalation of all incidents of suspicious activity or violations of security."
+                    ]
+                },
+                {
+                    "key": "6317b140-c202-4951-9fb2-5d33bfc089b4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the suggested reports required for managing the Help Desk?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['incident reports', 'call activity reports', 'open calls reports', 'daily activity reports', 'repeat calls reports']"
+                    ],
+                    "expected_output": [
+                        "The suggested reports required for managing the Help Desk include incident reports, call activity reports, open calls reports, daily activity reports, and repeat calls reports."
+                    ]
+                },
+                {
+                    "key": "c4b806f6-b960-4395-9922-59a98a533ed5",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for call handling and routing?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsibility', 'help desk function']"
+                    ],
+                    "expected_output": [
+                        "Call handling and routing is the responsibility of the hosting agency's help desk function."
+                    ]
+                },
+                {
+                    "key": "b237ced6-44eb-46d1-aec5-de52bb72c90b",
+                    "prompt": "Respond to the following question.\n\nQuestion: How will the help desk function verify the identity of the caller?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['name', 'question', 'answer', 'Systems Access Authorization Request']"
+                    ],
+                    "expected_output": [
+                        "The help desk function will verify the identity of the caller by obtaining their name and verifying a question and answer submitted on a Systems Access Authorization Request."
+                    ]
+                },
+                {
+                    "key": "ee40fda4-8203-431f-b573-362e03c7413e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the incident report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['purpose', 'incident', 'report', 'status', 'escalate', 'resolution']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the incident report is to provide all known information about an incident, including its status, and to escalate it to the appropriate personnel for resolution."
+                    ]
+                },
+                {
+                    "key": "ecf5d9d0-c473-4c8f-9e25-176bc875fa9e",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should the call activity report, open calls report, and daily activity report be distributed?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['monthly', 'weekly', 'daily']"
+                    ],
+                    "expected_output": [
+                        "The call activity report should be distributed monthly, the open calls report should be distributed weekly, and the daily activity report should be distributed daily."
+                    ]
+                },
+                {
+                    "key": "b48e48af-341b-4111-b8c7-fbb7656af748",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who should receive the repeat calls report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['knowledge expert', 'director', 'agency']"
+                    ],
+                    "expected_output": [
+                        "The repeat calls report should be distributed to the knowledge expert and the director of the agency generating the calls."
+                    ]
+                },
+                {
+                    "key": "556552ad-b6fe-4e94-ad0c-4a2ac38d68b8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Systems Access Authorization Request?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The purpose of the Systems Access Authorization Request is to verify the identity of the caller and ensure that only authorized personnel have access to sensitive information and systems.']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Systems Access Authorization Request is to verify the identity of the caller and ensure that only authorized personnel have access to sensitive information and systems."
+                    ]
+                },
+                {
+                    "key": "58c5d3fd-62b0-409c-adc9-e4a337f497ec",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting state agency's help desk function regarding password resets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['confirming', 'identity', 'requestor', 'resetting', 'password']"
+                    ],
+                    "expected_output": [
+                        "The hosting state agency's help desk function is responsible for confirming the identity of the requestor and resetting the password."
+                    ]
+                },
+                {
+                    "key": "d0cbe619-1c56-4544-aa25-7233c85a5c4e",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the help desk function verify the identity of the caller?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['name', 'question', 'answer', 'User ID', 'agency', 'phone number']"
+                    ],
+                    "expected_output": [
+                        "The help desk function verifies the identity of the caller by obtaining their name, verifying a question and answer submitted on a Systems Access Authorization Request, and requesting additional information such as User ID, agency, and phone number."
+                    ]
+                },
+                {
+                    "key": "3dd0a76d-26b6-422c-b983-b2667b020639",
+                    "prompt": "Respond to the following question.\n\nQuestion: What constitutes a security breach in the context of password resets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['discrepancies', 'inability', 'frequent', 'obvious']"
+                    ],
+                    "expected_output": [
+                        "Discrepancies in answers, inability to provide the correct User ID, frequent requests for changes to the same User ID, or obvious password sharing constitute security breaches."
+                    ]
+                },
+                {
+                    "key": "2df96eb1-0cac-41b5-b318-250faecfa229",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the host agency's Help Desk regarding suspicious activity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['reporting', 'suspicious', 'activity', 'immediately']"
+                    ],
+                    "expected_output": [
+                        "The host agency's Help Desk is responsible for reporting all suspicious activity to the security Administrator immediately."
+                    ]
+                },
+                {
+                    "key": "645200ce-ebce-44ec-b534-77a404edc72e",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can the voice mail feature of many PBXs be a vulnerable feature?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['vulnerable', 'PBX', 'extension', 'password']"
+                    ],
+                    "expected_output": [
+                        "The voice mail feature can be vulnerable because it grants the general public access to the PBX system and can be easily accessed using a target extension and password."
+                    ]
+                },
+                {
+                    "key": "ca8a54ca-67c5-4b14-a08e-69507d57080a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some guidelines to secure the contents of voice mail?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['changing', 'avoiding', 'requiring', 'disallowing']"
+                    ],
+                    "expected_output": [
+                        "Some guidelines to secure the contents of voice mail include changing default and obvious passwords, avoiding non-terminated password entry, requiring a complete password to be entered before rejecting an incorrect password, and disallowing access to external lines via the Voice Mail system."
+                    ]
+                },
+                {
+                    "key": "b0f83075-d65b-41ee-898a-ad18e45d8e5f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Physical and Environmental Security section of the Information Security Policies, Procedures, and Guidelines?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Physical', 'Environmental', 'Security', 'guidelines', 'information', 'systems']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Physical and Environmental Security section is to establish guidelines for the physical and environmental security of the organization's information systems."
+                    ]
+                },
+                {
+                    "key": "a547b253-09f5-4d1a-a78c-9a570847aad0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the requestor in requesting a password reset?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['confirming', 'identity', 'Agency', 'phone number']"
+                    ],
+                    "expected_output": [
+                        "The requestor is responsible for confirming their identity and providing additional information as may be requested, such as Agency and phone number."
+                    ]
+                },
+                {
+                    "key": "d0756448-36c6-4877-b8b1-1f79b76d682a",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should password resets be reported to each State Agency involved?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['monthly']"
+                    ],
+                    "expected_output": [
+                        "Password resets should be reported monthly to each State Agency involved."
+                    ]
+                },
+                {
+                    "key": "a54db099-02b5-4884-b196-801b14af441e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the December 2017 revision date in the context of the Information Security Policies, Procedures, and Guidelines?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['December 2017', 'revised', 'updated']"
+                    ],
+                    "expected_output": [
+                        "The revision date of December 2017 indicates that the policies, procedures, and guidelines were revised and updated as of that date, and any previous versions should be replaced with the updated version."
+                    ]
+                },
+                {
+                    "key": "44b2b2bd-ae9d-4d6e-b0e8-0e0056fecb68",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the maximum number of sequential attempts allowed for guessing a password on a system with a fixed password length of four and uses the digits 0-9?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['40']"
+                    ],
+                    "expected_output": [
+                        "40 sequential attempts."
+                    ]
+                },
+                {
+                    "key": "a0de3e40-e5c9-4abd-9df2-20ac79974a28",
+                    "prompt": "Respond to the following question.\n\nQuestion: How many guesses would be required to guess a password on a system that required all four digits to be entered at most 10,000 guesses?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['10,000']"
+                    ],
+                    "expected_output": [
+                        "10,000 guesses."
+                    ]
+                },
+                {
+                    "key": "aa96a38d-6676-4ed5-9357-3ec920d11000",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the hosting agency regarding physical security plan for computer and telecommunication assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['responsibility', 'hosting', 'agency', 'physical', 'security', 'plan', 'computer', 'telecommunication', 'assets']"
+                    ],
+                    "expected_output": [
+                        "The hosting agency has the responsibility for documentation, execution, monitoring, and testing of a physical security plan for both computer and telecommunication assets."
+                    ]
+                },
+                {
+                    "key": "d00485a8-3f69-46a6-85bd-2c499726951b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the five elements that must be addressed in a physical security plan?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['A', 'B', 'C', 'D', 'E']"
+                    ],
+                    "expected_output": [
+                        "(A) changes in the environment to reduce exposure, (B) measures to reduce the effect of a threat, (C) improved control procedures, (D) early detection, and (E) contingency plans."
+                    ]
+                },
+                {
+                    "key": "938a54f4-0a34-49d9-be7a-d82ce950f250",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a service level agreement?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['service level agreement', 'performance', 'metrics', 'incidents', 'security policies', 'procedures', 'guidelines', 'best practices']"
+                    ],
+                    "expected_output": [
+                        "A service level agreement is used to compare performance to the metrics established in the agreement and incidents that occur in violation of security policies, procedures, guidelines, and best practices."
+                    ]
+                },
+                {
+                    "key": "1827f4cc-5cb1-4a70-8cfb-97df6efd73a3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the goal of hosting agencies in establishing a service level agreement?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['99.9%+', 'metrics', 'agreement']"
+                    ],
+                    "expected_output": [
+                        "The goal of hosting agencies in establishing a service level agreement is to achieve 99.9%+ of the metrics established in the agreement."
+                    ]
+                },
+                {
+                    "key": "f576fbc3-6e05-4ce5-95da-a1ce0405976d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some examples of offensive actions to protect the security of physical assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['routine', 'changes', 'passwords', 'develop', 'routine', 'locks', 'combinations', 'critical', 'rotate', 'monitor', 'latest', 'versions', 'firewall', 'software', 'maintain', 'vendor', 'contact', 'list', 'routine', 'backups', 'off-site', 'storage', 'system', 'programs', 'redundant', 'lines', 'critical', 'testing', 'recovery', 'procedures']"
+                    ],
+                    "expected_output": [
+                        "(A) routine changes of passwords, (B) develop an escalation procedure of incidents, (C) routine changes of locks or combinations to the facilities, (D) have more than one person knowledgeable for critical functions, (E) rotate shifts or people between functions, (F) monitor all incursion attempts, (G) install latest versions of firewall software, (H) maintain 24x7 vendor contact list, (I) routine backups, (J) off-site storage of system information and programs, (K) redundant components, lines for critical systems, and (L) testing of recovery procedures."
+                    ]
+                },
+                {
+                    "key": "de210cab-9fdf-4ee8-8f61-6aa1e91b15ab",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some examples of defensive actions to protect the security of physical assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['(A)', '(B)', '(C)', '(D)', '(E)', '(F)']"
+                    ],
+                    "expected_output": [
+                        "(A) report and action all deviations to security policies, procedures, guidelines, and best practices, (B) shut down any infected machine immediately, (C) disconnect any problem areas from the network, (D) revoke privileges of users violating policies, (E) assign severity to an issue and escalate, and (F) acquire knowledgeable resources."
+                    ]
+                },
+                {
+                    "key": "5c39a0bb-e95a-4343-a576-2489bf3434b8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of backup facilities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Backup', 'facilities', 'ensure', 'essential', 'business', 'information', 'software', 'recovered', 'disaster', 'media', 'failure']"
+                    ],
+                    "expected_output": [
+                        "Backup facilities are used to ensure that all essential business information and software can be recovered following a disaster or media failure."
+                    ]
+                },
+                {
+                    "key": "20b61077-fbb8-404a-b3d4-4296b036ef9c",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should backups be tested?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['regularly']"
+                    ],
+                    "expected_output": [
+                        "Backups should be tested regularly to ensure that they meet the requirements of business continuity plans."
+                    ]
+                },
+                {
+                    "key": "934d8df8-ca93-452b-980c-c38f6e9fa6e7",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of taking back-up copies of essential business information and software?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ensure', 'recovered', 'disaster', 'media', 'failure']"
+                    ],
+                    "expected_output": [
+                        "The purpose of taking back-up copies of essential business information and software is to ensure that all essential business information and software can be recovered following a disaster or media failure."
+                    ]
+                },
+                {
+                    "key": "e04d2369-b660-4083-96eb-7d31f286325b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the minimum level of back-up information that should be stored in a remote location?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['three', 'generations', 'cycles', 'back-up', 'information', 'remote', 'location']"
+                    ],
+                    "expected_output": [
+                        "The minimum level of back-up information that should be stored in a remote location is a minimum of three generations or cycles of back-up information for important business applications."
+                    ]
+                },
+                {
+                    "key": "8efa7718-6f95-482e-956e-37780133a5ab",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should back-up media be tested to ensure that they can be relied upon for emergency use?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['regularly', 'tested', 'practicable', 'emergency']"
+                    ],
+                    "expected_output": [
+                        "Back-up media should be regularly tested, where practicable, to ensure that they can be relied upon for emergency use when necessary."
+                    ]
+                },
+                {
+                    "key": "d31e14ab-49e5-47a1-be8c-bd9bdd4c31d9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of restoration procedures?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ensure', 'completed', 'time', 'allotted', 'operational', 'procedures', 'recovery']"
+                    ],
+                    "expected_output": [
+                        "The purpose of restoration procedures is to ensure that they can be completed within the time allotted in the operational procedures for recovery."
+                    ]
+                },
+                {
+                    "key": "c374698e-e5b8-4453-89cb-b401b4eeb78b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for archive copies to be permanently retained?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['determined']"
+                    ],
+                    "expected_output": [
+                        "The retention period for essential business information and any requirement for archive copies to be permanently retained should be determined."
+                    ]
+                },
+                {
+                    "key": "89bebea7-ea5f-4384-8bdc-58db5e5c0f0c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the guidelines for controlling logical access to information and physical assets?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['documenting', 'adhering', 'granting', 'modifying', 'revoking', 'ensuring', 'installing', 'detection', 'mechanisms', 'unauthorized', 'access', 'inactivity', 'period']"
+                    ],
+                    "expected_output": [
+                        "The guidelines for controlling logical access include documenting and adhering to procedures for granting, modifying, and revoking access, ensuring segregation of duties for access, installing detection mechanisms for unauthorized access attempts, and revoking access after an inactivity period of 60 days."
+                    ]
+                },
+                {
+                    "key": "42439bc9-803e-4080-b9e6-a5ad113feb51",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the physical access control guidelines for all agencies?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['secured', 'locked', 'telecommunication', 'computer-related', 'equipment', 'access', 'codes', 'secure', 'facilities', 'keys', 'missing', 'locking', 'mechanisms']"
+                    ],
+                    "expected_output": [
+                        "The physical access control guidelines for all agencies include securing all telecommunication and computer-related equipment in a locked environment, changing access codes for secure environments at least every 60 days, accounting for all keys issued for those facilities, and replacing locking mechanisms when a key is missing."
+                    ]
+                },
+                {
+                    "key": "f1a3194a-6d9d-4ee5-98bc-35981126ed9b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of segregation of duties in access control?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['segregation', 'access', 'control', 'unauthorized', 'systems', 'data']"
+                    ],
+                    "expected_output": [
+                        "The purpose of segregation of duties in access control is to prevent unauthorized access to systems or data."
+                    ]
+                },
+                {
+                    "key": "a8895a0f-a3a4-45f5-b418-0e64349e90ce",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of managing and controlling network connections and network services?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ensure', 'direct', 'access', 'specifically', 'authorized', 'use']"
+                    ],
+                    "expected_output": [
+                        "The purpose of managing and controlling network connections and network services is to ensure that users only have direct access to the services that they have been specifically authorized to use."
+                    ]
+                },
+                {
+                    "key": "8d663208-0a2a-480f-9f9e-a031f51d7e3c",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can the path from the user terminal to the computer service be controlled?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['incorporating', 'restrict', 'route', 'user', 'authorized', 'access', 'enforced', 'path']"
+                    ],
+                    "expected_output": [
+                        "The path from the user terminal to the computer service can be controlled by incorporating controls that restrict the route between a user terminal and the computer services its user is authorized to access, such as creating an enforced path."
+                    ]
+                }
+            ]
+        }
+    ]
+}

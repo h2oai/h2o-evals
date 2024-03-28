@@ -1,0 +1,991 @@
+{
+    "tests": [
+        {
+            "key": "4cffe997-e94e-4a46-8c88-45e3fb0c31c4",
+            "documents": [
+                "Financial_Records_Management.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "9c18b623-98cf-49e1-b99e-166c43582842",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the title of the study led by Anne Thurston that surveyed record-keeping systems in the Commonwealth?\nHow do you respond?\nA. \"A Study on Record-Keeping Systems in the Commonwealth\"\nB. \"Commonwealth Record-Keeping Systems: A Survey\"\nC. \"Record-Keeping in the Commonwealth: A Comprehensive Study\"\nD. \"The Commonwealth Records Management Project\"\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a3d4d304-f425-4ef4-b4d8-30484c4f7324",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the course developed by Michael Roper that focuses on records and archives management?\nHow do you respond?\nA. Records and Archives Management (International)\nB. Archival Studies\nC. A Manual for Small Archives\nD. Handbook for Records Management and College Archives in British Columbia\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d4ede2dd-a57f-4e9a-b251-9d663333603f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the author of the book \"A Manual for Small Archives\"?\nHow do you respond?\nA. Piers Cain\nB. Don Brech\nC. Hella Jean Bartolo\nD. Elizabeth Shepherd\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d22c1643-8701-426b-9400-f00a3f2d0987",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the organization that Piers Cain is the Director of Research, Development and Education for?\nHow do you respond?\nA. International Records Management Trust\nB. Association of Records Managers and Administrators (ARMA International)\nC. Reuters Ltd\nD. International Monetary Fund\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "163971cd-4a90-4561-b570-e567cc9b4ca1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the consultancy company that Don Brech established in 1994?\nHow do you respond?\nA. Records Management International Limited\nB. International Records Management Trust\nC. Reuters Ltd\nD. European Bank for Reconstruction and Development\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ea645a8f-12a6-452e-ae79-10861f3ab575",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Principal Consultant of Records Management International Limited?\nHow do you respond?\nA. Piers Cain\nB. Don Brech\nC. Harry Akussah\nD. Nathan Mnjama\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bda12bab-8533-489c-a6ff-d65e7f3d1f5e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the book that Don Brech co-authored with Piers Cain?\nHow do you respond?\nA. \"A Manual for Small Archives\"\nB. \"Archival Gold: Managing and Preserving Publishers\u2019 Records\"\nC. \"A Handbook for Records Management and College Archives in British Columbia\"\nD. \"Managing Financial Records\"\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "71cc43d0-ec95-4780-833a-b1c27842ee64",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the Director of the International Records Management Trust?\nHow do you respond?\nA. Piers Cain\nB. Don Brech\nC. Harry Akussah\nD. Nathan Mnjama\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fad79841-5ffb-4154-b3f0-636d345f84de",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the university where Don Brech held a foundation appointment?\nHow do you respond?\nA. University of Cambridge\nB. Riverina College of Advanced Education\nC. University of Hong Kong\nD. Northern Territory Archives Service\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d19800c9-6171-405e-ab88-ac4c31d6924e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the organization that Don Brech worked with on the development of records strategies, the design and implementation of records systems and records training programs?\nHow do you respond?\nA. International Records Management Trust\nB. Records Management International Limited\nC. Association of Records Managers and Administrators (ARMA International)\nD. International Council on Archives\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2ffca972-d99b-44d2-9177-5db261563bc8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the author of the book \"Archival Gold: Managing and Preserving Publishers\u2019 Records\"?\nHow do you respond?\nA. Piers Cain\nB. Don Brech\nC. Hella Jean Bartolo\nD. Elizabeth Shepherd\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c1bafe52-c19f-4248-a79a-08b92f2e010f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the Project Steering Group that Piers Cain and Don Brech were a part of?\nHow do you respond?\nA. International Council on Archives\nB. Project Management Consultant\nC. Association of Records Managers and Administrators (ARMA International)\nD. Project Steering Group\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "008e1a5a-adce-4c17-9b81-dc8eaa441d66",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who was appointed as the first Government Records Service Director in the Hong Kong Government in 1989?\nHow do you respond?\nA. Kimberly Barata\nB. Barbara Reed\nC. John Walford\nD. Ron Denault\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "7a2afe84-3d05-4dbe-9cb0-3391127d5846",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is it important for records managers to be involved in managing financial records?\nHow do you respond?\nA. Because accounting staff lack training in records management principles and practices.\nB. Because financial records management is the responsibility of accountants.\nC. Because records managers have a role to play in enhancing accountability and transparency in public sector spending.\nD. Because records managers are responsible for managing all types of records created by central government agencies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "0891be55-9151-4b25-94a7-ddbafccce15c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the main functions and processes of financial management?\nHow do you respond?\nA. Planning, organizing, directing, monitoring, and controlling\nB. Budgeting, accounting, auditing, and financial reporting\nC. Financial planning, financial controlling, financial reporting, and financial analysis\nD. Financial management, financial accounting, financial reporting, and financial analysis\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c51ba3b4-c2e3-4a53-8b36-950c4801dc15",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of record keeping for financial management?\nHow do you respond?\nA. To provide a management framework for the control of financial records.\nB. To assist records managers and non-records staff, including accounting and audit personnel, to manage financial records in support of public accountability and good governance.\nC. To inform policy makers and administrators associated with the financial management process of the value of, and necessity for, the effective management of financial records.\nD. To traditionally assume that financial records management is the responsibility of accountants.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fa019819-d5b2-412c-9570-95153b7e9b7c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of stakeholders in financial management?\nHow do you respond?\nA. Stakeholders are responsible for managing financial records.\nB. Stakeholders are the users of financial information.\nC. Stakeholders are responsible for creating financial records.\nD. Stakeholders are responsible for auditing financial records.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "31332987-c7a5-4b86-93ff-edc81a9af69c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between financial management and accountability?\nHow do you respond?\nA. Financial management is a subset of accountability.\nB. Accountability is a subset of financial management.\nC. Financial management and accountability are unrelated.\nD. Financial management is responsible for ensuring accountability.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "7e546f68-9633-4a2a-8c9f-5827402ec90b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of an Accounting Records Retention Schedule?\nHow do you respond?\nA. To provide a management framework for the control of financial records.\nB. To assist records managers and non-records staff, including accounting and audit personnel, to manage financial records.\nC. To inform policy makers and administrators associated with the financial management process of the value of, and necessity for, the effective management of financial records.\nD. To determine how long financial records should be kept before they are destroyed or archived.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "7476fe1f-8192-422f-8cba-c436fe13c4f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the module discussed in the text?\nHow do you respond?\nA. To teach records managers how to manage records generated by financial systems.\nB. To equip records managers to analyze the various components of financial systems and then to apply records management principles.\nC. To cover records management principles in depth.\nD. To provide a solid grounding in and experience with records management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b8283527-e36e-4993-b4ce-94c6d93e64d0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is it important for records managers to understand financial management?\nHow do you respond?\nA. Because they need to be able to analyze financial data to make informed decisions.\nB. Because they need to understand the language of accountants and auditors to communicate effectively.\nC. Because they need to be able to create financial records, not just manage them.\nD. Because they need to be able to identify and mitigate financial risks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e90863b5-b744-433e-9bdb-f7da10bcef7d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two reasons for including a high level of financial information in the module?\nHow do you respond?\nA. To enable records managers to speak the language of accountants and auditors.\nB. To equip records managers to analyze the various components of financial systems.\nC. To teach records managers how to manage the records generated by financial systems.\nD. To cover records management principles in detail.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "70aeb277-0666-4447-91e9-4ef8eacd5b10",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of records management?\nHow do you respond?\nA. The process of managing and maintaining financial records.\nB. The area of general administrative management concerned with achieving economy and efficiency in the creation, maintenance, use, and disposal of an organization's records throughout their entire life cycle and in making the information they contain available in support of the business of that organization.\nC. The planning, controlling, implementation, and monitoring of fiscal policies and activities, including the accounting and audit of revenue, expenditure, assets, and liabilities.\nD. The process of creating, maintaining, and disposing of records resulting from the conduct of business and activities relating to financial management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7954062a-c585-40de-b415-547d3bd33abc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of record keeping for financial management?\nHow do you respond?\nA. To ensure that financial records are accurate and reliable.\nB. To provide stakeholders with timely and relevant information.\nC. To comply with legal and regulatory requirements.\nD. To support strategic decision-making.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "39df47ef-6a36-4222-a6b8-6edfcb6ab2c0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who are stakeholders in financial records management?\nHow do you respond?\nA. Financial managers only.\nB. Records managers only.\nC. Auditors only.\nD. All those who have an interest in the financial records of an organization, including financial managers, records managers, auditors, and users.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "59808a3a-4e5f-41d3-a849-e22b1a48e372",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the business functions and processes of financial management?\nHow do you respond?\nA. Planning, controlling, implementation, and monitoring of fiscal policies and activities.\nB. Accounting and auditing of revenue, expenditure, assets, and liabilities.\nC. Management of records generated by financial systems.\nD. Analysis of stakeholders, functions, and processes.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "91f96d66-a5cb-4193-81f1-ad666ee7a88d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should financial records be managed in a mixed paper/electronic environment?\nHow do you respond?\nA. By scanning all paper records and storing them electronically.\nB. By maintaining separate paper and electronic filing systems.\nC. By using a hybrid system that combines elements of both paper and electronic records.\nD. By relying solely on paper records and avoiding electronic records altogether.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "bf7e61dc-e620-42f6-a501-982b11543c5f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are integrated financial management systems?\nHow do you respond?\nA. Financial management systems that combine paper and electronic records.\nB. Financial management systems that integrate various business functions and processes.\nC. Financial management systems used by stakeholders to analyze financial records.\nD. Financial management systems used for accounting and auditing purposes.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "38a7322c-764a-4e00-ab1b-6ce067402719",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the module described in the text?\nHow do you respond?\nA. To teach students how to manage financial records in a mixed paper/electronic records environment.\nB. To introduce the concepts involved with integrated financial management systems.\nC. To explain the importance of good record-keeping for efficient and effective financial management.\nD. To provide a comprehensive guide to financial management, including accounting and auditing revenue, expenditure, assets, and liabilities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4c0599c5-804f-4822-9259-04fe70f86ecc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the seven lessons in the module?\nHow do you respond?\nA. Understanding the importance of good record keeping for efficient and effective financial management.\nB. Appreciating the role and importance of stakeholders in financial records management.\nC. Understanding the business functions and processes of financial management, in relation to the records generated.\nD. Understanding the information systems and records created by financial management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b34cb60c-ee5d-43db-adff-bd1c8ca4b8d3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of record keeping in financial management?\nHow do you respond?\nA. It helps in planning, controlling, and monitoring financial policies and activities.\nB. It is not important as financial management only deals with financial objectives, policies, and strategies.\nC. It helps in managing daily cash management activities.\nD. It is important for formulating short, medium, and long-term financial objectives, policies, and strategies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6e688e8e-747d-451a-8780-7c09f6a62b7b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of stakeholders in financial records management?\nHow do you respond?\nA. Stakeholders play no role in financial records management.\nB. Stakeholders are responsible for the creation, maintenance, and disposal of financial records.\nC. Stakeholders are the primary users of financial records and provide input on the design and structure of financial records systems.\nD. Stakeholders have no direct involvement in financial records management but may be impacted by the information contained in financial records.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "52787147-0e53-4638-ab57-1f4a59db3996",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the business functions and processes of financial management?\nHow do you respond?\nA. Planning, controlling, implementing, and monitoring fiscal policies and activities. (Correct)\nB. Managing daily cash management and formulating short-, medium- and long-term financial objectives, policies, and strategies.\nC. Accounting and auditing revenue, expenditure, assets, and liabilities.\nD. Implementing and monitoring financial records management systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "33e332eb-9e01-4327-996f-51337ccf3fe9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the glossary of specific financial terms included in the module?\nHow do you respond?\nA. To provide a comprehensive list of all financial terms used in the module\nB. To define and explain key financial concepts relevant to the module's topics\nC. To provide a list of recommended readings for further study on financial management\nD. To summarize the major points covered in each lesson of the module\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "012d85d7-9da5-4b42-b7ca-0bff42642b4f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of integrated financial management systems?\nHow do you respond?\nA. To enable organizations to efficiently and effectively manage their financial resources.\nB. To provide stakeholders with accurate and timely financial information.\nC. To ensure compliance with financial regulations and standards.\nD. To facilitate the creation of financial records in a mixed paper/electronic environment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "25feab39-8e9a-4acb-9c12-430fb53cdf87",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main focus of financial management in the public sector?\nHow do you respond?\nA. Ensuring resources are matched to objectives.\nB. Accountability.\nC. Efficiency.\nD. Economic stability.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d2df9731-0f22-4715-93c2-1711b89710c8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of financial accountability in government?\nHow do you respond?\nA. To ensure that financial records are managed efficiently.\nB. To maintain a stable economy.\nC. To measure and verify the performance of government.\nD. To improve the efficiency and value of money.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c469c91b-7d68-43dc-aa45-337968b7adf2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the National Audit Office in ensuring financial accountability in government?\nHow do you respond?\nA. To carry out 'value for money' audits to ensure that public spending is minimized.\nB. To manage the government's economy according to its fiscal policies, interest rates, and regulatory environment.\nC. To control expenditure and ensure that public spending is in accordance with the government's strategic priorities.\nD. To maintain the government's commitment to its citizens by enhancing control over financial management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5ecfbb02-66b4-48d2-8030-4fb61a7a56ce",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of financial management in ensuring efficiency in government?\nHow do you respond?\nA. Financial management ensures that money is allocated in accordance with the government's strategic priorities.\nB. Financial management focuses on controlling expenditure to minimize borrowing.\nC. Financial management ensures the government makes the best use of resources.\nD. Financial management is not involved in ensuring efficiency in government.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "8ccb5449-66ac-440d-9d5a-4fa98ab8fa3e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between government and financial management?\nHow do you respond?\nA. Financial management is a tool for the government to manage its finances well and contribute to the overall stability of the nation.\nB. Financial management is a tool for the private sector to manage its finances well and contribute to the overall stability of the nation.\nC. Government and financial management are unrelated concepts.\nD. Financial management is a tool for non-profit organizations to manage their finances well and contribute to the overall stability of the nation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e2e7990e-25a0-4f02-97ff-06956c85d398",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recent trend in financial management?\nHow do you respond?\nA. Focusing less on measuring inputs and more on measuring outputs.\nB. Focusing more on measuring inputs and less on measuring outputs.\nC. Increasing the use of cash accounting methods.\nD. Decreasing the use of accruals accounting methods.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0ff4d52a-b92a-41e4-bef4-1713ef1502fd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is cash accounting?\nHow do you respond?\nA. A method of accounting that recognizes transactions when they occur, irrespective of when cash is paid or received.\nB. A method of accounting that recognizes transactions only when cash is received or paid.\nC. A method of accounting that focuses on budgetary choices among competing policies and treats the different budget objectives as variable.\nD. A method of accounting that divides proposed expenditures into activities and relates the activity to cost.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b8a2cc30-2cc8-44d0-9cfb-efad8331c753",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is accruals accounting?\nHow do you respond?\nA. A method of accounting that recognizes transactions when they occur, irrespective of when cash is paid or received.\nB. A method of accounting that focuses on budgetary choices among competing policies and treats the different budget objectives as variable.\nC. A method of accounting that lists expenditures for the coming year according to objects of expenditure, or 'line' items.\nD. A method of accounting that arrives at a budget by literally starting from scratch and answering questions such as 'what if we did not have an army?' or 'what if national insurance did not exist?'\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5e80991b-f300-4e9c-9dd3-ee66d7bce3bd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does zero-based budgeting differ from other methods of budgeting?\nHow do you respond?\nA. Zero-based budgeting starts from a clean slate and re-evaluates all budgetary choices, whereas other methods base their budgets on previous years' expenditures.\nB. Zero-based budgeting focuses on budgetary choices among competing policies, whereas other methods prioritize expenditures based on line items or activities.\nC. Zero-based budgeting uses cash accounting, whereas other methods use accruals accounting.\nD. Zero-based budgeting is less useful as an annual budget tool compared to other methods.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "577ebb09-6b2a-44dc-8de6-61f49ceb8215",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is accruals accounting?\nHow do you respond?\nA. A method of accounting that recognizes transactions when cash is paid or received.\nB. A method of accounting that recognizes transactions when they occur, regardless of when cash is paid or received.\nC. A method of accounting that focuses on the use of resources and performance measurement.\nD. A method of accounting that prioritizes expenditures to allocate resources efficiently and equitably.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e57da4d1-a2ea-4681-97b8-9a47215313e8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What role do records play in financial management?\nHow do you respond?\nA. Records provide evidence of financial management activity and support accountability and control.\nB. Records are not essential for financial management, as they can be easily recreated if needed.\nC. Records are only needed for reference and decision-making purposes and do not contribute to financial management.\nD. Records are used to facilitate fraud and abuse in financial management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2c3e15b6-9299-4101-93df-d3eec84b44b8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of internal controls in financial management?\nHow do you respond?\nA. Internal controls help to ensure that financial records are accurate and complete, supporting accountability and control.\nB. Internal controls are not necessary in financial management as they do not provide any significant benefits.\nC. Internal controls are only important in countries operating the Exchequer system of financial management.\nD. Internal controls are only needed for large businesses and not for small organizations or government agencies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0179059f-d7c9-41de-a8c4-ede21a8bd61e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for issuing regulations for the control of financial management systems?\nHow do you respond?\nA. The Accountant General\nB. The Public Service Commission\nC. The Permanent Secretary to the Treasury\nD. The Exchequer system\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "046ff9e2-18d0-4ac2-a26e-d08ab0c9cc5b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do records support the accounting function?\nHow do you respond?\nA. Records provide the basis for accounting by introducing controls that protect essential audit trails.\nB. Records are used to prepare financial statements, which are then audited by external auditors.\nC. Records are not essential for the accounting function as they can be recreated from memory.\nD. Records are used to support the budgeting process by forecasting future expenditures and revenues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f1bbe961-e9cb-4132-80bd-7ae4b4ef8dae",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What can be done to ensure that financial records are properly controlled?\nHow do you respond?\nA. The Accountant General should issue detailed regulations for the control of financial management systems.\nB. The Public Service Commission should issue detailed regulations for the control of financial management systems.\nC. Each ministry should maintain their own bank accounts and be responsible for their own accounting systems.\nD. The Permanent Secretary to the Treasury should issue general regulations where needed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "38c27e3a-c0cd-47aa-8f5f-5a1af5a83314",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of well-organized and well-managed financial records?\nHow do you respond?\nA. To protect the innocent and combat economic crime\nB. To deliberately allow financial records to become disorganized or to be stored in unsuitable conditions\nC. To inappropriately accuse government officers of embezzling funds\nD. To identify fraud\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "924a3ced-a1a1-451e-918f-ec34d3ddd6e2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of internal control and internal audit procedures in financial management systems?\nHow do you respond?\nA. To provide a layer of security and reassurance that operations are functioning at the required level.\nB. To ensure transparency, probity, and integrity in financial management systems.\nC. To deliberately allow financial records to become disorganized or to be stored in unsuitable conditions.\nD. To identify fraud and prevent unauthorized access, tampering, loss, or destruction of records.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cd9768b5-84da-4c25-b4e8-d3719ff7ab2e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do financial records management systems contribute to the prevention of fraud and corruption?\nHow do you respond?\nA. By allowing unauthorized access to records, increasing the risk of tampering and fraud.\nB. By preventing the physical and logical control of records, making it difficult to locate and manage records.\nC. By enabling the physical and logical control of records, preventing unauthorized access, tampering, loss, or destruction, and ensuring transparency and accountability in financial management systems.\nD. By deliberately disorganizing financial records, making it harder for auditors to identify fraud.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6f1f6093-03e2-4131-aed3-a1c878db2d92",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the special features of financial records that affect their management?\nHow do you respond?\nA. They are found everywhere in government, have a large volume, and are complex.\nB. They are voluminous, have a short retention period, and are vital for controlling fraud and corruption.\nC. They are small in volume, have a long retention period, and are not vital for controlling fraud and corruption.\nD. They are not found everywhere in government, have a small volume, and are simple.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1d817378-44a8-4dd6-b95b-6f67860b8656",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can records managers gain the support of senior managers and other stakeholders for improved financial records management?\nHow do you respond?\nA. By explaining the importance of financial records management in preventing fraud and corruption.\nB. By highlighting the potential legal consequences of poor financial records management.\nC. By emphasizing the benefits of efficient records management in reducing office space and costs.\nD. By demonstrating how good financial records management can improve the organization's financial performance and decision-making.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2eefeea3-74f6-41d4-946b-9b5d846eb5f6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long do financial records need to be kept, and what is the significance of identifying records with archival value?\nHow do you respond?\nA. Financial records need to be kept for 6 or 7 years, and identifying records with archival value is important for preserving historical information.\nB. Financial records need to be kept for 10 years, and identifying records with archival value is not necessary.\nC. Financial records need to be kept indefinitely, and identifying records with archival value is important for legal purposes.\nD. Financial records need to be kept for 5 years, and identifying records with archival value is not important.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "36f9395a-85e2-4d99-b9a5-eed90c6f217b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is it important to manage financial records across the entire spectrum of government?\nHow do you respond?\nA. To ensure that financial records are kept in a single location, making it easier for auditors to locate them.\nB. To prevent fraud and corruption by controlling access to financial records.\nC. To ensure that financial records are stored in suitable conditions to prevent tampering, loss, or destruction.\nD. To allow government officers to locate financial records more easily and efficiently.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3b1d12b5-5ed0-4c4a-b7ca-77688ed4f6e6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why are financial records important for accountability?\nHow do you respond?\nA. They provide a reliable source of evidence for financial decisions and actions.\nB. They help in forecasting and budgeting for future expenditures.\nC. They are essential for determining tax liabilities and recoveries.\nD. They help to prevent fraud and corruption.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "81f99474-dd44-4d81-826b-8562449c722b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the challenges in managing financial records in government?\nHow do you respond?\nA. Inadequate legislation and regulation\nB. Lack of trained records managers\nC. Complexity of financial management systems\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "390e7cc5-ae59-47af-bf9c-c96be824ea95",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of auditors in ensuring compliance with financial record-keeping requirements?\nHow do you respond?\nA. Auditors should comment where there is non-compliance with the legislative requirements for financial record keeping and insist that management implements sanctions against persistent offenders.\nB. Auditors should not be concerned with financial record-keeping requirements as it falls outside their jurisdiction.\nC. Auditors should only review financial records to ensure that they are accurate and complete.\nD. Auditors should be responsible for enforcing financial record-keeping regulations and imposing penalties for non-compliance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dce10ef0-6dec-412e-9527-9e385722e0e6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the legal framework for financial records management in government?\nHow do you respond?\nA. Constitution, laws relating to finance, audit and government records, and pensions legislation.\nB. Constitution, laws relating to finance, audit and government records, and revenue laws.\nC. Laws relating to finance, audit and government records, and pensions legislation.\nD. Laws relating to finance, audit and government records, and revenue laws.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "112634de-ba1f-49d5-9271-242dfc809202",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum period for the retention of revenue files?\nHow do you respond?\nA. Indefinitely, as long as the information is relevant to an audit.\nB. 5 years after the accounts have been audited.\nC. 10 years after the financial year in which the tax or duties were paid.\nD. 20 years after the recovery of tax or duties.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "202bb925-17a9-4c47-9b79-a4e57fdf2980",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of financial management in government?\nHow do you respond?\nA. To ensure that financial records are adequately kept and managed.\nB. To provide a powerful tool in constraining individuals from engaging in corruption.\nC. To generate records that are of considerable historical significance.\nD. To ensure that the organization's financial instructions and accounting manual are followed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "307b03f8-07f6-4695-98b6-692622b2eafb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can financial records be used to protect the innocent from false accusations?\nHow do you respond?\nA. Financial records can be used to provide an audit trail that can be used to prove innocence.\nB. Financial records can be used to hide evidence of wrongdoing.\nC. Financial records can be used to frame innocent individuals.\nD. Financial records are not relevant in protecting the innocent from false accusations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "17d882c0-71c1-4b85-8c60-e82174fb919a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What legislation empowers the audit body to obtain access to all financial records?\nHow do you respond?\nA. Legislation governing the management of government records and archives.\nB. Pensions legislation imposing an obligation on departments to maintain records of contributions.\nC. Revenue laws specifying a time limit on the recovery of tax or duties.\nD. Finance act conferring powers on subsidiary requirements such as accounting instructions and financial regulations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "18f684dd-8f3f-47f8-b920-51411b39e0a7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are financial records increasingly being created?\nHow do you respond?\nA. Using computers\nB. Using paper\nC. Using specialized software\nD. Using manual systems\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "574244ce-74b9-4298-9fa8-74f30768053f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the implications of computerisation for audit evidence?\nHow do you respond?\nA. Computer records are admissible as legal evidence without controls.\nB. Computer records are inadmissible as legal evidence unless controls can be shown to be strong.\nC. Computer records provide less audit assurance than paper records.\nD. Computer records are not subject to audit.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "99986b61-cec7-450a-adb4-3cb54be72647",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is important for ensuring the authenticity and integrity of computer data held by a system?\nHow do you respond?\nA. Strong IT control environment.\nB. Proper documentation of paper records that document the control environment.\nC. Regular audits to assess the reliability of computer data.\nD. Imposing disciplinary action for poor record keeping and providing incentives for better records management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "318d2f28-0c22-4004-b646-09ff7fb3b65a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why are financial records often excluded from the records management process?\nHow do you respond?\nA. They are covered under separate legislation governing the management of government records and archives.\nB. They are usually stored separately from other records.\nC. They are not considered important for the records management process.\nD. They are managed by a different department.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fa8db822-c362-45a0-9a42-0c54f838f992",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the consequences of poor records management in financial systems?\nHow do you respond?\nA. Financial records tend to be excluded from the records management process.\nB. The breakdown of financial systems is often related to the breakdown in records management.\nC. Creating an enabling environment will enhance the success of records management programmes.\nD. Institutions need to promote an environment that will encourage the better maintenance and use of records systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b6dc99fb-4674-4988-9b64-953175994bec",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of creating an enabling environment for records management?\nHow do you respond?\nA. To promote a culture of record-keeping and strengthen the role of records management within an institution.\nB. To ensure compliance with legislation and regulations related to financial records.\nC. To exclude financial records from the records management process.\nD. To automate financial management functions and electronic record-keeping.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1e3c9723-2f7a-420f-a72e-c575a2632cd5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of records managers in promoting records management?\nHow do you respond?\nA. Records managers should develop a culture for creating, maintaining, and using records.\nB. Records managers should strengthen the role of records management and records managers within an institution.\nC. Records managers should identify and strengthen records legislation.\nD. Records managers should impose disciplinary action for poor record keeping and provide incentives for better records management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8c5c6eb2-5aad-42ae-8841-75e8c8a39799",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens when the volume of records grows uncontrolled?\nHow do you respond?\nA. The system of financial management breaks down.\nB. Fraud or errors will not be detected or corrected.\nC. Monitoring systems become inadequate.\nD. Accounts are produced on time, rendering them of limited value for expenditure control and monitoring.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9e66a083-da1a-4daa-8a30-561bd7a5af6a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between financial systems and records management?\nHow do you respond?\nA. Financial systems and records management are unrelated.\nB. Financial systems rely on accurate and complete records.\nC. Records management is a part of financial systems.\nD. Financial systems are a part of records management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4a77e6e9-1421-42d8-b200-05456bbed1f9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is it important to ensure that records systems remain appropriate and effective?\nHow do you respond?\nA. To prevent fraud and errors from going undetected or uncorrected.\nB. To ensure that records are kept in a way that is accessible and easy to use.\nC. To maintain public trust in government financial management.\nD. To ensure that records are stored in a way that takes up minimal space.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5eb65802-0ebd-4ac7-8c2b-9979a4f23f87",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some factors that can improve the chances of success of a records management program?\nHow do you respond?\nA. Strong leadership and senior management support.\nB. Adequate resources and funding.\nC. Effective communication and training.\nD. All of the above.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "50c43fa6-2c66-45c0-b2cc-4d4dd2232cee",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who are some of the stakeholders in public sector financial management?\nHow do you respond?\nA. The public, the head of state, the legislature, the government itself, and ministers outside the cabinet.\nB. The civil service as a whole and separate departments.\nC. The media, non-governmental organizations, and community groups.\nD. Private companies and corporations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "02186500-15d8-4725-a94a-ee3616a8fc86",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why do accounting and auditing rely on accurate records?\nHow do you respond?\nA. To ensure that financial statements are accurate and reliable.\nB. To provide a detailed list of all financial transactions.\nC. To support strategic decision-making.\nD. To comply with legal and regulatory requirements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "881169b4-1651-4229-a04f-b389e4afdb6a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the challenges associated with managing financial records?\nHow do you respond?\nA. Ensuring accuracy and completeness of records\nB. Managing the volume and complexity of records\nC. Ensuring compliance with regulatory requirements\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "93a1149a-5545-478c-8a6c-a9cab10ae545",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who are the stakeholders involved in financial management and record-keeping in a parliamentary system of government?\nHow do you respond?\nA. The legislature, the executive, and the public.\nB. The cabinet, the civil service, and separate departments.\nC. International and bilateral aid agencies, the IMF, and the World Bank.\nD. The British Government\u2019s Department for International Development, United States Agency for International Development, Norwegian Agency for Development Cooperation, and the Danish international aid agency.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "89a36799-029b-4074-84e5-3d20f909bbe3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of international and bilateral aid agencies in financial management and record-keeping?\nHow do you respond?\nA. They provide funding for public sector projects in developing countries and have their own rules for financial reporting, which the recipient country must follow.\nB. They are part of the formal constitutional arrangements for public sector financial management and have a direct role in overseeing financial administration.\nC. They are responsible for ensuring that public money is accounted for and spent wisely.\nD. They are not relevant to financial management and record-keeping in developing countries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c33f536d-d013-47f3-b56b-e3d7b5c3e112",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the conceptual framework for the budget function?\nHow do you respond?\nA. To provide a structure for the management of financial resources\nB. To outline the relationship between key stakeholders in the budget process\nC. To establish rules and regulations for financial reporting and auditing\nD. To allocate funding for public sector projects\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ad606f22-2e81-467c-a7de-05400f427c08",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the delegation of authority in financial management and record-keeping?\nHow do you respond?\nA. It ensures that the executive has full control over financial resources and decision-making.\nB. It allows for checks and balances to prevent fraud and mismanagement of funds.\nC. It gives the legislature the power to manage financial resources and make spending decisions.\nD. It allows citizens to have direct access to public sector financial records.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0c51e131-c4cb-4e3f-9c9f-c303d3f0a70c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the cabinet in financial management and record-keeping?\nHow do you respond?\nA. The cabinet has the authority to approve the budget and financial plans, and is responsible for overseeing their implementation.\nB. The cabinet has no role in financial management and record-keeping, as it is the responsibility of the executive and legislative branches.\nC. The cabinet is responsible for preparing the budget and financial plans, and must submit them to the legislature for approval.\nD. The cabinet has the authority to audit and review financial records to ensure compliance with laws and regulations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b75fa7d4-1e81-4898-aa64-3e4e6bc7ad7b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of financial reporting in financial management and record-keeping?\nHow do you respond?\nA. To provide information to stakeholders for accountability and decision-making.\nB. To manage the whole of government financial reporting.\nC. To demonstrate accountability to the legislature.\nD. To plan, direct and control operations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dee5b2c3-e546-4b07-8b50-bf06e1fe830c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are the financial records generated by the projects funded by international organizations kept?\nHow do you respond?\nA. They are kept separately from the government's other financial records, and their treatment may not be consistent with the government's financial instructions.\nB. They are maintained by the central bank, which is responsible for issuing bank notes, regulating and supporting the country's principal systems for clearing and settling payments, and acting as fiscal agent for federal government debt.\nC. They are managed by the ministry or department in charge of finance and economic planning, which is responsible for overall management and control of public expenditure, government debt, fiscal policy, and long-term financial planning.\nD. They are the responsibility of the Accountant General, who oversees accounting policies and procedures and introduces changes as appropriate.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0fd9a59d-0315-4975-88ba-a47fe662798e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the result of the fragmented financial management system caused by the separate keeping of financial records?\nHow do you respond?\nA. It has resulted in the government's financial instructions being inconsistent with the financial management system.\nB. It has led to the central bank's records being managed entirely separately from other public sector financial records.\nC. It has resulted in the Treasury bringing together and coordinating data produced by each individual ministry or department.\nD. It has resulted in the Accountant General's department being responsible for controlling any centralized accounting system used by the civil service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "343217ec-611b-485d-82c8-11d0cfa5d6e8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the records of the central bank?\nHow do you respond?\nA. They provide a detailed picture of the government's financial transactions and are used to prepare the government's financial statements.\nB. They are used to regulate and monitor the country's monetary policy and banking system.\nC. They are highly sensitive and are often managed entirely separately from other public sector financial records.\nD. They are not important for financial management and are rarely used by policy makers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5b853dcc-5a5e-4678-bb59-fc2e7dd6f808",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the responsibility of the finance ministry\u2019s treasury function?\nHow do you respond?\nA. Setting policy and physically handling funds.\nB. Regulating the receipt and disbursement of funds.\nC. Maintaining the country\u2019s monetary policy, issuing bank notes, regulating and supporting the country\u2019s principal systems for clearing and settling payments and acting as fiscal agent for federal government debt.\nD. Translating the political objectives of the government into financial policies and workable instructions to departments and budgetary units.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}

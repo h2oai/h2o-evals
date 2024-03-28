@@ -1,14 +1,14 @@
 <div align='center'>
 
 <h1>Eval Datasets </h1>
-2️⃣7️⃣ Evaluation Datasets
+3️⃣0️⃣ Evaluation Datasets
 
 <br>
 <br>
 </div>
 
 ## Mission 🚀
-To showcase 27 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
+To showcase 30 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
 
 
 
@@ -71,6 +71,9 @@ Following is the collection of 25 Datasets by different industries, different ev
 | 25. | [Telcom_Telecommunications_regulation_strategy_policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecommunications_regulation_strategy_policy)| `Telecom` | Telecommunications Regulations | 116 | RAG |
 | 26. | [Healthcare_Stanford_Healthcare_Regulations](https://github.com/h2oai/h2o-evals/tree/main/catalog/Healthcare_Stanford_Healthcare_Regulations)| `Health` | Health Regulations | 114 | RAG |
 | 27. | [Banking_Policy_Document](https://github.com/h2oai/h2o-evals/tree/main/catalog/Banking_Policy_Document)| `Banking` | Policy Document | 125 | RAG |
+| 28. | [Finance_Financial_Records_Management](https://github.com/h2oai/h2o-evals/tree/main/catalog/Finance_Financial_Records_Management)| `Finance` | Financial Document | 135 | RAG |
+| 29. | [Security_Information_Security_Policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/Security_Information_Security_Policy)| `Security` | Information Security Policy | 146 | RAG |
+| 30. | [Government_Defense_Management](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_Defense_Management)| `Government` | Defense Management | 137 | RAG |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/h2oai/h2o-evals/issues) for any improvements, suggestions or errors in the content.
