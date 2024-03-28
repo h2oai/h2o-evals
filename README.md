@@ -1,14 +1,14 @@
 <div align='center'>
 
 <h1>Eval Datasets </h1>
-2️⃣6️⃣ Evaluation Datasets
+2️⃣7️⃣ Evaluation Datasets
 
 <br>
 <br>
 </div>
 
 ## Mission 🚀
-To showcase 26 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
+To showcase 27 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
 
 
 
@@ -70,6 +70,7 @@ Following is the collection of 25 Datasets by different industries, different ev
 | 24. | [Government_Immigration_in_Singapore](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_Immigration_in_Singapore)| `Government` | Immigration in Singapore | 122 | RAG |
 | 25. | [Telcom_Telecommunications_regulation_strategy_policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecommunications_regulation_strategy_policy)| `Telecom` | Telecommunications Regulations | 116 | RAG |
 | 26. | [Healthcare_Stanford_Healthcare_Regulations](https://github.com/h2oai/h2o-evals/tree/main/catalog/Healthcare_Stanford_Healthcare_Regulations)| `Health` | Health Regulations | 114 | RAG |
+| 27. | [Banking_Policy_Document](https://github.com/h2oai/h2o-evals/tree/main/catalog/Banking_Policy_Document)| `Banking` | Policy Document | 125 | RAG |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/h2oai/h2o-evals/issues) for any improvements, suggestions or errors in the content.
