@@ -1,0 +1,882 @@
+{
+    "tests": [
+        {
+            "key": "945b0e7a-6373-4e0f-9fa5-7893d4769680",
+            "documents": [
+                "2023Q1_alphabet_earnings_release.pdf",
+                "TSLA-Q1-2023-Update.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "e5af06b7-fe50-4cd7-b1dd-f8959f6ee848",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the revenue of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. $68,011\nB. $69,787\nC. $74,548\nD. $61,961\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e50e3e3f-668c-497f-938f-1cd7dc1d5697",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating income of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. $17,415\nB. $20,094\nC. $11,721\nD. $7,454\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d01d4488-34eb-4499-af53-3a9831edc8f5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the net income of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. $15,051 million.\nB. $16,436 million.\nC. $17,415 million.\nD. $20,094 million.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0523be1e-16e5-415e-970a-b688d13c2384",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the diluted EPS of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. $1.23\nB. $1.17\nC. $1.56\nD. $1.89\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ba5b9d31-128c-4fd8-ad42-0b7f6b9e0fdc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the revenue growth of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. 23%\nB. 3%\nC. 6%\nD. 26%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f88db55e-1530-47d4-adca-d5b5d026c883",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating margin of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. 30%\nB. 25%\nC. 26%\nD. 3%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a3de8b88-f4d0-49e5-ae52-7e0f67161d9c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the number of employees of Alphabet Inc. as of March 31, 2023?\nHow do you respond?\nA. 163,906\nB. 190,711\nC. 11,990\nD. 7,454\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "821f1a4f-c5ba-4816-9f0c-92373bd92e4f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Google Services in the first quarter of 2023?\nHow do you respond?\nA. $17.415 billion\nB. $61.961 billion\nC. $40.359 billion\nD. $11.721 billion\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fbec3890-969e-4068-9525-fadd8252fb1b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Google Cloud in the first quarter of 2023?\nHow do you respond?\nA. $7.454 billion\nB. $5.821 billion\nC. $11.721 billion\nD. $17.415 billion\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "58fc7a07-0839-4f42-9394-427da866f1a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Other Bets in the first quarter of 2023?\nHow do you respond?\nA. $288 million profit\nB. $440 million loss\nC. $84 million profit\nD. $11,721 million loss\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5bd74b64-31af-4ef2-89ce-567710fca4b4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much did Google record in charges related to severance and office space reductions in the first quarter of 2023?\nHow do you respond?\nA. $2.5 billion\nB. $681 million\nC. $1.994 billion\nD. $564 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "bf8dc8b5-1f62-49ac-8909-7686258946d6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much did the change in accounting estimate for the useful lives of servers and network equipment reduce depreciation expense and increase net income in the three months ended March 31, 2023?\nHow do you respond?\nA. $988 million reduction in depreciation expense and $770 million increase in net income.\nB. $770 million reduction in depreciation expense and $988 million increase in net income.\nC. $1.2 billion reduction in depreciation expense and $1.5 billion increase in net income.\nD. $564 million reduction in depreciation expense and $2.5 billion increase in net income.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "938c6b17-dbdb-48af-83ca-ea76f3544186",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the webcast and conference call mentioned in the press release?\nHow do you respond?\nA. To provide information about the company's financial performance and future plans.\nB. To announce the company's earnings release for the first quarter of 2023.\nC. To discuss the company's strategy for growth and development.\nD. To introduce new products and services offered by the company.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0804ec72-e390-4a8a-9c61-aadb3463689d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find the live audio webcast of the conference call?\nHow do you respond?\nA. On YouTube at https://www.youtube.com/watch?v=76CVRgZUfps.\nB. On the company's investor relations website at http://abc.xyz/investor.\nC. On Google's Keyword blog at https://www.blog.google/.\nD. On the SEC website at www.sec.gov.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "20af34bf-2285-43cf-b8a4-d4016f83c1c5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What time does the conference call begin?\nHow do you respond?\nA. 2:00 PM (PT)\nB. 5:00 PM (ET)\nC. 7:00 PM (CT)\nD. 8:00 PM (MT)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ccb8744a-e9ec-4f41-ba42-d42bfd5c6f51",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find the press release, including the reconciliations of certain non-GAAP measures to their nearest comparable GAAP measures?\nHow do you respond?\nA. On the company's investor relations website (http://abc.xyz/investor)\nB. On Google's Keyword blog at https://www.blog.google/\nC. On the SEC website at www.sec.gov\nD. On YouTube at https://www.youtube.com/watch?v=76CVRgZUfps\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "07efa9da-ae69-481d-982d-4657d16ede2d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the non-GAAP financial measures used by the company?\nHow do you respond?\nA. To provide meaningful supplemental information regarding the company's performance and liquidity by excluding certain items that may not be indicative of its recurring core business operating results.\nB. To present a more optimistic financial picture than the GAAP financial measures would suggest.\nC. To comply with the requirements of the Securities and Exchange Commission (SEC).\nD. To provide a basis for the company's financial statements that is different from GAAP.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b0132ef0-940e-46bf-81d8-7035d98a6d68",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the non-GAAP financial measures used by the company?\nHow do you respond?\nA. Free cash flow, constant currency revenues, and percentage change in constant currency revenues.\nB. Revenues excluding the effect of foreign exchange rate movements and hedging activities.\nC. Liquidity and cash flow.\nD. Operating results and performance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "74996223-44b4-47f3-9ee8-2c12a25374e2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why does the company use non-GAAP financial measures?\nHow do you respond?\nA. To provide more accurate financial information\nB. To evaluate period-to-period comparisons\nC. To comply with GAAP regulations\nD. To mislead investors\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "492bc438-dc1c-420d-9308-3a36a491b776",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the company compensate for the limitations of non-GAAP financial measures?\nHow do you respond?\nA. By providing specific information regarding the GAAP amounts excluded from these non-GAAP financial measures and evaluating these non-GAAP financial measures together with their relevant financial measures in accordance with GAAP.\nB. By using these non-GAAP financial measures only for financial and operational decision-making and not for external reporting or comparison with competitors.\nC. By adjusting the non-GAAP financial measures to exclude the effect of foreign exchange rate movements and hedging activities.\nD. By providing a reconciliation of non-GAAP financial measures to their nearest comparable GAAP measures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8590a765-0aea-4b73-899e-7c9bab1254a2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find more information about the company's financial performance and investor events?\nHow do you respond?\nA. On the company's investor relations website (http://abc.xyz/investor)\nB. On Google's Keyword blog (https://www.blog.google/)\nC. On the SEC website (www.sec.gov)\nD. On YouTube (https://www.youtube.com/watch?v=76CVRgZUfps)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a14b09d1-5f7a-49f7-9ed9-1df72fec8047",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of cash and cash equivalents that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $21,879\nB. $25,924\nC. $113,762\nD. $115,102\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "68b95acd-43f6-4ca2-8fca-b6e6dfc075c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of accounts receivable, net, that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $40,258\nB. $36,036\nC. $115,102\nD. $161,985\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "56b8ead1-c6a3-4b27-a1e7-83c5f5bc4b32",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of inventory that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $2,315\nB. $2,670\nC. $3,759\nD. $6,533\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a6529724-c904-44ad-b4c2-91351b27a499",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of other current assets that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $8,105\nB. $6,439\nC. $11,985\nD. $14,532\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d32de466-ae5d-4a37-b749-63a29ea16400",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of non-marketable securities that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $30,492\nB. $31,213\nC. $32,341\nD. $33,478\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cf18c162-5bbc-4187-be64-984bbdd42a40",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of deferred income taxes that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $5,261\nB. $6,885\nC. $9,258\nD. $514\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b7640768-2e06-4fca-8a5f-4da6e673d2cf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of operating lease assets that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $14,381\nB. $14,447\nC. $115,102\nD. $161,985\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d7ee9be9-157f-4cb1-ba08-3cc20573ece3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of goodwill that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $28,960\nB. $31,213\nC. $196,625\nD. $369,491\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a448f7ff-e680-4a49-b297-ed8e71e8e7df",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income for the quarter ended March 31, 2023?\nHow do you respond?\nA. $15,051\nB. $16,436\nC. $23,509\nD. $25,924\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "eb5c164c-fd22-4db0-aba4-06c46384292f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the operating income for the Google Services segment for the quarter ended March 31, 2023?\nHow do you respond?\nA. $21,737\nB. $21,973\nC. $17,415\nD. $19,415\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3c948d24-fd8b-4eae-8399-be52246765d7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the revenue generated by the Google Cloud segment for the quarter ended March 31, 2023?\nHow do you respond?\nA. $5,821\nB. $7,454\nC. $191\nD. $69,787\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8448956d-9b31-4adf-b0c2-379df70c623c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total income from operations for the quarter ended March 31, 2023?\nHow do you respond?\nA. $20,094\nB. $17,415\nC. $21,737\nD. $25,924\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f7864673-21d0-49b2-a9cc-31a5ee827cd1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the amount of depreciation and impairment of property and equipment for the quarter ended March 31, 2023?\nHow do you respond?\nA. $3,591\nB. $191\nC. $2,090\nD. $1,854\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "75e0e721-de36-41e9-9eea-96686e0b38c3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating income of Google Services in the first quarter of 2023?\nHow do you respond?\nA. $21,973\nB. $20,222\nC. $18,883\nD. $17,135\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fdbffb9d-6064-4522-8b2f-c3efc2dc38b0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did constant currency revenues change from the quarter ended March 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. Increased by $4.1 billion or 6%\nB. Decreased by $7.1 billion or 9%\nC. Increased by $7.1 billion or 11%\nD. Decreased by $4.1 billion or 6%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "91ed7ef5-0544-49fc-97da-2ee9b71e3596",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did revenues, excluding hedging effect, change from the quarter ended December 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. Increased by $4.1 billion, or 6%\nB. Decreased by $7.1 billion, or 9%\nC. Increased by $1.4 billion, or 2%\nD. Decreased by $11.1 billion, or 16%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "764cdfa8-33f9-4995-bfea-b4a69328e62f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the hedging gain (loss) for the quarter ended March 31, 2023?\nHow do you respond?\nA. $278\nB. $84\nC. $(109)\nD. $669\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e4230139-2863-4769-b1f1-844e78533934",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, including hedging effect, for the quarter ended March 31, 2023?\nHow do you respond?\nA. $68,011\nB. $69,787\nC. $71,877\nD. $75,400\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "9c5df76e-b139-49ad-8b99-3d8ea4aa999b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the revenues of the company change from the quarter ended March 31, 2021, to the quarter ended March 31, 2022?\nHow do you respond?\nA. Revenues increased by 22%\nB. Revenues increased by 26%\nC. Revenues decreased by 4%\nD. Revenues remained the same\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a0ab994a-63e7-44fa-bc86-296cfece8707",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, including hedging effect, for the quarter ended March 31, 2022?\nHow do you respond?\nA. $67,733\nB. $69,724\nC. $55,423\nD. $68,011\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d8bdb413-5e83-4126-a95f-00640ecd57e0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the constant currency revenues change from the quarter ended December 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. Increased by $4.1 billion\nB. Decreased by $7.1 billion\nC. Increased by $7.1 billion\nD. Decreased by $4.1 billion\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8b4cb8a9-798a-4458-95b3-6957d33c8e92",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, excluding hedging effect, for the quarter ended December 31, 2022?\nHow do you respond?\nA. $68,261\nB. $69,703\nC. $71,877\nD. $75,379\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6f3f1e58-d3fe-43a2-a1ef-f78536640775",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the income from operations for Tesla in Q1 2023?\nHow do you respond?\nA. $3.6B\nB. $2.6B\nC. $1.8B\nD. $4.2B\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "34e8d6dd-26cb-4d79-a271-2ea08f10952e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating expenses for Tesla in Q1 2023?\nHow do you respond?\nA. $1.8B\nB. $2.6B\nC. $3.2B\nD. $1.9B\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3cf0a1e2-7f75-49eb-8f43-4d48b6776ad6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the production capacity of Tesla's Model S/X in Q1?\nHow do you respond?\nA. 100,000\nB. 14,218\nC. 19,935\nD. 37%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6d965d88-db5e-43d5-a60b-1e039d7a7437",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the installed annual vehicle capacity of Tesla's Shanghai factory in Q1?\nHow do you respond?\nA. 350,000\nB. 550,000\nC. 750,000\nD. 1,000,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "eee9b5b5-bef5-457a-97d4-4fc4b1cbab89",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the installed annual vehicle capacity of Tesla's Texas factory in Q1?\nHow do you respond?\nA. 250,000\nB. 350,000\nC. 550,000\nD. 750,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d8e0d392-5c5e-487e-a75a-1a5911c6d1d7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the new 40 GWh Megafactory that Tesla recently announced in Shanghai?\nHow do you respond?\nA. Gigafactory Shanghai\nB. Megafactory Shanghai\nC. Tesla Shanghai Factory\nD. Shanghai Megapack Factory\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1a75a743-15bd-4214-a1a3-7648b0e79a57",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the platform that Tesla launched for employee health and safety?\nHow do you respond?\nA. Tesla OS\nB. Recruitment and Employee Health & Safety platforms\nC. Megafactory Ramp\nD. FSD Beta\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7a20ad0c-e5fb-4ae3-a286-8f7a7e93107f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the new architecture that Tesla is transitioning to for vehicle electronics?\nHow do you respond?\nA. 48 Volt architecture\nB. Megafactory architecture\nC. Cybertruck architecture\nD. Model Y architecture\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "86046166-a5b2-4c36-ae4a-1917ad0cdbe0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Tesla's Autopilot operating system?\nHow do you respond?\nA. To provide a more efficient and safe driving experience for Tesla owners.\nB. To enable vehicles to operate independently without human input.\nC. To provide a more enjoyable and personalized driving experience for Tesla owners.\nD. To reduce the environmental impact of Tesla's manufacturing process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f4772505-fbe9-4174-961a-86ac6d3350a2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of Tesla's battery technology?\nHow do you respond?\nA. Cybertruck\nB. Megafactory\nC. Powerwall\nD. Gigafactory\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "9d45e15f-8193-4317-b732-2e42cd5801ea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Tesla's Maxwell battery technology?\nHow do you respond?\nA. To reduce the cost of manufacturing and operations.\nB. To improve the efficiency of its vehicles.\nC. To increase the range of its electric vehicles.\nD. To enhance the safety features of its vehicles.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "76ac703b-8caa-47bf-8d44-6cf5a7d0e328",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total revenue for the company in Q1-2023?\nHow do you respond?\nA. 18,756\nB. 16,934\nC. 23,329\nD. 18,878\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "809b303d-f626-4a56-adca-a42ba6cb49b3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the cost of revenues for the company in Q1-2023?\nHow do you respond?\nA. 11,322\nB. 15,422\nC. 13,480\nD. 18,818\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "978e3161-8789-4b62-9fb8-8972070e3ba4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the income from operations for the company in Q1-2023?\nHow do you respond?\nA. $3,603\nB. $2,664\nC. $3,901\nD. $1,857\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0b745f88-60a2-4ddd-a633-7aae3586cb16",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income attributable to common stockholders for the company in Q1-2023?\nHow do you respond?\nA. $2,513\nB. $3,292\nC. $3,687\nD. $1,529\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ab3cbfbd-14eb-4141-9a5a-ce0d6f1cf18f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income per share of common stock attributable to common stockholders for the company in Q1-2023?\nHow do you respond?\nA. $1.07\nB. $0.95\nC. $1.18\nD. $0.80\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1b6c731e-81cc-4c7f-8474-c1a9f01ba999",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the weighted average shares used in computing net income per share of common stock for the company in Q1-2023?\nHow do you respond?\nA. 3,103\nB. 3,166\nC. 3,464\nD. 3,472\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "29e76cfe-f925-4b4d-a500-d6b0d327fdc1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total energy generation and storage revenue for the company in Q1-2023?\nHow do you respond?\nA. 1,529\nB. 1,837\nC. 1,361\nD. 1,702\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ecd5bf62-87bd-43e8-92ea-fd2f3d74ccbf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income attributable to common stockholders for the second quarter of 2022?\nHow do you respond?\nA. $1,618\nB. $2,259\nC. $2,321\nD. $3,292\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "620d04f7-630b-4568-92c1-695c965068d1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the depreciation, amortization, and impairment expense for the fourth quarter of 2022?\nHow do you respond?\nA. $989\nB. $1,046\nC. $1,056\nD. $1,021\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1ee94971-7535-48d0-8034-275aae919d8b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the stock-based compensation expense for the first quarter of 2021?\nHow do you respond?\nA. $1,807\nB. $1,850\nC. $1,841\nD. $4,968\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "dbaa7974-d091-40bd-a9ea-75ef350c0783",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the adjusted EBITDA for the second quarter of 2022?\nHow do you respond?\nA. 2,259\nB. 3,292\nC. 3,687\nD. 4,968\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f6719cc1-d08a-4b7b-9646-eed6017054d7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the capital expenditure for the third quarter of 2022?\nHow do you respond?\nA. 1,858\nB. 1,767\nC. 1,730\nD. 1,803\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9c08eb72-a406-4e0f-a40d-0f005ea6bf49",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the free cash flow for the fourth quarter of 2022?\nHow do you respond?\nA. $1,858\nB. $1,803\nC. $1,767\nD. $1,730\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "92054d63-8e22-4e3d-b2b8-5a06c044a353",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net cash provided by operating activities for the trailing twelve months ended June 30, 2022?\nHow do you respond?\nA. $13,242\nB. $14,724\nC. $16,031\nD. $18,756\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "73908f58-b571-4ec5-a47d-125604db1b08",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the interest expense for the fourth quarter of 2022?\nHow do you respond?\nA. 163\nB. 246\nC. 99\nD. 33\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cac40037-d881-43d1-97c2-561e3905759c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the formula for calculating \"free cash flow\" in Tesla's financial reports?\nHow do you respond?\nA. Operating cash flow less capital expenditures\nB. Net income (loss) attributable to common stockholders before interest expense, provision for income taxes, depreciation, amortization, and impairment, and stock-based compensation expense\nC. Average cost per vehicle divided by new vehicle deliveries (excluding leases)\nD. Operating profit minus average accounts payable for the period divided by total cost of revenues\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "11cd579d-f6a5-401c-a5fb-321a7dd5cb70",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is \"average cost per vehicle\" calculated in Tesla's financial reports?\nHow do you respond?\nA. By dividing the total cost of revenue by the number of vehicles delivered.\nB. By dividing the cost of automotive sales by the number of new vehicle deliveries, excluding leases.\nC. By dividing the total cost of revenue by the number of new vehicle deliveries, including leases.\nD. By dividing the cost of automotive sales by the number of vehicles produced.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "69cea2db-a4ce-42cd-a0d3-b294d24e481d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of \"days sales outstanding\" in Tesla's financial reports?\nHow do you respond?\nA. The number of days it takes for Tesla to sell its inventory.\nB. The number of days it takes for Tesla to collect its accounts receivable.\nC. The number of days it takes for Tesla to pay its accounts payable.\nD. The number of days it takes for Tesla to deliver its products after receiving an order.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1049537d-a3ee-4b2c-b6b2-2dc678245375",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of \"days payable outstanding\" in Tesla's financial reports?\nHow do you respond?\nA. The number of days it takes for Tesla to pay its suppliers for parts and materials.\nB. The number of days it takes for Tesla to receive payment from its customers for vehicles and other products.\nC. The number of days it takes for Tesla to pay its employees' salaries and wages.\nD. The number of days it takes for Tesla to pay its taxes.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5c8750db-69ab-48e5-ad7e-5b8e1bb81c15",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is \"days of supply\" calculated in Tesla's financial reports?\nHow do you respond?\nA. By dividing new car ending inventory by the relevant quarter's deliveries and using 75 trading days.\nB. By dividing average accounts receivable by total revenues and multiplied by the number of days in the period.\nC. By dividing average accounts payable by total cost of revenues and multiplied by the number of days in the period.\nD. By dividing new vehicle deliveries by the number of days it takes to produce one vehicle.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "74bc8e98-9e00-451f-ae97-327ff7d15d92",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of presenting non-GAAP financial measures in Tesla's financial reports?\nHow do you respond?\nA. To provide a comprehensive view of Tesla's financial performance under U.S. GAAP.\nB. To supplement Tesla's GAAP financial statements with additional information used by management for internal decision-making.\nC. To present a more optimistic financial picture than what is reported under U.S. GAAP.\nD. To comply with regulatory requirements for financial reporting.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bed30e46-4c6c-4c5f-b6de-f96362453e74",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the factors that could affect Tesla's ability to ramp its factories in accordance with its plans?\nHow do you respond?\nA. Uncertainties in future macroeconomic and regulatory conditions arising from the current global pandemic.\nB. The risk of delays in launching and manufacturing Tesla's products and features cost-effectively.\nC. Consumers' demand for electric vehicles generally and Tesla's vehicles specifically.\nD. The ability of suppliers to deliver components according to schedules, prices, quality, and volumes acceptable to Tesla, and Tesla's ability to manage such components effectively.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "80cdd87b-43df-4d8e-8ef5-b56d0f0afe09",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the risks associated with Tesla's product financing programs?\nHow do you respond?\nA. Risk of product recalls\nB. Risk of delays in launching and manufacturing products cost-effectively\nC. Risk of public credibility and confidence in long-term business prospects\nD. Risk of indebtedness and financing strategies\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "286ffaac-06a5-4ab1-bd26-77b01639a88a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the potential risks associated with Tesla's indebtedness and financing strategies?\nHow do you respond?\nA. Risk of defaulting on loans and interest payments.\nB. Risk of stock price volatility affecting investor sentiment.\nC. Risk of supply chain disruptions affecting production.\nD. Risk of regulatory changes affecting the electric vehicle market.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fc172c16-62f8-4bcd-8aa6-3b6505c43290",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the factors that could affect Tesla's ability to grow its sales, delivery, installation, servicing and charging capabilities?\nHow do you respond?\nA. Uncertainties in future macroeconomic and regulatory conditions arising from the current global pandemic, the risk of delays in launching and manufacturing products and features cost-effectively, consumers' demand for electric vehicles generally and Tesla's vehicles specifically, the ability of suppliers to deliver components according to schedules, prices, quality and volumes acceptable to Tesla, and Tesla's ability to manage such components effectively.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}

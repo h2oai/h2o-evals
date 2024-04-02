@@ -1,0 +1,562 @@
+{
+    "tests": [
+        {
+            "key": "09cf1078-8637-4bf6-9b9a-4c4078a04630",
+            "documents": [
+                "Technical_Report.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "e218fa0e-9701-4861-82c9-b3d2bb65db5d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Annex B in the report?\nHow do you respond?\nA. It provides a technical description of SS7 and Diameter protocols.\nB. It describes the vulnerabilities of SS7 and their effect on digital financial services.\nC. It provides mitigation measures for operators and DFS providers.\nD. It provides a template for a model MOU between a telecommunication regulator and central bank related to DFS security.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "8094a11d-372e-4c36-988e-3955b707f41e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the term \"OTT\" in the context of DFS?\nHow do you respond?\nA. OTT refers to Over-the-top services offered by DFS providers over the telecom infrastructure.\nB. OTT refers to the method of hackers masquerading as DFS providers to defraud end-users.\nC. OTT refers to the vulnerabilities in the signaling network that allows intruders to intercept calls and SMSs.\nD. OTT refers to the means of communication used by end-users to communicate with DFS providers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c24ae64d-21fc-4f5a-b79c-e674ac766e10",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of ENISA in the context of DFS?\nHow do you respond?\nA. ENISA is responsible for securing the telecom infrastructure used by DFS providers.\nB. ENISA provides guidance on mitigating vulnerabilities in USSD and SMS communication channels used by DFS.\nC. ENISA regulates the use of OTPs and PINs for DFS transactions.\nD. ENISA is responsible for enforcing data privacy regulations related to DFS services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7baa9015-eb38-4e36-8a63-eebb34d7dcaa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Memorandum of Understanding (MOU) in the context of DFS?\nHow do you respond?\nA. To provide a framework for collaboration and agreement between DFS providers and telecom operators.\nB. To outline the security measures that DFS providers must implement to protect their customers' data.\nC. To define the roles and responsibilities of DFS providers and their employees in preventing fraud.\nD. To establish a standardized process for DFS providers to report suspicious transactions to the authorities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "077eacde-0548-485f-8a81-ad460f9a20d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between MT-SMS and MO-SMS?\nHow do you respond?\nA. MT-SMS is used for mobile-originated messages, while MO-SMS is used for mobile-terminated messages.\nB. MT-SMS is used for mobile-terminated messages, while MO-SMS is used for mobile-originated messages.\nC. MT-SMS is used for messages sent from a mobile device to a landline device, while MO-SMS is used for messages sent from a landline device to a mobile device.\nD. MT-SMS and MO-SMS are both used for mobile-originated messages, but MO-SMS is used for messages that are sent to a different mobile network.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7fef0750-067e-41f6-8038-395e5a283458",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Sim Tool Kit (STK)?\nHow do you respond?\nA. To enable attackers to exploit vulnerabilities in the signaling network.\nB. To provide a means of communication between the end-user and the DFS provider.\nC. To allow the DFS provider to intercept calls and SMSs.\nD. To safeguard clients' accounts from fraud.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e7e0acd9-eda3-4871-8312-e379ced43052",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the term \"IMEI\" in the context of DFS?\nHow do you respond?\nA. It is a unique identifier assigned to every mobile device, which can be used to track and trace stolen devices.\nB. It is a security protocol used to protect user data and prevent unauthorized access to DFS accounts.\nC. It is a type of encryption used to secure financial transactions over the telecom network.\nD. It is a type of SIM card used only in feature phones that are commonly used by DFS end-users.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "aabddcd8-ffdd-46ef-8349-436d1fedbfbd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Personal Identification Number (PIN)?\nHow do you respond?\nA. To encrypt data transmitted over the telecom network.\nB. To verify the identity of a user accessing a digital financial service.\nC. To generate a one-time password for authentication.\nD. To route calls and messages to the appropriate network.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ffb80501-e031-42df-a175-a1bfbca7dcac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of telecom vulnerabilities on DFS providers?\nHow do you respond?\nA. DFS providers can use telecom vulnerabilities to steal digital money from their clients.\nB. Telecom vulnerabilities enable criminals to perform various attacks that result in fraud and steal digital money from DFS providers.\nC. DFS providers are not affected by telecom vulnerabilities since they use secure communication channels.\nD. Telecom vulnerabilities can be used by DFS providers to defraud their clients.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "03b66943-4aba-4282-a8d7-9bc01afd4532",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is social engineering, and how is it used in the USSD attack described in clause 6.3?\nHow do you respond?\nA. Social engineering is a type of attack that exploits human psychology to manipulate individuals into divulging confidential information or performing actions that compromise security. In the USSD attack described in clause 6.3, social engineering is used when the fraudster impersonates the DFS provider and sends a USSD message to the victim, tricking them into entering their account number and PIN.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "838684e1-8640-4ecb-af87-47ed3329d03e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two attack surfaces that can be exploited in telecom networks, according to clause 7?\nHow do you respond?\nA. SS7 network and cellular air interface\nB. SS7 network and Diameter protocol\nC. Cellular air interface and Diameter protocol\nD. SS7 network and social engineering\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6e1d40d1-95a0-446e-9519-a9bdb92d838e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of spoofing identifiers in SS7 and Diameter, according to clause 8?\nHow do you respond?\nA. To evade billing and steal personal data\nB. To locate a target subscriber's approximate location\nC. To perform social engineering and obtain DFS account credentials\nD. To bypass control systems and send SMS messages directly to victims\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3ee96ef6-e336-4695-b370-50a15b3f2a76",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can an attacker locate a target subscriber using the location tracking vulnerability, according to clause 8?\nHow do you respond?\nA. By impersonating the DFS provider and sending a USSD message to the victim.\nB. By exploiting the SS7 network vulnerabilities to intercept signaling messages.\nC. By using passive eavesdropping to reveal the target location.\nD. By sending bulk SMS messages with the goal of stealing personal data.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "2ca10228-46ec-4136-8b19-301ce557ca80",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the prerequisite for further attacks such as intercept, according to clause 8?\nHow do you respond?\nA. Obtaining subscriber's visited location\nB. Spoofing identifiers\nC. Sending a large quantity of SMS and calls\nD. Routing a short message to the mobile terminating device\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e143a0f5-b59c-4daa-b3f2-7f0b392584a8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the goal of social engineering in the context of telecom attacks, according to clause 6.3?\nHow do you respond?\nA. To obtain the approximate location of a given victim.\nB. To fool the user into giving up DFS account credentials.\nC. To evade payment for top-ups.\nD. To locate a target subscriber based on MSISDN.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ec463e25-98d1-405b-a9a5-ab8cdc9d2e5c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the protocol used for signaling in 4G-LTE networks, according to clause 7?\nHow do you respond?\nA. SS7\nB. Diameter\nC. LTE-Signaling\nD. SMS\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1d8b23b8-529a-4438-bcc2-4eeaabec7bdb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the common types of telecom attacks?\nHow do you respond?\nA. Access to signaling interface, subscriber fraud, interception, denial of service, infiltration attacks, and routing attacks.\nB. Access to signaling interface, subscriber fraud, interception, denial of service, routing attacks, and mobility attacks.\nC. Access to signaling interface, subscriber fraud, interception, denial of service, infiltration attacks, and SMS interception.\nD. Access to signaling interface, subscriber fraud, interception, denial of service, routing attacks, and SMS interception.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "18d11a70-f483-4188-a3bc-5a37a3a9d5e0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is subscriber fraud in the context of telecom attacks?\nHow do you respond?\nA. A type of attack where an attacker intercepts and alters signaling messages to steal prepaid voice, SMS, or data credits.\nB. An attack where an attacker sends signaling messages to trigger malicious charging, with the objective of benefiting from a service while evading billing.\nC. An attack where an attacker alters a subscriber's profile to receive mobile terminating and/or mobile originating calls, SMS, or data traffic.\nD. An attack where an attacker eavesdrops on a subscriber's communications, or involves in a full man-in-the-middle attack with alteration of communication.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "70a48444-ae34-400f-9d87-f969774ec1e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is interception in the context of telecom attacks?\nHow do you respond?\nA. Altering charging to evade billing\nB. Access to signaling interface to organize efficient local interception attacks\nC. Denial of service to the whole network\nD. Abuse of mobile money services based on MAP USSD\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e68c12a4-3dc8-4fa7-9c49-8bd60675a06d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is denial of service (DoS) in the context of telecom attacks?\nHow do you respond?\nA. An attack that intercepts and alters communication signals to eavesdrop or manipulate messages.\nB. An attack that disrupts or shuts down a network or service, making it unavailable to users.\nC. An attack that steals or depletes a subscriber's prepaid voice, SMS, or data credits.\nD. An attack that manipulates a subscriber's location and profile to receive unauthorized calls, SMS, or data traffic.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a8273de9-2478-4c6c-987e-2b1632bf6905",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are infiltration attacks in the context of telecom attacks?\nHow do you respond?\nA. Attacks that exploit vulnerabilities in signaling protocols to gain unauthorized access to mobile core network elements.\nB. Attacks that manipulate subscriber data to steal prepaid voice, SMS, or data credits.\nC. Attacks that intercept and alter communication traffic to eavesdrop or hijack interconnect traffic.\nD. Attacks that cause a denial of service to the whole network, a set of subscribers, or a single targeted subscriber.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2c0f8457-8236-415d-adea-edbca791c4ea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are routing attacks in the context of telecom attacks?\nHow do you respond?\nA. Attacks that exploit vulnerabilities in routing protocols to disrupt network traffic.\nB. Attacks that use fake antennas to intercept and manipulate signaling traffic.\nC. Attacks that use social engineering tactics to trick users into divulging sensitive information.\nD. Attacks that exploit weaknesses in the SS7 signaling protocol to steal prepaid voice, SMS, or data credits.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "356226a5-2927-40c0-94ce-72c1a253d628",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of telecom attacks on DFS?\nHow do you respond?\nA. DFS fraud, such as spoofing, SMS interception, and subscriber fraud\nB. Denial of service to the whole network, or to a set of subscribers, or even to a single targeted subscriber\nC. Unauthorized access to mobile core network elements, such as personal data theft or access to other sensitive assets\nD. Regional network equipment reboot, discarding all currently attached subscribers' contexts, causing persistent service unavailability\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "54707d60-30fc-4f0e-8683-68320d12baf3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the frequency of telecom attacks in the EU?\nHow do you respond?\nA. Over 80% of telecom operators in the EU have encountered telecom attacks.\nB. Less than 25% of telecom operators in the EU have encountered substantial number of attacks.\nC. 70% of telecom regulators and telecom operators surveyed have no clue if their networks are under telecom attacks.\nD. All telecom operators in the EU have detected telecom attacks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "82492358-0c33-4be7-aaf1-1827b7c6ea9a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the awareness of telecom attacks in the developing world?\nHow do you respond?\nA. Over 70% of telecom regulators and operators surveyed have no clue if their networks are under telecom attacks.\nB. Less than 25% of telecom operators in the EU have reported encountering a substantial number of attacks.\nC. More than 80% of surveyed telecom operators in the EU responded that they have detected or encountered some attacks.\nD. All telecom operators in the developing world are fully aware of telecom attacks and have detection mechanisms in place.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "391fba1e-1ed1-4230-8b03-b88c926be10a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the commonality of telecom attacks?\nHow do you respond?\nA. Attacks on DFS fraud, such as spoofing, SMS interception, and subscriber fraud.\nB. Attacks on signaling interface, such as access to signaling interface, denial of service, and infiltration attacks.\nC. Attacks on routing, such as routing hijack attacks.\nD. Attacks on mobile core network elements, such as unauthorized access to mobile core network systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c91a864e-0893-482b-a130-d0a8957d7e18",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What types of attacks are most commonly associated with DFS fraud in the telecom industry?\nHow do you respond?\nA. SMS interception, subs criber fraud, and spoofing.\nB. Phishing, ransomware, and malware.\nC. Denial of Service (DoS), Distributed Denial of Service (DDoS), and Man-in-the-Middle (MITM) attacks.\nD. Social engineering, pretexting, and baiting.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "34f41c50-77d5-4877-958b-0afff6e2b790",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why have most cellular operators not protected their networks against cellular attacks despite guidelines from the GSMA and ITU?\nHow do you respond?\nA. They are not aware of the guidelines.\nB. They do not consider cellular attacks a significant threat.\nC. They lack the technical expertise to implement the guidelines.\nD. They do not want to incur the additional costs of implementing the guidelines.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "8fbb67cd-8c91-4085-bf1c-407731cbb511",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is it difficult for a DFS provider or client to defend themselves from cellular attacks without relying on mobile operators?\nHow do you respond?\nA. Because cellular attacks are too sophisticated for DFS providers or clients to handle.\nB. Because mobile operators have not implemented guidelines to protect against cellular attacks.\nC. Because DFS providers or clients do not have access to the SS7 network.\nD. Because cellular attacks can be carried out with minimal infrastructure and investment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "0e0c95f2-d231-41a5-a0c0-1f9c0666a280",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a common misconception among CISOs and cybersecurity officers in enterprises regarding cellular attacks?\nHow do you respond?\nA. Cellular attacks are unlikely to occur since they require extensive resources and expertise.\nB. Cellular attacks are not a significant threat to enterprises since they primarily target individuals.\nC. Cellular attacks can be easily prevented by implementing basic security measures.\nD. Cellular attacks are not a concern for enterprises, as they are primarily the responsibility of mobile network operators.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "09f49d61-afe3-4a03-a62f-e2dc584fd226",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much does it cost to create a basic MITM system that can intercept cellular communications?\nHow do you respond?\nA. $500\nB. $150-$2500\nC. $1000-$5000\nD. $10000-$20000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3345683d-20e0-409c-b053-587be6b49cde",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the cellular attack kill chain?\nHow do you respond?\nA. To gain access to sensitive data such as banking credentials and execute attacks such as online account takeover (ATO).\nB. To protect the cellular network from attacks by detecting and preventing malicious activities.\nC. To intercept and manipulate data transmitted over the cellular network for malicious purposes.\nD. To provide secure communication between devices over the cellular network.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9b3eea73-416d-4792-95b7-c50b9ce6217b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the first step in the cellular attack kill chain?\nHow do you respond?\nA. Information gathering\nB. Location leak\nC. Data leak\nD. Intercept USSD transactions\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "06f27ce7-e221-4e8a-a004-814ad2bfc5e0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of SS7 in the cellular attack kill chain?\nHow do you respond?\nA. SS7 is used to intercept and redirect the victim's calls and SMS to the attacker's device.\nB. SS7 is used to obtain the victim's phone number and IMSI, which can be used to perform location tracking and data leak attacks.\nC. SS7 is used to implant malware on the victim's device and perform MITM attacks.\nD. SS7 is not involved in the cellular attack kill chain.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "997f8cb4-538c-4ccd-abb3-04d2167ca08b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of triangulation in the cellular attack kill chain?\nHow do you respond?\nA. To intercept incoming SMS\nB. To track the victim's location\nC. To obtain the victim's phone number\nD. To perform MITM attacks\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a48a04d8-5e6a-4a3d-a367-f3e2ca87d1b7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the attacker intercept incoming SMS in the cellular attack kill chain?\nHow do you respond?\nA. By using SS7 query to intercept TMSI first and then IMSI catching.\nB. By rerouting the victim's calls using call-forwarding to intercept incoming SMS.\nC. By downgrading the cellular RF link to 2G or 3G and obtaining the encryption keys.\nD. By implanting malware on the phone by exploiting a browser vulnerability.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "40d3a2f2-12c2-4b2a-8766-26df972fa517",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of rerouting the victim's calls and SMS in the cellular attack kill chain?\nHow do you respond?\nA. To intercept incoming calls and SMS to gather information.\nB. To intercept outgoing calls and SMS to prevent the victim from communicating.\nC. To divert the victim's attention to a different phone number.\nD. To make the victim's phone number appear as if it is roaming.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dcefc2b4-cc11-4208-b1d9-14b62357b667",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of implanting malware on the mobile device in the cellular attack kill chain?\nHow do you respond?\nA. To intercept incoming SMS and calls.\nB. To obtain the victim's phone number and IMSI.\nC. To perform MITM attacks and intercept data channels.\nD. To steal the victim's mobile banking account credentials.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "f172541d-19ae-4e50-b82d-18030121aa40",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of using USSD in the cellular attack kill chain?\nHow do you respond?\nA. To obtain the victim's phone number\nB. To intercept incoming SMS and calls\nC. To perform MITM attacks on the mobile data channel\nD. To acquire mobile banking account credentials\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "d15544e6-bdbf-4507-b79a-ea95d35065c7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of USSD in online banking and other financially sensitive applications?\nHow do you respond?\nA. To provide an additional layer of security for transactions.\nB. To allow users to access their accounts from any device.\nC. To enable the network operator to cancel a SIM card that has been inactive for a certain period.\nD. To facilitate social engineering attacks by sending phishing USSD messages to users.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "636cdf05-2854-402f-93ca-93663f3e4776",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the simplest attack to execute and scale an attack using USSD?\nHow do you respond?\nA. Using USSD to send a phishing message to the user, spoofing the identity of the financial service provider, luring the user to divulge sensitive information such as account number and PIN code.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "63056ead-ecee-45e7-811d-db65e7ee2c22",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can an attacker cause denial of service (DoS) for selected subscribers or a network-wide outage using SS7?\nHow do you respond?\nA. By sending an update location message with an out-of-network serving address, blocking all incoming calls and SMS from reaching the subscriber.\nB. By deleting a subscriber's record from the serving visitor location register (VLR), causing a DoS for a given subscriber until the record is reinserted into the VLR.\nC. By performing an outgoing transaction such as placing a call or sending an SMS, which will reverse the effects of the DoS almost immediately.\nD. By social engineering the mobile carrier to issue them a SIM card belonging to the victim, by impersonating the victim at a point of service, and claiming that they have lost the original SIM card.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "85efa972-afca-4523-bf8b-7544320c83af",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is SIM card recycle, and how does it allow an unauthorized person to access funds belonging to other people?\nHow do you respond?\nA. SIM card recycle is when a network operator cancels a SIM card that has been inactive for a certain period of time, and issues a new SIM card with the same phone number to a different person. This allows an unauthorized person to access the funds remaining in the original owner's DFS account associated with the phone number.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "91d5cdbb-5a4d-400a-b438-b344ab2a395c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can users protect themselves from USSD phishing attacks?\nHow do you respond?\nA. By not responding to any USSD messages that ask for personal information.\nB. By always using their bank's official app to access their account.\nC. By calling their bank's customer service number to verify the authenticity of the USSD message.\nD. By installing an antivirus app that can detect and block USSD phishing attacks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "05375dac-36d8-4c0f-8e9f-f358dc913899",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can financial service providers protect their customers from USSD phishing attacks?\nHow do you respond?\nA. Implementing two-factor authentication for all USSD transactions.\nB. Educating customers on how to identify and report suspicious USSD messages.\nC. Using machine learning algorithms to detect and block phishing USSD messages.\nD. Disabling USSD functionality for all customer accounts by default.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3b4126ed-3c23-4183-a871-5a01782691cd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between a DoS attack and a DDoS attack?\nHow do you respond?\nA. A DoS attack targets a specific individual or organization, while a DDoS attack targets multiple individuals or organizations.\nB. A DoS attack is launched from a single device, while a DDoS attack is launched from multiple devices.\nC. A DoS attack is a type of attack that targets the network layer, while a DDoS attack targets the application layer.\nD. A DoS attack is a type of attack that targets the application layer, while a DDoS attack targets the network layer.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f85a5c05-c422-42e0-9418-001aa487b393",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a VLR in SS7?\nHow do you respond?\nA. To store the location of a subscriber's device\nB. To manage the routing of messages between networks\nC. To provide authentication and encryption for SS7 messages\nD. To perform denial of service attacks on a network\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fb273823-c02e-4ce6-92cf-0848d98319f0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the GSMA RIFS sub-group?\nHow do you respond?\nA. To develop guidelines for mobile operators to mitigate SS7 attacks.\nB. To monitor SS7 traffic for potential attacks.\nC. To provide a platform for mobile operators to share information on SS7 security threats.\nD. To develop industrial standards for SS7 and Diameter signaling security.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "a9f60da5-27b2-400f-9d8c-32fb98291991",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Table 3 in the article?\nHow do you respond?\nA. To list the mitigation strategies for SS7/Diameter attacks\nB. To compare the coverage of mitigation strategies in GSMA documents vs. common SS7/Diameter attacks\nC. To provide a synopsis of industrial standards that address practical mitigation\nD. To outline LTE interconnect security measures\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9dacbf9e-f08e-446c-94bd-e34ce058f1e0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which attack is not covered in any of the GSMA documents mentioned in the article?\nHow do you respond?\nA. Spam\nB. Infiltration attacks\nC. Subscriber fraud\nD. Location tracking\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                }
+            ]
+        }
+    ]
+}
