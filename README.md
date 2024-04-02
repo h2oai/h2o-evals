@@ -1,14 +1,14 @@
 <div align='center'>
 
 <h1>Eval Datasets </h1>
-3️⃣0️⃣ Evaluation Datasets
+3️⃣3️⃣ Evaluation Datasets
 
 <br>
 <br>
 </div>
 
 ## Mission 🚀
-To showcase 30 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
+To showcase 33 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
 
 
 
@@ -74,6 +74,9 @@ Following is the collection of 25 Datasets by different industries, different ev
 | 28. | [Finance_Financial_Records_Management](https://github.com/h2oai/h2o-evals/tree/main/catalog/Finance_Financial_Records_Management)| `Finance` | Financial Document | 135 | RAG |
 | 29. | [Security_Information_Security_Policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/Security_Information_Security_Policy)| `Security` | Information Security Policy | 146 | RAG |
 | 30. | [Government_Defense_Management](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_Defense_Management)| `Government` | Defense Management | 137 | RAG |
+| 31. | [Legal_Employment_Contract](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_Employment_Contract)| `Legal` | Employment Contract | 60 | RAG |
+| 32. | [Health_Digital_Health_Guidelines](https://github.com/h2oai/h2o-evals/tree/main/catalog/Health_Digital_Health_Guidelines)| `Health` | Digital Health Guidelines | 127 | RAG |
+| 33. | [Risk_Management_Risk_Management_Techniques_Tool](https://github.com/h2oai/h2o-evals/tree/main/catalog/Risk_Management_Risk_Management_Techniques_Tool)| `Risk Management` | Risk Management | 120 | RAG |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/h2oai/h2o-evals/issues) for any improvements, suggestions or errors in the content.

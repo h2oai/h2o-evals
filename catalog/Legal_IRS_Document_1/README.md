@@ -34,6 +34,16 @@ The dataset is carefully curated from a diverse set of documents within the Lega
 
 ![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_IRS_Document_1/screenshots/question_type.png)
 
+#### Sample Token presence from the dataset:
+
+**Question:** What is the definition of self-dealing according to Section 4941?
+
+**Answer:** Self-dealing refers to certain acts or transactions between a private foundation and a disqualified person, such as a sale or exchange of property, lending of money or other extension of credit, furnishing of goods, services, or facilities, payment of compensation, or transfer or use of the foundation's income or assets by or for the benefit of a disqualified person.
+
+**Token Presence:** ['self-dealing', 'private foundation', 'disqualified person', 'sale', 'exchange', 'lending', 'furnishing', 'payment', 'compensation', 'transfer', 'use', 'income', 'assets']
+
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Legal_IRS_Document_1/screenshots/tokens_present.png)
+
 #### Sample Multi choice questions from the dataset:
 
 **Question:** What is the difference between discrete and continuing transactions for the purpose of examination techniques?
