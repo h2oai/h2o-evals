@@ -1,0 +1,1222 @@
+{
+    "tests": [
+        {
+            "key": "3eef3312-9d73-49fd-b70c-312709f130b5",
+            "documents": [
+                "Policy_Document.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "af1e28af-29fb-40b7-ad45-daad4112748f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the general guidelines for handling and retaining records in a bank?\nHow do you respond?\nA. All books and registers must be entered serially in the register of current-cum-old records.\nB. An employee handling a particular book/register/file will be responsible for its custody during the day time.\nC. Record warehouses/rooms may be opened at metropolitan centers where there is a cluster of branches.\nD. All documents and papers connected with account opening forms must be kept in the strong room overnight.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "76ba6691-5808-4762-b839-e5664d957e62",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for the custody of records during the day time?\nHow do you respond?\nA. The incumbent in-charge of the strong room or safe.\nB. The employee handling a particular book/register/file.\nC. The zone control number.\nD. The record room/warehouse.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c89282ff-8130-4a00-a8e2-2a9979ba86a8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should files be maintained?\nHow do you respond?\nA. Files should be permitted to become over bulky.\nB. Files should be destroyed when they become over bulky.\nC. Files should be maintained in a fireproof safe.\nD. Files should be handed over to the official responsible for the custody of old records.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "04cd7f99-9c0c-4c57-8148-9863377d0af7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who checks the contents of each bundle of cash payment vouchers with the cash book?\nHow do you respond?\nA. The incumbent in-charge or officer\nB. The official in-charge of old records\nC. The official responsible for the custody of cash payment vouchers\nD. The checking official who requisitions the vouchers\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "83f048cf-862d-4fc4-b438-bd7bf39fb572",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are vouchers, other than cash payment vouchers, sorted and sealed?\nHow do you respond?\nA. They are sorted, tallied, stitched, and sealed.\nB. They are sorted, tallied, and placed in an envelope that is closed and sealed.\nC. They are sorted, stitched, and placed in a locked steel box.\nD. They are sorted, tallied, and destroyed after the prescribed retention period.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ade23b18-0081-47bf-88ae-bcaef648f0c4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for the custody of cash payment and other vouchers?\nHow do you respond?\nA. Incumbents/In-charges\nB. Officials responsible for voucher filing\nC. Checking officials\nD. Authorized individuals, including RBI inspectors and internal/external auditors\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6621c3cd-4e85-4045-aa94-9a478e80492a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are vouchers taken out of custody for checking?\nHow do you respond?\nA. On the requisition of a checking official, who will acknowledge their receipt in the registers kept for this purpose.\nB. By the incumbent in-charge or officer, who will check the contents of each bundle with the cash book, authenticate the correctness of the date and number of vouchers, and sign in the voucher register for its receipt.\nC. By the official in-charge of old records, who will authenticate the correctness of the date and number of vouchers, given on its cover and sign in the voucher register, in token of having received it into his custody.\nD. By any authorized individual, including RBI inspectors and internal/external auditors, who require access to the vouchers for the purpose of auditing or inspection.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "cfa44efc-0711-4dab-a903-8a7fa36de296",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of preserving and destroying bank's records?\nHow do you respond?\nA. To maintain a record of all transactions for future reference.\nB. To assess, monitor, and control risks.\nC. To keep track of customer transactions and maintain customer confidentiality.\nD. To comply with statutory and regulatory obligations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ff7d7130-2e25-4cd7-bc53-fe1b5c1dd653",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of maintaining records in the banking industry?\nHow do you respond?\nA. To maintain a record of all financial transactions for compliance with statutory and regulatory requirements.\nB. To track customer interactions and provide personalized services.\nC. To monitor employee performance and productivity.\nD. To maintain a record of all employee training and development programs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "49747c35-0471-46f2-8774-68e9dac9e602",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for record retention in the banking industry?\nHow do you respond?\nA. Records must be retained for at least 5 years.\nB. Records must be retained for at least 10 years.\nC. Records must be retained for at least 20 years.\nD. Records must be retained indefinitely.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "21f32e7a-ec46-49a3-94ed-58c0cbf04811",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of an audit trail in the banking industry?\nHow do you respond?\nA. To ensure that transactions are properly authorized and recorded.\nB. To maintain customer confidentiality and protect sensitive information.\nC. To provide a detailed record of all transactions for tax purposes.\nD. To detect and prevent fraudulent activities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "c8f2b869-c4da-4675-bd52-f63d02d7992f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of management information in the banking industry?\nHow do you respond?\nA. To provide timely and accurate information to authorized individuals, including RBI inspectors and internal/external auditors.\nB. To ensure compliance with statutory and regulatory requirements.\nC. To maintain customer confidentiality and protect sensitive information.\nD. To analyze financial trends and variance against budgets and prior periods.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "0b8d44b1-2b66-4557-a4a5-73eec741e35b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of transactional data in the banking industry?\nHow do you respond?\nA. To provide a record of all financial transactions for accounting and auditing purposes.\nB. To track customer behavior and preferences for marketing and sales purposes.\nC. To monitor and analyze financial trends and risks for investment and portfolio management.\nD. To facilitate the creation of complex financial instruments and derivatives.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "559becd3-84a4-452f-9a45-d7bed0875b53",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for record media in the banking industry?\nHow do you respond?\nA. Records must be maintained in paper form only.\nB. Records may be maintained/preserved either in paper form or electronic form, but a certificate of authenticity must be obtained at the time of conversion.\nC. Records may be maintained/preserved either in paper form or electronic form, but only in a format that is easily accessible and can be converted to paper form if needed.\nD. Records must be maintained in electronic form only.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c858fb50-94de-40e6-b769-98c599adbb58",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of record retention periods in the banking industry?\nHow do you respond?\nA. To ensure that records are kept for a sufficient period to comply with statutory and regulatory requirements.\nB. To provide easy access to records for internal and external auditors.\nC. To determine the media to be used for preservation of records.\nD. To ensure that records are converted from paper to electronic form.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "df3c4443-0279-4207-a2f1-5c6b9d8d6fc2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of exception reports of limit breaches in the banking industry?\nHow do you respond?\nA. To monitor and control the risk exposure of the bank\nB. To identify and address potential security threats\nC. To assess the effectiveness of the bank's internal audit function\nD. To evaluate the bank's compliance with regulatory requirements\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6e3c8e21-b956-401c-abf3-48e960b0e045",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of maturity analysis in the banking industry?\nHow do you respond?\nA. To analyze the risk associated with different types of assets and liabilities.\nB. To determine the optimal mix of short-term and long-term investments.\nC. To identify potential liquidity risks and ensure adequate cash reserves.\nD. To evaluate the performance of the bank's investment portfolio.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e5360e31-94c6-4e92-93bb-bf80422778f3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different formats that can be used for preserving records according to the text?\nHow do you respond?\nA. Paper form, electronic form, or other forms as per the need of the time.\nB. Only paper form.\nC. Only electronic form.\nD. Microfilm, microfiche, cipher tapes, floppy disks, CDs, and servers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "57158945-d708-4061-9893-3cab7c743047",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of determining the media to be used for preserving records?\nHow do you respond?\nA. To ensure that the records are easily accessible and readable.\nB. To comply with legal and regulatory requirements.\nC. To minimize storage space and reduce costs.\nD. To ensure that the records are secure and tamper-proof.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e644366e-1d15-4065-8ed2-b4c175526a6b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the factors that need to be considered while choosing the medium for preserving records?\nHow do you respond?\nA. Accessibility, Physical conditions, and statutory and regulatory requirements.\nB. Format, size, and weight of the records.\nC. Cost, convenience, and security of the medium.\nD. Durability, reliability, and compatibility of the medium.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "681119c8-29a5-4868-9380-dcb7ef55f2a5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where are the records located?\nHow do you respond?\nA. The records are located at the nearest off-site location.\nB. The records are located at the respective branches/offices.\nC. The records are located at the competent authority.\nD. The records are located at the HO GA department.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bb0652bd-60ee-4af7-b102-69a4e24e6b9c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the procedure for removing and destroying old records?\nHow do you respond?\nA. The records are destroyed annually after the expiry of the period prescribed in the policy statement.\nB. The records are destroyed immediately after the expiry of the period prescribed in the policy statement.\nC. The records are destroyed after seeking approval from the Competent Authority.\nD. The records are destroyed without any authorization or approval.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c7980e49-5507-4f0f-88c3-498148161150",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are old records destroyed?\nHow do you respond?\nA. By burning them in the presence of the incumbent in-charge and the officer.\nB. By selling them to a chemical furnace or paper mill for being burnt or converted into pulp.\nC. By storing them in a secure location until they can be digitized.\nD. By shredding them and recycling the paper.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5856764d-fb9f-4604-acf4-bd034d82fbd1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for seeking approval for destroying old records?\nHow do you respond?\nA. Concerned office\nB. Competent Authority\nC. Local branch incumbent in-charge\nD. Officer who will ensure destruction has been completed\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e47d2153-6e36-4ed2-b8ad-64d8d989526a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the exceptions to the destruction of records?\nHow do you respond?\nA. Records relating to matters under dispute or likely to arise.\nB. Records that have been digitized and stored electronically.\nC. Records that are older than 10 years.\nD. Records that are not confidential in nature.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d74691cf-3e89-4dec-b0f5-3df26daf6689",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of maintaining a certificate of destruction of records?\nHow do you respond?\nA. To serve as evidence that the records were destroyed properly.\nB. To keep a record of the destroyed records for future reference.\nC. To ensure that the destroyed records are not accessed by unauthorized individuals.\nD. To prove that the records were destroyed in accordance with legal requirements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "2cf30d74-210c-4c3f-bee5-4a302f340fe6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the policy for records management in the bank?\nHow do you respond?\nA. To ensure that all records are maintained in electronic form.\nB. To ensure that all records are preserved for a period of 10 years.\nC. To ensure that all records are properly catalogued and indexed.\nD. To ensure compliance with regulatory guidelines and internal requirements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "365aca79-8549-4020-af8b-45490660ef38",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different types of records that the policy covers?\nHow do you respond?\nA. Records related to account opening forms and personal ledgers.\nB. Records related to payment systems and outward clearing cheques.\nC. Emails and electronic records.\nD. All of the above.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "45572668-6cf9-41f3-a7b1-050eb5312918",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for account opening forms and related documents?\nHow do you respond?\nA. 5 years\nB. 10 years\nC. 15 years\nD. 20 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "718c8a22-389c-418a-97a8-dc1c6375645e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records related to payment system applications, outward clearing cheques, and electronic clearing system?\nHow do you respond?\nA. 5 years\nB. 10 years\nC. 15 years\nD. 20 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e014655e-c36f-40a5-8815-0f08ca46a5b4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can certain records be preserved in electronic form?\nHow do you respond?\nA. Yes, all records can be preserved in electronic form.\nB. No, records must be preserved in physical form only.\nC. Only certain records specified by the HO IT department can be preserved in electronic form.\nD. Only records that are less than 10 years old can be preserved in electronic form.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c75f2af2-9737-4daa-b8b2-b644f8674a56",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should items of records that were not included in the list of records to be preserved be maintained?\nHow do you respond?\nA. 10 years\nB. 5 years\nC. 3 years\nD. Indefinitely\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "b39b6739-bd12-4bee-80c7-d3fd53ae8b98",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for preparing the procedural aspects regarding maintaining records in electronic form?\nHow do you respond?\nA. HO IT Department\nB. Zonal Offices\nC. Branches\nD. Head Offices\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ea3d7c70-f189-442f-9435-a7f33702edc1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should be done with records that are no longer required to be maintained?\nHow do you respond?\nA. They should be destroyed/disposed of by the branch/ZO/HO Deptt. after due scrutiny and permission from the Zonal Office/HO GA Department.\nB. They should be preserved in electronic form as per the retention period prescribed by HO IT Department.\nC. They should be kept indefinitely, as they may be required in the future.\nD. They should be sent to the HO GA Department for further review and decision.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1a2b0c3b-f683-42a7-96f0-094216476aa3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often should the policy be reviewed?\nHow do you respond?\nA. Annually, in tune with regulatory guidelines/internal requirements.\nB. Quarterly, to ensure compliance with changing regulatory requirements.\nC. Every two years, to allow for adequate time for implementation and review.\nD. As and when considered necessary, based on changing business needs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6149e338-1cc7-4ab4-be3c-21b62fd38e03",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the preservation period for items of records that are not included in the list of records to be preserved?\nHow do you respond?\nA. 10 years\nB. 5 years\nC. Until disposal confirmation from the controlling office\nD. Indefinite period until further notice\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "81a07989-83c0-4891-89d7-ef6134809f47",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the deadline for branches to confirm the disposal of old records and segregation of surplus stationery items?\nHow do you respond?\nA. 15th February of every year\nB. 15 days from the date of the circular\nC. 5 years from the date of closure of the account\nD. 10 years from the date of the preservation period\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "347e8bb9-700f-40e3-83b4-4d5998a60ede",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should written off loan accounts for which DICGC claims have already been settled and adjusted to the loan accounts be maintained?\nHow do you respond?\nA. 10 years from the date of closure\nB. 5 years from the date of settlement of the claim\nC. 5 years from the date of closure\nD. Not less than 5 years from the date of closure of the current calendar year.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "937ac144-055f-4a30-b1a0-beaad32885f3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should written off loan accounts for which claims have been lodged with DICGC but are pending for settlement be maintained?\nHow do you respond?\nA. 5 years from the date of settlement of the claim.\nB. 5 years from the date of closure of the account.\nC. Not less than 5 years from the date of settlement of the claim of the current calendar year.\nD. Not less than 5 years from the date of closure of the account of the current calendar year.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "0158c8c7-cb0a-4762-9775-ba2688a30f62",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should non-DICGC loans (General Category) that have been fully written off be maintained?\nHow do you respond?\nA. 5 years from the date of closure.\nB. 5 years from the date of settlement of the claim.\nC. Not less than 5 years from the date of closure of the account of the current calendar year.\nD. Not less than 5 years from the date of settlement of the claim of the current calendar year.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "82a83463-61e6-43b8-9e05-42d59987be54",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum retention period for written off loan accounts for which claims have been lodged with DICGC but are pending for settlement?\nHow do you respond?\nA. 5 years from the date of settlement of the claim.\nB. 5 years from the date of closure of the account.\nC. 3 years from the date of lodging the claim.\nD. 1 year from the date of lodging the claim.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6440ed05-2ee6-4c7e-909f-4f5a0fe0908f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should non-DICGC loans (General Category) that have been fully written off be maintained?\nHow do you respond?\nA. 5 years from the date of closure of the account.\nB. 5 years from the date of settlement of the claim.\nC. 3 years from the date of closure of the account.\nD. Permanently.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "59caddae-a625-4932-9fe5-959c14bb328e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records of Government transactions?\nHow do you respond?\nA. 5 years\nB. 3 years\nC. 10 years\nD. Permanent\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "0b4cd644-d040-4e48-a690-cd33a81f2fac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can records be destroyed without permission from the competent authority?\nHow do you respond?\nA. Yes, records can be destroyed without permission from the competent authority.\nB. No, records cannot be destroyed without permission from the competent authority.\nC. Only branch offices can destroy records without permission.\nD. Only the Head Office can destroy records without permission.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ee11c9d3-b312-4a7a-91d7-42ec1d8b5676",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the competent authority for granting approval for destruction of old records?\nHow do you respond?\nA. Zonal Office\nB. HO GA Department\nC. Branch Manager\nD. Staff Accountability Manager\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "57960b12-bd07-4944-a525-2aa91d9e7da4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for the Register of Members?\nHow do you respond?\nA. 5 years from the date of closure of the account\nB. 5 years from the date of settlement of the claim\nC. Permanent\nD. 3 years preceding the current calendar year\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "46a42a48-ce29-498c-b7f6-a96a699ad4a3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should Provident Fund Registers, Provident Fund Loan Ledgers, and Provident Fund General Ledgers be maintained?\nHow do you respond?\nA. 5 years from the date of closure of the account\nB. Permanently\nC. 3 years from the date of last entry\nD. Until the completion of the audit\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fe3e3aeb-6c19-40c4-a92c-c2b9f6941492",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records relating to transactions which are in dispute?\nHow do you respond?\nA. 5 years from the date of settlement of the claim.\nB. 3 years from the date of closure of the account.\nC. Permanent\nD. 5 years from the date of last entry in the ledger/register.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e9dfbbcd-d514-4167-aae7-b8ab7bfdaec1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should Premises and properties files and records be maintained?\nHow do you respond?\nA. Permanently\nB. For a period of 5 years from the date of closure of the account\nC. For a period of 3 years from the date of last entry in the register\nD. Until the competent authority grants approval for destruction\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "21d19957-9e78-4c02-a215-ce13d267559d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for Account opening forms of Current and Savings Bank and other Accounts with copy of proof of identity and address and other documents?\nHow do you respond?\nA. 5 years from the date of closure of the account\nB. 3 years from the date of last entry in the register\nC. Permanent\nD. 10 years from the date of opening of the account\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "825c6f4b-8df1-4269-b74d-2ea570ed4724",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records related to permanent premises and properties?\nHow do you respond?\nA. Not less than 10 years immediately preceding the current calendar year.\nB. Permanent, as long as the premises and properties are in use.\nC. 5 years from the date of creation.\nD. 20 years from the date of creation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "960c52a0-ef07-48cb-a697-f6380a9ebff7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records related to loans, cash credits, and overdrafts?\nHow do you respond?\nA. 5 years\nB. 10 years\nC. 15 years\nD. 20 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "19c437ef-7e16-44a9-ac39-c0c87d8b985e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records related to powers of attorney?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3ac96b64-6607-4ecb-9f10-1d2918be63d7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for account opening forms and other account-related documents?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "015ccf01-d611-447d-b683-997f9f6b52e1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for leave record registers?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0f86dfa6-2a39-41a1-af6c-ef958044bef3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for safe deposit locker registers and agreements?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 2 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5b2dba96-c7a3-496e-aaf9-230c69ae68e8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for key registers?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 2 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ef779c63-11c4-4be0-a991-19b174ae6f37",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for general ledgers?\nHow do you respond?\nA. Not less than 5 years\nB. Not less than 10 years\nC. Not less than 50 years\nD. Permanent\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "db21166e-20ff-45a8-a2d5-fda115f01420",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for specimen signature files or books?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 1 year\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "dd04e78b-a2ca-455d-99e5-278d64ff0516",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for confidential files and files relating to industrial disputes and writ petitions?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 1 year\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "793107b2-f5d1-4a0c-940f-3d6377a1f31e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for H.O. circulars?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "be83e819-2b1e-4bbc-89ce-524f06e874e4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for claims files?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7a538be5-fc81-4097-b466-7529fde3bcab",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for head office correspondence?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5ed472f5-d36f-4aa6-9a23-523434a6fdbd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for sundry assets files?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 2 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a8ca1247-65c5-4fb7-8169-53df62c5353a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for credit information books?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 2 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d8ecece8-83f2-4686-afa0-8737fb2292fa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for office order books?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "cc13e1d0-3bfd-44e6-a027-d64ecf8598ed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for furniture files?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "45ba5bc5-e289-49d3-a01d-421f137807c0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for indemnity bonds?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4178a0d4-e9dd-4244-81f2-8e970570d7ac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for ATM card/debit card issue registers/applications?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c5cafc32-e4f7-427d-9cc3-74ff7d2f49a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for default account intimation for funds transfer, utility payment in respect of tele-internet banking registers/applications?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fa46ffe6-f5ba-467f-a8e5-d718b6e8c195",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for acknowledgement for receipt of PIN/password/user ID?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 1 year\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "99bd3ddb-8b41-448b-8a3c-cd6df4fd1896",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for vendor agreements/third-party agreements?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4c2c6463-34a9-4dc9-93ea-4ee7dd8e46d3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for pre-migration data backup (physical)?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 2 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3704d4d4-1f32-414d-9f66-9e6066b08d7f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for user identification registers?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e2748628-98f7-4514-b6a4-61e5f754651b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for registers indicating records held in electronic form?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3c8a364e-fd4f-4c3d-b03c-60b5b01f13f0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for disputed transaction records?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 1 year\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "db6da447-bd69-45c7-b0cb-726233082ba4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for FEDAI circulars?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e3557114-0dc2-4bef-80ac-1ba4e6ccae05",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for international division circulars?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "99d8d442-8249-4f55-8fef-ce9f1269fd53",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for specimen signatures of foreign bank officials?\nHow do you respond?\nA. Not less than 10 years\nB. 6 months\nC. 1 year\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9463f407-1fee-4bd2-93ad-9bddefec5ff0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for booklet supplied by RBI to identify the names of the parties blacklisted and necessary amendments?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a99fb7e1-0d34-47d5-bfb1-f67d34cb62d7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for claim application on account of deceased non-resident (ordinary)/non-resident (external)/FCNR (B) account holders?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a1c454e8-2340-4b31-9fa8-4e7a4ed05119",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records pertaining to unpaid export bills along with correspondence and GR Form?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4390e652-fa80-4818-a4a3-955c2ceaf311",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for REPO registers?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "754f58ce-4efe-4d6b-930d-fbdc5feb7abf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for EM registers?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 5 years\nD. 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ae7adba8-f14a-4b6a-b64f-8bde5e5e01c5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for jewel appraiser\u2019s file?\nHow do you respond?\nA. Not less than 10 years\nB. Permanent\nC. 6 months\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "90b710d3-c433-4733-b459-d43733f82c7e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum period for which banks must preserve their records?\nHow do you respond?\nA. Not less than 10 years\nB. Not less than 8 years\nC. Not less than 5 years\nD. Not less than 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f3d418e5-f2ec-4d36-b23f-86afa1ed987a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the records that must be preserved for not less than 8 years?\nHow do you respond?\nA. All records relating to cash transactions where forged or counterfeit Currency Note or Bank Notes have been used as genuine, and where any forgery of valuable security or a document has taken place facilitating the transaction, with transaction details.\nB. All records relating to series of cash transactions integrally connected to each other, which have been valued below 10 lakhs or its equivalent in foreign currency, where such series of transactions have taken place within a month and the aggregate value of such transactions exceeds 10 lakhs, with transaction details.\nC. All records relating to suspicious transactions, whether or not made in cash and by way of as mentioned in the Rules.\nD. All personal ledgers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "638bbfe7-6266-403e-acd0-e9baf8fec6fa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the consequences of not preserving these records?\nHow do you respond?\nA. The bank may face legal consequences for non-compliance with the RBI guidelines.\nB. The bank's reputation may be affected, leading to a loss of customer trust.\nC. The bank may face financial penalties for non-compliance with tax regulations.\nD. The bank's employees may face criminal charges for tampering with records.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "784260bf-6a87-4df8-bc1a-de65d8ed318e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can banks destroy these records after the prescribed period?\nHow do you respond?\nA. Yes, banks can destroy these records after the prescribed period.\nB. No, banks cannot destroy these records after the prescribed period.\nC. Banks can destroy some records but not all after the prescribed period.\nD. Banks can destroy records only with the prior approval of the RBI.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "20f9bfbe-8335-488b-b357-4e48c04f31c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How must banks preserve these records?\nHow do you respond?\nA. For at least 10 years\nB. For at least 8 years\nC. For at least 5 years\nD. For at least 3 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ee1938c6-25cf-4824-9fe1-eba371808f86",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often must banks review their record-keeping procedures?\nHow do you respond?\nA. Every 8 years\nB. Every 10 years\nC. Every 5 years\nD. Every 15 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "509b0b9a-9072-4c5c-bc97-42bcaf2308e3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum retention period for records related to uncleared bills?\nHow do you respond?\nA. 8 years\nB. 5 years\nC. 3 years\nD. 1 year\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cc3e4c33-307c-404b-8f7a-2a57c7898175",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records related to closed accounts?\nHow do you respond?\nA. Not less than 8 years\nB. Not less than 5 years\nC. Not less than 3 years\nD. Not less than 10 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a76d70ed-dbe1-402b-9b5d-10d85b8ad6d0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should bankers' files be preserved?\nHow do you respond?\nA. Not less than 8 years\nB. Permanent until renewed\nC. Not less than 5 years\nD. Not less than 10 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b17e0489-1290-4408-92b5-8b2ef17b2435",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for inspection/audit reports?\nHow do you respond?\nA. Not less than 8 years\nB. Not less than 5 years\nC. Not less than 10 years\nD. Permanent\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d3f2df15-fddd-472a-a93c-08b82f247151",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should general files be preserved?\nHow do you respond?\nA. Not less than 8 years\nB. Permanent\nC. Not less than 5 years\nD. Not less than 10 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "14f244bd-5dd0-4819-b705-87a28593e209",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records related to letters of credit?\nHow do you respond?\nA. Not less than 8 years\nB. Not less than 5 years\nC. Not less than 10 years\nD. Permanent\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c1841585-4d23-4c77-afa0-6eed0fec0520",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should brokers' contracts file be preserved?\nHow do you respond?\nA. Not less than 8 years\nB. Not less than 5 years\nC. Permanent\nD. 1 year\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c194dee2-2cde-4629-a883-97a3a499c5c0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for records related to safe custody receipts?\nHow do you respond?\nA. Not less than 8 years\nB. Not less than 5 years\nC. Permanent\nD. 1 year\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d2a72549-012e-436c-8515-781e4b5a9e15",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long should service charges/commission files be preserved?\nHow do you respond?\nA. Not less than 8 years\nB. Not less than 5 years\nC. Not less than 10 years\nD. Permanently\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "455ba825-bfc2-4c76-9006-bbbcf0883e05",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the retention period for general letter correspondence?\nHow do you respond?\nA. Not less than 8 years\nB. Not less than 5 years\nC. Not less than 10 years\nD. Permanent\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cc331543-f025-40c2-91cb-faba7e8afca2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Mid-year review?\nHow do you respond?\nA. To review the performance of the bank's investments.\nB. To assess the effectiveness of the bank's risk management strategies.\nC. To evaluate the bank's compliance with regulatory requirements.\nD. To review the bank's financial performance during the first half of the year.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "8330895d-0464-4cc0-9d3d-13f80be65293",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum retention period for Salary bills of teachers?\nHow do you respond?\nA. Not less than 3 years\nB. Not less than 5 years\nC. Not less than 7 years\nD. Not less than 10 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "849dd807-db72-4a10-8b67-8a9043e36b08",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Concurrent Auditor\u2019s Report?\nHow do you respond?\nA. To conduct an independent review of the bank's operations and identify areas of risk and weakness.\nB. To evaluate the effectiveness of the bank's internal audit function.\nC. To assess the bank's compliance with regulatory requirements.\nD. To provide a comprehensive review of the bank's financial statements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8d3da7e3-49e8-488e-a4a9-2788a681223b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum retention period for the Book of Shares lodged for transfer?\nHow do you respond?\nA. Not less than 3 years\nB. Not less than 5 years\nC. Not less than 7 years\nD. Not less than 10 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8b06ed3b-008f-4ae8-b76f-b2727946698e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Drawing Power Register?\nHow do you respond?\nA. To record all transactions related to drawing power.\nB. To maintain a record of authorized signatories for issuing checks and other negotiable instruments.\nC. To track the balance of drawing power for each account.\nD. To document the procedures for issuing and managing drawing power.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "552ae7b7-3a12-43ae-9504-851844483bf7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum retention period for the Sub-Daybook?\nHow do you respond?\nA. Not less than 3 years\nB. Not less than 5 years\nC. Not less than 7 years\nD. Not less than 10 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6e83c914-8a2b-4459-a729-38627bccd5e1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the LFAR - Review Report?\nHow do you respond?\nA. To review the salary bills of teachers.\nB. To conduct a mid-year review of the bank's performance.\nC. To assess the risk profile of the bank's customers.\nD. To evaluate the bank's compliance with regulatory requirements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "495e527c-a9de-42f0-8fe2-cc8addabf6dd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum retention period for the Press copy books?\nHow do you respond?\nA. Not less than 5 years\nB. Not less than 3 years\nC. Not less than 7 years\nD. Not less than 10 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0957ced3-f2b8-44da-ab6a-48cc770d41ce",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Salary Book?\nHow do you respond?\nA. To record all salary-related information of employees.\nB. To keep track of the branch's progress.\nC. To document all loan proposals.\nD. To record all transactions related to NOSTRO A/c.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,683 @@
+{
+    "tests": [
+        {
+            "key": "5bb48129-1d94-4542-afcb-146fbf4ef06c",
+            "documents": [
+                "Singapore_Labour_Force.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "89db109b-0262-4620-ad00-d8d9f23c5a4e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the reason for the slight decrease in labour force participation rate in 2022?\nHow do you respond?\nA. The decrease in demand for temporary pandemic-related roles.\nB. The increase in the employment rate of seniors aged 65 and over.\nC. The decrease in the employment rate of youths aged 15-24.\nD. The increase in the number of residents aged 25 to 64 in education or training.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "905d9932-7339-45bf-b3a9-5f8c29ab314b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the employment rate of women in Singapore compare to that of men in 2022?\nHow do you respond?\nA. Women had a higher employment rate than men.\nB. Men had a higher employment rate than women.\nC. The employment rate for both men and women was the same.\nD. The employment rate for women was lower than that of men, but the difference was less than 1%.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "86ddee20-cb2b-45fd-bc9f-b9b469b85029",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the likely trend for overall labour force participation in the future given the ageing population?\nHow do you respond?\nA. The labour force participation rate will likely increase due to the rising employability of seniors.\nB. The labour force participation rate will likely moderate due to the ageing population.\nC. The labour force participation rate will likely decrease due to the decrease in youth employment.\nD. The labour force participation rate will likely remain the same as the ageing population is offset by the increase in employability of seniors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d3cca875-c5be-4231-b450-6fda96cf3702",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the top industries among employed residents aged 55 and over in 2022?\nHow do you respond?\nA. Land Transport & Supporting Services, and Food & Beverage Services\nB. Financial & Insurance Services, and Health & Social Services\nC. Information & Communication, and Professional & Business Services\nD. Education, and Community, Social & Personal Services\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6cbdd7b1-2cf1-41c4-8834-517973d0e436",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the educational profile of the labour force in 2022?\nHow do you respond?\nA. In 2022, around six in ten residents (62%) in the labour force were tertiary graduates with a degree, diploma or professional qualification.\nB. In 2022, the educational profile of the labour force was improved compared to 2012, with 48% of residents in the labour force being tertiary graduates with a degree, diploma or professional qualification.\nC. In 2022, the labour force comprised an increasing share of degree graduates, with 29% of residents in the labour force holding a degree qualification.\nD. In 2022, the employment rate of degree holders aged 25 to 64 climbed to a two-decade high of 88.4%.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b91b23de-fd39-4ffe-9dff-082f6bced69c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the employment rate among resident degree holders aged 25 to 64 in 2022?\nHow do you respond?\nA. 88.9%\nB. 78%\nC. 81%\nD. 86%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1c66d93d-784d-4a77-ad27-b48d60c3409d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the percentage of young resident tertiary graduates who were in employment in 2022?\nHow do you respond?\nA. 78%\nB. 81%\nC. 86%\nD. 70%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f6de83f4-2ce4-46d4-8c54-cf6b4da39627",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the median income for young resident tertiary graduates who were in employment in 2022?\nHow do you respond?\nA. $4,000\nB. $5,000\nC. $6,000\nD. $7,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "139d98f4-c7f8-40b3-9f37-24937a9a0083",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the percentage of resident employees in non-permanent employment in 2022?\nHow do you respond?\nA. 7.4%\nB. 3.1%\nC. 1.5%\nD. 0.4%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f7be2338-16e0-42db-8a64-610c2dde5bbb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which groups saw improvements in job search outcomes in Singapore in 2022?\nHow do you respond?\nA. Those in their 50s and older.\nB. Those with non-tertiary qualifications.\nC. Service & sales workers and cleaners, labourers & related workers.\nD. All of the above.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6c816a24-26bd-45eb-8dbf-5552b02da890",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the decrease in own account workers in Singapore in 2022?\nHow do you respond?\nA. The relaxation of pandemic-related restrictions led to more part-time workers in consumer-facing and tourism-related sectors.\nB. The high number of job openings in 2022 led to a record high of employees and a decline in self-employment.\nC. Own account workers prioritized flexibility and freedom associated with own account work.\nD. The majority of own account workers did it on a non-preferred basis, which declined considerably in 2022.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bd990d59-2e90-4286-9be6-e488f4b04166",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many residents in Singapore did own account work as a regular form of employment over the one-year period from July 2021 to June 2022?\nHow do you respond?\nA. 177,700\nB. 188,600\nC. 202,700\nD. 257,300\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b38904cd-bba5-46f2-a0e4-7c181bdbc04e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the estimate of regular primary own account workers based on?\nHow do you respond?\nA. The number of private-hire car drivers.\nB. The number of residents aged 50 & over.\nC. The number of tertiary-educated among primary own account workers.\nD. The number of full-time employee jobs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2acd3d05-8128-4063-b24e-d59be3ac86ff",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many regular own account workers utilized online matching platforms in 2022?\nHow do you respond?\nA. 38%\nB. 60%\nC. 53%\nD. 40%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6d797d11-fd14-4177-83b2-9e82ca190eab",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the top occupations of primary own account workers in Singapore in 2022?\nHow do you respond?\nA. Private-hire car drivers\nB. Delivery workers\nC. Real estate agents\nD. Insurance sales agents/brokers\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "685ae6e7-2efd-4665-b009-ed7ff31ef297",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the age distribution of primary own account workers in 2022?\nHow do you respond?\nA. 53% were aged 50 & over, 40% were in their 40s, and 7% were aged 30 & below.\nB. 40% were aged 50 & over, 30% were in their 40s, and 30% were aged 30 & below.\nC. 60% were aged 50 & over, 20% were in their 40s, and 20% were aged 30 & below.\nD. 70% were aged 50 & over, 15% were in their 40s, and 15% were aged 30 & below.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "db52fa3c-1043-4bbc-82eb-64b5066edc6d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the educational profile of primary own account workers in 2022?\nHow do you respond?\nA. 53% of primary own account workers had tertiary education.\nB. 40% of primary own account workers had tertiary education.\nC. 30% of primary own account workers had tertiary education.\nD. 20% of primary own account workers had tertiary education.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c063b25c-5d77-4d00-87ed-604b945d5900",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the challenges faced by regular own account workers in 2022?\nHow do you respond?\nA. Healthcare and job uncertainty\nB. Insufficient demand for their services\nC. Difficulty in finding full-time employee jobs\nD. Lack of access to online matching platforms\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fa935406-e787-4b96-8cb1-d2dded7a5b02",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the number of private-hire car drivers change in 2022 compared to 2020?\nHow do you respond?\nA. It increased in 2022 compared to 2020.\nB. It decreased in 2022 compared to 2020.\nC. It remained the same in 2022 as it was in 2020.\nD. There was no change in the number of private-hire car drivers between 2022 and 2020.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "01955304-72a0-4642-a0a3-63f512ead740",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the number of delivery workers change in 2022 compared to previous years?\nHow do you respond?\nA. It decreased compared to previous years.\nB. It increased compared to previous years.\nC. It remained the same compared to previous years.\nD. There was no change in the number of delivery workers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "967173df-d401-42b5-a355-a2a0c9ab8953",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the top challenges faced by regular own account workers in Singapore in 2022?\nHow do you respond?\nA. Healthcare-related concerns and uncertainty of finding sufficient work.\nB. Insufficient savings for healthcare, lack of medical benefits, and paid sick leave.\nC. Retirement-related concerns and higher business expenses.\nD. Lack of job security and low income.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "319fbdf8-7c55-4d60-baa6-049776b90b92",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the number of regular platform workers in Singapore change from 2021 to 2022?\nHow do you respond?\nA. Increased by 15,200\nB. Decreased by 3,200\nC. Remained the same\nD. Increased by 88,400\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "181742ab-4298-4b70-81e4-3dd700452674",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the demographics of regular platform workers in Singapore in 2022?\nHow do you respond?\nA. 50 & over, non-tertiary qualifications (77%)\nB. 35 & under, tertiary qualifications (65%)\nC. 40 & above, tertiary qualifications (55%)\nD. 55 & above, non-tertiary qualifications (80%)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6127eb5c-b5c5-478e-bb9c-73d33d514a56",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the median income of full-time platform-related occupations change from 2021 to 2022?\nHow do you respond?\nA. Increased from $1,500 to $2,500.\nB. Increased from $1,500 to $2,000.\nC. Decreased from $2,500 to $1,500.\nD. Remained the same at $1,500.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "dfa0337b-5792-4592-b5c4-a2add641367b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the top challenges faced by regular platform workers in Singapore in 2022?\nHow do you respond?\nA. Retirement-related concerns and higher business expenses.\nB. Healthcare-related concerns and job uncertainty.\nC. Insufficient savings for healthcare and lack of medical benefits.\nD. Uncertainty of finding sufficient work and lack of retirement security.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bfadb9c6-d9e2-47fc-bea5-9f53a40bf751",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the proportion of regular platform workers who faced challenges in their work change from 2021 to 2022?\nHow do you respond?\nA. The proportion of regular platform workers who faced challenges in their work increased from 58% in 2021 to 31% in 2022.\nB. The proportion of regular platform workers who faced challenges in their work decreased from 58% in 2021 to 31% in 2022.\nC. The proportion of regular platform workers who faced challenges in their work remained the same at 58% in both 2021 and 2022.\nD. The proportion of regular platform workers who faced challenges in their work increased from 31% in 2021 to 58% in 2022.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9476f676-3c91-47b2-8ae1-5a3b67657733",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the increase in median income earned by private-hire car drivers in 2022?\nHow do you respond?\nA. Increase in demand for point-to-point transport services.\nB. Relaxation and removal of safe-distancing measures in society.\nC. Increase in the number of private-hire car drivers.\nD. Improvement in the quality of service provided by private-hire car drivers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e349816c-a5d5-48d3-85ea-10fcd121ea04",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the proportion of workers who held multiple jobs in Singapore change from 2021 to 2022?\nHow do you respond?\nA. It increased from 2021 to 2022.\nB. It decreased from 2021 to 2022.\nC. It remained the same from 2021 to 2022.\nD. It fluctuated significantly from 2021 to 2022.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5d9b4731-d435-42ec-97f4-bf31ba3102fb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the difference in work arrangements between regular own account workers and regular platform workers in Singapore in 2022?\nHow do you respond?\nA. Regular own account workers had more control over their work schedules than regular platform workers.\nB. Regular platform workers had more control over their work schedules than regular own account workers.\nC. Regular own account workers were more likely to have a fixed income than regular platform workers.\nD. Regular platform workers were more likely to have a fixed income than regular own account workers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cdf39aa7-278c-4825-ba4f-f2d113c556f1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the number of taxi drivers, private-hire car drivers, and delivery workers using online matching platforms in Singapore change from 2021 to 2022?\nHow do you respond?\nA. Increased by 10,000, 15,000, and 20,000 respectively\nB. Increased by 25,000, 38,000, and 25,500 respectively\nC. Decreased by 10,000, 15,000, and 20,000 respectively\nD. Remained the same at 25,400, 38,100, and 25,500 respectively\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d22eb727-f239-42ed-9e81-c8b3c6726451",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the pandemic change the way workers train in Singapore?\nHow do you respond?\nA. It increased the number of workers participating in job-related structured training.\nB. It doubled the share of structured training attendees who participated in online training.\nC. It reduced the number of training days per adult in the labor force.\nD. It led to a decrease in training participation rate among unemployed residents.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "779b2722-57fb-497b-8c4e-50cac0907022",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the proportion of structured training attendees who participated in online training in Singapore in 2022?\nHow do you respond?\nA. 2.33%\nB. 3.1%\nC. 5.3%\nD. 6.9%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bfb713ec-6e3a-4040-a417-b335589c393b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the top reasons for non-trainees not attending training in Singapore in 2022?\nHow do you respond?\nA. Work schedule conflicts and family commitments\nB. Lack of time and already satisfied with current skills and knowledge\nC. Not considering the need for training and unsure of the available training options\nD. Limited access to training resources and lack of information on available training programs\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "930450e2-b174-4f02-a0f8-ddd97f458f13",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of training for jobseekers in Singapore?\nHow do you respond?\nA. Training enables jobseekers to acquire relevant work experience, skills, and networks to boost their employability.\nB. Training is vital in upskilling mid-career switchers.\nC. Training allows jobseekers to take leisure activities rather than attending work.\nD. Training is necessary for jobseekers to invest and undergo training to maintain irrelevancy at work.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "288273c2-e9a1-4f0c-aca7-67eb9a12da06",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the training participation rate of resident labour force in Singapore in 2022?\nHow do you respond?\nA. 39%\nB. 14%\nC. 29%\nD. 84%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "726f3b50-33d1-40bb-891b-219291be0cef",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the top reasons for not attending training among non-trainees?\nHow do you respond?\nA. Family commitments\nB. Work schedule conflicts\nC. Lack of interest in training\nD. Insufficient training opportunities\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c977e73d-4d2d-4028-bdbd-358b5c690c11",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the training participation rate of unemployed residents change from 2012 to 2022?\nHow do you respond?\nA. It decreased from 14% in 2012 to 39% in 2022.\nB. It increased from 14% in 2012 to 39% in 2022.\nC. It remained the same at 14% in both 2012 and 2022.\nD. It increased from 39% in 2012 to 14% in 2022.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9ce44a13-e4fe-4e63-be85-8dcf0ddcdceb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which occupation group had the highest training participation rate in 2022?\nHow do you respond?\nA. Managers & Administrators\nB. Professionals\nC. Plant & Machine Operators & Assemblers\nD. Associate Professionals & Technicians\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "418caa7c-fc9d-411f-8fb2-8f233f01d85e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which occupation group had the lowest training participation rate in 2022?\nHow do you respond?\nA. Managers & Administrators\nB. Professionals\nC. Associate Professionals & Technicians\nD. Plant & Machine Operators & Assemblers\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c8e40ee6-3ced-423c-843b-f14d0814c358",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the most common tangible outcome of training for employed trainees?\nHow do you respond?\nA. Being more productive on the job.\nB. Gaining new job-related skills.\nC. Having the ability to provide better service delivery.\nD. Getting a pay raise.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "59d13edb-24a5-4864-b77d-7b22d11adbc5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did training affect the employability of workers?\nHow do you respond?\nA. Training increased the employability of workers by boosting their confidence and self-esteem.\nB. Training did not affect the employability of workers as it only enhanced their work productivity.\nC. Training decreased the employability of workers as it made them overqualified for their jobs.\nD. Training had no impact on the employability of workers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ab68e674-c262-44a5-a8af-1c3c2c96f54c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the increase in training participation rate among plant & machine operators & assemblers?\nHow do you respond?\nA. The lifting of COVID-19 restrictions enabled them to resume training activities that were more likely to be in-person.\nB. There was an increase in training participation rate of workers in sectors which typically have a higher concentration of non-PMETs such as Transportation & Storage and Administrative & Support Services.\nC. The broad-based lifting of COVID-19 restrictions enabled them to resume training activities that were more likely to be in-person.\nD. The need to close their training gap with the better educated to keep up with changes at the workplace.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d59b9ea3-3942-44be-8142-d0b752ca5fae",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which age group had the highest incidence of job change in 2022?\nHow do you respond?\nA. Workers aged 30 and above.\nB. Workers aged 20-29.\nC. Workers aged 40-49.\nD. Workers aged 50 and above.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f1d2a680-3fdb-4749-b069-b07f7d6ad626",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which age group had the highest proportion of employees with a job tenure of at least 10 years?\nHow do you respond?\nA. 25-29 years old\nB. 30-34 years old\nC. 45-49 years old\nD. 50-54 years old\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e89ead63-74db-45c9-9e4a-1cb60815c5af",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the average weekly usual hours worked among employed residents in 2022?\nHow do you respond?\nA. 40 hours\nB. 35 hours\nC. 30 hours\nD. 45 hours\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2baf19f9-1833-4818-8fa2-9c55553c992c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the decrease in the proportion of full-time employed residents who worked from home in 2022 compared to 2021?\nHow do you respond?\nA. The proportion of full-time employed residents who worked from home in 2022 decreased due to the relaxation of pandemic-related restrictions.\nB. The proportion of full-time employed residents who worked from home in 2022 increased due to the easing of COVID-19 domestic restrictions.\nC. The proportion of full-time employed residents who worked from home in 2022 decreased due to the increase in the number of workers in Administrative & Support Services.\nD. The proportion of full-time employed residents who worked from home in 2022 increased due to the surge in demand for tourism activities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "eb09a49d-da14-40ab-87c1-dfc623aedc84",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the percentage increase in real median income growth in 2022 compared to 2021?\nHow do you respond?\nA. 4.7%\nB. 2.0%\nC. 3.8%\nD. 6.1%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9707239a-df45-4e0f-8037-8309acd64172",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the narrowing of the gap between the P20 and P50 incomes in 2022?\nHow do you respond?\nA. The robust income growth in 2022.\nB. Stronger income growth at the 20th percentile.\nC. The effects of the pandemic.\nD. Enhancements to the Workfare Income Supplement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6bbdc511-3f30-4a2b-a635-9f210cf33011",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the distribution of full-time employed residents with gross monthly income from work (excluding employer CPF contributions) at or below $2,492 by industry in June 2022?\nHow do you respond?\nA. Transportation & Storage (15%)\nB. Administrative & Support Services (11%)\nC. Food & Beverage Services (11%)\nD. All of the above (36%)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b826cd4d-6834-4260-a40f-92a3097d039e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the increase in the share of unemployed PMETs aged below 30 who left their last job due to low pay or lack of interest?\nHow do you respond?\nA. There was an increase in the share of unemployed PMETs aged below 30 who left their last job due to low pay or lack of interest because of manpower shortages in sectors with returning consumer demand.\nB. There was an increase in the share of unemployed PMETs aged below 30 who left their last job due to low pay or lack of interest because the tight labor market motivated workers who were dissatisfied with their work to quit and seek new job opportunities.\nC. There was an increase in the share of unemployed PMETs aged below 30 who left their last job due to low pay or lack of interest because the pandemic-related restrictions led to a decrease in job opportunities.\nD. There was an increase in the share of unemployed PMETs aged below 30 who left their last job due to low pay or lack of interest because of the cessation of businesses.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d2dbe03d-f8d7-4aad-8807-e9168119d349",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the increase in the share of unemployed non-PMETs aged 30 to 39 who left their last job due to low pay, poor career prospects, or to provide care for their household or families?\nHow do you respond?\nA. There was an increase in the share of unemployed non-PMETs aged 30 to 39 who left their last job due to low pay, poor career prospects, or to provide care for their household or families because of manpower shortages in sectors with returning consumer demand.\nB. There was an increase in the share of unemployed non-PMETs aged 30 to 39 who left their last job due to low pay, poor career prospects, or to provide care for their household or families because of the tight labor market that motivated workers who were dissatisfied with their work to quit and seek new job opportunities.\nC. There was an increase in the share of unemployed non-PMETs aged 30 to 39 who left their last job due to low pay, poor career prospects, or to provide care for their household or families because of the cessation of businesses.\nD. There was an increase in the share of unemployed non-PMETs aged 30 to 39 who left their last job due to low pay, poor career prospects, or to provide care for their household or families because of the onset of the pandemic.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bc70ff40-3fb4-4656-bc47-4b70c17c8b00",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which industry had the highest unemployment rate among residents in 2022?\nHow do you respond?\nA. Retail Trade\nB. Food & Beverage Services\nC. Wholesale Trade\nD. Accommodation\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "ea110750-60f0-4b00-813b-f18c5c55d08e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the increase in the share of unemployed residents who left their last job due to low pay?\nHow do you respond?\nA. There was an increase in the share of unemployed PMETs aged below 30 who left their last job due to low pay or lack of interest.\nB. There was an increase in the share of unemployed non-PMETs aged 30 to 39 who left their last job due to low pay, poor career prospects, or to provide care for their household or families.\nC. The tight labor market motivated workers who were dissatisfied with their work to quit and seek new job opportunities.\nD. Reflecting continued economic recovery, the involuntary unemployment rate among residents declined from its peak of 2.1% in 2020 to 0.8% in 2022, lower than the pre-pandemic level of 1.1% in 2019.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "44a4a7e4-c33b-45fb-bd1b-f4f1736838a0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the share of unemployed residents who left their last job due to relationship problems with colleagues/boss or disliked previous job/lack of interest change between 2020 and 2022?\nHow do you respond?\nA. The share of unemployed residents who left their last job due to relationship problems with colleagues/boss or disliked previous job/lack of interest increased between 2020 and 2022.\nB. The share of unemployed residents who left their last job due to relationship problems with colleagues/boss or disliked previous job/lack of interest decreased between 2020 and 2022.\nC. There was no change in the share of unemployed residents who left their last job due to relationship problems with colleagues/boss or disliked previous job/lack of interest between 2020 and 2022.\nD. The share of unemployed residents who left their last job due to relationship problems with colleagues/boss or disliked previous job/lack of interest fluctuated between 2020 and 2022, but ultimately remained the same.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9df7c9d8-fd09-4f27-b142-bd73df012944",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the increase in the share of non-PMETs who left their last job due to long working hours/demanding work in their previous employment?\nHow do you respond?\nA. There was an increase in manpower shortages in sectors with returning consumer demand.\nB. The tight labor market motivated workers who were dissatisfied with their work to quit and seek new job opportunities.\nC. The share of unemployed non-PMETs who left their last job due to low pay, poor career prospects, or to provide care for their household or families increased.\nD. Most unemployed residents had left their jobs voluntarily, for example, for a better job match in terms of pay, working conditions, or workplace culture.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "45abd7ba-12fa-4229-90ff-bc3522fee4c9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the involuntary reasons for unemployment according to the text?\nHow do you respond?\nA. Retrenchment, temporary layoff without pay, cessation of business, dismissal, non-renewal or loss of temporary job, and termination due to illness/injury/accident.\nB. Placing/answering online job advertisements, asking friends/relatives, attending walk-in interviews, and placing/updating resumes on professional/social networking sites.\nC. Taking care of one's family, retirement, and flexible work arrangements.\nD. Increase in residents outside the labor force, economic recovery, and government's hiring support measures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6aaa6453-8d9a-435b-87a3-4c0d7fe422b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the percentage of unemployed residents who left their jobs involuntarily in Singapore, based on the text?\nHow do you respond?\nA. 25%\nB. 32%\nC. 52%\nD. 7.8%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "488b2cfb-4a30-4784-834c-125ad049a3a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the main reason for leaving last job among unemployed residents in Singapore, according to the text?\nHow do you respond?\nA. Retrenchment\nB. Temporary layoff without pay\nC. Caregiving responsibilities\nD. Placing/answering online job advertisements\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3e1d05f4-c178-499b-841e-a29e4c72b5a1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the two main drivers of the pattern in residents outside the labour force, according to the text?\nHow do you respond?\nA. The economic recovery and measures to support hiring of residents in the last two years have drawn in more new entrants, and there is greater retention of workers who would have otherwise left the workforce recently.\nB. The economic recovery and measures to support hiring of residents in the last two years have drawn in more new entrants, and there is a growing prevalence of flexible work arrangements.\nC. Greater retention of workers who would have otherwise left the workforce recently, and a growing prevalence of flexible work arrangements.\nD. The number of residents outside the labor force who had not worked before was lower in 2021 and 2022 compared to 2019, and the decline in those who were caregivers of young children aged 12 & below and for other family members.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "eb73a64e-92f2-41fc-8ee0-9865483d9ae5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the main reason for leaving last job among unemployed PMETs and non-PMETs, according to the text?\nHow do you respond?\nA. Placing/answering online job advertisements\nB. Asking friends/relatives\nC. Attending walk-in interviews\nD. Updating resumes on professional/social networking sites\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ef26534e-792b-44bf-b935-784b1f4f2351",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the percentage of unemployed residents who were not working mainly due to caregiving responsibilities, according to the text?\nHow do you respond?\nA. 10%\nB. 8.6%\nC. 32.0%\nD. 32.3%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                }
+            ]
+        }
+    ]
+}

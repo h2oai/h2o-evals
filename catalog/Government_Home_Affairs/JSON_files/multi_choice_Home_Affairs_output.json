@@ -1,0 +1,683 @@
+{
+    "tests": [
+        {
+            "key": "f1cc36da-092a-4131-8282-efaabbe35bc2",
+            "documents": [
+                "Home_Affairs.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "e15b8c70-fe30-45cf-a92a-88bf7f3a9897",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the scope of the PI?\nHow do you respond?\nA. This PI covers referrals of non-citizen travellers in immigration clearance who do not appear to hold a visa.\nB. This PI covers immigration clearance of non-citizens who hold a visa, including imposters who appear to hold a visa or apply for a visa whilst in clearance.\nC. This PI covers immigration clearance of non-citizens without a visa in the Maritime environment.\nD. This PI covers clearance of travellers and/or goods under the Customs Act 1901 (Customs Act).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9c1666ce-4fd2-4c0a-a7b7-7e2a42fa175a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the requirements for immigration clearance under the Migration Act?\nHow do you respond?\nA. A valid visa and evidence of identity\nB. A valid passport and a Special Purpose Visa (SPV)\nC. A valid visa and a referral from the Border Operations Centre (BOC)\nD. Evidence of identity and a prescribed status for a Special Purpose Visa (SPV)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f512b76e-e34e-43c4-9f4d-da8d94329203",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of an Australian citizen?\nHow do you respond?\nA. A person who holds a valid visa to enter Australia.\nB. A person who is a citizen of Australia, as defined by the Australian Citizenship Act 2007.\nC. A person who is born in Australia, regardless of their citizenship status.\nD. A person who has been granted a Special Purpose Visa (SPV) under the Migration Regulations 1994.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0339684d-b471-42c6-a196-a5c447acf8af",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two types of documentary evidence required for immigration clearance in Australia?\nHow do you respond?\nA. A valid visa and a passport\nB. An incoming passenger card and a visa\nC. A passport and evidence of Australian citizenship\nD. An incoming passenger card and evidence of Australian citizenship\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7c8e254a-a2b3-4ebd-99e4-61ac6d33e421",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Immigration Clearance of Australian Citizens \u2013 PI (BC-2536) and Immigration Clearance of Australian Citizens without an Australian Passport \u2013 PI (BC-2458)?\nHow do you respond?\nA. To provide guidelines for immigration clearance of non-citizens.\nB. To provide guidelines for immigration clearance of Australian citizens with a valid passport.\nC. To provide guidelines for immigration clearance of Australian citizens without a valid passport.\nD. To provide guidelines for secondary clearance of travellers with a special purpose visa.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "8894b25b-f74a-4e97-b18a-f2d56120de40",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the three things that a BCO must be satisfied with regarding a visa holder\u2019s identity?\nHow do you respond?\nA. Visa status, visa conditions, and identity.\nB. Passport/travel document, incoming passenger card, and visa grant letter.\nC. Bio-data, expired passport/travel document, and ETA slip.\nD. Valid passport/travel document, visa grant, and immigration status.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3d981176-3bca-41ec-aac6-2d4dcca73d39",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does a BCO need to do if they are unable to locate a visa record for a traveller in departmental systems?\nHow do you respond?\nA. Check the traveller's visa history and status to see if the visa was granted with the same bio-data as presented in the traveller's passport.\nB. Contact the Department of Home Affairs to request assistance in locating the visa record.\nC. Ask the traveller to provide additional information or documentation to support their visa application.\nD. Deny the traveller entry into Australia and initiate deportation proceedings.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9400cabe-beb2-430b-b8a4-3386d21715fa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Transit Without Visa (TWOV) arrangement?\nHow do you respond?\nA. An arrangement that allows travellers to transit through Australia without a visa, provided they meet certain conditions.\nB. An arrangement that allows travellers to enter Australia without a visa, provided they have a confirmed onward booking.\nC. An arrangement that allows travellers to stay in Australia for up to 8 hours without a visa.\nD. An arrangement that allows travellers to transit through Australia with a visa, provided they have documentation necessary to enter the country of destination.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2ba1c434-96d6-4520-85a9-9a482a91b5dd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a TWOV eligible traveller needs to clear immigration?\nHow do you respond?\nA. The traveller will be immigration cleared.\nB. The traveller will not be immigration cleared and will need to have an Australian visa.\nC. The traveller will be redirected to the Transit Area.\nD. The traveller will be allowed to proceed past the primary line.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "41dbe513-e8e8-4f52-9c31-ad4a8284c7d7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can a BCO ensure that a TWOV eligible traveller is not immigration cleared?\nHow do you respond?\nA. By confirming the traveller's visa status through departmental systems.\nB. By advising the traveller that they are not eligible for TWOV and must obtain a visa before proceeding.\nC. By allowing the traveller to proceed to the transit area without immigration clearance.\nD. By stamping the traveller's passport with an entry stamp.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "02530be5-53ec-4947-97b5-df8f40f86ad3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Movement Alerts Listing (MAL) narratives?\nHow do you respond?\nA. To record the traveller's previous immigration violations.\nB. To provide a detailed description of the traveller's intended stay in Australia.\nC. To track the traveller's movement history through various ports and airports.\nD. To document the traveller's reasons for being denied entry into Australia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "476dbc91-50f2-4fd4-84ce-f0ed1b371acb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of a Temporary Work (Skilled) visa (subclass 457)?\nHow do you respond?\nA. A visa that allows skilled workers to work in Australia temporarily.\nB. A visa that allows unskilled workers to work in Australia temporarily.\nC. A visa that allows workers to work in Australia permanently.\nD. A visa that allows students to work in Australia temporarily.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1a6ea1a9-4d08-4292-a880-4da0629f761d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of a Temporary Work (Short Stay Specialist) visa (subclass 400)?\nHow do you respond?\nA. A visa that allows the holder to work in Australia temporarily for a short period of time.\nB. A visa that allows the holder to work in Australia permanently.\nC. A visa that allows the holder to study in Australia temporarily.\nD. A visa that allows the holder to visit Australia for a short period of time.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2b93cefd-2f5e-4bc7-b5f0-97082e27cbad",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is eligible for a Temporary Work (Skilled) visa (subclass 457) or a Temporary Work (Short Stay Specialist) visa (subclass 400)?\nHow do you respond?\nA. The passengers (travellers) who are eligible to TWOV are specified by legislative instrument IMMI 17/053.\nB. Parents who apply for a visa on behalf of a minor who arrives without a visa and is eligible to be granted an ETA or Border visa.\nC. A traveller who is a genuine traveller, and their purpose for travel to Australia is genuine and consistent with the type of visa held, and grounds for visa cancellation do not exist.\nD. An APS employee who complies with any lawful and reasonable direction given by someone in the employee\u2019s Agency who has authority to give the direction under subsection 13(5) of the Public Service Act 1999.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "9cc551f2-6c73-45c4-b560-3a670874c999",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Border Force Supervisor in the immigration clearance process?\nHow do you respond?\nA. To assess the traveller's bona fides and determine their eligibility for a visa.\nB. To escort the traveller to the Transit Area if they are not eligible for immigration clearance.\nC. To infringe the airline carrier if the traveller does not hold a valid visa or fit the definition of TWOV.\nD. To grant an ETA or Border visa, subject to the criteria for grant being met.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "08a3ea0d-2d6c-4449-b6d8-9dec911c5acf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the consequence of a breach of the APS Code of Conduct?\nHow do you respond?\nA. Sanctions under subsection 15(1) of the Public Service Act.\nB. A direction given by someone in the employee's agency who has authority to give the direction under subsection 13(5) of the Public Service Act.\nC. Refusal of immigration clearance.\nD. Infringement of the airline carrier.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2af62540-605a-4ee8-b589-696a18f6e574",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Statement of Expectation in the PI document?\nHow do you respond?\nA. To outline the requirements for granting a Border visa.\nB. To provide guidance on how to assess a traveller's bona fides.\nC. To inform APS employees of their obligations under the APS Code of Conduct.\nD. To specify the criteria for determining whether a traveller is eligible for a TWOV.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "504326ab-8683-4751-be4f-053967c5ee4e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between an eligible and an ineligible person for the grant of a Border visa?\nHow do you respond?\nA. An eligible person is someone who can be granted a visa, whereas an ineligible person cannot be granted a visa.\nB. An eligible person is someone who has a valid visa, whereas an ineligible person does not have a valid visa.\nC. An eligible person is someone who meets the criteria for a Border visa, whereas an ineligible person does not meet the criteria.\nD. An eligible person is someone who has been granted a visa, whereas an ineligible person has not been granted a visa.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "50bb0f6d-7e96-411c-9d11-63fcb8c8e804",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is eligible for a Border visa?\nHow do you respond?\nA. All non-citizen travellers who arrive in Australia without a visa or whose visa has been cancelled in immigration clearance.\nB. Non-citizen travellers who have compelling reasons for granting a Border visa and meet the requirements of Subclass 773 (Border) visa.\nC. Non-citizen travellers who are seeking to be immigration cleared and have a good reason for not holding a visa.\nD. All non-citizen travellers who are in immigration clearance, regardless of their circumstances.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "58b496ae-147f-4786-9b65-187f6b9bb7c3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Migration Regulations 1994 (the Regulations)?\nHow do you respond?\nA. To provide a framework for the granting of Border visas to eligible travellers.\nB. To outline the criteria for assessing protection claims and engaging Australia's protection obligations.\nC. To prescribe the requirements for the cancellation or refusal of visas under section 501 of the Migration Act.\nD. To provide a list of eligible visa subclasses for temporary work in Australia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "69e85090-167d-4f48-859e-bfc696e85501",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a Border visa?\nHow do you respond?\nA. A visa granted to a person who seeks to remain in Australia on a temporary basis and meets certain criteria.\nB. A visa granted to a person who has entered Australia with a visa that has been cancelled on presentation in immigration clearance.\nC. A visa granted to a person who is ineligible for a visa due to a breach of a condition 8502.\nD. A visa granted to a person who is a returning former holder of a visa specified in sub-clauses 773.213(3) or (4) who has a close relative in Australia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0e854f9f-3e09-4e33-9b0f-5406cfbbf724",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is eligible for a Border visa?\nHow do you respond?\nA. Protection claimants and travellers subject to a 5-year exclusion period.\nB. Spouse/de facto partner of an Australian citizen, Australian permanent resident, or eligible New Zealand citizen, and accompanying dependent children.\nC. Travellers who have been advised not to travel to Australia pending their section 501 assessment.\nD. All of the above.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "23687af1-8117-4862-aa05-8e6bc2e35dd6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the criteria for assessing a Border visa application?\nHow do you respond?\nA. The applicant's country of origin, age, and employment status.\nB. The applicant's reason for traveling to Australia, their ties to their home country, and their financial resources.\nC. The applicant's immigration history, including any previous visa refusals or cancellations.\nD. The applicant's relationship status and whether they have any family members who are Australian citizens or permanent residents.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4dcc4eed-9a10-4b8e-bf05-84b40b30fae3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is ineligible for a Border visa?\nHow do you respond?\nA. Protection claimants\nB. Travelers who are affected by an exclusion period such as Special Return Criteria (SRC) 5001 or SRC 5002\nC. Travelers who have been advised to not travel to Australia pending their section 501 assessment\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "d87be40d-e2f4-4ee7-b053-eee2016e1ce8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a Border visa be granted for compelling reasons?\nHow do you respond?\nA. Yes, compelling reasons can be considered for a Border visa application.\nB. No, compelling reasons are not a valid ground for a Border visa.\nC. Only if the traveller has a close relative in Australia.\nD. Only if the traveller has previously held a visa of the same type.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7720d87d-0d16-48f3-ac50-64cf27693d5d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long is a Border visa valid for?\nHow do you respond?\nA. The Border visa is valid for 5 years.\nB. The Border visa is valid until the traveller's intended stay in Australia is over.\nC. The Border visa is valid for 1 year.\nD. The Border visa is valid indefinitely.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d0c40815-b96d-4a1e-bd02-62fd3a3c7664",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a Border visa be extended?\nHow do you respond?\nA. Yes, a Border visa can be extended for a period of up to 12 months.\nB. No, a Border visa cannot be extended and expires upon departure from Australia.\nC. Yes, a Border visa can be extended in exceptional circumstances, such as compelling reasons or hardship.\nD. No, a Border visa cannot be extended, but the holder can apply for a new visa before it expires.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a1d6d38a-bc3b-48fe-83bb-0e9d67c7f76b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the consequences of breaching the conditions of a Border visa?\nHow do you respond?\nA. The traveller will be eligible for a further Border visa.\nB. The traveller's visa will be cancelled, and they may be subject to a five-year exclusion period.\nC. The traveller will be granted a Resident Return (Temporary) visa.\nD. The traveller will be eligible for a Temporary Work (Short Stay Specialist) visa.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0d9fb40a-c612-4025-937a-352f6cea4905",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Border visa?\nHow do you respond?\nA. To allow individuals to enter Australia without a visa for urgent or compelling reasons.\nB. To provide a visa to individuals who do not meet the requirements for a regular visa.\nC. To grant a visa to individuals who are not a risk to Australia's interests.\nD. To allow individuals to bypass the regular visa application process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "73ebf4c7-e47d-4f03-aee0-41dd0b5377a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is considered a good reason for not holding a visa on arrival?\nHow do you respond?\nA. The traveller's failure to obtain a visa before departure was not reasonably practicable.\nB. The traveller's presence in Australia is not contrary to Australia's interests.\nC. The traveller has a substantial criminal history that falls within the scope of section 501 of the Act.\nD. The traveller is a Behaviour Concern Non-Citizen (BCNC).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "06e9b317-a23a-4eb2-b414-04d80ca96a9f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who assess whether a traveller can be considered for a Border visa?\nHow do you respond?\nA. The traveller themselves.\nB. The Primary Line Officer (PLO) at the primary line.\nC. The Behaviour Concern Non-Citizen (BCNC)\nD. The Border Control Officer (BCO)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "926deb78-da1b-4f62-8982-d96905003f20",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What considerations do BCOs give regard to when assessing a traveller's eligibility for a Border visa?\nHow do you respond?\nA. Community protection issues and the traveller's immigration status.\nB. The traveller's reason for not holding a visa on arrival and their level of understanding of English.\nC. The traveller's presence in Australia not being contrary to Australia's interests and their criminal history.\nD. The authenticity of the traveller's passport and indications of tampering and alteration.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "19a94622-1800-4da7-8159-170f066139a5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for a Border visa application?\nHow do you respond?\nA. The applicant must be an Australian citizen or permanent resident.\nB. The applicant must be in immigration clearance when applying for the visa, with the exception of a dependent child.\nC. The applicant must have an uplift approval from the Border Operations Centre (BOC) before applying for the visa.\nD. The applicant must provide a written statement demonstrating reasonable grounds for having failed to comply with the visa condition following entry into Australia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f4172322-2656-49d9-bb34-06baccb55083",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process for an uplift approval?\nHow do you respond?\nA. The BOC gives permission for the traveller to board the flight to Australia.\nB. The BCO completes Form 871, including the outcome of their decision, period of stay granted, and whether or not to serve an airline infringement notice.\nC. The traveller provides a written statement demonstrating reasonable grounds for having failed to comply with the visa condition and compelling reasons for being allowed to leave the place of immigration clearance.\nD. The primary visa holder or sponsor arrives in Australia within 30 days of the traveller being allowed to leave the place of immigration clearance with the permission of the BCO.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f8a06a51-31d5-4904-aa1b-d6bbf6b617fc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Schedule 1 requirement for Border visa application?\nHow do you respond?\nA. To ensure that the applicant has a valid travel document.\nB. To confirm the applicant's identity and immigration status.\nC. To determine the applicant's eligibility for a visa.\nD. To assess the applicant's financial capacity to support themselves during their stay in Australia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e5732b76-f8e1-420b-bffe-1c0bbc52d3a4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a dependent child apply for a Border visa?\nHow do you respond?\nA. Yes, a dependent child can apply for a Border visa on their own.\nB. Yes, a dependent child can apply for a Border visa, but only if they are accompanying their primary visa holder or sponsor.\nC. No, a dependent child cannot apply for a Border visa. They must apply for a different type of visa.\nD. No, a dependent child cannot apply for a Border visa, but they can be included on their parent's or guardian's Border visa application.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "ddef0dd7-707d-4ec6-8f48-10cc844d3a58",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Border Operations Centre (BOC) in the Border visa application process?\nHow do you respond?\nA. The BOC is responsible for approving or rejecting Border visa applications.\nB. The BOC provides uplift approval for unexpected arrivals in limited circumstances.\nC. The BOC conducts interviews with Border visa applicants to assess their eligibility.\nD. The BOC is responsible for processing and granting Border visas.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "138c7da1-a0c2-45df-baf8-cefbe3b83bc4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Clause 773.215 in the Border visa application process?\nHow do you respond?\nA. To provide a written statement demonstrating reasonable grounds for failing to comply with visa conditions.\nB. To allow the BCO to consider compelling reasons for leaving the place of immigration clearance.\nC. To specify the time frame within which the specified person referred to in the visa must arrive in Australia.\nD. To grant an uplift approval for the traveller's arrival in Australia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c5482497-7dee-47cf-9f95-c6d792cc21e6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of Section 47E(d) in the Border visa application process?\nHow do you respond?\nA. It provides the authority for the Border Operations Centre (BOC) to give uplift approval for a passenger in limited circumstances.\nB. It outlines the criteria for assessing a traveller's eligibility for a Border visa, including the requirement for a written statement demonstrating reasonable grounds for failing to comply with visa conditions.\nC. It allows the BCO to consider previous M304 reports about the person and review their immigration history before proceeding with the visa application.\nD. It requires the traveller to provide compelling reasons for being allowed to leave the place of immigration clearance with the permission of the clearance officer.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cadf3ae6-05a6-415d-b8d9-2b58ddfa2e6e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the eligibility criteria for a Border visa application?\nHow do you respond?\nA. Schedule 2 Part 773 of the Migration Regulations and Public Interest Criteria considerations.\nB. Schedule 4 - Public Interest Criteria considerations and adverse declaration(s) or response(s) on the Border visa application form.\nC. Schedule 5 - Special Return (SRC) criteria considerations and health, character, or security concerns.\nD. All of the above.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7adaacb4-4ccc-4217-a5dc-afbb3e8deae2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is PIC 4001 and what does it relate to?\nHow do you respond?\nA. PIC 4001 relates to the Minister being satisfied that the traveller passes the character test.\nB. PIC 4001 relates to the traveller's eligibility for a Border visa based on all of their circumstances.\nC. PIC 4001 relates to the assessment of adverse declaration(s) or response(s) on the Border visa application form.\nD. PIC 4001 relates to the assessment of health, character, or security concerns.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a201b10f-f982-47e1-8dc1-a22c0260c892",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the character test assessed for PIC 4001?\nHow do you respond?\nA. By considering the nature and frequency of criminal conduct, as well as rehabilitation.\nB. By assessing the traveller's age and whether they have any previous immigration violations.\nC. By evaluating the traveller's employment history and financial stability.\nD. By reviewing the traveller's social media activity and online presence.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "93aba33d-984d-4839-983d-8e8833119954",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the five-year exclusion period for Border visa holders?\nHow do you respond?\nA. Applies to all Border visa holders regardless of their circumstances.\nB. Applies only to travellers who have been granted a Border visa in the last five years and meet certain criteria.\nC. Does not apply to travellers who are passengers on a vessel that has entered Australia due to matters beyond the control of the person in charge of the vessel.\nD. Does not apply to travellers who have been granted a Border visa in the last ten years.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2e82ab65-68f8-46fc-a5c0-faccae1ac564",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the BCO assess a traveller\u2019s eligibility for a Border visa?\nHow do you respond?\nA. By assessing the traveller's criminal history and character.\nB. By considering the traveller's age, health, and security concerns.\nC. By evaluating the traveller's financial resources and debts to the Commonwealth.\nD. By reviewing the traveller's immigration history and compliance with previous visas.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4d3a3cea-1967-47a8-adca-0f400f249257",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum period of validity for a Border visa?\nHow do you respond?\nA. 30 days\nB. 60 days\nC. 90 days\nD. 120 days\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9ce5a37b-dbff-4017-a7e9-1764ba073adc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Border visa?\nHow do you respond?\nA. To allow a person to enter Australia for a short period of time while their visa application is being processed.\nB. To provide a permanent residence visa for individuals who have been denied a visa due to unforeseen circumstances.\nC. To allow citizens of certain countries to enter Australia without a visa for a short period of time.\nD. To provide a temporary visa for individuals who are awaiting the outcome of their visa application.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "80ba922b-df6f-4ccb-8260-b6edc9d4fa58",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a Border visa be granted for a period longer than 30 days?\nHow do you respond?\nA. Yes, in exceptional circumstances, a Border visa can be granted for a period longer than 30 days.\nB. No, a Border visa can only be granted for a maximum period of 30 days.\nC. Yes, a Border visa can be granted for a period longer than 30 days if the applicant has a valid reason for staying in Australia beyond 30 days.\nD. No, a Border visa can only be granted for a period of 30 days, but the applicant can apply for an extension once they are in Australia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8e001e4e-be75-438a-967a-391642172c50",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the conditions that must be mirrored on a Border visa grant?\nHow do you respond?\nA. The conditions that are to be imposed must mirror those of the visa for which the traveller is apparently eligible.\nB. The conditions that are to be imposed must be determined by the delegate on a case-by-case basis and in line with visa policy.\nC. The conditions that are to be imposed must be the same as those for a Resident Return visa (RRV).\nD. The conditions that are to be imposed must be mandatory conditions only.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fe5c8ab4-0e4b-4c89-b1ef-00cea621d026",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process for granting a Border visa?\nHow do you respond?\nA. The BCO must consider evidence and/or information available to them to determine whether the five-year exclusion period applies.\nB. The traveller must have compelling reasons for the Border visa grant, and the presence of the applicant in Australia would not be contrary to Australia's interests.\nC. The BCO should grant the visa in either M ainframe RF or Border Security Portal, and all relevant fields with the exception of Visa Period and Visa Conditions should be prepopulated by the systems.\nD. A Border visa need only covers the visa holder until the applicant's scheduled date of departure from Australia (if known).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "232d4f4f-42e2-4288-a45a-2677deb041e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a Border visa be granted for a transit passenger who misses a connecting flight?\nHow do you respond?\nA. Yes, a Border visa can be granted for the entire period the passenger is expected to stay in Australia.\nB. Yes, a Border visa can be granted until the passenger's scheduled departure date.\nC. No, a Border visa cannot be granted for a transit passenger who misses a connecting flight.\nD. Yes, a Border visa can be granted for 30 days to allow the passenger to apply for a new visa.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ec364bc4-76ed-4101-82d4-0981f446c609",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of a BCO in granting a Border visa?\nHow do you respond?\nA. To determine whether the five-year exclusion period applies.\nB. To grant a Border visa within the five-year exclusion period.\nC. To assess the applicant's eligibility for a Return (Residence) or Resident Return (Temporary) visa.\nD. To impose mandatory and discretionary conditions on the Border visa.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b5419e6b-04cc-4f28-b405-b259a0fd5676",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is a Border visa grant notified to the traveller?\nHow do you respond?\nA. The traveller should be provided with the visa grant notification except in an emergency or time-limited situation where a verbal notice may be given.\nB. The BCO must ensure that all the client fields are completed, including the following visa details: visa grant number, visa conditions attached to the visa, and period of stay granted.\nC. The traveller will receive an email with the visa grant notification.\nD. The BCO will inform the traveller's employer or sponsor of the visa grant.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4aedf8eb-a9b2-4120-98ce-73154845957e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the details that the BCO must complete for a Border visa grant?\nHow do you respond?\nA. Visa grant number, visa conditions, and period of stay granted.\nB. Visa validity, visa conditions, and period of stay granted.\nC. Visa grant number, visa conditions, and counseling the person about the visa.\nD. Visa validity, visa conditions, counseling the person about the visa, and saving all documents pertaining to the grant of the Border visa in Content Manager.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f9351779-f324-447c-90c1-298121c1859c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can the latest version of the Border visa grant notice template be found?\nHow do you respond?\nA. On the Department of Home Affairs' intranet page titled \"Border Procedural Instruction Toolkit.\"\nB. On the Department of Home Affairs' website under the \"Forms and Templates\" section.\nC. In the TRIM system, which is used to save all documents pertaining to the grant of the Border visa.\nD. In the Mainframe RF or Border Security Portal, which generates the visa grant number.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e7cd3677-5ada-4183-a0d1-dcd2e488b6a6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What must the BCO do with the signed copy of the grant notice?\nHow do you respond?\nA. Retain a signed copy for your record and give it to the traveler together with the detached cover sheet of Form 871.\nB. Return the signed copy to the departmental system for filing.\nC. Send the signed copy to the traveler's email address.\nD. Attach the signed copy to the visa application in the Content Manager.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3bdac971-9939-446b-850e-0af0f1ecf416",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What must the BCO counsel the traveler about?\nHow do you respond?\nA. Visa validity, visa conditions, and period of stay granted.\nB. Visa grant number, visa conditions, and period of stay granted.\nC. Visa grant number, visa conditions, and that the visa is not valid for travel.\nD. Visa validity, visa conditions, and that the visa is not valid for travel.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "02b4b56b-b847-488e-a1c4-dec5fdb7078e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Attachment C \u2013 Consultation in the Border visa grant process?\nHow do you respond?\nA. To provide a statement regarding Australia's interests.\nB. To counsel travellers about visa conditions and validity.\nC. To record the grant decision on the notification and retain a signed copy.\nD. To consult with internal departments and stakeholders.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "41dfb9cf-cf66-4a6b-9cc7-ac6ff01e8a43",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are Australia\u2019s interests in the context of the Border visa grant process?\nHow do you respond?\nA. Community safety, economic, social, and health factors.\nB. Protection of vulnerable members of the community, such as minors, the elderly, and disabled.\nC. Ensuring that all visa applicants have a strong chance of being granted a visa.\nD. Maintaining a high level of tourism and international relations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "09e79b0b-084b-44df-9235-1f45ba7fa026",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the consequence of committing serious crimes in Australia or elsewhere for a person's visa?\nHow do you respond?\nA. The person's visa will be cancelled or refused.\nB. The person will be granted a visa with additional conditions.\nC. The person will be allowed to stay in Australia but will be monitored closely.\nD. The person's visa will not be affected.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "31d4fca4-94b6-4f7e-8f12-38c4ac3a2d99",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the consideration for cancellation or refusal of a visa for persons who have lived in the Australian community for a short period of time?\nHow do you respond?\nA. The length of time making a positive contribution to the community.\nB. The consequences of cancellation or refusal on minor children and immediate family members.\nC. The risk posed by the individual to the Australian community.\nD. The individual's criminal history.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "989d7fc7-f51a-4703-b338-5c5b4b68b721",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should outweigh the interests of the individual in the context of the Border visa grant process?\nHow do you respond?\nA. The interests of the Australian community, including community safety, economic, social, and health factors.\nB. The individual's right to freedom of movement and the privilege of coming to or remaining in Australia.\nC. The interests of the applicant's home country and its citizens.\nD. The interests of the international community and global economic and political considerations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}

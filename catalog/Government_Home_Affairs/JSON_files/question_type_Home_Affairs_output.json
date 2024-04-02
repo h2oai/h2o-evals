@@ -1,0 +1,1277 @@
+{
+    "tests": [
+        {
+            "key": "b89c5312-6634-4411-9a99-2d51906eea90",
+            "documents": [
+                "Home_Affairs.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "00d39ceb-f1ed-4d85-b8ea-67889b8bf9f2",
+                    "prompt": "Question: What is the purpose of the Immigration Clearance of Australian Citizens \u2013 PI (BC-2536) and Immigration Clearance of Australian Citizens without an Australian Passport \u2013 PI (BC-2458)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the Immigration Clearance of Australian Citizens \u2013 PI (BC-2536) and Immigration Clearance of Australian Citizens without an Australian Passport \u2013 PI (BC-2458) is to provide guidance on the clearance of Australian citizens who do not hold an Australian passport."
+                },
+                {
+                    "key": "b9c77b23-9dae-420f-a514-86aeac410d6a",
+                    "prompt": "Question: How should a PLO process a traveller who presents two passports/travel documents with the same bio-data but one is valid and the other has expired?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A PLO should scan the valid passport/travel document first to confirm its genuineness and if a visa is attached. If a visa record against the valid passport/travel document is not located, the traveller should be processed on their expired passport/travel document and if it holds a valid visa, the PLO should manually refer the traveller to a BCO for secondary clearance."
+                },
+                {
+                    "key": "4bb44dde-9fe1-4da2-8812-f234510c52af",
+                    "prompt": "Question: Can a traveller who has deliberately not declared their criminal history on the application form or on their completed IPC be granted a Border visa?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A traveller who has deliberately not declared their criminal history on the application form or on their completed IPC may be viewed as deceptive, and this behaviour may work against them in terms of being invited to apply for a Border visa."
+                },
+                {
+                    "key": "e750e7ee-eb1e-4a93-b523-13dd911d15ad",
+                    "prompt": "Question: Can a Border visa be granted for a period longer than the scheduled date of departure from Australia?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a Border visa need only covers the visa holder until the applicant\u2019s scheduled date of departure from Australia (if known)."
+                },
+                {
+                    "key": "d7ae341b-7f7e-4c1e-9b85-5d6b02222335",
+                    "prompt": "Question: Can a BCO finalise the immigration clearance of a traveller who has been referred for a Border visa?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a BCO must not finalise the immigration clearance of a traveller who has been referred for a Border visa until the visa matter has been resolved."
+                },
+                {
+                    "key": "4f6903ce-1db2-4732-99da-bf95779492e0",
+                    "prompt": "Question: What is the role of the Automated Telephone Interpreters Service (ATIS) in the process of assessing a traveller's eligibility for a Border visa?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Automated Telephone Interpreters Service (ATIS) can be contacted by a BCO to assist in translating preliminary questions for a traveller who may not speak English fluently."
+                },
+                {
+                    "key": "a7f8cca2-0491-45cb-a4f5-96c493d48f3d",
+                    "prompt": "Question: Can a Border visa be granted for a transit passenger who misses a connecting flight?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a Border visa can be granted for a transit passenger who misses a connecting flight, sufficient to cover the period of stay necessary for the applicant to remain in Australia."
+                },
+                {
+                    "key": "ad668046-92db-4a46-b998-4d2c187886c0",
+                    "prompt": "Question: What does a BCO need to do if they are unable to locate a visa record for a traveller in departmental systems?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "If a BCO is unable to locate a visa record for a traveller in departmental systems, they must check the traveller's visa history and status to determine if the traveller was granted a visa that is in effect."
+                },
+                {
+                    "key": "cef63b6a-a1df-45ec-9d48-62ce479ef23a",
+                    "prompt": "Question: What are the three main steps that a Border Control Officer (BCO) must follow when dealing with a traveller who does not have a valid visa?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The three main steps are:\n\n1. Confirm the traveller's visa status by interrogating departmental systems.\n2. Check the traveller's immigration status and identity.\n3. Action the referral and consider whether the traveller is eligible for a Transit Without Visa (TWOV) arrangement."
+                },
+                {
+                    "key": "c8baa02c-f4b4-4526-9eec-9cdfab5a1806",
+                    "prompt": "Question: What should a Primary Line officer (PLO) do if they cannot confirm that a traveller holds a visa through PACE?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "If a Primary Line officer (PLO) cannot confirm that a traveller holds a visa through PACE, they should process the traveller by the passport/travel document presented, which will generate a referral in PACE and then refer the traveller to a BCO for secondary clearance."
+                },
+                {
+                    "key": "acb90569-c34e-454b-b368-05f8caf0a287",
+                    "prompt": "Question: What should a BCO do when a traveller presents two valid passports/travel documents with different bio-data?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "When a traveller presents two valid passports/travel documents with different bio-data, the BCO must process the traveller with the more recently issued passport/travel document and then refer them to a BCO for secondary clearance."
+                },
+                {
+                    "key": "2e234232-b0b4-47ba-ab13-45a58818ecae",
+                    "prompt": "Question: How many times has the text been released by the Department of Home Affairs under the Freedom of Information Act 1982?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The text has been released by the Department of Home Affairs under the Freedom of Information Act 1982 four times."
+                },
+                {
+                    "key": "77e88e4f-dfea-4d16-af19-83fdf506efe7",
+                    "prompt": "Question: What is the significance of establishing a traveller's correct identity and immigration status in the process of assessing their eligibility for a Border visa?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Establishing a traveller's correct identity and immigration status is critical in the process of assessing their eligibility for a Border visa, as it helps to ensure that the traveller does not pose a risk to Australia's interests."
+                },
+                {
+                    "key": "5435534c-2c30-4f00-92ca-e00f4799d206",
+                    "prompt": "Question: What is the role of the Australian Border Force (ABF) Border Clearance Officers (BCO) in the process of granting a Border visa?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Australian Border Force (ABF) Border Clearance Officers (BCO) are responsible for considering and granting Border visas to eligible travellers in immigration clearance."
+                },
+                {
+                    "key": "9f6f1d0b-c6cc-4d3a-9674-4d5684b21dc4",
+                    "prompt": "Question: What considerations do BCOs give regard to when assessing a traveller's eligibility for a Border visa?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "BCOs consider community protection issues, such as health, safety, good order, and character, and whether the traveller's presence in Australia would be contrary to Australia's interests."
+                },
+                {
+                    "key": "458c2ba0-8938-4fb8-a680-a5c1ad26fefc",
+                    "prompt": "Question: What is the requirement for a traveller whose visa is cancelled for breaching visa condition following entry into Australia?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The traveller whose visa is cancelled for breaching visa condition following entry into Australia must provide a written statement that demonstrates the following criteria in sub-clauses 773.215(a) -(c), which includes having reasonable grounds for having failed to comply with that condition, providing compelling reasons for being allowed to leave the place of immigration clearance with the permission of the clearance officer, and stating that the specified person referred to in their visa (usually the primary visa holder or sponsor) will arrive in Australia within 30 days of the traveller being allowed to leave the place of immigration clearance with the permission of the BCO."
+                },
+                {
+                    "key": "23ec4455-afea-42c4-abdb-f3d016b2dcba",
+                    "prompt": "Question: What is the role of the Automated Telephone Interpreters Service (ATIS) in the immigration clearance process?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Automated Telephone Interpreters Service (ATIS) can be used by a BCO to assist in translating preliminary questions for a traveller who may not speak English fluently."
+                },
+                {
+                    "key": "6fd92be8-2c48-4031-abad-12386144f660",
+                    "prompt": "Question: Who is eligible for a Temporary Work (Skilled) visa (subclass 457) or a Temporary Work (Short Stay Specialist) visa (subclass 400)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "To be eligible for a Temporary Work (Skilled) visa (subclass 457) or a Temporary Work (Short Stay Specialist) visa (subclass 400), a person must meet certain requirements, including having the necessary skills and qualifications for the job, having a genuine intention to stay in Australia temporarily, and meeting health and character requirements."
+                },
+                {
+                    "key": "389376a2-1931-4857-aba8-1e67eec028c1",
+                    "prompt": "Question: What is the responsibility of Leading Border Force Officers (BCOs) in assessing an individual's risk to the community?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Leading Border Force Officers (BCOs) are responsible for assessing an individual's risk to the community and determining community protection risk factors."
+                },
+                {
+                    "key": "233147dc-e310-4ab7-bea5-94a02d6d4ee2",
+                    "prompt": "Question: What is the purpose of the Arrivals without a visa \u2013 PI (BC-639) procedure?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the Arrivals without a visa \u2013 PI (BC-639) procedure is to provide guidance on the processing of travellers who arrive without a visa."
+                },
+                {
+                    "key": "a1b84b5f-1731-462c-9bdf-31359835be11",
+                    "prompt": "Question: What is the difference between an eligible and an ineligible person for the grant of a Border visa?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An eligible person for the grant of a Border visa is someone who meets the criteria for the grant of a visa, including having a genuine intention to stay in Australia temporarily and meeting health and character requirements. An ineligible person is someone who does not meet these criteria or who is not eligible for the grant of a visa under the Migration Act."
+                },
+                {
+                    "key": "25be24d6-46d3-4507-8920-f2243748c466",
+                    "prompt": "Question: Can a BCO grant a visa to a traveller at the primary line?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a BCO cannot grant a visa to a traveller at the primary line. If a traveller requires a visa, they must apply for one in advance of arriving in Australia."
+                },
+                {
+                    "key": "557a2801-f9bb-4c3e-969f-3efe72350b82",
+                    "prompt": "Question: Can a Border visa be granted for a period longer than 30 days?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a Border visa cannot be granted for a period longer than 30 days."
+                },
+                {
+                    "key": "a0f55dbe-a436-4404-b3dc-4c7e67cbaf86",
+                    "prompt": "Question: What is the definition of a Temporary Work (Short Stay Specialist) visa (subclass 400)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Temporary Work (Short Stay Specialist) visa (subclass 400) is a type of visa that allows specialists to come to Australia temporarily to work in a specialized field."
+                },
+                {
+                    "key": "19a49d28-ec42-424e-83e9-315519727488",
+                    "prompt": "Question: What dual role does the Passenger Card Coding \u2013 PI (BC-667) serve in the immigration clearance process concerning visa validation and travel document verification?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Passenger Card Coding \u2013 PI (BC-667) provides guidance on the coding of incoming passenger cards (IPCs) with the appropriate referral reason codes."
+                },
+                {
+                    "key": "f8b96ca7-1fbc-404c-abe5-015a2fc888ce",
+                    "prompt": "Question: How can a BCO ensure that a TWOV eligible traveler is not immigration cleared when they have a confirmed onward booking and meet all other entry requirements?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "To ensure that a TWOV eligible traveller is not immigration cleared, the BCO must redirect the traveller to the Transit Area instead of allowing them to proceed past the primary line."
+                },
+                {
+                    "key": "79033272-5dfb-4fb7-a531-7fcd92b4712c",
+                    "prompt": "Question: What are the considerations for determining community protection risk factors by Leading Border Force Officers under the Freedom of Information Act 1982?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Freedom of Information Act 1982 allows for the release of information held by the Department of Home Affairs, such as the text provided, to the public."
+                },
+                {
+                    "key": "0c09ccb5-9388-4159-81fa-15666c77a2d7",
+                    "prompt": "Question: What dual role does the Border Operations Centre (BOC) play in the Border visa application process regarding immigration status verification and travel authorization?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Border Operations Centre (BOC) plays a critical role in the Border visa application process as it is responsible for granting uplift approvals, reviewing and confirming the person\u2019s identity and immigration history, and deciding whether to serve an airline infringement notice."
+                },
+                {
+                    "key": "4cb12194-8df3-455f-9f89-2b1c5d66b123",
+                    "prompt": "Question: Can a Border visa be granted to a person who has not obtained a visa prior to traveling to Australia, given that there are compelling reasons for the travel, and the person's presence in Australia would not be contrary to Australia's interests?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Border visa may be granted to a person who has not obtained a visa prior to travelling to Australia, but there should always be some mitigating factor justifying granting a Border visa."
+                },
+                {
+                    "key": "df3790c1-7e51-41fb-af87-9567133184a2",
+                    "prompt": "Question: Considering the context, how does the Border (Temporary) (Class TA) (Subclass 773) visa serve as an exception for non-citizen travelers who arrive in Australia without a visa or have their visa canceled during immigration clearance, and what factors does a Border Clearance Officer consider when determining whether to grant a Border visa?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the Border (Temporary) (Class TA) (Subclass 773) visa is to provide a pathway for non-citizen travellers who arrive in Australia without holding a visa or whose visa has been cancelled in immigration clearance to enter Australia."
+                },
+                {
+                    "key": "f9158db1-8a71-4780-b565-ab1be7c70f0b",
+                    "prompt": "Question: How does the BCO assess a traveler's eligibility for a Border visa, considering the traveler's possible previous immigration offenses and the five-year exclusion period?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BCO assesses a traveller\u2019s eligibility for a Border visa by considering the eligibility criteria, including Schedule 2 Part 773 of the Migration Regulations, adverse declaration(s) or response(s) on the Border visa application form, and Schedule 4 - Public Interest Criteria considerations."
+                },
+                {
+                    "key": "fe398d7a-343c-483f-86c7-aab181e4ba8a",
+                    "prompt": "Question: What are the considerations for refusing or canceling a visa for individuals who have lived in the Australian community for a short period, considering the dual role of protecting community safety and respecting individual privileges?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The length of time making a positive contribution to the community and the consequences of cancellation or refusal on minor children and immediate family members are considerations in determining the appropriateness of cancellation or refusal."
+                },
+                {
+                    "key": "9b1a1752-acb8-4049-be78-df0fe1462877",
+                    "prompt": "Question: Under what circumstances can a BCO grant a Border visa within the five-year exclusion period, and what factors must they consider when determining the visa's validity period and conditions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A BCO must consider evidence and/or information available to them to determine whether the five-year exclusion period applies and must ensure that all the client fields are completed, including the visa grant number, visa conditions attached to the visa, and period of stay granted."
+                },
+                {
+                    "key": "00f1b9f1-ef07-4c39-80a1-8194597ec2ff",
+                    "prompt": "Question: Considering the context of assessing a traveler's visa application during the immigration process, how does examining their passport or travel document serve dual purposes in ensuring both the authenticity of their identity and the possibility of granting a Border visa?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of examining a traveller's passport/travel document is to check its authenticity and look for indications of tampering and alteration."
+                },
+                {
+                    "key": "6f57ef62-a062-4ab7-8182-f21fe38daee8",
+                    "prompt": "Question: Under what circumstances can a Border Control Officer consider a traveler's application for a Border visa, despite the traveler's potential ineligibility due to community protection concerns or criminal history?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Border Control Officers (BCOs) assess whether a traveller can be considered for a Border visa."
+                },
+                {
+                    "key": "2b4f8862-0ee3-442b-832a-69d75a181730",
+                    "prompt": "Question: What are the conditions under which a Temporary Work (Skilled) visa (subclass 457) can be granted for immigration clearance at an Australian airport, aside from the traveller's bona fides and eligibility for an ETA or Border Visa, while considering the role of Advance Passenger Processing (APP), and the possibility of infringing the airline carrier, and how does it relate to the APS Code of Conduct and the Public Service Act 1999?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Temporary Work (Skilled) visa (subclass 457) is a type of visa that allows skilled workers to come to Australia temporarily to work in a skilled position."
+                },
+                {
+                    "key": "14dc1061-f953-437c-bf90-ba0d66e96b0b",
+                    "prompt": "Question: How does verifying an individual's criminal history factor into determining their potential risk to a community, considering the importance of prioritizing community protection in Australia?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Verifying an individual's criminal history through systems checks is important in determining their risk to the community."
+                },
+                {
+                    "key": "712b458f-0177-40c3-af95-704104bbea98",
+                    "prompt": "Question: What should be the priority when assessing an individual's risk to the community in Australia, considering the frequency and severity of offenses, vulnerability of victims, and the reliability of statements, while ensuring the community's protection outweighs individual interests?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The interests of the community, including protection from risk, should outweigh the interests of the individual."
+                },
+                {
+                    "key": "7288ad5c-5e7e-46ae-bad9-a2cd7aaf941c",
+                    "prompt": "Question: What dual role does a photocopy of a passport, boarding pass, airline ticket/baggage tags, and an airline representative play in immigration clearance regarding TWOV eligibility and visa cancellation?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The requirement for photocopying documents in the immigration clearance process is to photocopy the bio-data page of the passport, boarding pass, airline ticket/baggage tags, as these documents will assist with making a decision about whether to infringe the carrier."
+                },
+                {
+                    "key": "ebb90f8a-2d13-4efe-be21-d9f63ea39ff8",
+                    "prompt": "Question: How do BCOs determine whether an offense under Section 229 of the Migration Act has occurred, given the existence of Procedural Instruction (PI) covering referrals of non-citizen travelers in immigration clearance who do not appear to hold a visa, and Special Purpose Visas (SPV) for certain categories of non-citizens?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "BCOs must determine, in consultation with a supervisor, whether an offence under Section 229 of the Migration Act has occurred and whether it is appropriate in the circumstances to issue an infringement notice to the airline who transported the person to Australia."
+                },
+                {
+                    "key": "5cd2aef1-0d9b-4213-b81e-0e4bb5107902",
+                    "prompt": "Question: What dual role does a Border Force Supervisor play in the immigration clearance process regarding assessing traveler bona fides and granting visas?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Border Force Supervisor is responsible for discussing with the airline carrier whether or not to infringe the carrier for a passenger who does not hold a valid visa and is not eligible for the grant of a visa."
+                },
+                {
+                    "key": "a1bbfaee-0ba9-463e-bf6f-14e77f3f7654",
+                    "prompt": "Question: What should a BCO do when a traveler arrives with a valid visa, but the system does not show the visa record?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "When a traveller arrives without a visa, the BCO should determine why the traveller has arrived without a visa and confirm the traveller\u2019s visa status by interrogating departmental systems and looking for evidence of a visa grant."
+                },
+                {
+                    "key": "1dc73471-019f-470c-b4d0-5d5f385a6ba3",
+                    "prompt": "Question: Under what circumstances must a BCO be satisfied with a visa holder's identity and visa status, and what three things must they check according to the given context?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A BCO must be satisfied with the visa holder\u2019s identity, visa status, and visa conditions."
+                },
+                {
+                    "key": "7280fe36-9595-403c-aafd-657c0a7a8f31",
+                    "prompt": "Question: What dual purpose does Schedule 1 of the Border visa application serve regarding immigration status and travel authorization?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of Schedule 1 requirement for Border visa application is to ensure that the applicant is in immigration clearance when applying for the visa, with the exception of a dependent child."
+                },
+                {
+                    "key": "7300e5dc-9572-4355-b004-6546ff94e6f9",
+                    "prompt": "Question: What are the procedures that a TWOV eligible traveler must follow when they need to clear immigration, and how does the immigration officer determine the traveler's visa status and identity?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "If a TWOV eligible traveller needs to clear immigration, for example, to collect baggage or board an onwards flight, they will need to have an Australian visa and be immigration cleared."
+                },
+                {
+                    "key": "abe799e5-7a1b-4b62-b4cb-b42c93624de3",
+                    "prompt": "Question: Under what circumstances can a traveler be granted a Border visa within a five-year exclusion period, and how is the visa grant notified to the traveler?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The traveller should be provided with the visa grant notification, either in writing or verbally in an emergency or time-limited situation."
+                },
+                {
+                    "key": "8132af44-422e-469e-8883-a263322f96ba",
+                    "prompt": "Question: What conditions must be met for a Border visa grant to be mirrored on a visa for which a traveler is eligible, and how should the visa grant notification be handled in different situations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The conditions that must be mirrored on a Border visa grant are the same as those of the visa for which the traveller is apparently eligible."
+                },
+                {
+                    "key": "99cecd81-a86c-4d24-892f-091290c21354",
+                    "prompt": "Question: What are the consequences of committing a serious crime for a person's visa, considering Australia's community protection principles and the balance between individual and national interests?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Australian Government can and should refuse entry to persons or cancel their visas if they commit serious crimes in Australia or elsewhere."
+                },
+                {
+                    "key": "140356f3-6d2e-4884-af27-1839f642a10b",
+                    "prompt": "Question: How does the Australian community's expectation regarding law-abiding behavior and community safety affect the granting and cancelation of visas?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Australian community expects that persons coming to or remaining in Australia are law-abiding, will respect important societal institutions, and will not cause or threaten harm to individuals or the community."
+                },
+                {
+                    "key": "271b569a-563f-4b3b-bfdf-f3e63a8703e1",
+                    "prompt": "Question: Under what conditions can a traveler be eligible for TWOV arrangements, and how does a Border Control Officer (BCO) determine if a traveler meets these conditions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "To be eligible for the TWOV arrangement, a traveller must:\n\n1. Be a national of a specified country.\n2. Enter Australia by aircraft.\n3. Hold a confirmed onward booking to leave Australia to travel to a third country on the same or another aircraft within 8 hours of arrival in Australia.\n4. Hold documentation necessary to enter the country of destination.\n5. Not leave the airport transit lounge except to continue their journey."
+                },
+                {
+                    "key": "743e5930-6898-4419-8467-6d6efde9fbf9",
+                    "prompt": "Question: What dual role does a BCO play in the granting of a Border visa regarding document management and traveller counseling?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BCO must save all documents pertaining to the grant of the Border visa in Content Manager (formerly known as TRIM)."
+                },
+                {
+                    "key": "0d24c872-3385-4596-9344-cb40b13df58a",
+                    "prompt": "Question: What is the maximum period of validity for a Border visa, considering the circumstances of the traveler's arrival and scheduled departure, and how are visa conditions determined for the grant?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The maximum period of validity for a Border visa is 30 days."
+                },
+                {
+                    "key": "37b6be32-dd6b-4b63-b48d-c5632eb9b37f",
+                    "prompt": "Question: What are the differences between a Border visa and a Resident Return visa regarding their purpose and validity, and how are their conditions determined?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Border visa is granted to a traveller who is not eligible for a visa, while a Resident Return visa is granted to a traveller who is apparently eligible for a Resident Return visa."
+                },
+                {
+                    "key": "3f3acb7f-5f27-4bfa-9fc4-6ea9d67450c3",
+                    "prompt": "Question: How does the Border Operations Centre (BOC) handle immigration clearance for travelers without a visa while ensuring compliance with the Migration Act of 1958 and the safety of Australian borders?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BOC may authorize uplift for a traveller who does not hold a valid visa, under limited circumstances."
+                },
+                {
+                    "key": "7264895a-63a1-42ec-8204-a6c7871fcf53",
+                    "prompt": "Question: What dual purpose does establishing a traveler's correct identity and immigration status serve at the border?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of establishing a traveller's correct identity and immigration status is to ensure that the traveller is not an Australian citizen or permanent resident travelling on another travel document/passport, and to confirm that no other visa is held, and to check for previous M304 reports about the person and consider the information where previous reports exist, and to check Central Movement Alert List (CMAL) for a possible listings, and to check whether the traveller has ever been removed from Australia or has ever been subject to section 501 cancellation or refusal consideration, and to review and confirm the person\u2019s identity and immigration history before proceeding, and to check if an uplift approval (if any) has been given by the Border Operations Centre (BOC)."
+                },
+                {
+                    "key": "6bba0bb9-2124-4285-b170-e25be9b1d780",
+                    "prompt": "Question: How should due diligence be applied in determining the circumstances of a case, given that the interests of the community, including protection from potential risk, should outweigh individual interests?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Due diligence must be applied when determining the circumstances of the case, including verification of the person's criminal history through systems checks and obtaining information from Character."
+                },
+                {
+                    "key": "b3c0880a-633a-4052-b72a-e488c301088a",
+                    "prompt": "Question: What is the purpose of Clause 773.215 in the Border visa application process, and how does it relate to the traveller's identity and immigration status?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of Clause 773.215 in the Border visa application process is to provide a special requirement for a traveller whose visa is cancelled for breaching visa condition following entry into Australia, which includes providing a written statement that demonstrates the criteria in sub-clauses 773.215(a) -(c)."
+                },
+                {
+                    "key": "56e86377-eb8d-4f47-8865-3383b436420e",
+                    "prompt": "Question: What are the consequences of breaching the conditions of a Border visa, specifically regarding the 5-year exclusion period, and how does one become eligible for the grant of a Border visa despite being ineligible due to a previous visa cancellation or refusal?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Breaching the conditions of a Border visa can result in the visa being cancelled, and the holder may be subject to deportation. It is important to comply with the conditions of the visa to avoid any negative consequences."
+                },
+                {
+                    "key": "19438b39-07b4-47f1-badc-785a8f71a31e",
+                    "prompt": "Question: What dual role does the Procedural Instruction (PI) serve regarding visa-less arrivals and the fulfillment of Australia's protection obligations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the PI is to provide guidance for Border Clearance Officers (BCOs) in the Aviation environment when dealing with non-citizen travellers who do not appear to hold a visa."
+                },
+                {
+                    "key": "f973a724-9a0d-4588-bae4-fb8761e51451",
+                    "prompt": "Question: What are the implications of Section 47E(d) for a Border visa application, given its relation to identity and immigration status verification, and how does it impact the decision-making process for a visa grant?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Section 47E(d) is significant in the Border visa application process as it releases information under the Freedom of Information Act 1"
+                },
+                {
+                    "key": "fd0ce342-f5aa-424b-bee4-ff16c00efad9",
+                    "prompt": "Question: What's a valid reason for visa-free travel?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A good reason for not holding a visa on arrival may include personal circumstances of the traveller or their Australian contacts, which may cause unnecessary inconvenience or distress if a visa were not granted."
+                },
+                {
+                    "key": "117108a9-4067-4444-a896-7f13972f75b8",
+                    "prompt": "Question: What's needed for Oz immigration?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The two types of documentary evidence required for immigration clearance in Australia are a valid visa to enter Australia for non-citizens and a completed and accurate Incoming Passenger Card (IPC)."
+                },
+                {
+                    "key": "6d6e5ce4-8bba-47d6-9a63-20e5a412b01d",
+                    "prompt": "Question: What must the BCO do for a Border visa grant?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BCO must complete the following details for a Border visa grant: visa grant number, visa conditions attached to the visa, and period of stay granted."
+                },
+                {
+                    "key": "7591e5c3-bb44-4e95-a078-6c2bb36d06ea",
+                    "prompt": "Question: What's needed for immigration clearance?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Under s166 of the Migration Act, a valid visa is required to enter and remain in Australia. Travellers must present evidence of their identity (a valid travel document such as a passport) and a valid visa to enter Australia, unless they have a prescribed status for a Special Purpose Visa (SPV)."
+                },
+                {
+                    "key": "768d1109-4314-45a2-ab97-30fdca35f619",
+                    "prompt": "Question: How does BCO finalize Form 871?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BCO must complete the results of their actions and decisions on Form 871, including the outcome of the decision, period of stay granted, and whether or not to serve an airline infringement notice."
+                },
+                {
+                    "key": "af015713-9109-4a0b-9215-d001f46a4f7b",
+                    "prompt": "Question: What's the point of Attachment C in visa processing?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Attachment C \u2013 Consultation is used to consult with internal stakeholders such as the Border and Events Visas section and Port Operations."
+                },
+                {
+                    "key": "5ee016c1-626e-4ba5-8843-2c1f3dca7d1f",
+                    "prompt": "Question: What takes precedence over individual interests in the context of border visa grant decisions?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Australia\u2019s interests, including those of the community and their protection from risk that a person may pose, should outweigh the interests of the individual."
+                },
+                {
+                    "key": "a9f4c7c0-1a76-4b35-ae18-268fc36522f8",
+                    "prompt": "Question: Where can I find the latest Border visa grant notice template?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The latest version of the Border visa grant notice template can be found on the Border Procedural Instruction Toolkit intranet page."
+                },
+                {
+                    "key": "67163681-51af-4958-9bd9-3d4f0355200e",
+                    "prompt": "Question: What's an SPV?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Special Purpose Visa (SPV) is a type of visa that applies to certain categories of non-citizens who are exempt from holding a visa for travel to Australia. For further information, refer to the Migration Regulations 1994 (the Regulations) Reg 2."
+                },
+                {
+                    "key": "217b7176-25bf-4a36-a634-cb0fbba2de37",
+                    "prompt": "Question: Can compelling reasons justify a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a Border visa may be granted for compelling reasons, such as urgent business or personal reasons, death or illness of a close family member, or medevac emergencies. The decision to grant a Border visa for compelling reasons will be made on a case-by-case basis."
+                },
+                {
+                    "key": "df1a45bc-2f75-479e-9be1-440713eff931",
+                    "prompt": "Question: Can a five-year exclusion period be skipped?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An example of a situation where the five-year exclusion period may be waived is if a vessel not destined for Australia is diverted from the original port of destination to Australia due to mechanical difficulties or inclement weather."
+                },
+                {
+                    "key": "46f2dad3-0d10-4b7e-b1f7-d6afe9cc0069",
+                    "prompt": "Question: What's the deal with Oz visas?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Australia\u2019s interests include community safety, economic, social, and health factors. The Government has articulated community protection principles that can be applied in the context of decision-making relating to Border visas."
+                },
+                {
+                    "key": "e238db8f-5b5d-4d56-a355-1c4586ecab81",
+                    "prompt": "Question: How does Character impact risk assessment for an individual?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Character statements should be obtained and considered in determining an individual's risk to the community."
+                },
+                {
+                    "key": "baf6d19c-4529-4dd4-aa78-3a23df8c04f5",
+                    "prompt": "Question: Who determines Australia's community protection risks?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Leading Border Force Officers (BCOs) are responsible for determining community protection risk factors."
+                },
+                {
+                    "key": "3925735d-9d2f-41e5-9754-58e9e25fb9fa",
+                    "prompt": "Question: What's the process for a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The process for applying for a Border visa involves submitting an application and supporting documentation to the Department of Home Affairs, and attending an interview with a border officer if required. The application will be assessed against the relevant criteria, and the applicant will be notified of the decision."
+                },
+                {
+                    "key": "8f444bcd-0f37-47d6-acaf-6549f35c5770",
+                    "prompt": "Question: What's the deal with TWOV?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Transit Without Visa (TWOV) arrangement allows certain nationals of specified countries to transit through Australia without a visa, provided they meet certain conditions."
+                },
+                {
+                    "key": "0607f82a-3c36-49cd-8766-97a6fde3447c",
+                    "prompt": "Question: What's needed for a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The criteria for assessing a Border visa application include compelling reasons for granting the visa, the traveller's presence in Australia not being contrary to Australia's interests, and the traveller having a good reason for not holding a visa on arrival. The decision to consider a Border visa must be determined on a case-by-case basis, considering all of the traveller's circumstances."
+                },
+                {
+                    "key": "8bf48ccd-b969-441a-8dae-023240d1f4b1",
+                    "prompt": "Question: Who can't get a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Certain classes of travellers are ineligible for a Border visa, including protection claimants, travellers subject to a 5-year exclusion period, and travellers who have been advised not to travel to Australia pending their section 501 assessment."
+                },
+                {
+                    "key": "bc5a037a-1c88-46d0-b5cc-ded0fb71d5ba",
+                    "prompt": "Question: What's the deal with getting a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The process for granting a Border visa involves an assessment by a BCO, who must consider evidence and/or information available to them to determine whether the five-year exclusion period applies. If the BCO makes an assessment that the traveller may be granted a Border visa, they should grant the visa in either Mainframe RF or Border Security Portal."
+                },
+                {
+                    "key": "a9f3e8bc-ca83-49ab-b7bf-02fc078cbf3f",
+                    "prompt": "Question: What factors are important for community risk assessment?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Factors such as the nature and seriousness of the offending, frequency and age of the offending, whether the offending has escalated over time, whether the offending occurred against vulnerable people, and whether false information has been provided on the visa application or Incoming Passenger Card should be considered."
+                },
+                {
+                    "key": "7c061d06-3cd1-4e55-8d3f-e75d1fdbdc63",
+                    "prompt": "Question: What's the BCO's part in evaluating a traveler's character?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BCO must consider the character test provisions under section 501 of the Migration Act when assessing a traveller\u2019s character. They must also consider whether the traveller would likely fail the character test."
+                },
+                {
+                    "key": "2996f641-fbc7-4f58-8541-99662deebdd3",
+                    "prompt": "Question: Who can apply for a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Under clause 773.213 of the Regulations, certain categories of travellers may be eligible for a Border visa, including spouses/de facto partners of Australian citizens or permanent residents, accompanying dependent children, certain returning former holders of visas, and travellers who seek to remain in Australia on a temporary basis and appear to be eligible for a Visitor visa, Transit visa, or Temporary Work (Short Stay Specialist) visa."
+                },
+                {
+                    "key": "9881086a-113c-47f9-a2ac-beba463a8d3e",
+                    "prompt": "Question: What's needed for a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The eligibility criteria for a Border visa application include meeting the requirements of Schedule 2 Part 773 of the Migration Regulations, adverse declaration(s) or response(s) on the Border visa application form, and Schedule 4 - Public Interest Criteria considerations, including health, character or security concerns, debts to the Commonwealth, exclusions such as cancellations or overstay, and consideration of minors."
+                },
+                {
+                    "key": "0fa16df4-1261-4377-aa05-559c7ae3a78e",
+                    "prompt": "Question: Are statements trustworthy?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, statements made by an individual should not be taken at face value but tested wherever possible by exploring all reasonable avenues for investigation."
+                },
+                {
+                    "key": "5d74602c-b36a-44c2-86a3-60b5961420c2",
+                    "prompt": "Question: What's a BCNC?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Behaviour Concern Non-Citizen (BCNC) is a traveller who has a substantial criminal history that falls within the scope of section 501 of the Migration Act (refusal or cancellation of visa on character grounds)."
+                },
+                {
+                    "key": "9b7ce834-8164-425b-9fd9-0a78033d64a1",
+                    "prompt": "Question: What can a BCO access through ICSE or CSP?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A BCO can access information on a traveller's immigration status and history through the Integrated Client Services Environment (ICSE) or Client Search Portal (CSP)."
+                },
+                {
+                    "key": "cadbcdb9-1525-4325-a3b5-778caa632177",
+                    "prompt": "Question: Can a child with a dependent status get a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a dependent child can apply for a Border visa, and their application must be included on the same form as the primary applicant."
+                },
+                {
+                    "key": "dca08903-b885-4d84-8e41-27bc02dbc0c1",
+                    "prompt": "Question: What's the point of PACE?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the Passenger Analysis Clearance Evaluation (PACE) system is to confirm that a traveller holds a visa by scanning or entering the accurate passport/travel document details."
+                },
+                {
+                    "key": "666a5b41-d668-4b38-a51a-4fc18c0fa47d",
+                    "prompt": "Question: What's needed for a Border visa?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Border visa application must be made on Form 871 - Application for a Border visa (subclass 773) which is available in Legend, and parts A and B must be completed by the traveller. Members of a family unit may combine their applications and be included on the one form."
+                },
+                {
+                    "key": "acc67678-8201-4b24-9d92-36404f24c5e8",
+                    "prompt": "Question: What's the next step for the BCO after grant notice signing?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BCO must retain a signed copy of the grant notice for their record and give it to the traveler together with the detached cover sheet of Form 871."
+                },
+                {
+                    "key": "378ea507-2112-4747-85f2-24a6641d1f32",
+                    "prompt": "Question: Considering the given context, can a traveller whose visa has been cancelled under section 501 of the Migration Act be eligible for a Border visa, and what are the compelling reasons that may warrant a Border visa application consideration for such a traveller?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A traveller whose visa has been cancelled under section 501 of the Migration Act may be ineligible for a Border visa under clause 773.213(1)(e) of the Regulations, which prescribes a 5-year exclusion period for previous Border visa holders who have had their visa cancelled. However, they may be eligible if they can demonstrate compelling reasons for the grant of a Border visa, such as a medical emergency or a pre-arranged business schedule that cannot be rescheduled. The decision to consider a Border visa for such a traveller must be determined on a case-by-case basis, taking into account all of the traveller's circumstances and whether they meet the criteria for the grant of a Border visa under clause 773.213 of the Regulations."
+                },
+                {
+                    "key": "eb0ee312-a7ea-4c79-9236-47ce8f015196",
+                    "prompt": "Question: Considering the given context, what are the circumstances under which a person would be ineligible for a Border visa, and how does the Procedural Instruction (PI) provide guidance on operationalising the legal requirements and related policies that apply to the Subclass 773 (Border) visa?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A person to whom sub-clause 773.213(1)(c) of the Migration Regulations 1994 applies is ineligible for a Border visa. The Procedural Instruction (PI) provides guidance on operationalising the legal requirements and related policies that apply to the Subclass 773 (Border) visa by outlining the reasons for considering a Border visa, the eligibility criteria, and the procedures for assessing and granting a Border visa. The PI also emphasizes the importance of considering all of the traveller's circumstances on a case-by-case basis to determine whether they are eligible for a Border visa."
+                },
+                {
+                    "key": "829304ad-badd-4b2f-bb34-974c610289d8",
+                    "prompt": "Question: Considering the given context, assess whether a traveller who has previously been removed from Australia under sections 198, 199 or 205 of the Migration Act and has deliberately not declared their criminal history on the application form or on their completed IPC, meets the requirements for a Border visa, including health, character or security concerns, debts to the Commonwealth, exclusions such as cancellations or overstay, and consideration of minors, and determine whether the five-year exclusion period applies to their subsequent Border visa applications, and explain why.\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The traveller's eligibility for a Border visa is assessed based on Schedule 4 - Public Interest Criteria considerations, which include health, character or security concerns, debts to the Commonwealth, exclusions such as cancellations or overstay, and consideration of minors. The traveller's deliberate failure to declare their criminal history on the application form or on their completed IPC may be viewed as deceptive behavior and may work against them in terms of being invited to apply for a Border visa. Additionally, the five-year exclusion period applies to previous Border visa holders who are prescribed under sub-clauses 773.213(1)(e), (f) or (g) of the Migration Regulations, and the traveller must meet the criteria specified under 773.216(2)(b) to be eligible for a further Border visa. In this case, the traveller's previous removal from Australia under sections 198, 199 or 205 of the Migration Act may also be taken into account in assessing their character and whether they meet the requirements for a Border visa."
+                },
+                {
+                    "key": "4cd7affc-536d-454a-a6aa-d5b949356312",
+                    "prompt": "Question: Can a person who has been advised not to travel to Australia pending their section 501 assessment and has a previous Border visa that was granted less than 5 years ago, be eligible for a new Border visa if they have a compelling reason for not holding a visa on arrival and their presence in Australia would not be contrary to Australia's interests?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The person may be eligible for a new Border visa if they meet the criteria for the grant of a Border visa under clause 773.213 of the Migration Regulations 1994, including having compelling reasons for not holding a visa on arrival and their presence in Australia not being contrary to Australia's interests. However, their previous Border visa and the reason for its cancellation, as well as their current circumstances, would need to be taken into account in assessing their eligibility for a new Border visa. Additionally, they would need to meet the requirements of sub-clause 773.216(2) if they are subject to a 5-year exclusion period."
+                },
+                {
+                    "key": "83bb9241-be29-4cbd-bcaf-61304e0ede9c",
+                    "prompt": "Question: Considering the given context, what are the possible reasons why a Border visa may be granted to a non-citizen traveller who arrives in Australia without holding a visa or whose visa has been cancelled in immigration clearance, and how would an Australian Border Force (ABF) Border Clearance Officer (BCO) determine whether the traveller's presence in Australia would not be contrary to Australia's interests, and what are the procedures that the BCO must follow in order to grant a Border visa to such a traveller?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Border visa may be granted to a non-citizen traveller who arrives in Australia without holding a visa or whose visa has been cancelled in immigration clearance if the traveller has compelling reasons for granting a Border visa, such as a family emergency or a medical condition, and the traveller's presence in Australia would not be contrary to Australia's interests. An ABF Border Clearance Officer (BCO) would determine whether the traveller's presence in Australia would not be contrary to Australia's interests by considering factors such as the traveller's immigration history, any criminal convictions, and the purpose of their visit. The BCO must follow the procedures outlined in the Procedural Instruction (PI) for the Subclass 773 (Border) visa, which includes assessing the traveller's eligibility for a Border visa, considering compelling reasons for granting a Border visa, and ensuring that the traveller's presence in Australia would not be contrary to Australia's interests. The BCO must also ensure that the traveller meets the requirements for the grant of a Border visa, including having a valid passport, being of good character, and meeting health and character requirements. If the BCO determines that the traveller is eligible for a Border visa, they will grant the visa and provide the traveller with immigration clearance."
+                },
+                {
+                    "key": "ec5b7b24-60f9-40f8-886a-29adc9ce0cbe",
+                    "prompt": "Question: What are the necessary steps that an officer must take into consideration when determining whether to grant a Border visa to a non-citizen traveller who has arrived in Australia without holding a visa or whose visa has been cancelled in immigration clearance, and how does the officer ensure that the decision is made in accordance with the legal requirements and related policies that apply to the Subclass 773 (Border) visa, and what are the potential consequences for the traveller and the officer if the decision is not made in accordance with these requirements?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The officer must first determine whether the traveller is eligible for a Border visa by considering their circumstances on a case-by-case basis. This includes assessing whether there are compelling reasons for granting the visa, whether the traveller's presence in Australia would not be contrary to Australia's interests, and whether the traveller has a good reason for not holding a visa on arrival. The officer must also ensure that the decision is made in accordance with the legal requirements and related policies that apply to the Subclass 773 (Border) visa, as outlined in the Procedural Instruction (PI) and the Migration Act 1958 (Migration Act) and its regulations. Failure to make a decision in accordance with these requirements could result in the traveller being denied entry into Australia or having their visa cancelled, and could also lead to consequences for the officer, such as disciplinary action or legal liability."
+                },
+                {
+                    "key": "efbda076-528e-4109-b7af-d2940b92cabf",
+                    "prompt": "Question: Considering the given context, determine the maximum period of validity for a Border visa granted to a business, non-citizen visitor who has a pre-arranged schedule with a departure flight booked in advance, and explain why this period is chosen.\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The maximum period of validity for a Border visa granted to a business, non-citizen visitor who has a pre-arranged schedule with a departure flight booked in advance is the duration of their scheduled stay in Australia, up to a maximum of 30 days. This period is chosen because the Border visa need only covers the visa holder until their scheduled date of departure from Australia, as per the Immigration Clearance procedures outlined in the given context. The decision maker must weigh up the validity period by taking into account the circumstances that underpin the traveler's arrival, and in this case, the traveler's scheduled departure flight serves as a reasonable indicator of their intended length of stay in Australia."
+                },
+                {
+                    "key": "0effe41e-e4e8-4609-993f-00b153bbc7e8",
+                    "prompt": "Question: Considering the given context, determine the eligibility criteria for a Border visa, and assess whether a traveller who has arrived in Australia without a visa and has had their previous visa cancelled in immigration clearance, and has been unable to regularise their visa status through the application and grant of another substantiative visa, would be eligible for a Border visa, and explain the reasoning behind the decision.\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A traveller who has arrived in Australia without a visa and has had their previous visa cancelled in immigration clearance, and has been unable to regularise their visa status through the application and grant of another substantiative visa, may be eligible for a Border visa if they meet the eligibility criteria outlined in the Procedural Instruction (PI) for the Subclass 773 (Border) visa. The eligibility criteria include the traveller having compelling reasons for granting a Border visa, their presence in Australia not being contrary to Australia\u2019s interests, and having a good reason for not holding a visa on arrival. The decision to consider a Border visa must be determined on a case-by-case basis, taking into account all of the traveller\u2019s circumstances. The PI provides guidance on operationalising the legal requirements and related policies and procedures that apply to the Border visa, and the decision to grant a Border visa must be made by a Border Clearance Officer (BCO) in the airports or, in limited circumstances, seaports providing immigration clearance under the Migration Act 1958."
+                },
+                {
+                    "key": "801570d6-148f-4149-9716-324fcfa64372",
+                    "prompt": "Question: Considering the given context, can a traveller who has entered Australia with a visa that has been cancelled on presentation in immigration clearance because the traveller has breached a condition 8502 'the holder of the visa must not enter Australia before the entry to Australia of a person specified in the visa (generally the primary visa holder)', and who is the spouse/de facto partner of an Australian citizen, Australian permanent resident or an eligible New Zealand citizen, be granted a Border visa?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, the traveller may be eligible for a Border visa. Sub-clause 773.213(1)(c) of the Migration Regulations 1994 particularly applies to the traveller's situation. The decision to consider a Border visa for the traveller must be determined on a case-by-case basis, having considered all of the traveller's circumstances. The traveller's breach of condition 8502 may be considered as a factor in the assessment, but it is not an automatic bar to the grant of a Border visa. The decision-maker must consider all relevant information and assess whether there are compelling reasons for granting the visa, and whether the traveller's presence in Australia would not be contrary to Australia's interests."
+                },
+                {
+                    "key": "5caa2a0e-4938-405a-ac5f-e9e2de43cdee",
+                    "prompt": "Question: What steps must a Border Control Officer (BCO) take when a traveller's visa history indicates that they were granted a visa that is in effect, but the visa was not granted with the same bio-data as presented in the traveller's passport?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "When a traveller's visa history indicates that they were granted a visa that is in effect, but the visa was not granted with the same bio-data as presented in the traveller's passport, the BCO must check whether the visa was granted with a different bio-data as presented in the traveller's passport. If the visa was granted with a different bio-data, the BCO must consider whether the discrepancy in bio-data is due to a change in the traveller's name, date of birth, or nationality. If the discrepancy is due to a change in name, date of birth, or nationality, the BCO must verify the traveller's identity through other means, such as a TRIM search or by checking the traveller's other identification documents. If the BCO is unable to verify the traveller's identity, they must refuse the traveller's entry to Australia."
+                },
+                {
+                    "key": "c176ba8a-faff-4657-ae06-d508d3b10654",
+                    "prompt": "Question: What are the circumstances under which an offense under Section 229 of the Migration Act may be committed, and what procedures must be followed by Border Clearance Officers in the Aviation environment when encountering a non-citizen traveler without a valid visa?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An offense under Section 229 of the Migration Act may be committed when a non-citizen is brought to Australia without a valid visa, and the circumstances may include situations where a traveler arrives on a foreign passport without a visa claiming to be an Australian citizen, or where a non-citizen presents in immigration clearance without a valid visa or arrives and seeks to engage Australia's protection obligations. Border Clearance Officers in the Aviation environment must follow the Procedural Instruction (PI) that covers referrals of non-citizen travelers in immigration clearance who do not appear to hold a visa, which includes determining whether an offense under Section 229 has occurred and whether it is appropriate in the circumstances to issue an infringement notice to the airline who transported the person to Australia, in consultation with a supervisor."
+                },
+                {
+                    "key": "4acfca19-84d1-4a72-9281-da393a1d4b83",
+                    "prompt": "Question: Can a traveler who is a Behaviour Concern Non-Citizen (BCNC) or has a substantial criminal history that falls within the scope of section 501 of the Act (refusal or cancellation of visa on character grounds) be granted a Border visa, and how does the decision-making process for granting a Border visa consider community protection issues and Australia's interests?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A traveler who is a Behaviour Concern Non-Citizen (BCNC) or has a substantial criminal history that falls within the scope of section 501 of the Act may not be granted a Border visa if their presence in Australia would be contrary to Australia's interests. The decision-making process for granting a Border visa involves assessing whether the traveler has a 'good reason' for not holding a visa on arrival, and whether their presence in Australia would be contrary to Australia's interests. Community protection issues, such as health, safety, good order, and character, are relevant considerations in assessing whether a traveler can be considered for a Border visa. If a decision is made that an application for a Border visa is not appropriate, the traveler would be refused immigration clearance and may be detained and removed from Australia."
+                },
+                {
+                    "key": "646ae2a3-9c74-40a7-bf4a-2708f437aa11",
+                    "prompt": "Question: What are the procedures for handling non-citizen travelers who arrive at an Australian airport without a valid visa, and how do the officers determine whether an offense under Section 229 of the Migration Act 1958 has occurred, and what are the consequences for the airline that transported them to Australia, and how does the process for processing non-citizens who seek to engage Australia's protection obligations differ from the process for immigration clearance of non-citizens who hold a valid visa?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The procedures for handling non-citizen travelers who arrive at an Australian airport without a valid visa are outlined in Arrivals without a visa \u2013 PI (BC -2436). In consultation with a supervisor, the Australian Border Force officer must determine whether an offense under Section 229 of the Migration Act 1958 has occurred and whether it is appropriate in the circumstances to issue an infringement notice to the airline that transported the person to Australia, see Section 229 Infringements at the border \u2013 PI (BC -2565). Non-citizens who present in immigration clearance without a valid visa or arrive and seek to engage Australia's protection obligations are covered in Protection Claims at the Border \u2013 PI (BC -2436). The process for processing non-citizens who seek to engage Australia's protection obligations differs from the process for immigration clearance of non-citizens who hold a valid visa in that it involves a referral to a supervisor to determine whether an offense has occurred and whether it is appropriate to issue an infringement notice to the airline that transported them to Australia."
+                },
+                {
+                    "key": "669fdf7e-90fc-4525-ace8-470296fa33df",
+                    "prompt": "Question: Considering the Public Interest Criteria (PICs) for the grant of a Border visa, and the fact that a traveller's eligibility for a Border visa must be assessed against the eligibility criteria in Schedule 2 of the Migration Regulations, and the five-year exclusion period for previous Border visa holders, determine whether a traveller who has been removed from Australia under sections 198, 199 or 205 of the Migration Act and has a history of violent or sexual offences, would be eligible for a Border visa, and if so, would they be subject to the five-year exclusion period?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a traveller who has been removed from Australia under sections 198, 199 or 205 of the Migration Act and has a history of violent or sexual offences, would be eligible for a Border visa, but they would be subject to the five-year exclusion period. The five-year exclusion period applies to previous Border visa holders who are prescribed under sub-clauses 773.213(1)(e), (f) or (g) of the Migration Regulations. However, this traveller would need to meet the criteria specified under 773.216(2)(b) to be eligible for a further Border visa. Additionally, the traveller's history of violent or sexual offences would be taken into account in assessing their character and whether they pass the character test under PIC 4001, which relates to the Minister being satisfied that the traveller passes the character test. The decision maker must consider the nature/seriousness of the crime or conduct, the frequency and \u2018age\u2019 of the crime or conduct, whether there is an escalation in offending conduct, and whether there is information to suggest that the person may have been rehabilitated."
+                },
+                {
+                    "key": "34d7d660-2767-437f-a109-c137bc41cce7",
+                    "prompt": "Question: What are the potential consequences of breaching the APS Code of Conduct for an APS employee who fails to comply with a lawful and reasonable direction given by someone in their Agency who has authority to give the direction under subsection 13(5) of the Public Service Act 1999, and how does this relate to the Statement of Expectation in the PI document?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The potential consequences of breaching the APS Code of Conduct for an APS employee who fails to comply with a lawful and reasonable direction given by someone in their Agency who has authority to give the direction under subsection 13(5) of the Public Service Act 1999 include sanctions under subsection 15(1) of the Public Service Act. The Statement of Expectation in the PI document informs APS employees of their obligations under the APS Code of Conduct and the potential consequences of breaching those obligations, including the potential sanctions for failing to comply with a lawful and reasonable direction. Therefore, the Statement of Expectation serves as a reminder to APS employees of the importance of complying with any direction contained in the PI document, which is a lawful and reasonable direction given by someone in their Agency who has authority to give the direction under subsection 13(5) of the Public Service Act 1999."
+                },
+                {
+                    "key": "1f153a85-9fe7-422a-a466-4d16b6c474bf",
+                    "prompt": "Question: Considering the Public Interest Criteria and the eligibility criteria for a Border visa, and the fact that a traveller has previously been removed from Australia under sections 198, 199 or 205 of the Migration Act, and they have a history of violent or sexual offences, can the traveller be granted a Border visa?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, the traveller cannot be granted a Border visa. The traveller's history of violent or sexual offences and previous removal from Australia under sections 198, 199 or 205 of the Migration Act would likely result in them failing the character test and therefore not meeting the eligibility criteria for a Border visa. Additionally, the five-year exclusion period would apply to their subsequent Border visa applications, unless they meet the criteria specified under 773.216(2)(b) of the Migration Regulations, which includes being a passenger on a vessel that has entered Australia because of matters beyond the control of the person in charge of the vessel."
+                },
+                {
+                    "key": "8233cc2a-511f-4719-a76d-41dc452345c4",
+                    "prompt": "Question: Considering the given context, what are the possible reasons why a Border visa may be granted to a non-citizen traveller who arrives in Australia without holding a visa or whose visa has been cancelled in immigration clearance, and how does an officer determine whether the traveller is eligible for a Border visa, and what factors do they consider when making this determination?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Border visa may be granted to a non-citizen traveller who arrives in Australia without holding a visa or whose visa has been cancelled in immigration clearance if there is a 'good reason' for them not holding a visa, or if their presence in Australia would not be contrary to Australia's interests. An officer determines whether the traveller is eligible for a Border visa by considering their eligibility, compelling reasons for granting a Border visa, and whether their presence in Australia would not be contrary to Australia's interests. The officer must also consider all of the traveller's circumstances on a case-by-case basis."
+                },
+                {
+                    "key": "6cfceaff-4b71-4af1-92e3-9dc08da19bd9",
+                    "prompt": "Question: What are the reasons for considering a Border visa for a traveller, and how does an officer determine whether the traveller's presence in Australia would not be contrary to Australia's interests, and what are the powers and obligations of the officer in granting a Border visa, and how does the officer ensure that the decision to grant a Border visa is in accordance with the legal requirements and related policies and procedures, and what is the role of the Department of Home Affairs in this process?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The reasons for considering a Border visa for a traveller include the traveller's eligibility for a Border visa, compelling reasons for granting a Border visa, and the traveller's presence in Australia not being contrary to Australia's interests. An officer determines whether the traveller's presence in Australia would not be contrary to Australia's interests by considering all of the traveller's circumstances on a case-by-case basis. The officer's powers and obligations in granting a Border visa include turning their mind to the traveller's eligibility for a Border visa and whether the traveller has compelling reasons for granting a Border visa and whether the traveller's presence in Australia would not be contrary to Australia's interests. The officer ensures that the decision to grant a Border visa is in accordance with the legal requirements and related policies and procedures by following the Procedural Instruction (PI) and the Department of Home Affairs' guidelines. The Department of Home Affairs is responsible for issuing the Procedural Instruction (PI) and providing guidelines for officers to operate in accordance with the legal requirements and related policies and procedures."
+                },
+                {
+                    "key": "5966cda3-309d-45ec-b03e-a4ae0646016c",
+                    "prompt": "Question: What are the requirements for immigration clearance for a person who claims to be an Australian citizen but does not have a valid visa, and what procedures should be followed if such a person is encountered at an airport or seaport in Australia?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "According to the Immigration Clearance Procedures for Arrivals without a Visa, if a person claims to be an Australian citizen but does not have a valid visa, they must provide evidence of their identity and citizenship. The Border Clearance Officer (BCO) must then determine whether the person is an Australian citizen, and if so, they must be issued with an ImmiCard. If the person is not an Australian citizen, they must be referred to a supervisor for further assessment. If the person is deemed to be a non-citizen who does not hold a valid visa, they may be issued with an infringement notice under Section 229 of the Migration Act 1958. Additionally, the BCO must ensure that the person's details are recorded on the Movement Alert Listing System (MALS) and the Movement Record System (MRS)."
+                },
+                {
+                    "key": "1cf4f128-01d2-4b25-9395-9d37b38f898b",
+                    "prompt": "Question: Considering the Department of Home Affairs' guidelines for counseling travelers about their visas, what information must the BCO provide to the traveler, and how should they document the grant of the Border visa?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BCO must provide the traveler with information about the visa validity, visa conditions, and that the visa is not valid for travel and will cease on their departure. They must also inform the traveler that if they travel to Australia again, they must obtain an appropriate visa prior to travel. The BCO must document the grant of the Border visa by completing all client fields, including the visa grant number, visa conditions, and period of stay granted, and must manually record the grant decision on the notification, retain a signed copy for their record, and give it to the traveler together with the detached cover sheet of Form 871. All documents pertaining to the grant of the Border visa must be saved in Content Manager (formerly known as TRIM)."
+                },
+                {
+                    "key": "d76d5d10-eeb1-4ff0-843d-0b3ac266de3b",
+                    "prompt": "Question: Can a person who has entered Australia with a visa that has been cancelled on presentation in immigration clearance because the traveller has breached a condition 8502 'the holder of the visa must not enter Australia before the entry to Australia of a person specified in the visa (generally the primary visa holder)' be granted a Border visa?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a person who has entered Australia with a visa that has been cancelled on presentation in immigration clearance because the traveller has breached condition 8502 may be eligible for a Border visa. Sub-clause 773.213(1)(c) of the Migration Regulations 1994 applies, and the decision to consider a Border visa for such a traveller must be determined on a case-by-case basis, having considered all of the traveller's circumstances. Compelling reasons that may warrant a Border visa application consideration could include, but are not limited to, the urgency and reason for the travel, such as pre-arranged business schedule where an inadvertent visa irregularity has occurred, death or illness of a close family member overseas or in Australia, or medevac emergencies. However, the person's presence in Australia would not be contrary to Australia's interests, and they must have a good reason for not holding a visa on arrival."
+                },
+                {
+                    "key": "3867bb1b-c68a-4ccc-b6f0-9912f964b1f3",
+                    "prompt": "Question: What are the procedures that Department of Home Affairs staff must follow when a traveller who is eligible for a Temporary Work (Skilled) visa (subclass 457) or a Temporary Work (Short Stay Specialist) visa (subclass 400) arrives at an airport without a visa, and how do these procedures relate to the Advance Passenger Processing (APP) system, Border Visas, and the assessment of the traveller's bona fides and eligibility for a visa?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The procedures for processing passengers who arrive at an airport without a visa and are eligible for a Temporary Work (Skilled) visa (subclass 457) or a Temporary Work (Short Stay Specialist) visa (subclass 400) are outlined in the Procedural Instruction (PI) document. These procedures include assessing the traveller's bona fides, determining their eligibility for a visa, and considering the grant of an Electronic Travel Authority (ETA) or, in limited circumstances, a Border Visa. The procedures also involve using the Advance Passenger Processing (APP) system to confirm the traveller's eligibility for a visa and to ensure that the traveller is not inadmissible to Australia. If the traveller is found to be ineligible for a visa, the officer must refuse immigration clearance. The procedures are designed to ensure that the traveller is properly assessed and that any necessary actions are taken to maintain the integrity of Australia's immigration system."
+                },
+                {
+                    "key": "e4299461-ba4a-4e69-a7d8-d3d62f68856b",
+                    "prompt": "Question: How does a Border Control Officer (BCO) amend a traveller's visa data in the Utilities (UT) system in Mainframe when the traveller's visa history indicates that they were granted a visa that is in effect, but the visa was not found in the primary line, and the BCO has confirmed the traveller's identity through departmental systems, including the Integrated Client Services Environment (ICSE) or Client Search Portal (CSP), and the BCO has also checked the traveller's immigration status and previous travel history, including previous referrals to the Australian Border Force (ABF), Movement Alerts Listing (MAL) narratives, removal history, and outstanding visa applications?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The BCO amends the data in the Utilities (UT) system in Mainframe by following the procedures outlined in the Document Examination at the border \u2013 SOP (BC-2703) and Managing Minors in Immigration Clearance \u2013 PI (BC-2676) policies. The BCO must first confirm the traveller's identity through departmental systems, including the Integrated Client Services Environment (ICSE) or Client Search Portal (CSP), and check the traveller's immigration status and previous travel history, including previous referrals to the ABF, Movement Alerts Listing (MAL) narratives, removal history, and outstanding visa applications. If the traveller's visa history indicates that they were granted a visa that is in effect, but the visa was not found in the primary line, the BCO must check whether the visa was granted with the same bio-data as presented in the traveller's passport. If a record of a visa grant exists against the passport, and the traveller meets all other entry requirements, the BCO must immigration clear the traveller and amend the data in the Utilities (UT) system in Mainframe."
+                },
+                {
+                    "key": "22eee5fd-bccc-4278-bcbb-e5f197a816d7",
+                    "prompt": "Question: Considering the fact that the Procedural Instruction (PI) provides a pathway for certain non-citizen travellers who arrive in Australia without holding a visa or whose visa has been cancelled in immigration clearance, and that the Border visa is not intended as a substitute for other visas in circumstances where the traveller has not obtained a visa prior to travelling to Australia, what are the eligibility requirements for a Border visa, and how should the officer determine whether a traveller's presence in Australia would not be contrary to Australia's interests?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The eligibility requirements for a Border visa include the traveller having compelling reasons for granting a Border visa, the traveller's presence in Australia not being contrary to Australia's interests, and the traveller having a good reason for not holding a visa on arrival. The officer should consider all of the traveller's circumstances on a case-by-case basis to determine whether the traveller is eligible for a Border visa and whether their presence in Australia would not be contrary to Australia's interests."
+                },
+                {
+                    "key": "6404c47c-0e62-4ce0-8e21-5a8319447d8a",
+                    "prompt": "Question: What are the exceptions to the Procedural Instruction (PI) for immigration clearance in the Aviation environment, and how do they relate to the Migration Act and its regulations?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Procedural Instruction (PI) for immigration clearance in the Aviation environment does not cover several categories of non-citizens, including those who hold a valid visa, those who apply for a visa during clearance, and those who are in the Maritime environment. Additionally, it does not cover Australian citizens or the clearance of travellers and goods under the Customs Act 1901. These exceptions are based on the powers and obligations outlined in the Migration Act and its regulations, specifically section 166, which requires non-citizens to present a valid visa to enter Australia, and Regulation 2 of the Migration Regulations 1994, which outlines prescribed status for Special Purpose Visas (SPV)."
+                }
+            ]
+        }
+    ]
+}

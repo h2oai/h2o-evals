@@ -1,0 +1,1618 @@
+{
+    "tests": [
+        {
+            "key": "436b49b1-a84d-4583-a957-d3f2d4dfe5c7",
+            "documents": [
+                "IRS_Document_1.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "5dbfd19f-10c8-438d-89cf-0e0f9f8e60e6",
+                    "prompt": "Question: Is a grant by a private foundation to a Section 509(a)(1), (2), or (3) organization considered an act of self-dealing merely because one of the organization's officers, directors, or trustees is also a manager of or a substantial contributor to the private foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a grant by a private foundation to a Section 509(a)(1), (2), or (3) organization will not be considered an act of self-dealing merely because one of the organization's officers, directors, or trustees is also a manager of or a substantial contributor to the private foundation."
+                },
+                {
+                    "key": "f3e8e1bb-5d08-46c4-9751-2e3eb2b5a59e",
+                    "prompt": "Question: Is a grant by a private foundation to a Section 509(a)(1), (2), or (3) organization considered an act of self-dealing merely because the organization is in the same area as a corporation that is a substantial contributor to the foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a grant by a private foundation to a Section 509(a)(1), (2), or (3) organization will not be considered an act of self-dealing merely because the organization is in the same area as a corporation that is a substantial contributor to the foundation."
+                },
+                {
+                    "key": "f6d4a3af-b5fc-4bc5-b644-c7eab03244fc",
+                    "prompt": "Question: Is interest that accrues on a loan during years for which the Section 6501 period of limitation has closed included in the loan balance to compute the amount involved for the deemed acts of self-dealing that occur in years for which the period of limitations is still open?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, interest that accrues during closed years is included in the loan balance to compute the amount involved for the deemed acts of self-dealing that occur in open years."
+                },
+                {
+                    "key": "9e60ffe4-a32a-4d4f-814f-4a9706c0cb8b",
+                    "prompt": "Question: Can a private foundation and a disqualified person engage in a transaction that is not listed in Section 4941(d)(1) and still be considered self-dealing?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a transaction that is not listed in Section 4941(d)(1) can still be considered self-dealing if it is a direct or indirect financial transaction between a private foundation and its disqualified persons."
+                },
+                {
+                    "key": "f0bb82dd-1b56-4c2c-b9a6-569cccefa34a",
+                    "prompt": "Question: What is the purpose of the exception for certain accounts receivable owed by disqualified persons to private foundations arising from sales excepted from self-dealing under Section 4941(d)(2)(D)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The exception for certain accounts receivable owed by disqualified persons to private foundations arising from sales excepted from self-dealing under Section 4941(d)(2)(D) is intended to allow private foundations to purchase goods and services from disqualified persons without triggering self-dealing concerns, provided that the sale is at fair market value and the terms are comparable to those available to other buyers."
+                },
+                {
+                    "key": "3158b7b1-bab3-44b6-b79e-37d3b078315c",
+                    "prompt": "Question: What are the six specific self-dealing acts between a private foundation and its disqualified persons listed in Section 4941(d)(1)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The six specific self-dealing acts are:\n\n1. Sale or exchange of property\n2. Leasing of property\n3. Lending of money or other extension of credit\n4. Investment in securities or other investment instruments\n5. Participation in partnerships, joint ventures, or other joint arrangements\n6. Payment of compensation or expenses by a foundation to a disqualified person"
+                },
+                {
+                    "key": "6dc4feea-b5d6-437c-af24-008a09531345",
+                    "prompt": "Question: Is a grant by a private foundation to a public charity, one of whose officers, directors, or trustees is also a manager or substantial contributor with respect to the foundation, considered an act of self-dealing?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a grant by a private foundation to a public charity, one of whose officers, directors, or trustees is also a manager or substantial contributor with respect to the foundation, is not considered an act of self-dealing."
+                },
+                {
+                    "key": "90cd111e-a1c4-4ff6-a394-345f9a3db67b",
+                    "prompt": "Question: What is the exception to the rule of self-dealing in regards to payment of compensation or reimbursement of expenses to a disqualified person by a private foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The exception is that the payment is not excessive and is for personal services that are reasonable and necessary to carrying out the exempt purposes of the foundation, and the services are performed by a disqualified person who is not a government official."
+                },
+                {
+                    "key": "d2012c14-2f56-484f-ab58-3b4f23f4e4cb",
+                    "prompt": "Question: Is the payment of compensation to a disqualified person for personal services performed for a private foundation subject to the exception in Section 4941(d)(2)(E)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, the payment of compensation to a disqualified person for personal services performed for a private foundation is subject to the exception in Section 4941(d)(2)(E), which allows for the payment of compensation for personal services that are reasonable and necessary to carrying out the exempt purposes of the foundation, and the services are performed by a disqualified person who is not a government official."
+                },
+                {
+                    "key": "1e173e44-a714-4889-b12c-4decb9005d9d",
+                    "prompt": "Question: Can a private foundation guarantee the payment of principal and interest on bonds issued by a hospital, where a disqualified person with respect to the foundation is also an officer of the hospital and plans to purchase a portion of the bond issue?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can guarantee the payment of principal and interest on bonds issued by a hospital, where a disqualified person with respect to the foundation is also an officer of the hospital and plans to purchase a portion of the bond issue, as long as the foundation's guarantee does not and would never apply to any bonds purchased by the disqualified person."
+                },
+                {
+                    "key": "592466ba-9701-4b45-bac5-ef3b4c18ca93",
+                    "prompt": "Question: Can an individual liable for a Chapter 42 excise tax file jointly with the organization with respect to which the excise tax relates?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, beginning with tax year 2020, an individual liable for a Chapter 42 excise tax cannot file jointly with the organization with respect to which the excise tax relates."
+                },
+                {
+                    "key": "c8143cbc-4b15-410c-b868-717e506c2cb2",
+                    "prompt": "Question: What is the difference between the fair market value and the amount realized from the sale of property in the case of a disqualified person's sale to a private foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The fair market value is the value of the property at the time of the sale, while the amount realized is the amount received by the disqualified person from the sale."
+                },
+                {
+                    "key": "7ea393fb-171e-4afe-942f-4781e155a8bf",
+                    "prompt": "Question: Are there any exceptions to the rule that a disqualified person is liable for the tax in cases of self-dealing?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, there are exceptions for certain government officials and for certain sales of securities between a foundation and a disqualified person over an exchange if certain conditions are met."
+                },
+                {
+                    "key": "f4b2b23f-4f62-4288-ad0a-9e1761e9767d",
+                    "prompt": "Question: Is the payment of legal fees on behalf of a director-manager of a private foundation relating to the filing of a lawsuit arising out of his duties as a director considered an act of self-dealing?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, the payment of legal fees on behalf of a director-manager of a private foundation relating to the filing of a lawsuit arising out of his duties as a director does not constitute an act of self-dealing by reason of the exception provided by Section 4941(d)(2)(E)."
+                },
+                {
+                    "key": "9bd6bed4-0406-4e14-af5a-950d78eb5ae6",
+                    "prompt": "Question: What is the exception to the self-dealing rule for leasing property between a disqualified person and a private foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The exception to the self-dealing rule for leasing property between a disqualified person and a private foundation is that a lease is considered to be without charge if the foundation pays for reasonable janitorial services, utilities, or other maintenance costs it incurs for the use of the property, so long as the payment is not made directly or indirectly to a disqualified person."
+                },
+                {
+                    "key": "435fa73a-40ce-427d-bb55-7deb33c56faf",
+                    "prompt": "Question: Can a private foundation enter into an agreement to pay a government official for services rendered after the termination of their government employment without incurring tax under Section 4941?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can enter into an agreement to pay a government official for services rendered after the termination of their government employment without incurring tax under Section 4941, as long as the agreement is entered into within 90 days prior to the termination of government employment and the payment is not made to the government official in their individual capacity."
+                },
+                {
+                    "key": "fb698c43-4a3b-4c98-b3fd-56ba20cb29d0",
+                    "prompt": "Question: Can a private foundation make a payment to a government official for a prize or award without incurring tax under Section 4941?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can make a payment to a government official for a prize or award without incurring tax under Section 4941, as long as the payment is made pursuant to a program that is open to the public and the payment is not made to the government official in their individual capacity."
+                },
+                {
+                    "key": "ff8c7ba8-06d7-4e3f-bb2e-6aded382f1e6",
+                    "prompt": "Question: What is the purpose of the correction period in the case of a disqualified person's sale of property to a private foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the correction period is to allow the disqualified person to rescind the sale and transform it into a gift, or to resell the property to the foundation at its fair market value."
+                },
+                {
+                    "key": "73ac019a-dfec-4b72-b069-f927c4d570b9",
+                    "prompt": "Question: What is the definition of \"similar lien\" in the context of Section 4941(d)(2)(A)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The term \"similar lien\" includes, but is not limited to, deeds of trust and vendor\u2019s liens, but does not include any lien that is insignificant in relation to the fair market value of the property transferred."
+                },
+                {
+                    "key": "8bd746e5-2101-4a4c-b856-a638a1f13e4a",
+                    "prompt": "Question: Can a private foundation employ a government official as an officer or employee without incurring tax under Section 4941?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can employ a government official as an officer or employee without incurring tax under Section 4941, as long as the employment is for a charitable purpose and the compensation paid to the government official is reasonable."
+                },
+                {
+                    "key": "db6e47b8-1cc9-4cd3-b99f-48779effca1e",
+                    "prompt": "Question: Is a foundation's provision of proxy voting rights to a corporation in which the foundation owns stock and whose management includes disqualified persons considered an act of self-dealing?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a foundation's provision of proxy voting rights to a corporation in which the foundation owns stock and whose management includes disqualified persons is not considered an act of self-dealing."
+                },
+                {
+                    "key": "e7be755d-7564-4a79-b2ae-fac231e98990",
+                    "prompt": "Question: Is an individual who is on leave of absence from the government without pay still considered a government official for purposes of Section 4941?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, an individual who is on leave of absence from the government without pay is still considered a government official for purposes of Section 4941, as long as they are on leave without pay and have not terminated their employment with the government."
+                },
+                {
+                    "key": "016537c7-6ad6-4236-ac04-61d9479729b7",
+                    "prompt": "Question: Can a private foundation make a payment to a government official for a charitable purpose without incurring tax under Section 4941?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can make a payment to a government official for a charitable purpose without incurring tax under Section 4941, as long as the payment is made pursuant to a program that is open to the public and the payment is not made to the government official in their individual capacity."
+                },
+                {
+                    "key": "18d24041-cc16-4107-b067-16cea6b504f4",
+                    "prompt": "Question: Can the IRS assess the Section 4941 excise tax for acts of self-dealing that occurred in closed years, and how does the CCA illustrate this point?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, the IRS may not assess the Section 4941 excise tax for acts of self-dealing that occurred in closed years. The CCA illustrates this point by stating that interest that accrues during closed years is included in the loan balance to compute the amount involved for the deemed acts of self-dealing that occur in open years."
+                },
+                {
+                    "key": "650cd376-8bf7-4793-8fa9-76204542d228",
+                    "prompt": "Question: Can a private foundation pay compensation to a disqualified person for personal services that are not reasonable and necessary to carrying out the exempt purposes of the foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a private foundation cannot pay compensation to a disqualified person for personal services that are not reasonable and necessary to carrying out the exempt purposes of the foundation."
+                },
+                {
+                    "key": "b5eab1d0-7bef-4cda-8a78-94ad6e4977fc",
+                    "prompt": "Question: Can a private foundation make a grant to a government official for a charitable purpose without incurring tax under Section 4941?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can make a grant to a government official for a charitable purpose without incurring tax under Section 4941, as long as the grant is made pursuant to a program that is open to the public and the grant is not made to the government official in their individual capacity."
+                },
+                {
+                    "key": "4d2d8c10-ef87-4498-8949-83efd0fd599b",
+                    "prompt": "Question: How is the amount of correction determined in the case of a disqualified person's sale of property to a private foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The amount of correction is determined by subtracting the amount realized from the sale from the fair market value of the property at the time of the sale, and then paying over the difference to the foundation."
+                },
+                {
+                    "key": "9b4fb4aa-344e-4ee0-8dfd-7ecfe952a863",
+                    "prompt": "Question: What is the meaning of \"charitable intent\" in the context of the exception for the making of a promise, pledge, or similar arrangement to a private foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The term \"charitable intent\" in the context of the exception for the making of a promise, pledge, or similar arrangement to a private foundation means that the arrangement must be motivated by a genuine desire to support the charitable purposes of the foundation, rather than by personal or financial interests."
+                },
+                {
+                    "key": "ab36ceec-efaf-4565-bda7-926a37af2901",
+                    "prompt": "Question: Can a private foundation reimburse a disqualified person for expenses incurred in fulfillment of a special assignment, such as long-distance travel?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can reimburse a disqualified person for expenses incurred in fulfillment of a special assignment, such as long-distance travel, as long as the reimbursement is reasonable and the expenses are not excessive."
+                },
+                {
+                    "key": "0d2fca6d-75e1-472f-9b69-e4d5ae4958f4",
+                    "prompt": "Question: How is the fair market value of property or use of property determined for the first tier tax and the second tier tax?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "For the first tier tax, the fair market value of property or use of property is determined on the date that the act of self-dealing occurs. For the second tier tax, the amount involved is the highest fair market value during the taxable period."
+                },
+                {
+                    "key": "e07bacd7-f7f8-476f-afde-161c105dc638",
+                    "prompt": "Question: What is the purpose of the exception for loans or other extensions of credit by a disqualified person to a private foundation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The exception for loans or other extensions of credit by a disqualified person to a private foundation without interest or other charge is intended to allow for the financing of charitable activities by the foundation without the burden of interest payments."
+                },
+                {
+                    "key": "4a15a8ba-3de5-4fb3-bc85-7f638998f0b2",
+                    "prompt": "Question: What condition, according to Treasury Regulation 53.4941(d)-2(b)(3), exempts certain leases of office space from being considered self-dealing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Treasury Regulation 53.4941(d)-2(b)(3) provides guidance on the exception to the self-dealing rules for certain leases of office space between a private foundation and a disqualified person."
+                },
+                {
+                    "key": "a5b48d33-4eda-4cb7-9dca-ebfc5cabf1e2",
+                    "prompt": "Question: How does Treasury Regulation 53.4941(d)-3(d)(1) address conflicts of interest in private foundation redemptions, considering the court case of Deluxe Corp. v. United States?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Treasury Regulation 53.4941(d)-3(d)(1) provides guidance on the exception to the self-dealing rules for certain redemptions of stock by private foundations."
+                },
+                {
+                    "key": "224036cf-d0db-4c60-b33f-acc6e02dd108",
+                    "prompt": "Question: Considering the possibility of indirect benefits to disqualified individuals, can a foundation's loan to a public charity that pays contractors with ordinary banking relationships with a disqualified person be exempt from being considered an act of self-dealing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a foundation's loan to a public charity, which is paid to contractors who have ordinary banking relationships with a bank that is a disqualified person, is not considered an act of self-dealing."
+                },
+                {
+                    "key": "d06bd1c6-959a-4def-8ea2-e74c53563da5",
+                    "prompt": "Question: What is the deadline for filing Form 990-PF for tax years beginning on or after July 2, 2019, considering the recent changes in electronic filing requirements and excise tax rates, as well as the definitions of disqualified persons and self-dealing transactions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "For tax years beginning on or after July 2, 2019, Form 990-PF must be filed electronically."
+                },
+                {
+                    "key": "1adc6552-47d1-45ea-9b32-2ff0082185a2",
+                    "prompt": "Question: How does the arm's-length transaction requirement in the case of a disqualified person's sale of property to a private foundation ensure fair market value is received by the foundation, and what are the consequences of non-compliance?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the arm's-length transaction requirement is to ensure that the sale is made at fair market value and that the disqualified person does not receive preferential treatment."
+                },
+                {
+                    "key": "e9a88f5e-640f-4e6b-8cde-332e5dd3af50",
+                    "prompt": "Question: What is the \"amount involved\" in a self-dealing transaction involving a loan to a disqualified person, considering the fair market interest rate and the fair market value of the loan, including accrued interest, and how is it determined for each deemed act of self-dealing, taking into account closed and open years?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The \"amount involved\" is the greater of the amount paid for such use or the fair market value of the use."
+                },
+                {
+                    "key": "464114d9-3a9c-4dd6-aafb-dca4551b9b49",
+                    "prompt": "Question: How is the amount of a deemed loan determined, and what formula is used to determine the amount involved in the deemed loan, considering the fair market interest rate and the fair market value of the loan, including any unpaid interest from prior taxable years, and how does the IRS treat interest that accrues during closed years for purposes of computing the amount involved for deemed acts of self-dealing that occur in open years?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The amount of the deemed loan includes not only the unpaid/outstanding principal but also any unpaid interest from the prior taxable year or years. The amount of the deemed loan is multiplied by the fair market interest rate to determine the amount involved for the deemed loan."
+                },
+                {
+                    "key": "d7a71434-bb74-486f-86b0-3722d4ac4542",
+                    "prompt": "Question: What is the purpose of the excessive compensation rule regarding a disqualified person's use of a private foundation's property, and how is the compensation amount determined?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the excessive compensation rule is to prevent a disqualified person from receiving excessive compensation for the use of the property."
+                },
+                {
+                    "key": "c3ce07d0-7f24-464e-98a9-be902b25f90b",
+                    "prompt": "Question: How does Section 4941(a)(1) of the tax code address the issue of self-dealing, and what is the significance of the distinction between direct and indirect acts of self-dealing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of Section 4941(a)(1) is to impose a tax on certain acts of self-dealing between a private foundation and a disqualified person."
+                },
+                {
+                    "key": "4c2162a5-14ff-47d1-978e-1ab57d35cf0a",
+                    "prompt": "Question: What are the conditions under which a private foundation's lending of money or extension of credit to a disqualified person is not considered self-dealing according to Section 4941(d)(1)(B) of the tax code?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The main issue discussed in Section 4941(d)(1)(B) is the exception to the rule that a redemption of stock by a private foundation is not considered self-dealing."
+                },
+                {
+                    "key": "2cdfef97-918f-4ba9-970b-cc0cce43fd73",
+                    "prompt": "Question: How is the fair market interest rate determined for a deemed loan in a deemed act of self-dealing when the loan has unpaid interest from prior taxable years, and the period of limitations has expired for the initial act of self-dealing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The fair market interest rate for each deemed loan within the taxable period is the fair market interest rate on the date the deemed loan occurs."
+                },
+                {
+                    "key": "5396e0b4-6502-4da7-9a24-e5322ca029ca",
+                    "prompt": "Question: What conditions must be met for a private foundation's lending or extension of credit to a disqualified person to avoid being considered self-dealing, according to Section 4941(d)(1)(B) and related regulations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The lending of money or other extension of credit between a private foundation and a disqualified person generally constitutes self-dealing."
+                },
+                {
+                    "key": "8023d5b8-c265-4cb9-baf5-ccbc29225844",
+                    "prompt": "Question: How does the tax law treat separate acts of self-dealing in cases where the amount involved in an act of self-dealing is not the same as the fair market value of the property involved, as per the examples given in the context, considering the role of the calendar year basis, taxable period, and the six-year period of limitations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, PLR 9530032 (1995) states that in the case of a multi-year loan to a disqualified person, there would be an act of self-dealing with respect to each year there was an outstanding principal balance on the loan, and the amount involved in each act of self-dealing would be the outstanding principal balance at the close of the taxable year."
+                },
+                {
+                    "key": "64c86f89-7541-4cc1-bbea-5fb4fca42c82",
+                    "prompt": "Question: What condition must be met for a loan to a private foundation to avoid being considered an act of self-dealing, given that certain exceptions apply, such as loans without interest or other charges, promises, pledges, or similar arrangements motivated by charitable intent, receipt and holding of a note or debenture pursuant to specific transactions, accounts receivable owed by disqualified persons, and general banking services?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The requirement that the proceeds of the loan be used exclusively for purposes specified in Section 501(c)(3) ensures that the loan is used for charitable purposes and not for the benefit of the disqualified person or other private interests."
+                },
+                {
+                    "key": "ce6647cd-7175-46c0-894b-7a1cf3aa5f49",
+                    "prompt": "Question: How is the amount of correction determined when a private foundation uses property owned by a disqualified person, considering the property's fair market value at the time of the act of self-dealing or correction, and the disqualified person's continued use of the property spanning multiple years?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The amount of correction is determined by subtracting the amount paid by the foundation for the use of the property from the fair market value of the use of the property, and then paying over the difference to the foundation."
+                },
+                {
+                    "key": "a2574b2d-beca-4c51-b15d-6785c4926a00",
+                    "prompt": "Question: How does a private foundation's control over an organization affect its ability to engage in transactions with the organization without triggering indirect self-dealing, and what exceptions apply?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can control an organization by virtue of its voting power or positions of authority, even if its aggregate voting power is less than 50% of the total voting power of the organization's governing body."
+                },
+                {
+                    "key": "bd0b0516-6947-42e2-9374-01f4d5930735",
+                    "prompt": "Question: What are the conditions under which the amount involved in an act of self-dealing is the greater of the amount of money and the fair market value of other property given or received, according to Treas. Reg. 53.4941(e)-1(b)(1)?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, there are exceptions to this rule. For example, if the act of self-dealing involves a loan, the amount involved is the amount of the loan outstanding at the close of the taxable year."
+                },
+                {
+                    "key": "4142c3ae-25e1-4731-8ce0-34bb91578706",
+                    "prompt": "Question: Can a private foundation pay a cash advance to a foundation manager or employee for expenses on behalf of the foundation, considering the advance is reasonable and not excessive concerning the manager's duties and expense requirements?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can pay a cash advance to a foundation manager or employee for expenses on behalf of the foundation, as long as the amount of the advance is reasonable in relation to duties and expense requirements, and shall not ordinarily exceed $500."
+                },
+                {
+                    "key": "0caa4a4a-d751-4569-a2ff-b87dd61ec2d8",
+                    "prompt": "Question: Can the Tax Court conduct a supplemental proceeding to determine whether the taxable event was timely corrected, considering the amended Section 6214(c) and Section 4961(b) of the revised two-tier tax scheme?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, the Tax Court has jurisdiction to conduct a supplemental proceeding under Section 4961(b) to determine whether the taxable event was timely corrected."
+                },
+                {
+                    "key": "310b1040-088f-4860-b2ce-84ba539467c0",
+                    "prompt": "Question: How does the amount involved in an act of self-dealing get determined, and how does it relate to the taxable period, considering the complexities of a deemed loan, fair market value, and closed and open years?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the Section 4941 excise tax on self-dealing is to prevent abuse of tax-exempt organizations by disqualified persons. The taxable period refers to the period of time during which the self-dealing occurs, and the amount involved in the self-dealing is determined as of the date of the act of self-dealing."
+                },
+                {
+                    "key": "0b3f5046-b764-4e87-a09f-d69ad0141a0b",
+                    "prompt": "Question: What is the purpose of Section 4961(a) of the tax code concerning the abatement of second-tier taxes in cases of timely correction of taxable events?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of Section 4961(a) is to provide that any liability for the second tier tax deficiency determined by the IRS will be abated if timely correction occurs."
+                },
+                {
+                    "key": "90f3d5f7-8e2e-4e33-a7ae-1ab56f59d30c",
+                    "prompt": "Question: How does the tax on self-dealing apply to a private foundation engaging in multiple acts of self-dealing with the same disqualified person, considering the taxable period, taxes due for each year or part thereof, and the six-year period of limitations for assessing taxes, as illustrated in examples such as a loan made in 1974 and corrected in 1975, with the foundation's return for 1974 starting the six-year period running for all taxes resulting from the 1974 act of self-dealing for each year or part thereof in the taxable period, and Rev. Rul. 2002-43 and PLR 9530032 also providing guidance on calculating private foundation self-dealing taxes in instances spanning multiple years and constituting multiple acts of self-dealing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The tax on self-dealing applies separately to each act of self-dealing. Therefore, if a private foundation engages in multiple acts of self-dealing with the same disqualified person, it will be subject to tax on each act of self-dealing."
+                },
+                {
+                    "key": "b4d2e081-6317-479d-a920-02a99a293849",
+                    "prompt": "Question: Considering the context of a private foundation, how does the payment of compensation to a disqualified person for providing investment counseling services affect the foundation's tax status, taking into account Treasury Regulation 53.4941(d)-2(d)(2) and the exception for reasonable and necessary personal services?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, the payment of compensation to a disqualified person for services performed as an investment counselor for a private foundation is not considered an act of self-dealing, as long as the compensation is reasonable and the services are necessary to carrying out the exempt purposes of the foundation."
+                },
+                {
+                    "key": "108a6dcf-8a6e-4619-a17b-39401f7a5c1a",
+                    "prompt": "Question: How does the current regime under Section 4941 differ from the pre-1969 prohibited transaction rules regarding sanctions and enforcement in the context of private foundations and charitable trusts?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The current regime under Section 4941 imposes excise taxes on self-dealing transactions rather than relying on arm's-length standards, and offers a variety and progression of sanctions to minimize the need to apply subjective arm's-length standards and avoid the temptation to misuse private foundations for noncharitable purposes."
+                },
+                {
+                    "key": "b655cd05-4696-4611-b1ea-60e290a6cf1c",
+                    "prompt": "Question: How has the Taxpayer Certainty and Disaster Tax Relief Act affected the excise tax rate for private foundations, and what are the new reporting standards for net assets?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The reduced excise tax rate for private foundations under the Taxpayer Certainty and Disaster Tax Relief Act is 1.39%."
+                },
+                {
+                    "key": "8de102d4-d439-4b6d-8d87-53b0dfef5b40",
+                    "prompt": "Question: How does the amount involved in compensation paid for personal services get determined, given that it's greater than the fair value of the services rendered, and what are the special considerations for deemed loans regarding the fair market interest rate and loan balance, and how does the IRS address interest accrued during closed years?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "In the case of compensation paid for personal services, the \"amount involved\" is the amount paid over the fair value of the services."
+                },
+                {
+                    "key": "c21f8f1d-30a5-4fda-8696-9c7f34a742f7",
+                    "prompt": "Question: What is the current rate of the first-tier tax for private foundations under Section 4941, considering the recent changes in tax laws and electronic filing requirements?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The current rate of the first tier tax for private foundations under Section 4941 is 10% of the amount involved, with joint and several liability."
+                },
+                {
+                    "key": "6fca0ad4-8f11-4959-81b9-e99ba68d9841",
+                    "prompt": "Question: Considering the context of a private foundation, how does the payment of compensation to a disqualified person for personal services performed affect the foundation's tax status, and what conditions must be met to avoid an act of self-dealing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, the payment of compensation to a disqualified person for personal services performed for a private foundation is considered an act of self-dealing, unless the exception in Section 4941(d)(2)(E) applies."
+                },
+                {
+                    "key": "13aa7dca-7b2e-41d9-957d-395d94d5c68b",
+                    "prompt": "Question: Can a disqualified person's sale of incidental supplies to a private foundation be considered self-dealing if the payment is below a certain threshold?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a disqualified person's sale of incidental supplies to a private foundation is considered self-dealing, regardless of the amount the foundation pays for the incidental supplies."
+                },
+                {
+                    "key": "1b6b5c50-8dbb-4525-afa8-e2713b206c46",
+                    "prompt": "Question: What was the reason for revising the laws regarding prohibited transaction rules under the Tax Reform Act of 1969, and how did it affect private foundations' integrity?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The laws were revised to impose, in lieu of the former prohibited transactions rules, excise taxes on self-dealing transactions between \"disqualified persons\" and private foundations, as well as to provide a more rational relationship between sanctions and improper acts."
+                },
+                {
+                    "key": "6dd5a062-c1a7-43b3-adcd-00140514c7d4",
+                    "prompt": "Question: Can a lack of knowledge about a transaction absolve a disqualified person of liability for engaging in self-dealing with a private foundation, despite the excise tax imposed on such acts?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a disqualified person's participation in an act of self-dealing cannot be excused even if they had no knowledge of the transaction. The liability for the tax is imposed on the disqualified person regardless of their knowledge of the transaction."
+                },
+                {
+                    "key": "4d4e1988-b5b6-4444-a33b-b79f56beea44",
+                    "prompt": "Question: What is the purpose of Section 6214(c) of the tax code concerning the relationship between the IRS and the Tax Court in determining second-tier tax deficiencies and corrections?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of Section 6214(c) is to give the Tax Court jurisdiction to determine whether the taxable event has been corrected in cases where a second tier tax deficiency has been determined."
+                },
+                {
+                    "key": "ba0a6dbe-f9e1-483c-a26c-b5792db70c22",
+                    "prompt": "Question: What is the maximum amount of tax that a foundation manager can be liable for under Section 4941, considering the recent changes in tax laws and electronic filing requirements for private foundations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The maximum amount of tax that a foundation manager can be liable for under Section 4941 is $20,000."
+                },
+                {
+                    "key": "fdce451b-8d7a-463a-85b4-0006bbdb9e31",
+                    "prompt": "Question: What is the penalty for becoming liable for a tax under Section 4941, considering the impact of timely correction, abatement, and supplemental proceedings, while also considering the definition of indirect self-dealing and its exceptions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The penalty for becoming liable for a tax under Section 4941 is equal to the tax imposed under Section 4941 and is imposed under Section 6684."
+                },
+                {
+                    "key": "e971b241-c8ab-4fa1-b6a6-65319f144406",
+                    "prompt": "Question: How does the period of limitations apply to a continuing act of self-dealing, considering a scenario where a private foundation leases a building to a disqualified person for four years, with the fair rental value and annual rent remaining constant throughout?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, the example in the text illustrates how the period of limitations applies to a continuing act of self-dealing. In this hypothetical situation, the foundation's return for 1974, which was timely filed and thus deemed filed on the due date of May 15, 1975, starts the six-year period running for all taxes resulting from the 1974 act of self-dealing for each year or part thereof in the taxable period."
+                },
+                {
+                    "key": "65d630ed-2383-4093-88ca-4517c2f8cb3c",
+                    "prompt": "Question: What is the function of Treasury Regulation 53.4941(e)-1(e)(1)(i) concerning acts of self-dealing between a private foundation and a disqualified person, and how does it relate to the taxes imposed by Section 4941?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of Treasury Regulation 53.4941(e)-1(e)(1)(i) is to provide examples of how the tax on self-dealing between a private foundation and a disqualified person is calculated."
+                },
+                {
+                    "key": "f55ca06c-b2d4-493b-a2c9-bed2b3b6b0a5",
+                    "prompt": "Question: Considering the context of payment and reimbursement of expenses to a disqualified person, what are the conditions under which a private foundation's payment of compensation or reimbursement of expenses to a disqualified person would not be considered an act of self-dealing?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Payment of expenses includes reasonable advances for expenses anticipated in the immediate future by the foundation, but the amount of the advance must be reasonable in relation to duties and expense requirements, and shall not ordinarily exceed $500."
+                },
+                {
+                    "key": "27161cfb-d41d-4897-8266-97758dc11bff",
+                    "prompt": "Question: How does Treasury Regulation 53.4941(d)-1(b) define indirect self-dealing, and what are the exceptions to this rule?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Treasury Regulation 53.4941(d)-1(b) provides guidance on the exclusions from indirect self-dealing under Section 4941, including the estate administration exclusion and the grant to intermediaries exclusion."
+                },
+                {
+                    "key": "be65349f-5917-439e-9bce-4818dd03a518",
+                    "prompt": "Question: What is the dual purpose of Section 4941 regarding taxation and charitable trusts?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the tax imposed on acts of self-dealing under Section 4941 is to prevent private foundations from engaging in transactions that benefit government officials or other disqualified persons, and to ensure that the foundation's assets are used for charitable purposes rather than personal gain."
+                },
+                {
+                    "key": "a4b91160-6d6f-4703-aa98-3652fabf1c9b",
+                    "prompt": "Question: What was the excise tax rate on net investment income of private foundations before it was reduced to 1.39% and simultaneously repealed the 1% special rate that applied if the private foundation met certain distribution requirements?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The repealed special rate that applied to private foundations that met certain distribution requirements was 1%."
+                },
+                {
+                    "key": "75ee400e-dd52-412e-aaaa-8e9b2adf5370",
+                    "prompt": "Question: What are the differences between a voluntary and an involuntary termination of a private foundation's status, considering the context of Chapter 42 excise taxes and the possible imposition of a second-tier tax liability?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A voluntary termination occurs when the foundation notifies the IRS and pays the Section 507(c) tax (if any), while an involuntary termination occurs when the IRS revokes the foundation's tax-exempt status and imposes a termination tax."
+                },
+                {
+                    "key": "d46cf419-54bf-4395-9da4-d010b20d0128",
+                    "prompt": "Question: What is the maximum limit on the foundation manager tax imposed by Section 4941, considering the changes made by the Tax Reform Act of 1969 and the Pension Protection Act of 2006, when the foundation manager knowingly participates in self-dealing transactions between a disqualified person and a private foundation?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The maximum limit on the foundation manager tax imposed by Section 4941 is currently $20,000, with joint and several liability."
+                },
+                {
+                    "key": "8aadebef-4904-4999-b7bc-1da947c21b03",
+                    "prompt": "Question: How does Section 4941(d)(2)(H) address leasing property between a disqualified person and a private foundation?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Section 4941(d)(2)(H) provides an exception to the self-dealing rules for certain binding leases of office space in effect on October 9, 1969 (or renewals) to a foundation."
+                },
+                {
+                    "key": "900f4ab0-e846-4fc9-9c10-5360c2157d30",
+                    "prompt": "Question: What are the new reporting standards for net assets on Form 990-PF, and how do they differ from the previous standards?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The new reporting standard for net assets on Form 990-PF reflects the Financial Accounting Standard Board\u2019s (FASB\u2019s) reclassification of net assets into two classes, net assets without donor restrictions and net assets with donor restrictions."
+                },
+                {
+                    "key": "41b9891f-785c-4aa7-94ca-690828dcb216",
+                    "prompt": "Question: What is an example of an incidental or tenuous benefit that is not considered an act of self-dealing, given the context of a private foundation's grant or loan to a public charity or a scholarship program, and how does the foundation ensure that the benefit is not used for the economic benefit of a disqualified person?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A scholarship or fellowship grant made by a private foundation to a person other than a disqualified person, which is paid or incurred by the foundation in accordance with a program that is consistent with the requirements of the foundation's exempt status under Section 501(c)(3), the requirements for the allowance of deductions under Section 170 for contributions made to the foundation, and the requirements of Section 4945(g)(1), will not be considered an act of self-dealing under Section 4941(d)(1) merely because a disqualified person indirectly receives an incidental benefit from such grant."
+                },
+                {
+                    "key": "196682ff-975f-406f-af6e-2341f422cd55",
+                    "prompt": "Question: How does Section 4962 of the tax code address the issue of abatement of first-tier taxes in relation to acts of self-dealing, considering the jurisdictional changes introduced by Public Law 96-596 and the definitions provided in Section 4963?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of Section 4962 is to provide for the abatement of certain first tier taxes, but Section 4941(a) taxes are not included."
+                },
+                {
+                    "key": "5e6d5f22-2833-4888-b882-28da30032ac4",
+                    "prompt": "Question: What is the definition of a government official for purposes of Section 4941, taking into account the exceptions and limitations on taxable acts of self-dealing, and how does the personal services exception under Section 4941(d)(2)(E) apply to such officials?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A government official for purposes of Section 4941 includes individuals who hold certain positions in the executive, legislative, or judicial branch of the federal government, as well as certain positions in state and local governments, and the District of Columbia. These positions include elective public offices, appointments made by the President, positions in the executive, legislative, or judicial branch that are listed in Schedule C of rule VI of the Civil Service Rules, or positions that have a compensation equal to or greater than the lowest rate of basic pay for the Senior Executive Service."
+                },
+                {
+                    "key": "31bf183b-a277-4b9f-a27d-584a89843e1d",
+                    "prompt": "Question: What termination taxes might a private foundation face?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The different types of termination taxes that a private foundation may be subject to include the Section 507(c) tax, which is a third-tier excise tax, and the Section 507(a)(2) involuntary termination tax."
+                },
+                {
+                    "key": "9749fce7-23e1-4982-a768-006fbf9a18d2",
+                    "prompt": "Question: What was the pre-4941 rule for transactions?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Prior to enactment of Section 4941, the Revenue Act of 1950 specified several prohibited types of self-dealing transactions applicable to certain categories of exempt organizations and to certain nonexempt charitable trusts."
+                },
+                {
+                    "key": "d3b3af8e-8ebb-4d9a-867c-568811f26b5a",
+                    "prompt": "Question: How is fair market value of property used by a disqualified person determined?\n\nRewritten Question:\nWhat's the process for determining property value for disqualified individuals?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The fair market value of property used by a disqualified person is determined as of the first day of the tax year for continuing acts, or as of the date of correction."
+                },
+                {
+                    "key": "db7e9444-b03b-4fd4-b649-e46599250313",
+                    "prompt": "Question: What's the point of Section 4941 taxes?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The excise taxes imposed by Section 4941 are intended to discourage self-dealing acts by imposing a tax on disqualified persons and foundation managers who engage in such transactions."
+                },
+                {
+                    "key": "40341347-96f8-43f4-b635-d87042397eff",
+                    "prompt": "Question: What's the \"amount involved\" in self-dealing per Section 4941?\n\nNote: The rewritten question is shorter and more indirect while still conveying the same meaning as the original question. The use of abbreviations, such as \"amount involved,\" helps to shorten the question while retaining its essence.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The \"amount involved\" is the greater of the amount of money and the fair market value of other property given, or the amount of money and the fair market value of other property received."
+                },
+                {
+                    "key": "7dceecb1-c808-42ad-b207-fd1c6239db4b",
+                    "prompt": "Question: What's the diff between deemed and actual self-dealing?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A deemed act of self-dealing is a transaction that is treated as an act of self-dealing under the tax law, even though it may not have been actually entered into by the disqualified person. An actual act of self-dealing, on the other hand, is a transaction that is actually entered into by the disqualified person."
+                },
+                {
+                    "key": "9c3ac189-32db-4735-94cf-fa6e56740c07",
+                    "prompt": "Question: What sets \"corporate redemption exception\" apart from other self-dealing exceptions?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The \"corporate redemption exception\" is different from the other exceptions to the general rule of self-dealing in that it applies to a foundation's receipt and holding of a debenture owed by a disqualified person pursuant to a transaction described in Section 4941(d)(2)(F) and Treas. Reg. 53.4941(d)-3(d). The other exceptions apply to loans, promises, pledges, or similar arrangements made by a disqualified person to a private foundation."
+                },
+                {
+                    "key": "4de5530c-f326-43c4-a584-7ca38699ae83",
+                    "prompt": "Question: Is naming a rec center after a major donor an incidental perk?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a foundation's naming of a recreation center after a substantial contributor is considered an incidental benefit."
+                },
+                {
+                    "key": "69ece528-d015-4466-a1f9-e151699763aa",
+                    "prompt": "Question: What's the purpose of Form 2848?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Form 2848 is used to authorize an individual or organization to represent a taxpayer during an examination or other proceedings with the IRS."
+                },
+                {
+                    "key": "82c14159-649b-4544-a88a-90fffd03b06f",
+                    "prompt": "Question: Are there any exceptions to the electronic filing requirement for Form 990-PF?\n\nRewritten Question:\nAny exceptions to electronic filing for Form 990-PF?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, limited exceptions apply to the electronic filing requirement for Form 990-PF."
+                },
+                {
+                    "key": "1544b696-8c28-4825-945e-a8c9d74d270a",
+                    "prompt": "Question: What's the purpose of Pub 5616?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of Publication 5616 is to provide guidance on the excise taxes imposed on self-dealing under Section 4941 of the Internal Revenue Code, specifically for private foundations."
+                },
+                {
+                    "key": "292f6b2a-c1a7-4259-be76-1e3e4897aa48",
+                    "prompt": "Question: What's the tax rate for self-dealing under 4941?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The tax rate imposed on acts of self-dealing under Section 4941 is 10% of the amount involved in the act of self-dealing, with a maximum tax of $10,000."
+                },
+                {
+                    "key": "1778deb1-ea4b-48d6-9240-92a42eb81b89",
+                    "prompt": "Question: What's the excise tax rate under Sec. 4941?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The first tier excise tax imposed by Section 4941 is currently 10% of the amount involved, with joint and several liability."
+                },
+                {
+                    "key": "3e1a875e-586b-469a-b992-9632391941e6",
+                    "prompt": "Question: What's the relevance of PPA 2006 in relation to Chapter 42?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Pension Protection Act of 2006 doubled the rates of most first tier Chapter 42 excise taxes, including the excise taxes imposed by Section 4941."
+                },
+                {
+                    "key": "846a957b-4826-4e18-bc9c-7f77e44e78eb",
+                    "prompt": "Question: What's the point of Section 4941's estate administration exclusion?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The estate administration exclusion in Section 4941 is designed to prevent private foundations from being treated as engaging in indirect self-dealing when they sell property held by an estate or revocable trust to a disqualified person."
+                },
+                {
+                    "key": "eeb9884e-963f-40d7-974b-806d4305f251",
+                    "prompt": "Question: What's the limit for excise tax assessments under Chapter 42?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The statute of limitations for assessing excise taxes under Chapter 42 is generally three years from the date the return is filed, or two years from the date the tax is paid, whichever is later."
+                },
+                {
+                    "key": "71aacbe5-f53f-4967-9618-858f4377f8d8",
+                    "prompt": "Question: Who bears the tax burden in self-dealing cases?\n\nNote: Self-dealing refers to transactions between a company and its affiliates, such as shareholders, directors, or subsidiaries. In such cases, the question of who is liable for taxes can arise. The rewritten question aims to convey the same meaning as the original question while using fewer words and being more concise.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A disqualified person who participates in an act of self-dealing is liable for the tax, even if they had no knowledge at the time of the act that it constituted self-dealing."
+                },
+                {
+                    "key": "efcf849c-918a-4982-80ac-9156eb05bfb0",
+                    "prompt": "Question: Can assets be transferred between foundations tax-free?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can transfer all of its net assets to certain public charities and avoid termination taxes under Section 507(b)(1)(A)."
+                },
+                {
+                    "key": "f1113ce0-f462-41ca-bd9d-f08e6fffd685",
+                    "prompt": "Question: What's the purpose of 4941 in taxes?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Section 4941 of the tax code imposes an excise tax on certain direct and indirect financial transactions between a private foundation and its disqualified persons."
+                },
+                {
+                    "key": "bf3d0eb9-3b52-4920-b155-9d20447390b3",
+                    "prompt": "Question: Does a private foundation need to report self-dealing to the IRS?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation is required to report acts of self-dealing to the IRS on Form 990-PF, the annual information return for private foundations."
+                },
+                {
+                    "key": "f75bb329-9cfa-43d0-bf78-4d3f6ed9fa8d",
+                    "prompt": "Question: Can a private foundation and a disqualified person engage in a debt-credit relationship without self-dealing?\n\nPlease note that the rewritten question is shorter and more indirect than the original question. It uses abbreviations like \"private foundation\" and \"disqualified person\" and omits unnecessary words while still conveying the same meaning.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a private foundation and a disqualified person cannot enter into a debtor-creditor relationship without triggering self-dealing, either directly or indirectly."
+                },
+                {
+                    "key": "242ecd6d-611e-4cfc-acb2-8f4d307b4c67",
+                    "prompt": "Question: What's the importance of Moody v. Commissioner regarding Section 4941?\n\nNote: The rewritten question is shorter and more indirect while still conveying the same meaning as the original question. \"What's the importance of\" is a common way to ask about the significance of something, and \"regarding Section 4941\" is a concise way to refer to the specific context.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Moody v. Commissioner case held that a disqualified person's transactions with a hotel were not indirect self-dealing, as the foundation did not control the hotel company and the transactions did not otherwise amount to indirect self-dealing."
+                },
+                {
+                    "key": "e0a75e48-9984-49eb-87b9-d66811773a3d",
+                    "prompt": "Question: How's self-dealing taxed after the first act?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The tax on a continuing act of self-dealing is calculated annually for each taxable year (or part thereof) during the taxable period, not just in the taxable year in which the self-dealing took place."
+                },
+                {
+                    "key": "1453d109-70a3-4c6f-8db7-d10c9a24079d",
+                    "prompt": "Question: What was the problem in Gershman Family Foundation v. Commissioner?\n\nThe issue in Gershman Family Foundation v. Commissioner was a dispute over the tax treatment of a charitable trust. The foundation claimed that it was entitled to a deduction for the full amount of its charitable contributions, while the Commissioner argued that the deduction should be limited to the amount that the foundation was required to distribute to charity each year. The court ultimately sided with the Commissioner, holding that the deduction was limited to the amount that was actually distributed to charity.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "In Gershman Family Foundation v. Commissioner, the issue was whether a disqualified person\u2019s transfer of a promissory note, secured by an all-inclusive trust deed on property that is subject to senior notes, to a private foundation was an act of self-dealing."
+                },
+                {
+                    "key": "d63fb28f-4c62-49a7-9752-29c488edf338",
+                    "prompt": "Question: What's the distance between Earth and Moon?\n\nWhat's needed for a chocolate cake?\n\nHow's self-dealing taxed?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The taxable period for self-dealing transactions starts with the act of self-dealing and ends with the earlier of correction, issuance of a statutory notice of deficiency, or assessment of the excise tax."
+                },
+                {
+                    "key": "4d962c0c-a189-42ca-9994-b67f7329f968",
+                    "prompt": "Question: What's excluded under 4941 tax code?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The exclusions in Section 4941 of the tax code include certain business transactions, grants to intermediaries, and estate administration exclusions."
+                },
+                {
+                    "key": "51115b87-87ab-4201-af03-6a483d311694",
+                    "prompt": "Question: Sure, here's a rewritten version of the question:\n\nOriginal Question:\nCan you provide an example of how the amount involved in an act of self-dealing is calculated?\n\nRewritten Question:\nHow is self-dealing amount calculated?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, Rev. Rul. 2002-43, 2002-2 C.B. 85, shows how private foundation self-dealing taxes are calculated in an instance of a private foundation loan to a disqualified person that spans more than one year and thus constitutes multiple acts of self-dealing."
+                },
+                {
+                    "key": "7a74bef9-053e-4a47-9706-6273b31d23c9",
+                    "prompt": "Question: Is a private foundation property bargain sale considered self-dealing?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a bargain sale of property to a private foundation is not considered self-dealing if the seller becomes a disqualified person only because the bargain element of the sale caused the seller to become a substantial contributor."
+                },
+                {
+                    "key": "465ddefe-4e91-4f50-813e-70c426a0861e",
+                    "prompt": "Question: What does \"control\" mean in 4941's context?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Control is defined as the ability of a private foundation, its managers, or disqualified persons to require an organization to act or refrain from acting in a manner that would constitute self-dealing."
+                },
+                {
+                    "key": "a4d49ee2-f220-4a63-86c2-ba09a526340b",
+                    "prompt": "Question: What's the difference between pyramiding and non-pyramiding transactions?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "In a pyramiding transaction, the tax liability increases each year, while in a non-pyramiding transaction, the tax liability is the same for each year."
+                },
+                {
+                    "key": "1fb6b883-0d3e-4615-b74f-2757f37e1ffc",
+                    "prompt": "Question: What's the point of the Tax Reform Act of 1969?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The General Explanation of the Tax Reform Act of 1969, prepared by the Staff of the Joint Committee on Internal Revenue Taxation, provides a detailed explanation of the reasons for the changes made to the laws regarding prohibited transaction rules under the Tax Reform Act of 1969."
+                },
+                {
+                    "key": "953d09b9-9c78-4156-bad5-6e9a5fe2f92d",
+                    "prompt": "Question: Can a private foundation's property be used by a disqualified person?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a disqualified person can use property owned by a private foundation, but the use must be terminated during the correction period."
+                },
+                {
+                    "key": "7d647857-7ab0-4885-8aa9-933bdabfcccc",
+                    "prompt": "Question: Can a private foundation use property owned by a disqualified person?\n\nRewritten Question:\nCan a private foundation utilize such property?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can use property owned by a disqualified person, but the use must be terminated during the correction period."
+                },
+                {
+                    "key": "a7d1ae9f-4d5d-4d4a-97b9-429cdfa3da30",
+                    "prompt": "Question: Is a private foundation member allowed to participate in government official selection?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, a member of a private foundation cannot participate in the government official's selection procedure."
+                },
+                {
+                    "key": "3149ddca-9678-4d3d-a486-6eaa204a9af9",
+                    "prompt": "Question: Is a service charge for overdraft processing allowed for private foundations?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can charge a service charge for processing an overdraft on a checking account, as long as the charge is reasonable and does not exceed the actual cost of processing the overdraft."
+                },
+                {
+                    "key": "de49ea06-3684-46fb-bac0-5287b8e07ed7",
+                    "prompt": "Question: How's the math for self-dealing?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, there are modifications to the amount involved for the period of use, where the amount involved is the greater of the amounts paid for such use or the fair market value of such use."
+                },
+                {
+                    "key": "5dc8fb35-edd4-4163-b8ff-6bfc8d348bc1",
+                    "prompt": "Question: What's the time frame for tax assessments on self-dealing?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The period of limitations for assessing taxes on self-dealing is six years from the date the return was filed, or the date the return was deemed filed, whichever is later."
+                },
+                {
+                    "key": "d6086a11-816f-4994-8de7-a9ac924bfe6d",
+                    "prompt": "Question: What's the significance of Thorne v. Commissioner in private foundation exams?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Thorne v. Commissioner established the requirement for the IRS to issue a Thorne letter requesting correction before asserting second-tier excise taxes against a foundation manager."
+                },
+                {
+                    "key": "c26132d6-6784-4304-bea0-583ee3533326",
+                    "prompt": "Question: What's the purpose of Form 4720, and what does it entail?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The revised Form 4720 is used to report certain excise taxes on charities and other persons under Chapters 41 and 42 of the IRC. It requires identification of the filer as an individual or an organization and includes instructions for reporting individual excise tax liability."
+                },
+                {
+                    "key": "de4fa24c-ef20-4ff0-89b7-42d01122a1dd",
+                    "prompt": "Question: Considering the provisions of Section 4941, which imposes an excise tax on direct or indirect acts of self-dealing between a private foundation and a disqualified person, and the updated reporting standards for net assets in Part II of Form 990-PF, which reflect the Financial Accounting Standard Board\u2019s (FASB\u2019s) reclassification of net assets into two classes, net assets without donor restrictions and net assets with donor restrictions, what are the potential implications for a private foundation that fails to electronically file Form 990-PF, Return of Private Foundation or Section 4947(a)(1) Trust Treated as Private Foundation, for a tax year beginning on or after July 2, 2019, and whose disqualified person engages in indirect self-dealing transactions, as defined in Section 4941, with the private foundation, resulting in the private foundation's failure to meet the distribution requirements under Section 4942(g)(3)(A) and facing a 10% excise tax on the amount involved, with joint and several liability, as stated in Section 4941, and how would the answers to these questions change if the private foundation's tax year began before July 2, 2019?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A private foundation that fails to electronically file Form 990-PF for a tax year beginning on or after July 2, 2019, and whose disqualified person engages in indirect self-dealing transactions with the private foundation, may face a 10% excise tax on the amount involved, with joint and several liability, as stated in Section 4941. Additionally, the private foundation may not meet the distribution requirements under Section 4942(g)(3)(A), potentially leading to further penalties. If the private foundation's tax year began before July 2, 2019, the electronic filing requirements would not apply, but the private foundation would still be subject to the excise tax and potential penalties for noncompliance with Section 4941 and 4942. It is important to note that the private foundation must also consider the updated reporting standards for net assets in Part II of Form 990-PF, which may impact its ability to meet the distribution requirements and avoid excise taxes."
+                },
+                {
+                    "key": "15d2390a-cfa1-4a2e-90c9-b664df4ccb36",
+                    "prompt": "Question: How much must a disqualified person pay to a private foundation if they use the foundation's property for personal gain, and how is the amount determined?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "If a disqualified person uses a private foundation's property for personal gain, they must pay to the foundation the excess of the fair market value of the use of the property over the amount they received from the foundation. The fair market value is determined separately for each year, using the greater of the value at the time of the act of self-dealing or at the time of correction. The disqualified person must also pay the excess of the fair market value of the use of the property for the period the foundation would have used the property if termination had not occurred, over the amount that would have been paid by the foundation after termination for use in such period. The amount is determined using Treas. Reg. 53.4941(e)-1(c)(4) and (5)."
+                },
+                {
+                    "key": "f137cdf7-3750-44a2-8a8f-a8d120568390",
+                    "prompt": "Question: Considering the provisions of Section 4941 and its related regulations, what are the potential tax implications for a private foundation that engages in repeated instances of self-dealing, specifically involving the payment of compensation to a disqualified person, and how would the taxes be calculated and enforced, taking into account any applicable exceptions, corrections, or penalties?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The potential tax implications for a private foundation that engages in repeated instances of self-dealing, specifically involving the payment of compensation to a disqualified person, include the imposition of a first-tier tax on the self-dealer, a second-tier tax on the foundation manager, and additional taxes on certain excess benefits. The taxes would be calculated based on the amount involved in each act of self-dealing and the taxable period during which they occurred. Enforcement of the taxes would be carried out by the IRS, which may consider factors such as the foundation's compliance history, the severity of the violations, and any efforts made to correct the violations. Applicable exceptions, corrections, or penalties may be considered in determining the final tax liability."
+                },
+                {
+                    "key": "a7e017bc-3456-440e-a38f-95e348e4e7f6",
+                    "prompt": "Question: What is the amount involved in a self-dealing transaction where a substantial contributor donates a painting to a foundation on January 17, 2015, and then hangs the painting in their study in their home on the same day, with no correction made, or tax assessed or notice of deficiency mailed prior to January 1, 2017, and the foundation and contributor are calendar year taxpayers?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The amount involved in the self-dealing transaction is the greater of the fair market value of the painting donated or the fair market value of the use of the painting for the period of time it was used by the contributor, which in this case would be from January 17, 2015, to January 1, 2017, and the contributor will owe tax on the use of the painting in 2015, 2016, and 2017, with the amount involved being 'the fair market value of the painting' as it is greater than 'the fair market value of the use of the painting' for the period of time it was used."
+                },
+                {
+                    "key": "73e0c273-16eb-4e0f-9655-c827c64978db",
+                    "prompt": "Question: Considering Treas. Reg. 53.4941(d) - 1(b), how does one determine if a private foundation has control over an organization, and how does the estate administration exclusion relate to this control?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A private foundation is considered to have control over an organization if it, its managers, or disqualified persons can aggregate their voting power or positions of authority to require the organization to act or refrain from acting in a manner that would constitute self-dealing. Additionally, a private foundation is considered to have control if it exercises expenditure responsibility with respect to grants to the organization. However, a private foundation is not considered to have control merely because it owns 35% of the voting stock and its foundation manager personally owns the remaining 65% but does not hold a position of authority in the corporation. The estate administration exclusion does not apply if the private foundation has control over the organization, as it would be considered indirect self-dealing. However, if the private foundation does not have control over the organization, the estate administration exclusion may apply, and the sale of property held by an estate or revocable trust to a disqualified person may be exempt from indirect self-dealing."
+                },
+                {
+                    "key": "94fabe23-0339-48c7-931d-a9f8ac2b3e24",
+                    "prompt": "Question: Can a private foundation make a grant to an intermediary organization that will be used to benefit a named government official, without earmarking the grant for that official, and without exercising control over the selection process for the benefit?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can make a grant to an intermediary organization that will be used to benefit a named government official, without earmarking the grant for that official, and without exercising control over the selection process for the benefit, provided that the intermediary organization exercises control over the selection process and makes the selection completely independently of the private foundation."
+                },
+                {
+                    "key": "018b98d8-6193-4bb2-934d-dec68190ce9d",
+                    "prompt": "Question: Can a private foundation pay a disqualified person for personal services that are reasonable and necessary for carrying out the exempt purposes of the foundation, providing the payment is not excessive and the services are not provided in the capacity of a dealer?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can pay a disqualified person for personal services that are reasonable and necessary for carrying out the exempt purposes of the foundation, providing the payment is not excessive and the services are not provided in the capacity of a dealer, based on the exception to the rule of self-dealing provided in Section 4941(d)(2)(E) and Treas. Reg. 53.4941(d)-3(c)(1)."
+                },
+                {
+                    "key": "4edf0c41-4914-4517-bd6e-e945a02c152e",
+                    "prompt": "Question: How would you calculate the self-dealing tax for a continuing transaction that started in 2015, with no correction made, or tax assessed or notice of deficiency mailed until January 1, 2017, and the transaction involves the use of a painting donated to a foundation by a substantial contributor, which is hung in the contributor's study, and the foundation and contributor are calendar year taxpayers?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The contributor will owe tax on the use of the painting in 2015, 2016, and 2017. In addition, the contributor is deemed to have a new transaction on January 1, 2016, and again on January 1, 2017, with each deemed new act of self-dealing having its own taxable period, and self-dealing tax is imposed on each deemed new act for each whole or partial year in its taxable period. The amount involved in the transaction is the greater of the fair market value of the property given or received, or the fair market value of the use of the property. The self-dealing tax is calculated separately for each taxable year in the taxable period, and the tax liabilities 'pyramid' over time."
+                },
+                {
+                    "key": "7a833d88-bcc9-4f8d-ad2e-30cff779eb50",
+                    "prompt": "Question: How does the process of terminating a private foundation's status under Section 507 of the tax code relate to the role of Area Counsel in examinations of private foundations, and what are the potential consequences for the foundation if it fails to comply with the terms of a Thorne letter?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Area Counsel plays a crucial role in the process of terminating a private foundation's status under Section 507 of the tax code, as they provide guidance and assistance to examiners in drafting Thorne letters, which are used to request that a foundation manager agree to correction of certain issues. If a foundation fails to comply with the terms of a Thorne letter, it may be subject to additional Chapter 42 excise taxes, and the case may be considered unagreed. In such cases, the examiner must issue a 30-day letter to the foundation manager asserting second-tier excise taxes, and the foundation may be subject to termination under Section 507(a)(2) of the tax code, resulting in a termination tax. Additionally, if the foundation has not engaged in repeated willful acts or one flagrant, willful act triggering Chapter 42 taxes, it may opt for termination under Section 507(b)(1)(A) or (b)(1)(B), which may result in a $0 termination tax."
+                },
+                {
+                    "key": "59083773-6e6c-49cf-a51d-f3c698fba600",
+                    "prompt": "Question: How does Treasury Regulation 53.4941(d)-2(a)(2) relate to the exception in Section 4941(d)(2)(F) regarding the transfer of real or personal property to a private foundation, in the context of a disqualified person's transfer of a promissory note secured by an all-inclusive trust deed on property subject to senior notes, as discussed in Gershman Family Foundation v. Commissioner and Rev. Rul. 78-395?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Treasury Regulation 53.4941(d)-2(a)(2) defines the term 'similar lien' for the purpose of Section 4941(d)(2)(A), which includes deeds of trust and vendor's liens, but excludes any lien that is insignificant in relation to the fair market value of the property transferred. In Gershman Family Foundation v. Commissioner and Rev. Rul. 78-395, the court and the IRS ruled that a disqualified person's transfer of a promissory note secured by an all-inclusive trust deed on property subject to senior notes to a private foundation was an act of self-dealing, as the statutory language 'subject to a mortgage or similar lien' should be broadly construed to apply to transfers in which an individual may improperly benefit from a transaction even though there's no clear and immediate detriment to or relinquishment by the foundation. Therefore, in cases where a disqualified person transfers a promissory note secured by a deed of trust or similar lien on property subject to senior notes to a private foundation, the exception in Section 4941(d)(2)(F) would not apply, and the transfer would be considered an act of self-dealing."
+                },
+                {
+                    "key": "f214db03-1da9-41d3-9efa-59ac33944ca5",
+                    "prompt": "Question: What is the total tax due for two separate acts of self-dealing that occurred on the first day of 1975 and January 1, 1976, respectively, with respect to a loan made in 1974 by a private foundation to a disqualified person under circumstances not covered by any exception or transitional rule to Section 4941, with the loan being corrected in 1975, and assuming the fair rental value of the building is also $12,000 per annum as of July 31, 1970, and throughout the next 4 years, and the first tier tax for an act of self-dealing is imposed annually for each taxable year (or part thereof) during the taxable period, not only in the taxable year in which the self-dealing took place?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The total tax due for the two separate acts of self-dealing would be $400. The first act of self-dealing occurred on the first day of 1975, and the taxable period for this act would be from January 1, 1975, to December 31, 1975. The second act of self-dealing occurred on January 1, 1976, and the taxable period for this act would be from January 1, 1976, to December 31, 1976. The tax due for each year or part thereof in the taxable period would be $100, resulting in a total tax due of $400."
+                },
+                {
+                    "key": "50396ef3-2997-471d-9d50-1f110fa4a0d2",
+                    "prompt": "Question: Considering Treasury Regulation 53.4941(d)-2(c)(4), how does a private foundation avoid self-dealing when it comes to general banking services and savings accounts?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A private foundation can avoid self-dealing when it comes to general banking services and savings accounts by ensuring that the banking services are reasonable and necessary to carrying out the private foundation's exempt purposes, and that the compensation paid to the bank or trust company is not excessive considering the fair interest rate for using the foundation's funds. Additionally, the foundation must not be charged any interest on overdrafts of checking accounts, and must be able to withdraw its funds from a savings account on no more than 30 days' notice without being subject to a loss of interest on its money when the money was on deposit."
+                },
+                {
+                    "key": "37569f62-77e0-4527-b0f5-33c5e235da4a",
+                    "prompt": "Question: Considering the tax implications of self-dealing, what are the potential consequences for a private foundation that engages in self-dealing activities with a disqualified person, and how can the foundation avoid such consequences?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A private foundation that engages in self-dealing activities with a disqualified person may face a two-tier excise tax system, with taxes imposed on both the foundation and the self-dealer. The foundation may also be subject to additional taxes, penalties, and even revocation of its tax-exempt status. To avoid these consequences, the foundation should ensure that all transactions are properly structured and documented, that fair market value is paid for any goods or services exchanged, and that all dealings are at arm's length. Additionally, the foundation should seek advance approval from the IRS for any proposed corrections to avoid further penalties."
+                },
+                {
+                    "key": "952f0abc-ec9f-4766-8f09-d38943882807",
+                    "prompt": "Question: Considering Treasury Regulation 53.4941(d)-2(c)(4), how does a private foundation avoid engaging in self-dealing when receiving overdraft services from a disqualified person, assuming the foundation is not charged interest on overdrafts and can withdraw its funds from a savings account on no more than 30 days' notice without incurring a loss of interest?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A private foundation can avoid engaging in self-dealing when receiving overdraft services from a disqualified person by ensuring that the services are reasonable and necessary to carrying out the foundation's exempt purposes, and that the compensation paid to the bank or trust company is not excessive considering the fair interest rate for using the foundation's funds. Additionally, the foundation must not be charged any interest on overdrafts of checking accounts, but a service charge for the actual cost of processing an overdraft is permissible. The foundation must also be able to withdraw its funds from a savings account on no more than 30 days' notice without being subject to a loss of interest on its money when the money was on deposit. It's important to note that the exception for general banking services is based on the personal services exception, and the foundation must ensure that the services received are of a type that would typically be provided by a bank or trust company in the ordinary course of its business."
+                },
+                {
+                    "key": "961c3c0e-ffbb-43c6-8113-6461ee1de04e",
+                    "prompt": "Question: How does the Tax Court determine whether a taxable event has been corrected in a case involving a second-tier tax deficiency, and what is the significance of the definition of control in this process?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Tax Court determines whether a taxable event has been corrected in a case involving a second-tier tax deficiency by conducting a supplemental proceeding under Section 4961(b) and reviewing whether the taxpayer has timely corrected the act of self-dealing. The definition of control is significant in this process because it determines whether the private foundation, its managers, or disqualified persons have the ability to require the organization to act or refrain from acting in a manner that would constitute self-dealing, which is a crucial factor in determining whether the taxable event has been corrected."
+                },
+                {
+                    "key": "5f3af64f-216d-4082-b0ff-45640a593132",
+                    "prompt": "Question: Can a private foundation that provides scholarships to the children of its substantial contributors be considered an act of self-dealing, considering the foundation's grant-making program satisfies the requirements of the foundation's exempt status under Section 501(c)(3), the requirements for the allowance of deductions under Section 170 for contributions made to the foundation, and the requirements of Section 4945(g)(1)?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "No, the private foundation's grant-making program would not be considered an act of self-dealing, as long as the program satisfies the requirements mentioned in the question."
+                },
+                {
+                    "key": "94337ae0-6924-401e-93bb-c37421b10e15",
+                    "prompt": "Question: How do the excise taxes imposed by Section 4941, which were enacted to minimize the need to apply subjective arm's-length standards and avoid the temptation to misuse private foundations for noncharitable purposes, relate to the filing requirements for private foundations under Section 3101 of Public Law 116-25?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The excise taxes imposed by Section 4941, which aim to discourage self-dealing acts by imposing first and second-tier excise taxes on disqualified persons and foundation managers, are related to the filing requirements for private foundations under Section 3101 of Public Law 116-25 in that both provisions aim to promote compliance and integrity in the operations of private foundations. The filing requirements for private foundations, which were introduced under Section 3101 of Public Law 116-25 for tax years beginning on or after July 2, 2019, serve to facilitate the monitoring and enforcement of the excise taxes imposed by Section 4941 by ensuring that returns by exempt organizations are filed electronically and are readily accessible for review and audit by the relevant authorities."
+                },
+                {
+                    "key": "6ca2f104-2289-4206-8882-22b3062ce678",
+                    "prompt": "Question: How does the taxable period for a self-dealing transaction get determined, and what are the differences in tax liabilities between discrete and continuing transactions?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The taxable period for a self-dealing transaction starts with the self-dealing act and ends with the earlier of correction, issuance of a statutory notice of deficiency, or assessment of the excise tax. Discrete transactions occur once and have a single taxable period, while continuing transactions occur over multiple taxable years and have a deemed new act of self-dealing on the first day of each taxable year within the taxable period of the initial act, resulting in pyramiding tax liabilities."
+                },
+                {
+                    "key": "730d1ccb-338f-4d20-bc3a-6c63d0a3f4e6",
+                    "prompt": "Question: How does a private foundation terminate its status and what are the tax implications of such termination?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A private foundation can terminate its status by notifying the IRS and paying the required termination tax, or by transferring all of its net assets to certain public charities. If the foundation has engaged in repeated willful acts or one flagrant, willful act triggering Chapter 42 taxes, it may be subject to involuntary termination and additional taxes. The termination tax acts like a third-tier excise tax. If a private foundation's Section 501(c)(3) status is revoked but its private foundation status is not terminated under Section 507, then the foundation becomes a taxable private foundation; it is no longer tax-exempt but still subject to Chapter 42 taxes as a private foundation."
+                },
+                {
+                    "key": "cb2a2f76-ace9-456c-9a12-508d4fcee05b",
+                    "prompt": "Question: What are the challenges in enforcing the prohibited transaction rules for private foundations under Chapter 42, and how do the excise taxes imposed by Section 4941 address these challenges?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The prohibited transaction rules for private foundations under Chapter 42 are challenging to enforce due to the subjective nature of arm's-length standards, which require disproportionately greater enforcement efforts and can result in sporadic and uncertain effectiveness. Additionally, the sanctions for violating these rules can be either ineffective or overly harsh, leading to reluctance in enforcement and extensive litigation. The excise taxes imposed by Section 4941 aim to minimize the need to apply subjective arm's-length standards, avoid the temptation to misuse private foundations for noncharitable purposes, provide a more rational relationship between sanctions and improper acts, and make it more practical to properly enforce the law. By imposing first and second-tier excise taxes on disqualified persons and foundation managers, the regime set forth in Chapter 42 discourages self-dealing acts and encourages the highest fiduciary standards."
+                },
+                {
+                    "key": "0c970512-2ff5-41d1-bcb1-b44cf510e17a",
+                    "prompt": "Question: How does Treas. Reg. 53.4941(d) - 1(b) elaborate on the exclusions for indirect self-dealing, and how do Rev. Rul. 76-158 and Moody v. Commissioner relate to these exclusions?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Treas. Reg. 53.4941(d) - 1(b) provides further guidance on indirect self-dealing, stating that certain business transactions between a disqualified person and an organization controlled by a private foundation are excluded from the definition of indirect self-dealing if the transaction results from a business relationship established before Section 4941's effective date, is at least as favorable to the organization as an arm's length transaction, and either the organization would suffer severe economic hardship or the controlled organization provides a unique product or service unavailable elsewhere. Additionally, grants to intermediaries that are not controlled by the foundation and are not earmarked for a named government official are also excluded from indirect self-dealing. Rev. Rul. 76-158 holds that a foundation does not control a corporation for purposes of Section 4941 where the foundation owns 35% of the voting stock and the foundation manager personally owns the remaining 65% but does not hold a position of authority in the corporation by virtue of being a foundation manager. Moody v. Commissioner held that a disqualified person's transactions with a hotel were not indirect self-dealing due to findings that the foundation did not control the hotel company and that the transactions did not otherwise amount to indirect self-dealing."
+                },
+                {
+                    "key": "48302a45-3bbf-41f8-a188-b5e8cc9d4e21",
+                    "prompt": "Question: What are the different ways in which a private foundation can terminate its status, and how does it file for termination with the IRS? Also, what are the consequences of termination, and how does it affect the foundation's tax status?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A private foundation can terminate its status in several ways, including voluntary termination under Section 507(a)(1) by notifying the IRS and paying the required tax, involuntary termination under Section 507(a)(2) by the IRS due to repeated willful acts or one flagrant act triggering Chapter 42 taxes, transferring all net assets to certain public charities under Section 507(b)(1)(A), or becoming a public charity under Section 507(b)(1)(B). The foundation must file its final Form 990-PF and pay any required termination tax before providing notice of termination. If terminated voluntarily, the foundation pays no termination tax, while involuntary termination may result in Section 507(c) tax. If a private foundation's Section 501(c)(3) status is revoked but its private foundation status is not terminated under Section 507, it becomes a taxable private foundation subject to Chapter 42 taxes. Termination tax assessments are more likely to occur during a subsequent examination, and new violations identified in a later examination will provide proof of willfulness."
+                },
+                {
+                    "key": "2f80e0c4-3249-47e5-be98-19b84cda3dde",
+                    "prompt": "Question: How does the Tax Court handle cases of indirect self-dealing involving a private foundation, and what are the consequences of not correcting such cases within the specified time frame?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Tax Court has jurisdiction over cases of indirect self-dealing involving a private foundation, and may determine whether the taxable event has been corrected. If the taxable event is not corrected within the specified time frame, the IRS may impose a second-tier tax deficiency, which can be abated if timely correction occurs. The Tax Court also has jurisdiction to conduct a supplemental proceeding to determine whether the taxable event was timely corrected, and may impose a penalty equal to the tax imposed under Section 4941 for acts not due to reasonable cause or willful and flagrant acts."
+                },
+                {
+                    "key": "61bf985c-de8a-4be2-8f97-dd4f9ead1f1c",
+                    "prompt": "Question: How does the Tax Court handle cases involving indirect self-dealing, and what are the exceptions to the self-dealing provisions?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The Tax Court has jurisdiction to conduct a supplemental proceeding to determine whether the taxable event was timely corrected, and the court may also determine whether the taxable event has been corrected while ruling on a second-tier tax deficiency. Certain transactions involving third parties are excepted from the self-dealing provisions, such as those explained in Treas. Reg. 53.4941(d)-1(b). Indirect self-dealing can occur through a transaction between a disqualified person and an organization controlled by a private foundation, or when the use of a foundation's assets or income results in an actual or constructive benefit for a disqualified person. The definition of control for this purpose can be found in Treas. Reg. 53.4941(d)-1(b)(5)."
+                },
+                {
+                    "key": "f720f43b-4410-42d7-aeb3-af0022c2610c",
+                    "prompt": "Question: How does the definition of correction period in Section 4963(e) relate to the jurisdiction of the Tax Court in determining whether the taxable event has been corrected, and what are the implications of this relationship for a taxpayer seeking a supplemental proceeding within 90 days after the end of the correction period?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The definition of correction period in Section 4963(e) is directly related to the jurisdiction of the Tax Court in determining whether the taxable event has been corrected. According to Section 6214(c), the Tax Court has jurisdiction to determine whether the taxable event has been corrected while ruling on a second tier tax deficiency. Moreover, Section 4961(b) gives the Tax Court jurisdiction to conduct a supplemental proceeding to determine whether the taxable event was timely corrected, if the taxpayer seeks one within 90 days after the end of the correction period. Therefore, a taxpayer seeking a supplemental proceeding within 90 days after the end of the correction period can rely on the definition of correction period in Section 4963(e) to determine whether the taxable event has been corrected, and the Tax Court will have jurisdiction to make this determination. If the taxpayer fails to seek a supplemental proceeding within 90 days after the end of the correction period, the IRS may assess a second tier tax deficiency, and the taxpayer will have to pay the deficiency or file a refund suit within the applicable statute of limitations."
+                },
+                {
+                    "key": "46114e96-c259-402a-99cd-a92427c499da",
+                    "prompt": "Question: Can a private foundation purchase a property from a person who becomes a disqualified person as a result of the transaction, and if so, under what circumstances?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can purchase a property from a person who becomes a disqualified person as a result of the transaction, but only if the transaction meets certain conditions. According to Treasury Regulation 53.4941(d)-1(a), the 'first bite' rule applies, which means that the transaction is not considered self-dealing if the disqualified person status arises only because of the transaction and it is not part of a continuing act of self-dealing. However, this exception does not apply if the disqualified person is a dealer in securities acting as a principal in the transaction or if the transaction involves the lending of money or other extension of credit. Additionally, the transaction must be made in the ordinary course of business and does not involve a block of securities larger than the average daily trading volume of that stock over the previous four weeks, as per Treasury Regulation 53.4941(a)-1(a)(1)."
+                },
+                {
+                    "key": "185835e5-c1d5-4234-9633-3c2a5ddd36ba",
+                    "prompt": "Question: How does the tax liability for a self-dealing transaction change if the transaction is classified as a continuing transaction, and how does this impact the amount involved in the transaction?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "If a self-dealing transaction is classified as a continuing transaction, such as a loan, lease, or compensation for services, the tax liability will 'pyramid' meaning that the tax will be imposed on each deemed new act of self-dealing for each whole or partial year in its taxable period. The amount involved in the transaction is determined differently for continuing transactions, and the greater of the fair market value of the property given or received, or the amounts paid for such use, or the fair market value of such use, whichever is greater. Other modifications may also apply."
+                },
+                {
+                    "key": "aef27972-5b05-4b60-b1b1-caf1a53564be",
+                    "prompt": "Question: Can a private foundation be liable for more than one Chapter 42 tax for the same act or transaction, and how does the 'first bite' rule apply to a bargain sale of property to a private foundation?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Yes, a private foundation can be liable for more than one Chapter 42 tax for the same act or transaction. For example, an act of self-dealing might also be an expenditure for a non-charitable purpose taxable under Section 4945. The 'first bite' rule applies to a bargain sale of property to a private foundation, where the seller becomes a disqualified person only because of the bargain element of the sale, and the transaction is not considered self-dealing. However, the 'first bite' rule does not apply after disqualified person status is established, such as in the case of a continuing act of self-dealing."
+                },
+                {
+                    "key": "5c33a9e2-912b-4d33-86e4-cf9a8f1558c0",
+                    "prompt": "Question: How does the taxable period for a self-dealing transaction get determined, and how is the amount involved in the transaction calculated, considering the differences between discrete and continuing transactions, and the impact of pyramiding, if any, and what are the relevant regulations and examples to understand this concept?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The taxable period for a self-dealing transaction is determined based on the date of the act and ends with the earlier of correction, issuance of a statutory notice of deficiency, or assessment of the excise tax. The amount involved in the transaction is the greater of the fair market value of the property given or received, or, for the period of use, the amount paid or the fair market value of such use. Discrete transactions occur once, while continuing transactions occur over multiple taxable years, with each year having its own taxable period and self-dealing tax. Examples of discrete transactions include sales and exchanges, while leasing, lending, and furnishing goods or services are considered continuing transactions. The regulations to refer to are Treas. Reg. 53.4941(e)-1(e)(1) and Treas. Reg. 53.4941(e)-1(b), and the related examples are provided in the given context."
+                }
+            ]
+        }
+    ]
+}

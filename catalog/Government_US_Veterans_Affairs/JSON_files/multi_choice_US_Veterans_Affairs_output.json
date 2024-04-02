@@ -1,0 +1,331 @@
+{
+    "tests": [
+        {
+            "key": "939abd43-d88b-44ab-b13e-8740d52c59a2",
+            "documents": [
+                "US_Veterans_Affairs.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "2bc70068-f00f-457f-be4e-439edd91aafc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Section 508 Compliance Statement?\nHow do you respond?\nA. To provide access to healthcare for veterans with disabilities.\nB. To ensure that VA's electronic and information technologies are accessible to individuals with disabilities.\nC. To modernize VA's systems and processes for claims and appeals.\nD. To invest in groundbreaking research that contributes to the quality of life for Veterans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f70163ca-027f-4872-82e1-63913bc5817a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of a \"Veteran\" according to the Department of Veterans Affairs?\nHow do you respond?\nA. An individual who has served in the military for at least 2 years.\nB. An individual who has served in the military for at least 6 months.\nC. An individual who has served in a combat zone.\nD. An individual who has received an honorable discharge.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1adb4819-d128-4e52-b9b9-8e71480564dd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the core values of the Department of Veterans Affairs?\nHow do you respond?\nA. Excellence, Innovation, and Customer-driven care.\nB. Access, Wellness, and Recovery.\nC. Quality, Infrastructure, and Partnership.\nD. Care, Services, and Reform.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ce7cf058-8984-4031-b837-6872443149f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the Department of Veterans Affairs plan to modernize its procurement and information technology services?\nHow do you respond?\nA. By investing in 21st-century technology, such as telehealth, to increase access to care and better leveraging existing infrastructure while teaming up with private partners to invest in state-of-the-art facilities.\nB. By maintaining the status quo and continuing to operate as it has in the past.\nC. By disinvesting in research and development and focusing solely on providing care and services.\nD. By closing down all VA facilities and outsourcing all care and services to the private sector.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9fa3ad6a-c5bb-426e-8899-d6f339b7d3f3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the 508 Compliant FY2018-2024 VA Strategic Plan?\nHow do you respond?\nA. To provide excellent care and benefits to our Nation's Veterans.\nB. To modernize VA's systems and processes for claims and appeals.\nC. To invest in groundbreaking research that contributes to the quality of life for Veterans.\nD. To provide access to healthcare through telehealth.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "50e87fb6-b87f-4147-b16f-1d9a90509278",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the number of Veterans receiving VA disability compensation as of September 30, 2017?\nHow do you respond?\nA. 4.55 Million\nB. 609,325\nC. 276,574\nD. 349,049\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3fbe852f-6936-4426-b29a-9c5323af907d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the number of Veterans rated 100% disabled as of September 30, 2017?\nHow do you respond?\nA. 4.55 Million\nB. 609,325\nC. 276,574\nD. 349,049\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "03d62aeb-d0ac-4dfc-869b-05f4057b67be",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the number of Veterans receiving VA pension as of September 30, 2017?\nHow do you respond?\nA. 276,574\nB. 4.55 Million\nC. 19.9 Million\nD. 609,325\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7242a6e2-d953-40fa-b87a-567d481c1a90",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the number of Veterans participating in Vocational Rehabilitation & Employment (VR&E) benefits in FY 2016?\nHow do you respond?\nA. 137,097\nB. 946,829\nC. 6.08 Million\nD. 4.55 Million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "23817103-15b0-4a85-9200-cb5d7e48d9d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total face amount of insurance policies supervised and administered by VA as of September 30, 2017?\nHow do you respond?\nA. $1.22 Trillion\nB. $959,703\nC. 6.08 Million\nD. 4.55 Million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2a65e3fe-ab9b-4c2c-baa7-64ea0d067a16",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the five priorities that shape the VA's strategic goals?\nHow do you respond?\nA. Veteran-centric culture, commitment to excellence, agility, integration of technology, and interoperability with government partners.\nB. Historic and current operations, leading practices in healthcare, customer service, and benchmarking best practices in business operations.\nC. Rapid advancements in technology, groundbreaking research, genomic and personalized medicine, modernization effort, and upgrading systems.\nD. Providing excellent care and services, evolving Veteran population, changing Veteran demand for services, and enhancing access for Veterans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dd1bd476-48b9-413f-b819-d0bf12b8ffb9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the first strategic objective under the goal of Veterans Choose VA for Easy Access, Greater Choices, and Clear Information to Make Informed Decisions?\nHow do you respond?\nA. VA Anticipates Veterans' Changing Needs Throughout Their Lives to Enhance Their Choices\nB. VA Understanding of Veterans Begins with Their Experience in Military Service and Continues Throughout Their Lives\nC. VA Provides Timely and Accurate Information to Veterans to Make Informed Decisions\nD. VA Enhances Access to Benefits, Care, and Services for Veterans\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "aeac365c-526d-4d60-b7b4-a9b1771a4f12",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the second strategic objective under the goal of Veterans Choose VA for Easy Access, Greater Choices, and Clear Information to Make Informed Decisions?\nHow do you respond?\nA. VA Anticipates Veterans' Changing Needs Throughout Their Lives to Enhance Their Choices.\nB. VA Understanding of Veterans Begins with Their Experience in Military Service and Continues Throughout Their Lives.\nC. VA Expands Access to Care and Benefits for Veterans in Rural Areas.\nD. VA Improves Communication with Veterans and Their Families to Better Understand Their Needs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5578c638-0e50-43e4-8da2-cb7f11b2807a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does VA measure the success of its efforts to improve outcomes for Veterans?\nHow do you respond?\nA. By tracking the number of Veterans who access benefits and services\nB. By measuring the impact of Veteran outcomes on their health, well-being, independence, economic security, and memorialization\nC. By conducting surveys to gather feedback from Veterans on their satisfaction with VA services\nD. By monitoring the number of Veterans who transition back to civilian life without requiring VA assistance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c36cf634-6c8e-4071-b161-38f0c1f50f63",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the goal of VA's strategy 1.2.3?\nHow do you respond?\nA. To provide timely and integrated care and support to Veterans\nB. To advocate for Veterans by establishing partnerships and enhancing their experience\nC. To simplify communications and tailor information for Veterans and their families\nD. To ensure Veterans receive benefits, care, and services that emphasize their well-being and independence throughout their life journey\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "03e9de62-e09f-4472-b4b0-86f81124366b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the first performance goal for VA's goal 2?\nHow do you respond?\nA. Veterans are satisfied with the results of the Veteran benefits, care, and services they received.\nB. VA's organizational performance matches or exceeds industry standards for excellence in all of its lines of business.\nC. Veterans receive timely and integrated care and support that emphasizes their well-being and independence throughout their life journey.\nD. VA has collaborative, high-performing, and integrated delivery networks that enhance Veteran well-being and independence.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6a97264a-e7a8-43c7-9297-f0276e077d96",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the term \"well-being\" in the context of the VA's strategic plan?\nHow do you respond?\nA. It refers to the social, economic, psychological, spiritual, and/or medical conditions that contribute to an individual's or group's emotional state.\nB. It is a measure of how well the VA's foundational service offerings are meeting the needs of Veterans.\nC. It is a metric used to evaluate the success of the VA's payment innovations and provider reimbursement models.\nD. It is a term used to describe the VA's commitment to providing access to burial options for Veterans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d4cd4cb0-b5bb-4bc1-b657-77666f3c4215",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the goal of the VA's \"Anywhere to Anywhere Care\" initiative?\nHow do you respond?\nA. To restrict VA-licensed providers to serving Veterans only in their state.\nB. To eliminate outdated regulations that restrict VA-licensed providers from serving Veterans in any state.\nC. To provide timely and convenient care to Veterans regardless of their location.\nD. To reduce the use of telehealth and video conferencing capabilities in delivering care to Veterans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "541da493-cbfa-45e8-bb72-54308854adf0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the VA's \"VA Video Connect\" app and \"Provider Connect\" features?\nHow do you respond?\nA. To provide Veterans with remote access to healthcare services, reducing the need for travel to a VA or other Federal facility.\nB. To enable VA providers to connect to Veterans across the country and deliver timely and convenient care.\nC. To streamline clinical and administrative processes, emphasizing care management and coordination for Veterans.\nD. To invest in infrastructure that supports seamless and secure data sharing with key external partners and the virtual delivery of benefits, care, and services for Veterans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5913f169-a49e-4a1b-b5cc-6eec3a8558ee",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the VA's partnership with the Department of Defense (DoD) and the Department of Labor (DOL) in improving Veteran outcomes?\nHow do you respond?\nA. To provide Veterans with access to job training and employment opportunities.\nB. To coordinate early screening and treatment protocols for traumatic brain and other concussive injuries.\nC. To deliver timely and convenient care to Veterans through telehealth and video conferencing capabilities.\nD. To streamline clinical and administrative processes that emphasize care management and coordination for Veterans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e218f608-98de-40db-b822-040e947af662",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the VA plan to measure the success of its strategic plan?\nHow do you respond?\nA. By tracking the improvement in Veterans' well-being and satisfaction with VA services.\nB. By monitoring the timely delivery of benefits and care to Veterans.\nC. By evaluating the cost-effectiveness of VA services compared to private sector providers.\nD. By assessing the number of Veterans who are able to find employment after receiving VA services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4797f36a-7333-4eac-9509-c32481b2003d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How will VA ensure access to burial options for veterans?\nHow do you respond?\nA. By providing burial services at VA facilities only.\nB. By partnering with state and tribal governments to establish new cemeteries.\nC. By requiring veterans to purchase private burial insurance.\nD. By providing reimbursement for burial expenses up to a certain amount.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d2c393b5-50a3-4795-a7d7-61f085c237d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the goal of VA's modernization efforts?\nHow do you respond?\nA. To provide personalized and proactive healthcare to Veterans.\nB. To improve access to benefits and services for Veterans.\nC. To enhance the claims and appeals process for Veterans.\nD. To provide financial security for severely ill or injured Veterans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "aa59f0ec-f6f2-42f9-b187-0a5132e193f8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How will VA support veteran independence?\nHow do you respond?\nA. By providing financial security through compensation for wounds, illnesses, and injuries sustained in service.\nB. By partnering with the DOL and DoD to holistically prepare service members for transition from active duty to civilian life.\nC. By focusing on foundational health services that optimize their health, well-being, and quality of life.\nD. By providing personalized, proactive, patient-driven health care to empower and equip Veterans to take charge of their health.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "404e17fb-25e9-4756-b050-e3582683fa4a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the key considerations for VA when deciding whether a service should be provided in-house or in the community?\nHow do you respond?\nA. Safety, quality, expertise, and enhanced access for the Veteran.\nB. Cost-effectiveness, convenience, and availability of resources.\nC. Veteran preference, specialized care, and proximity to the Veteran's home.\nD. Staffing ratios, facility capacity, and wait times.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8443d50a-eb95-4332-ac96-a2f6c9262b14",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus of VA's foundational health services?\nHow do you respond?\nA. Providing specialized healthcare services for Veterans with service-connected disabilities.\nB. Offering primary care services, urgent care services, mental health services, and rehabilitation services to Veterans.\nC. Ensuring seamless access to healthcare services for Veterans through partnerships with external providers.\nD. Focusing on disease management and preventive healthcare for Veterans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "71e3cac7-255f-422a-b039-957fe90f2f48",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the MyHealth eVet program?\nHow do you respond?\nA. To provide access to VA healthcare services for Veterans living in remote areas.\nB. To empower Veterans to take charge of their health and well-being.\nC. To provide financial security for severely ill, injured, or wounded Veterans.\nD. To excel at foundational health services, including pain management and opioid safety.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "054413ce-4e81-48e6-9adb-a60202e2267f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is VA's first priority for homeless Veterans and their families?\nHow do you respond?\nA. Providing them with employment and healthcare assistance.\nB. Giving them a safe place to live.\nC. Connecting them with local, state, and national organizations.\nD. Expanding healthcare provider virtual consultation services in underserved rural areas.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "034a8dc2-aa44-40f6-9180-7cc6683fadb8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does VA plan to support families and caregivers of Veterans?\nHow do you respond?\nA. By providing them with access to healthcare services and resources.\nB. By offering training and mentoring programs to help them care for Veterans.\nC. By including them in Veterans' healthcare decision-making processes.\nD. By giving them access to online support groups and resources.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                }
+            ]
+        }
+    ]
+}

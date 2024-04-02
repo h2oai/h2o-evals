@@ -1,0 +1,2119 @@
+{
+    "tests": [
+        {
+            "key": "cfd0d701-12b0-40ad-a1a4-1492b6ab736e",
+            "documents": [
+                "Stanford_Healthcare_Regulations.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "632d92f0-7b92-448f-a67d-3bc0f21919e6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Medical Staff Rules and Regulations at Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "quality",
+                        "medical",
+                        "care",
+                        "guidelines",
+                        "hospital"
+                    ],
+                    "expected_output": "The purpose of the Medical Staff Rules and Regulations is to ensure the quality of medical care rendered at Stanford Health Care and to establish guidelines for professional medical care performed at the hospital."
+                },
+                {
+                    "key": "73a53b14-75cd-4d0b-a6df-2789c25fe06d",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for the professional medical care at Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "Medical",
+                        "Staff"
+                    ],
+                    "expected_output": "The Medical Staff is responsible for the professional medical care at Stanford Health Care."
+                },
+                {
+                    "key": "95b867f3-93ab-47c0-b39f-40e78ddecd71",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the three general categories of patient encounters at Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "inpatient",
+                        "emergency",
+                        "outpatient"
+                    ],
+                    "expected_output": "The three general categories of patient encounters at Stanford Health Care are inpatient, emergency, and outpatient."
+                },
+                {
+                    "key": "ecd0cfd4-38d1-4531-9718-27e9cea82aad",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of an inpatient at Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "inpatient",
+                        "hospital",
+                        "bed",
+                        "occupancy",
+                        "care",
+                        "overnight"
+                    ],
+                    "expected_output": "An inpatient is a person who has been admitted to the hospital for bed occupancy for the purpose of receiving care, with the expectation of remaining overnight."
+                },
+                {
+                    "key": "61799591-3965-40e1-b5be-8cf43a643a07",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of an emergency at Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "emergency",
+                        "medical",
+                        "care",
+                        "hospital",
+                        "patient",
+                        "urgent",
+                        "conditions"
+                    ],
+                    "expected_output": "An emergency is the provision of emergency medical care in specifically designated areas of the hospital that is staffed and equipped at all times to provide prompt care for any patient presenting urgent medical conditions."
+                },
+                {
+                    "key": "0925b0c8-7c0e-46c5-8396-c9ff70b4616f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of an outpatient at Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "outpatient",
+                        "hospital",
+                        "inpatient",
+                        "emergency",
+                        "services",
+                        "supplies",
+                        "registered"
+                    ],
+                    "expected_output": "An outpatient is a person who has not been admitted to the hospital as an inpatient and who is not receiving emergency services but is registered on the hospital records as an outpatient and receives services (rather than supplies alone) from the hospital."
+                },
+                {
+                    "key": "38896924-5402-472f-b29b-54dcd56c6a24",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the two types of outpatient episodes/services at Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "hospitalized",
+                        "outpatients",
+                        "other"
+                    ],
+                    "expected_output": "The two types of outpatient episodes/services at Stanford Health Care are hospitalized episodes for outpatients and other outpatient episodes/services."
+                },
+                {
+                    "key": "60794053-2112-4c4a-b5ff-44572d57d3ec",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who can admit patients to Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "qualified",
+                        "Medical Staff",
+                        "privilege",
+                        "Hospital",
+                        "state law",
+                        "criteria",
+                        "standards",
+                        "medical care"
+                    ],
+                    "expected_output": "Only qualified members of the Medical Staff who have been granted the privilege to admit patients to the Hospital or order procedures in accordance with state law and criteria for standards of medical care established by the Medical Staff can admit patients to Stanford Health Care."
+                },
+                {
+                    "key": "5f37ad21-b535-4843-8857-03a05b195532",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the criteria for admission to Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Patients",
+                        "admitted",
+                        "inpatients",
+                        "outpatient",
+                        "ambulatory",
+                        "procedures",
+                        "member",
+                        "Medical Staff",
+                        "privilege",
+                        "Hospital",
+                        "law",
+                        "criteria",
+                        "standards",
+                        "medical care",
+                        "direct",
+                        "supervision"
+                    ],
+                    "expected_output": "Patients may be admitted to Stanford Health Care as inpatients, accepted for outpatient hospital registration, or accepted for observation services or ambulatory care procedures only by a qualified member of the Medical Staff who has been granted the privilege to admit patients to the Hospital or order procedures in accordance with state law and criteria for standards of medical care established by the Medical Staff. All patients must be under the direct care or supervision of a member of the Medical Staff."
+                },
+                {
+                    "key": "bd34b22f-4392-49c9-93b0-4d9bd7c370e8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Medical Staff in ensuring the quality of medical care at Stanford Health Care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "responsible",
+                        "quality",
+                        "medical care",
+                        "Stanford Health Care",
+                        "guidelines",
+                        "professional"
+                    ],
+                    "expected_output": "The Medical Staff is responsible for ensuring the quality of medical care rendered at Stanford Health Care and for establishing guidelines for professional medical care performed at the hospital."
+                },
+                {
+                    "key": "c5f0b8df-6d2c-4cd1-85d3-b0441699b5f5",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who must be under the direct care or supervision of a member of the Medical Staff?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "All"
+                    ],
+                    "expected_output": "All patients."
+                },
+                {
+                    "key": "81bef242-ff6f-48b3-9aa4-62b671131dd0",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who may admit patients to the Hospital?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Only",
+                        "practitioners",
+                        "authorized",
+                        "Bylaws",
+                        "Medical",
+                        "Staff"
+                    ],
+                    "expected_output": "Only those practitioners authorized in accordance with the Bylaws of the Medical Staff."
+                },
+                {
+                    "key": "dbd94a50-61d4-4e56-805c-68ad4798ff77",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the three types of admission specified in the admit order?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Observation",
+                        "Outpatient Surgery",
+                        "Inpatient"
+                    ],
+                    "expected_output": "Observation, Outpatient Surgery, and Inpatient."
+                },
+                {
+                    "key": "2692659f-7e3e-4ddf-b756-fbb01f601bef",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can a patient's status change from Inpatient to Observation?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "No"
+                    ],
+                    "expected_output": "No."
+                },
+                {
+                    "key": "e540603a-fcbd-44f5-bae5-36f40b2cf712",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is required for a patient to be admitted to the Hospital without a recorded provisional diagnosis?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "A",
+                        "recorded",
+                        "provisional",
+                        "diagnosis",
+                        "except",
+                        "emergencies",
+                        "where"
+                    ],
+                    "expected_output": "A recorded provisional diagnosis is required, except in emergencies where a diagnosis must be recorded as soon as possible."
+                },
+                {
+                    "key": "95c9b87c-89a9-4760-8344-868abb51dccd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the Medical Staff member regarding the confirmation of diagnoses?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "confirm",
+                        "diagnosis",
+                        "therapy",
+                        "urgent"
+                    ],
+                    "expected_output": "The Medical Staff member must confirm the diagnosis before initiation of therapy, except when urgent therapy is indicated."
+                },
+                {
+                    "key": "bf67caf4-9c22-44a5-a80b-8182eff81345",
+                    "prompt": "Respond to the following question.\n\nQuestion: What must be reported to the Medical Staff member for patients treated at Stanford Health Care for diseases diagnosed on the basis of histological sections or the morphological assessment of fine needle aspirates, bone marrow aspirates, or peripheral blood?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Pathology"
+                    ],
+                    "expected_output": "The diagnosis must be confirmed by a Medical Staff member with Pathology privileges."
+                },
+                {
+                    "key": "3ce1f09e-3fbc-4db1-9353-a2b16470940b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the Medical Staff member regarding the reporting of reportable diseases?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "report",
+                        "diseases",
+                        "must",
+                        "report",
+                        "Title 17",
+                        "California",
+                        "Code",
+                        "Regulations",
+                        "control",
+                        "communicable",
+                        "diseases",
+                        "SHC",
+                        "Infection",
+                        "Control",
+                        "Procedures",
+                        "Policies"
+                    ],
+                    "expected_output": "The Medical Staff member must report all cases of reportable diseases in accordance with Title 17 of the California Code of Regulations for the control of communicable diseases, and SHC Infection Control Procedures and Policies."
+                },
+                {
+                    "key": "c7f07aea-bbe3-4fdf-a2a3-a828acc7546c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of a medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "medical record",
+                        "patient",
+                        "medical information",
+                        "custody",
+                        "Hospital's Health Information Management Services Department"
+                    ],
+                    "expected_output": "A medical record consists of medical information that is specific to the patient, that is pertinent to the patient's care and treatment, and that is in the custody of the Hospital's Health Information Management Services Department."
+                },
+                {
+                    "key": "b244ffbc-2ffb-4d21-97ca-3b9239e978a1",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who has access to confidential materials in a patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Medical",
+                        "Hospital",
+                        "staff",
+                        "patient",
+                        "peer",
+                        "risk",
+                        "management",
+                        "research",
+                        "educational",
+                        "pursuit"
+                    ],
+                    "expected_output": "Members of the Medical and other staffs of the Hospital, Hospital employees, and others who are involved in the care of the patient or are engaged in peer review, risk management, Medical Staff credentialing, approved research, educational pursuit, or other specifically authorized activity."
+                },
+                {
+                    "key": "f46df382-5035-405a-9b4c-9bd731fcc77f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the required elements in a medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "identification data",
+                        "comprehensive history",
+                        "physical examination",
+                        "reports",
+                        "consultations",
+                        "clinical laboratory",
+                        "radiology",
+                        "special reports",
+                        "provisional diagnosis",
+                        "medical treatments",
+                        "surgical treatments",
+                        "operative reports",
+                        "anesthesiology records",
+                        "pathological findings",
+                        "progress notes",
+                        "final diagnosis",
+                        "discharge notes",
+                        "clinical summary",
+                        "autopsy report",
+                        "Patient Advance Directives",
+                        "Consent Forms"
+                    ],
+                    "expected_output": "Identification data, comprehensive history and physical examination, reports and consultations, clinical laboratory, radiology and other special reports, provisional diagnosis, medical or surgical treatments, operative reports, anesthesiology records, pathological findings, progress notes, final diagnosis, discharge notes, clinical summary, autopsy report, and other pertinent information such as Patient Advance Directives and Consent Forms."
+                },
+                {
+                    "key": "0b081e9d-bc05-4c4b-ad82-09c08a898eb5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Hospital's Policies and Procedures governing medical records?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "ensure",
+                        "content",
+                        "form",
+                        "nomenclature",
+                        "permitted",
+                        "abbreviations",
+                        "timeliness",
+                        "requirements",
+                        "portions",
+                        "entries",
+                        "patient",
+                        "medical",
+                        "record",
+                        "stated",
+                        "hospital",
+                        "policies",
+                        "procedures"
+                    ],
+                    "expected_output": "The purpose of the Hospital's Policies and Procedures governing medical records is to ensure that the content, form, nomenclature, permitted abbreviations, and timeliness requirements of all portions of and entries in the patient's medical record are followed as stated in the Hospital's Policies and Procedures."
+                },
+                {
+                    "key": "a3157710-e3b2-4644-9cd9-fd83084bbde6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for authentication of entries in the patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "written",
+                        "electronic",
+                        "signature",
+                        "timed",
+                        "dated"
+                    ],
+                    "expected_output": "Entries in the patient's medical record must be authenticated by the individual making the entry, which is defined as a written or electronic signature, timed and dated."
+                },
+                {
+                    "key": "54f1b4ca-783f-45dd-817c-b1e1992adc61",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for the timely preparation and completion of the patient's Medical Record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "attending",
+                        "physician"
+                    ],
+                    "expected_output": "The attending physician is responsible for the timely preparation and completion of the patient's Medical Record."
+                },
+                {
+                    "key": "288a589c-1f53-45f9-b74f-230343d83bff",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the timeframe for authentication of Medical Record entries?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "two weeks"
+                    ],
+                    "expected_output": "Medical Record entries must be authenticated within two weeks following the patient's discharge."
+                },
+                {
+                    "key": "5377de51-b2d8-4b02-bc46-eb06e63bd816",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is required for medical student entries in the patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "identification",
+                        "student",
+                        "status",
+                        "supervising",
+                        "physician"
+                    ],
+                    "expected_output": "Medical student entries must include identification of student status and be counter-signed by a supervising physician."
+                },
+                {
+                    "key": "4a7fc357-fb2f-499a-95d4-cab38905dfb9",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should time-sensitive entries in the patient's medical record be documented?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "24-hour clock"
+                    ],
+                    "expected_output": "Time-sensitive entries in the patient's medical record should be timed using the 24-hour clock."
+                },
+                {
+                    "key": "b39e8eca-f7bc-4062-ac09-6d6ecffd6c21",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the requirements for the use of symbols and abbreviations in the patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "may",
+                        "not",
+                        "used",
+                        "approved",
+                        "unapproved"
+                    ],
+                    "expected_output": "Symbols and abbreviations may not be used on the face sheet or in the final diagnosis, but may be used within the medical record when approved by the Medical Staff. A list of approved and unapproved symbols and abbreviations has been approved by the Medical Staff, and use of unapproved symbols and abbreviations has the potential to negatively impact patient care."
+                },
+                {
+                    "key": "6e96d5cb-bceb-4728-97fc-3e369fc53cb3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for documentation of clinic visits in the patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "A",
+                        "clinic",
+                        "note",
+                        "should",
+                        "be",
+                        "entered",
+                        "into",
+                        "the",
+                        "medical",
+                        "record",
+                        "or",
+                        "dictated",
+                        "for",
+                        "each",
+                        "visit",
+                        "or",
+                        "consult",
+                        "within",
+                        "24",
+                        "hours",
+                        "of",
+                        "the",
+                        "encounter"
+                    ],
+                    "expected_output": "A clinic note should be entered into the medical record or dictated for each visit or consult within 24 hours of the encounter."
+                },
+                {
+                    "key": "11e9f49a-0fdc-4137-af59-54295e09faac",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the requirements for documentation of invasive procedures or moderate sedation in the patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "focused medical assessment",
+                        "presenting diagnosis/condition",
+                        "description of symptoms",
+                        "significant past medical history",
+                        "current medications",
+                        "drug allergies",
+                        "indications for the procedure",
+                        "focused physical exam",
+                        "proposed treatment or procedures"
+                    ],
+                    "expected_output": "A focused medical assessment must be documented prior to or at the time of an invasive procedure or moderate sedation, and should include presenting diagnosis/condition, description of symptoms, significant past medical history, current medications, any drug allergies, indications for the procedure, focused physical exam as indicated, and proposed treatment or procedures."
+                },
+                {
+                    "key": "fe24078e-5de5-48e5-b7f7-5fa6d8f7e080",
+                    "prompt": "Respond to the following question.\n\nQuestion: What information is required for orders for ancillary and diagnostic services in the patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "diagnosis",
+                        "ICD",
+                        "code",
+                        "patient",
+                        "sign",
+                        "symptom",
+                        "service",
+                        "treatment"
+                    ],
+                    "expected_output": "Orders for ancillary and diagnostic services must include the diagnosis (ICD code) and, as necessary, other appropriate information about the patient's diagnosis, or the sign(s) or symptom(s) providing the justification for the service / treatment."
+                },
+                {
+                    "key": "17f48715-729a-4325-aa84-87ecff31f46a",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should phone consultations be documented in the patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Documentation",
+                        "phone",
+                        "consultations",
+                        "medical",
+                        "record"
+                    ],
+                    "expected_output": "Documentation of phone consultations must be included in the medical record."
+                },
+                {
+                    "key": "68722ef6-33af-4162-8c2e-2069cc479087",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the informed consent process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "understand",
+                        "specific",
+                        "procedure",
+                        "treatment",
+                        "risks",
+                        "benefits",
+                        "alternatives",
+                        "care",
+                        "treatment"
+                    ],
+                    "expected_output": "The purpose of the informed consent process is to ensure that patients understand the specific procedure or treatment, the reasonably foreseeable risks and benefits, and the reasonable alternatives for care and treatment."
+                },
+                {
+                    "key": "fd01d8e1-b51b-4a14-a082-ef4b245c10a2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the requirements for obtaining informed consent?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "informed consent",
+                        "patient",
+                        "procedure",
+                        "treatment",
+                        "risks",
+                        "adverse reactions",
+                        "blood transfusions",
+                        "moderate sedation",
+                        "electroconvulsive therapy"
+                    ],
+                    "expected_output": "Informed consent must be obtained from the patient or their properly designated representative before any procedure or treatment that is considered complex based on medical judgment, including operative procedures, invasive procedures with potential risks and adverse reactions, blood transfusions or other use of blood products, planned use of moderate sedation, and electroconvulsive therapy."
+                },
+                {
+                    "key": "a7071642-2851-4a93-afa1-983e838382ab",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for obtaining informed consent?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "physician",
+                        "operation",
+                        "permission",
+                        "procedure"
+                    ],
+                    "expected_output": "The physician in whose name the permission for the operation is obtained must participate in person or as a member of the operating team and must be present during the critical portion(s) of the procedure."
+                },
+                {
+                    "key": "ffa5d5f2-43f6-4de7-90f5-df83bc5b92d9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is an adverse event?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "detrimental",
+                        "effect",
+                        "diagnostic",
+                        "test",
+                        "defect",
+                        "failure",
+                        "error",
+                        "healthcare",
+                        "system",
+                        "medical",
+                        "treatment",
+                        "surgical",
+                        "intervention"
+                    ],
+                    "expected_output": "An adverse event is a detrimental effect from a diagnostic test, defect, failure, and/or error within the healthcare system, medical treatment, or surgical intervention."
+                },
+                {
+                    "key": "d831fbc4-c743-4ce5-9244-6b4e879286b5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is an unanticipated outcome?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "unanticipated",
+                        "outcome",
+                        "result",
+                        "treatment",
+                        "procedure"
+                    ],
+                    "expected_output": "An unanticipated outcome is a result that differs significantly from the anticipated result of a treatment or procedure."
+                },
+                {
+                    "key": "c92f14bf-51c2-409d-9e6e-925aa6564a0d",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for disclosing unanticipated outcomes and adverse events to patients?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "attending",
+                        "physician",
+                        "responsible",
+                        "for",
+                        "the",
+                        "patient\u2019s",
+                        "care",
+                        "or",
+                        "their",
+                        "designee",
+                        "as",
+                        "appointed",
+                        "by",
+                        "the",
+                        "Chief",
+                        "of",
+                        "Staff",
+                        "will",
+                        "serve",
+                        "as",
+                        "the",
+                        "primary",
+                        "communicator",
+                        "of",
+                        "an",
+                        "unanticipated",
+                        "outcome",
+                        "or",
+                        "adverse",
+                        "event",
+                        "to",
+                        "the",
+                        "patient",
+                        "and/or",
+                        "family/legal",
+                        "guardian"
+                    ],
+                    "expected_output": "The attending physician responsible for the patient\u2019s care, or their designee as appointed by the Chief of Staff, will serve as the primary communicator of an unanticipated outcome or adverse event to the patient and/or family/legal guardian."
+                },
+                {
+                    "key": "99fb657a-6d37-4cdd-b615-8069f66af136",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for sterilization procedures?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "sterilization",
+                        "procedures",
+                        "federal",
+                        "state",
+                        "law",
+                        "policy"
+                    ],
+                    "expected_output": "Sterilization procedures must be performed only in accordance with applicable federal and State law, and must adhere to the procedures outlined in the SHC Informed Consent for Sterilization or Hysterectomy policy."
+                },
+                {
+                    "key": "e5de9c77-41cd-469a-a2ca-0bd8e6f6605d",
+                    "prompt": "Respond to the following question.\n\nQuestion: Are there any specific requirements for research projects involving human subjects?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, any research project conducted in the Hospital or Clinics involving human subjects must be approved by the Administrative Panel on Human Subjects in Medical Research (the Investigational Review Board or \u201cIRB\u201d) of Stanford University School of Medicine."
+                },
+                {
+                    "key": "ce6a557c-ce9d-40ba-ae1b-f33457211561",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can a physician delegate their responsibility for obtaining informed consent?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "No"
+                    ],
+                    "expected_output": "No, the physician in whose name the permission for the operation is obtained must participate in person or as a member of the operating team and must be present during the critical portion(s) of the procedure. They cannot delegate this responsibility."
+                },
+                {
+                    "key": "b609ce5c-04ea-437c-a7c4-b1fe7be61868",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be documented in the patient's medical record regarding informed consent?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "what",
+                        "was",
+                        "communicated",
+                        "patient",
+                        "family",
+                        "response",
+                        "discussion"
+                    ],
+                    "expected_output": "The person designated as the primary communicator with the patient/family must document in the progress notes of the patient\u2019s medical record what was communicated to the patient/family and any response or other discussion."
+                },
+                {
+                    "key": "d6a7c2f9-c063-494f-916e-1349f8c40c31",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Administrative Panel on Human Subjects in Medical Research (IRB) at Stanford University School of Medicine?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "ensure",
+                        "safety",
+                        "well-being",
+                        "human subjects",
+                        "research",
+                        "projects",
+                        "reviewed",
+                        "approved"
+                    ],
+                    "expected_output": "The purpose of the IRB is to ensure that all research projects involving human subjects are reviewed and approved to ensure the safety and well-being of the subjects."
+                },
+                {
+                    "key": "9244e7db-e9cf-47d0-b057-2c6f0da9e04c",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for submitting research protocols for approval to the IRB?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Principal Investigator",
+                        "IRB"
+                    ],
+                    "expected_output": "The Principal Investigator is responsible for submitting research protocols for approval to the IRB."
+                },
+                {
+                    "key": "814a7d4c-209b-431c-8d00-04fb27d15007",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for documenting a patient's history and physical examination (H&P) before surgery or a procedure requiring anesthesia services?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "no",
+                        "30",
+                        "24",
+                        "inpatient",
+                        "outpatient",
+                        "admission",
+                        "H&P Interval"
+                    ],
+                    "expected_output": "A H&P must be completed no more than 30 days before or 24 hours after inpatient or outpatient admission, and an updated examination (H&P Interval) must be completed and documented within 24 hours after admission."
+                },
+                {
+                    "key": "f76f563d-41c2-412b-b4fe-4493aec80328",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the components of a complete H&P?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "chief complaint",
+                        "history of present illness",
+                        "medications",
+                        "medication allergies",
+                        "review of systems",
+                        "physical examination",
+                        "assessment",
+                        "provisional diagnosis",
+                        "treatment plan"
+                    ],
+                    "expected_output": "A complete H&P includes the patient's chief complaint, history of present illness, medications and medication allergies, review of systems, physical examination, assessment including provisional diagnosis, and treatment plan."
+                },
+                {
+                    "key": "ba8c8a2e-8c6a-4424-a134-b48aac7e7518",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the H&P Interval?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "H&P",
+                        "Interval",
+                        "confirms",
+                        "that",
+                        "the",
+                        "H&P",
+                        "was",
+                        "reviewed",
+                        "the",
+                        "patient",
+                        "was",
+                        "examined",
+                        "and",
+                        "any",
+                        "changes",
+                        "have",
+                        "occurred",
+                        "or",
+                        "that",
+                        "\u201cno",
+                        "changes\u201d",
+                        "have",
+                        "occurred",
+                        "in",
+                        "the",
+                        "patient\u2019s",
+                        "condition"
+                    ],
+                    "expected_output": "The H&P Interval confirms that the H&P was reviewed, the patient was examined, and any changes that have occurred, or that \u201cno changes\u201d have occurred in the patient\u2019s condition."
+                },
+                {
+                    "key": "48459b19-994e-4227-95e2-55cb6bfc7a24",
+                    "prompt": "Respond to the following question.\n\nQuestion: Are there any exceptions to the H&P requirements for emergency surgery?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, in the case of emergency surgery, an H&P is not required before the surgery, but it must be documented as soon as possible after surgery."
+                },
+                {
+                    "key": "3fb6cbcc-ff7f-4a5b-9344-6126490279b4",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who can enter orders for treatment in the electronic medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "medical staff member",
+                        "housestaff member",
+                        "Advanced Practice Provider"
+                    ],
+                    "expected_output": "Orders for treatment must be entered into the electronic medical record by a medical staff member, housestaff member, or Advanced Practice Provider authorized to enter orders."
+                },
+                {
+                    "key": "874bd42c-57c2-4663-8a4d-2c46f3a38d08",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are verbal/telephone orders?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Verbal",
+                        "telephone",
+                        "orders"
+                    ],
+                    "expected_output": "Verbal/telephone orders are orders given by members of the medical staff, housestaff, or Advanced Practice Providers authorized to write orders to licensed nursing personnel (RN\u2019s) and registered pharmacists."
+                },
+                {
+                    "key": "1f3d4a90-e29b-448c-a7bd-146901397994",
+                    "prompt": "Respond to the following question.\n\nQuestion: When are verbal/telephone orders appropriate?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "emergency",
+                        "immediate",
+                        "impractical"
+                    ],
+                    "expected_output": "Verbal/telephone orders are appropriate in emergency situations where an immediate order is required, and it would be impractical for the prescriber issuing the order to do so in writing or to directly enter the order into the electronic medical record."
+                },
+                {
+                    "key": "ee916b2b-fcbe-4963-858a-0c89f5359975",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who can receive verbal/telephone orders?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "physical therapist",
+                        "occupational therapist",
+                        "speech-language pathologist",
+                        "registered laboratory technologist",
+                        "registered MRI technologist",
+                        "registered nuclear medicine technologist",
+                        "registered sonographer",
+                        "registered x-ray technologist",
+                        "dietician"
+                    ],
+                    "expected_output": "Verbal/telephone orders may be given to any licensed physical therapist, occupational therapist, speech-language pathologist, registered laboratory technologist, registered MRI technologist, registered nuclear medicine technologist, registered sonographer, registered x-ray technologist, or dietician."
+                },
+                {
+                    "key": "a4575b1d-8734-4a91-b09e-b57a313226a9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the circumstances under which verbal/telephone orders may be issued?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "circumstances",
+                        "immediate",
+                        "order",
+                        "prescriber",
+                        "issuing",
+                        "impractical",
+                        "writing",
+                        "electronic",
+                        "medical",
+                        "record"
+                    ],
+                    "expected_output": "Verbal/telephone orders may be issued if the circumstances are such that an immediate order is required, and it would be impractical for the prescriber issuing the order to do so in writing or to directly enter the order into the electronic medical record."
+                },
+                {
+                    "key": "9479889d-998b-4ba8-a797-d4cdc8a6b79c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the appropriate situations for verbal/telephone orders?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "emergency",
+                        "physically unavailable",
+                        "Electronic Medical Record",
+                        "procedure"
+                    ],
+                    "expected_output": "Verbal/telephone orders are appropriate in emergency situations, if the person placing the order is physically unavailable and does not have access to the Electronic Medical Record system, or if the physician/clinician is performing a procedure."
+                },
+                {
+                    "key": "9c88e285-2bc0-444d-823e-42afdee60d2a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the process for verbal/telephone orders?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "ordering",
+                        "provider",
+                        "must",
+                        "identify",
+                        "him/herself",
+                        "and",
+                        "the",
+                        "person",
+                        "receiving",
+                        "the",
+                        "verbal",
+                        "order",
+                        "will",
+                        "read",
+                        "back",
+                        "the",
+                        "identifier",
+                        "as",
+                        "a",
+                        "part",
+                        "of",
+                        "the",
+                        "order",
+                        "transcription",
+                        "process"
+                    ],
+                    "expected_output": "The ordering provider must identify him/herself, and the person receiving the verbal order will read back the identifier as a part of the order transcription process."
+                },
+                {
+                    "key": "0e7b613f-7d91-4a46-bbca-9871bffd503d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for signing verbal/telephone orders?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "within",
+                        "48",
+                        "hours",
+                        "prescribing",
+                        "practitioner",
+                        "attending",
+                        "covering",
+                        "physician",
+                        "cosign",
+                        "authenticating",
+                        "authorship",
+                        "confirming",
+                        "accuracy",
+                        "content",
+                        "patient",
+                        "identifiers"
+                    ],
+                    "expected_output": "Verbal/telephone orders must be signed within 48 hours by the prescribing practitioner or by attending or covering physician. The physician to whom the verbal order is attributed should cosign it, authenticating authorship and confirming the accuracy, content, and patient identifiers."
+                },
+                {
+                    "key": "736df822-4011-46e4-b707-15c3e199e529",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the requirements for medication orders?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "name of the drug",
+                        "dosage",
+                        "frequency of administration",
+                        "route of administration",
+                        "date",
+                        "time",
+                        "signature of the prescriber",
+                        "documented diagnosis",
+                        "condition",
+                        "indication"
+                    ],
+                    "expected_output": "Complete medication orders must include the name of the drug, dosage, frequency of administration, route of administration, date, time, and signature of the prescriber. There should be a documented diagnosis, condition, or indication for each medication ordered."
+                },
+                {
+                    "key": "96a37a20-2766-42a6-aaad-425cabab4401",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can medications brought by or with the patient to SHC be administered to the patient?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "may",
+                        "not",
+                        "ordered",
+                        "drugs",
+                        "positively",
+                        "identified",
+                        "examined",
+                        "lack",
+                        "deterioration",
+                        "pharmacist",
+                        "physician",
+                        "approved",
+                        "agents",
+                        "in-hospital",
+                        "use",
+                        "policy"
+                    ],
+                    "expected_output": "Medications brought by or with the patient to SHC may not be administered to the patient unless all of the following conditions are met: the drugs have been specifically ordered by the patient\u2019s physician or APP and the order entered in the patient\u2019s medical record, the drugs have been positively identified and examined for lack of deterioration by the pharmacist or physician, and the drugs are approved agents for in-hospital use as described in the Patient\u2019s Own Medication Policy."
+                },
+                {
+                    "key": "4e53e639-8247-4cd4-a76e-a6721f5a4c8c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What happens to medication orders when a patient is transferred to the Operating Room?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [],
+                    "expected_output": "Upon transfer of the patient to the Operating Room, all medication orders are canceled and must be rewritten. It is not acceptable to write a statement such as \"Resume all medication orders\"; complete orders for each medication must be documented."
+                },
+                {
+                    "key": "9b710dd8-69fc-418c-ae49-b58c374cd09c",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for reviewing and reaffirming medication orders when a patient is transferred to a different service or physician?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "responsible",
+                        "patient",
+                        "orders",
+                        "reviewed",
+                        "reaffirmed",
+                        "discontinued",
+                        "chart"
+                    ],
+                    "expected_output": "If there is a change in Service (e.g. Medicine, Surgery) and/or the physician responsible for the patient, all orders for the patient must be reviewed by the new Service and/or physician and reaffirmed or discontinued via order documented in the patient's chart."
+                },
+                {
+                    "key": "bd2aa184-4946-4a58-92df-babcbe4e317b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the exception to the rule that only drugs listed in the SHC Drug Formulary may be administered to inpatients?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "those",
+                        "obtained",
+                        "employed",
+                        "approved",
+                        "Chief",
+                        "designee",
+                        "brought"
+                    ],
+                    "expected_output": "The exceptions to the rule that only drugs listed in the SHC Drug Formulary may be administered to inpatients are: (1) those obtained by the Non-Formulary Drug Procedure, (2) those employed in research protocols approved by Stanford University Medical Center\u2019s Administrative Panel on Human Subjects in Medical Research, (3) those employed for purposes of direct therapeutic benefit to a particular patient in an emergency, when approved by the Chief of Staff or the Chief\u2019s designee, or (4) those brought by or with the patient to SHC, if all of the conditions in 7.C above have been met."
+                },
+                {
+                    "key": "9e2afcee-5ef3-4788-b1a8-7b5eac6ba53d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the process for handling and administration of investigational drugs at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "investigational drugs",
+                        "Stanford Health Care Administrative Manual"
+                    ],
+                    "expected_output": "Investigational drugs may be used in accordance with applicable State and federal laws and regulations as well as policies adopted by the Pharmacy and Therapeutics Committee. The handling and administration of investigational drugs are governed by the Stanford Health Care Administrative Manual."
+                },
+                {
+                    "key": "85e10caf-1e0d-40cd-90fc-b10207955305",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the Medical Staff in terms of obtaining consultations?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "responsible",
+                        "obtain",
+                        "consultations"
+                    ],
+                    "expected_output": "The Medical Staff, through the Chiefs of Services and Medical Directors, are responsible for ensuring that members obtain consultations when appropriate and when requested by the Chiefs of Services, Medical Directors, or Chief of Staff."
+                },
+                {
+                    "key": "e4b7ace7-4794-4942-b449-71c2617456df",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the two types of consultations that can be obtained?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "consultation only",
+                        "consultation and management"
+                    ],
+                    "expected_output": "The two types of consultations are \"consultation only\" and \"consultation and management.\""
+                },
+                {
+                    "key": "1d115995-3762-4e56-8045-3be4b7d2c3da",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between \"consultation only\" and \"consultation and management\"?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "consultation",
+                        "management"
+                    ],
+                    "expected_output": "\"Consultation only\" involves the consultant reviewing the patient's records and rendering an opinion and treatment recommendations, but the consultant is not directly involved in patient management. \"Consultation and management\" involves the consultant placing orders in the chart and participating directly in patient care management."
+                },
+                {
+                    "key": "92111f11-aaa0-44d0-9723-1a6940d5f730",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the procedure for sedation and anesthesia?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Prior",
+                        "sedation",
+                        "anesthesia",
+                        "evaluation",
+                        "H&P",
+                        "ASA"
+                    ],
+                    "expected_output": "Prior to sedation and anesthesia, a pre-anesthesia evaluation must be completed, including a focused H&P with particular attention to certain factors, and determination of ASA classification."
+                },
+                {
+                    "key": "16a03abd-15b3-4899-9bee-d96ace544875",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the factors that must be considered in the pre-anesthesia evaluation?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "NPO",
+                        "airway assessment",
+                        "planned anesthesia type",
+                        "risks",
+                        "benefits",
+                        "alternatives"
+                    ],
+                    "expected_output": "The factors that must be considered in the pre-anesthesia evaluation include any history of adverse or allergic drug reactions with anesthesia or sedation, NPO status, level of consciousness, airway assessment, brief description of the planned procedure(s), planned anesthesia type, including risks, benefits, and alternatives."
+                },
+                {
+                    "key": "ba227a1a-1657-486c-be0d-03b43c3a67ff",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for ensuring that the results of medical tests are reviewed?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "attending",
+                        "physician",
+                        "who",
+                        "orders",
+                        "medical",
+                        "tests",
+                        "is",
+                        "responsible",
+                        "for",
+                        "ensuring",
+                        "that",
+                        "the",
+                        "results",
+                        "of",
+                        "such",
+                        "tests",
+                        "are",
+                        "reviewed"
+                    ],
+                    "expected_output": "The attending physician who orders medical tests on an SHC outpatient is responsible for ensuring that the results of such tests are reviewed no later than 2 business days after they appear in the electronic medical record or are made available via fax, mail, or other means."
+                },
+                {
+                    "key": "3a44efc2-25f9-45c7-bacc-eded9ee2596b",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often must the attending physician see a hospitalized patient?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "daily",
+                        "circumstances"
+                    ],
+                    "expected_output": "The attending physician or a member of the housestaff, APP, or appropriate covering physician must see a hospitalized patient at least daily or more frequently as required by the patient's condition or circumstances."
+                },
+                {
+                    "key": "e9628ee8-d850-4414-9642-549331b7ae52",
+                    "prompt": "Respond to the following question.\n\nQuestion: What must be documented in the patient's medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "progress note",
+                        "daily",
+                        "reasonable picture",
+                        "clinical status",
+                        "patient"
+                    ],
+                    "expected_output": "A progress note must be documented on each patient daily in sufficient detail to allow formulation of a reasonable picture of the patient's clinical status at the time of observation."
+                },
+                {
+                    "key": "a9e4fd1a-94c5-4a31-a930-6e8e0328e6fc",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can a nurse seek medical consultation in case of an emergency?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, in case of emergencies, a nurse is authorized to seek appropriate medical consultation if the responsible attending or housestaff physician is not available."
+                },
+                {
+                    "key": "2f79595f-21ca-4e57-a19b-25cf9d24ac01",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Pharmacy and Therapeutics Committee in the handling and administration of investigational drugs?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Pharmacy",
+                        "Therapeutics",
+                        "Committee",
+                        "handling",
+                        "administration",
+                        "investigational",
+                        "drugs",
+                        "policies",
+                        "procedures",
+                        "State",
+                        "federal",
+                        "laws",
+                        "regulations"
+                    ],
+                    "expected_output": "The Pharmacy and Therapeutics Committee is responsible for developing policies and procedures for the handling and administration of investigational drugs in accordance with applicable State and federal laws and regulations."
+                },
+                {
+                    "key": "78cd6665-65ad-44bd-aefa-96798706c620",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the focused H&P?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "gather",
+                        "information",
+                        "patient",
+                        "medical",
+                        "history",
+                        "current",
+                        "health",
+                        "status",
+                        "planned",
+                        "procedure",
+                        "safe",
+                        "effective",
+                        "care",
+                        "anesthesia",
+                        "surgery"
+                    ],
+                    "expected_output": "The purpose of the focused H&P is to gather information about the patient's medical history, current health status, and planned procedure(s) to ensure safe and effective care during anesthesia and surgery."
+                },
+                {
+                    "key": "1d5df222-934a-4922-96e8-6651882b1d40",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the six elements that must be included in the brief operative or procedure note?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "name(s)",
+                        "procedure(s)",
+                        "complications/findings",
+                        "estimated blood loss",
+                        "specimen(s)",
+                        "postoperative diagnosis"
+                    ],
+                    "expected_output": "The six elements that must be included in the brief operative or procedure note are: (1) name(s) of the practitioner(s) who performed the procedure and their assistant(s); (2) name of the procedure(s) performed; (3) complications/findings of the procedure; (4) estimated blood loss; (5) any specimen(s) removed; and (6) postoperative diagnosis."
+                },
+                {
+                    "key": "0623dff2-9c46-4799-b701-dc9e4551c1f5",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who can document the operative or procedure report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "housestaff",
+                        "APP"
+                    ],
+                    "expected_output": "The operative or procedure report can be documented by any member of the housestaff or an APP who was present and directly participated during the entire procedure."
+                },
+                {
+                    "key": "58085bd7-6712-454c-8445-89a2ceeb6944",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between a full operative or procedure report and a brief operative or procedure note?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "full",
+                        "operative",
+                        "procedure",
+                        "report",
+                        "brief",
+                        "note",
+                        "pre-op",
+                        "diagnosis",
+                        "type",
+                        "anesthesia",
+                        "sedation",
+                        "description",
+                        "procedure",
+                        "date",
+                        "time"
+                    ],
+                    "expected_output": "A full operative or procedure report includes all the elements of the brief operative or procedure note, plus additional information such as pre-op diagnosis, type of anesthesia or sedation, description of the procedure, and date and time of procedure."
+                },
+                {
+                    "key": "43ded95a-2655-4ecf-8f01-ba4586b74759",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the attending physician in documenting the operative or procedure report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "attending",
+                        "physician",
+                        "must",
+                        "document",
+                        "attestation",
+                        "statement",
+                        "confirming",
+                        "level",
+                        "involvement",
+                        "procedure",
+                        "housestaff",
+                        "provides",
+                        "documentation"
+                    ],
+                    "expected_output": "The attending physician must document an attestation statement confirming his/her level of involvement in the procedure, if the housestaff provides the documentation."
+                },
+                {
+                    "key": "cf381372-d049-422b-8bb3-55378f969f64",
+                    "prompt": "Respond to the following question.\n\nQuestion: When must the post-anesthesia follow-up report be documented?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "within",
+                        "48",
+                        "hours"
+                    ],
+                    "expected_output": "The post-anesthesia follow-up report must be documented within 48 hours after the procedure that necessitated sedation or anesthesia."
+                },
+                {
+                    "key": "53c85290-d4c8-471b-8ec3-0e68024b7a2b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What information must be included in the post-anesthesia follow-up report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "complications"
+                    ],
+                    "expected_output": "The post-anesthesia follow-up report must include any intra-operative or postoperative anesthesia complications."
+                },
+                {
+                    "key": "6b6e82a2-bfb8-42a7-9290-b2339a97466b",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can the documentation of reports required by this section be delegated to a member of the housestaff or an APP?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, the documentation of reports required by this section may be delegated to a member of the housestaff or an APP who was present and directly participated during the entire surgery or procedure."
+                },
+                {
+                    "key": "29479032-aa3c-434c-844b-7a58c9a97ce1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the responsible physician or allied health practitioner in patient discharge?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "responsible",
+                        "physician",
+                        "or",
+                        "allied",
+                        "health",
+                        "practitioner",
+                        "must",
+                        "order",
+                        "the",
+                        "patient's",
+                        "discharge"
+                    ],
+                    "expected_output": "The responsible physician or allied health practitioner must order the patient's discharge."
+                },
+                {
+                    "key": "96c9e1f5-7f8c-4ce4-a665-c3903cd5bad8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the timeframe for documenting the operative or procedure report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "immediately",
+                        "within",
+                        "24",
+                        "hours"
+                    ],
+                    "expected_output": "The operative or procedure report must be documented immediately following surgery or a procedure, or within 24 hours after the procedure."
+                },
+                {
+                    "key": "d79da723-151c-45f1-8ba2-95d9e30b540d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the ASA classification system?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "ASA",
+                        "classification",
+                        "system",
+                        "anesthesia",
+                        "surgery",
+                        "fitness",
+                        "care",
+                        "required"
+                    ],
+                    "expected_output": "The ASA classification system is used to assess a patient's fitness for anesthesia and surgery, and to determine the appropriate level of anesthesia care required."
+                },
+                {
+                    "key": "6df13f80-6c41-46d1-bebf-9ad2b22c0645",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the attending physician, dentist, or podiatrist regarding discharge planning?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "responsibility",
+                        "attending",
+                        "physician",
+                        "discharge",
+                        "planning",
+                        "communicate",
+                        "medical",
+                        "information",
+                        "referring",
+                        "institution",
+                        "agency"
+                    ],
+                    "expected_output": "The attending physician, dentist, or podiatrist is responsible for planning discharge in a timely and coordinated fashion, and must communicate appropriate medical information to the referring doctor and any institution or agency to which the patient is referred following discharge."
+                },
+                {
+                    "key": "1e066417-1d77-413f-a39a-a1902c9d580c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for documenting discharge summary for patients who have been in the hospital for more than 48 hours?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "discharge summary",
+                        "medical record",
+                        "dictated",
+                        "48 hours"
+                    ],
+                    "expected_output": "For patients who have been in the hospital for more than 48 hours, the patient\u2019s discharge summary should either be documented in the medical record or dictated within 48 hours of discharge."
+                },
+                {
+                    "key": "080094a3-7a91-4996-9327-2ff1fe2004a1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for documenting discharge summary for patients who have been in the hospital for less than 48 hours?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "less",
+                        "hospitalization",
+                        "case",
+                        "disposition",
+                        "follow-up"
+                    ],
+                    "expected_output": "For patients with a stay less than 48 hours, the final progress note may serve as the discharge summary and must contain the outcome of hospitalization, the case disposition, and any provisions for follow-up care."
+                },
+                {
+                    "key": "f0c85e1a-3178-426c-b7c6-00f60619d391",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the timeframe for completing the discharge or death summary?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "fourteen",
+                        "days"
+                    ],
+                    "expected_output": "The discharge or death summary must be completed by the discharging practitioner within fourteen (14) days of discharge."
+                },
+                {
+                    "key": "234df640-28a2-4bdc-8396-6bba57102d21",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be documented in the discharge summary?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "admitting date",
+                        "reason for hospitalization",
+                        "discharge date",
+                        "final diagnoses",
+                        "succinct summary",
+                        "significant findings",
+                        "treatment provided",
+                        "patient outcome",
+                        "procedures performed",
+                        "complications",
+                        "condition of patient",
+                        "discharge medication",
+                        "follow-up plan",
+                        "specific instructions"
+                    ],
+                    "expected_output": "The discharge summary should include the admitting date and reason for hospitalization, discharge date, final diagnoses, succinct summary of significant findings, treatment provided and patient outcome, documentation of all procedures performed during current hospitalization and complications (if any), condition of patient upon discharge and to where the patient is discharged, discharge medication, follow-up plan, and specific instructions given to the patient and/or family."
+                },
+                {
+                    "key": "79c86aef-2eaa-42fc-81b7-12e44888d3ae",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should be documented in the death summary?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "admitting",
+                        "date",
+                        "reason",
+                        "hospitalization",
+                        "date",
+                        "death",
+                        "final",
+                        "diagnoses",
+                        "summary",
+                        "findings",
+                        "treatment",
+                        "patient",
+                        "outcome",
+                        "goals",
+                        "Care",
+                        "DNR",
+                        "palliative",
+                        "comfort",
+                        "hospice",
+                        "status",
+                        "documentation",
+                        "procedures",
+                        "performed",
+                        "current",
+                        "hospitalization",
+                        "complications"
+                    ],
+                    "expected_output": "The death summary should include the admitting date and reason for hospitalization, date of death, final diagnoses, succinct summary of significant findings, treatment provided and patient outcome, goals of Care \u2013 if patient was placed on DNR/palliative/comfort/hospice care status, documentation of all procedures performed during current hospitalization and complications (if any)."
+                },
+                {
+                    "key": "99ec7955-086c-4603-8378-93f3996d7c0e",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for pronouncing death and making reports to the County Coroner\u2019s Office?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "licensed physician",
+                        "APP",
+                        "County Coroner\u2019s Office",
+                        "California laws"
+                    ],
+                    "expected_output": "The patient must be pronounced dead by a licensed physician or APP, and the physician pronouncing the death is responsible for determining whether the death is reportable to the County Coroner\u2019s Office and must make such reports in accordance with the applicable California laws."
+                },
+                {
+                    "key": "901388b2-6689-4ade-902a-18ce4e706789",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for releasing the body from the hospital after death?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "may",
+                        "not",
+                        "released",
+                        "SHC",
+                        "appropriate",
+                        "entry",
+                        "licensed",
+                        "physician",
+                        "made",
+                        "signed",
+                        "patient\u2019s",
+                        "medical",
+                        "record"
+                    ],
+                    "expected_output": "The body may not be released from SHC until an appropriate entry by a licensed physician has been made and signed in the patient\u2019s medical record."
+                },
+                {
+                    "key": "a9299813-3072-41a6-a846-f9d3e7576ac0",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can an autopsy be performed without written consent?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "No"
+                    ],
+                    "expected_output": "No, an autopsy may be performed only with a written consent, signed in accordance with applicable law."
+                },
+                {
+                    "key": "197e6a68-0dbd-4aa9-b760-c6bc9f5ae91f",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for notifying the Medical Staff and attending physician of the time and place of an autopsy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "physician",
+                        "Service",
+                        "Medical Staff",
+                        "attending physician",
+                        "time",
+                        "place",
+                        "autopsy"
+                    ],
+                    "expected_output": "The physician/Service is expected to attempt to obtain permission to perform an autopsy from the appropriate legally authorized person, and the Medical Staff, and specifically the attending physician, should be notified of the time and place an autopsy is performed."
+                },
+                {
+                    "key": "aaac7f1c-c900-4451-9abc-d0eec20a6047",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the procedure for obtaining permission to perform an autopsy at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "attending physician",
+                        "legally authorized person",
+                        "time",
+                        "place",
+                        "autopsy"
+                    ],
+                    "expected_output": "The physician/Service should attempt to obtain permission from the appropriate legally authorized person, and the Medical Staff, specifically the attending physician, should be notified of the time and place of the autopsy."
+                },
+                {
+                    "key": "46148f4e-704b-42cf-acd0-bf38661f7bb2",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who performs autopsies at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "SHC Pathology Department"
+                    ],
+                    "expected_output": "Autopsies are performed by the SHC Pathology Department."
+                },
+                {
+                    "key": "24f757a8-a5df-4c0a-a135-a289a91455cd",
+                    "prompt": "Respond to the following question.\n\nQuestion: How long does the complete post-mortem report take to be made part of the medical record?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "three (3) months"
+                    ],
+                    "expected_output": "The complete post-mortem report should be made part of the medical record within three (3) months."
+                },
+                {
+                    "key": "0e313e39-a9a4-47ec-a08e-7f46b15964fa",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy for restraints and seclusion at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "restraints",
+                        "seclusion",
+                        "patient",
+                        "well-being",
+                        "safety",
+                        "less restrictive interventions"
+                    ],
+                    "expected_output": "Restraints and seclusion may only be used if needed to improve the patient\u2019s well-being or to protect the safety of other persons, and less restrictive interventions have been determined to be ineffective."
+                },
+                {
+                    "key": "ab56909f-a84e-4a6d-bb21-eebe20a4ace7",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who can order restraints at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "member",
+                        "housestaff",
+                        "Advanced Practice Provider",
+                        "privileges"
+                    ],
+                    "expected_output": "A member of the medical staff, housestaff, or an Advanced Practice Provider with the appropriate privileges may order restraints."
+                },
+                {
+                    "key": "e823e621-462e-4b1a-a692-b4a558dd1d1f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the maximum time for the use of restraints or seclusion at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "one calendar day",
+                        "24 hours",
+                        "calendar day",
+                        "24-hour period"
+                    ],
+                    "expected_output": "Restraints are time-limited to no more than one calendar day or 24 hours from the original order, and the physician, APP, or LIP must do a face-to-face examination of the patient and renew the order at least once each calendar day or 24-hour period from when the order was initiated that the restraint is required."
+                },
+                {
+                    "key": "a9ecf0a9-4359-42b6-87d0-95d86b574a19",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the policy for organ and tissue donation at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "SHC",
+                        "Organ",
+                        "Tissue",
+                        "Donation",
+                        "Policy",
+                        "Brain",
+                        "Death",
+                        "California",
+                        "Network",
+                        "assessment",
+                        "discussion",
+                        "family"
+                    ],
+                    "expected_output": "Members of the Medical Staff are expected to follow the SHC Organ and Tissue Donation for Brain Dead Patients Policy and the Organ Donation after Cardiac Death Policy, which state that the California Tissue Donation Network is to be contacted for assessment and potential discussion of donation with the patient\u2019s family at or near the time of imminent brain death."
+                },
+                {
+                    "key": "363165a7-111d-4de1-9fcf-a20d2e850307",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the procedure for examining tissue specimens at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "SHC",
+                        "Medical Staff",
+                        "tissue diagnosis"
+                    ],
+                    "expected_output": "All tissue specimens that are clinically relevant to the indication for the procedure during which they were removed, or to subsequent therapy, must be examined by a Medical Staff member with privileges to examine such specimens at SHC to the extent necessary to arrive at a tissue diagnosis."
+                },
+                {
+                    "key": "e4b11b70-3f79-4474-8ae7-2b191a0e0d5e",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for notifying the attending physician of the time and place of an autopsy?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "physician",
+                        "Service",
+                        "attending",
+                        "physician",
+                        "time",
+                        "place",
+                        "autopsy"
+                    ],
+                    "expected_output": "The physician/Service should attempt to obtain permission from the appropriate legally authorized person and notify the attending physician of the time and place of the autopsy."
+                },
+                {
+                    "key": "ec28ba88-2e8d-43d1-b223-86ecb7e060d3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Advanced Practice Provider in ordering restraints at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "An",
+                        "Advanced",
+                        "Practice",
+                        "Provider",
+                        "with",
+                        "the",
+                        "appropriate",
+                        "privileges",
+                        "may",
+                        "order",
+                        "restraints"
+                    ],
+                    "expected_output": "An Advanced Practice Provider with the appropriate privileges may order restraints."
+                },
+                {
+                    "key": "2fb0423d-6619-43da-b342-d25057877d0a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the attending physician when transferring a patient's care to another SHC Medical Staff member?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "document",
+                        "transfer",
+                        "responsibility",
+                        "medical",
+                        "record",
+                        "accepting"
+                    ],
+                    "expected_output": "The attending physician should clearly document the transfer of responsibility in the medical record to the accepting attending physician. (Reference: 11. TRANSFER OF PATIENT)"
+                },
+                {
+                    "key": "8b639bc4-ef8f-4743-9b19-70658588b71b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Medical Executive Committee in adopting policies and procedures for patient care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Medical",
+                        "Executive",
+                        "Committee",
+                        "policies",
+                        "procedures",
+                        "patient",
+                        "care",
+                        "Hospital"
+                    ],
+                    "expected_output": "The Medical Executive Committee may adopt similar policies regarding procedures to be administered to all patients admitted to the Hospital. Where clinical service and medical staff rules appear inconsistent, medical staff rules will supersede service rules. (Reference: 12. CLINICAL SERVICE POLICIES AND PROCEDURES)"
+                },
+                {
+                    "key": "84baa193-d1da-43a9-989e-806b5b3d0dd1",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for providing emergency medical services in the Emergency Department of SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Emergency",
+                        "Department",
+                        "SHC",
+                        "Medical",
+                        "Staff",
+                        "trained",
+                        "experienced",
+                        "Emergency Medicine"
+                    ],
+                    "expected_output": "The provision of emergency medical services occurs through the Emergency Department of SHC, which is organized and directed by a member of the Medical Staff who is trained and experienced in Emergency Medicine. (Reference: 13. EMERGENCY SERVICES)"
+                },
+                {
+                    "key": "d5f78963-d4ef-4f9f-a7c4-c22f537439a6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the requirement for documenting patient care in the medical record in the Emergency Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "medical record",
+                        "patient",
+                        "SHC",
+                        "legal",
+                        "Emergency Services"
+                    ],
+                    "expected_output": "A medical record must be kept for every patient and becomes part of the SHC legal medical record. (Reference: 13. EMERGENCY SERVICES)"
+                },
+                {
+                    "key": "3aca3ca9-1c01-484b-8df4-69dfc23db734",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who may determine the need to transfer a patient to another medical facility in an emergency situation?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Medical Staff",
+                        "member",
+                        "housestaff",
+                        "SHC Medical Staff",
+                        "patient",
+                        "transfer",
+                        "medical facility"
+                    ],
+                    "expected_output": "A Medical Staff member, or a member of the housestaff under the direct supervision of an SHC Medical Staff member, may determine the need to transfer a patient to another medical facility. (Reference: 13. EMERGENCY SERVICES)"
+                },
+                {
+                    "key": "7e0d9ba1-4cfc-419f-a052-6b1cdef58b45",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the required response time for on-call physicians to respond to emergency consultation requests?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "30 minutes",
+                        "60 minutes"
+                    ],
+                    "expected_output": "On-call physicians will respond in person to emergency consultation requests within 30 minutes if on call in-hospital and within 60 minutes if on call outside the hospital. (Reference: 14. CONFLICT OF CARE RESOLUTION)"
+                },
+                {
+                    "key": "7a5b91a9-f2c4-4923-b488-6f54eec6fffd",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who has the final authority in the chain of command on patient care decisions?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Chief",
+                        "Staff",
+                        "designee"
+                    ],
+                    "expected_output": "The final authority in the chain of command on patient care decisions rests with the Chief of Staff or the Chief of Staff designee. (Reference: 14. CONFLICT OF CARE RESOLUTION)"
+                },
+                {
+                    "key": "5690e35e-d3ee-425c-937d-bbd54eebd23b",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for supervising housestaff in patient care situations?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "All",
+                        "members",
+                        "Housestaff",
+                        "supervision",
+                        "Medical",
+                        "Staff",
+                        "guidelines",
+                        "Graduate",
+                        "Medical",
+                        "Education",
+                        "Program"
+                    ],
+                    "expected_output": "All members of the Housestaff are under the supervision of the Medical Staff. Members of the Medical Staff exercise that supervision under the guidelines established by the Graduate Medical Education Program. (Reference: 15. SUPERVISION OF HOUSESTAFF)"
+                },
+                {
+                    "key": "a0a5db13-abd7-4983-959c-0bd90907dacf",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for ensuring confidentiality in patient care?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "All",
+                        "members",
+                        "health",
+                        "care",
+                        "team",
+                        "duty",
+                        "advocate",
+                        "patient",
+                        "concerns",
+                        "patient\u2019s",
+                        "care",
+                        "Reference",
+                        "16",
+                        "CONFIDENTIALITY"
+                    ],
+                    "expected_output": "All members of the health care team have a duty to advocate for the patient through the organizational chain of command when they have concerns about a patient\u2019s care. (Reference: 16. CONFIDENTIALITY)"
+                },
+                {
+                    "key": "352233d0-7cd1-4ff5-b44a-5b4134540756",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Graduate Medical Education Committee in overseeing housestaff activities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Graduate Medical Education Committee",
+                        "Medical Executive Committee",
+                        "SHC Board of Directors"
+                    ],
+                    "expected_output": "The Graduate Medical Education Committee must provide regular reports of the activities of the Graduate Medical Education Program to the Medical Executive Committee, which will communicate this report to the SHC Board of Directors. (Reference: 15. SUPERVISION OF HOUSESTAFF)"
+                },
+                {
+                    "key": "fd7abafe-336b-4f78-bb17-715ef685b76a",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for patient care, treatment, services, safety, and quality at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Medical Staff",
+                        "Advanced Practice Providers",
+                        "employees",
+                        "agents",
+                        "patient care",
+                        "treatment",
+                        "services",
+                        "safety",
+                        "quality",
+                        "SHC"
+                    ],
+                    "expected_output": "The Medical Staff, Advanced Practice Providers, and their respective employees and agents are responsible for patient care, treatment, services, safety, and quality at SHC."
+                },
+                {
+                    "key": "0757c0d2-c90f-4fad-a7e8-753590ecd2dc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Graduate Medical Education Committee at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Graduate Medical Education Committee",
+                        "Medical Executive Committee",
+                        "SHC Board of Directors"
+                    ],
+                    "expected_output": "The Graduate Medical Education Committee must provide regular reports of the activities of the Graduate Medical Education Program to the Medical Executive Committee, which will communicate this report to the SHC Board of Directors."
+                },
+                {
+                    "key": "9de60024-eb14-42a1-97c4-e8bed8ac4da9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the confidentiality policy for Protected Health Information at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "SHC",
+                        "HIPAA"
+                    ],
+                    "expected_output": "All members of the Medical Staff, Advanced Practice Providers, and their respective employees and agents must maintain the confidentiality, privacy, and security of all Protected Health Information in records maintained by SHC or by business associates of SHC, in accordance with any and all privacy and security policies and procedures adopted by SHC to comply with current federal, state, and local laws and regulations, including, but not limited to, the HIPAA Privacy Regulations."
+                },
+                {
+                    "key": "ee4afd1a-69bc-4ee7-8df7-6362a48ccf2a",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can Medical Staff members share patient information with other healthcare providers within the facility?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, Medical Staff members can share patient information with other healthcare providers within the facility who have responsibility for that patient\u2019s care, as long as it is in accordance with SHC's health information privacy policies and applicable law."
+                },
+                {
+                    "key": "6c50b01d-8805-4a2b-b136-cfb3789bad65",
+                    "prompt": "Respond to the following question.\n\nQuestion: Is the use of electronic signatures or rubber stamps acceptable at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, the use of electronic signatures or rubber stamps is acceptable at SHC, but only if the practitioner whose signature the electronic signature or rubber stamp represents is the only person who has possession of the electronic user ID and password combination or rubber stamp, and is the only one who uses it."
+                },
+                {
+                    "key": "ce85aeb6-dfbc-4668-94c2-c96fe6058f99",
+                    "prompt": "Respond to the following question.\n\nQuestion: Are passwords used by Medical Staff members to access SHC computers confidential?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, passwords used by Medical Staff members to access SHC computers are confidential and may not be disclosed to any other individual, except to authorized security staff of the computer system."
+                },
+                {
+                    "key": "4bd1a36f-b4db-47eb-b307-3c873ddda6a4",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for ensuring the security of electronic data pertaining to individual patients at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "All",
+                        "members",
+                        "Medical",
+                        "Staff",
+                        "Advanced",
+                        "Practice",
+                        "Providers",
+                        "respective",
+                        "employees",
+                        "agents",
+                        "responsible",
+                        "ensuring",
+                        "security",
+                        "electronic",
+                        "data",
+                        "pertaining",
+                        "individual",
+                        "patients",
+                        "SHC"
+                    ],
+                    "expected_output": "All members of the Medical Staff, Advanced Practice Providers, and their respective employees and agents are responsible for ensuring the security of electronic data pertaining to individual patients at SHC."
+                },
+                {
+                    "key": "81ba7e6e-a6fa-4fcb-9e34-b7f102878fe7",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can Medical Staff members permit other practitioners or residents to use their passwords to access SHC computers or computerized medical information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "No"
+                    ],
+                    "expected_output": "No, Medical Staff members may not permit any practitioner, resident, or other person to use his/her passwords to access SHC computers or computerized medical information."
+                },
+                {
+                    "key": "34b4bb43-03ce-4263-ae1c-7b57deb0a442",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the consequences of misusing passwords or violating confidentiality policies at SHC?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Medicare",
+                        "MediCal",
+                        "SHC",
+                        "denial",
+                        "payment",
+                        "sanctions"
+                    ],
+                    "expected_output": "Misusing passwords or violating confidentiality policies at SHC may result in denial of payment under Medicare and MediCal, as well as any sanctions approved by the Medical Staff and/or the SHC Board of Directors regarding security measures."
+                },
+                {
+                    "key": "8c821eba-b579-4c7d-beaa-7dfd3985a103",
+                    "prompt": "Respond to the following question.\n\nQuestion: When was the confidentiality policy for Protected Health Information at SHC last updated?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "June 2019"
+                    ],
+                    "expected_output": "The confidentiality policy for Protected Health Information at SHC was last updated in June 2019."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,661 @@
+{
+    "tests": [
+        {
+            "key": "79cb0307-0eac-4867-b4ea-00c27131dcfa",
+            "documents": [
+                "Inherent_Risk_Assessment.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "cac259a1-0347-4926-9246-4eff0f2bf9c9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the major inputs into the IRA process?\nHow do you respond?\nA. Risk Element Inputs and Understanding the Registered Entity\nB. Information Gathering and Assessment\nC. Results and Sharing IRA Results with the Registered Entity\nD. IRA Feedback into ERO Enterprise Processes and Documentation Retention\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3679b855-a778-4d80-9c83-83aaea5061f5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the IRA in the Risk-Based Compliance Oversight Framework?\nHow do you respond?\nA. The IRA identifies potential risks posed by a registered entity to the reliability of the bulk power system.\nB. The IRA evaluates the effectiveness of a registered entity's internal controls.\nC. The IRA assesses the impact of a registered entity's non-compliance on the reliability of the bulk power system.\nD. The IRA determines the frequency of compliance audits for a registered entity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "54d3be22-a254-43b1-88e0-f3d127f69ebd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between the IRA and the Internal Controls Evaluation (ICE)?\nHow do you respond?\nA. The IRA provides input to the ICE.\nB. The ICE provides input to the IRA.\nC. The IRA and ICE are independent of each other.\nD. The IRA is a part of the ICE.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4094d88c-2c25-4b04-af73-9b0937791a7d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two major inputs into the IRA process?\nHow do you respond?\nA. Risk Elements Guide and the annual ERO CMEP Implementation Plan.\nB. ERO Enterprise risks to the reliability of the BPS and associated Reliability Standards and Requirements.\nC. Understanding a registered entity and its operations.\nD. Gathering and maintaining registered entity-specific information and data.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b619e71f-8fe5-4e40-980b-749ce09113df",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the ERO Enterprise in the IRA process?\nHow do you respond?\nA. The ERO Enterprise assesses risks to the reliability of the BPS and develops the Risk Elements Guide.\nB. The ERO Enterprise identifies specific Reliability Standards and Requirements for compliance monitoring.\nC. The ERO Enterprise conducts activities to gain an understanding of the registered entity and its operations.\nD. The ERO Enterprise establishes qualitative and quantitative risk factors for evaluating whether areas and levels of oversight focus are appropriate.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d655524c-cfd5-4c17-b5b2-77c49ba3485d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of understanding the registered entity in the IRA process?\nHow do you respond?\nA. Understanding the registered entity is not important in the IRA process.\nB. Understanding the registered entity is essential in the IRA process because it allows CEAs to identify risks and determine areas of focus for compliance oversight.\nC. Understanding the registered entity is important in the IRA process because it helps CEAs to evaluate the effectiveness of the entity's internal controls.\nD. Understanding the registered entity is important in the IRA process because it allows CEAs to assess the entity's compliance with Reliability Standards and Requirements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "674a5904-5d61-42b9-9f8e-a3455c19ba5e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some activities that the CEA should conduct to gain an understanding of the registered entity?\nHow do you respond?\nA. Conducting a risk assessment of the registered entity's assets and operations.\nB. Reviewing the registered entity's compliance history and past performance.\nC. Conducting interviews with the registered entity's employees and management.\nD. Reviewing the registered entity's financial statements and market trends.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a8a72f9d-ef43-40bb-a3e0-a40e517da197",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the outcome of the Information Gathering phase?\nHow do you respond?\nA. Risk Elements Guide.\nB. ERO CMEP Implementation Plan.\nC. Inherent Risk Assessment Guide.\nD. Compliance Oversight Plan.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "96a62356-dbf6-4b2f-92e7-180b5cda9bcc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the information attributes list in Appendix B?\nHow do you respond?\nA. To provide a comprehensive list of all possible risk factors that can be considered during the IRA process.\nB. To guide the CEA in developing targeted information requests for the registered entity.\nC. To inventory registered entity information available at both NERC and the Regional levels.\nD. To identify potential information gaps and data verification needs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "dee547fb-e792-4ca9-92fb-772359fb3967",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the risk factors applied to the entity?\nHow do you respond?\nA. To identify potential BPS reliability risks and their associated Reliability Standards and Requirements.\nB. To determine the likelihood and potential impact of risks to the reliability of the BPS.\nC. To identify information gaps and data verification needs in the IRA process.\nD. To assess the effectiveness of the CEA's existing understanding of the registered entity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "48a00ae6-ca04-4977-adf9-6d5dbddcb004",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should CEAs consider when developing risk factors and risk factor criteria?\nHow do you respond?\nA. The size, location, or function of the registered entity.\nB. The likelihood and potential impact of risks to the reliability of the BPS.\nC. The prioritized list of known risks to the reliability of the BPS and associated Reliability Standards and Requirements.\nD. The understanding of the registered entity and its operations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7262f47d-cc11-4e9a-81f7-58ff8e8f32b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the ERO in the IRA process?\nHow do you respond?\nA. The ERO ensures that the CEA has access to all necessary information for the IRA process.\nB. The ERO is responsible for identifying potential BPS reliability risks and their associated Reliability Standards and Requirements.\nC. The ERO develops targeted information requests for the CEA to gather information from registered entities.\nD. The ERO confirms the information collected by the CEA is appropriate and sufficient.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6d6664c2-413b-4cfb-a7f3-2e8b03a68ef3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the key questions that the CEA should answer during the Information Gathering phase?\nHow do you respond?\nA. What ERO Enterprise and Regional Entity risks, and associated standards and requirements, are applicable to the functional registration of the registered entity?\nB. What risk factors are in scope?\nC. What registered entity specific information do we need?\nD. Where do we get information from?\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "aa72716e-60ef-4640-8166-642b8a6c5b49",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are risk factors weighted in the Risk Factor Analysis?\nHow do you respond?\nA. According to the risk factor evaluation criteria in Appendix C.\nB. According to the entity's size or function.\nC. According to the relative importance of the risk factor criterion.\nD. According to the CEA's discretion.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c51bea62-6f3e-4fe3-a91f-fe453f923c2d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the CEA determine the level of risk associated with each risk factor?\nHow do you respond?\nA. The CEA will assess the risk factors applicable to the registered entity and determine the level of risk associated with each risk factor based on the defined risk factor evaluation criteria in Appendix C.\nB. The CEA will evaluate the relative importance of each risk factor criterion compared to the registered entity's size or function.\nC. The CEA will consider risk factors and associated criteria/thresholds that vary by region, by entity size, or by function.\nD. The CEA will reconfirm the Reliability Standards and Requirements applicable to the registered entity's function.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b81008e6-e410-4eb8-ad5c-0f4a6e86079d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Appendix C in the context of inherent risk assessment?\nHow do you respond?\nA. To provide a list of risk factors and associated criteria for evaluating inherent risk.\nB. To guide the selection of risk factors and criteria for evaluating inherent risk.\nC. To assess the impact of risk factors on the reliability of the BPS.\nD. To determine the appropriate Reliability Standards and Requirements for a registered entity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d1e9386a-b8c6-47b8-bdbd-b5c859960e21",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is an example of a risk factor that may be associated with a GOP registered function?\nHow do you respond?\nA. The risk of voltage instability due to inadequate reactive compensation devices in the area.\nB. The risk of cyber attacks on the GOP's control systems.\nC. The risk of physical damage to the GOP's facilities from natural disasters.\nD. The risk of employee errors during routine maintenance procedures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ad7ea58a-1b4c-48ac-8f51-da13a294a7ac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the risk factor criteria in the context of inherent risk assessment?\nHow do you respond?\nA. To determine the likelihood of a risk factor contributing to the overall inherent risk of a registered entity.\nB. To evaluate the impact of a risk factor on the reliability of the Bulk Power System (BPS).\nC. To identify the risk factors that are most relevant to a registered entity's size or function.\nD. To determine which risk factors should be excluded from the inherent risk assessment process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "73943abb-3f09-477e-b8a3-3f99b32bc5e2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How may the risk factors and associated requirements under VAR-002-2b R1, R2, R3, R4 remain in scope if the CEA determined that the entity\u2019s characteristics meet higher ranked criteria?\nHow do you respond?\nA. The risk factors and associated requirements will be removed from the scope since they do not align with the higher ranked criteria.\nB. The risk factors and associated requirements will remain in scope, as they are still relevant to the entity's inherent risk, despite the higher ranked criteria.\nC. The risk factors and associated requirements will be re-evaluated to determine their relevance to the higher ranked criteria.\nD. The risk factors and associated requirements will be replaced with new ones that align better with the higher ranked criteria.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "13ce7167-69d0-430a-b442-cc97a5ff53fc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of mapping risk factors and criteria to applicable Reliability Standards and Requirements?\nHow do you respond?\nA. To identify the risk factors and criteria that are most relevant to the registered entity's inherent risk to the reliability of the BPS.\nB. To determine the likelihood and potential impact of each risk factor on the registered entity's inherent risk to the reliability of the BPS.\nC. To evaluate the effectiveness of existing Reliability Standards and Requirements in mitigating the identified risk factors.\nD. To prioritize the implementation of new Reliability Standards and Requirements based on their potential impact on the registered entity's inherent risk to the reliability of the BPS.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "94380a40-9b49-4f19-a07b-1d0554891c1a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What triggers a revision of the IRA?\nHow do you respond?\nA. Changes to a registered entity's risk management practices.\nB. Emergence of new reliability risks or significant changes to existing risks.\nC. Changes to the CEA's assessment methodology.\nD. The CEA's annual review process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f20a8d67-0405-4fc1-aac8-5473aa50fb76",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should CEAs do when they identify risk focus areas that do not map to current, enforceable Reliability Standards during an IRA?\nHow do you respond?\nA. The CEAs should revise the IRA to consider the new reliability risk and its impact on the registered entity.\nB. The CEAs should ignore the risk focus area and continue with the IRA process.\nC. The CEAs should consult with NERC to determine whether a new Reliability Standard is needed.\nD. The CEAs should expand the IRA scope to include all risk focus areas that do not map to current, enforceable Reliability Standards.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5a1814ae-e411-4077-bd0b-0076a7cc1def",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can CEAs determine the sufficiency and appropriateness of evidence to be examined during the IRA process?\nHow do you respond?\nA. By using professional judgment to determine the extent of evidence required.\nB. By referring to the NERC Rules of Procedure.\nC. By consulting the ERO Compliance Auditor Handbook.\nD. By considering the Annual ERO CMEP Implementation Plan.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "268aa3a2-e457-4929-9575-a2dfee532180",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Annual ERO CMEP Implementation Plan?\nHow do you respond?\nA. To provide guidance on how to conduct an Inherent Risk Assessment (IRA)\nB. To outline the steps for registering a new entity with NERC\nC. To describe the process for developing and implementing Reliability Standards\nD. To detail the plan for implementing the Compliance and Enforcement Program (CMEP) on an annual basis\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "7152defa-a765-493a-bc42-872a3294fc90",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can CEAs find the NERC Rules of Procedure?\nHow do you respond?\nA. In the ERO Enterprise Inherent Risk Assessment Guide\nB. In the NERC Rules of Procedure document, located at http://www.nerc.com/AboutNERC/Pages/Rules-of-Procedure\nC. In the ERO Compliance Auditor Handbook\nD. In the Annual ERO CMEP Implementation Plan\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1e455111-b34e-4a66-8616-65bf25d90474",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should CEAs consider when determining the nature and extent of documentation that should be retained?\nHow do you respond?\nA. The information required for an experienced compliance team member to understand the work performed and the conclusions reached during the IRA.\nB. The extent of the resulting documentation is directly linked to the (1) nature, size, and complexity of the issues, (2) procedures performed, and (3) methodologies and technologies used during the process.\nC. The sufficiency and appropriateness of evidence to be examined.\nD. The sufficiency and appropriateness of the documentation required.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "471bf990-0e15-431b-98b8-d19c6faaa742",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Inherent Risk Assessment (IRA) process?\nHow do you respond?\nA. To identify risks specific to a registered entity that could impact the reliability of the BPS.\nB. To evaluate the effectiveness of a registered entity's internal controls in preventing risk.\nC. To assess the likelihood and potential impact of risks to the reliability of the BPS.\nD. To determine the appropriate Reliability Standards and Requirements for a registered entity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "201dd60b-3af4-4ae3-9611-edabc191ea35",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Compliance Enforcement Authority in the IRA process?\nHow do you respond?\nA. To monitor and enforce compliance with the Reliability Standards.\nB. To develop the CEA's Compliance Oversight Plan.\nC. To identify risks specific to a registered entity that could impact the reliability of the BPS.\nD. To evaluate the effectiveness of the registered entity's internal controls.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a2125a09-3e14-4df3-83b8-02b18a7cf0e1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are CMEP Tools?\nHow do you respond?\nA. Tools used during the compliance monitoring process to develop the CEAs' Compliance Oversight Plan.\nB. Tools used by the registered entity to monitor and enforce compliance with the Reliability Standards.\nC. Tools used by the Compliance Enforcement Authority to monitor and enforce compliance with the Reliability Standards.\nD. Tools used during the Inherent Risk Assessment process to identify potential risks posed by a registered entity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4a6de67d-514e-4962-bc41-a933222e6a7e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Risk-based Compliance Oversight Framework?\nHow do you respond?\nA. To provide a comprehensive approach for identifying and assessing risks that could impact the reliability of the Bulk Power System (BPS).\nB. To ensure that all registered entities comply with the same set of Reliability Standards and Requirements.\nC. To give the Compliance Enforcement Authority the discretion to monitor and enforce compliance with Reliability Standards.\nD. To provide a list of information attributes that should be considered during the Inherent Risk Assessment process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "21b2a8ab-95f7-4b1c-8fd1-2c048e5ed640",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Annual ERO CMEP Implementation Plan?\nHow do you respond?\nA. To provide a framework for the Compliance Enforcement Authority to monitor and enforce compliance with Reliability Standards.\nB. To outline the process for the development of the CEA's Compliance Oversight Plan.\nC. To identify and assess risks specific to a registered entity that could impact the reliability of the BPS.\nD. To evaluate the effectiveness of the CMEP tools used during the compliance monitoring process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "214bb147-716d-4e7a-a19f-e9a7d1b19108",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Generally Accepted Government Auditing Standards (GAGAS) in the IRA process?\nHow do you respond?\nA. GAGAS provides the framework for the IRA process, including the risk-based compliance oversight framework.\nB. GAGAS establishes the standards for professional judgment and reasonable assurance in the IRA process.\nC. GAGAS outlines the criteria for selecting the appropriate CMEP tools to be used in the IRA process.\nD. GAGAS is not relevant to the IRA process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "230d3943-bdfd-4ef7-9412-82e59c453985",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the information attribute list in an IRA?\nHow do you respond?\nA. To provide a comprehensive list of all relevant data needed for an IRA.\nB. To serve as a guide for identifying relevant data to be collected, but is not a comprehensive list.\nC. To summarize the nature and criticality of the data when conducting an IRA.\nD. To recognize that each Regional Entity may need to identify and prioritize its own methods for collecting information attributes based on its individual resources and capabilities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ae02a202-6567-4cc2-99cc-2ba031e06bd6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the \"source\" descriptions for each information attribute in an IRA?\nHow do you respond?\nA. To provide a comprehensive list of all possible sources of information for each attribute.\nB. To identify the criticality and nature of the data when conducting an IRA.\nC. To recognize the individual resources and capabilities of each Regional Entity.\nD. To provide guidance for identifying relevant data to be collected.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "6cb52529-a026-44ab-9941-978fac5e06af",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Total Megawatt Capability information attribute in an IRA?\nHow do you respond?\nA. To assess the reliability of the entity's facilities.\nB. To determine the entity's capacity to serve load.\nC. To identify potential cybersecurity gaps in the entity's systems.\nD. To understand the entity's ability to restore power after an outage.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a033d155-c785-46e1-a298-46acbbe2e852",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Interconnection Points and Key Facilities information attribute in an IRA?\nHow do you respond?\nA. To identify possible cyber gaps and operational planning.\nB. To understand the potential operating risk for certain Entity's facilities.\nC. To reflect the potential risks in system management and awareness.\nD. To identify the magnitude of the possible impact for BAs/TOPs/LSEs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fa7d193a-5e59-4385-a9e4-17f793f11e1f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Special Protection Systems information attribute in an IRA?\nHow do you respond?\nA. To identify possible cyber gaps and controls and monitoring and operational planning.\nB. To reflect potential risks in the system, management, and awareness, and to understand roles and responsibilities.\nC. To assess the magnitude of the possible impact for BAs/TOPs/LSEs and to understand the potential operating risk for certain Entity's facilities.\nD. To identify in-house design/vendor issues and to serve load is unknown.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b7e78767-66a8-4ba1-ab46-093feff98eb4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the SCADA and EMS systems information attribute in an IRA?\nHow do you respond?\nA. To identify possible cyber gaps, CIP guidance, controls, and monitoring and operational planning.\nB. To understand the magnitude of possible impact for BAs/TOPs/LSEs.\nC. To reflect the potential risks in the system, management, and awareness.\nD. To identify the potential risks in local systems, awareness, control, system support/restoration/prevention.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9c158f81-4b76-448d-b035-19959d292a86",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Network Diagrams information attribute in an IRA?\nHow do you respond?\nA. To identify possible cyber gaps, CIP guidance, controls, and monitoring and operational planning.\nB. To understand the magnitude of possible impact for BAs/TOPs/LSEs.\nC. To reflect potential risks in the system, management, and awareness.\nD. To identify in-house design/vendor issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "28227303-76be-445d-bf3d-a44a07c30f08",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Undervoltage Load Shedding information attribute in an IRA?\nHow do you respond?\nA. To identify possible cyber gaps, CIP guidance, controls, and monitoring, and operational planning.\nB. To reflect potential risks in the system, management, and awareness, and to understand the roles and responsibilities of the system.\nC. To assess the magnitude of the possible impact for BAs/TOPs/LSEs and to understand the potential operating risk for certain Entity's facilities.\nD. To identify potential risks in local systems, awareness, control, system support/restoration/prevention.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "152ca681-cd11-4651-ac80-34cf977a7e2a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the System Communication Methods information attribute in an IRA?\nHow do you respond?\nA. To identify possible cyber gaps and controls and monitoring and operational planning.\nB. To understand the potential risks in the local system, awareness, control, and system support/restoration/prevention.\nC. To reflect the potential risks in the system, management, and awareness, and the understanding of roles and responsibilities.\nD. To identify in-house design/vendor issues and power system analysis tools.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5bdf6520-9fde-429b-8b6d-8453761412f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Information Attribute List in the NERC ERO Enterprise Inherent Risk Assessment Guide?\nHow do you respond?\nA. To provide a comprehensive list of all the information attributes that are required for a reliable and secure operation of the grid.\nB. To identify the potential risks in local systems, awareness, control, and system support/restoration/prevention.\nC. To assess the inherent risk of an entity's operations, including the potential impact of failures or misoperations.\nD. To provide a list of information attributes that are not relevant to the NERC ERO Enterprise Inherent Risk Assessment Guide.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4c267b7c-2120-4b71-b16e-5620b85149ac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the RC/TOP Plans and PA submittals to REs?\nHow do you respond?\nA. To provide information on potential operating risks for certain Entity's facilities.\nB. To restore the system and reduce the length of blackouts.\nC. To understand Entity and responsibilities for how to restore the system.\nD. To comply with NERC standards and prevent violations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4b711801-7175-48cb-b0c4-b3a865caa6b3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Entity registration and system models?\nHow do you respond?\nA. To understand the potential operating risk for certain Entity's facilities.\nB. To restore the system and reduce the length of blackout.\nC. To identify the critical facilities designated by the Planning Authority.\nD. To determine the magnitude of the possible impact of transmission and generation facilities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "80a8602b-1deb-455d-b87e-1c62d786bf5e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Magnitude of possible impact in the context of the given text?\nHow do you respond?\nA. It refers to the potential severity of the impact of a facility's failure on the reliability of the system.\nB. It refers to the potential financial loss that a facility's failure could cause to the entity.\nC. It refers to the potential environmental impact of a facility's failure.\nD. It refers to the potential impact of a facility's failure on the entity's reputation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b6902d0b-617a-4d4f-ba53-669d734ef60c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Compliance and Enforcement History?\nHow do you respond?\nA. To understand the Entity's culture of compliance and potential areas of concern and possible IRA impacts.\nB. To track the Entity's violation history and ratio of self-reports versus violation history.\nC. To assess the impact of climate change on the Entity's operations.\nD. To evaluate the Entity's transmission and generation portfolios.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "14d6959c-a8ed-471a-9dd7-8455f02b08d5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Ratio of self-reports versus violation history in the context of the given text?\nHow do you respond?\nA. It indicates the number of self-reports submitted by the Entity versus the number of violations identified by the Regulator.\nB. It reflects the Entity's culture of compliance and potential areas of concern and possible IRA impacts.\nC. It represents the ratio of the number of violations identified by the Entity versus the number of violations identified by the Regulator.\nD. It indicates the number of self-reports submitted by the Entity versus the number of violations identified by the Entity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "47425226-1ca5-4914-93e4-4778801b55a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Regional Factors Affecting Reliability?\nHow do you respond?\nA. To understand the potential operating risk for certain Entity's facilities.\nB. To assess the impact of major changes to Entity's operations.\nC. To identify the critical facilities designated by the Planning Authority.\nD. To understand the Entity culture of compliance and potential areas of concern and possible IRA impacts.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "92c06ec1-e915-4f81-bd73-3a75f320039a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Ownership and operation in the context of the given text?\nHow do you respond?\nA. To understand the potential operating risk for certain Entity's facilities.\nB. To determine the magnitude of the possible impact of transmission and generation facilities.\nC. To identify the awareness and Entity understanding of Entity footprint (asset ownership).\nD. To assess the compliance responsibilities and potential areas of concern.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "8d48764b-f451-4c31-a77b-2535445bb151",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Compliance and Enforcement History section in the ERO Enterprise Inherent Risk Assessment Guide?\nHow do you respond?\nA. To provide an overview of the entity's compliance culture and potential areas of concern.\nB. To assess the entity's risk exposure to potential manual load shed responsibilities.\nC. To evaluate the entity's effectiveness in managing vegetation and its impact on the bulk electric system.\nD. To determine the entity's ability to recover from major changes to its operations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ae5d82fe-c240-481e-b6db-41a68a0a642a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of understanding the Entity's culture of compliance?\nHow do you respond?\nA. To identify potential areas of concern and possible IRA impacts. (Correct)\nB. To determine the entity's ability to recover from manual load shed.\nC. To assess the entity's ability to direct manual load shed.\nD. To understand the entity's history of compliance with vegetation management issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b431f9a1-312a-4b1e-badf-cdd1ffbff0ff",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the compliance activities that the Entity is involved in?\nHow do you respond?\nA. Mitigation Plans and milestones, corrective actions, and mitigation plan status that would impact further compliance activities.\nB. Involvement in TFEs, periodic data submittals, self-certifications, areas of concern, and audit recommendations.\nC. Transmission Substation Voltage, Total megawatt output (Generation), and Peak Load.\nD. Manual Load Shed, BPS Exposure, and Effective mix of power-generating resources.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b24e95d1-5afc-4d73-a412-cb9c9db95f38",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Mitigation Plans and milestones in the Enforcement activities section?\nHow do you respond?\nA. To detail the steps the Entity will take to prevent future violations.\nB. To document the Entity's compliance history.\nC. To identify areas of potential risk.\nD. To list the Entity's high-risk facilities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e9a1bdcd-b576-4035-a5d0-a5ff4ed5398c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Misoperations database, Entity reporting via TADS, GADS, DADS?\nHow do you respond?\nA. To track and analyze entity compliance history and potential areas of concern.\nB. To monitor and report on entity operations and high-risk facilities.\nC. To identify reoccurring issues that may impact reliable operations.\nD. To assess entity culture and potential areas of concern.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "79630bc6-776f-4ba5-99da-29a95c18903a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Root cause analysis/corrective action/compliance assessment?\nHow do you respond?\nA. To identify the underlying causes of a misoperation and implement measures to prevent its recurrence.\nB. To assess the effectiveness of the entity's compliance program and identify areas for improvement.\nC. To evaluate the entity's risk management practices and determine their impact on compliance.\nD. To assess the entity's readiness for an audit and identify potential areas of non-compliance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "14021a8a-0a20-4d84-8466-c8598014ece8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the NERC/RE (RAPA, operations group) reports and information?\nHow do you respond?\nA. To identify potential risk factors that may impact reliable operations. (Correct)\nB. To understand Entity culture of compliance and potential areas of concern and possible IRA impacts.\nC. To assess the Entity's ability to recover from manual load shed.\nD. To determine the Entity's compliance history and potential areas of non-compliance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dd0df60b-30bc-4ff6-a717-aa02942a2067",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Emergency Energy Alerts?\nHow do you respond?\nA. To identify reoccurring issues that may impact reliable operations.\nB. To notify the public of potential power outages.\nC. To communicate with generation and transmission operators during emergencies.\nD. To assess the reliability of the bulk electric system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "909ff100-f8b4-4b62-a397-834cbfaee3f7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the BPS Exposure section?\nHow do you respond?\nA. To identify reoccurring issues that may impact reliable operations.\nB. To assess the risk of potential impacts to the Bulk Power System (BPS).\nC. To provide a list of critical facilities designated by the Planning Authority.\nD. To outline the entity's responsibility for directing manual load shed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7a4aab7f-0dcd-40a2-bfca-c25625a0dba6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Effective mix of power generating resources and percentage of their total megawatt output capability?\nHow do you respond?\nA. It determines the entity's ability to recover from manual load shed.\nB. It determines the entity's ability to direct manual load shed.\nC. It determines the entity's ability to meet peak load and capacity.\nD. It determines the entity's ability to operate in a climate with extreme vegetation management issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                }
+            ]
+        }
+    ]
+}

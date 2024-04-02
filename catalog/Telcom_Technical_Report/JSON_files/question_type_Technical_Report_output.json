@@ -1,0 +1,914 @@
+{
+    "tests": [
+        {
+            "key": "9555817d-4fcf-4d5e-91c1-8a3dd73ab1be",
+            "documents": [
+                "Technical_Report.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "4adf9892-9081-4e79-8648-7d29fb9beb02",
+                    "prompt": "Question: What is the main issue that inhibits the mitigation of vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The main issue that inhibits the mitigation of vulnerabilities in the \"DFS over telecom\" ecosystem is a misalignment of interests and misplaced liability between the telecom and financial regulators."
+                },
+                {
+                    "key": "bac7048a-5c66-42b8-95b7-550535ace552",
+                    "prompt": "Question: What are some of the published vulnerabilities in USSD and SMS that enable attackers to commit fraud and steal funds?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "USSD and SMS have long been known to have published vulnerabilities, some over 20 years old, that enable attackers to commit fraud and steal funds. These vulnerabilities include hijacking, takeover, and OTP (One-Time Password) attacks."
+                },
+                {
+                    "key": "8d07201b-cffa-4356-832f-be26918ffdfb",
+                    "prompt": "Question: What is the purpose of the ITU-T Technical Report on \"SS7 vulnerabilities and mitigation measures for digital financial services transactions\"?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of the ITU-T Technical Report on \"SS7 vulnerabilities and mitigation measures for digital financial services transactions\" is to educate telecom and financial services regulators on the vulnerabilities that plague the \"DFS over telecom\" ecosystem and to recommend measures to mitigate these vulnerabilities."
+                },
+                {
+                    "key": "3dda5308-d3a0-48c4-96e6-23c4a000c794",
+                    "prompt": "Question: What is the recommended approach to mitigate the vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The recommended approach to mitigate the vulnerabilities in the \"DFS over telecom\" ecosystem is to implement regulation that puts the liability where it should be and forces the telcos to put mitigation measures in place, ensure signalling security is covered in the legal framework, establish baseline security measures for each category (3G/4G/5G), create dialogue between the DFS providers and telecom regulators with the telecom security industry, and incentivize the industry to develop more secure solutions."
+                },
+                {
+                    "key": "4c4b0598-13eb-45d6-807c-23f9a5244f94",
+                    "prompt": "Question: What is the role of ITU-T Study Group 11 in mitigating the vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "ITU-T Study Group 11 could develop technical guidelines for the baseline security measures for each category (3G/4G/5G) to ensure a more secure interconnection environment and encourage the industry to develop more secure solutions."
+                },
+                {
+                    "key": "2a7a3647-ef5e-43d9-b6ee-a85d14682ee6",
+                    "prompt": "Question: How can telecom regulators incentivize the industry to work together and implement solutions to mitigate the vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Telecom regulators can incentivize the industry to work together and implement solutions by either levying fines or providing grants to build a more secure DFS ecosystem."
+                },
+                {
+                    "key": "ac990245-a44f-45e6-8062-e6bab0ddbeb5",
+                    "prompt": "Question: What is the significance of educating telecom and financial services regulators on the vulnerabilities that plague the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Educating telecom and financial services regulators on the vulnerabilities that plague the \"DFS over telecom\" ecosystem is significant because it raises awareness of the existence of these vulnerabilities and the need for mitigation measures, which can lead to the implementation of regulations and measures to secure the ecosystem."
+                },
+                {
+                    "key": "754a195f-bace-4710-9b4b-ee6c6517465f",
+                    "prompt": "Question: What is the importance of implementing baseline security measures for each category (3G/4G/5G) in mitigating the vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Implementing baseline security measures for each category (3G/4G/5G) is important in mitigating the vulnerabilities in the \"DFS over telecom\" ecosystem because it ensures a more secure interconnection environment and provides a minimum level of security across the ecosystem."
+                },
+                {
+                    "key": "62d4d5d1-fbff-4268-b14c-f9cfacb04b15",
+                    "prompt": "Question: How can the industry be incentivized to develop more secure solutions to mitigate the vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The industry can be incentivized to develop more secure solutions by providing grants or levying fines, creating dialogue between DFS providers and telecom regulators with the telecom security industry, and establishing baseline security measures for each category (3G/4G/5G)."
+                },
+                {
+                    "key": "b89ae9f4-02cc-4e3e-8a7d-c47539ca2d6e",
+                    "prompt": "Question: What is the potential impact of not mitigating the vulnerabilities in the \"DFS over telecom\" ecosystem?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The potential impact of not mitigating the vulnerabilities in the \"DFS over telecom\" ecosystem is significant, as it can lead to continued fraud and theft"
+                },
+                {
+                    "key": "c70ace54-ae9c-47c7-96f8-a661059d38d4",
+                    "prompt": "Question: What measures can be taken to mitigate SS7 vulnerabilities in digital financial services, as discussed in the ITU-T Technical Report TR-SS7-DFS?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The main focus of the ITU-T Technical Report TR-SS7-DFS is to discuss the vulnerabilities of SS7 and their impact on digital financial services (DFS) transactions, as well as to provide mitigation measures for operators and DFS providers."
+                },
+                {
+                    "key": "94886a3c-f093-444f-99cf-451fa98249be",
+                    "prompt": "Question: What are the limitations and scope of the report regarding the impact of telecom vulnerabilities on DFS and mitigation strategies for mobile operators and DFS providers, while considering the ITU-T publication guidelines?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The report focuses on the research conducted by the Financial Inclusion Global Initiative (FIGI) security infrastructure workstream on SS7 vulnerabilities and their effect on DFS in the developing world. It does not cover other types of vulnerabilities or attacks that may affect DFS."
+                },
+                {
+                    "key": "b9d21831-f87a-4386-8453-90a72e1f2ea3",
+                    "prompt": "Question: What measures can be taken to mitigate SS7 vulnerabilities affecting digital financial services, and how can mobile operators and DFS providers collaborate to improve security?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The report mentions several common types of telecom attacks that can affect DFS, including over-the-counter cash fraud, account takeover, social engineering, and denial of service attacks."
+                },
+                {
+                    "key": "037c501d-b29c-4c16-95c8-fa3ecc68490d",
+                    "prompt": "Question: What dual purpose do plant roots serve concerning soil nutrients and stability?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The cellular attack kill chain refers to the sequence of events that occurs when a telecom attack is carried out, from the initial exploitation of a vulnerability to the final stage of stealing sensitive information or disrupting service."
+                },
+                {
+                    "key": "3ff9d6f8-689c-4b59-8c2f-7d24ee2d8377",
+                    "prompt": "Question: What measures can mobile operators take to protect themselves from telecom attacks, and how can they mitigate their impact on digital financial services?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The report suggests several mitigation strategies for mobile operators to protect against telecom attacks, including implementing SS7 interconnect security monitoring guidelines, securing SS7 and SIGTRAN networks, detecting and mitigating account takeover using intercepted OTP SMS, and detecting and mitigating social engineering attacks with MT-USSD."
+                },
+                {
+                    "key": "d7645753-149b-423f-be63-67c524ddd2e7",
+                    "prompt": "Question: How can DFS providers and mobile operators collaborate to implement mitigation measures against telecom attacks that exploit SS7 vulnerabilities, while ensuring the security of digital financial services transactions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can implement mitigation measures such as detecting and mitigating interception of MO-USSD transactions, detecting and mitigating unauthorized SIM card swap, and embedding data within the user's phone for authentication."
+                },
+                {
+                    "key": "573c5af7-bbc7-462f-9473-66d3e0de50bd",
+                    "prompt": "Question: What is the purpose of Annex A in the report, and how does it relate to the overall topic of SS7 vulnerabilities and mitigation measures for digital financial services transactions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Annex A provides a technical description of SS7 and Diameter protocols, as well as the support of voice services and SMS."
+                },
+                {
+                    "key": "bd3f1262-2091-4830-b8c4-6de56cc9f313",
+                    "prompt": "Question: What is the purpose of Annex B in the report, and what does it entail?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Annex B provides a template for a model MOU between a telecommunication regulator and central bank related to DFS security."
+                },
+                {
+                    "key": "f6c606e5-3001-4f2b-918e-da8dfab938c2",
+                    "prompt": "Question: What roles do the national telecommunication authority and central bank have according to the memorandum of understanding (MOU) regarding the security of digital financial services (DFS) transactions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The national telecommunication authority is responsible for designating roles for the MOU, while the central bank is responsible for designating roles for the MOU and cooperating with the national telecommunication authority in areas of common interest."
+                },
+                {
+                    "key": "c6bbb748-8785-40ec-98da-931cf258abb8",
+                    "prompt": "Question: What is the purpose of the ITU-T Technical Report TR-SS7-DFS, and what are its key components?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The ITU-T Technical Report TR-SS7-DFS is significant because it highlights the importance of securing SS7 and Diameter protocols to protect digital financial services transactions, and provides practical mitigation measures for operators and DFS providers to implement."
+                },
+                {
+                    "key": "87220574-de3e-4cff-b1ad-0ad986c02c87",
+                    "prompt": "Question: What is the primary purpose of the Technical Report regarding digital financial services and telecom vulnerabilities?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The main purpose of the Technical Report is to analyze telecom vulnerabilities and their impact on digital financial services, and to provide mitigation strategies for operators and DFS providers to safeguard their clients."
+                },
+                {
+                    "key": "d5881685-7cbb-4a78-8f5f-8def7156ec54",
+                    "prompt": "Question: What is the purpose of a Memorandum of Understanding (MOU) in the context of DFS, considering the potential threats and vulnerabilities of telecom networks, as described in the Technical Report TR-SS7-DFS (2019)?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Memorandum of Understanding (MOU) is a document that outlines the terms and conditions of a partnership between two or more parties, such as DFS providers and telecom operators, to provide digital financial services to end-users."
+                },
+                {
+                    "key": "3a585acb-2cd5-4b18-8312-b75cbc22ed63",
+                    "prompt": "Question: What are the two main vulnerabilities that telecom vulnerabilities expose DFS providers and end-users to, according to the provided context?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "MT-SMS stands for Mobile Terminated SMS, which is sent from a telecom operator to a mobile device, while MO-SMS stands for Mobile Originated SMS, which is sent from a mobile device to a telecom operator."
+                },
+                {
+                    "key": "111d085c-40d7-4cff-98e1-1fddf73fac9b",
+                    "prompt": "Question: What is the purpose of a Sim Tool Kit (STK) in the context of digital financial services and telecom vulnerabilities?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Sim Tool Kit (STK) is a software tool that allows mobile device users to manage their SIM card and access various telecom services, such as USSD transactions and SMS messages."
+                },
+                {
+                    "key": "0bc4f9ca-8eaf-4b6f-8b70-64e7ee90ee6b",
+                    "prompt": "Question: What is the significance of the term \"IMEI\" in the context of DFS, and how does it relate to the security of financial transactions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "IMEI stands for International Mobile Equipment Identity, which is a unique identifier assigned to every mobile device, and is used to verify the authenticity of a device and prevent fraudulent activities."
+                },
+                {
+                    "key": "17795657-6ba0-43ee-b6a3-9ce41af5af04",
+                    "prompt": "Question: What dual purpose does a Personal Identification Number (PIN) serve in digital financial services concerning user authentication and fraud prevention?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A Personal Identification Number (PIN) is a secret code used to authenticate a user's identity when accessing a mobile device or a digital financial service."
+                },
+                {
+                    "key": "3a738a2b-0d79-4baf-bb54-17716654b8b6",
+                    "prompt": "Question: How do telecom vulnerabilities impact the security of digital financial services provided by DFS providers, and what measures can be taken to mitigate these risks?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Telecom vulnerabilities can enable criminals to perform various attacks that result in fraud and steal digital money from DFS providers, which can lead to financial losses and damage to their reputation."
+                },
+                {
+                    "key": "014f818a-7b3c-4bfe-aee4-137edf0aecf7",
+                    "prompt": "Question: What is the main vulnerability exploited in the USSD attack described in clause 6.2, where a fraudster uses USSD to takeover an account that doesn't belong to them?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The main vulnerability exploited in the USSD attack described in clause 6.2 is the ability to spoof the victim's phone number and intercept the USSD session, allowing the attacker to change the PIN code and add a new phone number to the account."
+                },
+                {
+                    "key": "9284bbb0-43fd-431f-b1c0-a86eea646ca5",
+                    "prompt": "Question: How does social engineering factor into USSD attacks, and what methods can be used to prevent such attacks?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Social engineering is the use of psychological manipulation to trick individuals into divulging confidential information or performing actions that can be exploited by attackers. In the USSD attack described in clause 6.3, the attacker impersonates the DFS provider and sends a USSD message to the victim, tricking them into entering their account number and PIN, which can then be used to take over the victim's account."
+                },
+                {
+                    "key": "a7d8bdc0-41e9-4162-ae2e-89907d24d7f7",
+                    "prompt": "Question: What are the two attack surfaces that can be exploited in telecom networks, and how do they compromise the security of DFS accounts, according to clause 7?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The two attack surfaces that can be exploited in telecom networks, according to clause 7, are the SS7 network and the cellular air interface."
+                },
+                {
+                    "key": "8aaa1fd3-94e7-475d-baa5-ee7a7d459b63",
+                    "prompt": "Question: What is the primary security vulnerability in the SS7 network, according to clause 7, that allows fraudsters to perform social engineering and account takeover attacks?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The main security vulnerability in the SS7 network, according to clause 7, is the use of outdated protocols, such as the SS7 protocol, which has been around since the 1980s and has known vulnerabilities that have not been addressed in newer versions of the protocol, such as Diameter."
+                },
+                {
+                    "key": "b9a96e67-6bee-4a70-9d80-88c9d889f5b4",
+                    "prompt": "Question: What are the two primary attack surfaces that fraudsters can exploit to perform spam attacks on DFS, as per Table 1 in clause 8, and how do they impact DFS?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The impact of spam attacks on DFS, according to Table 1 in clause 8, is the potential for financial loss due to the cost of sending SMS messages, as well as the possibility of stealing personal data or gaining financial benefits using toll numbers."
+                },
+                {
+                    "key": "7924a5f1-440a-4556-a9d8-3c868981e229",
+                    "prompt": "Question: What are the two primary attack surfaces that fraudsters exploit to perform social engineering and account takeover attacks in SS7 and Diameter networks, according to clause 8?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The purpose of spoofing identifiers in SS7 and Diameter, according to clause 8, is to evade billing and commit fraud by making it appear as though a different subscriber is using the network."
+                },
+                {
+                    "key": "62975ae7-be14-40f1-9f70-d221d5cde568",
+                    "prompt": "Question: How can an attacker locate a target subscriber using the location tracking vulnerability, according to clause 8?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An attacker can locate a target subscriber using the location tracking vulnerability, according to clause 8, by exploiting the fact that mobile networks need to efficiently route messages to subscribers, and therefore the home network knows where to send messages to contact any given subscriber."
+                },
+                {
+                    "key": "b71f4e5a-6c4c-4ad9-a508-dfc7fde4b981",
+                    "prompt": "Question: What is the prerequisite for further attacks, such as interception, according to clause 8?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The prerequisite for further attacks such as intercept, according to clause 8, is obtaining the approximate location of a given victim, which can be done by exploiting the location tracking vulnerability."
+                },
+                {
+                    "key": "27b548c3-bfbe-46a7-92d7-e8a0c36e0609",
+                    "prompt": "Question: What is the goal of social engineering in the context of telecom attacks, and how does it differ from other types of attacks such as spam, spoofing, and location tracking, according to clause 6.3?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The goal of social engineering in the context of telecom attacks, according to clause 6.3, is to trick the victim into divulging confidential information, such as their account number and PIN, which can then be used to take over the victim's account."
+                },
+                {
+                    "key": "2040e1ef-86c8-4eaf-8465-dcc19e3fafb6",
+                    "prompt": "Question: What are the two attack surfaces that can be exploited to perpetuate telecom vulnerabilities, according to clause 7?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The name of the protocol used for signaling in 4G-LTE networks, according to clause 7, is Diameter."
+                },
+                {
+                    "key": "d61acef4-3fa9-426a-bcec-1ce4f6251a49",
+                    "prompt": "Question: What are the three main ways that telecom attacks can be carried out, and how do they exploit vulnerabilities in the SS7 network and cellular air interface?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The common types of telecom attacks include subscriber fraud, interception, denial of service, infiltration attacks, and routing attacks."
+                },
+                {
+                    "key": "b6941d7d-a8bc-492d-a1bb-c6b3a1e583fa",
+                    "prompt": "Question: What's the telecom threat with subs?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Subscriber fraud refers to the unauthorized use of a subscriber's account or personal information to obtain services or benefits, such as stealing prepaid voice, SMS, or data credits, or converting them into mobile money or goods/services."
+                },
+                {
+                    "key": "c6d0b809-9edb-4d0c-b44a-edd52b254284",
+                    "prompt": "Question: What's the telecom threat with the letter \"I\"?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Interception refers to the unauthorized access or eavesdropping of a subscriber's communications, such as calls, SMS, or data traffic, which can be done to steal sensitive information or to eavesdrop on conversations."
+                },
+                {
+                    "key": "ba6544b0-c58e-4408-a716-8181b4d0e131",
+                    "prompt": "Question: What's the telecom attack where the perpetrator floods a network with traffic in an attempt to make it unavailable to users?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Denial of service (DoS) refers to an attack that causes a network or system to become unavailable by overwhelming it with traffic or resource requests, resulting in a loss of service to subscribers."
+                },
+                {
+                    "key": "0a480c0c-c49b-442a-a0bd-39df07c01e82",
+                    "prompt": "Question: What's the telecom threat that involves unauthorized access to a network?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Infiltration attacks refer to the unauthorized access or tampering with a subscriber's profile or location information, which can be used to evade billing or to commit fraud."
+                },
+                {
+                    "key": "08d4ac85-eef9-4ec3-a339-83121ecfb161",
+                    "prompt": "Question: Routing attacks in telecom?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Routing attacks refer to the unauthorized manipulation of routing information to redirect traffic to a different destination, which can be used to eavesdrop or alter interconnect traffic."
+                },
+                {
+                    "key": "e229ad33-92eb-4665-a517-ff418efe563c",
+                    "prompt": "Question: How does DFS fare under telecom attacks?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Telecom attacks can have a significant impact on DFS, including theft of sensitive information, unauthorized access to systems, and disruption of services."
+                },
+                {
+                    "key": "c96a3d44-f86a-4058-999d-470123b62f13",
+                    "prompt": "Question: How often do telecom attacks occur in EU?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "According to a survey by ENISA, more than 80% of telecom operators in the EU have detected or encountered some attacks, and about 25% reported encountering a substantial number of attacks."
+                },
+                {
+                    "key": "413f9692-daab-4589-a3e2-958ebe89b64c",
+                    "prompt": "Question: What's the state of telecom security in developing countries?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "According to a survey by SIT, over 70% of telecom regulators and operators surveyed have no clue if their networks are under telecom attacks."
+                },
+                {
+                    "key": "08972054-0725-42a7-9780-172dcdc61dfa",
+                    "prompt": "Question: What do telecom attacks have in common?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The commonality of telecom attacks includes the use of signaling interfaces, lack of detection mechanisms, and the exploitation of vulnerabilities in network elements."
+                },
+                {
+                    "key": "bb351e6a-70d7-49fb-8643-f40dd66fdcbe",
+                    "prompt": "Question: Why haven't cellular operators followed guidelines to secure their networks?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Most cellular operators have not yet protected their networks against cellular attacks because they have not implemented the guidelines issued by the GSMA and ITU, or they have only implemented them partially, maintaining part of the vulnerabilities in their networks."
+                },
+                {
+                    "key": "d565c6df-e885-4619-a16d-66028874df53",
+                    "prompt": "Question: How can DFS providers and clients protect themselves from cellular attacks without mobile operators' help?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "It is difficult for a DFS provider or client to defend themselves from cellular attacks without relying on mobile operators because network operators cannot protect against most of the air interface vulnerabilities, especially when the subscriber is roaming."
+                },
+                {
+                    "key": "1a14c23c-3f1e-43c2-b603-2e53a745671f",
+                    "prompt": "Question: What's a common cybersecurity myth in enterprises?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A common misconception among CISOs and cybersecurity officers in enterprises is that it is hard to attack the telco, and therefore, they do not prioritize defense against cellular attacks."
+                },
+                {
+                    "key": "47b992a8-0cf6-4de0-8976-a94f0e22a672",
+                    "prompt": "Question: What's the price tag for a basic MITM system for cellular comms interception?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Creating a basic MITM system that can intercept cellular communications can cost as little as $500, using open-source software and hardware that can be purchased on e-commerce platforms."
+                },
+                {
+                    "key": "3710da59-3854-4cc0-8a23-f70d8d929dbf",
+                    "prompt": "Question: What's the deal with SS7 and its vulnerabilities?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The SS7 network is a global network used by mobile operators to communicate with each other and exchange information. It is vulnerable to attacks because it was previously considered a \"walled garden\" that could only be accessed by licensed mobile operators, but now, other non-licensed entities have gained access to the network, and it can be exploited by hackers who can gain unauthorized access to the network and exploit cellular vulnerabilities."
+                },
+                {
+                    "key": "1025953b-0188-4783-a02d-80e520003d41",
+                    "prompt": "Question: What's the first step to launching a cellular attack?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The first step in the cellular attack kill chain is information gathering, where the attacker obtains the victim's phone number and uses social engineering techniques to obtain the victim's IMSI."
+                },
+                {
+                    "key": "780152e4-a98f-4e07-9abe-ee76471f5dab",
+                    "prompt": "Question: What's the significance of SS7 in cellular security?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "SS7 is used to obtain information such as the victim's IMSI, location, and data channel encryption keys, which are essential for executing attacks such as intercepting calls and SMS, and performing MITM attacks."
+                },
+                {
+                    "key": "31102b65-cc04-4d71-ae3e-dac4bbc55b66",
+                    "prompt": "Question: What's the significance of triangulation in cellular attacks?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Triangulation is used to track the victim's location by measuring the signal strength of the victim's phone at different cell towers, allowing the attacker to determine the victim's location."
+                },
+                {
+                    "key": "a292bcf1-09d4-434e-98c5-6d3a149bd6ed",
+                    "prompt": "Question: How does the attacker intercept SMS in cellular attacks?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The attacker can intercept incoming SMS by using SS7 query to obtain the TMSI, and then using the TMSI to intercept incoming SMS."
+                },
+                {
+                    "key": "a2bc8e44-05d4-4bbc-8472-b6a623a46bd4",
+                    "prompt": "Question: What's the point of diverting calls and messages in a cellular attack?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "Rerouting the victim's calls and SMS allows the attacker to intercept and manipulate the victim's communication, enabling the attacker to perform MITM attacks and steal sensitive information."
+                },
+                {
+                    "key": "f3dfb839-0cdf-4152-a077-e2b53d76d336",
+                    "prompt": "Question: What's the point of USSD in cellular attacks?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "USSD is used to obtain mobile banking account credentials by phishing the victim's mobile banking credentials using social engineering techniques."
+                },
+                {
+                    "key": "8adc9d27-c172-4a1c-b809-73ac65bbc403",
+                    "prompt": "Question: What's the purpose of USSD in sensitive online transactions?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "USSD is used for online banking and other financially sensitive applications because it allows for the secure exchange of information between the user's device and the financial service provider's system."
+                },
+                {
+                    "key": "2b72241e-ed0d-427e-8905-c3b69177e6d0",
+                    "prompt": "Question: Explain how an attacker can use USSD to socially engineer sensitive credentials from a user, and how this can be used to perform a SIM card swap attack, resulting in the attacker gaining access to the victim's DFS account and funds.\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An attacker can use USSD to socially engineer sensitive credentials from a user by sending a phishing USSD message spoofing the identity of the financial service provider, luring the user to divulge sensitive information such as account number and PIN code. Once the attacker has obtained this information, they can perform a SIM card swap attack by impersonating the victim at a point of service and claiming that they have lost the original SIM card. If successful, the attacker can access the DFS provider's USSD menu, reset the PIN of the account, and confirm the new PIN using the cloned SIM. This allows the attacker to log in to the account and transfer funds out, effectively taking over the victim's account."
+                },
+                {
+                    "key": "445cb470-9022-4eb1-88e5-e58b90366591",
+                    "prompt": "Question: How can an attacker exploit USSD messages to steal sensitive information from a user, and what is the significance of TR-SS7-DFS in this context?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An attacker can exploit USSD messages to steal sensitive information from a user by sending a phishing USSD message that spoofs the identity of the financial service provider, luring the user to divulge sensitive information such as account number and PIN code. The significance of TR-SS7-DFS in this context is that it highlights the vulnerabilities in the USSD channel that can be exploited by attackers to carry out such attacks. TR-SS7-DFS is a technical report that discusses the security risks associated with the use of USSD for financial transactions and provides recommendations for mitigating these risks."
+                },
+                {
+                    "key": "1d3f1fbd-7f36-490e-9d10-99337796a403",
+                    "prompt": "Question: Explain how an attacker can use USSD to socially engineer a victim's account information and execute a SIM card swap attack, while also describing the process of SIM card recycling and how it can be exploited to drain a victim's account.\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An attacker can use USSD to socially engineer a victim's account information by sending a phishing USSD message that spoofs the identity of the financial service provider, luring the user to divulge sensitive information such as account number and PIN code. Once the attacker has obtained this information, they can execute a SIM card swap attack by social engineering the mobile carrier to issue them a SIM card belonging to the victim. This allows the attacker to access the DFS provider's USSD menu and reset the PIN of the account, enabling them to log in and transfer funds out. Additionally, the attacker can exploit the process of SIM card recycling to drain the victim's account by obtaining a new prepaid SIM card with the same phone number as the victim's cancelled SIM, allowing them to access the victim's DFS account and use whatever funds remained in the account."
+                },
+                {
+                    "key": "a4cde4a3-a8f7-49c3-8338-78a966efe283",
+                    "prompt": "Question: How can an attacker perform a denial of service attack using SS7?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An attacker can perform a denial of service attack using SS7 by sending an update location message with an out-of-network serving address, blocking all incoming calls and SMS from reaching the subscriber. Another way is by deleting a subscriber's record from the serving visitor location register, causing a denial of service for a given subscriber until the record is re-inserted to the VLR. Performing each attack in scale can cause a network-wide outage."
+                },
+                {
+                    "key": "bce8edfc-0545-4c1e-a874-7838bf3f6d4b",
+                    "prompt": "Question: How can an attacker use USSD to socially engineer sensitive credentials from a user, and what are some ways to create a DoS attack using SS7?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An attacker can use USSD to socially engineer sensitive credentials from a user by sending a phishing USSD message that spoofs the identity of the financial service provider, luring the user to divulge sensitive information such as account number and PIN code. DoS attacks using SS7 can be created by sending an update location message with an out-of-network serving address, deleting a subscriber's record from the serving visitor location register, or performing a SIM swap attack by social engineering the mobile carrier to issue a cloned SIM card belonging to the victim. Additionally, SIM card recycle is not an SS7 attack but a lack of due care and due diligence by the DFS provider that gives an unauthorized person access to funds belonging to other people."
+                },
+                {
+                    "key": "b4d3629f-f3e8-40d6-855e-b081cf9627e2",
+                    "prompt": "Question: How can USSD be exploited to socially engineer sensitive credentials in online banking and other financially sensitive applications, and what are some possible attacks that can be launched using this method?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "USSD can be exploited to socially engineer sensitive credentials in online banking and other financially sensitive applications by sending fraudulent messages that spoof the identity of the financial service provider, luring the user to divulge sensitive information such as account number and PIN code. For example, an attacker can send a phishing USSD message posing as the financial service provider, asking the user to enter their account number and PIN code to resolve a supposed issue with their account. The attacker can then use this information to log into the user's account and transfer funds out. Additionally, USSD can also be used to perform denial of service attacks, cause a network-wide outage, or takeover accounts by performing a 'SIM swap' or 'SIM recycle' attack."
+                },
+                {
+                    "key": "69905a81-fd94-4710-82a2-d2390957004f",
+                    "prompt": "Question: What are some possible ways to execute a successful USSD phishing attack, and how can a user protect themselves from falling victim to such an attack? Explain in detail, highlighting the various techniques used by attackers and the measures that can be taken to prevent such attacks.\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "A successful USSD phishing attack can be executed by attackers using various techniques such as social engineering, SIM card swap, SIM card recycle, and denial of service attacks. To protect themselves from such attacks, users should be cautious when receiving USSD messages and not divulge sensitive information such as account number and PIN code to anyone, especially not to someone who has contacted them via USSD. They should also verify the authenticity of the USSD message by contacting their financial service provider directly. Additionally, users should be aware of the risks of SIM card swap and SIM card recycle, and take measures to secure their SIM cards and DFS accounts. They should also be cautious of any suspicious activity on their accounts and report it immediately to their financial service provider. Furthermore, users should keep their phone software and operating system up to date, use strong and unique passwords, and use two-factor authentication whenever possible."
+                },
+                {
+                    "key": "7f94ca3e-96e4-401c-a39a-71b20606875c",
+                    "prompt": "Question: How can an attacker use USSD to socially engineer sensitive credentials from a mobile subscriber, and what are the possible ways to execute and scale such an attack?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "An attacker can use USSD to socially engineer sensitive credentials from a mobile subscriber by sending a phishing USSD message that spoofs the identity of the financial service provider, luring the user to divulge sensitive information such as account number and PIN code. This attack can be executed by sending a phishing USSD message as shown in Figure 8, which has no identification and is trusted by the user. Once the user divulges their account number and PIN, the attacker can log into the account and transfer funds out. The attack can be scaled by automating the process for a range of IMSIs, causing a network-wide outage. However, performing an outgoing transaction such as placing a call or sending an SMS can reverse the effects of the DoS almost immediately."
+                },
+                {
+                    "key": "95377f03-f22d-435e-8d91-e0f6d4e2234b",
+                    "prompt": "Question: What are the mitigation strategies for SS7 attacks described in the GSMA documents, and how do they address practical security measures for mobile operators?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The GSMA documents, including FS.11, FS.07, IR.82, and IR.88, provide a range of mitigation strategies for SS7 attacks, including monitoring SS7 traffic, configuring SS7 firewalls, stopping unauthorized messages and attacks, and implementing security measures for SS7 stack, SMS, and Diameter. These documents also provide recommendations for deploying countermeasures and outline security toolboxes for operators. However, despite the availability of these documents, mobile operators have not adequately addressed the issue of SS7 telecom vulnerabilities."
+                },
+                {
+                    "key": "2428be93-c80f-46b5-aa5b-943043d2bf11",
+                    "prompt": "Question: What are the mitigation strategies for SS7 attacks on 2G/3G networks described in the GSMA documents, and how do they address practical security measures for mobile operators?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The GSMA documents, specifically FS.11, FS.07, IR.82, and IR.88, provide mitigation strategies for SS7 attacks on 2G/3G networks. FS.11 describes how to monitor SS7 traffic for potential attacks, while FS.07 provides substantial background on handling SS7 messages on the edge of the network and configuring an SS7 firewall or edge node to stop unauthorized messages and attacks. IR.82 outlines general security measures for SS7 security, and IR.88 outlines LTE interconnect security measures. The documents provide countermeasures for many SS7 attacks, such as spam, spoofing, location tracking, subscriber fraud, intercept, denial of service (DoS), infiltration attacks, and routing attacks. However, mobile operators have not addressed the issue of SS7 telecom vulnerabilities."
+                },
+                {
+                    "key": "3868889d-396b-4a59-b825-bc21ff6726b3",
+                    "prompt": "Question: What are the differences in mitigation strategies for SS7/Diameter attacks between GSMA documents and common telecom attacks?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "According to Table 3 in the given context, FS.11 (2/3G) and FS.07 (2/3G) provide mitigation strategies for Spam, Spoofing, Location tracking, Subscriber fraud, and Intercept attacks. IR.82 (2/3G) provides mitigation strategies for Spam, Spoofing, Location tracking, Subscriber fraud, and Denial of service (DoS) attacks. IR.88 (4G) provides mitigation strategies for Spam, Spoofing, Location tracking, Subscriber fraud, Intercept, Denial of service (DoS), and Routing attacks. However, it's worth noting that not all mitigation strategies in GSMA documents are applicable to all common SS7/Diameter attacks, and mobile operators have not fully addressed the issue of SS7 telecom vulnerabilities."
+                },
+                {
+                    "key": "5b34deda-0172-4642-b3a6-cdf62af216ee",
+                    "prompt": "Question: What are the mitigation strategies for SS7 attacks on 2G/3G networks, and how do they compare to those for 4G networks?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "The GSMA documents FS.11 and FS.07 provide mitigation strategies for SS7 attacks on 2G/3G networks, including monitoring SS7 traffic, handling SS7 messages on the edge of the network, and configuring an SS7 firewall or edge node. IR.82 outlines general security measures for SS7 security, including SMS specific security measures and many SS7 stack related security measures. IR.88 provides security measures for LTE interconnect (roaming) security, covering aspects such as routing attacks, DoS, location tracking, and other types of diameter-based interconnection attacks on SCTP, GTP, and interface specific recommendations. Table 3 in the GSMA document provides coverage of mitigation strategies in GSMA documents vs common SS7/Diameter attacks."
+                },
+                {
+                    "key": "72bdd900-ff92-48df-8d85-c1d813eba33a",
+                    "prompt": "Question: What are the differences in mitigation strategies for SS7/Diameter attacks between GSMA documents and common telecom attacks?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "According to Table 3, GSMA documents provide mitigation strategies for Spam, Spoofing, Location tracking, Subscriber fraud, Intercept, Denial of service (DoS), Infiltration attacks, and Routing attacks. However, common telecom attacks also include Spam, Spoofing, Location tracking, Subscriber fraud, Intercept, Denial of service (DoS), and Routing attacks. The difference is that GSMA documents do not provide mitigation strategies for Spam, Spoofing, and Location tracking for 4G networks, while common telecom attacks do include these attacks for 4G networks."
+                },
+                {
+                    "key": "23ffc059-0f60-467a-90c8-a326d2be4db1",
+                    "prompt": "Question: What are the different types of attacks that can be launched on a telecommunications network using SS7 vulnerabilities, and how can they be mitigated?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "SS7 vulnerabilities can be exploited to launch various types of attacks, including spam, spoofing, location tracking, subscriber fraud, interception, denial of service (DoS), infiltration attacks, and routing attacks. To mitigate these attacks, mobile operators can implement a range of countermeasures, such as monitoring SS7 traffic for potential attacks, configuring SS7 firewalls or edge nodes to stop unauthorized messages and attacks from reaching the core network, implementing security measures for SS7 security, such as SMS specific security measures, and following LTE interconnect (roaming) security measures. Additionally, mobile operators can refer to guidelines and documents provided by global telecom organizations such as ITU and GSMA, which provide detailed information on mitigation strategies for SS7 and Diameter signaling security."
+                },
+                {
+                    "key": "8738e498-011c-4a38-ae4b-b1b8416179f0",
+                    "prompt": "Question: How can DFS providers detect and mitigate account take over attacks that exploit SS7 telecom vulnerabilities, despite the low implementation rate of mitigation strategies among mobile operators, and what are some examples of mitigation strategies that can be used requiring SS7 connectivity but not requiring any investment from the mobile operator?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can detect and mitigate account take over attacks that exploit SS7 telecom vulnerabilities by implementing bidirectional authentication flows, displaying OTP codes in view resources, and verifying the legitimacy of reply SMS using SCCP meta-data. Additionally, DFS providers can use SS7 connectivity to implement mitigation strategies such as detecting and mitigating SMS interception, and detecting and mitigating social engineering attacks with MT-USSD, without requiring investment from mobile operators."
+                },
+                {
+                    "key": "215ea263-e0f7-411f-904f-e3c3565cd846",
+                    "prompt": "Question: How can DFS providers mitigate the risks of SS7 telecom vulnerabilities, such as intercepted OTP SMS and social engineering attacks, while also ensuring cost-effectiveness and regulatory compliance?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can mitigate the risks of SS7 telecom vulnerabilities by implementing best of breed authentication and encryption mechanisms, such as bidirectional authentication flow, SCCP meta-data verification, and MT-USSD. Additionally, they can leverage SS7 connectivity to detect and mitigate account take over using intercepted OTP SMS and social engineering attacks. It is important for DFS providers to consider cost-effectiveness and regulatory compliance when implementing these mitigation strategies."
+                },
+                {
+                    "key": "a1335c7d-c11d-495a-ac09-efc8509c962e",
+                    "prompt": "Question: How can DFS providers mitigate account take over using intercepted OTP SMS, and how can they detect and mitigate social engineering attacks with MT-USSD, given the low implementation rate of mitigation strategies among mobile operators as revealed by the ENISA survey in the EU and the security infrastructure and trust workstream survey by the ITU within the developing world?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can mitigate account take over using intercepted OTP SMS by implementing a bidirectional authentication flow that requires the user to reply to an OTP code displayed in a view resource, and verifying that the reply SMS originated from the legitimate user by looking at the SCCP meta-data. Additionally, DFS providers can detect and mitigate social engineering attacks with MT-USSD by using it to verify the user's location and home network when registering a new phone to the account, and by implementing best of breed authentication and encryption mechanisms."
+                },
+                {
+                    "key": "08eb29d1-15d7-42e2-ae52-954a3588c6db",
+                    "prompt": "Question: How can DFS providers use SS7 connectivity to mitigate social engineering attacks that exploit vulnerabilities in the telecom ecosystem, given that most telecom operators have not implemented strong mitigation strategies for SS7 telecom vulnerabilities, and many DFS users do not own a smartphone and access the DFS via USSD or SMS?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can use SS7 connectivity to implement mitigation strategies for social engineering attacks that exploit vulnerabilities in the telecom ecosystem, such as detecting and mitigating account take over using intercepted OTP SMS, and detecting and mitigating social engineering attacks with MT-USSD, by verifying that the user's phone number and PIN are legitimate and matching the user's location and home network, without requiring any investment from the mobile operator, and despite the low implementation rate of strong mitigation strategies among mobile operators."
+                },
+                {
+                    "key": "130e5111-8bf4-4bf0-9368-b73fc4d6f3a8",
+                    "prompt": "Question: How can DFS providers mitigate attacks when many DFS users do not own a smartphone and access the DFS via USSD or SMS, and the majority of cellular operators in the world did not implement the GSMA published guidelines?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can implement mitigation strategies for attacks that do not require investment from mobile operators, such as detecting and mitigating account take over using intercepted OTP SMS by making the authentication flow bidirectional and verifying the legitimacy of the reply SMS using SCCP meta-data. Another strategy is to detect and mitigate social engineering attacks with MT-USSD by tracking the user's location and home network."
+                },
+                {
+                    "key": "67b5aa0b-0f3e-4beb-a7e2-729ea168a0b5",
+                    "prompt": "Question: How can DFS providers mitigate social engineering attacks and account takeovers using intercepted OTP SMS, given that most telecom operators have not addressed SS7 telecom vulnerabilities, according to ENISA's survey and ITU's security infrastructure and trust workstream survey, and that implementing strong mitigation strategies are cost-inhibiting for telecom operators, as stated in the TR-SS7-DFS (2019) report?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can mitigate social engineering attacks and account takeovers using intercepted OTP SMS by implementing a bidirectional authentication flow that requires the user to reply to an SMS with a code displayed on a view resource, allowing the DFS provider, given SS7 access, to determine if the reply SMS originated from the legitimate user or from an attacker by looking at the SCCP meta-data from the reply SMS and verifying that the global title (GT) is legitimate and matching the user's location and home network, as described in clause 16.1 of the TR-SS7-DFS (2019) report. Additionally, DFS providers can detect and mitigate social engineering attacks with MT-USSD by using the SCCP meta-data to verify that the message originated from the legitimate user's phone and that the message is not a replay of a previous message, as described in clause 16.2 of the TR-SS7-DFS (2019) report."
+                },
+                {
+                    "key": "6b91434f-c847-4ee9-8955-d8b8ddad35a7",
+                    "prompt": "Question: How can DFS providers mitigate social engineering attacks that involve the use of MT-USSD, given that many DFS users do not own a smartphone and access the DFS via USSD or SMS, and the majority of cellular operators in the world did not implement the GSMA published guidelines?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can mitigate social engineering attacks that involve the use of MT-USSD by implementing a bidirectional authentication flow, where the user is prompted to enter a code displayed on a view resource, and then send a SMS to the user to reply to the code they see. The DFS provider can then verify that the reply SMS originated from the legitimate user by looking at the SCCP meta-data from the reply SMS and verifying that the global title (GT) is legitimate and matching the user's location and home network. Additionally, DFS providers can implement best of breed authentication and encryption mechanisms for clients that use smartphones and access the DFS via a smartphone app."
+                },
+                {
+                    "key": "9f45db37-84f7-4402-afd5-70ed20c468fd",
+                    "prompt": "Question: How can DFS providers mitigate the risk of fraudulent activities such as account takeover using intercepted OTP SMS, and social engineering attacks with MT-USSD, given the low implementation rate of mitigation strategies among mobile operators, and the cost inhibiting factor for implementing strong mitigation strategies?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can mitigate the risk of fraudulent activities such as account takeover using intercepted OTP SMS, and social engineering attacks with MT-USSD, by implementing mitigation strategies that do not require investment from mobile operators, using SS7 connectivity. For example, the DFS provider can make the authentication flow bidirectional, receiving the OTP from the user, not sending it, and verifying that the reply SMS originated from the legitimate user or from an attacker. Additionally, the DFS provider can detect and mitigate social engineering attacks with MT-USSD by using a different approach to SMS OTP, and implementing best of breed authentication and encryption mechanisms."
+                },
+                {
+                    "key": "29490350-fca9-412a-bca8-3e953a406578",
+                    "prompt": "Question: How can DFS providers mitigate account take over using intercepted OTP SMS and social engineering attacks with MT-USSD, given the low implementation rate of mitigation strategies among mobile operators, and what are the challenges faced by DFS providers in implementing these strategies?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": "DFS providers can mitigate account take over using intercepted OTP SMS by implementing a bidirectional authentication flow, where the user replies to an SMS with a code displayed on a view resource, and the DFS provider verifies the legitimacy of the reply SMS by looking at the SCCP meta-data. Additionally, DFS providers can detect and mitigate social engineering attacks with MT-USSD by using the SCCP meta-data to verify the global title (GT) of the USSD message and matching the user's location and home network. However, the challenges faced by DFS providers in implementing these strategies include the cost of implementation and the lack of regulation mandating it, as well as the fact that many DFS users do not own a smartphone and access the DFS via USSD or SMS, which makes it difficult to implement best of breed authentication and encryption mechanisms."
+                }
+            ]
+        }
+    ]
+}

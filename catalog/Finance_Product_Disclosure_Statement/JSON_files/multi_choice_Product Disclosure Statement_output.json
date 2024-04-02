@@ -1,0 +1,793 @@
+{
+    "tests": [
+        {
+            "key": "7fc8fcfe-1f2d-40fe-8ded-a51136213930",
+            "documents": [
+                "Product Disclosure Statement.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "ac7a2ceb-af7c-450f-974b-373f28697c0f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are interest payments made on the Debenture Stock?\nHow do you respond?\nA. Interest payments are made annually.\nB. Interest payments are made monthly.\nC. Interest payments are made quarterly.\nD. Interest payments are made semi-annually.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "eb94187b-7340-48e7-b928-cfc45b8a7e23",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the ranking of the Debenture Stock in the event of liquidation or winding up of the Company?\nHow do you respond?\nA. First ranking\nB. Second ranking\nC. Third ranking\nD. Unsecured\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f9e900c3-48f8-4f7a-a003-28fa35b18c54",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can the Company use the funds raised from the issue of Debenture Stock for any purpose?\nHow do you respond?\nA. No, the Company can only use the funds for lending operations directly to clients of the Company and clients of its subsidiary company, Lending Crowd Limited.\nB. Yes, the Company can use the funds for any purpose, including lending operations, marketing, and administrative expenses.\nC. No, the Company can only use the funds for lending operations, but not for marketing or administrative expenses.\nD. Yes, the Company can use the funds for lending operations, marketing, and administrative expenses, but not for capital expenditures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "324f119e-124b-420f-98db-c02d15f472b5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the claims on the assets of the Company that will or may rank ahead of an investor's claim if the Company is put into liquidation or wound up?\nHow do you respond?\nA. The Company's Personal Property and a charge over the Company's Other Property pursuant to the Trust Deed.\nB. The Company's obligations under the Debenture Stock.\nC. The interest rate margins of the Company.\nD. The borrower's property market.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5d298d62-82e4-4faa-a9b0-f74c9ae6ac4e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the Debenture Stock rank for repayment?\nHow do you respond?\nA. The Debenture Stock ranks first in line for repayment ahead of all other unsecured creditors.\nB. The Debenture Stock ranks behind all other secured creditors but ahead of unsecured creditors in the event of liquidation.\nC. The Debenture Stock ranks behind all other unsecured creditors and has no priority in the event of liquidation.\nD. The Debenture Stock is not eligible for repayment until all other creditors have been paid in full.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e26bcd58-740d-498b-a502-8bc90ab78d99",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can an investor get their money out early?\nHow do you respond?\nA. By selling their Debenture Stock on a licensed market in New Zealand.\nB. By requesting early repayment from the Company due to financial hardship.\nC. By exercising their right to require the Company to repay the Investment prior to the expiry of the fixed term.\nD. By transferring their Debenture Stock to another investor through a private agreement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b2c8db35-dd4b-43ff-bca7-ec8211d2fd9e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What assets are the Debenture Stock secured against?\nHow do you respond?\nA. The Company's Personal Property and a charge over the Company's Other Property pursuant to the Trust Deed.\nB. The Company's ability to meet its obligations under the Debenture Stock.\nC. The financial position and performance of the Company.\nD. The interest rate margins reduce profitability and impact on our ability to make our payment obligations under the Debenture Stock.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "47f51932-89e0-43f0-8753-3739ec7ec930",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the most significant risk faced by the Company?\nHow do you respond?\nA. Liquidity risk\nB. Debtor risk\nC. Interest rate risk\nD. Real estate and property market risk\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "818408b0-80a6-485d-a375-4e50b38d7766",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the company's approach to lending?\nHow do you respond?\nA. Finance Direct Limited adopts a conservative approach to lending, only lending to borrowers who meet their strict lending criteria.\nB. Finance Direct Limited takes a risk-taking approach to lending, lending to borrowers who may not meet traditional lending criteria.\nC. Finance Direct Limited offers flexible lending options to borrowers, with a focus on speed of service.\nD. Finance Direct Limited does not have an approach to lending, instead, they broker loans to other financial institutions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2000739f-d7f8-47e7-9c69-48ec205c46aa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the formula that the company has adopted to navigate challenging economic times?\nHow do you respond?\nA. The company has adopted a conservative approach to lending and brokers loans to other financial institutions on a non-recourse basis.\nB. The company has adopted a formula that involves switching its activities between lending and brokering.\nC. The company has adopted a formula that involves offering competitively priced, flexible products, and providing speed of service not always met by other lending institutions.\nD. The company has adopted a formula that involves advancing funds on equal terms as other retail and institutional investors through an innovative internet platform.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cd994758-89ea-4b4d-a345-3585b6dd1658",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Lending Crowd Limited?\nHow do you respond?\nA. A subsidiary company of Finance Direct Limited that advances funds on equal terms as other retail and institutional investors through an innovative internet platform.\nB. A Non-Bank Deposit Taker licensed by the Reserve Bank of New Zealand, offering competitively priced, flexible products, and speed of service.\nC. A financial institution that provides loans to Finance Direct Limited on a non-recourse basis.\nD. A company that the Reserve Bank of New Zealand has appointed to supervise Finance Direct Limited's activities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2bf42296-b4b5-41a7-b428-a6f34e8b3147",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the company's reputation in the market?\nHow do you respond?\nA. Finance Direct Limited has a reputation for offering competitively priced and flexible products, with a speed of service that is faster than other lending institutions.\nB. Finance Direct Limited has a reputation for being a conservative lender, with a focus on quality rather than growth.\nC. Finance Direct Limited has a reputation for being a new and untested lender in the market.\nD. Finance Direct Limited has a reputation for offering low-interest rates and poor-quality service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "67c56a4e-411a-452c-80c9-e63503bbb657",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Product Disclosure Statement (PDS)?\nHow do you respond?\nA. To provide detailed information about the Company's financial performance and outlook.\nB. To describe the terms and conditions of the Debenture Stock offer.\nC. To explain the Company's lending and brokering activities.\nD. To disclose the risks associated with investing in the Company.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "15711a31-8db7-4c0d-bbc0-7ee6d318e1b2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often is interest paid on the Debenture Stock?\nHow do you respond?\nA. Monthly\nB. Quarterly\nC. Semi-annually\nD. Annually\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cc740b45-804d-4acb-9d7a-609060f4f93f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process for requesting early repayment of Debenture Stock?\nHow do you respond?\nA. The request must be made in writing to the Company.\nB. The request can be made verbally to the Company.\nC. The request must be made through a third-party broker.\nD. The request cannot be made until the Maturity Date.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d329132c-9467-454c-978c-77b5031ea06e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can the Company repay the Investment prior to the expiry of the fixed term of the Investment?\nHow do you respond?\nA. Yes, the Company can repay the Investment at any time.\nB. Yes, the Company can repay the Investment prior to the expiry of the fixed term, provided that the Company has sufficient funds available.\nC. No, the Company cannot repay the Investment prior to the expiry of the fixed term, unless the investor agrees to a premature termination fee.\nD. No, the Company cannot repay the Investment prior to the expiry of the fixed term, as it is not permitted by the Trust Deed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "73e864c0-1d72-4b97-b854-6d32e506377f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the ranking of Debenture Stock work in the event of liquidation?\nHow do you respond?\nA. The Debenture Stock will rank equally with all existing and further Debenture Stock issued pursuant to the Trust Deed.\nB. The Debenture Stock will rank ahead of all existing and further Debenture Stock issued pursuant to the Trust Deed.\nC. The Debenture Stock will rank behind all existing and further Debenture Stock issued pursuant to the Trust Deed.\nD. The Debenture Stock will not have any ranking in the event of liquidation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fad679e4-9671-4099-b4f9-5f2e64f61320",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the claims on the assets of the Company that will or may rank ahead of the claim if the Company is put into liquidation or wound up?\nHow do you respond?\nA. Claims by holders of prior security interests, preferential creditors, and the Supervisor's remuneration, costs, charges, expenses, and liabilities.\nB. Claims by holders of prior security interests, the Supervisor's remuneration, costs, charges, expenses, and liabilities, and unpaid remuneration of the Company's employees.\nC. Claims by preferential creditors, the Supervisor's remuneration, costs, charges, expenses, and liabilities, and unpaid remuneration of the Company's employees.\nD. Claims by holders of prior security interests, unpaid remuneration of the Company's employees, and the Supervisor's remuneration, costs, charges, expenses, and liabilities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "eb305c71-470e-4833-b213-38dc1006c9ef",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Finance Direct?\nHow do you respond?\nA. To provide loans for the purchase of motor vehicles and boats\nB. To provide loans for the refinancing or consolidation of existing indebtedness\nC. To provide loans for secured and unsecured business and personal loans\nD. To provide loans for the purchase of assets and advancement of money to the consumer, small business, and retail finance sector.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "aafb14da-a566-4827-8cae-825966548b9a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Company's principal activity?\nHow do you respond?\nA. Raising money from the public by issuing Debenture Stock and advancing it to consumers, small businesses, and retail finance sectors.\nB. Brokering third-party loan facilities for the Company's customers and generating business via introducers and retail advertising.\nC. Providing financial solutions for the Company's clients through in-depth risk analysis, credit checking, and security value estimates.\nD. Operating a peer-to-peer lending platform and lending on the security of vehicles, boats, and property.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5171ec3c-0ebf-4764-bf78-fb9f742d18f3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the exposure of the Company to the lending sectors as of September 30, 2022?\nHow do you respond?\nA. 54% Consumer Loans, 46% Business Loans\nB. 63% Consumer Loans, 37% Business Loans\nC. 46% Consumer Loans, 54% Business Loans\nD. 100% Consumer Loans\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c3f8806e-d7e3-42e4-a2c8-6094a27e4278",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of Wayne Croad in the Company?\nHow do you respond?\nA. Wayne Croad is the Managing Director and credit manager of the Company.\nB. Wayne Croad is a non-executive director of the Company.\nC. Wayne Croad is the Company's principal lender.\nD. Wayne Croad is a founding director and responsible for the implementation of systems, key appointments, lending standards, and the strategic direction of the Company since inception.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "655d000f-5ad5-487a-a613-25d42a03e31a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much was the finder's fee paid to a party related to Wayne Croad during the six-month period ended September 30, 2022?\nHow do you respond?\nA. $14,000\nB. $22,000\nC. $140,000\nD. $169,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "55285b68-68b9-4c13-8d62-ffa710ddf38d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total value of receivables owned by the Company as of September 30, 2022?\nHow do you respond?\nA. $8,555,300\nB. $15,721,000\nC. $7,165,700\nD. $14,690,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "17c7b191-b398-4f67-9d9d-e75f86cd1154",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Lending Crowd Trustee Limited?\nHow do you respond?\nA. To provide a guarantee for the repayment of the Debenture Stock.\nB. To act as a trustee for the loans operated by Lending Crowd Limited.\nC. To provide additional business for the Company by lending on the peer-to-peer lending platform.\nD. To manage the day-to-day operations of the Company.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8956c0a5-8bfe-46ed-8e54-4537efde868c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can the Company vary loan agreements during the course of the loan facility?\nHow do you respond?\nA. Yes, the Company can vary loan agreements during the course of the loan facility.\nB. No, the Company cannot vary loan agreements during the course of the loan facility.\nC. Only if the borrower agrees to the variation.\nD. Only if the variation is to extend the repayment date of the loan.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "63e5d202-97d4-4041-a492-ec46a913abb7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for risk analysis, strategic planning, sales, and marketing, and general management in the Company?\nHow do you respond?\nA. Wayne Croad\nB. Richard\nC. Lending Crowd Limited\nD. Lending Crowd Trustee Limited\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f46e9a0e-15b4-461f-abea-a248ad67dc9b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the non-executive director of the Company who is also the Chairman of the Board of Directors?\nHow do you respond?\nA. Josh de Jong\nB. Kirstin Poole\nC. Stephen Massey\nD. Wayne Croad\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a3b27a78-421f-4bf3-bcb4-fee7ddce37d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much did the Company pay as a finder's fee to a party related to Wayne Croad during the six-month period ended September 30, 2022?\nHow do you respond?\nA. $140,000\nB. $27,600\nC. $18,000\nD. $30,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5d9e1585-b5a4-4ad7-a1cb-f3f2a8742ebf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the non-executive director of the Company who holds a Bachelor of Commerce and Law degrees from the University of Canterbury, New Zealand, and a Graduate Diploma in Wine Business from the University of Adelaide, Australia?\nHow do you respond?\nA. Josh de Jong\nB. Kirstin Poole\nC. Stephen Massey\nD. Wayne Croad\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5fe3eb97-77a3-4b1c-ac14-c6f3fcc55873",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the trust deed that the Debenture Stock being offered under this PDS will rank equally with all existing and further Debenture Stock which may be issued pursuant to?\nHow do you respond?\nA. Wayne Croad\nB. Richard Lott\nC. Josh de Jong\nD. Stephen Massey\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3fe48d4d-a8e5-43c6-b6ea-95ce00e7e064",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much was the aggregate principal amount of Debenture Stock issued by the Company and outstanding as of September 30, 2022?\nHow do you respond?\nA. $12,927,095\nB. $140,000\nC. $27,600\nD. $18,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7668a2a4-4b0f-4bf5-9d28-06f1169aca9c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the non-executive director of the Company who is a Qualified UK Chartered Accountant with more than 20 years' experience in small and medium-sized businesses, both as an investor and a manager?\nHow do you respond?\nA. Josh de Jong\nB. Kirstin Poole\nC. Richard Lott\nD. Stephen Massey\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "81bb7fe6-0001-4d10-82e4-a1e1e0967685",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the company that Stephen Massey is operating as an independent Mortgage Adviser under?\nHow do you respond?\nA. Kirstin Poole\nB. Wayne Croad\nC. Josh de Jong\nD. Stephen Massey\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3a16af6d-44df-43a7-a7fd-5879bed040b7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much will Stephen Massey receive as a director's fee for his role as a non-executive director of the Company?\nHow do you respond?\nA. $18,000\nB. $27,600\nC. $30,000\nD. $12,927,095\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "d256c0ef-189b-439b-a79f-5562e59b9f2c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the non-executive director of the Company who holds a National Diploma in Accountancy and is a Registered Financial Adviser?\nHow do you respond?\nA. Josh de Jong\nB. Stephen Massey\nC. Kirstin Poole\nD. Richard Lott\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6864afc1-1605-45ba-8a48-3b3350a439ca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the university that Josh de Jong holds a Bachelor of Education and a Diploma of Teaching from?\nHow do you respond?\nA. University of Canterbury\nB. University of Adelaide\nC. Auckland University of Technology\nD. University of Waikato\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c4bb35dc-2bde-4afb-9bd6-08589d870d1b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the aggregate principal amount of Debenture Stock issued by the Company as of September 30, 2022?\nHow do you respond?\nA. $17,602,000\nB. $12,927,095\nC. $45,546\nD. $415,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3b08ffd9-875e-46ed-ad66-fe7e64402286",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the ranking of Debenture Stock on liquidation?\nHow do you respond?\nA. Debenture Stock will rank equally with other secured creditors.\nB. Debenture Stock will rank below unsecured creditors.\nC. Debenture Stock will rank above all other creditors, including secured creditors.\nD. Debenture Stock will rank below all other creditors, including unsecured creditors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c87d6125-f58f-436d-baab-ec3a720975cc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the amount of preferential liability that ranked ahead of the Debenture Stock as of September 30, 2022?\nHow do you respond?\nA. $45,546\nB. $12,927,095\nC. $415,000\nD. $3,462,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "43b873e9-be2a-42eb-963f-3401a232d73c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Trust Deed granted by the Company in favor of the Supervisor?\nHow do you respond?\nA. To secure the Company's obligations under the Debenture Stock\nB. To provide a guarantee for the Company's guarantee obligations\nC. To create a security interest in the Company's Personal Property and a charge over its Other Property\nD. To rank the Debenture Stock equally with other secured creditors\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a822b263-b445-40ea-8fd8-a0e64b92811c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total value of assets subject to the security interest as of September 30, 2022?\nHow do you respond?\nA. $12,927,095\nB. $17,602,000\nC. $45,546\nD. $415,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d22f0f7f-24ab-4be6-995a-cb32736a4b78",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the key features of the Debenture Stock?\nHow do you respond?\nA. Unlimited guarantee by Lending Crowd Limited, unconditional guarantee by all Charging Group Members, security interest in Personal Property, and a charge over Other Property.\nB. Preferential liability ranking ahead of Debenture Stock, secured by a security interest in all of the Company's Personal Property and a charge over the Company's Other Property.\nC. The guarantee is limited to the amount of the security interest, which is sufficient to repay the liability of the guarantee.\nD. The Supervisor guarantees the Company's obligations under the Debenture Stock.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c1bfccd5-d24a-4f51-b2a7-b9ea507a68fc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often must the Company provide the Supervisor with reports?\nHow do you respond?\nA. Monthly\nB. Quarterly\nC. Annually\nD. Ad-hoc\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "066bb8e9-7242-49d3-9ad4-ae02ac9382ca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can Investors transfer their interest in the Debenture Stock?\nHow do you respond?\nA. Yes, Investors can transfer their interest in the Debenture Stock at any time.\nB. No, Investors cannot transfer their interest in the Debenture Stock.\nC. Yes, Investors can transfer their interest in the Debenture Stock, but only before the Maturity Date.\nD. Yes, Investors can transfer their interest in the Debenture Stock, but only with the Company's permission.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "8036a357-1614-4006-ab9f-63487720e975",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process for transferring ownership of an investment in Finance Direct Limited?\nHow do you respond?\nA. Completing a Transfer form and registering it with the Company.\nB. Notifying the Company in writing of the intention to transfer ownership.\nC. Signing over the investment certificate to the new owner.\nD. Transferring the investment through a third-party broker.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a114ecc8-3637-437d-91df-b61b9ac49709",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How will the investment be treated if one of the joint owners dies?\nHow do you respond?\nA. The investment will vest automatically with the survivor(s).\nB. The investment will be transferred to the deceased owner's estate.\nC. The investment will be sold to pay off any outstanding debts.\nD. The investment will be frozen until a new owner is appointed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "cc98b189-adf3-45e8-a656-1daa7329f38c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of Lending Crowd Limited in relation to Finance Direct Limited?\nHow do you respond?\nA. Lending Crowd Limited is a Charging Subsidiary of Finance Direct Limited.\nB. Lending Crowd Limited is a related party of Finance Direct Limited.\nC. Lending Crowd Limited is a subsidiary of Finance Direct Limited.\nD. Lending Crowd Limited has no relationship with Finance Direct Limited.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "88bc9666-d2a2-4df0-a723-5b88d94c8362",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can investors access financial information about Finance Direct Limited?\nHow do you respond?\nA. By visiting the company's website at www.financedirect.co.nz\nB. By searching for the company's name on the Disclose Register at https://disclose-register.companiesoffice.govt.nz/\nC. By contacting the company's customer service department directly\nD. By reviewing the company's social media accounts for financial updates\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7a18c179-57ba-41e7-adf1-123a272d03c2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the key ratios that investors should consider when evaluating Finance Direct Limited?\nHow do you respond?\nA. Capital ratio, liquidity cover ratio, and related party exposures.\nB. Net profit after tax, net cash flows from operating activities, and total assets.\nC. Cash and cash equivalents, total liabilities, and credit ratings.\nD. Liquidity requirements, capital adequacy, and return on investment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8c537624-dc7d-42a5-b29e-9133a3de5e29",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum requirement for the capital ratio for Finance Direct Limited?\nHow do you respond?\nA. 4%\nB. 6%\nC. 8%\nD. 10%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6f11c7d0-b3c8-4c81-9603-13d31ddfd1b2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often does Finance Direct Limited provide updates on its financial position?\nHow do you respond?\nA. Monthly\nB. Quarterly\nC. Annually\nD. Biennially\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "05872a8a-33d7-40d3-b7bc-5060438a9d14",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Trust Deed mentioned in the text?\nHow do you respond?\nA. To outline the terms and conditions of the Debenture Stock issued by the Company.\nB. To provide a detailed description of the Company's lending criteria and policies.\nC. To set out the financial limitations and restrictions that the Company must adhere to.\nD. To provide a list of the specific risks faced by the Company and its investors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f0112d92-86ce-4aef-b327-c21aa8800104",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the principal risks associated with investing in Debenture Stock, according to the text?\nHow do you respond?\nA. The risk that the Company will not be able to meet its debts as they fall due, the value of the Company's assets falls, and those assets are realized for less than the acquisition cost of those assets.\nB. The risk that the Company will not be able to recover loans in full from those parties borrowing funds from the Company.\nC. The risk that the Investor will be unable to sell the Debenture Stock before the Maturity Date or that the amount received is less than the principal amount paid for the Debenture Stock.\nD. The risk that the Company will not be able to maintain a capital ratio of not less than 10% and ensure that the aggregated related party exposure does not exceed 15% of capital.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "178076de-e91e-4161-ac33-db821d64bd8d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum amount of capital that the Company must maintain, according to the Trust Deed?\nHow do you respond?\nA. 8% of Total Tangible Assets\nB. 10% of Total Tangible Assets\nC. 15% of Total Tangible Assets\nD. 90% of Total Tangible Assets\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5c856e8f-2be7-4692-832a-09745230fa53",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum amount of related party exposure that the Company is allowed to have, according to the Trust Deed?\nHow do you respond?\nA. 15% of capital (where the Company does not have a credit rating).\nB. 10% of capital (where the Company does not have a credit rating).\nC. 86% of Total Tangible Assets.\nD. 90% of Total Tangible Assets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6b973f9f-22bf-44d6-9e96-77b7d343c980",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the loan application and credit approval process, according to the text?\nHow do you respond?\nA. To ensure that the Company follows stringent policies of monitoring loan performance.\nB. To ensure that the Company takes sufficient security to properly protect its position.\nC. To ensure that the covenants in the Trust Deed, pursuant to which Debenture Stock is issued, are met.\nD. To ensure that the Company lends at a higher loan-to-value ratio than larger financial institutions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "61e3a4f6-55b1-4a13-a7b5-cf5558f1ce3e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the most significant risk faced by the Company, according to the text?\nHow do you respond?\nA. The risk that the Company will not be able to meet its debts as they fall due.\nB. The risk that the value of the Company's assets will fall, and those assets will be realized for less than the acquisition cost of those assets.\nC. The risk that a significant number of loans made by the Company will not be repaid, and security taken for those loans will prove inadequate for any reason.\nD. The risk that the Company will not be able to recover loans in full from those parties borrowing funds from the Company.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "aa82da6a-e3ed-41d3-b2c9-79b46a3247aa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What percentage of the Company's loans are secured by agreements to mortgage over real estate owned by the borrower?\nHow do you respond?\nA. 20%\nB. 30%\nC. 40%\nD. 50%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "95bb10e4-6166-4bee-8179-4cee3e855a46",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the risk associated with investing in loans through the Platform?\nHow do you respond?\nA. The risk of loss due to borrower default.\nB. The risk of loss due to a decline in real estate values.\nC. The risk of loss due to a breach of licensing conditions.\nD. The risk of loss due to a staff mistake or fraud.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4f123d2e-8990-44b3-ba52-c5c4c28558b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does Finance Direct mitigate the risk of borrower default when investing in loans through the Platform?\nHow do you respond?\nA. By lending over multiple loans (it diversifies its exposure) and does not lend to any related party.\nB. By relying on a financial software program from an external provider which is not designed specifically for Finance Direct.\nC. By not having internal IT personnel and instead relying on third parties to effectively manage technological infrastructure.\nD. By including a staff mistake or fraud.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b561723a-4e38-4f80-ba61-0fa5bc22a5eb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the regulatory requirement that the Company is subject to due to Lending Crowd Limited operating a licensed peer-to-peer service?\nHow do you respond?\nA. The Company is required to maintain a minimum capital adequacy ratio of 8%\nB. The Company is required to comply with the Financial Markets Authority's (FMA) conditions for operating a peer-to-peer lending platform\nC. The Company is required to register as a non-bank deposit taker with the Reserve Bank of New Zealand\nD. The Company is required to comply with the Securities Act 1978\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e0e27d56-0a03-4e2a-9b00-a45cd84e0a5e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the company's regulatory risk?\nHow do you respond?\nA. The risk of non-compliance with regulatory requirements due to limited human resources.\nB. The risk of non-compliance with tax regulations due to complex tax rules.\nC. The risk of non-compliance with regulatory requirements due to the company's small size.\nD. The risk of non-compliance with regulatory requirements due to the company's status as a non-bank deposit taker.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8633212c-c146-4ffc-b270-ce5437566db6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the company's relationship with Lending Crowd Limited?\nHow do you respond?\nA. Lending Crowd Limited is a subsidiary of the company.\nB. Lending Crowd Limited is a non-bank deposit taker.\nC. Lending Crowd Limited operates a licensed peer-to-peer service.\nD. Lending Crowd Limited is a related party of the company.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "3bfd61c5-f2b7-402e-88ca-2f7dbb1f8c8d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the company's requirement for deducting resident withholding tax (RWT)?\nHow do you respond?\nA. The company must deduct RWT at a rate of 33% for all Investors who have not elected an applicable RWT rate.\nB. The company must deduct RWT at a rate of 45% for all Investors who have not supplied an IRD number.\nC. The company must deduct RWT at a rate of 10.5% for individual Investors who have informed the company that they have RWT exemption status.\nD. The company is not required to deduct RWT for interest paid to or applied for the benefit of non-resident Investors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "876bbc2c-241f-4bce-823c-e2c9a40814f4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of Covenant Trustee Services Limited in relation to the Debenture Stock?\nHow do you respond?\nA. Covenant Trustee Services Limited is the issuer of the Debenture Stock.\nB. Covenant Trustee Services Limited is the supervisor of the Debenture Stock.\nC. Covenant Trustee Services Limited is the trustee for the Debenture Stock.\nD. Covenant Trustee Services Limited is the auditor of the Debenture Stock.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "71f16896-3a7b-49a5-94a6-c0ab3bab1cef",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the auditor of Finance Direct Limited?\nHow do you respond?\nA. Grant Thornton\nB. Covenant Trustee Services Limited\nC. MinterEllisonRuddWatts\nD. Financial Services Complaints Limited\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "42becf48-b6eb-4d73-bdd5-0580ac887769",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can complaints about the Debenture Stock be made?\nHow do you respond?\nA. By contacting Financial Services Complaints Limited, an approved disputes resolution scheme that can help resolve complaints at no cost to the investor.\nB. By contacting the Financial Markets Authority, which is responsible for regulating financial markets in New Zealand and can provide information and guidance on complaint processes.\nC. By contacting the Company directly, as the issuer of the Debenture Stock, to request assistance with resolving any issues or concerns.\nD. By contacting a financial advisor or broker who can provide advice and guidance on the complaint process and assist with resolving any issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1b2c9100-9b58-439d-8857-75a455ccce4f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find more information about the Debenture Stock?\nHow do you respond?\nA. On the Company's website at www.financedirect.co.nz\nB. On the Disclose Register at https://disclose-register.companiesoffice.govt.nz\nC. By contacting Financial Services Complaints Limited\nD. By contacting the Financial Markets Authority\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "30b37bdf-2cd4-4f36-ad09-ca18f4f0d0d0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often will investors receive statements of interest and withholding tax deductions?\nHow do you respond?\nA. Monthly\nB. Quarterly\nC. Annually\nD. Weekly\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "208f5859-4002-4975-8356-09c6ee15e94e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find the application form for the Debenture Stock?\nHow do you respond?\nA. On the Company's website at www.financedirect.co.nz\nB. On the Disclose Register at https://disclose-register.companiesoffice.govt.nz\nC. By contacting Financial Service Providers Register Companies Office Private Bag 92061 Victoria Street West Auckland 1142\nD. By contacting Financial Services Complaints Limited, a financial ombudsman service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}

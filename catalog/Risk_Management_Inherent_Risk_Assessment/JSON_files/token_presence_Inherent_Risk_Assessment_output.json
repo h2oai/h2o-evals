@@ -1,0 +1,2179 @@
+{
+    "tests": [
+        {
+            "key": "2d61a5ef-ea56-49e4-befb-963e5414c8b0",
+            "documents": [
+                "Inherent_Risk_Assessment.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "bd10d7f3-e2ba-46c0-905a-cbb58038c518",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Inherent Risk Assessment (IRA) Guide?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "Guide",
+                        "process",
+                        "assess",
+                        "risk",
+                        "entities"
+                    ],
+                    "expected_output": "The purpose of the IRA Guide is to describe the process used by Compliance Enforcement Authorities (CEAs) to assess the inherent risk of registered entities and to serve as a common approach for NERC and the eight Regional Entities for implementing and performing an IRA."
+                },
+                {
+                    "key": "0e36b139-22e8-4d80-bf53-365eee7cec87",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of inherent risk in the context of the IRA Guide?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "inherent risk",
+                        "bulk power system",
+                        "BPS"
+                    ],
+                    "expected_output": "Inherent risk refers to the potential risks posed by an individual registered entity to the reliability of the bulk power system (BPS)."
+                },
+                {
+                    "key": "308d6bec-53b6-44e1-9b0e-735e844a2c0f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the major inputs into the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "risk",
+                        "element",
+                        "inputs",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The major inputs into the IRA process are risk element inputs and understanding the registered entity."
+                },
+                {
+                    "key": "75057223-bfec-4b13-8a94-9fb966d20a7c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are risk element inputs?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "assets",
+                        "systems",
+                        "geography",
+                        "interconnectivity",
+                        "prior compliance history",
+                        "overall unique entity composition"
+                    ],
+                    "expected_output": "Risk element inputs refer to the outputs from the risk elements, which are assets, systems, geography, interconnectivity, prior compliance history, and overall unique entity composition."
+                },
+                {
+                    "key": "71d7ec0c-6f6e-4b0d-b9ae-325e363edbff",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the IRA in the Risk-Based Compliance Oversight Framework?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "compliance",
+                        "oversight",
+                        "framework"
+                    ],
+                    "expected_output": "The IRA is a key input into development of each compliance oversight plan for a registered entity within the Risk-Based Compliance Oversight Framework."
+                },
+                {
+                    "key": "79073643-b3cd-495f-b1cc-bd5bbdc7e40a",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often is the IRA performed?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "periodic",
+                        "basis",
+                        "frequency"
+                    ],
+                    "expected_output": "The IRA is performed on a periodic basis, with the frequency based on a variety of factors including, but not limited to, changes to a registered entity, significant changes to reliability risks, or emergence of new reliability risks."
+                },
+                {
+                    "key": "907b81de-b701-4f6e-9260-80d32ab6c26e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the IRA results documentation?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "process",
+                        "methodology",
+                        "data",
+                        "results",
+                        "assessment"
+                    ],
+                    "expected_output": "The purpose of the IRA results documentation is to provide a record of the IRA process, including the methodology used, the data collected, and the results of the assessment."
+                },
+                {
+                    "key": "55b074d0-4c27-49b5-a590-4baee2cd8708",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are IRA results shared with the registered entity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "results",
+                        "shared",
+                        "report",
+                        "findings",
+                        "recommendations",
+                        "assessment"
+                    ],
+                    "expected_output": "IRA results are shared with the registered entity through a report that summarizes the findings and recommendations of the assessment."
+                },
+                {
+                    "key": "b77d4165-b738-4d41-b394-a2c31e56765d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the relationship between the IRA and the Internal Controls Evaluation (ICE)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "ICE"
+                    ],
+                    "expected_output": "The IRA results are a key input source to the ICE, if used, and in determining an overall compliance oversight plan for a registered entity."
+                },
+                {
+                    "key": "9d6344f7-aaff-42b0-9893-fc1dacee826e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the IRA in the compliance oversight process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "compliance",
+                        "oversight",
+                        "NERC",
+                        "Reliability",
+                        "Standards"
+                    ],
+                    "expected_output": "The IRA is a critical component of the compliance oversight process as it helps CEAs identify areas of focus and the level of effort needed to monitor compliance with enforceable NERC Reliability Standards."
+                },
+                {
+                    "key": "ba86e380-806c-40ed-a9c6-7ba768848082",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the IRA according to the text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "risks",
+                        "reliability",
+                        "BPS",
+                        "compliance",
+                        "oversight"
+                    ],
+                    "expected_output": "The purpose of the IRA is to assess the inherent risks to the reliability of the BPS and to identify areas of focus for compliance oversight."
+                },
+                {
+                    "key": "ad418d5d-1b9b-4350-abea-ebdab26e827f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the two major inputs into the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "risk",
+                        "element",
+                        "inputs",
+                        "understanding",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The two major inputs into the IRA process are risk element inputs and understanding the registered entity."
+                },
+                {
+                    "key": "1e2f7871-6bb6-49e2-b569-08592cb5e7bc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the ERO Enterprise in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "ERO",
+                        "Enterprise",
+                        "risks",
+                        "reliability",
+                        "BPS",
+                        "Risk",
+                        "Elements",
+                        "Guide"
+                    ],
+                    "expected_output": "The ERO Enterprise assesses risks to the reliability of the BPS and develops a Risk Elements Guide that describes the process for identifying risks and mapping associated registration functional categories and Reliability Standards."
+                },
+                {
+                    "key": "461a3730-505c-4b9f-b1a5-b32ff4905eea",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the annual ERO CMEP Implementation Plan?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "ERO",
+                        "BPS",
+                        "Reliability",
+                        "Standards",
+                        "Requirements"
+                    ],
+                    "expected_output": "The annual ERO CMEP Implementation Plan identifies specific ERO Enterprise risks to the reliability of the BPS, associated Reliability Standards and Requirements, and regional risk considerations."
+                },
+                {
+                    "key": "b4ebe423-186d-498d-bc66-f2b778ed567e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the importance of understanding the registered entity in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "understanding",
+                        "registered",
+                        "entity",
+                        "IRA",
+                        "process",
+                        "CEA"
+                    ],
+                    "expected_output": "Understanding the registered entity is an essential aspect of the IRA process, and the CEA should conduct activities to gain an understanding of the registered entity and its operations."
+                },
+                {
+                    "key": "ced1b9c6-af72-4d2e-973d-9ea963ed84b2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some activities that the CEA should conduct to gain an understanding of the registered entity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "gathering",
+                        "maintaining",
+                        "proactively",
+                        "identifying",
+                        "establishing"
+                    ],
+                    "expected_output": "Some activities that the CEA should conduct to gain an understanding of the registered entity include gathering and maintaining registered entity specific information and data, proactively identifying risk trends and prevalent practices, and establishing qualitative and quantitative risk factors."
+                },
+                {
+                    "key": "597848e3-7737-422d-8d28-6e4be885c6aa",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the IRA output?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "compliance",
+                        "oversight",
+                        "plan",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The IRA output should be used as a key input when developing the compliance oversight plan for a registered entity."
+                },
+                {
+                    "key": "e2d4d62a-9c3f-4bb5-96d5-4bc3232f00bb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of professional judgment in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "professional judgment",
+                        "IRA process",
+                        "conclusions"
+                    ],
+                    "expected_output": "Professional judgment should be applied during the IRA process and documented to support the conclusions reached."
+                },
+                {
+                    "key": "f39e2263-eeb2-48a5-b5ce-14cebbfd60dd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Information Gathering phase in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "identify",
+                        "collect",
+                        "analyze",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The purpose of the Information Gathering phase is to identify, collect, and analyze information about a particular registered entity."
+                },
+                {
+                    "key": "19032db5-9788-40eb-847d-cf243ac96beb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the outcome of the Information Gathering phase?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "reasonable",
+                        "basis",
+                        "conclusion",
+                        "inherent",
+                        "risks",
+                        "areas",
+                        "focus",
+                        "compliance",
+                        "oversight"
+                    ],
+                    "expected_output": "The outcome of the Information Gathering phase is to provide a reasonable basis for a conclusion regarding the registered entity's inherent risks and areas of focus for compliance oversight."
+                },
+                {
+                    "key": "18e4c4cb-311e-41a2-aeb6-12933f5d91c6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The purpose of the IRA process is to assess the inherent risk of a registered entity's operations and identify potential reliability risks to the Bulk Power System (BPS)."
+                    ],
+                    "expected_output": "The purpose of the IRA process is to assess the inherent risk of a registered entity's operations and identify potential reliability risks to the Bulk Power System (BPS)."
+                },
+                {
+                    "key": "a64d026c-76ed-44df-af07-6035d4a53de0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the three key inputs for the Information Gathering phase of the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "prioritized",
+                        "list",
+                        "known",
+                        "risks",
+                        "reliability",
+                        "BPS",
+                        "associated",
+                        "Reliability",
+                        "Standards",
+                        "Requirements",
+                        "understanding",
+                        "registered",
+                        "entity",
+                        "operations",
+                        "information",
+                        "attributes",
+                        "lists",
+                        "common",
+                        "sources"
+                    ],
+                    "expected_output": "The three key inputs for the Information Gathering phase are: (1) prioritized list of known risks to the reliability of the BPS and associated Reliability Standards and Requirements, (2) understanding of the registered entity and its operations, and (3) information attributes lists and their common sources."
+                },
+                {
+                    "key": "29b9d4c2-1ed7-43d9-837b-82452e337a48",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the first step in gathering information pertaining to potential BPS reliability risks?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "review",
+                        "Risk",
+                        "Elements",
+                        "Guide",
+                        "annual",
+                        "CMEP",
+                        "Implementation",
+                        "Plan",
+                        "applicability",
+                        "entity"
+                    ],
+                    "expected_output": "The first step in gathering information pertaining to potential BPS reliability risks is to review the outputs from the Risk Elements Guide and annual CMEP Implementation Plan for applicability to the entity."
+                },
+                {
+                    "key": "a65e683a-a3b4-4390-ab65-85d8a4ae9a3f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the information attributes list in Appendix B?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The purpose of",
+                        "information attributes list",
+                        "Appendix B",
+                        "is to provide",
+                        "resource for",
+                        "CEAs to consider",
+                        "IRA process",
+                        "containing possible",
+                        "information for",
+                        "CEAs to consider",
+                        "when gathering"
+                    ],
+                    "expected_output": "The purpose of the information attributes list in Appendix B is to provide a resource for CEAs to consider during the IRA process, containing possible information for CEAs to consider when gathering information."
+                },
+                {
+                    "key": "1475458d-539e-4e0f-baa8-bccb993e63a1",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should CEAs develop targeted information requests?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "CEAs",
+                        "information",
+                        "attributes",
+                        "list",
+                        "Appendix",
+                        "B",
+                        "resource",
+                        "reconciling",
+                        "information",
+                        "hand",
+                        "information",
+                        "attributes",
+                        "list",
+                        "identify",
+                        "potential",
+                        "information",
+                        "gaps",
+                        "data",
+                        "verification",
+                        "needs"
+                    ],
+                    "expected_output": "CEAs should develop targeted information requests by using the information attributes list in Appendix B as a resource and reconciling the information on hand with the information attributes list to identify potential information gaps and data verification needs."
+                },
+                {
+                    "key": "5381237f-686e-46a2-ade5-2cdeffb05780",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the risk factors applied to the entity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "identify",
+                        "further",
+                        "information",
+                        "requests",
+                        "decision",
+                        "making",
+                        "Section",
+                        "2.2"
+                    ],
+                    "expected_output": "The purpose of the risk factors applied to the entity is to identify further information requests for decision making in Section 2.2."
+                },
+                {
+                    "key": "a8925cfa-eae3-459b-934e-fe6d813c2675",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between appropriateness and sufficiency in the context of information collected during the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "appropriateness",
+                        "sufficiency",
+                        "information",
+                        "IRA",
+                        "process"
+                    ],
+                    "expected_output": "Appropriateness is a measure of the quality of information that encompasses its relevance, validity, and reliability, whereas sufficiency is a measure of the quantity of information that is necessary to draw conclusions."
+                },
+                {
+                    "key": "3b23f8dd-0841-4f01-bb01-eea10275da25",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should CEAs consider when developing risk factors and risk factor criteria?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "size",
+                        "location",
+                        "function"
+                    ],
+                    "expected_output": "CEAs should consider the context of a registered entity's size, location, or function when developing risk factors and risk factor criteria."
+                },
+                {
+                    "key": "b43d5d93-ab21-4e62-a06e-8b657b28ab8e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the ERO in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "ERO",
+                        "IRA",
+                        "CEAs",
+                        "information",
+                        "gathering",
+                        "phase",
+                        "appropriate",
+                        "sufficient"
+                    ],
+                    "expected_output": "The ERO plays a role in the IRA process by providing guidance and support to CEAs in the information gathering phase, and by confirming that the information collected is both appropriate and sufficient."
+                },
+                {
+                    "key": "00877afb-6658-41e8-a65a-6975b305dd22",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the objective of the Information Gathering phase of the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "gather",
+                        "information",
+                        "pertaining",
+                        "potential",
+                        "BPS",
+                        "reliability",
+                        "risks",
+                        "associated",
+                        "Reliability",
+                        "Standards",
+                        "Requirements",
+                        "registered",
+                        "entity's",
+                        "functional",
+                        "registrations"
+                    ],
+                    "expected_output": "The objective of the Information Gathering phase of the IRA process is to gather information pertaining to the potential BPS reliability risks and the associated Reliability Standards and Requirements for the registered entity's functional registration(s)."
+                },
+                {
+                    "key": "2b80fda1-45b7-4d34-9aa3-fcf0f96c4f7f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Information Gathering phase in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "information",
+                        "gathering",
+                        "phase",
+                        "IRA",
+                        "risk",
+                        "elements",
+                        "factors",
+                        "standards",
+                        "requirements",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The purpose of the Information Gathering phase is to collect and verify information that is necessary to perform an IRA, including information on risk elements, risk factors, and Reliability Standards and Requirements applicable to the registered entity."
+                },
+                {
+                    "key": "fb039f6d-ce1a-456f-b561-cc40bfc3d5a4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the key outputs of the Information Gathering phase?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "prioritized",
+                        "list",
+                        "risks",
+                        "reliability",
+                        "BPS",
+                        "Reliability",
+                        "Standards",
+                        "Requirements",
+                        "preliminary",
+                        "list",
+                        "risk",
+                        "factors",
+                        "registered",
+                        "entity",
+                        "data"
+                    ],
+                    "expected_output": "The key outputs of the Information Gathering phase include a prioritized list of known risks to the reliability of the BPS and associated Reliability Standards and Requirements, a preliminary list of risk factors applicable to the registered entity, and updated/verified registered entity data."
+                },
+                {
+                    "key": "77ff8e40-64bc-4c71-94b6-ab733a580baf",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of professional judgment in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Professional",
+                        "judgment",
+                        "IRA",
+                        "process",
+                        "reliable",
+                        "sources",
+                        "information",
+                        "collected"
+                    ],
+                    "expected_output": "Professional judgment is required in the IRA process to identify the most reliable sources of information and to determine the appropriateness and sufficiency of the information collected."
+                },
+                {
+                    "key": "f3f90f5a-8db1-47f6-9456-3fd3de63739a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some examples of risk factors that may be applicable to a registered entity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "weather",
+                        "human error",
+                        "cybersecurity threats"
+                    ],
+                    "expected_output": "Examples of risk factors that may be applicable to a registered entity include those listed in Appendix C of the IRA Guide, such as weather, human error, and cybersecurity threats."
+                },
+                {
+                    "key": "c448b534-1334-4a51-8051-3f377f1a25db",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the CEA determine which Reliability Standards and Requirements are applicable to a registered entity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "CEA",
+                        "determines",
+                        "which",
+                        "Reliability",
+                        "Standards",
+                        "and",
+                        "Requirements",
+                        "are",
+                        "applicable",
+                        "to",
+                        "a",
+                        "registered",
+                        "entity",
+                        "by",
+                        "reviewing",
+                        "the",
+                        "registered",
+                        "entity's",
+                        "functional",
+                        "designation",
+                        "and",
+                        "using",
+                        "information",
+                        "gathered",
+                        "during",
+                        "the",
+                        "Information",
+                        "Gathering",
+                        "phase",
+                        "to",
+                        "exclude",
+                        "any",
+                        "non-applicable",
+                        "Reliability",
+                        "Standards",
+                        "and",
+                        "Requirements"
+                    ],
+                    "expected_output": "The CEA determines which Reliability Standards and Requirements are applicable to a registered entity by reviewing the registered entity's functional designation and using information gathered during the Information Gathering phase to exclude any non-applicable Reliability Standards and Requirements."
+                },
+                {
+                    "key": "0ff7fd5e-09c0-4636-9da0-53618fb35912",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Assessment phase in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Assessment",
+                        "risk",
+                        "elements",
+                        "risk factors",
+                        "Reliability",
+                        "Standards",
+                        "Requirements",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The purpose of the Assessment phase is to assess and draw conclusions around risk elements, risk factors, and Reliability Standards and Requirements applicable to the registered entity."
+                },
+                {
+                    "key": "9112d6a1-e486-448c-9c61-3fc547bdac18",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the key inputs for the Assessment phase?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "prioritized",
+                        "risks",
+                        "reliability",
+                        "BPS",
+                        "Reliability",
+                        "Standards",
+                        "Requirements",
+                        "preliminary",
+                        "risk",
+                        "factors",
+                        "registered",
+                        "entity",
+                        "data"
+                    ],
+                    "expected_output": "The key inputs for the Assessment phase include the prioritized list of known risks to the reliability of the BPS and associated Reliability Standards and Requirements, the preliminary list of risk factors applicable to the registered entity, and updated/verified registered entity data."
+                },
+                {
+                    "key": "bd27960b-4100-4f4f-8a9f-7b7f1fafeaa1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Risk Factor and Reliability Standards and Requirements Applicability Review?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Risk",
+                        "Review",
+                        "applicability",
+                        "Reliability",
+                        "Standards",
+                        "Requirements"
+                    ],
+                    "expected_output": "The purpose of the Risk Factor and Reliability Standards and Requirements Applicability Review is to review information gathered to confirm the applicability of Reliability Standards and Requirements to the registered entity and to exclude any non-applicable Reliability Standards and Requirements."
+                },
+                {
+                    "key": "8e7b22a2-1637-4c4e-a0d0-0c3f6bef0833",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the CEA document conclusions reached for Reliability Standards and Requirements excluded from further analysis?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "CEA",
+                        "IRA",
+                        "report"
+                    ],
+                    "expected_output": "The CEA documents conclusions reached for Reliability Standards and Requirements excluded from further analysis based on the Applicability Review in the IRA report."
+                },
+                {
+                    "key": "91cc466d-55ce-4157-bd35-262aab5235e2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the key questions that the CEA should answer during the Information Gathering phase?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "what",
+                        "risk",
+                        "elements",
+                        "risk",
+                        "factors",
+                        "registered",
+                        "entity",
+                        "information",
+                        "where"
+                    ],
+                    "expected_output": "The CEA should answer questions such as what risk elements and risk factors are applicable to the registered entity, what registered entity specific information is needed, and where to obtain information from."
+                },
+                {
+                    "key": "8c95a023-341b-4f66-a74f-f2470b08e669",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Applicability Review in the Inherent Risk Assessment (IRA) process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Applicability Review",
+                        "Reliability Standards",
+                        "Requirements",
+                        "registered entity",
+                        "information collection phase"
+                    ],
+                    "expected_output": "The purpose of the Applicability Review is to determine which Reliability Standards and Requirements are applicable to a registered entity based on the information gathered during the information collection phase."
+                },
+                {
+                    "key": "c2c02deb-e253-4d21-ab2b-9479bb1322ef",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the criteria for determining the applicability of Reliability Standards and Requirements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "nature",
+                        "functional designation",
+                        "risk factors"
+                    ],
+                    "expected_output": "The criteria for determining the applicability of Reliability Standards and Requirements include the nature of the entity, the functional designation of the entity, and the risk factors associated with the entity."
+                },
+                {
+                    "key": "9b7421b0-e851-4c34-94cc-a9aaebdabb4e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the CEA in the Applicability Review?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "CEA",
+                        "Applicability",
+                        "Review",
+                        "Reliability",
+                        "Standards",
+                        "Requirements",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The CEA is responsible for performing the Applicability Review and determining which Reliability Standards and Requirements are applicable to the registered entity."
+                },
+                {
+                    "key": "76a2f997-6568-466a-b80f-83c14f555233",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the next step after completing the Applicability Review?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "After",
+                        "completing",
+                        "the",
+                        "Applicability",
+                        "Review",
+                        "the",
+                        "CEA",
+                        "will",
+                        "perform",
+                        "a",
+                        "Risk",
+                        "Factor",
+                        "Analysis",
+                        "to",
+                        "determine",
+                        "the",
+                        "level",
+                        "of",
+                        "risk",
+                        "associated",
+                        "with",
+                        "each",
+                        "applicable",
+                        "Reliability",
+                        "Standard",
+                        "and",
+                        "Requirement"
+                    ],
+                    "expected_output": "After completing the Applicability Review, the CEA will perform a Risk Factor Analysis to determine the level of risk associated with each applicable Reliability Standard and Requirement."
+                },
+                {
+                    "key": "8dc278dd-3c39-46cb-bf48-d9254be5a58a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Risk Factor Analysis?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "determine",
+                        "level",
+                        "risk",
+                        "associated",
+                        "apply",
+                        "standard",
+                        "requirement",
+                        "identify",
+                        "areas",
+                        "focus",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The purpose of the Risk Factor Analysis is to determine the level of risk associated with each applicable Reliability Standard and Requirement and to identify areas of focus within the registered entity."
+                },
+                {
+                    "key": "4666c950-fd53-449b-8197-b96579bed779",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some examples of risk factors that may be considered in the Risk Factor Analysis?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "UVLS",
+                        "Vegetation Management",
+                        "SPSs"
+                    ],
+                    "expected_output": "Examples of risk factors that may be considered in the Risk Factor Analysis include Under Voltage Load Shedding (UVLS) consideration, Vegetation Management, and special protective systems (SPSs)."
+                },
+                {
+                    "key": "1e8dba67-c6f1-42b2-add1-283e1f607eb6",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are risk factors weighted in the Risk Factor Analysis?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "risk factors",
+                        "weighted",
+                        "criteria",
+                        "likelihood",
+                        "potential impact",
+                        "risk event"
+                    ],
+                    "expected_output": "Risk factors are weighted based on risk factor evaluation criteria, such as the likelihood and potential impact of a risk event, as shown in the Appendix C \u2013 Risk Factor Examples."
+                },
+                {
+                    "key": "938a8e1d-d52c-48c8-9b28-cf9315313531",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of reconfirming the Reliability Standards and Requirements applicable to the registered entity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "ensure",
+                        "accurately",
+                        "identified",
+                        "relevant",
+                        "risk",
+                        "factors",
+                        "associated",
+                        "Reliability",
+                        "Standards",
+                        "Requirements"
+                    ],
+                    "expected_output": "The purpose of reconfirming the Reliability Standards and Requirements applicable to the registered entity is to ensure that the CEA has accurately identified all relevant risk factors and associated Reliability Standards and Requirements based on the information gathered."
+                },
+                {
+                    "key": "9055104f-e842-435f-b8c1-088e4aa2187f",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the CEA determine the level of risk associated with each risk factor?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "evaluating",
+                        "assessing"
+                    ],
+                    "expected_output": "The CEA determines the level of risk associated with each risk factor by evaluating the risk factor against the defined risk factor evaluation criteria and assessing the likelihood and potential impact of a risk event."
+                },
+                {
+                    "key": "6d915199-b1da-4360-a2de-55df09a4fa51",
+                    "prompt": "Respond to the following question.\n\nQuestion: Can the risk factor evaluation criteria vary by region, entity size, or function?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, the risk factor evaluation criteria may vary by region, entity size, or function, and the CEA must consider these factors when evaluating the relative importance of a particular risk factor criterion."
+                },
+                {
+                    "key": "ecd6ea02-1711-4cb9-bcb5-28f81478abb8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Appendix C in the context of inherent risk assessment?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Appendix C",
+                        "risk factors",
+                        "size",
+                        "function"
+                    ],
+                    "expected_output": "Appendix C can assist in evaluating the criteria of applied risk factors, but consideration must be made for a registered entity\u2019s size or function."
+                },
+                {
+                    "key": "92761d94-cffe-4f77-ae7f-ae5ae3f53851",
+                    "prompt": "Respond to the following question.\n\nQuestion: How may the relative importance of a particular risk-factor criterion vary?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "may",
+                        "need",
+                        "evaluated",
+                        "compared",
+                        "size",
+                        "function"
+                    ],
+                    "expected_output": "The relative importance of a particular risk-factor criterion may need to be evaluated compared to a registered entity\u2019s size or function."
+                },
+                {
+                    "key": "3733ac77-21dc-48af-96a3-108a73038935",
+                    "prompt": "Respond to the following question.\n\nQuestion: May certain risk factors and their associated criteria/thresholds vary by region, entity size, or function?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, certain risk factors and their associated criteria/thresholds may vary by region, by entity size, or by function."
+                },
+                {
+                    "key": "5e59b127-dda3-4e4c-a2c9-1a7409697156",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the CEA documenting their professional judgment used in identifying risk factors and developing risk factor evaluation criteria?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "should",
+                        "document",
+                        "their",
+                        "professional",
+                        "judgment",
+                        "used",
+                        "in",
+                        "identifying",
+                        "risk",
+                        "factors",
+                        "and",
+                        "developing",
+                        "risk",
+                        "factor",
+                        "evaluation",
+                        "criteria",
+                        "to",
+                        "support",
+                        "the",
+                        "conclusion",
+                        "reached",
+                        "in",
+                        "determining",
+                        "an",
+                        "entity\u2019s",
+                        "unique",
+                        "inherent",
+                        "risks",
+                        "to",
+                        "the",
+                        "reliability",
+                        "of",
+                        "the",
+                        "BPS"
+                    ],
+                    "expected_output": "The CEA should document their professional judgment used in identifying risk factors and developing risk factor evaluation criteria to support the conclusion reached in determining an entity\u2019s unique inherent risks to the reliability of the BPS."
+                },
+                {
+                    "key": "14b579ab-68f4-45fd-9977-779c30cf8551",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is an example of a risk factor that may be associated with a GOP registered function?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "UVLS",
+                        "System",
+                        "events",
+                        "trends"
+                    ],
+                    "expected_output": "An example of a risk factor associated with a GOP registered function is UVLS and System events and trends."
+                },
+                {
+                    "key": "616f4414-084c-448d-86e0-f4cbf657ea97",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the risk factor criteria in the context of inherent risk assessment?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "risk factor",
+                        "criteria",
+                        "inherent risk",
+                        "BPS"
+                    ],
+                    "expected_output": "The risk factor criteria are used to evaluate the applicability of risk factors to a registered entity\u2019s inherent risk to the reliability of the BPS."
+                },
+                {
+                    "key": "94f5873e-0e2e-4b0c-a2ec-2ad545669298",
+                    "prompt": "Respond to the following question.\n\nQuestion: How may the risk factors and associated requirements under VAR-002-2b R1, R2, R3, R4 remain in scope if the CEA determined that the entity\u2019s characteristics meet higher ranked criteria?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "risk",
+                        "factors",
+                        "and",
+                        "associated",
+                        "requirements",
+                        "under",
+                        "VAR-002-2b",
+                        "R1",
+                        "R2",
+                        "R3",
+                        "R4",
+                        "would",
+                        "remain",
+                        "in",
+                        "scope",
+                        "if",
+                        "the",
+                        "CEA",
+                        "determined",
+                        "that",
+                        "the",
+                        "entity\u2019s",
+                        "characteristics",
+                        "meet",
+                        "higher",
+                        "ranked",
+                        "criteria"
+                    ],
+                    "expected_output": "The risk factors and associated requirements under VAR-002-2b R1, R2, R3, R4 would remain in scope if the CEA determined that the entity\u2019s characteristics meet higher ranked criteria."
+                },
+                {
+                    "key": "e984f9b5-9ebf-4e38-91b0-aae5e2a80e6d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the quality review of IRA conclusions?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "appropriate",
+                        "information",
+                        "known",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The purpose of the quality review of IRA conclusions is to ensure that the conclusions reached by the CEA are appropriate based on the information known about the registered entity."
+                },
+                {
+                    "key": "1c8df1b9-2c4f-438b-8b09-9456654a6a3c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the key outputs of the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "updated list",
+                        "risk factors",
+                        "inherent risk",
+                        "BPS",
+                        "comprehensive list",
+                        "Reliability Standards",
+                        "Requirements",
+                        "documentation",
+                        "inclusion",
+                        "exclusion"
+                    ],
+                    "expected_output": "The key outputs of the IRA process include an updated list of risk factors used to assess the registered entity\u2019s inherent risk to the reliability of the BPS, a comprehensive list of Reliability Standards and Requirements that are determined to be applicable to the registered entity, and documentation supporting inclusion/exclusion of Reliability Standards and Requirements."
+                },
+                {
+                    "key": "a7edbd15-0ccb-418a-8bf2-a955a926ee17",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of mapping risk factors and criteria to applicable Reliability Standards and Requirements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "mitigate",
+                        "risks",
+                        "reliability",
+                        "BPS"
+                    ],
+                    "expected_output": "The purpose of mapping risk factors and criteria to applicable Reliability Standards and Requirements is to ensure that the registered entity meets the requirements necessary to mitigate the identified risks to the reliability of the BPS."
+                },
+                {
+                    "key": "b1949df0-723d-4177-ac65-7da7a7656886",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The purpose of the IRA process is to assess the inherent risks and potential risks to reliability posed by a registered entity."
+                    ],
+                    "expected_output": "The purpose of the IRA process is to assess the inherent risks and potential risks to reliability posed by a registered entity."
+                },
+                {
+                    "key": "9956486e-8af7-4a47-b0e6-981dcf51bf5d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the key outputs of the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "identification",
+                        "inherent",
+                        "risks",
+                        "list",
+                        "associated",
+                        "Reliability",
+                        "Standards",
+                        "Requirements",
+                        "summary",
+                        "ties",
+                        "analyses",
+                        "performed",
+                        "subsequent",
+                        "conclusions",
+                        "draft",
+                        "compliance",
+                        "oversight",
+                        "plan",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "The key outputs of the IRA process include identification of inherent risks, list of associated Reliability Standards and Requirements, summary of how the IRA ties to different analyses performed and subsequent conclusions, and a draft compliance oversight plan for the registered entity."
+                },
+                {
+                    "key": "62f135d1-ca64-487a-98a2-84d553e825eb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the key questions for the Decision Making phase of the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [],
+                    "expected_output": "The key questions for the Decision Making phase of the IRA process include:\n\n* Which Reliability Standards and Requirements are not applicable?\n* Which risk factors are not applicable?\n* Which risk factors are used to assess the level of significance of Reliability Standards and Requirements in scope?\n* What are the areas of focus?\n* What level of effort should be assigned to each area of focus?\n* What is the preliminary compliance oversight plan?"
+                },
+                {
+                    "key": "c894d919-82ea-4c65-b3a0-34413370688d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the CEA in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "CEA",
+                        "IRA",
+                        "risks",
+                        "reliability",
+                        "registered entity"
+                    ],
+                    "expected_output": "The CEA is the owner of the IRA process and is responsible for assessing inherent risks and potential risks to reliability posed by a registered entity."
+                },
+                {
+                    "key": "4b0e3abc-7674-4cde-9449-dc63776a042c",
+                    "prompt": "Respond to the following question.\n\nQuestion: How often should the IRA be performed?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "periodic",
+                        "basis",
+                        "variety",
+                        "factors",
+                        "changes",
+                        "registered",
+                        "entity",
+                        "significant",
+                        "emergence",
+                        "new",
+                        "reliability",
+                        "risks"
+                    ],
+                    "expected_output": "The IRA should be performed on a periodic basis, with the frequency based on a variety of factors including changes to a registered entity and significant changes or emergence of new reliability risks."
+                },
+                {
+                    "key": "780fc26c-6b94-42cf-9ecd-db4a65005e59",
+                    "prompt": "Respond to the following question.\n\nQuestion: What triggers a revision of the IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "revision",
+                        "IRA",
+                        "changes",
+                        "risks",
+                        "system",
+                        "compliance",
+                        "activity",
+                        "structure",
+                        "standards"
+                    ],
+                    "expected_output": "A revision of the IRA may be necessary due to changes to a registered entity, significant changes or emergence of new reliability risks, system events, changes in compliance history or activity, significant changes to organization structure, changes to Reliability Standards, etc."
+                },
+                {
+                    "key": "e06de9e0-4acb-4712-80f7-3de8c490ebe1",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the CEA document the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "CEA",
+                        "IRA",
+                        "process",
+                        "Information",
+                        "Gathering",
+                        "Decision",
+                        "Making",
+                        "IRA",
+                        "Outcomes",
+                        "risk",
+                        "Reliability",
+                        "Standards",
+                        "Requirements",
+                        "registered",
+                        "entity",
+                        "outcomes",
+                        "Decision",
+                        "Making",
+                        "phase",
+                        "supporting",
+                        "information"
+                    ],
+                    "expected_output": "The CEA should document each phase of the IRA process, including Information Gathering, Decision Making, and IRA Outcomes. The CEA should also document conclusions around risk factors, Reliability Standards and Requirements applicable to the registered entity, outcomes of the Decision Making phase, and supporting information."
+                },
+                {
+                    "key": "65896113-7b31-49cd-bd04-1f39fe736aa8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should the CEA do if new, emerging, or unique information is obtained about risks to the reliability of the BPS?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "If",
+                        "new",
+                        "risks",
+                        "BPS",
+                        "IRA",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "If new, emerging, or unique information is obtained about risks to the reliability of the BPS, the CEA should consider whether it needs to revisit an IRA to determine how the new reliability risk impacts a registered entity."
+                },
+                {
+                    "key": "0d4dd159-d535-4a91-8b49-46650aa645d3",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the CEA share IRA results with the registered entity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "CEA",
+                        "should",
+                        "facilitate",
+                        "a",
+                        "collaborative",
+                        "dialogue",
+                        "with",
+                        "the",
+                        "registered",
+                        "entity",
+                        "throughout",
+                        "the",
+                        "IRA",
+                        "process",
+                        "and",
+                        "share",
+                        "the",
+                        "summary",
+                        "results",
+                        "with",
+                        "the",
+                        "registered",
+                        "entity",
+                        "including",
+                        "risk",
+                        "areas",
+                        "and",
+                        "impact",
+                        "on",
+                        "the",
+                        "scope",
+                        "of",
+                        "monitoring"
+                    ],
+                    "expected_output": "The CEA should facilitate a collaborative dialogue with the registered entity throughout the IRA process and share the summary results with the registered entity, including risk areas and impact on the scope of monitoring."
+                },
+                {
+                    "key": "1589dc29-f6e0-4757-af43-2973f49baf82",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the importance of an IRA in maintaining a reliable BPS?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "BPS",
+                        "CEA"
+                    ],
+                    "expected_output": "An IRA is essential in maintaining a reliable BPS as it establishes a frame of reference by which the IRA is conducted and helps ensure that the CEA has appropriate and sufficient information to conduct the IRA and reach accurate conclusions."
+                },
+                {
+                    "key": "d167d9ab-96eb-4dfe-acfd-a548b24365aa",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should CEAs do when they identify risk focus areas that do not map to current, enforceable Reliability Standards during an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "revisit",
+                        "IRA",
+                        "new",
+                        "risk",
+                        "impacts",
+                        "registered",
+                        "entity"
+                    ],
+                    "expected_output": "CEAs should consider whether it needs to revisit an IRA to determine how the new reliability risk impacts a registered entity."
+                },
+                {
+                    "key": "f9b05833-ed1b-4aba-a1f8-c40d6b668d1f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the feedback loop involving compliance monitoring activities and the NERC standards development process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "inform",
+                        "future",
+                        "priorities",
+                        "projects",
+                        "NERC",
+                        "standards",
+                        "development",
+                        "process",
+                        "ERO",
+                        "Enterprise",
+                        "program",
+                        "areas"
+                    ],
+                    "expected_output": "The feedback loop will help inform future priorities, projects in the NERC standards development process, and other ERO Enterprise program areas."
+                },
+                {
+                    "key": "6d7d2958-a66e-447a-b660-4b61f1685532",
+                    "prompt": "Respond to the following question.\n\nQuestion: How should CEAs document their conclusions made during the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "follow",
+                        "established",
+                        "documentation",
+                        "procedure",
+                        "professional"
+                    ],
+                    "expected_output": "CEAs should follow established documentation protocols, refer to the NERC Rules of Procedure, and use professional judgment when determining documentation needs throughout the IRA process."
+                },
+                {
+                    "key": "22b578f3-8362-49c9-961d-534bf5a70410",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the extent of documentation required for the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "directly",
+                        "linked",
+                        "nature",
+                        "size",
+                        "complexity",
+                        "issues",
+                        "procedures",
+                        "methodologies",
+                        "technologies",
+                        "used",
+                        "process"
+                    ],
+                    "expected_output": "The extent of documentation is directly linked to the nature, size, and complexity of the issues, procedures performed, and methodologies and technologies used during the process."
+                },
+                {
+                    "key": "7cb6e027-718a-43dd-9df7-cf29e3d9aab5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some examples of documentation that should be retained by CEAs upon completion of the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "IRA",
+                        "programs",
+                        "analyses",
+                        "memoranda",
+                        "summaries",
+                        "checklists",
+                        "abstracts",
+                        "copies",
+                        "documents",
+                        "correspondence"
+                    ],
+                    "expected_output": "Examples of documentation that should be retained include IRA programs, analyses, memoranda, summaries of significant findings or issues, checklists, abstracts, copies of important documents, and paper or electronic correspondence concerning significant findings or issues."
+                },
+                {
+                    "key": "cee805e5-127d-4e32-9a7f-65cd62f9bdd0",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can CEAs determine the sufficiency and appropriateness of evidence to be examined during the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "GAGAS",
+                        "ERO Compliance Auditor Handbook"
+                    ],
+                    "expected_output": "CEAs can use reference materials such as Generally Accepted Government Auditing Standards (GAGAS) and ERO Compliance Auditor Handbook to determine the sufficiency and appropriateness of evidence."
+                },
+                {
+                    "key": "ebeb2851-818c-4539-a380-47ffebfa1d67",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Annual ERO CMEP Implementation Plan?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "compliance",
+                        "reliability",
+                        "roadmap"
+                    ],
+                    "expected_output": "The purpose of the Annual ERO CMEP Implementation Plan is to provide a roadmap for the ERO Enterprise's compliance and reliability programs."
+                },
+                {
+                    "key": "490fef24-4112-4687-9ab9-4198dfe1a125",
+                    "prompt": "Respond to the following question.\n\nQuestion: Where can CEAs find the NERC Rules of Procedure?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "http://www.nerc.com/AboutNERC/Pages/Rules-of-Procedure"
+                    ],
+                    "expected_output": "CEAs can find the NERC Rules of Procedure at http://www.nerc.com/AboutNERC/Pages/Rules-of-Procedure."
+                },
+                {
+                    "key": "b865a7b7-f4d6-4701-9f21-8fe0ae4d35d0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What should CEAs consider when determining the nature and extent of documentation that should be retained?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "CEAs",
+                        "IRA"
+                    ],
+                    "expected_output": "CEAs should consider the information that would be required for an experienced compliance team member to understand the work performed and the conclusions reached during the IRA."
+                },
+                {
+                    "key": "b5849788-82a8-4d5b-a3db-ce7eddf9bba8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of professional judgment in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "professional judgment",
+                        "IRA process"
+                    ],
+                    "expected_output": "CEAs should use professional judgment when determining documentation needs throughout the IRA process and when applying the IRA process detailed in the Guide."
+                },
+                {
+                    "key": "c66673d8-cfa9-488b-b3c6-2fca6a96c02d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Inherent Risk Assessment (IRA) process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Inherent Risk Assessment",
+                        "Bulk Power System"
+                    ],
+                    "expected_output": "The purpose of the IRA process is to identify and assess the risks specific to a registered entity that could impact the reliability of the Bulk Power System (BPS)."
+                },
+                {
+                    "key": "c7539659-4b40-49d0-8064-6313538cd168",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Compliance Enforcement Authority in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Compliance Enforcement Authority",
+                        "NERC",
+                        "Regional Entity",
+                        "Reliability Standards"
+                    ],
+                    "expected_output": "The Compliance Enforcement Authority, either NERC or the Regional Entity, is responsible for monitoring and enforcing compliance with the Reliability Standards."
+                },
+                {
+                    "key": "473abec9-2e03-4f93-8c69-215d9ae48063",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are CMEP Tools?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "CMEP",
+                        "Compliance",
+                        "Audits",
+                        "Spot",
+                        "Checks",
+                        "Self-Certifications",
+                        "Periodic",
+                        "Data",
+                        "Submittals"
+                    ],
+                    "expected_output": "CMEP Tools are tools used during the compliance monitoring processes to develop the Compliance Oversight Plan. They include, but are not limited to, Compliance Audits, Spot Checks, Self-Certifications, and Periodic Data Submittals."
+                },
+                {
+                    "key": "f95ab44a-5567-4bb6-8d02-92789f6cd5b0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between Reasonable Assurance and Professional Judgment?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Reasonable Assurance",
+                        "Professional Judgment"
+                    ],
+                    "expected_output": "Reasonable Assurance refers to conclusions based on evidence that is sufficient and appropriate to support the CEA\u2019s conclusions, while Professional Judgment represents the exercising of reasonable care and professional skepticism."
+                },
+                {
+                    "key": "23102c74-7705-4895-920a-c774ae44001b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Risk-based Compliance Oversight Framework?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Risk-based",
+                        "Compliance",
+                        "Oversight",
+                        "Framework"
+                    ],
+                    "expected_output": "The Risk-based Compliance Oversight Framework is a risk-based approach that includes process steps and considerations of Risk Elements, IRA, Internal Control Evaluation (ICE), and CMEP Tools."
+                },
+                {
+                    "key": "0aca49c4-69f1-4f88-a502-d861b5547ad5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are Risk Factors?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Risk",
+                        "Factors",
+                        "registered",
+                        "entity",
+                        "configuration",
+                        "reliability",
+                        "BPS"
+                    ],
+                    "expected_output": "Risk Factors are considerations used during an IRA to identify a registered entity\u2019s risk characteristics that are inherent to a registered entity\u2019s configuration and may impact the reliability of the BPS."
+                },
+                {
+                    "key": "13354cca-deba-409a-a1fc-76b6d4b1efae",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of Information Attributes in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Information Attributes",
+                        "IRA",
+                        "Compliance Oversight Plan"
+                    ],
+                    "expected_output": "Information Attributes are registered entity-specific data or information that is collected by Regional Entities to be used during the IRA and related processes to support the development of the Compliance Oversight Plan."
+                },
+                {
+                    "key": "80f6e9a9-7e60-4850-9656-b99bd4d09110",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Annual ERO CMEP Implementation Plan?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The purpose",
+                        "including",
+                        "level",
+                        "timing",
+                        "overall",
+                        "strategy"
+                    ],
+                    "expected_output": "The purpose of the Annual ERO CMEP Implementation Plan is to outline the oversight strategy for a registered entity, including areas of focus, level of efforts, timing, and overall strategy on the use of CMEP tools."
+                },
+                {
+                    "key": "841410a6-ed2c-4392-b08c-731077685c49",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the difference between Preliminary Area of Focus and Final Area of Focus?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Preliminary Area of Focus",
+                        "Final Area of Focus"
+                    ],
+                    "expected_output": "The Preliminary Area of Focus is a list of risks and mapped Reliability Standards that have not been removed from the potential Area of Focus during the IRA phases, while the Final Area of Focus is the list of risks and mapped Reliability Standards that are deemed applicable to the registered entity."
+                },
+                {
+                    "key": "91492257-db04-4629-a31b-8d756f79d586",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the Generally Accepted Government Auditing Standards (GAGAS) in the IRA process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "GAGAS",
+                        "IRA",
+                        "auditing",
+                        "standards",
+                        "procedures",
+                        "consistent",
+                        "reliable"
+                    ],
+                    "expected_output": "The GAGAS provides guidance on auditing standards and procedures for auditors and evaluators, including those conducting IRAs, to ensure that their work is performed in a consistent and reliable manner."
+                },
+                {
+                    "key": "88145093-7a92-4eeb-9955-adab65835c6a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the information attribute list in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "guide",
+                        "identifying",
+                        "relevant",
+                        "data",
+                        "collection"
+                    ],
+                    "expected_output": "The purpose of the information attribute list is to serve as a guide for identifying relevant data to be collected during an IRA, but it is not a comprehensive list. It summarizes the purpose of each information attribute and provides criteria to understand data standards and rationale for collection."
+                },
+                {
+                    "key": "39e784c3-7b76-483d-b9c9-71b518cbf5d4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the different sources of information used to collect data for an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "publicly",
+                        "third-party",
+                        "CEA",
+                        "NERC",
+                        "Regional",
+                        "Entities",
+                        "direct"
+                    ],
+                    "expected_output": "The different sources of information used to collect data for an IRA include publicly available sources, third-party sources, CEA internal sources (such as NERC and Regional Entities), and direct information gathering from the registered entity."
+                },
+                {
+                    "key": "96c0e336-c2f0-4ee7-ab3d-ff8c7464005f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the \"source\" descriptions for each information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "possible",
+                        "collection",
+                        "methods",
+                        "attribute"
+                    ],
+                    "expected_output": "The \"source\" descriptions for each information attribute in an IRA provide possible collection methods for the attribute."
+                },
+                {
+                    "key": "10841279-13a5-46f4-bfce-0f16f0d2e5b2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Total Megawatt Capability information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Total",
+                        "Megawatt",
+                        "Capability",
+                        "information",
+                        "attribute",
+                        "IRA",
+                        "assess",
+                        "magnitude",
+                        "possible",
+                        "impact",
+                        "BAs",
+                        "TOPs",
+                        "LSEs"
+                    ],
+                    "expected_output": "The purpose of the Total Megawatt Capability information attribute in an IRA is to assess the magnitude of possible impact for BAs/TOPs/LSEs."
+                },
+                {
+                    "key": "e9b2a2aa-3903-456d-ab3a-fa5b124f9649",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Interconnection Points and Key Facilities information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Interconnection",
+                        "Points",
+                        "Key",
+                        "Facilities",
+                        "information",
+                        "attribute",
+                        "IRA",
+                        "operating",
+                        "risk",
+                        "Entity",
+                        "facilities"
+                    ],
+                    "expected_output": "The purpose of the Interconnection Points and Key Facilities information attribute in an IRA is to understand the potential operating risk for certain Entity's facilities."
+                },
+                {
+                    "key": "ebcbb8e6-cff3-403c-86aa-c5950f3ebeb5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Special Protection Systems information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "reflect",
+                        "risks",
+                        "system",
+                        "management",
+                        "awareness"
+                    ],
+                    "expected_output": "The purpose of the Special Protection Systems information attribute in an IRA is to reflect potential risks in system, management, and awareness."
+                },
+                {
+                    "key": "7a82a8d0-8fa1-4c42-a9fd-fa18d601af09",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the SCADA and EMS systems information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "possible",
+                        "cyber",
+                        "gaps",
+                        "CIP",
+                        "guidance",
+                        "controls",
+                        "monitoring",
+                        "operational",
+                        "planning"
+                    ],
+                    "expected_output": "The purpose of the SCADA and EMS systems information attribute in an IRA is to identify possible cyber gaps, CIP guidance, controls, and monitoring, and operational planning."
+                },
+                {
+                    "key": "c8df7d7b-5a2d-4119-98a3-c7535d4d6e07",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Network Diagrams information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "understand",
+                        "potential",
+                        "risks",
+                        "local",
+                        "system",
+                        "awareness",
+                        "control",
+                        "system",
+                        "support",
+                        "restoration",
+                        "prevention"
+                    ],
+                    "expected_output": "The purpose of the Network Diagrams information attribute in an IRA is to understand the potential risks in local system, awareness, control, system support/restoration/prevention."
+                },
+                {
+                    "key": "69b7c72b-a7fe-4dd9-90c3-feb0e7c28f04",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Undervoltage Load Shedding information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "risks",
+                        "local",
+                        "system",
+                        "awareness",
+                        "control",
+                        "support",
+                        "restoration",
+                        "prevention"
+                    ],
+                    "expected_output": "The purpose of the Undervoltage Load Shedding information attribute in an IRA is to assess the potential risks in local system, awareness, control, system support/restoration/prevention."
+                },
+                {
+                    "key": "a70c72b4-1ff1-4608-8b3e-9a5538213704",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Physical Security information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "risks",
+                        "local",
+                        "system",
+                        "awareness",
+                        "control",
+                        "support",
+                        "restoration",
+                        "prevention"
+                    ],
+                    "expected_output": "The purpose of the Physical Security information attribute in an IRA is to assess the potential risks in local system, awareness, control, system support/restoration/prevention."
+                },
+                {
+                    "key": "1f4cf4e0-1696-45e4-a2a0-fd399e88db4c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the System Communication Methods information attribute in an IRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "awareness",
+                        "control",
+                        "restoration",
+                        "prevention",
+                        "local system",
+                        "potential risks"
+                    ],
+                    "expected_output": "The purpose of the System Communication Methods information attribute in an IRA is to understand the potential risks in local system, awareness, control, system support/restoration/prevention."
+                },
+                {
+                    "key": "ebaf804c-3973-4da1-b53a-f68a0ee5c16c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Information Attribute List in the NERC ERO Enterprise Inherent Risk Assessment Guide?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "including",
+                        "blackstart",
+                        "IROLS",
+                        "SOLS",
+                        "critical",
+                        "generation",
+                        "transmission",
+                        "compliance",
+                        "ownership",
+                        "operation",
+                        "major",
+                        "regional"
+                    ],
+                    "expected_output": "The purpose of the Information Attribute List is to provide a comprehensive list of information attributes that can be used to assess the inherent risk of an entity's operations, including information on blackstart resources, IROLS, SOLS, critical facilities, generation portfolio, transmission portfolio, compliance responsibilities, ownership, and operation, major changes to operations, and regional factors affecting reliability."
+                },
+                {
+                    "key": "d026057d-c6af-4628-b07f-ca673e231ef2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of Undervoltage Load Shedding in the context of the given text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Undervoltage Load Shedding",
+                        "potential risk",
+                        "local system",
+                        "awareness",
+                        "control",
+                        "preventing misoperation",
+                        "reducing blackouts"
+                    ],
+                    "expected_output": "Undervoltage Load Shedding is a potential risk in the local system, and awareness and control of it are important for preventing misoperation and reducing the length of blackouts."
+                },
+                {
+                    "key": "5e194a04-987e-4f44-9371-6339a0c0b77d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Planning Authority in designating Critical Facilities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "Planning",
+                        "Authority",
+                        "designates",
+                        "Critical",
+                        "Facilities"
+                    ],
+                    "expected_output": "The Planning Authority designates Critical Facilities based on the potential operating risk of certain Entity's facilities."
+                },
+                {
+                    "key": "2049f4f5-c21b-4379-bef1-4834a7bcb6e5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the RC/TOP Plans and PA submittals to REs?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "system",
+                        "restoration",
+                        "plan",
+                        "responsibilities",
+                        "entities",
+                        "blackouts"
+                    ],
+                    "expected_output": "The purpose of the RC/TOP Plans and PA submittals to REs is to provide a system restoration plan and to outline the responsibilities of entities in restoring the system and reducing the length of blackouts."
+                },
+                {
+                    "key": "3eb6fa7e-375f-442f-bc0a-486fb0420210",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of understanding Entity and responsibilities for restoring the system?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "crucial",
+                        "reducing",
+                        "blackouts",
+                        "preventing",
+                        "misoperation"
+                    ],
+                    "expected_output": "Understanding Entity and responsibilities for restoring the system is crucial for reducing the length of blackouts and preventing misoperation."
+                },
+                {
+                    "key": "a8344be3-eeae-4d50-b1b3-8971bbb039b5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Entity registration and system models?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "comprehensive",
+                        "understanding",
+                        "potential",
+                        "operating",
+                        "risk",
+                        "facilities"
+                    ],
+                    "expected_output": "The purpose of the Entity registration and system models is to provide a comprehensive understanding of the potential operating risk of certain Entity's facilities."
+                },
+                {
+                    "key": "6fc71e25-36cd-46b9-bfef-54568e9b1026",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the Magnitude of possible impact in the context of the given text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Magnitude",
+                        "impact",
+                        "risk",
+                        "compliance",
+                        "responsibilities"
+                    ],
+                    "expected_output": "The Magnitude of possible impact is important in understanding the potential operating risk of certain Entity's facilities and in determining the appropriate level of compliance responsibilities."
+                },
+                {
+                    "key": "41229a4f-06a4-4e26-8258-31cfcbd4b3b7",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Compliance and Enforcement History?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "TFEs",
+                        "periodic",
+                        "self-certifications",
+                        "areas",
+                        "concern",
+                        "audit"
+                    ],
+                    "expected_output": "The purpose of the Compliance and Enforcement History is to provide a record of an entity's compliance activities, including involvement in TFEs, periodic data submittals, self-certifications, areas of concern, and audit recommendations."
+                },
+                {
+                    "key": "44a59cbf-86a5-4ad0-9786-fcc34ee7fd7e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the Ratio of self-reports versus violation history in the context of the given text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "important",
+                        "compliance",
+                        "concern",
+                        "IRA"
+                    ],
+                    "expected_output": "The ratio of self-reports versus violation history is important in understanding an entity's culture of compliance and potential areas of concern and possible IRA impacts."
+                },
+                {
+                    "key": "c88f268d-b41f-4ebf-921b-81dedcc5d547",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Regional Factors Affecting Reliability?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "comprehensive",
+                        "impact",
+                        "system",
+                        "geography",
+                        "climatology",
+                        "reliability"
+                    ],
+                    "expected_output": "The purpose of the Regional Factors Affecting Reliability is to provide a comprehensive understanding of the impact of system geography, climatology, and other regional factors on the reliability of the system."
+                },
+                {
+                    "key": "95fffbc2-2d10-41c6-b5fd-e9a6cc9eade8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the Ownership and operation in the context of the given text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Ownership",
+                        "operation",
+                        "footprint",
+                        "asset ownership",
+                        "compliance",
+                        "responsibilities"
+                    ],
+                    "expected_output": "Ownership and operation are important in understanding an entity's footprint (asset ownership) and in determining the appropriate level of compliance responsibilities."
+                },
+                {
+                    "key": "a78c6759-f148-4fbb-915a-2c0ba4eece40",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Compliance and Enforcement History section in the ERO Enterprise Inherent Risk Assessment Guide?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Compliance",
+                        "Enforcement",
+                        "History",
+                        "section",
+                        "ERO",
+                        "Enterprise",
+                        "Inherent",
+                        "Risk",
+                        "Assessment",
+                        "Guide",
+                        "culture",
+                        "concern",
+                        "IRA",
+                        "impacts"
+                    ],
+                    "expected_output": "The purpose of the Compliance and Enforcement History section is to understand the Entity's culture of compliance and potential areas of concern, as well as possible IRA impacts."
+                },
+                {
+                    "key": "e627e791-7de1-4306-b87a-2f353a798520",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of understanding the Entity's culture of compliance?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "important",
+                        "identify",
+                        "potential",
+                        "concern",
+                        "possible",
+                        "IRA",
+                        "impacts"
+                    ],
+                    "expected_output": "Understanding the Entity's culture of compliance is important because it helps identify potential areas of concern and possible IRA impacts."
+                },
+                {
+                    "key": "5833f469-b948-444d-998a-a996788c010a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some of the compliance activities that the Entity is involved in?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "TFEs",
+                        "periodic",
+                        "self-certifications",
+                        "audit"
+                    ],
+                    "expected_output": "The Entity is involved in TFEs, periodic data submittals, self-certifications, and audit recommendations."
+                },
+                {
+                    "key": "4a1b559b-42db-4337-b226-a54782b9c706",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Mitigation Plans and milestones in the Enforcement activities section?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Mitigation",
+                        "Plans",
+                        "milestones",
+                        "Enforcement",
+                        "activities",
+                        "address",
+                        "areas",
+                        "concern",
+                        "potential",
+                        "IRA",
+                        "impacts"
+                    ],
+                    "expected_output": "The purpose of the Mitigation Plans and milestones is to address areas of concern and potential IRA impacts."
+                },
+                {
+                    "key": "7131d3dc-05d5-46db-8a0d-60032ecd7580",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the Misoperations database, Entity reporting via TADS, GADS, DADS?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "important",
+                        "potential",
+                        "risk",
+                        "corrective",
+                        "actions"
+                    ],
+                    "expected_output": "The Misoperations database, Entity reporting via TADS, GADS, DADS, is important for understanding potential risk related to corrective actions."
+                },
+                {
+                    "key": "08b42158-7de3-4136-aceb-4aa601b413d4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Root cause analysis/corrective action/compliance assessment?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "understand",
+                        "potential",
+                        "risk",
+                        "related",
+                        "corrective",
+                        "actions"
+                    ],
+                    "expected_output": "The purpose of the Root cause analysis/corrective action/compliance assessment is to understand potential risk related to corrective actions."
+                },
+                {
+                    "key": "5f27e1f1-75b9-42aa-b17c-7e706d8378a8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the NERC/RE (RAPA, operations group) reports and information?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Entity",
+                        "operations",
+                        "high-risk",
+                        "facility",
+                        "interconnection"
+                    ],
+                    "expected_output": "The NERC/RE (RAPA, operations group) reports and information are important for understanding Entity operations and its high-risk facility and interconnection information."
+                },
+                {
+                    "key": "8bd5c580-0cbd-4084-8699-a8295c851b2d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Emergency Energy Alerts?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "reoccurring",
+                        "issues",
+                        "impact",
+                        "reliable",
+                        "operations"
+                    ],
+                    "expected_output": "The purpose of Emergency Energy Alerts is to identify reoccurring issues that may impact reliable operations."
+                },
+                {
+                    "key": "a8ebb36d-f5ee-4bb0-9d7f-653962b44fd5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the Possible Risk Factors in the Risk Factor Examples section?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "important",
+                        "risk",
+                        "operations"
+                    ],
+                    "expected_output": "The Possible Risk Factors in the Risk Factor Examples section are important for assessing the risk of the Entity's operations."
+                },
+                {
+                    "key": "d3380949-4fc3-4768-af21-73262abb0fc3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the BPS Exposure section?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "purpose",
+                        "exposure",
+                        "facilities",
+                        "planning",
+                        "authority"
+                    ],
+                    "expected_output": "The purpose of the BPS Exposure section is to understand the Entity's exposure to critical facilities designated by the Planning Authority."
+                },
+                {
+                    "key": "a918cb2b-f7f8-4230-be09-99deb1e66cbc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the Effective mix of power generating resources and percentage of their total megawatt output capability?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Important",
+                        "ERO"
+                    ],
+                    "expected_output": "The Effective mix of power generating resources and percentage of their total megawatt output capability is important for understanding the Entity's ability to recover from changing conditions across the ERO."
+                }
+            ]
+        }
+    ]
+}

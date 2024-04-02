@@ -1,0 +1,826 @@
+{
+    "tests": [
+        {
+            "key": "84a0c613-6178-4418-96c8-225218090d93",
+            "documents": [
+                "Telecommunication_Regulations.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "7aaa8bbf-0bc8-460b-a135-21bab26a09fc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What led to the growth of mobile and other wireless services?\nHow do you respond?\nA. The need to attract private sector capital to expand and upgrade telecommunications networks, and to introduce new services\nB. Growth of the Internet, which caused data traffic to overtake voice traffic in many countries, and led to the introduction of many new service providers\nC. Development of international trade in telecommunications services, which are increasingly provided by transnational and global service providers\nD. Increasing evidence that more liberalized telecommunications markets were growing and innovating faster and serving customers better\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bc2c421c-a928-45f1-9f0c-c6d827d4eda2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is regulatory intervention necessary in the telecommunications industry?\nHow do you respond?\nA. To ensure that telecommunications services are supplied in a manner consistent with national perceptions of the public interest.\nB. To attract private sector capital to expand and upgrade telecommunications networks, and to introduce new services.\nC. To ensure competitive markets do not fail to serve high cost areas or low-income subscribers.\nD. To manage the sector and maintain a regulatory environment conducive to the efficient supply of telecommunications services to the public.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "81928779-534d-4b65-9129-5d31024db9c1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the objectives of telecommunications regulation?\nHow do you respond?\nA. Ensuring that telecommunications services are supplied in a manner consistent with national perceptions of the public interest.\nB. Maintaining a regulatory environment conducive to the efficient supply of telecommunications services to the public.\nC. Promoting the growth and innovation of telecommunications markets by attracting private sector capital and introducing new services.\nD. Ensuring that viable competition exists in telecommunications markets by authorizing or licensing new operators and overseeing interconnection.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "044562eb-6a04-4ee2-b870-e6a1de634471",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of regulators in the telecommunications industry?\nHow do you respond?\nA. To manage the telecommunications sector and oversee the day-to-day operations of service providers.\nB. To create a regulatory environment that promotes competition and ensures the efficient supply of telecommunications services to the public.\nC. To regulate telecommunications services in detail, including setting prices, determining service areas, and managing network infrastructure.\nD. To ensure that telecommunications services are provided in a manner consistent with national perceptions of the public interest, while allowing private sector operators to manage the sector.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "43b8987d-a5e4-428f-99ac-e5793a3e6611",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the trend in telecommunications regulation today?\nHow do you respond?\nA. Deregulation\nB. Privatization\nC. Increased government intervention\nD. More emphasis on public-private partnerships\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "aafda1a1-1c29-4a8f-b2f0-9e011e1d8949",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the regulatory objectives that are widely accepted around the world today?\nHow do you respond?\nA. Ensuring competitive markets do not fail to serve high-cost areas or low-income subscribers.\nB. Maintaining a regulatory environment conducive to the efficient supply of telecommunications services to the public.\nC. Authorizing or licensing new operators and overseeing interconnection of new entrants within incumbent operators.\nD. Introducing new services and attracting private sector capital to expand and upgrade telecommunications networks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "56ca9e1b-16ca-439c-b878-1a44bf15b0a1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many national telecommunications regulatory authorities were there in the world in the 1990s?\nHow do you respond?\nA. 12\nB. 90\nC. 150\nD. 250\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2a202ffb-9174-4a6d-88a2-15d9e67a703d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many national telecommunications regulatory authorities are there in the world today?\nHow do you respond?\nA. 12\nB. 90\nC. 150\nD. 250\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e148bf70-10c5-404a-973d-473dce8f3bd0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the consensus answer around the world regarding the relationship between market-based supply of telecommunications and regulatory intervention?\nHow do you respond?\nA. The market-based supply of telecommunications should be accompanied by more regulatory intervention.\nB. The market-based supply of telecommunications should be accompanied by less regulatory intervention.\nC. The market-based supply of telecommunications and regulatory intervention are unrelated.\nD. The market-based supply of telecommunications should replace regulatory intervention.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e9f094e6-ea2f-473d-b9c5-7d4bc0a5478e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two main objectives of telecommunications regulation?\nHow do you respond?\nA. Promote universal access to basic telecommunications services and foster competitive markets to promote efficient supply of telecommunications services.\nB. Optimize use of scarce resources, such as the radio spectrum, numbers, and rights of way, and protect consumer rights, including privacy rights.\nC. Promote increased telecommunications connectivity for all users through efficient interconnection arrangements and create a favourable climate to promote investment to expand telecommunications networks.\nD. Prevent abuses of market power such as excessive pricing and anti-competitive behavior by dominant firms and promote public confidence in telecommunications markets through transparent regulatory and licensing processes.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "53d96416-4ecf-464b-b61b-a36cfeef695f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of separating policy, regulatory and operational functions of telecommunications?\nHow do you respond?\nA. To ensure that public policy objectives for the sector continue to be met.\nB. To increase the number of government officials with regulatory functions.\nC. To establish a favourable climate to promote investment to expand telecommunications networks.\nD. To create a monopoly in the telecommunications market.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e1507567-18ce-4d75-bcc5-c17edc2c5e48",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many countries had telecommunications regulatory agencies that functioned separately from telecommunications operators in 1990?\nHow do you respond?\nA. 12 countries\nB. 24 countries\nC. 31 countries\nD. 53 countries\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1e9b9f7a-8151-4b2c-abb6-2bc0116d1bd4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many new regulators were established between mid-1998 and mid-1999?\nHow do you respond?\nA. 12\nB. 9\nC. 24\nD. 53\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c8a47dda-b64a-44f8-ad6c-5bef77253198",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the percentage of separate regulators in Africa in 1999?\nHow do you respond?\nA. 24%\nB. 31%\nC. 13%\nD. 26%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "da6d752d-0437-46cd-aad1-4343c8457255",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the percentage of separate regulators in the Americas in 1999?\nHow do you respond?\nA. 24%\nB. 31%\nC. 13%\nD. 26%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "848ddc13-5593-4d89-9ce5-9ec41ec2c0af",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the percentage of separate regulators in Europe in 1999?\nHow do you respond?\nA. 24%\nB. 31%\nC. 13%\nD. 26%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ac6a0283-f8f9-4ace-b050-74ef88cb437b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the percentage of separate regulators in the Asia-Pacific region in 1999?\nHow do you respond?\nA. 24%\nB. 31%\nC. 13%\nD. 26%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "726a621c-dbf5-4e55-9a42-85362ffdea8e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of introducing transparent regulatory processes?\nHow do you respond?\nA. To increase government revenues from licensing new services\nB. To promote competition in advanced services such as broadband internet\nC. To increase market confidence, attract more investment, and generate government licensing revenues\nD. To better incentivize efficient service supply by dominant firms and simplify price regulation methods\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a675707d-2ca7-4b08-aece-ff385e5d700e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of mandatory interconnection and unbundling of PSTN?\nHow do you respond?\nA. To promote competition in advanced services (e.g. broadband Internet)\nB. To remove barriers to competition\nC. To increase efficiency and effectiveness of universality policies\nD. To improve government revenues from licensing new services\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "67ebb039-fa1f-469e-a11e-623f32434df5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of price cap regulation?\nHow do you respond?\nA. To promote competition in advanced services such as broadband internet.\nB. To reduce regulatory lag and ensure timely price adjustments.\nC. To increase government revenues from licensing new services.\nD. To attract financing to expand telecommunications infrastructure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "af73bab4-b8f3-40db-a356-9c7c5b907aab",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of targeted universal access funds?\nHow do you respond?\nA. To increase efficiency and effectiveness of universality policies\nB. To reduce government revenues from licensing new services\nC. To attract more investment in the telecommunications sector\nD. To promote competition in advanced services such as broadband internet\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5af973dc-c89a-4526-a687-70a49900be45",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of removing barriers to international trade in telecommunications?\nHow do you respond?\nA. To increase investment in the telecommunications sector.\nB. To improve competition in telecommunications markets.\nC. To improve global communications.\nD. To reduce regulatory lag and ensure timely price adjustments.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c07ea9c7-b34a-451e-bf8c-cddae9936cf7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the WTO Agreement on Basic Telecommunications (ABT)?\nHow do you respond?\nA. To provide a framework for the liberalization of the telecommunications sector and the introduction of competition.\nB. To regulate the prices of telecommunications services to ensure they are affordable for all consumers.\nC. To promote the development of telecommunications infrastructure in developing countries.\nD. To protect the interests of telecommunications operators and prevent excessive competition.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "25f3e134-faa1-4b1f-a47d-1d5b1647063a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Reference Paper in Appendix A?\nHow do you respond?\nA. It incorporates many of the telecommunications sector reforms that have been introduced around the world.\nB. It provides a framework for regulators to implement sectoral reforms.\nC. It sets out the generally accepted standards for telecommunications regulation today.\nD. It is compatible with the market-based supply of telecommunications services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "58273a33-cc25-469f-b866-2da09854b656",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the institutional structure in the telecommunications sector?\nHow do you respond?\nA. To provide a framework for the government to maintain control over the telecommunications sector.\nB. To promote competition and increase foreign and domestic investment in the sector.\nC. To ensure that the telecommunications operator(s) in the market are able to make rational economic decisions.\nD. To protect the interests of consumers and ensure that they have access to affordable and high-quality telecommunications services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3b28e949-79e4-4025-b5bc-059f2a7a3a9c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the advantage of having a separate regulatory authority in the telecommunications sector?\nHow do you respond?\nA. It ensures that the regulator is not influenced by the government's interests.\nB. It allows the regulator to make decisions based on the interests of the telecommunications operators.\nC. It promotes competition among telecommunications operators.\nD. It increases the efficiency of the telecommunications sector.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "471aef10-f11a-41b9-9509-2713fcb9ec42",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between a commercialized state-owned operator and a privatized state-owned operator?\nHow do you respond?\nA. A commercialized state-owned operator is owned by the government, while a privatized state-owned operator is owned by private investors.\nB. A commercialized state-owned operator is operated by the government, while a privatized state-owned operator is operated by private management.\nC. A commercialized state-owned operator is less independent from the government compared to a privatized state-owned operator.\nD. A commercialized state-owned operator is more efficient than a privatized state-owned operator.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "ff821c76-74f6-467e-8b8a-c985c1363d65",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the network operations/service provision in the telecommunications sector?\nHow do you respond?\nA. The network operations/service provision is responsible for the impartial manner.\nB. The network operations/service provision is responsible for the privatization of telecommunications operations.\nC. The network operations/service provision is responsible for the supply of telecommunications services.\nD. The network operations/service provision is responsible for the regulation of telecommunications markets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6d0227be-9265-4735-a0bc-a4eab222d9ba",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of other organizations such as ministries of finance and planning, privatization and tax authorities, and competition authorities in the telecommunications sector?\nHow do you respond?\nA. They play a key role in determining the overall economic environment of the telecommunications sector.\nB. They are responsible for setting policies in the national interest without conflicting concerns based on their role as owners, managers, or employees of telecommunications operators.\nC. They are responsible for implementing government policy in an objective and impartial manner.\nD. They are responsible for promoting increased foreign and domestic investment in both incumbent operators and new entrants in the sector.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "df804096-35cd-40fb-adde-62d2353d927f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the institutional structure of the telecommunications sector in developed market economies differ from that in developing countries?\nHow do you respond?\nA. Developed countries have a separate regulatory authority, while developing countries have a single regulator for all sectors.\nB. Developed countries have a government ministry or executive branch that oversees policy development, while developing countries have a separate regulatory authority.\nC. Developed countries have privately owned operators, while developing countries have state-owned operators.\nD. Developed countries have a more complex institutional structure with multiple organizations playing a role in the telecommunications sector, while developing countries have a simpler structure with fewer organizations involved.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "84d9b1f1-2449-4c1d-8ed1-5582aa62890d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of separating the regulator from the telecommunications operator(s) in the market?\nHow do you respond?\nA. To ensure that the regulator can regulate the market objectively and transparently.\nB. To allow the regulator to operate independently of government interference.\nC. To enable the regulator to provide better services to the telecommunications operators.\nD. To reduce the cost of regulation for the government.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "829dbd46-d982-4385-9556-6faf20dee7e6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is independence of the regulator from governments important?\nHow do you respond?\nA. It ensures that the regulator can be influenced by the government to make decisions that benefit the ruling party.\nB. It increases perceived neutrality and insulation from political or operational pressures, which leads to increased investor confidence.\nC. It allows the regulator to make decisions that benefit the government, rather than the public interest.\nD. It ensures that the regulator's decisions are not influenced by international trade obligations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "df905ca9-f021-4a23-a623-634e6f645cfa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are regulators in different countries appointed and paid?\nHow do you respond?\nA. Regulators in different countries are appointed and paid by the government.\nB. Regulators in different countries are appointed by the government but paid by licence and spectrum fees paid by operators.\nC. Regulators in different countries are appointed and paid by the private sector.\nD. Regulators in different countries are appointed and paid by the United Nations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "824b145c-0231-4374-adce-91a5b2fd9936",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the advantage of funding a regulator through licence and spectrum fees rather than government appropriation?\nHow do you respond?\nA. It allows the regulator to be more independent from the government.\nB. It allows the regulator to be more accountable to the government.\nC. It allows the regulator to be more responsive to the needs of telecommunications operators.\nD. It allows the regulator to be more transparent in its decision-making process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b14e060b-1e46-4f0d-a294-f585fb3530d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the funding of regulators through licence fees and spectrum fees affect the incumbent operator?\nHow do you respond?\nA. The incumbent operator pays a higher percentage of the regulator's costs as its market share decreases.\nB. The incumbent operator pays a lower percentage of the regulator's costs as its market share decreases.\nC. The incumbent operator's licence fees remain unaffected, regardless of its market share.\nD. The incumbent operator is exempt from paying licence fees.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7fa9efec-fe53-48d7-a48e-1a946ff8e55d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of legislatures or other government bodies in ensuring the accountability of an independent regulator?\nHow do you respond?\nA. They provide adequate funding for the regulatory process.\nB. They establish a clear mandate for the regulator through national laws.\nC. They oversee the regulator's activities and ensure that it properly exercises its mandate.\nD. They set the regulator's budget and determine the salaries of its officials.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "474602df-0de5-4785-9e2b-ed6430e1fa1f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the advantages and disadvantages of the hierarchical model?\nHow do you respond?\nA. The hierarchical model has advantages such as quick decision-making, while its disadvantage is that it can lead to less cohesion and consistency.\nB. The hierarchical model has advantages such as collegial support for decision-makers, while its disadvantage is that it can be less decisive.\nC. The hierarchical model has advantages such as being less susceptible to \"capture\" by regulated companies, while its disadvantage is that it can be slower in decision-making.\nD. The hierarchical model has advantages such as having more thorough debates and considerations, while its disadvantage is that it can be less efficient.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a68cdf35-e6ed-41f8-802a-0514bf389a7f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do telecommunications regulators usually structure their decision-making processes?\nHow do you respond?\nA. Collegial bodies provide checks, balances, and collegial support for the decision-makers.\nB. Single regulators can act more quickly and decisively than collegial bodies.\nC. Large collegial bodies can lead to less cohesion and consistency than small ones or single regulators.\nD. Financially insecure regulators of both types may be motivated by future career prospects in the industry.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2112c562-e3a8-439c-829e-7de772a59ed4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do telecommunications regulators deal with the issue of \u201ccapture\u201d by regulated companies?\nHow do you respond?\nA. By relying on professional staff and consultants for fact-gathering, analysis, and recommendations.\nB. By having part-time members who usually find it more difficult to keep abreast of developments in rapidly changing telecommunications markets.\nC. By being financially insecure and motivated by future career prospects in the industry.\nD. By reducing the size of large collegial bodies to increase decision-making efficiency.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c25381b9-77c3-4a46-a22e-8a18ca24dc61",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is another advantage of having a multi-sector regulator, according to the text?\nHow do you respond?\nA. It reduces the risk of political capture by a dominant ministry.\nB. It creates more precedents and therefore less uncertainty for investors.\nC. It increases the risk of industry capture by a dominant industry player.\nD. It dilutes sector-specific technical expertise required.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7f594ca0-d102-4974-a824-57bb75c14dea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is another disadvantage of having a multi-sector regulator, according to the text?\nHow do you respond?\nA. Increased risk of \"industry capture\" by a dominant industry player not only of the single sector regulator but of the entire MSR body.\nB. Increased risk of \"political capture\" by a dominant ministry of not only the single sector regulator but of the entire MSR body.\nC. Dilution of sector-specific technical expertise required where, for example, the skills of a tariff expert for one sector are not transferable to similar tariffing issues in another sector, or, for example, of a frequency engineer.\nD. Reduce risk of \"industry capture\" because the creation of a regulator with responsibility for more than one sector can help avoid the rule-making process being captured by industry-specific interest groups.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "7d83a073-825d-4d14-a328-89a6e14359b0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can the risk of \"industry capture\" and \"political capture\" be mitigated, according to the text?\nHow do you respond?\nA. By creating a regulator with responsibility for more than one sector.\nB. By creating strong sector-specific departments underneath a central cross-sectoral decision-making body.\nC. By establishing a single regulator for each sector.\nD. By increasing the number of industry players in the regulator body.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6856421f-b902-4e4c-8c0c-b9713b1cadba",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is an advantage of having a single regulator for multiple sectors, according to the text?\nHow do you respond?\nA. It reduces the risk of \"industry capture\" since the regulator will be more independent of industry-specific interest groups.\nB. It increases the risk of \"political capture\" since a regulator with responsibility for more than one sector will be more susceptible to political interference.\nC. It creates more precedents and therefore less uncertainty for investors since decisions made by the regulator in one sector can set a precedent for other sectors.\nD. It dilutes sector-specific technical expertise required since the skills of a tariff expert for one sector are not transferable to similar tariffing issues in another sector.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a0dc6797-49e4-4004-b7b3-555515f100c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is another advantage of having a single regulator for multiple sectors, according to the text?\nHow do you respond?\nA. A single regulator can set precedents for multiple sectors, reducing uncertainty for investors.\nB. A single regulator can avoid political interference from relevant line Ministries.\nC. A single regulator can increase economies of scale in administrative and support services.\nD. A single regulator can reduce the risk of industry capture by a dominant industry player.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "272e2a7d-d3db-4088-98f9-b0092b6f59e5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the disadvantages of having a multi-sector regulator?\nHow do you respond?\nA. Difficulty in achieving acceptance by relevant line Ministries of the concept of having an MSR.\nB. Greater complexity in establishing the legal framework for the MSR, including the level of independence and allocation of functions as between the Minister and the regulator.\nC. Potential delays in the reform process due to the disadvantages mentioned above.\nD. Transfer of regulatory know-how between regulators responsible for different sectors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "ba6dfe34-6e8d-4022-959a-d3aaedeb4c8c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the CRTC's predecessor, the Canadian Transportation Commission?\nHow do you respond?\nA. Regulating telecommunications, broadcasting, air and rail transportation, and gas pipelines.\nB. Regulating telecommunications, but not broadcasting, and electrical power, but not other infrastructure industries.\nC. Regulating a variety of industries, including telecommunications and broadcasting, but not gas pipelines, electrical power, and other infrastructure industries.\nD. Regulating only telecommunications and broadcasting.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "26e88fcb-abc8-4bb2-bb12-3fcba6400374",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do multi-sector regulators deal with converging sectors?\nHow do you respond?\nA. They establish uniform rules on license awards and dispute settlement procedures that can be applied to all sectors.\nB. They avoid the application of different rules to competing sectors to prevent market distortions.\nC. They transfer regulatory know-how between regulators responsible for different sectors.\nD. They deal with converging sectors through co-ordination requirements between sectors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5b580c5a-f4d5-4652-9dea-8124ebcf07a6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main factor that determines organizational differences between regulatory agencies?\nHow do you respond?\nA. The number of sectors regulated\nB. The functions and objectives of different regulatory agencies\nC. The level of convergence between sectors\nD. The type of regulatory framework in place\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c215c2ff-cc1e-4a38-8d07-ca797724ddd0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the functions of a telecommunications regulator?\nHow do you respond?\nA. Spectrum management, licensing of new operators, regulation of broadcasting and other content services, and active regulation of prices.\nB. Verifying compliance with a price cap regime prescribed in a long-term license, adjusting the X-factor in a price cap regime every few years, and managing the merger of existing agencies.\nC. Dealing with converging sectors, such as telecommunications and broadcasting, and dealing with the bundled provision of services.\nD. Regulation of electricity and gas, or road and rail.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fd3d6127-f08e-40a6-a737-ae7f85eeb434",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do different functions and objectives require different types and levels of professional assistance?\nHow do you respond?\nA. Different functions and objectives require different types and levels of professional assistance because various regulatory agencies have distinct institutional structures and workplace cultures.\nB. Different functions and objectives require different types and levels of professional assistance because of the varying nature of the sectors being regulated.\nC. Different functions and objectives require different types and levels of professional assistance because of the different methods used to regulate prices.\nD. Different functions and objectives require different types and levels of professional assistance because of the different approaches to spectrum management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7f7bc04f-fd74-41b8-bd54-09dcb88670fd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between a single-sector regulator and a multi-sector regulator?\nHow do you respond?\nA. A single-sector regulator oversees multiple sectors, while a multi-sector regulator oversees only one sector.\nB. A single-sector regulator is responsible for regulating a single sector, while a multi-sector regulator is responsible for regulating multiple sectors.\nC. A single-sector regulator has more flexibility in dealing with peak load periods than a multi-sector regulator.\nD. A single-sector regulator has more resources for development and implementation than a multi-sector regulator.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3b127443-2d2c-4c7b-974c-76f2052b8b89",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of institutional structure and workplace culture in organizing a regulatory agency?\nHow do you respond?\nA. It determines the type and level of professional assistance required for effective regulation.\nB. It plays a limited role in determining organizational differences between regulatory agencies.\nC. It is not a factor in organizing a regulatory agency, as the focus is on functional and objective differences.\nD. It is the primary factor in determining the functions and objectives of different regulatory agencies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8aaad793-e6c8-4de8-a608-52eea652531d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main objective of regulatory organizations in the telecommunications industry?\nHow do you respond?\nA. To promote the development and efficient operation of telecommunications facilities.\nB. To regulate the prices of telecommunications services.\nC. To ensure compliance with operating licence conditions.\nD. To promote the mobilization of human and financial resources needed to develop telecommunications.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a7bfe27e-b446-45ff-84dd-7c9ec1b30672",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why is it important to have a range of professional skills and perspectives in regulatory organizations?\nHow do you respond?\nA. To ensure that regulatory decisions are made by experts with the necessary technical knowledge and expertise.\nB. To provide a diverse range of viewpoints and ideas to address complex regulatory issues.\nC. To ensure that regulatory decisions are made by individuals with the appropriate ethnic and gender backgrounds.\nD. To provide a check and balance system to prevent any one individual or group from having too much power.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e432f19d-68a2-4aa1-8b2d-951e3add3dd6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of international organizations in telecommunications regulation?\nHow do you respond?\nA. To provide technical assistance to developing countries in the field of telecommunications.\nB. To regulate telecommunications services and ensure compliance with operating licenses.\nC. To promote the development and efficient operation of telecommunications facilities.\nD. To promote the mobilization of human and financial resources needed to develop telecommunications.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "9f879430-8be3-4761-8dc9-cbe4ca1a43d3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the ITU's mission in the field of telecommunications?\nHow do you respond?\nA. To promote the development and efficient operation of telecommunications facilities.\nB. To promote the adoption of a broader approach to issues of telecommunications in the global information economy and society.\nC. To promote and offer technical assistance to developing countries in the field of telecommunications.\nD. To mobilize human and financial resources needed to develop telecommunications.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dcac0db8-9483-4a19-974c-e79d8d7f1412",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Plenipotentiary Conference in the ITU's organizational structure?\nHow do you respond?\nA. It is responsible for adopting the strategic plan and fundamental policies of the organization.\nB. It is composed of 46 ITU Member States representing 25% of the Union's membership.\nC. It meets every four years to adopt a financial plan for the next four-year period.\nD. It is the supreme authority of the Union.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(D|D\\.).*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "8737cb04-1b81-4056-b819-b3bcd4177696",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often does the Plenipotentiary Conference meet?\nHow do you respond?\nA. Every four years\nB. Every two years\nC. Every six years\nD. Annually\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e81864f0-5aa5-4dd7-bed2-2ace7626b2cd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the composition of the ITU's Council?\nHow do you respond?\nA. 189 Member States\nB. 46 ITU Member States\nC. 600 Sector Members\nD. 25% of the Union's membership\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fc072c56-07c1-459a-8b15-d4008608c6e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the World Conferences on International Telecommunications?\nHow do you respond?\nA. To adopt the strategic plan and fundamental policies of the organization\nB. To review and revise the International Telecommunication Regulations\nC. To establish technical characteristics and operational procedures for wireless services\nD. To promote investment and implementation of telecommunications infrastructure in developing nations throughout the world\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b5b606f2-3bd3-410b-85d9-163a3fd84c33",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the ITU-T Recommendations?\nHow do you respond?\nA. A set of international treaties governing the provision and operation of public telecommunications services.\nB. A set of technical characteristics and operational procedures for wireless services.\nC. A set of standards for Internet Protocol (IP) networks and IP-based systems.\nD. A binding set of international rules that govern the use of the radio spectrum by different radiocommunications services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5e0c53a2-0652-4e56-8fc6-809e5d0ccb52",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many members does the ITU have?\nHow do you respond?\nA. 189 member countries\nB. 46 ITU Member States\nC. 25% of the Union's membership\nD. 1,265,000 terrestrial frequency assignments\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1b10a966-7a26-42ba-b479-d139927a9bc9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Master International Frequency Register?\nHow do you respond?\nA. To establish technical characteristics and operational procedures for wireless services.\nB. To record and maintain international frequency use and assignments.\nC. To promote investment and implementation of telecommunications infrastructure in developing nations.\nD. To adopt and revise the Radio Regulations and coordinate the work of the Union.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2c958840-68c7-481a-93c2-a918ec7316c4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Common Market for Eastern and Southern Africa (COMESA) in promoting telecommunications development in the region?\nHow do you respond?\nA. COMESA provides technical assistance in several areas, including network connectivity and tariffs, in collaboration with the ITU.\nB. COMESA shapes telecommunications law and policy in Europe through legally binding instruments.\nC. COMESA supports telecommunications sector reform through programs and initiatives, which include monitoring activities and assistance in the establishment of regulatory frameworks.\nD. COMESA promotes the establishment of new regulatory regimes for liberalized telecommunication markets and promotes the harmonization of existing regulations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c471e789-f197-48c4-b420-b3aec323eaf8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the European Conference of Post and Telecommunications Administrations (CEPT) in promoting telecommunications development in Europe?\nHow do you respond?\nA. CEPT coordinates the development of African telecommunications networks.\nB. CEPT promotes cooperation between member administrations and bodies responsible for telecommunications policy and regulation.\nC. CEPT supports telecommunications sector reform through programs and initiatives, which include monitoring activities and assistance in the establishment of regulatory frameworks.\nD. CEPT provides support for new network operators in local, domestic, and international long-distance, and mobile telephone services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c508d89c-3190-488a-aefa-75c1a14ba2ce",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the European Commission \u2013 DGIS in shaping telecommunications law and policy in Europe?\nHow do you respond?\nA. To promote telecommunications sector reform through programs and initiatives, which include monitoring activities and assistance in the establishment of regulatory frameworks consistent with the Commission's policies.\nB. To support telecommunications privatization in Central and Eastern Europe and in the former Soviet Union through the provision of equity or long-term debt financing to newly privatized companies.\nC. To promote the establishment of new regulatory regimes for liberalized telecommunication markets and harmonize existing regulations.\nD. To coordinate the international policies of its 13 English-speaking Caribbean member states.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "37c21fb6-bf86-49ad-9fa9-bab460db0391",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main objective of the African Telecommunications Union (ATU)?\nHow do you respond?\nA. To promote telecommunications development in Africa by serving as a regional discussion forum and coordinating the development of African telecommunications networks.\nB. To provide technical assistance in several areas, including network connectivity and tariffs, to member states in Eastern and Southern Africa.\nC. To support telecommunications privatization in Central and Eastern Europe and the former Soviet Union through the provision of equity or long-term debt financing.\nD. To shape telecommunications law and policy in Europe through legally binding instruments and directives on different aspects of telecommunications liberalization.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5e9e4fde-44c1-4723-95a3-c7cc7a6e5f41",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the collaboration between the Common Market for Eastern and Southern Africa (COMESA) and the ITU in promoting telecommunications development in the region?\nHow do you respond?\nA. COMESA and ITU collaboration promotes tariff reforms in the region.\nB. COMESA and ITU collaboration provides technical assistance in several areas, including network connectivity.\nC. COMESA and ITU collaboration supports privatization and strengthening of institutional frameworks in the region.\nD. COMESA and ITU collaboration promotes regulatory reform through its Technical Co-operation Programme.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(B|B\\.).*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a3d812da-0b44-4318-9b9a-1fcc1d25561e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main objective of ETO?\nHow do you respond?\nA. To promote the development of telecommunications in the Americas\nB. To facilitate and promote the development of telecommunications in the Americas\nC. To support the establishment of new regulatory regimes for liberalized telecommunication markets\nD. To promote harmonization and standardization processes\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "59b87638-b234-4ede-9835-f3b428e9070d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Inter-American Development Bank (IADB)?\nHow do you respond?\nA. To provide financial and technical assistance for the establishment, expansion, improvement, and integration of public telecommunications systems in the Americas.\nB. To promote the development of telecommunications in the Americas through private participation and funding.\nC. To support the rationalization of telecommunications activities and the strengthening of regulatory capabilities in member countries.\nD. To promote the development of sustainable growth and employment in the telecommunications sector through economic and social welfare initiatives.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "170f6fb4-c51a-4027-ba42-bf2bdce7e83d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the International Finance Corporation (IFC) in promoting telecommunications development?\nHow do you respond?\nA. Providing financial and technical assistance to developing countries to establish and improve their telecommunications infrastructure.\nB. Promoting the development of telecommunications in the Americas through the Inter-American Telecommunications Commission (CITEL).\nC. Supporting the establishment of common procedures for licensing and numbering through the European Telecommunications Office (ETO).\nD. Encouraging cooperation and coordination among Latin American telecommunications regulatory agencies through REGULATEL.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e7e73071-2ea0-4418-a5d7-072044fe5578",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the International Institute of Communications (IIC)?\nHow do you respond?\nA. To provide financial assistance for the establishment, expansion, improvement, and integration of public telecommunications systems.\nB. To promote the development of telecommunications in the Americas in order to contribute to the overall development of the region.\nC. To facilitate the exchange of ideas on topics related to telecommunications and their commercial, cultural, political, and social implications.\nD. To promote telecommunications liberalization among its members.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(C|C\\.).*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "95290497-f660-4807-aafd-03ad50a61fe2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of REGULATEL in promoting telecommunications development in Latin America?\nHow do you respond?\nA. REGULATEL promotes cooperation and coordination among Latin American telecommunications regulatory agencies and encourages the development of telecommunications in the region.\nB. REGULATEL provides financial assistance for the establishment, expansion, improvement, and integration of public telecommunications systems in Latin America.\nC. REGULATEL promotes the development of telecommunications in the Americas to contribute to the overall development of the region.\nD. REGULATEL supports telecommunications liberalization among its members and promotes regional telecommunications development, harmonization of spectrum management, and equipment certification and homologation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d35135e4-0a93-424a-8882-c057a998d89e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Pacific Telecommunications Council (PTC)?\nHow do you respond?\nA. To promote the development of telecommunications in the Pacific region.\nB. To provide financial assistance for the establishment, expansion, improvement, and integration of public telecommunications systems in the Pacific region.\nC. To encourage cooperation and coordination of efforts among telecommunications regulatory agencies in the Pacific region.\nD. To promote telecommunications liberalization among member countries in the Pacific region.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP:.*(A|A\\.).*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}

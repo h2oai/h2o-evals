@@ -1,0 +1,489 @@
+{
+    "tests": [
+        {
+            "key": "bcd2a269-d0f8-4b0f-bead-53c86870d544",
+            "documents": [
+                "CBA_AnnualReport_2023"
+            ],
+            "test_cases": [
+                {
+                    "key": "82324c8b-af99-4838-a0a4-3796bc163f3a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the bank that released the 2023 Annual Report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Commonwealth Bank of Australia"
+                    ],
+                    "expected_output": "The name of the bank that released the 2023 Annual Report is Commonwealth Bank of Australia."
+                },
+                {
+                    "key": "97cfb312-af3c-4784-9e2d-b610481da1e9",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is the Chair of the Board of Directors of Commonwealth Bank of Australia?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Paul O'Malley"
+                    ],
+                    "expected_output": "Paul O\u2019Malley is the Chair of the Board of Directors of Commonwealth Bank of Australia."
+                },
+                {
+                    "key": "0d69857e-d968-4a8b-8579-47a350e7763d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the city where the registered office of Commonwealth Bank of Australia is located?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Sydney",
+                        "Australia"
+                    ],
+                    "expected_output": "The registered office of Commonwealth Bank of Australia is located in Sydney, Australia."
+                },
+                {
+                    "key": "c48abf13-4d6c-48d2-8902-d6353ea73b09",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who retired as a Non-Executive Director of App Finance on 12 October 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Shirish Apte"
+                    ],
+                    "expected_output": "Shirish Apte"
+                },
+                {
+                    "key": "22726663-0b1b-4127-b09e-1358d44f3515",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is Paul O'Malley's background in finance and accounting?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Worked",
+                        "investment",
+                        "banking",
+                        "and",
+                        "audit"
+                    ],
+                    "expected_output": "Worked in investment banking and audit"
+                },
+                {
+                    "key": "cd07537a-a981-4cac-b6a0-2d51dfe54dd6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is Peter Harmer's current role with Lawcover Insurance Pty Limited?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Director"
+                    ],
+                    "expected_output": "Peter Harmer is a Director of Lawcover Insurance Pty Limited."
+                },
+                {
+                    "key": "a0d20724-b3dd-4258-992c-4342c6976649",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is the Chairman of the Macfarlane Burnet Institute for Medical Research and Public Health Ltd?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Mary Padbury"
+                    ],
+                    "expected_output": "Mary Padbury is the Chairman of the Macfarlane Burnet Institute for Medical Research and Public Health Ltd."
+                },
+                {
+                    "key": "24a62907-c5d1-4469-84f8-f062351e5874",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the increase in loan impairment expense for the financial year ended 30 June 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "$1,465 million"
+                    ],
+                    "expected_output": "The increase in loan impairment expense for the financial year ended 30 June 2023 was $1,465 million."
+                },
+                {
+                    "key": "62a4519a-0d3d-438d-a5b9-372651c175cd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the cash net profit after tax including discontinued operations for the year ended 30 June 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "$10,182 million",
+                        "5%"
+                    ],
+                    "expected_output": "The cash net profit after tax including discontinued operations for the year ended 30 June 2023 was $10,182 million, an increase of $474 million or 5% on the prior year."
+                },
+                {
+                    "key": "6bda25e9-f33b-4706-b1b2-dd6f27574691",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the increase in cash net profit after tax excluding discontinued operations for the year ended 30 June 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "$569 million",
+                        "6%"
+                    ],
+                    "expected_output": "The increase in cash net profit after tax excluding discontinued operations for the year ended 30 June 2023 was $569 million or 6%."
+                },
+                {
+                    "key": "3b49babb-b041-45dd-9c79-c0a94b36f7a6",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the amount of shares in controlled entities held by the Bank as of June 30, 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "$8,623 million"
+                    ],
+                    "expected_output": "The Bank held shares in controlled entities amounting to $8,623 million as of June 30, 2023."
+                },
+                {
+                    "key": "a0890154-51f2-40f1-b162-b9a2efb94ebf",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of loans to controlled entities at amortized cost as of June 30, 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "45,377 million"
+                    ],
+                    "expected_output": "The total amount of loans to controlled entities at amortized cost as of June 30, 2023, was $45,377 million."
+                },
+                {
+                    "key": "9cac95ce-2876-4f92-afc0-2458781c953c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the amount of loans to controlled entities at fair value through the Income Statement as of June 30, 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "$636 million"
+                    ],
+                    "expected_output": "The amount of loans to controlled entities at fair value through the Income Statement as of June 30, 2023, was $636 million."
+                },
+                {
+                    "key": "a6568ee3-3cab-4b7a-99c7-1c43c21e9b51",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the professional indemnity insurance policy issued by one of the Bank's subsidiaries to the Group's controlled entities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "cover",
+                        "potential",
+                        "remediation",
+                        "ongoing",
+                        "service",
+                        "failures",
+                        "customers",
+                        "inappropriate",
+                        "advice",
+                        "other",
+                        "matters"
+                    ],
+                    "expected_output": "The professional indemnity insurance policy was issued to cover potential remediation of ongoing service failures to customers, inappropriate advice, and other matters."
+                },
+                {
+                    "key": "38aee00c-3709-4f10-9a71-517424f54f50",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the amount of reimbursement arrangements in place for Aligned Advice remediation with its subsidiaries as of June 30, 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "$82 million"
+                    ],
+                    "expected_output": "The amount of reimbursement arrangements in place for Aligned Advice remediation with its subsidiaries as of June 30, 2023, was $82 million."
+                },
+                {
+                    "key": "882f261d-43f3-4435-8a69-d1e5f79838eb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the uncertainty regarding the outcomes and total costs associated with regulatory actions and reviews that the Board is monitoring?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "uncertain",
+                        "regulatory",
+                        "actions",
+                        "reviews",
+                        "proceedings",
+                        "investigations"
+                    ],
+                    "expected_output": "The outcomes and total costs associated with regulatory actions and reviews are uncertain, and the Board continues to monitor each of these proceedings and investigations."
+                },
+                {
+                    "key": "13cfdb9a-f1d4-4a87-87e0-dd93b6820448",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Dividend Reinvestment Plan (DRP) for the final dividend for the year ended 30 June 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The purpose of the Dividend Reinvestment Plan (DRP) for the final dividend for the year ended 30 June 2023 is to enable shareholders to reinvest their dividends in additional shares of the Bank."
+                    ],
+                    "expected_output": "The purpose of the Dividend Reinvestment Plan (DRP) for the final dividend for the year ended 30 June 2023 is to enable shareholders to reinvest their dividends in additional shares of the Bank."
+                },
+                {
+                    "key": "14daf603-7102-4b43-8ddd-9f06cc671fae",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the National Greenhouse and Energy Reporting (NGER) scheme?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "mandatory",
+                        "report",
+                        "greenhouse",
+                        "gas",
+                        "emissions",
+                        "energy",
+                        "production",
+                        "consumption",
+                        "threshold",
+                        "levels"
+                    ],
+                    "expected_output": "The purpose of the National Greenhouse and Energy Reporting (NGER) scheme is to make it mandatory for controlling corporations to report annually on greenhouse gas emissions, energy production, and energy consumption if they exceed certain threshold levels."
+                },
+                {
+                    "key": "9fb3c907-9f64-4fbf-a36f-07444cda87f9",
+                    "prompt": "Respond to the following question.\n\nQuestion: Where can further detail on the Group's disclosures related to modern slavery and human trafficking be found?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "commbank.com.au/sustainabilityreporting"
+                    ],
+                    "expected_output": "Further detail on the Group's disclosures related to modern slavery and human trafficking can be found in the Modern Slavery and Human Trafficking statement at commbank.com.au/sustainabilityreporting."
+                },
+                {
+                    "key": "ad2a64a7-8727-4a30-a1ae-424e8fb05a7d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the main litigated claim against the Group as at 30 June 2023?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Bankwest class action"
+                    ],
+                    "expected_output": "The main litigated claim against the Group as at 30 June 2023 is the Bankwest class action."
+                },
+                {
+                    "key": "a9cb4c48-ac8e-4f13-a816-6be344d43dd8",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the allegation made in the shareholder class actions?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "It is alleged",
+                        "CBA shareholders",
+                        "suffered losses",
+                        "alleged conduct"
+                    ],
+                    "expected_output": "It is alleged that CBA shareholders who acquired an interest in CBA shares between 16 June 2014 and 3 August 2017 suffered losses as a result of the alleged conduct."
+                },
+                {
+                    "key": "667a6bf0-98fd-419a-af97-793525bfbada",
+                    "prompt": "Respond to the following question.\n\nQuestion: Are there any class actions related to superannuation products?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Yes"
+                    ],
+                    "expected_output": "Yes, the Group is defending three class actions in relation to superannuation products."
+                },
+                {
+                    "key": "6823d1af-5f74-4534-8df8-93ebb1dd0614",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the main claim made in the first superannuation class action?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "lower interest rates",
+                        "CFSIL/AIL",
+                        "comparable risk"
+                    ],
+                    "expected_output": "The main claim is that members that invested in cash and deposit options received lower interest rates than they could have received had CFSIL/AIL offered similar products made available in the market by another bank with comparable risk."
+                },
+                {
+                    "key": "6178e93f-b951-4fd4-86d9-8f5c9670a2ff",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the status of the first superannuation class action?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The Court",
+                        "ordered",
+                        "mediation",
+                        "occur",
+                        "by",
+                        "14 June 2024"
+                    ],
+                    "expected_output": "The Court has ordered that mediation occur by 14 June 2024."
+                },
+                {
+                    "key": "d64e452a-869b-4b99-bb7a-1d6cadea5ddf",
+                    "prompt": "Respond to the following question.\n\nQuestion: Is the Group subject to any other significant environmental reporting regulations under the law of the Commonwealth or a State or Territory of Australia?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "No"
+                    ],
+                    "expected_output": "No, the Group is not subject to any other significant environmental reporting regulations under the law of the Commonwealth or a State or Territory of Australia, aside from the NGER scheme."
+                },
+                {
+                    "key": "80ede115-ee1b-4629-bcc2-a7ea3bff5033",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the legislation that requires the Group to report on modern slavery and human trafficking risks in its operations and supply chain?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The Modern Slavery Act 2018 (Cth)"
+                    ],
+                    "expected_output": "The Modern Slavery Act 2018 (Cth)."
+                },
+                {
+                    "key": "3cbd02d8-a2b7-49ba-a1b5-28627cf4d617",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who retired as Chair of the People & Remuneration Committee effective 10 August 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Paul O'Malley",
+                        "retired",
+                        "Chair",
+                        "People & Remuneration Committee",
+                        "effective",
+                        "10 August 2022"
+                    ],
+                    "expected_output": "Paul O\u2019Malley retired as Chair of the People & Remuneration Committee effective 10 August 2022."
+                },
+                {
+                    "key": "742c3cc9-ac0d-41f2-b50f-3c0e0d47fcc2",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who was appointed as a Director on 1 October 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Lyn Cobley",
+                        "1 October 2022"
+                    ],
+                    "expected_output": "Lyn Cobley was appointed as a Director on 1 October 2022."
+                },
+                {
+                    "key": "5fa39710-ed1b-4476-a198-f818a2467b07",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who was appointed as a member of the Audit and Risk & Compliance Committees on 1 September 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Julie Galbo",
+                        "Audit",
+                        "Risk & Compliance Committees",
+                        "1 September 2022"
+                    ],
+                    "expected_output": "Julie Galbo was appointed as a member of the Audit and Risk & Compliance Committees on 1 September 2022."
+                },
+                {
+                    "key": "eced8a4f-b331-4096-8f1e-96fe4ffaf7b9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the extent of the indemnity provided to Officers under the Constitution?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "full indemnity",
+                        "full extent permitted by law",
+                        "losses",
+                        "liabilities",
+                        "costs",
+                        "charges",
+                        "expenses",
+                        "officer",
+                        "Bank",
+                        "related body corporate"
+                    ],
+                    "expected_output": "The Officers are indemnified by the Bank on a full indemnity basis and to the full extent permitted by law against all losses, liabilities, costs, charges, and expenses incurred by the Officer as an officer of the Bank or of a related body corporate."
+                },
+                {
+                    "key": "35bd7c24-427e-4e2e-94b0-b1478606f7f3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the indemnity deed poll executed by the Bank?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The",
+                        "indemnity",
+                        "deed",
+                        "poll",
+                        "provides",
+                        "indemnification",
+                        "to",
+                        "certain",
+                        "officers",
+                        "on",
+                        "substantially",
+                        "the",
+                        "same",
+                        "terms",
+                        "as",
+                        "those",
+                        "provided",
+                        "in",
+                        "the",
+                        "Constitution"
+                    ],
+                    "expected_output": "The indemnity deed poll provides indemnification to certain other officers on substantially the same terms as those provided in the Constitution."
+                },
+                {
+                    "key": "96ad4330-5cc1-47d7-9a0d-89f9b92da749",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the deed poll executed by the Bank in favour of each secretary and senior manager of the Bank?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "The deed poll executed by the Bank in favour of each secretary and senior manager of the Bank is to provide indemnification to them on substantially the same terms as those provided in the Constitution."
+                    ],
+                    "expected_output": "The deed poll executed by the Bank in favour of each secretary and senior manager of the Bank is to provide indemnification to them on substantially the same terms as those provided in the Constitution."
+                },
+                {
+                    "key": "710411f8-cc5d-469b-9f1f-491ab70c9d26",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who are the individuals who, at the request of a related body corporate of the Bank, act as a member of the compliance committee of a registered scheme for which the related body corporate of the Bank is the responsible entity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "Persons",
+                        "at",
+                        "the",
+                        "request",
+                        "of",
+                        "a",
+                        "related",
+                        "body",
+                        "corporate",
+                        "of",
+                        "the",
+                        "Bank",
+                        "act",
+                        "as",
+                        "a",
+                        "member",
+                        "of",
+                        "the",
+                        "compliance",
+                        "committee",
+                        "of",
+                        "a",
+                        "registered",
+                        "scheme",
+                        "for",
+                        "which",
+                        "the",
+                        "related",
+                        "body",
+                        "corporate",
+                        "of",
+                        "the",
+                        "Bank",
+                        "is",
+                        "the",
+                        "responsible",
+                        "entity"
+                    ],
+                    "expected_output": "Persons who, at the request of a related body corporate of the Bank, act as a member of the compliance committee of a registered scheme for which the related body corporate of the Bank is the responsible entity are indemnified by the Bank under the deed poll."
+                }
+            ]
+        }
+    ]
+}
