@@ -64,9 +64,9 @@ def process_folders(root_folder_path, csv_file_path):
         if True:
             questions = []
             
-            for file_name in os.listdir(folder_name):
+            for file_name in os.listdir(folder_name+'/CSV_files'):
                 if file_name.endswith('.csv'):
-                    csv_file_path = os.path.join(folder_name, file_name)
+                    csv_file_path = os.path.join(folder_name+'/CSV_files', file_name)
                     df_csv = pd.read_csv(csv_file_path)
                     if 'question_type' in file_name.lower() :
                         questions.append(generate_conditional_question(folder_name, df_csv.iloc[0]))

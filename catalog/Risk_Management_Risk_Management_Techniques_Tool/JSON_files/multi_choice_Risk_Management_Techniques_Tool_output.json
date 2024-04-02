@@ -1,0 +1,1035 @@
+{
+    "tests": [
+        {
+            "key": "84cdb563-17a2-4f81-883d-3356674689a0",
+            "documents": [
+                "Risk_Management_Techniques_Tool.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "d26812af-d6bc-47ff-a11b-bf4c7a77e2f5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a consequence/probability matrix in risk management?\nHow do you respond?\nA. To assess the likelihood and potential impact of a risk event\nB. To identify and prioritize potential risks\nC. To evaluate the effectiveness of risk mitigation strategies\nD. To determine the level of risk tolerance for an organization\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "94cb216a-6b05-45e6-b098-d4eacc1a4118",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of monitoring and reviewing risk management plans in an organization?\nHow do you respond?\nA. To ensure that the risk management plans are effective in mitigating risks.\nB. To assess the likelihood of risks occurring.\nC. To identify new risks that may have arisen.\nD. To evaluate the cost-effectiveness of the risk management plans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b62d4ff8-3d92-45bb-9524-4f8d4bb54ea9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of developing a 5x5 likelihood scale?\nHow do you respond?\nA. To evaluate and prioritize tolerance for risk.\nB. To assess the probability of an event occurring.\nC. To identify potential risks in a given context.\nD. To determine the severity of a risk.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2eaaa667-1ad0-4631-9c17-416f362fdbcb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the five levels of likelihood in the 5x5 scale?\nHow do you respond?\nA. Almost Certain, Likely, Possible, Unlikely, Rare\nB. Definite, Probable, Improbable, Unlikely, Rare\nC. Almost Certain, Probable, Likely, Improbable, Rare\nD. Almost Certain, Likely, Unlikely, Improbable, Rare\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "56115325-004c-4cc6-932f-dd9d0c565de4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between the \"Likely\" and \"Possible\" levels of likelihood?\nHow do you respond?\nA. The \"Likely\" level of likelihood implies a higher degree of probability than the \"Possible\" level.\nB. The \"Likely\" level of likelihood implies a lower degree of probability than the \"Possible\" level.\nC. The \"Likely\" level of likelihood refers to an event that is expected to occur in most circumstances, while the \"Possible\" level refers to an event that may occur in some circumstances.\nD. The \"Likely\" level of likelihood refers to an event that may occur in some exceptional circumstances, while the \"Possible\" level refers to an event that is expected to occur in most circumstances.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "06079970-724d-427d-a8d3-51eb928c2050",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a risk significance or tolerance matrix?\nHow do you respond?\nA. To define the likelihood of a risk occurring\nB. To assess the impact of a risk on the organization\nC. To prioritize risks based on their severity\nD. To identify potential risks in a given context\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "1d4a0547-c281-4857-b867-c4155a5acd27",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is an example of a risk criteria that might be used in a risk tolerance matrix?\nHow do you respond?\nA. Severity of risk\nB. Likelihood of risk\nC. Impact of risk\nD. Risk likelihood matrix\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c474aa1a-2ec6-4f6b-b0b9-8030e71b2fae",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between a threat analysis and a SWOT analysis?\nHow do you respond?\nA. Threat analysis identifies external factors that could harm an organization, while SWOT analysis identifies internal strengths and weaknesses.\nB. Threat analysis identifies internal factors that could harm an organization, while SWOT analysis identifies external factors that could help or harm an organization.\nC. Threat analysis identifies external factors that could help an organization, while SWOT analysis identifies internal factors that could help or harm an organization.\nD. Threat analysis and SWOT analysis are the same thing.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2adf4b3e-3891-4d3d-a195-e4c1bff90a4b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of fault tree analysis?\nHow do you respond?\nA. To identify and prioritize potential risks in a system\nB. To evaluate the likelihood and impact of potential risks\nC. To create a diagram that illustrates the possible combinations of faults that can lead to a specific event\nD. To assess the effectiveness of existing controls and identify areas for improvement\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "72c64ef3-26ac-4268-a2eb-c5e9afce676a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of FMEA (Failure Mode & Effect Analysis)?\nHow do you respond?\nA. To identify and prioritize potential failures in a system or process.\nB. To evaluate the likelihood and impact of potential risks.\nC. To assess the effectiveness of existing controls and identify areas for improvement.\nD. To identify and mitigate potential threats to an organization's assets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f4d57dd2-a96d-47d7-926a-e95a2972c23c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of dependency modeling and Real Option Modeling?\nHow do you respond?\nA. To evaluate and prioritize tolerance for risk.\nB. To assess the likelihood and impact of potential risks.\nC. To identify and mitigate potential risks.\nD. To model and analyze the dependencies and uncertainties in a system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "e608b225-31a2-466f-87eb-6d2e23945d2d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of air and sea cargo delays on financial and community?\nHow do you respond?\nA. Air and sea cargo delays have a moderate financial impact and a minor community impact.\nB. Air and sea cargo delays have a severe financial impact and a moderate community impact.\nC. Air and sea cargo delays have a minor financial impact and a severe community impact.\nD. Air and sea cargo delays have a moderate financial impact and a severe community impact.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "b73b29fe-a4ee-4735-87a6-46f87b46cbdd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of passenger clearance delays on clients?\nHow do you respond?\nA. Minor disruption\nB. Moderate disruption\nC. Severe disruption\nD. No disruption\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a3700e79-98cc-4a27-8f4c-e1d95404ee55",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the likelihood of non-compliers avoiding detection and action under Customs Act and other agency's legislation enforced by Customs?\nHow do you respond?\nA. Almost certain\nB. Highly likely\nC. Possible\nD. Unlikely\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "92b7fb30-27d4-45dd-9f1a-e10a5e15877d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of revenue collection against revenue forecast?\nHow do you respond?\nA. Minor financial impact and minor community impact.\nB. Moderate financial impact and moderate community impact.\nC. Major financial impact and severe community impact.\nD. Severe financial impact and extreme community impact.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ce5f3f5c-a297-4fd7-a9ce-b7df5ca320e5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of compliance measurement in risk management process?\nHow do you respond?\nA. To assess the degree to which traders, carriers, and imported goods conform to Customs rules and procedures.\nB. To identify areas of non-compliance and focus resources effectively in areas of concern to Customs.\nC. To evaluate the effectiveness of risk assessment, profiling, and other targeting procedures.\nD. To determine the level of risk associated with traders, carriers, and imported goods.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0af94565-3ace-4898-a8a9-6265382c9923",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can compliance measurement be used as a diagnostic tool for Customs administrations?\nHow do you respond?\nA. To identify areas of non-compliance and focus resources effectively in areas of concern to Customs.\nB. To evaluate the effectiveness of risk assessment methodologies and enhance targeting procedures.\nC. To monitor and evaluate the success of compliance measurement methodologies.\nD. To determine the degree to which traders, carriers, and imported goods conform to Customs rules and procedures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8dd817be-a799-49d2-8e57-9174c5fb5a5e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of risk assessment, profiling and other targeting procedures in compliance measurement?\nHow do you respond?\nA. They help to identify areas of non-compliance.\nB. They provide objective and statistically valid results.\nC. They help to focus resources effectively in areas of concern to Customs.\nD. They are used to evaluate the success of compliance measurement methodologies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "931cd6a1-69fb-498d-b877-85b620283026",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of non-compliance on Customs administrations?\nHow do you respond?\nA. It can lead to minor financial and community impact.\nB. It can cause moderate disruption to the client.\nC. It can result in severe financial and community impact.\nD. It can lead to Parliament and/or Government initiating an enquiry into the shortfall.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "70ec7bf3-5e78-4e80-be5c-ec4cc7d2fa14",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of Parliament and Government in addressing revenue shortfall under target?\nHow do you respond?\nA. Parliament and Government have no role in addressing revenue shortfall under target.\nB. Parliament and Government should initiate an enquiry into the shortfall and take necessary actions to rectify it.\nC. Parliament and Government should provide additional resources to the revenue collection agency to help them meet their target.\nD. Parliament and Government should adjust the revenue forecast to match the actual collection.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "50e66665-d4eb-4cf1-8464-3e05bfeae663",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a 5x5 risk tolerance/significance matrix?\nHow do you respond?\nA. To assess the likelihood and impact of potential risks.\nB. To evaluate the effectiveness of risk management strategies.\nC. To identify areas of non-compliance with Customs rules and procedures.\nD. To predict the likelihood of detection and action against non-compliers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "073b186c-5224-41df-9dae-00e6caa8b868",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of compliance measurement for Customs administrations?\nHow do you respond?\nA. To assess the effectiveness of Customs' enforcement strategies.\nB. To identify areas of non-compliance and improve revenue collection.\nC. To evaluate the performance of Customs officials.\nD. To monitor traders' compliance with trade agreements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8a25cde4-5891-4e35-b720-75f5ed069674",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the approach to compliance measurement in some countries or economic unions?\nHow do you respond?\nA. Focusing on the top 5-10% of highest volume manufacturers, importers, exporters, and commodities.\nB. Targeting 10% of traders who account for over 80% of imports and exports.\nC. Assessing compliance rates of all entities equally.\nD. Conducting random checks on a small sample of transactions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "eadcfb8c-7a5d-4a29-98b8-b2afb98519c3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different areas of compliance measurement?\nHow do you respond?\nA. Documentary issues, procedural issues, revenue issues, transport issues, and specific concerns.\nB. Importation and exportation, transit operations, warehousing, free trade zones, and processing.\nC. Tariff classification, valuation, country of origin, timely and accurate revenue payments, and proper posting of securities.\nD. Accurate reporting of quantity, accurate description of goods, accuracy of container quantities and identification numbers, and transporter compliance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "14a72909-3224-4822-9bbf-fe8e174eb36f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does Customs gather data for compliance measurement?\nHow do you respond?\nA. Customs gathers data from both internal and external sources, manually and automatically.\nB. Customs gathers data only from internal sources, manually.\nC. Customs gathers data only from external sources, automatically.\nD. Customs gathers data from both internal and external sources, but only manually.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8290e743-b2a3-4d41-8fd9-f3610b5c8de6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does Customs determine a designated universe of transactions for compliance measurement?\nHow do you respond?\nA. By selecting a random sample of transactions from all import and export records.\nB. By identifying the top 5-10% of highest volume traders, importers, and exporters.\nC. By reviewing all transactions that have a high risk of non-compliance based on automated systems.\nD. By analyzing trade agreements and public health and safety issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7994f3cc-215d-465c-beea-2ec397581902",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the acceptable level of compliance for Customs administrations?\nHow do you respond?\nA. 95%\nB. 80%\nC. 50%\nD. 100%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e48cf02f-a09f-473c-8c6f-21589cb443be",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What factors should be considered during a verification review for a selected example of these processes?\nHow do you respond?\nA. Proper tariff classification, accurate valuation, and country of origin.\nB. Importation and exportation, transit operations, and warehousing.\nC. Timely and accurate revenue payments, proper posting of securities, and accuracy of container quantities.\nD. Public health and safety issues, intellectual property rights, and compliance with trade agreements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "32d8e3f3-3924-443e-88c2-e6f9f3e54f0e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can automated systems support compliance review requirements for a scientific approach to accurate data collection and analysis?\nHow do you respond?\nA. By evaluating high-risk shipments and selecting specific transactions or entities for review or verification using a statistically valid sampling methodology.\nB. By determining a designated universe of transactions and using automated systems to evaluate all transactions within that universe.\nC. By collecting and analyzing data from a variety of sources, both internal and external, and by both manual and automated means.\nD. By arriving at reasonable, informed conclusions about the compliance rates of many entities without using automation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b7ada4ba-5e07-424c-9a17-9bbab0fa2fed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of risk assessment and profiling in compliance measurement?\nHow do you respond?\nA. To identify high-risk transactions and entities for compliance review\nB. To determine the acceptable level of compliance for an administration\nC. To evaluate the effectiveness of compliance measurement tools and methodologies\nD. To assess the impact of compliance measurement on revenue collection and enforcement of laws\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9d05b9c8-be5d-4747-8856-bd61f26908d4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of compliance measurement in customs?\nHow do you respond?\nA. To assess the effectiveness of customs officials in their daily activities.\nB. To measure the level of compliance with customs regulations and prevent fraud.\nC. To determine the revenue gap between expected and actual revenue collection.\nD. To evaluate the performance of customs officials in their decision-making process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "55806e36-9384-4395-9733-d6a4bfd15227",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the tolerance level for compliance measurement in customs?\nHow do you respond?\nA. 90%\nB. 95%\nC. 85%\nD. 75%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e8d0d18e-fa26-4c5a-b5c6-faa274d102bb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does customs conduct a compliance measurement review?\nHow do you respond?\nA. By evaluating the accuracy of goods declarations, country of origin markings, and descriptions.\nB. By conducting random sampling of goods declarations and measuring compliance rates.\nC. By reviewing importers' documentation and assessing their level of cooperation.\nD. By targeting high-risk transactions and industries based on past compliance records.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e5f0aa9e-3c8b-40b4-a052-a961b084bce3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if the compliance rate is less than 95% during a compliance measurement review?\nHow do you respond?\nA. Customs should seek to inform the importer and conduct subsequent measurements to ensure the problem is corrected.\nB. Customs should issue fines or penalties, if appropriate, in cases of continued non-compliance.\nC. Customs should conduct more reviews and/or examinations.\nD. Customs should establish profiles/targets for the identified areas of non-compliance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "196278f4-dea0-44b0-ab2b-61319c2ee1e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do compliance measurement results help customs officials?\nHow do you respond?\nA. They help customs officials identify high-risk transactions and target their examinations accordingly.\nB. They provide information for updating selectivity criteria to reduce the risk of commercial fraud.\nC. They allow customs officials to assess performance by major importers and exporters.\nD. They help customs officials to determine the revenue gap.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1e9cf9be-963a-417b-a663-02cd328d9c6c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do compliance measurement results contribute to determining trends and issues in specific industry sectors?\nHow do you respond?\nA. By providing real-time data on industry-specific compliance rates, which can help identify emerging trends and issues.\nB. By assessing the performance of individual importers and exporters, which can help identify areas for improvement within specific companies.\nC. By measuring the effectiveness of existing selectivity criteria, which can help refine targeting of high-risk transactions.\nD. By evaluating the overall effectiveness of an administration's risk management program, which can help identify gaps in the compliance process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9087039e-54bf-4774-b80d-153d33872317",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To assess the effectiveness of Customs officers in their daily activities.\nB. To evaluate the organisational outcomes of risk management.\nC. To determine the likelihood, severity, and consequences of risk.\nD. To align data with specific needs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a4c2855a-b5b1-471c-aabd-9b4fd1875967",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the three main components of the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. Purpose/Context/Scope, Risk Management Concept, and Data Analysis.\nB. Employee Investment, Integration, and Adaptation.\nC. Focus, Realisation, and Continuous Improvement.\nD. Data Analysis, Employee Investment, and Integration.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c4a93970-b9bd-4479-bfb7-8b37f3b79c59",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Data Analysis component in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To align data with specific needs.\nB. To evaluate and improve the effectiveness of policies, procedures, and training.\nC. To determine the likelihood, severity, and consequences of risk.\nD. To identify gaps and additional data required.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "81a65467-0072-4711-b8e4-395f8605eba9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Employee Investment component in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To determine the likelihood, severity, and consequences of risk.\nB. To establish the risk management infrastructure.\nC. To align data with specific needs.\nD. To evaluate and improve the effectiveness of policies, procedures, and training.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0c0d9cf4-36b9-4bca-986a-27781f7a04ba",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Integration component in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To ensure that risk management is integrated into daily work and that continuous communication with stakeholders is maintained.\nB. To align data analysis with specific needs and refocus the risk management infrastructure.\nC. To determine the processes that could be changed and the consequential risk to the mission and goals of Customs.\nD. To establish the risk management infrastructure and set service delivery standards.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ffa745ae-0639-4e69-9c9f-72b88e8ec338",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Adaptation component in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To continuously review and revise processes to ensure they are aligned with changing stakeholder requirements.\nB. To assess the likelihood, severity, and consequences of risks and refocus the risk management infrastructure accordingly.\nC. To monitor contextual changes and adapt data analysis methods to meet new requirements.\nD. To integrate risk management into other management activities and processes, such as project management, strategic planning, and resource allocation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "60e8bbcd-97f8-4bfa-a631-fb8e9eacfe5a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Focus component in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To determine the likelihood, severity, and consequences of risk.\nB. To align data with specific needs and refocus the risk management infrastructure.\nC. To evaluate and improve the effectiveness of policies, procedures, and training.\nD. To establish the risk management infrastructure and set service delivery standards.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5c6eda44-16cf-4e4b-986f-4cb9b9963eac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Realisation component in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To establish the risk management infrastructure and align data with specific needs.\nB. To evaluate stakeholder perceptions and expectations of Customs' performance.\nC. To identify gaps in skill sets and address them through training and tools.\nD. To continuously review and revise processes to ensure risk management integration.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bef335bc-9481-43ba-88aa-33ec97bde227",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Gap analysis in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To identify gaps in skill sets and address them through training and tools.\nB. To evaluate and improve the effectiveness of policies, procedures, and training.\nC. To determine the likelihood, severity, and consequences of risk.\nD. To align data with specific needs and refocus the risk management infrastructure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e548c36d-4638-4575-9557-79489473418e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Performance perception analysis in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To evaluate and improve the effectiveness of policies, procedures, and training.\nB. To determine the likelihood, severity, and consequences of risk.\nC. To identify gaps and additional data required for risk management.\nD. To assess stakeholder perception and expectations of Customs' performance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "97201d1b-937a-44f1-9201-18fd3d48f0bf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Modify data requirements component in the APEC Risk Management Process Self-Assessment model?\nHow do you respond?\nA. To align data with specific needs.\nB. To evaluate and improve the effectiveness of policies, procedures, and training.\nC. To identify gaps and additional data required.\nD. To establish the risk management infrastructure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "cb5c3754-7881-4a4c-ae57-9f8a806938bb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the risk management matrix?\nHow do you respond?\nA. To assess an economy's current status in terms of risk management.\nB. To identify the next steps to refine or build an economy's risk management process.\nC. To evaluate an economy's performance against its current missions and goals.\nD. To determine the worth of data in terms of relevance, timeliness, and integrity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e27ec6df-2f50-48e8-ba18-4c966c337ac6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the five subject areas assessed in the risk management matrix?\nHow do you respond?\nA. Purpose/Context/Scope, Risk Management Concept, Data, Analysis, and Employee Investment\nB. Risk Management Concept, Data, Analysis, Employee Investment, and Communication\nC. Purpose/Context/Scope, Data, Analysis, Employee Investment, and Communication\nD. Risk Management Concept, Purpose/Context/Scope, Data, Analysis, and Communication\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2783e525-cd27-4b87-a8fb-fb325bec983b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the starting point for the Purpose/Context/Scope subject area?\nHow do you respond?\nA. We recognize we have internal and external stakeholders and have an assumption of their needs.\nB. Stakeholders are known and their needs are explored.\nC. Customs current missions and goals are identified and stated.\nD. Risk management process is understood.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0dbf5545-403b-4b62-b38b-58639282f1f5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the realization stage in the Risk Management Concept subject area?\nHow do you respond?\nA. Understanding the importance of risk management and its benefits.\nB. Identifying and assessing potential risks.\nC. Developing and implementing risk management policies and procedures.\nD. Continuously monitoring and reviewing the risk management process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e610b253-be81-4141-b0d3-828745d8cd1b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus stage in the Data subject area?\nHow do you respond?\nA. Starting Point\nB. Awareness\nC. Realization\nD. Adaptation\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4f142900-096b-4c40-9d96-8723c17db668",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the adaptation stage in the Employee Investment subject area?\nHow do you respond?\nA. Employees are trained on risk management policies and procedures.\nB. Employees are assessed for their skills and competencies related to risk management.\nC. Employee skills audit is conducted to identify gaps and create solutions.\nD. Employees are aware of the concepts, methodology, principles, and benefits of risk management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f204ffd6-574d-4d76-ab15-0377b94dfdee",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of stakeholders in the risk management process?\nHow do you respond?\nA. Stakeholders are not involved in the risk management process.\nB. Stakeholders are involved in identifying and assessing risks, and their needs and expectations are considered in the risk management process.\nC. Stakeholders are responsible for implementing risk management policies and procedures.\nD. Stakeholders are only involved in the risk management process if they are directly affected by the risk.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "aa397eb4-0f16-41be-8ab5-93076ceb42e1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the risk assessment/targeting centers?\nHow do you respond?\nA. To provide 24/7/365 tactical analysis and coordination capacity to front-line operations.\nB. To manage selectivity and targeting criteria.\nC. To assist with planning & resource deployment.\nD. To act as a hub for risk-related information exchange.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "111a078a-67d3-4efd-9feb-f22588d0c18f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different organizational models for operating a risk assessment/targeting center?\nHow do you respond?\nA. Centralized, decentralized, or a mixture of both.\nB. National, regional, or local.\nC. Intelligence-based, operation-based, or a combination of both.\nD. Automated, manual, or a combination of both.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a980007e-325c-41e7-bc99-fa92b46ae7cb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the outcome of the analysis conducted by risk assessment/targeting centers?\nHow do you respond?\nA. Risk profiles and examination criteria.\nB. Profiles of travelers.\nC. Intelligence products.\nD. Resource planning and deployment responses.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a80c6976-17db-4ed4-846c-1f5d3ece5708",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do risk assessment/targeting centers contribute to the management of selectivity systems?\nHow do you respond?\nA. They develop selectivity and targeting criteria relating to activities such as vetting commercial transactions, revenue assurance, fraud, and other illegal activities.\nB. They use automated analysis and trade-based research tools to conduct these activities in conjunction with existing intelligence products.\nC. They enter criteria into electronic and/or manual systems.\nD. They ensure that national risk management goals and objectives are met, and that local knowledge and experience enrich the process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e599db98-c76d-4d03-9928-b7b2081992b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the matrix in the risk management process?\nHow do you respond?\nA. To provide a framework for assessing an organization's current position and determining the feasibility of reaching the next level.\nB. To identify the stage where an organization fits in the Focus, Integration, or Review stage.\nC. To determine the risk profiles and examination criteria for identifying non-compliant transactions.\nD. To develop selectivity and targeting criteria for vetting commercial transactions, revenue assurance, fraud, and other illegal activities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f5a30bfe-c63a-47bd-bc6c-667089c09856",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of reviewing the matrix at various intervals of time?\nHow do you respond?\nA. To assess progress, refocus goals, and improve the Risk Management Process.\nB. To determine the current position of the organization in the Focus stage.\nC. To identify the intended victim(s) was/were.\nD. To develop selectivity and targeting criteria relating to activities such as vetting commercial transactions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d5f25b82-d74a-4fc1-822f-dde3554eb1e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the tools that can assist organizations in progressing through the matrix?\nHow do you respond?\nA. Automated analysis and trade-based research tools.\nB. Risk assessment and targeting centers.\nC. Intelligence products.\nD. National systems and regional or local experience.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5bc4bda8-3404-46cb-a779-cdf9d29d1aa8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do risk assessment and targeting centers support front-line operational activity?\nHow do you respond?\nA. By providing additional tactical analysis capacity to operational inquiries originating in real-time from business operations.\nB. By facilitating information exchange on risk-related issues between Customs and other governmental agencies.\nC. By coordinating information exchange on risk-related issues between Customs administrations internationally.\nD. By strengthening inter-agency cooperation on managing cross-border risks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d93a5730-9bf8-401a-b8f9-e396c327038f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do risk assessment and targeting centers contribute to the management of selectivity systems?\nHow do you respond?\nA. By analyzing the resultant \"hits\" and collecting and storing information from front-line interventions, which enables continuous refinement and development of selection and targeting criteria in conjunction with intelligence units.\nB. By facilitating information exchange on risk-related issues between Customs and other governmental agencies, between Customs and the private sector, and between Customs administrations internationally.\nC. By providing additional tactical analysis capacity to operational inquiries originating in real-time from business operations such as goods inspection, passenger inspection, transport, and vessel search and investigations activities.\nD. By strengthening inter-agency cooperation on managing cross-border risks through stakeholder cooperation and a vehicle for better coordinated border management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f971dd47-f66e-4da8-be1a-a09de915e2d0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do risk assessment and targeting centers support resource planning and deployment?\nHow do you respond?\nA. By providing real-time analysis capacity to operational inquiries originating from business operations.\nB. By facilitating information exchange on risk-related issues between Customs and other governmental agencies.\nC. By coordinating the development of selection and targeting criteria in conjunction with intelligence units.\nD. By strengthening inter-agency cooperation on managing cross-border risks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6b646e4c-8699-40b4-a8c8-37694ec5888a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the international trade risks that Customs control aims to address?\nHow do you respond?\nA. Risks related to smuggling, trade mark fraud, international terrorism, and drug trafficking.\nB. Risks related to currency exchange, tariffs, and import/export regulations.\nC. Risks related to product quality, safety, and environmental impact.\nD. Risks related to intellectual property theft, cybersecurity, and data privacy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3456de0d-2789-4fd2-bfe3-f85ba74ff7df",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the creation of risk profiles for foreign trade operators support Customs control?\nHow do you respond?\nA. It allows for targeted screening of high-risk operators to prevent smuggling and fraud.\nB. It facilitates the decentralization of strategic control operations to improve operational efficiency.\nC. It enables the centralization of strategic information to enhance national security.\nD. It helps to reduce the risk of international terrorism and drug trafficking.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6bea2be3-7f42-42fd-8423-ad22696ac96b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main responsibility of the Risk Management Directorate in the Argentina Customs?\nHow do you respond?\nA. To create strategic politics for the Customs control, to collect and analyze the information to define the risk profiles and to coordinate the activities in which the Customs General Directorate has to act with other organizations.\nB. To plan and propose criteria to define the risk profiles of the operations, destinations, operators, and foreign trade auxiliaries and to evaluate the results.\nC. To create control and analysis criteria for the valuation of the goods.\nD. To apply a computerized system to analyze the risks and to identify the goods that can be of high risk.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d1c707e5-d3cc-47f3-bc99-5b6c513522be",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two departments under the Risk Management Directorate in the Argentina Customs?\nHow do you respond?\nA. Selectivity and Strategic Management of Valuation (Correct)\nB. Risk Analysis and Compliance\nC. Trade Facilitation and Cargo Inspection\nD. Enforcement and Intelligence\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ba7d2a54-15dd-43d4-b58b-fbb7616af63d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the risk analysis processes in the Argentina Customs?\nHow do you respond?\nA. To identify high-risk goods and operators and apply selective control measures.\nB. To evaluate the effectiveness of the Customs control system.\nC. To minimize the risks for citizens and legitimate international trade.\nD. To centralize strategic definitions and intelligence applicable to Customs control.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "36f08331-e9bd-4817-b965-d5d405b26ce0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis of an effective control in the Argentina Customs?\nHow do you respond?\nA. The use of computerized procedures to analyze a large amount of information and the use of harmonized criteria to control goods and economic operators.\nB. The adoption of a risk-based approach to customs control, including the creation of risk profiles for foreign trade operators and the strategic management of valuation.\nC. The implementation of a traditional control approach that relies on manual processes and does not utilize technology.\nD. The use of ISO Standard 31000:2009 for successful risk management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5ee027f5-2e6d-498b-b153-567d2b31530e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the ISO Standard 31000:2009 in the Argentina Customs?\nHow do you respond?\nA. To provide guidelines for the successful risk management.\nB. To establish rules for the system of risk analysis.\nC. To create strategic politics for the Customs control.\nD. To advise the public and private organizations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "44667859-c736-43aa-876a-c5ead9d5d0bc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the advantages of the risk-based control approach in the Jamaica Customs Department?\nHow do you respond?\nA. Guarantee a better use of resources, increase incomes, improve compliance, increase risk perception in relation to operations and operators, reduce clearance times, decrease logistics costs, and enhance cooperation among operators, control agencies and Customs.\nB. Increase the risk perception in relation to operations and operators, reduce clearance times, decrease logistics costs, and enhance cooperation among operators, control agencies and Customs.\nC. Improve compliance, increase the risk perception in relation to operations and operators, reduce clearance times, decrease logistics costs, and enhance cooperation among operators, control agencies and Customs.\nD. Guarantee a better use of resources, increase incomes, improve compliance, reduce clearance times, decrease logistics costs, and enhance cooperation among operators, control agencies and Customs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9cab9125-8d29-4add-b2fb-3687bd713b25",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between the traditional Customs control approach and the risk-based control approach in the Jamaica Customs Department?\nHow do you respond?\nA. The traditional approach focuses on random checks, while the risk-based approach targets high-risk operators and shipments.\nB. The traditional approach targets high-risk operators and shipments, while the risk-based approach focuses on random checks.\nC. The traditional approach is based on the use of computerized systems, while the risk-based approach relies on manual checks.\nD. The traditional approach focuses on compliance, while the risk-based approach focuses on reducing clearance times.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5e93370d-3182-48b5-a415-2ec2e375b619",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the table in the text that compares the Jamaica Customs Department\u2019s previous Customs controls with its current approach?\nHow do you respond?\nA. To highlight the advantages of the traditional Customs control approach\nB. To demonstrate the effectiveness of the risk-based control approach\nC. To compare the resources used in both approaches\nD. To show the reduction in clearance times\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "20ad10a7-3829-4f76-a2a0-75f515ab9d83",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Risk Management Steering Committee in the Kenya Customs Department?\nHow do you respond?\nA. To support operational risk assessment, profiling, and targeting practices.\nB. To deal with organizational risks and priorities.\nC. To collect data from various government agencies for risk analysis.\nD. To conduct post-audit on illegal transactions and tax evasion cases.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ca832982-83b5-4d8f-aa9f-b5b46ae7b919",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the National Targeting Centre in the Kenya Customs Department?\nHow do you respond?\nA. To conduct risk analysis for post-audit on illegal transactions and tax evasion cases.\nB. To support operational risk assessment, profiling, and targeting practices.\nC. To collect data from various government agencies such as the Ministry of Justice, National Tax Service, Ministry of Foreign Affairs & Trade, and Ministry of Land, Transport and Maritime Affairs.\nD. To educate clients about risk management and change organizational culture.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8a60c16a-e59e-467d-971b-db166bd2a81a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How has the number of Customs personnel in Japan changed over time?\nHow do you respond?\nA. The number of Customs personnel in Japan has increased over time to match the increasing workload.\nB. The number of Customs personnel in Japan has remained the same despite the increasing workload.\nC. The number of Customs personnel in Japan has decreased over time, resulting in a decrease in operational efficiency.\nD. The number of Customs personnel in Japan has fluctuated randomly, without any clear trend.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "54c62216-624e-477d-aa77-ce7f7c0abc57",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the transition in main Customs services in Japan?\nHow do you respond?\nA. To reduce the number of Customs personnel\nB. To improve operational efficiency\nC. To increase the volume of main services\nD. To prioritize organizational risks and priorities\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5ee85adb-c759-4d72-ac54-b3f01a1f0dc9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the future plan for the Jamaica Customs Department's risk management approach?\nHow do you respond?\nA. Implement client education\nB. Introduce legislative amendments\nC. Increase the number of officials\nD. Focus on low-risk areas\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d450fa5d-6133-4473-81e5-e83bfb14e3b2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Integrated Risk Management System (IRM) established by the KCS?\nHow do you respond?\nA. To automate the process of risk analysis for post-audit on illegal transactions and tax evasion cases.\nB. To provide real-time data management and reduce time lag in risk management.\nC. To assist divisions with decision-making and improve organizational integration.\nD. To detect and prevent fraudulent activities in the customs clearance process.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5c7cfabc-5ebe-4675-a6fb-a62ba909d7fb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the expected benefits of the IRM system?\nHow do you respond?\nA. Producing comprehensive information with an enhanced reconciliation function, real-time data management, and reducing time lag.\nB. Assisting divisions with their decision-making, possible efficiencies in organizational integration, and focus shifted from correction of mistakes to prevention.\nC. Improving targeting capability, leading to an increase in revenue collection, and close cooperation among related entities, including border agencies and other countries.\nD. Enhancing the reconciliation function, reducing time lag, and producing comprehensive information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3dafaf73-8b03-4f11-a8fa-bd599fc7d341",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the issue with the consignment declared as fabrics in the example given?\nHow do you respond?\nA. The consignment was declared as fabrics, but it actually contained textile piece goods.\nB. The consignment was declared as textile piece goods, but it actually contained fabrics.\nC. The consignment was declared as fabrics, but it had undergone some workings such as hemming or formation of necklines.\nD. The consignment was declared as fabrics, but it attracted VAT at 15% at importation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f3ef445f-852d-4479-b53a-2f6eb7689658",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Risk Management Section in the KCS?\nHow do you respond?\nA. To establish an Integrated Risk Management System (IRM) with a range of functions.\nB. To conduct risk analysis for post-audit on illegal transactions and tax evasion cases.\nC. To monitor and measure compliance with customs regulations.\nD. To identify types of risk by area and set priorities for risk management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0108369c-4e82-4e60-ab78-35a85be93961",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the feedback received from the seizing office at Risk Management Section in the example given?\nHow do you respond?\nA. It was used to identify high-risk areas for post-audit.\nB. It was used as intelligence for targeting.\nC. It was used to assess risks and set priorities.\nD. It was used to evaluate the effectiveness of the IRM system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9ce470ed-d870-41b6-9c33-ac793dec82bc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the risk-based layered approach to supply chain security adopted by the United States Customs and Border Protection (CBP)?\nHow do you respond?\nA. To enhance security across all potential transit vectors in a cost-effective manner.\nB. To detect, prevent, or deter attacks against or the exploitation of the supply chain.\nC. To integrate commercial and security information in a timely manner.\nD. To target suspect shipments without hindering the movement of commerce.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ea98ab4e-e38a-425c-85e0-f2a3ac9fc658",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the objective of the layered approach to supply chain security?\nHow do you respond?\nA. To enhance security across all potential transit vectors in a cost-effective manner.\nB. To detect, prevent, or deter attacks against or the exploitation of the supply chain.\nC. To integrate measures into intersecting processes, allowing for timely reception and processing of commercial and security information.\nD. To ensure that cargo and associated information is regularly assessed without relying on a single point that could be compromised.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4572f604-aa8a-419a-8811-d56ddaad3d46",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the program that CBP uses to detect, prevent, or deter attacks against, or the exploitation of, the supply chain?\nHow do you respond?\nA. Automated Targeting System (ATS)\nB. 24-hour rule\nC. National Targeting Center\nD. Container Security Initiative\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b93da347-a662-4861-8560-913c6e19d421",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can you name one of the additional layers of the layered approach to supply chain security that is not sensor-based?\nHow do you respond?\nA. advanced electronic information under the 24-hour rule \u2013 enhanced by the 10+2 importer security filing requirements\nB. screening all shipment information by interfacing with import and enforcement systems using the automated targeting system (ATS) and national targeting center\nC. authorized economic operator partnerships with industry and the private sector, such as C-TPAT\nD. use of non-intrusive inspection technology and mandatory exams for all high-risk shipments\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "ccb7fda3-e6b1-4439-844a-a15b476b77d2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the initiative that CBP has implemented to enhance security in the air cargo industry?\nHow do you respond?\nA. Container Security Initiative\nB. Secure Freight Initiative\nC. Air Cargo Security Initiative\nD. Automated Targeting System\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "47508d02-5e56-4125-8617-445cc6ae24a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the layered approach to supply chain security ensure that cargo and associated information is regularly assessed?\nHow do you respond?\nA. By relying on a single layer of defense that focuses exclusively on a specific point in the supply chain.\nB. By utilizing technologies such as non-intrusive inspection technology and mandatory exams for all high-risk shipments.\nC. By integrating various measures into intersecting processes that allow for the timely receipt, processing, and action upon commercial and security information.\nD. By partnering with foreign governments and other US government agencies to enhance security across all potential transit vectors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c5d260ba-37d4-4550-89c9-ae9594536096",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can you name one of the ways that CBP targets suspect shipments?\nHow do you respond?\nA. By utilizing non-intrusive inspection technology and mandatory exams for all high-risk shipments.\nB. By screening all shipment information by interfacing with import and enforcement systems using the automated targeting system (ATS) and national targeting center.\nC. By partnerships with foreign governments such as the container security initiative and secure freight initiative.\nD. By advanced electronic information under the 24-hour rule \u2013 enhanced by the 10+2 importer security filing requirements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "19319226-acf1-4f36-9b37-1674e7c34483",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the program that CBP has implemented to enhance security in the maritime industry?\nHow do you respond?\nA. Automated Targeting System (ATS)\nB. Container Security Initiative (CSI)\nC. Secure Freight Initiative (SFI)\nD. 24-hour rule\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f0720aa4-ee99-4548-9dd3-27fb6960bc77",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the layered approach to supply chain security help to prevent the exploitation of the supply chain?\nHow do you respond?\nA. By relying on a single layer of defense that focuses exclusively on a specific transit vector.\nB. By utilizing technologies such as non-intrusive inspection technology and mandatory exams for all high-risk shipments.\nC. By integrating various measures into intersecting processes to accurately target suspect shipments without hindering the movement of commerce.\nD. By focusing on a single point of defense that could be compromised.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                }
+            ]
+        }
+    ]
+}

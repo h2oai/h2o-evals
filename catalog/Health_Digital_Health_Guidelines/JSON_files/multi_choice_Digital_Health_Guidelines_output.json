@@ -1,0 +1,716 @@
+{
+    "tests": [
+        {
+            "key": "bc32c3b0-36f0-47bf-a697-8f2b3fd6550d",
+            "documents": [
+                "Digital_Health_Guidelines.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "e4704629-ed25-405d-b17f-69f01e801cfb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the National eHealth Guidelines & Standards first published in?\nHow do you respond?\nA. 2016\nB. 2018\nC. 2015\nD. 2020\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c0415f7b-7fd8-4b6d-9665-2cce845f381c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome of the review process conducted by the TWG \u2013 DHSI?\nHow do you respond?\nA. The development of the National Digital Health Guidelines and Standards (NDHGS) with updated guidelines and standards.\nB. The recommendation to maintain the existing National eHealth Guidelines & Standards (NeGS) without any changes.\nC. The identification of the need for a new Technical Working Group to review the NeGS.\nD. The development of a new chapter on Digital Health Software Services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "98bd049b-9650-46fc-ac4a-3307797cf0d0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of having proper website standards, domain name structure, and official email nomenclature in the healthcare sector?\nHow do you respond?\nA. To ensure proper communication between healthcare providers and patients.\nB. To maintain the confidentiality and privacy of patient information.\nC. To improve the search engine optimization of healthcare websites.\nD. To facilitate the sharing of healthcare information across different platforms.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a02b77df-e063-4cd2-9e14-20d61c470d77",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of maintaining patient privacy and confidentiality in the healthcare sector?\nHow do you respond?\nA. It helps to prevent the spread of diseases.\nB. It is essential for building trust between patients and healthcare providers.\nC. It is required by law to avoid legal consequences.\nD. It does not have any significance in the healthcare sector.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a473eba0-001f-4f2f-97c7-7f99201d2d6d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of prescribing guidelines and standards for achieving seamless communication between digital health solutions?\nHow do you respond?\nA. To ensure that all digital health solutions are compatible and can exchange data efficiently.\nB. To promote the use of a single digital health solution across all healthcare institutions.\nC. To discourage the use of digital health solutions and promote manual record-keeping.\nD. To allow healthcare professionals to communicate with patients more effectively.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e56044f1-01b6-4666-a014-589baad400c1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the National Digital Health System?\nHow do you respond?\nA. To provide a comprehensive framework for the implementation of digital health services in the country.\nB. To establish a national database for storing and managing electronic health records.\nC. To promote the use of digital technologies in healthcare delivery.\nD. To regulate the use of digital health systems in the private sector.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "539d345c-1d8c-4750-9b49-c1bbd8da3b41",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the essential components of an Electronic Medical Record (EMR) system?\nHow do you respond?\nA. Hardware, software, and network infrastructure.\nB. Personal Health Number (PHN), Master Patient Index (MPI), and Healthcare Facility Registry.\nC. Electronic prescribing, laboratory results, and imaging examination results.\nD. Demographic data, medical history, and billing information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "3609bec9-ebcc-439f-a0e0-db7ff17c44e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Personal Health Number (PHN)?\nHow do you respond?\nA. To assign a unique identifier to each healthcare provider\nB. To identify individual patients and link their health information\nC. To track medical supplies inventory and distribution\nD. To manage healthcare facility accreditation and licensure\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "92f9aa6e-180d-4709-8186-a8b9db6ac39c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the National Electronic Health Record (NEHR)?\nHow do you respond?\nA. A database that contains a minimal dataset of healthcare recipient demographic data, healthcare encounter data, laboratory test results, imaging examination results, medication administration, procedure, medication dispensing, discharge summary, and death declaration data for every citizen in the country.\nB. A digital health software service that enables healthcare providers to access and manage electronic medical records (EMRs) of their patients.\nC. A personal health record (PHR) system that allows patients to maintain and manage their own health information electronically.\nD. A web-based platform that provides citizens with information and resources on healthcare services, healthy living, and disease prevention.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "60958478-2106-4756-988d-b1f51af5df7c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between privacy and confidentiality in healthcare?\nHow do you respond?\nA. Privacy refers to the protection of personal information, while confidentiality refers to the protection of sensitive health information.\nB. Privacy refers to the protection of sensitive health information, while confidentiality refers to the protection of personal information.\nC. Privacy and confidentiality are the same thing.\nD. Privacy refers to the protection of information from unauthorized access, while confidentiality refers to the protection of information from authorized access.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ecaa8042-17cf-415f-b35e-44c6269f6eb2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Master Patient Index (MPI)?\nHow do you respond?\nA. To provide a unique identifier for each healthcare provider in the National Digital Health System.\nB. To maintain a record of all healthcare encounters for a patient across different healthcare facilities.\nC. To enable interoperability between different Electronic Medical Record (EMR) systems.\nD. To store demographic data of healthcare recipients in the National Electronic Health Record (NEHR).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0d37462d-6546-4013-90a3-9538d6bb2540",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of data interchange standards in digital health systems?\nHow do you respond?\nA. To ensure that data can be shared and used effectively across different healthcare providers and systems.\nB. To protect patient data from unauthorized access or breaches.\nC. To provide a framework for the design and implementation of digital health systems.\nD. To regulate the use of digital health technologies in healthcare settings.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b59873c3-9f87-4de4-9beb-bafc83d1856f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a minimal dataset for the National Electronic Health Record (NEHR)?\nHow do you respond?\nA. The complete dataset for healthcare recipient demographic data, including all possible fields and information.\nB. A subset of the healthcare recipient demographic data, including only the essential fields required for patient identification and medical record-keeping.\nC. The healthcare encounter output dataset, which includes information about the patient's medical history, diagnoses, medications, and treatments.\nD. The laboratory test result dataset, which includes all laboratory test results for a specific patient.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e90f4eec-cad1-467b-9a4e-31a0e19ae674",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Healthcare Facility Registry?\nHow do you respond?\nA. To maintain a record of all healthcare facilities in the country and their respective locations.\nB. To track patient admissions and discharges from healthcare facilities.\nC. To manage the distribution of medication and medical supplies to healthcare facilities.\nD. To monitor the quality of care provided by healthcare facilities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ee10c70b-a3a1-4d98-a803-e657528b090a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the document that contains the guidelines and standards for digital health in Sri Lanka?\nHow do you respond?\nA. National eHealth Guidelines and Standards for Sri Lanka\nB. Digital Health Standards & Interoperability for Sri Lanka\nC. Sri Lanka National Healthcare Guidelines and Standards\nD. Healthcare Interoperability Resources for Sri Lanka\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "77c13d29-6f00-425c-ac7d-b81a410b66e8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Architectural Model of the National Digital Health System?\nHow do you respond?\nA. To provide a framework for the development and implementation of digital health services in Sri Lanka.\nB. To establish a national database for storing and managing health information.\nC. To regulate the use of digital health software in state healthcare institutions.\nD. To promote interoperability between different digital health systems in Sri Lanka.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d85fae7b-bf17-4d86-8b82-39ce7b90b9fd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of maintaining a hardware inventory?\nHow do you respond?\nA. To keep track of the cost of consumables and maintenance for ICT hardware.\nB. To ensure that the necessary workstation, firmware, and/or software compatible with electronic medical equipment are procured.\nC. To prevent vendor lock-in and ensure interoperability with Sri Lanka government National Digital Architecture & Interoperability Standards.\nD. To comply with the treasury guidelines and maintain a detailed specification of all hardware at the institutional level.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "bc23ec9d-b07c-4091-af6c-c9e32ba0a760",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for licensing of software used in government healthcare organizations?\nHow do you respond?\nA. All software used in government healthcare organizations must be licensed under a proprietary license.\nB. All software used in government healthcare organizations must be licensed under a free and open-source license.\nC. Government healthcare organizations shall only use appropriately licensed software. Such licensing is applicable for proprietary as well as free and open-source software.\nD. Government healthcare organizations are not required to license software used for healthcare services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b2e1d373-7a1c-4bd2-9109-1e85e2586cb8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the policy on acquiring software, including software donated free of charge?\nHow do you respond?\nA. The Ministry of Health shall always acquire software through open-source licenses.\nB. The Ministry of Health shall acquire software through a centralized procurement process.\nC. The Ministry of Health shall accept software donations without any contractual agreements.\nD. The Ministry of Health shall acquire software through a combination of open-source and proprietary licenses.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "15ea50a3-7776-45d6-855b-b152079a0302",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for licensing of third-party components in software?\nHow do you respond?\nA. Third-party components must be licensed under a proprietary license.\nB. Third-party components must be licensed under an open-source license.\nC. Third-party components must be licensed under a Creative Commons license.\nD. Third-party components must be licensed under a license that allows for modification of the source code.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "c9d2a804-9a3d-4788-b661-d9602554a25c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the National eHealth steering committee in Sri Lanka?\nHow do you respond?\nA. To provide technical support for the implementation of digital health software solutions\nB. To grant special approval for the donating agency to license software to GOSL\nC. To conduct information system security audits for digital health software solutions\nD. To pilot software systems before their implementation in healthcare institutions\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "79b777c1-e081-4c3f-8d2d-7a9ca703d106",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the table provided in the text?\nHow do you respond?\nA. To list the essential components of EMR systems and their minimal functionalities.\nB. To provide a comparison of different EMR systems available in the market.\nC. To outline the steps for implementing EMR systems in healthcare institutions.\nD. To show the relationship between different modules in an EMR system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d1c087e6-80c2-4696-8541-0832f8b1da71",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do EMR systems communicate with the NEHR?\nHow do you respond?\nA. Through API (Application Programming Interface)\nB. Through HL7 FHIR profiling\nC. Through National Identification System\nD. Through patient portal\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "cacf5710-2e6e-4e8c-a82f-7510f5e0d644",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Personal Health Number (PHN)?\nHow do you respond?\nA. To uniquely identify patients/clients in the system.\nB. To provide access to the National Electronic Health Record (NEHR).\nC. To communicate with the eIMMR system.\nD. To authorize care providers for temporary access to a patient's Electronic Health Record.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2210910d-6098-43ec-a00a-d874c55d93b5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of clinical decision support in EMR systems?\nHow do you respond?\nA. To provide real-time data to support clinical decision-making\nB. To automate clinical decision-making processes\nC. To provide alerts and reminders for medication and appointments\nD. To analyze patient data for research purposes\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6e40d7e6-34cb-4a44-9e52-a3e81f09cd6c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of decision-support dashboards in EMR systems?\nHow do you respond?\nA. To provide real-time data to aid clinical decision-making\nB. To monitor patient health outcomes and track progress\nC. To facilitate communication between healthcare providers\nD. To manage and analyze large datasets for research purposes\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1805d3ef-1409-44bd-a7ba-808bcccce700",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the scope of the National Information Security Standards that EMR systems must comply with?\nHow do you respond?\nA. It covers only the EMR system's security features.\nB. It covers all security standards for the healthcare industry.\nC. It covers all security standards for the public sector.\nD. It covers all security standards for the entire country.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "60427b38-7f01-4e61-b4f5-f00d576df1d2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the National/Cluster MPIs that EMR systems should communicate with?\nHow do you respond?\nA. To provide real-time information sharing among healthcare providers across different locations.\nB. To enable the tracking of patient health records across various healthcare institutions.\nC. To facilitate the management of healthcare resources and staffing within a cluster or region.\nD. To support clinical decision-making through the analysis of large patient data sets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b3d3e968-947f-45b4-a4c8-1080b31394e6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do care recipients access their Electronic Health Record in the NEHR?\nHow do you respond?\nA. Through a patient portal with authentication and authorization at approved healthcare institutions\nB. By authorizing care providers for temporary access to their Electronic Health Record\nC. Through a personal health record (PHR) that uses the PHN to access the NEHR\nD. By contacting the Ministry of Health directly to request access to their record\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f59f89e9-2dcc-4ae8-af1a-a2cfccac6fc9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended network architecture for health institutions in Sri Lanka?\nHow do you respond?\nA. The official government network of the Government of Sri Lanka shall be used for networking of all institutions in the health domain.\nB. Health institutions should maintain their Private Local Area Network (P-LAN) interconnecting all devices within the institution.\nC. Health institutions should use open network protocols to ensure freedom of hardware selection.\nD. All institutions under the Ministry of Health and the provincial departments of health should be able to exchange health-related data through any network.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d939bc9f-d4e3-42d2-a378-c191bcca1233",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the recommended communication interfaces for state healthcare sector institutions in Sri Lanka?\nHow do you respond?\nA. Websites, email, and domain names\nB. Private Local Area Network (P-LAN) and Open network protocols\nC. Personal Health Record (PHR) and National Health Information Exchange (NEHR)\nD. Telecommunications Industry Association (TIA) and Electronic Industries Alliance (EIA) standards\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4aa2b6ee-aa1f-4290-8661-7cec6639a1ef",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended email address format for official communication in state healthcare sector institutions in Sri Lanka?\nHow do you respond?\nA. [name@health.gov.lk](mailto:name@health.gov.lk)\nB. [name@healthdept.gov.lk](mailto:name@healthdept.gov.lk)\nC. [name@institution.lk](mailto:name@institution.lk)\nD. [name@gmail.com](mailto:name@gmail.com)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1a606a46-6260-426e-9264-4eb0359b12b0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended way to manage email communication in state healthcare sector institutions in Sri Lanka?\nHow do you respond?\nA. Email addresses should be assigned in accordance with the General Circular Letter No. 02 - l87/2012.\nB. Email accounts on an organization's domain shall be used for personal purposes only.\nC. All official electronic communications should only be carried out using personal email addresses.\nD. Email communication should not follow any guidelines or norms for paper-based document communication.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4d84b674-f813-42b2-839b-579c4d042733",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the recommended network security standards for health institutions in Sri Lanka?\nHow do you respond?\nA. National Information Security Standards (NISS)\nB. International Organization for Standardization (ISO)\nC. Telecommunications Industry Association (TIA)\nD. Electronic Industries Alliance (EIA)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "06217300-d041-4af8-8875-0311834f54dc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended way to exchange health-related data between institutions in the health domain in Sri Lanka?\nHow do you respond?\nA. Through the official network of the Government of Sri Lanka\nB. Through a private local area network (P-LAN) interconnecting all devices within an institution\nC. Through a domain name obtained from the .lk domain registry\nD. Through email accounts on an organization's domain\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ebbdb510-4fd8-44e7-8cd6-a28cdf833cbe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the guidelines for email communication in an organization?\nHow do you respond?\nA. To ensure that all official electronic communications are carried out using the official email address under the organization's domain.\nB. To allow employees to use email accounts for personal purposes.\nC. To ensure that email communications are not used for illegal or unethical activities.\nD. To provide a platform for employees to share their personal opinions and ideas.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b3306829-2bff-4681-a551-ff28643ddded",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of \"anonymize\" in the context of privacy and confidentiality?\nHow do you respond?\nA. Permanently removing personal identifiers to make personal data unrelated to an identified or identifiable natural person.\nB. Temporarily removing personal identifiers to make personal data unrelated to an identified or identifiable natural person.\nC. Encrypting personal data to protect it from unauthorized access.\nD. Pseudonymizing personal data to protect it from unauthorized access.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3f52b0bd-9d13-429b-a57d-0a857a861a31",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for ensuring the privacy and confidentiality of healthcare recipients' information?\nHow do you respond?\nA. Healthcare Institutions\nB. The Forum for Ethics Review Committees in Sri Lanka (FERCSL)\nC. Ministry of Health\nD. Healthcare workers\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d99e910e-ee13-4124-b856-c455c12035a4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the responsibility of healthcare institutions regarding employee confidentiality agreements?\nHow do you respond?\nA. Healthcare institutions shall ensure that all employees sign a non-disclosure agreement before starting work.\nB. Healthcare institutions are not responsible for ensuring employee confidentiality agreements.\nC. Healthcare institutions shall ensure that only employees who have signed a non-disclosure agreement can access personal information.\nD. Healthcare institutions shall not require employees to sign non-disclosure agreements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "722e10a5-80b5-4a71-b8c4-17f15e5cf371",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is required for third-party personnel involved with health information systems, including maintenance?\nHow do you respond?\nA. They must sign a non-disclosure agreement (Non-Disclosure Agreement) before accessing health information systems.\nB. They must have a unique Personal Health Number (PHN) assigned to them.\nC. They must be issued an identification card or access card that must be surrendered when their job role is changed or they are terminated.\nD. They must be bound to maintain the confidentiality of personal information related to patients/clients that they have come to know during their period of employment with the institution, unless enforced by law.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f56579ba-a175-459d-b816-5a5075c50281",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for recording data changes in digital health systems?\nHow do you respond?\nA. Every Creation, Reading, Update, and Deletion action on data should be recorded in an event log with the original data being preserved and visible. (6.3.3)\nB. Changes to data should be recorded only when they are critical and significant. (Incorrect - There is no such requirement in the given context)\nC. Data changes should be recorded only when they are related to personal health information. (Incorrect - The requirement is for all data changes in digital health systems)\nD. Data changes should be recorded in a log file, but the original data need not be preserved. (Incorrect - The requirement is to preserve the original data and make it visible)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0f70d918-e7b4-40af-84ea-3b87299bd03b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What should institutions do with employee identification cards, access cards, keys, and other means of access when an employee leaves the institution?\nHow do you respond?\nA. Surrender them to the HR department for proper disposal.\nB. Keep them in a secure location for future use.\nC. Give them to the IT department to deactivate access.\nD. Return them to the employee upon request.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c9e07932-6b39-4de6-a65d-3ba2b9acf23e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many components make up the PHN?\nHow do you respond?\nA. 2 components\nB. 3 components\nC. 4 components\nD. 5 components\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9d2155e9-3051-4887-bd49-9e8b8a9121db",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the check digit in the PHN?\nHow do you respond?\nA. To ensure the anonymity of the individual.\nB. To validate the PHN for transcription errors.\nC. To generate a unique identification number for each POI ID.\nD. To differentiate between healthcare institutions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1496a794-3798-46ea-aa51-579a1cdcaa55",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended standard for data exchange in healthcare?\nHow do you respond?\nA. Health Level Seven (HL7) Fast Healthcare Interoperability Resources (FHIR) Release 4\nB. International Classification of Diseases (ICD) 10th edition\nC. Systematized Nomenclature of Medicine \u2013 Clinical Terms (SNOMED CT)\nD. Anatomical Therapeutic Chemical Code (ATC)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a2788b2f-8375-4903-a99d-9f0def4a972b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is LOINC?\nHow do you respond?\nA. Logical Observation Identifiers Names and Codes, a standard for identifying laboratory and clinical observations\nB. Systematized Nomenclature of Medicine - Clinical Terms, a clinical terminology used for coding clinical concepts\nC. International Classification of Diseases, a standard for classifying diseases and health problems\nD. Anatomical Therapeutic Chemical Code, a standard for coding drugs and medicinal products\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "70e6775b-df3b-42f0-b357-e52c4663c84e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is DICOM?\nHow do you respond?\nA. A standard for the transfer and storage of images between software programs in the medical domain.\nB. A clinical vocabulary used for coding concepts in clinical settings other than outpatient departments.\nC. A nomenclature used for recording reasons for encounters in outpatient, primary care, and general practice settings.\nD. A standard for interchanging aggregated health data.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "31ccf2db-220c-4454-bcd1-27618d33915a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is SNOMED CT?\nHow do you respond?\nA. Systematized Nomenclature of Medicine - Clinical Terms\nB. International Classification of Diseases\nC. Anatomical Therapeutic Chemical Code\nD. Fast Healthcare Interoperability Resources\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "683bfdab-ee23-469b-b38d-a696702f69e0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the dataset described in Table 3?\nHow do you respond?\nA. Healthcare recipient demographic data (complete dataset)\nB. Healthcare recipient demographic data (minimal dataset)\nC. Personal Health Number (PHN)\nD. National Identity type\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d3ddc4e5-e1d5-4495-992e-14bdc46609cd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the minimal dataset described in Table 4?\nHow do you respond?\nA. To provide a comprehensive profile of the healthcare recipient's demographic data.\nB. To update the healthcare recipient's demographic data in the National Electronic Health Record (NEHR).\nC. To transmit only the essential demographic data of the healthcare recipient to the NEHR.\nD. To maintain a record of the healthcare recipient's temporary address.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "dbdfba46-6e90-47ad-b5a6-8e42d28f6049",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Personal Health Number (PHN)?\nHow do you respond?\nA. A unique identifier assigned to each healthcare recipient in the National Electronic Health Record (NEHR) system.\nB. A copy of the healthcare recipient's national identity card number/SLIN/National Digital Identity.\nC. The healthcare recipient's passport number (for foreigners only).\nD. The healthcare recipient's date of birth.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7d5e9a0f-efa2-4e54-a9d0-7c72871bf787",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the National Identity type?\nHow do you respond?\nA. National Identity card number/SLIN/National Digital Identity\nB. Passport number (For foreigners only)\nC. Personal Health Number (PHN)\nD. Date of Birth\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "69fed6e8-8b01-4d4b-b22c-71f74b44f24f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the National Digital Identity?\nHow do you respond?\nA. A unique identifier assigned to each healthcare recipient for tracking their healthcare encounters.\nB. A government-issued digital identity card that all citizens must possess.\nC. A database containing the demographic information of all healthcare recipients.\nD. A digital platform that allows healthcare providers to access and update healthcare recipients' demographic data.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c284ff30-438f-4c9a-a0c9-b4ae3211d600",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is the date of birth calculated?\nHow do you respond?\nA. Yes, the date of birth is calculated.\nB. No, the date of birth is not calculated.\nC. The date of birth is calculated only for foreigners.\nD. The date of birth is calculated based on the National Identity card number/SLIN/National Digital Identity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b267da5d-6c81-4f65-8177-31d607f1f0c4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Grama Niladhari Division?\nHow do you respond?\nA. A district-level administrative division in Sri Lanka.\nB. A type of healthcare recipient demographic data.\nC. A field in the personal health number database.\nD. A department within the National Digital Identity system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "78d93acf-9445-4b7d-af78-221261979f13",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Divisional Secretariat?\nHow do you respond?\nA. A department within the healthcare organization that manages patient data and records.\nB. A government agency responsible for issuing national identity cards and passports.\nC. A local administrative division responsible for maintaining healthcare records and providing healthcare services.\nD. A non-profit organization that advocates for patient rights and healthcare access.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "0aa9735e-b015-4ec0-a618-eb509a35ff58",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Contact type ID?\nHow do you respond?\nA. National Identity card number/SLIN/National Digital Identity\nB. Passport number (For foreigners only)\nC. Grama Niladhari Division\nD. Contact Details\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "140c839f-d3fe-49da-ae34-4aec9e2069ea",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Contact Details field?\nHow do you respond?\nA. To store the healthcare recipient's personal health number (PHN)\nB. To store the healthcare recipient's national identity number/SLIN/passport number\nC. To store the healthcare recipient's date of birth\nD. To store the healthcare recipient's contact information, such as address and phone number\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "7daa6bf1-d1e9-414b-a44f-5fda57318b46",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of transmitting data to the National Electronic Health Record (NEHR)?\nHow do you respond?\nA. To provide healthcare providers with real-time access to patient health information.\nB. To enable the tracking of patient health outcomes and quality of care.\nC. To facilitate research and public health surveillance.\nD. To reduce administrative burden on healthcare providers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "dc44d783-dddc-484b-9ddd-bff01b108c48",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum dataset required for a healthcare encounter output?\nHow do you respond?\nA. Healthcare recipient demographic data, healthcare encounter output data, and complimentary dataset for healthcare encounter output.\nB. Healthcare recipient demographic data, healthcare encounter output data, and laboratory test result dataset.\nC. Healthcare recipient demographic data, healthcare encounter output data, and imaging examination result dataset.\nD. Healthcare recipient demographic data, healthcare encounter output data, and medication administration dataset.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "81f604f5-4fc6-436a-8675-a2664d699141",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the 'Complimentary Dataset for Healthcare Encounter Output'?\nHow do you respond?\nA. To provide a comprehensive dataset for healthcare encounters\nB. To supplement the minimal dataset for healthcare encounters\nC. To provide a dataset for laboratory test results only\nD. To provide a dataset for radiological imaging examination results only\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0170dcfe-c0eb-40db-9fe6-b0c6606aa12f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum dataset required for medication administration?\nHow do you respond?\nA. Personal Health Number (PHN), Medication Name, Dosage, Route\nB. Healthcare Institution Number (HIN), Investigation request identifier, Test Name, Test Result\nC. Prescription ID, Prescription issued Healthcare Institution Number (HIN), Dispensed Medication Name, Quantity Dispensed\nD. Pharmacy ID, Personal Health Number (PHN), Prescription ID, Date and Time\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "79b3cf1c-e151-418f-9161-4cb7be747604",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the 'Discharge Summary' dataset?\nHow do you respond?\nA. To provide a comprehensive summary of the patient's health information for healthcare providers.\nB. To document the patient's medical history, allergies, and medications.\nC. To track the patient's progress and treatment outcomes during hospitalization.\nD. To facilitate billing and insurance claims processing.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "524668b2-3e7e-474c-bc87-eee56b8c76ff",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum dataset required for a discharge summary?\nHow do you respond?\nA. Healthcare recipient demographic data, discharge diagnosis, and medication.\nB. Healthcare recipient demographic data, discharge diagnosis, medication, allergies, and adverse reactions.\nC. Healthcare recipient demographic data, discharge diagnosis, medication, allergies, adverse reactions, past medical history, past surgical history, regular medication, obstetric summary, immunizations, behavioral risk factors, health risk assessment, physical examination findings, laboratory test results, and imaging examination results.\nD. Healthcare recipient demographic data, discharge diagnosis, medication, and laboratory test results.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                }
+            ]
+        }
+    ]
+}
