@@ -104,6 +104,9 @@ To utilize these evaluation datasets in EvalStudio for your own evaluations, fol
 
 By following these steps, you can effectively use the evaluation datasets in EvalStudio to conduct evaluations.
 
+### Create your own Evaluation Dataset using LLM DataStudio 💡
+If you're interested in creating your own evaluation dataset using LLM DataStudio, you can follow the step-by-step guide provided in our [dataset creation guide](https://github.com/h2oai/h2o-evals/blob/main/LLMDataStudio_README.md).
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/h2oai/h2o-evals/issues) for any improvements, suggestions or errors in the content.
