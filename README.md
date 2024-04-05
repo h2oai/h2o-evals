@@ -78,15 +78,15 @@ Following is the collection of 25 Datasets by different industries, different ev
 | 32. | [Health_Digital_Health_Guidelines](https://github.com/h2oai/h2o-evals/tree/main/catalog/Health_Digital_Health_Guidelines)| `Health` | Digital Health Guidelines | 127 | RAG |
 | 33. | [Risk_Management_Risk_Management_Techniques_Tool](https://github.com/h2oai/h2o-evals/tree/main/catalog/Risk_Management_Risk_Management_Techniques_Tool)| `Risk Management` | Risk Management | 120 | RAG |
 
-## Using the Dataset in EvaStudio 📊
+## Using the Dataset in EvalStudio 📊
 
-To utilize these evaluation datasets in EvaStudio for your own evaluations, follow these steps:
+To utilize these evaluation datasets in EvalStudio for your own evaluations, follow these steps:
 
 1. **Access Dataset and Download**: Navigate to the desired dataset folder in the [h2oai/h2o-evals GitHub repository](https://github.com/h2oai/h2o-evals/tree/main/catalog). Each dataset has its own folder containing JSON files. Identify the JSON file corresponding to the evaluation type you want to use and download it. Ensure that the JSON file contains public URLs for accessing the documents if you intend to use the RAG model.
 
-2. **Access EvaStudio**: If you haven't already, sign up for an account on [EvaStudio](https://eval-studio.internal-genai.dedicated.h2o.ai).
+2. **Access EvalStudio**: If you haven't already, sign up for an account on [EvalStudio](https://eval-studio.internal-genai.dedicated.h2o.ai).
 
-3. **Import Test Suite**: In EvaStudio, navigate to the sidebar and select "Tests". Click on "Import test suite" and paste the JSON content into the "Test Suite JSON or URL" field. Then click "Import" to import the test cases.
+3. **Import Test Suite**: In EvalStudio, navigate to the sidebar and select "Tests". Click on "Import test suite" and paste the JSON content into the "Test Suite JSON or URL" field. Then click "Import" to import the test cases.
 
    ![Step 3 Image](images/step3.png)
 
@@ -102,7 +102,7 @@ To utilize these evaluation datasets in EvaStudio for your own evaluations, foll
 
    ![Step 6 Image](images/step6.png)
 
-By following these steps, you can effectively use the evaluation datasets in EvaStudio to conduct evaluations.
+By following these steps, you can effectively use the evaluation datasets in EvalStudio to conduct evaluations.
 
 
 ## Contribution 🛠️
