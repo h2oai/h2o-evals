@@ -1,0 +1,2001 @@
+{
+    "tests": [
+        {
+            "key": "3e20c7d4-1fbc-4697-bb3c-d08f73e16a3b",
+            "documents": [
+                "Telecom_Infrastructure_Planning.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "5f69c4b1-0767-4ded-8715-aeeeed11bfa9",
+                    "prompt": "Question: What is the minimum size of a Telecommunications Room (TR) recommended for buildings with more than 10,000 sq ft or substantial IT electronics?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum size of a TR for buildings with more than 10,000 sq ft or substantial IT electronics is not less than 120 square feet (11 square meters)."
+                    ]
+                },
+                {
+                    "key": "6213d2ce-bac2-4047-9042-58924db18265",
+                    "prompt": "Question: What type of connectors are required for coaxial cabling in accordance with TIA-568-C.4?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "F-type adapters and crimp-on connectors are required for coaxial cabling in accordance with TIA-568-C.4."
+                    ]
+                },
+                {
+                    "key": "23644090-0a38-4081-9065-f23ed80fa5d2",
+                    "prompt": "Question: Can other types of connectors and adapters be used instead of those specified in TIA-568-C.0, TIA-568-C.3, and TIA-568-C.4?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, other types of connectors and adapters can be used, but they must be approved by the Telecommunications Manager."
+                    ]
+                },
+                {
+                    "key": "720cf7e8-efcf-486d-8ded-94d816795cdf",
+                    "prompt": "Question: What type of connectors are required for fiber optic cabling in accordance with TIA-568-C.3?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Unkeyed duplex LC connectors and adapters are required for fiber optic cabling in accordance with TIA-568-C.3."
+                    ]
+                },
+                {
+                    "key": "ca2fc842-83d0-474e-8b78-345d385b503e",
+                    "prompt": "Question: What is the recommended cable for drops from the TR (or headend) to the wall outlet in CATV systems?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The text recommends using RG-6 coaxial cables for drops from the TR (or headend) to the wall outlet in CATV systems."
+                    ]
+                },
+                {
+                    "key": "2bb3f254-56da-42f2-85e2-f6a000f8ef3c",
+                    "prompt": "Question: What type of connectors are required for copper systems in accordance with TIA-568-C.0?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Unkeyed Category 6 (CAT6) modular jacks are required for copper systems in accordance with TIA-568-C.0."
+                    ]
+                },
+                {
+                    "key": "e2b66647-9408-4489-a886-0c9c5cf22663",
+                    "prompt": "Question: What is the recommended cable management practice for fiber optic cables in in-slab or below-grade telecommunications conduit systems?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended cable management practice for fiber optic cables in in-slab or below-grade telecommunications conduit systems is to comply with NFPA 70 and provide cables listed and rated for wet locations."
+                    ]
+                },
+                {
+                    "key": "0096916f-e1cf-43a3-bb21-beca8c908e11",
+                    "prompt": "Question: What is the maximum length of flexible metal conduit allowed for floor-access boxes in a raised floor?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum length of flexible metal conduit allowed for floor-access boxes in a raised floor is 20 feet (6 m) per TIA-569-C."
+                    ]
+                },
+                {
+                    "key": "14e59b58-8741-4a01-b326-b5303d9e6b59",
+                    "prompt": "Question: How many TRs are required for a multi-story building with a total floor area greater than 10,000 sq ft?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A minimum of one TR is required for each floor in a multi-story building with a total floor area greater than 10,000 sq ft."
+                    ]
+                },
+                {
+                    "key": "83aed059-1630-40a0-855c-3b86badffb24",
+                    "prompt": "Question: What is the maximum number of adapters or connectors that can be provided on individual patch panels and distribution panels?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Individual patch panels and distribution panels should have 12 duplex LC, SC, or MT-RJ adapters or 24 ST adapters maximum."
+                    ]
+                },
+                {
+                    "key": "820a2765-b84b-4699-aec1-4e4bdf3cd65e",
+                    "prompt": "Question: What is the minimum access headroom required above a cable tray system or cable runway?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum access headroom required above a cable tray system or cable runway is 12 inches (300 mm)."
+                    ]
+                },
+                {
+                    "key": "a1ddd595-fc8c-4820-a317-fc5c3b145226",
+                    "prompt": "Question: What is the minimum number of 4-inch conduits required for intra-building backbone distribution in a multistory building?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum number of 4-inch conduits required for intra-building backbone distribution in a multistory building is three."
+                    ]
+                },
+                {
+                    "key": "7f660692-a76b-4965-9adb-0cdb89471663",
+                    "prompt": "Question: What is the maximum length of copper data cables allowed for connecting patch panel termination to data outlet termination?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum length of copper data cables allowed for connecting patch panel termination to data outlet termination is 295 feet (90 m) in accordance with TIA 568-C.1."
+                    ]
+                },
+                {
+                    "key": "847a77a4-2f6e-40b4-ac9a-3f66ddc3823b",
+                    "prompt": "Question: What is the recommended method for terminating fiber optic cable in cabinet/rack-mounted patch panels and at the outlet?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended method for terminating fiber optic cable in cabinet/rack-mounted patch panels and at the outlet is using LC type connectors in accordance with the appropriate TIA-604 series document."
+                    ]
+                },
+                {
+                    "key": "3ac8ce29-5778-4ada-82f9-d11a95774f98",
+                    "prompt": "Question: What type of fiber optic cable is recommended for use in new construction or rehabilitation projects?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended type of fiber optic cable for use in new construction or rehabilitation projects is 50/125-um diameter laser optimized (OM3) multimode fiber optic cable."
+                    ]
+                },
+                {
+                    "key": "f9e58c1b-9ecf-467f-980b-0a52ae756366",
+                    "prompt": "Question: What is the maximum number of cables allowed in a 1-inch (27 mm) conduit?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum number of cables allowed in a 1-inch (27 mm) conduit is four, four-pair cables."
+                    ]
+                },
+                {
+                    "key": "f9c7d132-0a43-4796-8675-93635223dc40",
+                    "prompt": "Question: What is the recommended method for terminating UTP cabling at the work area outlet and patch panel?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended method for terminating UTP cabling at the work area outlet and patch panel is using an 8-pin, RJ45 type modular jack rated for the category of the installed cable."
+                    ]
+                },
+                {
+                    "key": "331d2628-408e-423d-b6b9-7b5c7fdc432b",
+                    "prompt": "Question: What type of cabling system is recommended for Wireless Access Points (WAP)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The text recommends using category 6A (or higher) twisted-pair and OM3 (or higher) optical fiber cabling to support higher data rates and lower temperature rise when remote power is applied."
+                    ]
+                },
+                {
+                    "key": "d6fab8bc-caf3-436f-8d5e-533e76e3be01",
+                    "prompt": "Question: What type of fiber optic adapters and connectors are recommended for use in new construction?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended type of fiber optic adapters and connectors for use in new construction are those that comply with the appropriate TIA-604 Fiber Optic Connector Intermateability Standard (FOCIS)."
+                    ]
+                },
+                {
+                    "key": "44d50e79-b95a-40bf-b5d7-7cc0bdfe429b",
+                    "prompt": "Question: What is the purpose of the CNSSAM TEMPEST /1-13 (FOUO) document?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The CNSSAM TEMPEST /1-13 (FOUO) document defines the RE D/BLACK installation guidance to consider during design and installation, and provides potential solutions."
+                    ]
+                },
+                {
+                    "key": "1d5a6105-abe8-4b78-b446-64759d752911",
+                    "prompt": "Question: What type of cable jacks, connectors, and adapters should be used for copper, fiber optic, and coaxial cables?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Copper, fiber optic, and coaxial cable jacks, connectors, and adapters should be selected based on the category rating of the cable and the system requirements, and should be compatible with the TIA-568-C.0 standard."
+                    ]
+                },
+                {
+                    "key": "58ccd1b0-b643-4d6c-927c-21bc7404a056",
+                    "prompt": "Question: What is the purpose of the revision summary sheet included in UFC 3-580-01?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The revision summary sheet provides a summary of the changes made to UFC 3-580-01, including the date of the change, the document being superseded, and a description of the change."
+                    ]
+                },
+                {
+                    "key": "0b0adde4-75c3-4c76-80f8-23c4ae91226c",
+                    "prompt": "Question: How much of the horizontal cable length should be accommodated by cable trays in a horizontal distribution system?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Cable trays should accommodate 80% to 90% of the horizontal cable length in a horizontal distribution system."
+                    ]
+                },
+                {
+                    "key": "f35fb09a-5e57-4e81-a568-aa552197ca17",
+                    "prompt": "Question: What is the recommended cable for Community Antenna Television (CATV) Systems?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The text recommends using a 75-ohm broadband quad-shield coaxial cable or single-mode fiber optic cable for CATV systems."
+                    ]
+                },
+                {
+                    "key": "c04ecce2-9c30-4af9-ade2-f79a056a5eef",
+                    "prompt": "Question: What is the minimum number of strands of fiber optic cable required between the main telecommunications room and each TR?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum number of strands of fiber optic cable required between the main telecommunications room and each TR is 12 strands."
+                    ]
+                },
+                {
+                    "key": "bece78cd-9a2f-4fe5-a50e-1af9ed494a1c",
+                    "prompt": "Question: Can equipment cabinets be wall-mounted in existing facilities with narrow or crowded telecommunication spaces?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, equipment cabinets can be wall-mounted in existing facilities with narrow or crowded telecommunication spaces, with the approval of the telecommunications manager."
+                    ]
+                },
+                {
+                    "key": "7128e39f-df57-4811-87de-4d1aafadbb35",
+                    "prompt": "Question: Why is it not recommended to use ladder cable trays for horizontal distribution?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Ladder cable trays are not recommended for horizontal distribution due to possible cable deformation with large cable quantities."
+                    ]
+                },
+                {
+                    "key": "18072e1f-c6f9-4399-877e-58713fd5a3d8",
+                    "prompt": "Question: What is the purpose of a Telecommunications Cabling Guidelines for Wireless Access Points (TSB-162-A)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "TSB-162-A provides guidelines for the design and installation of cabling systems to support wireless access points."
+                    ]
+                },
+                {
+                    "key": "4f599562-924b-40ae-9c71-7db64fda58e3",
+                    "prompt": "Question: What are the two types of building entrance terminals (BET) identified by TIA-758?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The two types of building entrance terminals (BET) identified by TIA-758 are protected and non-protected."
+                    ]
+                },
+                {
+                    "key": "0d0b0859-bab9-4171-bb3c-6e7968440b79",
+                    "prompt": "Question: What is the demarcation point between the outside plant (OSP) cabling and the inside plant distribution cabling?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The demarcation point between the outside plant (OSP) cabling and the inside plant distribution cabling is known as the building entrance terminal (BET)."
+                    ]
+                },
+                {
+                    "key": "0ea77637-7828-49e5-a98a-b08e30d2992e",
+                    "prompt": "Question: What is the maximum distance for drops from the TR (or headend) to the wall outlet in CATV systems?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The text does not provide a specific maximum distance for drops from the TR (or headend) to the wall outlet in CATV systems."
+                    ]
+                },
+                {
+                    "key": "40af71a6-e3bf-47a8-81bf-0e6272a2bc40",
+                    "prompt": "Question: What type of system is necessary to meet temperature and humidity requirements in telecommunication spaces while ensuring minimal dust and adequate space for equipment?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The mechanical system designer of record must determine what type of system is necessary to meet the temperature and humidity requirements, such as zoned, dedicated, or split-core systems."
+                    ]
+                },
+                {
+                    "key": "9487aa27-d59e-49db-bdc8-2fd715f866f8",
+                    "prompt": "Question: What is the recommended cable for backbone cabling in a hierarchical star configuration, considering both voice and data requirements, and complying with TIA-568-C and TIA-569-C standards?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended cable for backbone cabling in a hierarchical star configuration is copper backbone cable for voice circuits and fiber optic cable for data backbone circuits."
+                    ]
+                },
+                {
+                    "key": "e0da951b-cf62-4682-aaac-8b7c69048f76",
+                    "prompt": "Question: What type of cable is required for Category 6 (CAT6) cabling, and what are the specifications for its termination and patching in a UTP system, as per the given context?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Unshielded twisted pair (UTP) cable with a minimum of 4 pairs and rated for Category 6."
+                    ]
+                },
+                {
+                    "key": "55e090c4-1778-4d93-a3f9-9e00fd52d9eb",
+                    "prompt": "Question: What is the recommended spacing for TRs in a multi-story building, considering the unique requirements for telecommunications spaces, such as dedicated electrical branch circuit panelboards, lighting, and HVAC systems, as well as the need for adequate space for tenant-owned data and telecommunications systems, while ensuring compliance with TIA-569-C and other relevant standards?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "TRs in a multi-story building should be vertically aligned on successive floors."
+                    ]
+                },
+                {
+                    "key": "f4b2ee45-4bd6-46a3-93c7-e8d5a5653c07",
+                    "prompt": "Question: What are the recommended fiber optic adapters and connectors for new construction, and how many spare patch cables should be provided, considering various factors such as patch panel types, cable length, and work area outlets?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Fiber optic adapters and connectors that are compliant with the TIA-604 Fiber Optic Connector Intermateability Standard (FOCIS) should be used for new construction."
+                    ]
+                },
+                {
+                    "key": "1788caef-d5ad-4ace-bf87-2a4d9bdcc524",
+                    "prompt": "Question: What is the recommended conduit fill ratio for telecommunications wiring, and how does it affect cable management and support?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended conduit fill ratio for telecommunications wiring is 40 percent."
+                    ]
+                },
+                {
+                    "key": "ab4480ba-866f-4e2a-aa66-d4b2ad183736",
+                    "prompt": "Question: What is the recommended method for terminating outside plant (OSP) cable while ensuring compliance with TIA-569-C and minimizing copper deployment?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended method for terminating outside plant (OSP) cable is on a protected entrance terminal (PET)."
+                    ]
+                },
+                {
+                    "key": "c5b2ebc1-14aa-4f8e-8041-a9a552d312a9",
+                    "prompt": "Question: What is the recommended method for distributing cables from the telecommunications space to the work area outlet, considering both conduit and cable trays, while ensuring at least 80% to 90% of horizontal cable length is covered, and accommodating future growth with a 25% initial fill ratio and a maximum fill depth of 6 inches?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended method for distributing cable from the telecommunications space to the work area outlet is a ceiling distribution system employing a centralized cable tray system."
+                    ]
+                },
+                {
+                    "key": "57065bf7-4724-48f6-884d-61031922becc",
+                    "prompt": "Question: What are the minimum requirements for a dedicated electrical branch circuit panel board for a TR, and how should the loads be fed from it, according to UFC 3-580-01?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Provide matching (NEMA configured) twist-lock type receptacles fed from dedicated circuits in the TR panel to power each power strip."
+                    ]
+                },
+                {
+                    "key": "a6cba44e-13eb-4357-aaf5-2f4fb033468c",
+                    "prompt": "Question: What is the minimum number of 4-inch conduits required between TRs located on the same floor in a multistory building, considering the spare capacity and cable management guidelines?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A minimum of three 4-inch (103 mm) conduits, sleeves, or an equivalent sized slot are required between stacked TRs on successive floors in accordance with TIA-569-C."
+                    ]
+                },
+                {
+                    "key": "ba26d799-0b41-4eae-9130-9a39eb133058",
+                    "prompt": "Question: What type of connectors are used for patch panels in a telecommunication space, considering the constraints of limited space and the requirement for 25% spare capacity, while ensuring compatibility with the existing infrastructure and providing proper termination, splice storage, routing, radius limiting, cable fastening, storage, and cross-connection?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "8-position, 8-contact (8P8C) modular jacks with rear mounted 110-type IDC terminations are used for patch panels in a telecommunication space."
+                    ]
+                },
+                {
+                    "key": "12bc53aa-35cb-44c4-af6a-bca071c2d0c2",
+                    "prompt": "Question: What is the rationale behind independent thermostats for climate control in telecommunication spaces, and how do they ensure the protection of installed electronic equipment?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The purpose of providing independent thermostats for climate control is to protect all installed electronic equipment as defined in TIA-569-C and TIA-569-C-1 by maintaining a consistent ambient temperature year-round, 24 hours a day, 365 days a year."
+                    ]
+                },
+                {
+                    "key": "4d691fde-4d48-4453-afa6-914c799e186a",
+                    "prompt": "Question: How should pull and splice boxes be located in conduit runs to ensure efficient cable management and accessibility while adhering to the specified fill ratios and clearance requirements?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Pull and splice boxes should be located in conduit runs in accordance with TIA-569-C."
+                    ]
+                },
+                {
+                    "key": "f80e9ecb-d3ed-4017-bace-b5b1e0270116",
+                    "prompt": "Question: What is the recommended color-coding scheme for fiber optic backbone cabling on military projects concerning TIA-598 jacket color coding scheme?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended color coding scheme for fiber optic cabling on military projects is the TIA-598 jacket color coding scheme, which is as follows: single-mode (ranges between 8 and 10um) (OS1) - yellow, multimode 62.5/125um (OM1) - slate, multimode 50/125um (OM2) - orange, and multimode 50/125um Laser Optimized (OM3) - aqua."
+                    ]
+                },
+                {
+                    "key": "c99a5b3b-0140-41c1-9868-e5612fd1fb40",
+                    "prompt": "Question: What is the recommended method for protecting cables in utility columns and systems furniture tracks concerning soil nutrients and stability?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Cables in utility columns and systems furniture track should be protected using metallic separation in accordance with TIA-569-C and NFPA 70."
+                    ]
+                },
+                {
+                    "key": "a4df7849-595c-4252-927d-325a31eb2637",
+                    "prompt": "Question: What is the recommended size of a patch cable for Category 6 UTP cabling in a given situation, and why is it important to follow the recommended size?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended patch cable size for Category 6 UTP cabling is 4-pair, minimum size 24 AWG stranded UTP copper patch cables rated for Category 6."
+                    ]
+                },
+                {
+                    "key": "34faba46-6f13-49b1-b643-5fdbbf7f4f8d",
+                    "prompt": "Question: What are the two main classifications of telecommunications spaces defined in the TIA-569-C standard, and what is their purpose?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The TIA-569-C standard defines the following types of telecommunications spaces: Telecommunications Entrance Facility (EF), Telecommunications Room (TR), and Telecommunications Enclosure."
+                    ]
+                },
+                {
+                    "key": "28c345e0-1de6-4e0d-9424-bde226cc89fa",
+                    "prompt": "Question: What is the minimum number of copper backbone cables required for each telecommunications room (TR) to support both voice and data services while minimizing cable deployment?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum number of pairs of copper backbone cable required for each TR is 25 pairs."
+                    ]
+                },
+                {
+                    "key": "dab78689-8936-4a28-ae04-cb7ff8424db6",
+                    "prompt": "Question: What type of cable is recommended for CCTV systems, considering the distance between the source and the outlets, and the requirement for a stable signal?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The text recommends using a 75-ohm broadband quad-shield coaxial cable, single-mode fiber optic cable, or a category-rated cable system for CCTV systems."
+                    ]
+                },
+                {
+                    "key": "07892a05-3b2a-4a98-b2f8-3e06db315a5e",
+                    "prompt": "Question: What type of cable supports are not allowed in certain locations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Non-continuous cable supports are not allowed in certain locations, such as in place of a cable tray system or as the sole distribution system in place of home-run conduit."
+                    ]
+                },
+                {
+                    "key": "0efa80ef-728c-4fdf-80f6-6bcc2e5947be",
+                    "prompt": "Question: What are the minimum requirements for a dedicated electrical branch circuit panel board for a TR, and how should the loads be fed from it, according to UFC 3-580-01?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Provide two multi-outlet power strips in each rack or cabinet, one 240 or 208V, 1-phase, and the other 120V, 1-phase."
+                    ]
+                },
+                {
+                    "key": "fadb6261-3973-45ab-813c-5515678fbedc",
+                    "prompt": "Question: What type of cable is recommended for horizontal cabling in a building, and how should it be terminated?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended cable for horizontal cabling is Category 6 (CAT6) unshielded twisted pair (UTP) cable."
+                    ]
+                },
+                {
+                    "key": "81f502ec-b981-4d52-ae32-4c30be036bbc",
+                    "prompt": "Question: What type of patch cables should be used to interconnect patch panels, considering the restrictions on fiber optic adapters and connectors, the requirement for duplex patch cables, and the need for sufficient patch cables of various lengths to accommodate all appearances and 25% spare?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Duplex patch cables of the same type as the patch panels should be used to interconnect patch panels."
+                    ]
+                },
+                {
+                    "key": "faa7605c-d66d-4b5f-bc1f-da880c17d391",
+                    "prompt": "Question: What type of connector is recommended for fiber optic adapters and connectors in new construction, and how should they be terminated?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended type of connector for fiber optic adapters and connectors is LC type connectors."
+                    ]
+                },
+                {
+                    "key": "aea4090a-936f-4501-95fd-8cf3966a366a",
+                    "prompt": "Question: What is the minimum clearance required for equipment racks and cabinets in telecommunication spaces, and how can the layout be optimized for efficient use of space?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A minimum of 36 inches (900 mm) of space is required both in front and back of equipment racks, measured from the equipment."
+                    ]
+                },
+                {
+                    "key": "af27aec4-c1a7-4bc8-bd42-7623500008f1",
+                    "prompt": "Question: What is the main purpose of the Unified Facilities Criteria (UFC) system, and how does it relate to military construction projects?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Unified Facilities Criteria (UFC) system provides planning, design, construction, sustainment, restoration, and modernization criteria for the Military Departments, the Defense Agencies, and the Department of Defense (DoD) Field Activities."
+                    ]
+                },
+                {
+                    "key": "f24622a1-3a7d-46f4-b7c7-c4e266de01f7",
+                    "prompt": "Question: What is the recommended spare capacity for utilized cabinets in a telecommunication space, considering the installation of horizontal and vertical cable management panels, ladder and wire cable tray, and fiber optic patch panels, while maintaining a minimum of 25% spare capacity and adhering to the guidelines for patch panels, cable tray, and backbone pathways?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended spare capacity for utilized cabinets in a telecommunication space is 25%."
+                    ]
+                },
+                {
+                    "key": "3d32142c-efb7-47de-aa98-f4c0f34ec48a",
+                    "prompt": "Question: What is the recommended configuration for work area outlet faceplates, considering the limitations on fiber optic adapters and connectors, cable length, and the requirement for sufficient patch cables of various lengths?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended configuration for work area outlet faceplates is a single gang, four position, modular faceplate with two RJ-45 modular jacks and two blanks for future applications, as shown in Figure 2-3."
+                    ]
+                },
+                {
+                    "key": "153e2492-777d-4169-a2f1-d47bb99edb86",
+                    "prompt": "Question: What is the recommended spacing for convenience receptacles in a TR, considering the unique requirements for multi-story buildings and various types of equipment, as per UFC 3-580-01?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Provide 125V, 20A duplex convenience receptacles at 6 feet (1800mm) intervals on center around perimeter walls."
+                    ]
+                },
+                {
+                    "key": "f3de448e-9d2a-4af5-8cc6-a5eff508db71",
+                    "prompt": "Question: What is the maximum fill ratio allowed for cable trays, considering the initial calculated fill ratio, maximum fill depth, and possible cable deformation?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum fill ratio allowed for cable trays is 50%."
+                    ]
+                },
+                {
+                    "key": "6cc5556d-6d0a-4083-b244-da080765273a",
+                    "prompt": "Question: What is the minimum size of conduit required for intra-building backbone distribution, considering the constraints of multistory buildings and various types of pathway systems, as per TIA-569-C and UFC 3-580-01?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum size of conduit required for intra-building backbone distribution is 4 inches (103 mm)."
+                    ]
+                },
+                {
+                    "key": "1c2184ff-0933-4694-8ebb-be92d02413b6",
+                    "prompt": "Question: Under what circumstances can the requirements for outlet configurations, densities, and locations be modified?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, the requirements for outlet configurations, densities, and locations can be modified if it is validated (documented in writing, signed and dated by the Telecommunications Manager) that mission operations require a quantity, configuration, or design other than specified herein."
+                    ]
+                },
+                {
+                    "key": "135401ed-5346-42a3-98d2-4992f1884398",
+                    "prompt": "Question: What is the dual role of the CNSSI 7003 (U) document in telecommunications infrastructure design and classified information transmission?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The CNSSI 7003 (U) document provides guidance on Protected Distribution Systems."
+                    ]
+                },
+                {
+                    "key": "ee8a3048-6c5a-4305-a298-9b33bbfb0f6e",
+                    "prompt": "Question: How does the RCDD's role in designing and constructing telecommunications infrastructure relate to ensuring compliance with government regulations and industry standards?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The RCDD is responsible for stamping the final drawings and specifications for design-bid-build and design-build projects."
+                    ]
+                },
+                {
+                    "key": "5afeeaa1-7861-4e3c-a98c-acc88727f70d",
+                    "prompt": "Question: What is the reason behind using shielded twisted pair (STP) cabling in certain situations, and how does it differ from unshielded twisted pair (UTP) cabling?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Shielded twisted pair (STP) cabling is used to reduce the probability of alien crosstalk."
+                    ]
+                },
+                {
+                    "key": "285f2c05-ef31-4006-8d3d-4d2fc0797f4a",
+                    "prompt": "Question: What is the maximum number of users that a Multi-user Telecommunications Outlet Assembly (MUTOA) can accommodate in various settings, and how does it compare to Consolidation Points (CPs)?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A MUTOA can accommodate a maximum of 12 users."
+                    ]
+                },
+                {
+                    "key": "34d2cca2-684c-4c43-9f73-85bd19ac7b9a",
+                    "prompt": "Question: What type of equipment racks are suitable for telecommunication spaces with limited clearance, considering the requirement for 25% spare capacity and the need for wall-mounted cabinets in certain situations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "19-inch (475mm) floor-mounted equipment racks should be used in telecommunication spaces, located at or near the center of the space."
+                    ]
+                },
+                {
+                    "key": "4541f5e6-0187-4077-a348-459010e47aab",
+                    "prompt": "Question: What dual role do ladder-type or welded wire cable trays play in telecommunication spaces concerning cable management and stability?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Ladder type or welded wire cable tray is used in telecommunication spaces to provide distribution between the plywood backboard, equipment racks, backbone conduits, and the distribution cable tray."
+                    ]
+                },
+                {
+                    "key": "cc8c5c57-0dba-48ba-a53c-19759cc1a067",
+                    "prompt": "Question: What is the minimum size of conduit required for intra-building backbone distribution, considering the spare capacity and cable management requirements?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum size of conduit required for intra-building backbone distribution is 4 inches (103 mm)."
+                    ]
+                },
+                {
+                    "key": "12e9f0ea-a8eb-4ad3-b875-c238bbe681c8",
+                    "prompt": "Question: What is the purpose of providing blank spaces on work area outlet faceplates, and how does it relate to the given context?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Blank spaces on work area outlet faceplates are provided for future applications, such as adding additional modular jacks or other components as needed."
+                    ]
+                },
+                {
+                    "key": "943896ae-fd90-42b0-bc28-44539da17f6a",
+                    "prompt": "Question: What is the purpose of allocating 25% spare capacity within utilized racks, and how does it relate to telecommunication spaces?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The purpose of providing spare capacity within utilized racks is to ensure that there is enough space for future expansion or upgrades. A minimum of 25% spare capacity is required within each utilized rack."
+                    ]
+                },
+                {
+                    "key": "16d08e37-a97d-4429-bdfe-4f2f1cf6ca29",
+                    "prompt": "Question: How can equipment cabinets and racks be used in telecommunication spaces while ensuring compliance with industry standards and clearance requirements?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, equipment cabinets can be used in lieu of racks where identified by service specific chapters, where physical security is required, or where separately controlled access is desired."
+                    ]
+                },
+                {
+                    "key": "86dfd5b9-e90c-4136-825c-0e6331cf0645",
+                    "prompt": "Question: What is the minimum width required for vertical cable management panels, considering the constraints of spare capacity, clearance, and compatibility with existing infrastructure?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum width required for vertical cable management panels is 6 inches (150mm)."
+                    ]
+                },
+                {
+                    "key": "23c53eff-a917-49ca-a794-8519ff5b172c",
+                    "prompt": "Question: What dual purpose do plant roots serve concerning soil nutrients and stability?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "UFC 3-501-01 provides the governing criteria for electrical systems in UFC 3-580-01."
+                    ]
+                },
+                {
+                    "key": "73c17f9d-873e-4410-809f-6fdf6c7e1165",
+                    "prompt": "Question: Under what conditions should the design of classified telecommunications infrastructure be coordinated, considering the roles of the telecommunications manager and Certified Tempest Technical Authority?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The telecommunications manager and the Certified Tempest Technical Authority (CTTA) are responsible for coordinating the design of classified telecommunications infrastructure."
+                    ]
+                },
+                {
+                    "key": "0e56a78d-d936-4dda-a711-64b4a8e31ad4",
+                    "prompt": "Question: What is the recommended spare capacity for fiber optic patch panels, considering the constraints of a telecommunications space, and how does it relate to the overall cabling infrastructure?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended spare capacity for fiber optic patch panels is 25%."
+                    ]
+                },
+                {
+                    "key": "c53e9b50-4fee-4d16-a052-9b135890700b",
+                    "prompt": "Question: How should copper backbone cables be sized to support legacy systems while minimizing copper deployment during the transition to an all-fiber backbone?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Copper backbone cables should be sized to support no more than 1.5 pairs for every outlet connected to the serving TR."
+                    ]
+                },
+                {
+                    "key": "4f1c3812-0d99-481f-a030-290a43124753",
+                    "prompt": "Question: What's the minimum signal strength for CATV systems?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The text requires a minimum signal level of 0 decibel millivolts (dBmV) (1000 microvolts) and a maximum of 15 dBmV at 55 and 750 MHz at each outlet."
+                    ]
+                },
+                {
+                    "key": "dfe80d94-f3b8-48bd-ab28-ed4bd5cdd1cf",
+                    "prompt": "Question: What's the minimum outlet density for admin spaces?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum outlet density required for administrative spaces, including private offices, conference rooms, and classrooms, is 80 square feet (7.5 square meters) per outlet."
+                    ]
+                },
+                {
+                    "key": "45fb4ae6-d501-4375-98cd-d576e07d57b3",
+                    "prompt": "Question: What's the meaning of \"G6\" in Marine Corps lingo?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "In the context of the Marine Corps, \"G6\" refers to the Base Communications Officer (BCO)."
+                    ]
+                },
+                {
+                    "key": "7f3cd58a-c0f2-425c-bb57-f4f60c2f654f",
+                    "prompt": "Question: What's the max distance for CCTV cables?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The text does not provide a specific maximum distance for CCTV cable runs, but it does mention that the distance is affected by multiple variables such as signal strength at the source, signal loss in the cable, and CCTV components."
+                    ]
+                },
+                {
+                    "key": "ae99eb52-f9d5-4343-9650-2c0632acb4f9",
+                    "prompt": "Question: Cable tray fill depth limit?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum fill depth of a cable tray is 6 inches (150 mm)."
+                    ]
+                },
+                {
+                    "key": "9cb9ff2c-85f5-46d6-8995-d1c7d2d5092d",
+                    "prompt": "Question: What's the required space between telecom equipment cabinets?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A minimum of 24 inches (600 mm) of space is required between equipment cabinets in telecommunication spaces."
+                    ]
+                },
+                {
+                    "key": "2064a95f-d0ab-4624-b850-a6a373fdeaa5",
+                    "prompt": "Question: What's the best setup for telecom cabling?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended configuration for telecommunications cabling is a hierarchical star configuration in accordance with TIA-568-C.1."
+                    ]
+                },
+                {
+                    "key": "5ede91c4-dbec-4e98-8827-093dde7616c3",
+                    "prompt": "Question: What's needed for telecom outlets at work?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The requirements for telecommunications outlets in the work area include providing double gang electrical boxes with a minimum size of 4-11/16 inches (100mm) square and 2-1/8 inches (54 mm) deep, and locating a quadruplex electrical outlet within 6 inches (152 mm) of all work area outlets to serve telecommunications loads associated with that outlet."
+                    ]
+                },
+                {
+                    "key": "2b71fe98-b267-40ba-9c94-3440e129bc92",
+                    "prompt": "Question: What's needed for Systems Furniture to plug in?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The required outlet/connector for Systems Furniture is an 8-pin modular (RJ45 type) outlet/connector."
+                    ]
+                },
+                {
+                    "key": "0a17eec0-a3c3-45f2-af8a-1f7cf226056a",
+                    "prompt": "Question: What's the minimum outlet requirement for a barrack or dorm?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum number of outlets required for a barracks or dormitory space is one CAT6 modular jack (RJ-45 type) per bedroom and common area (living room)."
+                    ]
+                },
+                {
+                    "key": "b9aebdb6-8017-4bfe-806b-05231796209d",
+                    "prompt": "Question: Spare cabinets needed for 4 utilized cabinets?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "One spare cabinet is required for every four utilized cabinets."
+                    ]
+                },
+                {
+                    "key": "8ef09816-6b7b-4619-b554-06e3c3179e3d",
+                    "prompt": "Question: What's the point of Fig 5-1 in UFC 3-580-01?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Figure 5-1 in UFC 3-580-01 provides a diagram of the Navy Telecommunications Coordination Chart for typical Design-Build and Design-Bid-Build projects."
+                    ]
+                },
+                {
+                    "key": "68a0a9a7-b1dc-47e6-8c0f-c5d12b7c4c0e",
+                    "prompt": "Question: What's the best way to cool a TR?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Design the HVAC system for a TR to meet the Class B requirements for temperature and humidity as outlined in ASHRAE TC 9.9."
+                    ]
+                },
+                {
+                    "key": "0c0565fe-a2ed-4e8e-8567-2828c14c33a1",
+                    "prompt": "Question: How many telecom rooms for 10,000 sq ft?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A minimum of one TR is required for a 10,000 sq foot (929 sq m) area, but additional TRs may be required depending on the size and layout of the area."
+                    ]
+                },
+                {
+                    "key": "6f3687f3-3dce-4c01-b8b0-13807fb56286",
+                    "prompt": "Question: What's the difference between gov-designed and design-build projects?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Government-designed projects are designed by the government, while design-build projects are designed by the contractor."
+                    ]
+                },
+                {
+                    "key": "a16e2d12-f2f3-492f-a580-d938b94c2432",
+                    "prompt": "Question: What's needed for a Family Housing Unit connection?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The required outlet/connector for Family Housing Units is a complete structured telecommunications system throughout the housing unit, including Grade 1 wiring outlets (one telephone outlet and one CATV outlet) as required by TIA-570-C."
+                    ]
+                },
+                {
+                    "key": "7c5ce9e5-6ea0-4e8d-99ea-e4285320aaf9",
+                    "prompt": "Question: What's the difference between CAT6 and fiber optic cabling?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Unshielded Twisted Pair (CAT6) cabling is used for short distances and is less expensive, while Fiber Optic cabling is used for longer distances and is more expensive but provides higher bandwidth."
+                    ]
+                },
+                {
+                    "key": "7642377e-8471-4b7f-88a5-b19316b5635c",
+                    "prompt": "Question: What's the moon's distance from Earth?\n\nWhat's needed for a chocolate cake?\n\nWhat's the minimum power requirement for a TR?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A dedicated electrical branch circuit panelboard with a minimum 100 ampere (A) bus rated capacity is required for each TR."
+                    ]
+                },
+                {
+                    "key": "9e8fe3af-b977-455a-bb53-df85636cec58",
+                    "prompt": "Question: What's the point of secure terminals in comms spaces?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Protected terminals are provided to protect the inside plant cabling and equipment from power surges."
+                    ]
+                },
+                {
+                    "key": "eeced84a-89e0-4e64-b5a8-d4c391007353",
+                    "prompt": "Question: What's the minimum number of outlets needed for elevators?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "One standard work area outlet is required for each elevator."
+                    ]
+                },
+                {
+                    "key": "78273183-3788-4d4f-a0d5-81403d711818",
+                    "prompt": "Question: What's the difference between \"telecommunications manager\" and \"Network Enterprise Center\"?\n\nThe rewritten question is shorter and more concise while still conveying the same meaning as the original question. The use of abbreviations, such as \"vs.\" instead of \"between,\" helps to shorten the question further. Additionally, the rewritten question is more indirect, as it doesn't explicitly state the context of the two terms, making it more general and open-ended.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "In UFC 3-580-01, \"telecommunications manager\" refers to the individual responsible for managing the telecommunications infrastructure, while \"Network Enterprise Center\" (NEC) refers to the organization responsible for managing the Army's telecommunications infrastructure."
+                    ]
+                },
+                {
+                    "key": "e9e9500d-e15d-4bf4-838b-f265e231ef42",
+                    "prompt": "Question: What's the best lighting for TRs?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Design lighting for TRs in accordance with UFC 3-530-01."
+                    ]
+                },
+                {
+                    "key": "27f9a80c-5fa5-4705-aa75-6c0191abc70a",
+                    "prompt": "Question: What's the max fill allowed for a cable tray?\n\nPlease note that the rewritten question is shorter and more indirect than the original question, while still conveying the same meaning. It uses abbreviations such as \"max\" for \"maximum\" and \"fill\" for \"fill ratio\" to make it more concise.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum fill ratio allowed for a cable tray is 50%."
+                    ]
+                },
+                {
+                    "key": "933eec2f-87ea-4841-94cb-b1497ea024b7",
+                    "prompt": "Question: What's the extent of UFC 3-580-01?\n\nNote: UFC stands for Unified Facilities Criteria, and UFC 3-580-01 refers to a specific document that outlines the criteria for architectural and engineering design.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "UFC 3-580-01 provides requirements for designing and implementing interior telecommunications infrastructure for military construction."
+                    ]
+                },
+                {
+                    "key": "a69f746f-1957-4cdd-aa0e-1a96a55dafc3",
+                    "prompt": "Question: What's the best way to end copper data cables?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Copper data cables should be terminated using unkeyed Category 6 (CAT6) modular jacks in accordance with TIA-568-C.0, terminated per T568A configuration."
+                    ]
+                },
+                {
+                    "key": "01d9a417-b62c-43fc-b6c2-0ebdddea8bd3",
+                    "prompt": "Question: What's the role of a CP in telecom?\n\nNote: CP stands for \"control plane\" in telecommunications.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A CP (consolidation point) is used to distribute and organize cables in a telecommunications system, allowing for easier management and maintenance of cables."
+                    ]
+                },
+                {
+                    "key": "6b4cbac9-06a0-4797-aed1-1a66eabae7d7",
+                    "prompt": "Question: What's the point of UFC 3-580-01's glossary?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The glossary in UFC 3-580-01 provides definitions for acronyms, abbreviations, and terms used in the document."
+                    ]
+                },
+                {
+                    "key": "72e26205-715a-462c-afc9-20ce749b2166",
+                    "prompt": "Question: What's the recommended outlet setup for furniture systems?\n\nPlease note that the rewritten question is shorter and more indirect than the original question, while still conveying the same meaning. It uses abbreviations where possible and omits unnecessary information, making it more concise and to the point.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The recommended outlet configuration for systems furniture is two 8-pin modular (RJ45 type) outlet/connector OR one 8-pin modular and one duplex fiber optic connector OR two duplex fiber optic connectors in a modular furniture outlet faceplate with outlet box extender."
+                    ]
+                },
+                {
+                    "key": "930fbc8a-4e8c-4946-a69d-3f93819a9310",
+                    "prompt": "Question: What's a telecom cabling work area?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A work area is defined as the building space where the occupants interact with the telecommunications terminal equipment, including consolidation points (CP) and multi-user telecommunications outlet assemblies (MUTOA)."
+                    ]
+                },
+                {
+                    "key": "c971d373-2db2-4e3a-8e4d-e72e0793cb11",
+                    "prompt": "Question: How can UFC hard copies be kept up-to-date?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Hard copies of UFC printed from electronic media should be checked against the current electronic version prior to use to ensure that they are current."
+                    ]
+                },
+                {
+                    "key": "0548e8b1-6ef3-4c77-b747-44a9c055f96a",
+                    "prompt": "Question: What's a TE?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A Telecommunications Enclosure (TE) is a case or housing for telecommunications equipment, cable terminations, and cross-connect cabling. It serves much the same purpose as a TR, but it must not replace a TR."
+                    ]
+                },
+                {
+                    "key": "75a3a688-1453-4c7c-9cfc-271af1db1553",
+                    "prompt": "Question: What's the best way to set up a CATV system?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The text recommends using a star topology distribution system with each CATV outlet connected to a TR with a feeder cable or a drop cable and each TR connected to the head-end equipment with a trunk cable."
+                    ]
+                },
+                {
+                    "key": "c472824d-442f-49a4-9904-753aab59fe40",
+                    "prompt": "Question: What's needed to site telecom spaces?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Telecommunications spaces should be located central to the areas they serve, with maximum cable length from the patch panel to the furthest outlet not exceeding 295 feet (90 m). They should be dedicated spaces, not shared with other non-telecommunications functions, and should be accessible to personnel with a telecommunications requirement or mission."
+                    ]
+                },
+                {
+                    "key": "f905ed44-6fbe-4a33-9ed7-3e5120abe255",
+                    "prompt": "Question: What's the best way to set up power strips in a TR?\n\nNote: TR stands for \"trading room.\"\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Power strips should be configured with indicator lights but no integral on/off switch to minimize accidental shut-off."
+                    ]
+                },
+                {
+                    "key": "e1822972-c769-4116-8117-91a05c9301a5",
+                    "prompt": "Question: What's the point of a telecom entrance facility?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A telecommunications entrance facility is a space that houses the telecommunications equipment for connecting the horizontal cabling to the backbone cabling system."
+                    ]
+                },
+                {
+                    "key": "c64f533b-0916-49d5-bd77-40f4c0382273",
+                    "prompt": "Question: Sure! Here's a rewritten question:\n\nOriginal Question:\nCan a TR suffice for multi-story buildings?\nRewritten Question:\nIs TR enough for tall structures?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a TR may suffice for multi-story buildings in unique instances, but it depends on the specific requirements and layout of the building."
+                    ]
+                },
+                {
+                    "key": "b6665c34-7c14-43e8-8f5a-414b23e2a495",
+                    "prompt": "Question: What's the point of Table 2-1 in UFC 3-580-01?\n\nNote: UFC stands for Unified Facilities Criteria and is a publication produced by the United States military.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Table 2-1 in UFC 3-580-01 provides outlet types and densities commonly used in military construction projects for planning purposes."
+                    ]
+                },
+                {
+                    "key": "52e5dca4-cc81-4993-abda-cf19bdadb7e1",
+                    "prompt": "Question: How should backbone fibers be wrapped up?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Backbone fibers should be terminated at each end on cabinet/rack-mounted patch panels with LC type connectors."
+                    ]
+                },
+                {
+                    "key": "7a4f2002-51f7-44af-b7a1-00e87d988686",
+                    "prompt": "Question: What's the purpose of horizonal pathways in telecomms?\n\nNote: \"Telecommunications\" can be abbreviated to \"telecomms\" to make the question shorter.\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Horizontal pathways are used to conceal, protect, support, and provide access to cables between the telecommunications spaces and the work area outlet."
+                    ]
+                },
+                {
+                    "key": "c0bbbae7-300a-4902-9af6-b98f9ee8e8e1",
+                    "prompt": "Question: Considering the architectural considerations for telecommunications spaces and cabling, how many Equipment Rooms (ERs) should be provided in a 10,000 sq ft building that houses substantial Information Technology (IT) electronics, and what would be the minimum size of each ER?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The number of Equipment Rooms (ERs) required in a 10,000 sq ft building that houses substantial Information Technology (IT) electronics would depend on the specific requirements of the building and the total cable distance to the outlets. However, as a general guideline, one ER may be sufficient for areas up to 10,000 sq ft, and additional ERs should be provided for larger areas or buildings with substantial IT electronics. The minimum size of each ER should be 10 feet x 8 feet (3m x 2.4m) as per TIA -568-C-1.1, but it's recommended to size each ER in accordance with TIA -568-C-1.1, and consider utilizing an ER for areas that exceed 10,000 sq ft or buildings that house substantial IT electronics."
+                    ]
+                },
+                {
+                    "key": "b85efd9e-2dd2-4006-9093-392930e14a4e",
+                    "prompt": "Question: What are the requirements for installing backboards, equipment racks, and equipment cabinets in a telecommunication space, and how should they be arranged to ensure adequate space for government-provided active equipment, while maintaining positive atmospheric pressure and minimizing dust, and also protecting against moisture, liquid or gaseous spillage, and other contaminants, and what are the requirements for building entrance terminals and how should they be protected from power surges?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "To install backboards, equipment racks, and equipment cabinets in a telecommunication space, follow TIA-569-C and TIA-758-B. Use fire-retardant-treated wood backboards bearing the manufacturer's stamp, cover at least two adjacent walls, and ensure they are large enough to accommodate wall-mounted equipment. Provide 19-inch floor-mounted equipment racks located at the center of the space, with 36 inches of space in front and back, and 24 inches of side clearance. Equip racks with modules to protect inside plant cabling and equipment from power surges. Use 110-type Insulation Displacement Connector terminal blocks or cable stubs. Provide equipment cabinets with cooling fans and internal rails for 19-inch equipment. Locate cabinets near the center of the space, with 36 inches of space in front and back, and 24 inches of side clearance. Ensure 25% spare capacity within each utilized rack or cabinet. Provide one spare rack or cabinet for every four utilized ones, with at least one spare per space. Coordinate with the telecommunications manager for space requirements. Use wall-mounted equipment cabinets in existing facilities with narrow or crowded spaces, and utilize swing-out cabinets where space is limited."
+                    ]
+                },
+                {
+                    "key": "1fe2fa93-00d2-46df-8f0f-f2a6e96f9f80",
+                    "prompt": "Question: What is the significance of having a telecommunications room (TR) in a government-designed project, as per UFC 3-580-01, and how does it relate to the glossary in the document?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "According to UFC 3-580-01, a telecommunications room (TR) is an architectural space designed to contain telecommunications equipment, cable terminations, and cross-connect cabling. In government-designed projects, the TR is significant as it contains the telecommunications equipment for connecting the horizontal cabling to the backbone cabling system. The glossary in the document defines TR as a telecommunications room, and understanding its purpose is essential in comprehending the document's requirements for telecommunications infrastructure design, including the role of the TR in government-designed projects."
+                    ]
+                },
+                {
+                    "key": "6fbc990a-bad5-4ce3-8114-92ef572fff70",
+                    "prompt": "Question: What is the process for updating the Unified Facilities Criteria (UFC) system, and who is responsible for ensuring compliance with the most stringent of the UFC, SOFA, HNFA, and BIA, as applicable, for all DoD projects and work for other customers where appropriate, and how are UFCs living documents that will be periodically reviewed, updated, and made available to users as part of the Services\u2019 responsibility for providing technical criteria for military construction?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The UFC system is updated through a collaborative effort between the preparing service, the cognizant DoD working group, and the acquisition team. The preparing service is responsible for document interpretation and improvements, while the cognizant DoD working group is responsible for the technical content of the UFC. Recommended changes with supporting rationale should be sent to the respective service proponent office by the following electronic form: Criteria Change Request. The acquisition team must ensure compliance with the most stringent of the UFC, SOFA, HNFA, and BIA, as applicable. UFCs are living documents and will be periodically reviewed, updated, and made available to users as part of the Services\u2019 responsibility for providing technical criteria for military construction."
+                    ]
+                },
+                {
+                    "key": "76c568a9-dd94-4098-904d-d6140a3c67e3",
+                    "prompt": "Question: What is the maximum fill ratio and depth of a cable tray in a telecommunications distribution system, and how do these specifications ensure sufficient cable management and future growth in a building with a mix of open office wiring and systems furniture workstations, while also meeting the requirements of TIA-569-C and NFPA 70?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum fill ratio of a cable tray in a telecommunications distribution system is 50%, with an initial calculated fill ratio of 25% to accommodate future growth. The maximum fill depth is 6 inches (150 mm). These specifications ensure that the cable tray can manage the current and future cable needs of the building, while also providing sufficient space for cable management and reducing the risk of overfilling, which can lead to cable damage and fire hazards. In addition, the use of cable trays helps to protect cables from damage and provides a pathway for future upgrades or changes. The design of the cable tray system must also ensure metallic separation between telecommunication and power wiring in accordance with TIA-569-C and NFPA 70."
+                    ]
+                },
+                {
+                    "key": "92a9ea97-7883-4f4f-a7b2-370dcbc32d58",
+                    "prompt": "Question: What is the significance of the date June 1, 2016, in relation to the supersession of UFC 3-580-01, and how does it relate to the preparing activity, and what is the role of the cognizant DoD working group in this process?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The date June 1, 2016, marks the release date of Change 1 to UFC 3-580-01, which supersedes UFC 3-580-01 dated June 2007, UFC 3-580-10, and MIL-HDBK-1012/3 dated May 1996. The preparing activity for UFC 3-580-01 is the U.S. Army Corps of Engineers, Naval Facilities Engineering Command, and Air Force Civil Engineer Center. The cognizant DoD working group is responsible for the technical content of UFC and reviews recommended changes with supporting rationale sent by defense agencies for document interpretation and improvements."
+                    ]
+                },
+                {
+                    "key": "e3aaccac-fd57-444e-862e-6f7b3007edb8",
+                    "prompt": "Question: What is the minimum capacity required for spare cabling in a telecommunications space, and how is it related to backbone pathways?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum capacity required for spare cabling in a telecommunications space is 25%. This is related to backbone pathways because backbone pathways provide a structure for organizing and managing cables, including spare cabling, between telecommunications spaces. By providing a minimum of 25% spare capacity, backbone pathways ensure that there is sufficient space for additional cables and connections, allowing for flexibility and future expansion."
+                    ]
+                },
+                {
+                    "key": "9f8b4c58-4756-420d-ac74-f2c75e97c016",
+                    "prompt": "Question: Considering the architectural considerations for telecommunications spaces and cabling, how many Telecommunications Rooms (TRs) should be provided for a 10,000 sq ft area with both telecommunications and IT electronics requirements, and what would be the minimum size of each TR?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum size of each TR should be 10 feet x 8 feet (3m x 2.4m), and generally, the TR should be sized to approximately 1.1 percent of the area it serves. For a 10,000 sq ft (929 sq m) area, at least one TR should be provided, and the size of each TR should be around 10 ft x 11 feet (3m x 3.4 m). However, if additional systems are required in the TR, such as audio visual systems, servers, or disk storage arrays, the TR size, power, and HVAC requirements may be substantially impacted. In such cases, consultation with the architectural designer or facilities engineer is necessary. Additionally, consider utilizing an Equipment Room (ER) for areas that exceed 10,000 sq ft (929 sq m) or buildings that house substantial IT electronics."
+                    ]
+                },
+                {
+                    "key": "a0c38995-0a0f-4f4f-8c26-2a0af95c10a5",
+                    "prompt": "Question: What are the specific responsibilities of the G6 in the USMC in relation to telecommunications infrastructure, and how do they ensure compliance with UFC 3-580-01 and other relevant standards, taking into account the Navy's technical authority and coordination with other stakeholders, as outlined in Chapters 1, 3, 5, and 6 of UFC 3-580-01 and referenced documents, such as UFC 1-200-01 and UFC 3-520-01?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The G6 in the USMC is responsible for ensuring that the telecommunications infrastructure meets the requirements outlined in UFC 3-580-01 and other relevant standards. They must coordinate with the Navy's technical authority and other stakeholders to ensure that the infrastructure is designed and installed in accordance with the standards, and that it supports the necessary voice, data, and video systems. The G6 must also ensure that the infrastructure is properly maintained and upgraded as needed. To fulfill these responsibilities, the G6 may need to work with other groups, such as the Network Enterprise Center (NEC) for the Army, the Base Communications Officer (BCO) for the Air Force, and the telecommunications manager for the Navy, as well as with contractors and other experts in the field. The G6 must also stay up-to-date with changes in technology and updates to the relevant standards to ensure that the telecommunications infrastructure remains compliant and effective."
+                    ]
+                },
+                {
+                    "key": "58874d98-aa5c-4a1f-a443-577bc4c63556",
+                    "prompt": "Question: What is the process for submitting recommended changes to the Unified Facilities Criteria (UFC) system, and which organizations are responsible for administration of the UFC system?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The process for submitting recommended changes to the UFC system involves filling out the Criteria Change Request form, which can be accessed from the Internet sites listed in the UFC document. The form should include supporting rationale for the recommended changes. The UFC system is administered by Headquarters, U.S. Army Corps of Engineers (HQUSACE), Naval Facilities Engineering Command (NAVFAC), and Air Force Civil Engineer Center (AFCEC). Defense agencies should contact the preparing service for document interpretation and improvements. Technical content of UFC is the responsibility of the cognizant DoD working group."
+                    ]
+                },
+                {
+                    "key": "9bc5de6a-3e96-4d4c-959e-a25867c37dd0",
+                    "prompt": "Question: What are the necessary infrastructure components for video teleconferencing (VTC) in USMC projects, and how do they relate to the telecommunications pathways interior conduit and work area outlets, as per the UFC 3-580-01, and what is the purpose of the USMC Technical Authority in coordinating these requirements?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The necessary infrastructure components for video teleconferencing (VTC) in USMC projects are outlined in Chapter 6 of UFC 3-580-01, specifically in section 6-2.6. The telecommunications pathways interior conduit and work area outlets are also discussed in Chapter 6, sections 6-2.7 and 6-2.8, respectively. The USMC Technical Authority coordinates these requirements to ensure compliance with the UFC and to provide a comprehensive telecommunications infrastructure for USMC projects. The purpose of the USMC Technical Authority is to provide technical guidance and oversight for the design, construction, and maintenance of USMC telecommunications infrastructure, as outlined in section 6-1.2 of UFC 3-580-01."
+                    ]
+                },
+                {
+                    "key": "99d3a646-9cb6-49ed-960b-98e950cf3c90",
+                    "prompt": "Question: Considering the given context, what are the requirements for selecting the appropriate outlet types and densities in various facility spaces, and how should they be configured and located to meet the needs of different users while ensuring compliance with relevant standards and regulations?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The requirements for selecting the appropriate outlet types and densities in various facility spaces are outlined in UFC 3-580-01, which provides guidelines for telecommunications cabling systems in military construction projects. The outlet types and densities must be selected by the proponent and the telecommunications manager and must comply with this UFC and the current versions of TIA-568 and TIA-569. The outlet configurations, densities, and locations for all special-purpose spaces not identified in Table 2-1 must be determined by the user and the telecommunications manager. The telecommunications manager must approve any deviation from the specified requirements, and the design must include outlets in work areas, office automation outlets, private office outlets, conference rooms, and wall or access phones as necessary. The outlet types and densities must be selected based on the type of facility space, and the planning area per outlet must be calculated based on the gross area of the building."
+                    ]
+                },
+                {
+                    "key": "389c365e-8433-4a00-bbf5-c37b437d811f",
+                    "prompt": "Question: Considering the given architectural considerations for telecommunications spaces, determine the appropriate location, size, and quantity of telecommunications rooms (TRs) and equipment rooms (ERs) for a new building project with a total area of 150,000 square feet, while ensuring that the maximum cable length from the patch panel through the structured cabling system to the furthest outlet does not exceed 295 feet and taking into account potential sources of electromagnetic interference and accessibility requirements for personnel with a telecommunications requirement or mission. Additionally, provide a justification for the chosen solution.\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "{'location': 'The telecommunications spaces should be located central to the areas they serve, away from sources of electromagnetic interference and in an accessible area of the building. Specifically, the TRs and ERs should be situated in a common hallway, ensuring that the maximum cable length is minimized while maintaining accessibility for personnel with a telecommunications requirement or mission.', 'size': 'The size of each TR should be approximately 1.1% of the area it serves, with a minimum size of 10 feet x 8 feet (3m x 2.4m) for DoD buildings. For this project, a total of 3 TRs would be required, each with a size of 10 feet x 11 feet (3m x 3.4m) to serve the 150,000 square foot area. Additionally, one ER should be provided to house the main or intermediate cross-connect, sized in accordance with TIA-568-C-1.1.', 'quantity': 'A minimum of one TR per floor is required, with additional TRs provided for areas exceeding 10,000 square feet (929 sq m). Since the total area of the building is 150,000 square feet, three TRs would be required, one for each floor. Additionally, one ER should be provided to serve the entire building.', 'justification': 'The chosen solution takes into account the architectural considerations for telecommunications spaces, including location, accessibility, sizing, quantity, and electromagnetic interference mitigation. The TRs and ER are located in a common hallway, ensuring minimized cable length and accessibility for personnel with a telecommunications requirement or mission. The size of each TR is approximately 1.1% of the area it serves, with a minimum size of 10 feet x 8 feet (3m x 2.4m) for DoD buildings. One ER is provided to house the main or intermediate cross-connect. The quantity of TRs and ERs is determined based on the total area of the building and the requirement for one TR per floor, with additional TRs provided for areas exceeding 10,000 square feet (929 sq m).'}"
+                    ]
+                },
+                {
+                    "key": "e14c8fac-df56-4671-8f22-14145da376bd",
+                    "prompt": "Question: What are the limitations and requirements for using a Multi-user Telecommunications Outlet Assembly (MUTOA) and a Consolidation Point (CP) in a systems furniture work area outlet, and how do they differ from each other in terms of connectivity and flexibility?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A MUTOA is limited to terminating a maximum of 12 users and does not require an additional connection for each horizontal cable run, while a CP requires an additional connection for each horizontal cable run and is limited to terminating a maximum of 12 users. MUTOAs are located in systems furniture work area outlets and route cables within systems furniture in accordance with TIA -568-C.1, while CPs are located in accordance with TIA -568-C.1 and are useful when reconfiguration is frequent but not so frequent as to require the flexibility of the MUTOA."
+                    ]
+                },
+                {
+                    "key": "f256d1e6-f17a-478c-a2ba-a1890c69ed47",
+                    "prompt": "Question: What are the differences in requirements for designing and implementing interior telecommunications infrastructure for military construction between various branches of the military, and how do these differences impact the choice of materials, installation methods, and testing procedures?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The differences in requirements for designing and implementing interior telecommunications infrastructure for military construction between various branches of the military are outlined in Chapters 3, 4, 5, and 6 of UFC 3-580-01. These chapters provide branch-specific requirements for various aspects of telecommunications infrastructure, such as telecommunications spaces, pathways, cabling, and other system requirements. For example, the Army has specific requirements for government-designed projects, classified infrastructure, and work areas, while the Navy has specific requirements for collocating various systems, fiber optic backbone cabling, and outside cable plant. These differences impact the choice of materials, installation methods, and testing procedures used in each project, as contractors must adhere to the specific requirements outlined in the chapter relevant to their project."
+                    ]
+                },
+                {
+                    "key": "59cf35e7-d2e7-40c1-ba77-e2f98a39b8c0",
+                    "prompt": "Question: What are the necessary infrastructure components for Video Teleconferencing (VTC) in accordance with UFC 3-580-01, and how do they relate to the telecommunications spaces, pathways, cabling, and interconnecting components that support the infrastructure for voice, data, and video systems within interior telecommunications infrastructure planning, design, and construction for all services, specifically for USMC projects as outlined in Chapters 1, 2, 3, 4, 5, and 6 of UFC 3-580-01, and how do these components and infrastructure relate to the governing criteria for electrical systems in UFC 3-501-01 and the delineation between the different electrical-related UFCs, and what considerations should be taken into account for the design and installation of these components and infrastructure to ensure compliance with the applicable standards and criteria?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The necessary infrastructure components for Video Teleconferencing (VTC) in accordance with UFC 3-580-01 include telecommunications spaces, pathways, cabling, and interconnecting components that support the infrastructure for voice, data, and video systems. These components and infrastructure are outlined in Chapters 1, 2, 3, 4, 5, and 6 of UFC 3-580-01 and are applicable to all interior telecommunications infrastructure planning, design, and construction for all services, specifically for USMC projects. The design and installation of these components and infrastructure must comply with the governing criteria for electrical systems in UFC 3-501-01 and the delineation between the different electrical-related UFCs. Considerations for design and installation include ensuring compliance with applicable standards and criteria, such as those outlined in UFC 1-200-01, General Building Requirements, and UFC 3-520-01, Interior Electrical Systems, as well as coordination with the telecommunications manager, Network Enterprise Center (NEC) for Army, and the G6 for Marine Corps. Additionally, modernization of telecommunications systems within existing facilities solely for the purpose of meeting design criteria in UFC 3-580-01 is not required."
+                    ]
+                },
+                {
+                    "key": "8ae29888-c75c-40cc-9121-c47c34baaeea",
+                    "prompt": "Question: What are the specific requirements for copper, fiber optic, and coaxial cable jacks, connectors, and adapters in a facility, and how do they relate to the Telecommunications Manager's approval?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The requirements for copper, fiber optic, and coaxial cable jacks, connectors, and adapters in a facility are outlined in UFC 3-580-01, which includes the use of unkeyed Category 6 (Cat6) modular jacks for copper systems, unkeyed duplex LC connectors and adapters for fiber optic systems, and F-type adapters and crimp-on connectors for coaxial systems. The Telecommunications Manager's approval is required for the use of other types of connectors and adapters, such as SC, ST, and MT-RJ, that are required to support existing systems, as well as for the use of small form factor connectors and adapters with high-density patch panels. Additionally, the Telecommunications Manager must approve any deviation from the specified outlet configurations, densities, and locations in a facility, as outlined in Table 2-1 of UFC 3-580-01."
+                    ]
+                },
+                {
+                    "key": "1c43c71f-6758-4ef2-b136-9e945dbabe48",
+                    "prompt": "Question: What are the specific requirements for designing and installing interior telecommunications infrastructure for military construction, and how do they differ between the Army, Navy, and Air Force, and how do they relate to the Governing Criteria for Electrical Systems?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The UFC document provides requirements for designing and implementing interior telecommunications infrastructure for military construction. The document includes chapters for each service, detailing service-specific requirements. The Governing Criteria for Electrical Systems outlines the purpose and scope of the document, which includes ensuring compliance with applicable codes and standards for electrical systems. The document covers design requirements, telecommunications spaces, pathways, cabling, and other system requirements. The Army, Navy, and Air Force have specific requirements detailed in their respective chapters, such as government-designed projects, classified infrastructure, telecommunications spaces, pathways, fiber optic backbone cable, work area, and outside cable plant. The document also includes a chapter on system administration and testing. Therefore, the Governing Criteria for Electrical Systems play a crucial role in ensuring that the electrical systems in the facility are designed and installed in accordance with applicable codes and standards, which is essential for the proper functioning of the interior telecommunications infrastructure."
+                    ]
+                },
+                {
+                    "key": "09a634a7-647c-4b0e-bf16-3b1fb2af00b5",
+                    "prompt": "Question: What are the specific requirements for designing and implementing interior telecommunications infrastructure for military construction, and how do they differ for each branch of the military, and how do coaxial cabling and connecting hardware fit into these requirements?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Unified Facilities Criteria (UFC) document provides requirements for designing and implementing interior telecommunications infrastructure for military construction. The document includes chapters for each service branch with service-specific requirements. Coaxial cabling and connecting hardware are included in the requirements for each branch, with specifications for their use in different applications such as video and audio, and how they should be installed and connected to devices in telecommunications spaces, pathways, and work areas."
+                    ]
+                },
+                {
+                    "key": "6a9d07eb-bde0-459c-965b-86e0655ae9a5",
+                    "prompt": "Question: What are the specific requirements for designing and implementing interior telecommunications infrastructure for military construction, and how do they differ for each branch of the military?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The specific requirements for designing and implementing interior telecommunications infrastructure for military construction are outlined in the Unified Facilities Criteria (UFC) document, which provides guidance on various aspects of telecommunications infrastructure, including telecommunications spaces, pathways, cabling, and interconnecting components. The requirements differ for each branch of the military, with separate chapters in the UFC document dedicated to the specific needs of the Air Force, Army, Navy, and USMC. For example, the Army has specific requirements for government-designed projects, classified infrastructure, telecommunications spaces, and fiber optic backbone cable, while the Navy has unique requirements for collocating various systems, bachelor quarters considerations, and outside cable plant. The UFC document provides a single source reference for planners, engineers, and installers to standardize on requirements, promoting efficient use of available funds and resources for interior telecommunications infrastructure."
+                    ]
+                },
+                {
+                    "key": "9614bf58-c168-465d-9b05-810c707724d5",
+                    "prompt": "Question: What are the specific requirements for optical splitters, patch panels, and patch cords in USMC projects, and how do they relate to the telecommunications infrastructure for voice, data, and video systems, and what is the role of the G6 in ensuring compliance with these requirements?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The specific requirements for optical splitters, patch panels, and patch cords in USMC projects can be found in Chapter 6 of UFC 3-580-01, which outlines the USMC's specific requirements for telecommunications infrastructure. The G6 is responsible for ensuring compliance with these requirements, which are intended to support the infrastructure for voice, data, and video systems. The G6 must coordinate with the Navy's technical authority to ensure that the requirements are met and that the telecommunications infrastructure is properly designed and installed."
+                    ]
+                },
+                {
+                    "key": "b860f1ae-c4e0-4ed4-8942-bc8882c058f5",
+                    "prompt": "Question: What are the specific requirements for the design and installation of telecommunications infrastructure in USMC projects, and how do they differ from the general requirements outlined in UFC 3-580-01?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The specific requirements for the design and installation of telecommunications infrastructure in USMC projects are outlined in Chapter 6 of UFC 3-580-01, which includes government-designed projects, optical splitters, patch panels and patch cords, telecommunications pathways interior conduit, work area outlets, and installation cabling distribution system (ICDS) or backbone cabling. These requirements differ from the general requirements outlined in UFC 3-580-01 in that they provide more detailed and specific guidelines for USMC projects, taking into account the unique needs and requirements of the Marine Corps."
+                    ]
+                },
+                {
+                    "key": "a18e66a3-2955-4bf5-b2ce-923fa8430b13",
+                    "prompt": "Question: What is the maximum depth of a cable tray that can accommodate an initial calculated fill ratio of 25% and has a maximum fill ratio of 50% and is used for horizontal distribution in a building with a telecommunications space, work area outlets, and systems furniture workstations, and is installed in accordance with TIA-569-C and NFPA 70?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum depth of a cable tray that can accommodate an initial calculated fill ratio of 25% and has a maximum fill ratio of 50% and is used for horizontal distribution in a building with a telecommunications space, work area outlets, and systems furniture workstations, and is installed in accordance with TIA-569-C and NFPA 70 is 6 inches (150 mm)."
+                    ]
+                },
+                {
+                    "key": "1333726a-a0b5-412f-bf95-f60706f2cf4d",
+                    "prompt": "Question: What are the specific changes made in UFC 3-580-01 Change 1, dated 01 Jun 2016, that led to the supersession of UFC 3-580-10, and how do these changes impact the planning and design of interior telecommunications infrastructure for military construction projects?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "UFC 3-580-01 Change 1, dated 01 Jun 2016, includes updates to the requirements for designing and implementing interior telecommunications infrastructure for military construction projects. Specifically, the change includes updates to the references, definitions, and requirements for fiber optic adapters and connectors, CATV cabling, and Army outside plant requirements. Additionally, the URL link in section 4-2.2 was updated, and paragraphs 2-8.1 and 2-9.1 were modified. These changes supersede the relevant portions of UFC 3-580-10, which provided design and construction requirements for Navy and Marine Corps Intranet (NMCI) Standard Construction Practices. As a result, UFC 3-580-01 Change 1 becomes the current authoritative document for planning and designing interior telecommunications infrastructure for military construction projects, and users should ensure compliance with the updated requirements."
+                    ]
+                },
+                {
+                    "key": "6fae6848-b051-4503-af26-61830d09e64d",
+                    "prompt": "Question: Considering the given context, determine the appropriate location for a wall-mounted telephone outlet in a barracks or dormitory space, and explain the reasoning behind it.\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The appropriate location for a wall-mounted telephone outlet in a barracks or dormitory space would be in each bedroom and common area (living room) of the suite, configured per TIA-570-C. This is because barracks and dormitories are considered residential spaces, and TIA-570-C recommends providing a complete structured telecommunications system throughout housing units, including a minimum of one telephone outlet and one CATV outlet in each bedroom and common area. This supports safety, courtesy, and convenience, as residents can easily access a telephone in case of emergency or for personal calls. Additionally, the outlets in the common areas can be used for courtesy calls or for guests. The use of TIA-570-C guidelines ensures that the telecommunications infrastructure in the barracks or dormitory meets industry standards for residential spaces."
+                    ]
+                },
+                {
+                    "key": "89ae2520-75bf-4653-a7eb-7de04fd16e5a",
+                    "prompt": "Question: What are the specific requirements for designing and implementing interior telecommunications infrastructure for military construction, and how do they differ for each branch of the military, and what are the consequences of not following these requirements?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The specific requirements for designing and implementing interior telecommunications infrastructure for military construction are outlined in the Unified Facilities Criteria (UFC) document, which provides guidance to those parties tasked with implementing existing and emerging interior telecommunications infrastructure requirements. The requirements cover various aspects, including telecommunications spaces, pathways, cabling, and interconnecting components. The document also includes a chapter for each service, detailing service-specific requirements. Not following these requirements can result in inefficient use of available funds and resources for interior telecommunications infrastructure and non-standardization of requirements, leading to confusion and inefficiencies in the planning, design, and construction of interior telecommunications infrastructure."
+                    ]
+                },
+                {
+                    "key": "4f799481-38cb-44cb-9943-c519182e8087",
+                    "prompt": "Question: Considering the given context, what are the minimum requirements for a TR, and how does it differ from a TE in terms of purpose and functionality, and what are the architectural considerations for locating a TR in a building?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A TR is a dedicated space that contains telecommunications equipment, cable terminations, and cross-connect cabling, and it must be located central to the areas it serves, with a maximum cable length of 295 feet from the patch panel to the furthest outlet. A TE is a case or housing for telecommunications equipment, cable terminations, and cross-connect cabling that serves much the same purpose as a TR, but it must not replace a TR. The main difference between a TR and a TE is that a TR is a dedicated space, while a TE is a case or housing. The architectural considerations for locating a TR in a building include locating it in an accessible area, away from sources of electromagnetic interference, and providing working clearances per the National Electrical Code (NEC)."
+                    ]
+                },
+                {
+                    "key": "4704175d-2f2a-464b-8c51-645624bcab54",
+                    "prompt": "Question: What are the specific requirements for designing and implementing interior telecommunications infrastructure for military construction, and how do they address cable entrance grounding?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Unified Facilities Criteria (UFC) document provides requirements for designing and implementing interior telecommunications infrastructure for military construction. According to UFC 3-580-01, Chapter 2, Section 2-9, cable entrance grounding is required to provide a path to ground for the shield of the cable and to prevent the buildup of static electricity. Additionally, the document provides specific requirements for grounding, bonding, and static protection, including cable entrance grounding, telecommunications spaces bonding and grounding, and telecommunications rack and supporting structure. These requirements ensure that the interior telecommunications infrastructure is designed and installed in a way that prevents damage from electrical surges and ensures reliable communication services for military operations."
+                    ]
+                },
+                {
+                    "key": "7f2ac13f-5a04-4745-81ff-e9d42980764f",
+                    "prompt": "Question: What is the name of the organization that is responsible for the administration of the UFC system, and what is the name of the person who is authorized to approve changes to the UFC?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The organization responsible for the administration of the UFC system is the U.S. Army Corps of Engineers (HQUSACE), Naval Facilities Engineering Command (NAVFAC), and Air Force Civil Engineer Center (AFCEC). The person authorized to approve changes to the UFC is James C. Dalton, P.E., Chief, Engineering and Construction, U.S. Army Corps of Engineers."
+                    ]
+                },
+                {
+                    "key": "18124732-fdf5-4505-a536-850633a8dd26",
+                    "prompt": "Question: What are the specific requirements for the design and installation of telecommunications infrastructure in USMC projects, and how do they differ from those in Navy projects, according to UFC 3-580-01?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "UFC 3-580-01 provides specific requirements for USMC projects in Chapter 6, which includes government-designed projects, optical splitters, patch panels and patch cords, telecommunications pathways interior conduit, work area outlets, and installation cabling distribution system (ICDS) or backbone cabling. These requirements differ from those in Navy projects in terms of the specific technologies and configurations used, as well as the coordination and approval processes involved. For example, USMC projects require a minimum of two optical splitters per floor, while Navy projects require only one. Additionally, USMC projects require a specific configuration for patch panels and patch cords, while Navy projects allow for more flexibility in their design. Furthermore, USMC projects have different requirements for the installation of ICDS or backbone cabling, and the coordination and approval processes for these projects involve different personnel and agencies than those in Navy projects."
+                    ]
+                },
+                {
+                    "key": "d33d2723-4618-4b38-8174-5596b3daeda5",
+                    "prompt": "Question: What are the specific requirements for designing and implementing interior telecommunications infrastructure for military construction in accordance with the UFC document, and how do they differ for each branch of the military?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The UFC document provides specific requirements for designing and implementing interior telecommunications infrastructure for military construction. These requirements include details on telecommunications spaces, pathways, cabling, and interconnecting components. The document also includes chapters for each service branch with service-specific requirements. For example, the Army has specific requirements for government-designed projects, classified infrastructure, telecommunications spaces, and fiber optic backbone cable. The Navy has specific requirements for collocating various systems, bachelor quarters considerations, fiber optic backbone cabling, and outside cable plant. The Air Force and USMC have reserved sections for their specific requirements. To ensure compliance with the UFC document, it is important to carefully review and follow the guidelines outlined in the document, including any service-specific requirements."
+                    ]
+                },
+                {
+                    "key": "7bfff640-0c8e-47a0-bcab-d17b77e639fe",
+                    "prompt": "Question: What are the minimum size requirements for a telecommunications room and an equipment room, and how should they be located in a building, considering factors such as accessibility, electromagnetic interference, and expansion limitations, and how should telecommunications spaces be sized for large floor areas or buildings with substantial IT electronics?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The minimum size for a telecommunications room (TR) is 10 feet x 8 feet (3m x 2.4m) for DoD buildings, and equipment rooms (ER) should be sized to accommodate the equipment and cable requirements. Telecommunications spaces should be located in a central, accessible area of the building, away from sources of electromagnetic interference, and with proper electrical/telecommunications cable separations and working clearances. For large floor areas or buildings with substantial IT electronics, consider utilizing an ER or dividing the area into smaller serving areas with a minimum of one TR per floor and additional rooms when the floor area is greater than 10,000 sq f eet (929 sq m) or the total cable distance to the outlet is over 295 f eet (90 m)."
+                    ]
+                },
+                {
+                    "key": "fb834d52-5db6-4245-bf33-c5fdfc5a3fe3",
+                    "prompt": "Question: What is the maximum number of users that a Multi-user Telecommunications Outlet Assembly (MUTOA) can accommodate, and how does it differ from a Consolidation Point (CP) in terms of connections and flexibility?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A Multi-user Telecommunications Outlet Assembly (MUTOA) can accommodate a maximum of 12 users. It differs from a Consolidation Point (CP) in that it does not require an additional connection for each horizontal cable run, making it more flexible in an office environment that is frequently reconfigured. However, CPs are also limited to terminating a maximum of 12 users and are located in accordance with TIA -568-C.1."
+                    ]
+                },
+                {
+                    "key": "b6634e3c-9ef8-4e8b-ba2d-ead28c2bf752",
+                    "prompt": "Question: What is the proper color coding of optical fiber cabling on design drawings for a telecommunications project that requires the use of single-mode fiber optic cable between the main telecommunications room and each TR, and how should backbone fibers be terminated at each end?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The proper color coding of optical fiber cabling on design drawings for a telecommunications project that requires the use of single-mode fiber optic cable between the main telecommunications room and each TR is yellow for single-mode (OS1) fiber optic cable, slate for multimode 62.5/125um (OM1) fiber optic cable, orange for multimode 50/125um (OM2) fiber optic cable, and aqua for multimode 50/125um Laser Optimized (OM3) fiber optic cable. Backbone fibers should be terminated at each end on cabinet/rack-mounted patch panels with LC type connectors, and fusion-spliced to factory-produced pigtails."
+                    ]
+                },
+                {
+                    "key": "8e8a869d-91fd-4be1-8c4c-a2d7ba793726",
+                    "prompt": "Question: What are the specific requirements for designing and implementing interior telecommunications infrastructure for military construction, and how do they differ between the different branches of the military, and what are the consequences of not following these requirements, and how does the Test Plan ensure that these requirements are met?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The specific requirements for designing and implementing interior telecommunications infrastructure for military construction are outlined in the UFC 3-580-01 document, which provides guidance to those parties tasked with implementing existing and emerging interior telecommunications infrastructure requirements. The requirements cover various aspects, including telecommunications spaces, pathways, cabling, and interconnecting components. The different branches of the military have different requirements, which are detailed in Chapters 3, 4, 5, and 6 of the document. Not following these requirements can result in non-compliance with industry standards, inefficient use of available funds and resources, and failure to meet the needs of the project. The Test Plan ensures that these requirements are met by providing a comprehensive plan for testing the telecommunications system, including the unshielded twisted pair (CAT6) cabling and connecting hardware, fiber optic cabling and connecting hardware, coaxial cabling and connecting hardware, and other system requirements. The Test Plan also includes provisions for grounding, bonding, and static protection, as well as telecommunications system administration and testing."
+                    ]
+                },
+                {
+                    "key": "7f3929a3-7898-436e-aed7-5f85c42d7e81",
+                    "prompt": "Question: What are the specific requirements for designing and implementing interior telecommunications infrastructure for military construction, and how do they differ for each branch of the military?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The specific requirements for designing and implementing interior telecommunications infrastructure for military construction can be found in the Unified Facilities Criteria (UFC) document, which provides guidance on various aspects of telecommunications infrastructure, including telecommunications spaces, pathways, cabling, and interconnecting components. The requirements differ for each branch of the military, with separate chapters in the UFC document dedicated to the specific needs of the Air Force, Army, Navy, and USMC. For example, the Army has specific requirements for telecommunications spaces, including architectural considerations, utility considerations, and space components, while the Navy has specific requirements for fiber optic backbone cabling and outside cable plant. It is important to consult the relevant chapter of the UFC document to ensure that the design and implementation of interior telecommunications infrastructure meets the specific needs of the project."
+                    ]
+                }
+            ]
+        }
+    ]
+}

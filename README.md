@@ -1,14 +1,14 @@
 <div align='center'>
 
 <h1>Eval Datasets </h1>
-3️⃣3️⃣ Evaluation Datasets
+3️⃣5️⃣ Evaluation Datasets
 
 <br>
 <br>
 </div>
 
 ## Mission 🚀
-To showcase 33 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
+To showcase 35 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
 
 
 
@@ -77,6 +77,8 @@ Following is the collection of 25 Datasets by different industries, different ev
 | 31. | [Legal_Employment_Contract](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_Employment_Contract)| `Legal` | Employment Contract | 60 | RAG |
 | 32. | [Health_Digital_Health_Guidelines](https://github.com/h2oai/h2o-evals/tree/main/catalog/Health_Digital_Health_Guidelines)| `Health` | Digital Health Guidelines | 127 | RAG |
 | 33. | [Risk_Management_Risk_Management_Techniques_Tool](https://github.com/h2oai/h2o-evals/tree/main/catalog/Risk_Management_Risk_Management_Techniques_Tool)| `Risk Management` | Risk Management | 120 | RAG |
+| 34. | [Telcom_Telecom_Infrastructure_Planning](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecom_Infrastructure_Planning)| `Telecom` | Telecom Infrastructure Planning | 153 | RAG |
+| 35. | [Banking_Banking_Act](https://github.com/h2oai/h2o-evals/tree/main/catalog/Banking_Banking_Act)| `Banking` | Banking Act | 148 | RAG |
 
 ## Using the Dataset in EvalStudio 📊
 

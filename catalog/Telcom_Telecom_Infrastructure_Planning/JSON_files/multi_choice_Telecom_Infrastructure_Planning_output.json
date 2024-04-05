@@ -1,0 +1,1090 @@
+{
+    "tests": [
+        {
+            "key": "c725c8e4-91dc-44fa-bf0c-ef6e4a5d3fc0",
+            "documents": [
+                "Telecom_Infrastructure_Planning.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "67716c20-3f59-4405-b823-53bc213fd6a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Unified Facilities Criteria (UFC) system?\nHow do you respond?\nA. To provide planning, design, construction, sustainment, restoration, and modernization criteria for military construction projects.\nB. To govern construction outside of the United States, including Status of Forces Agreements (SOFA), Host Nation Funded Construction Agreements (HNFA), and Bilateral Infrastructure Agreements (BIA).\nC. To provide technical criteria for military construction, including acquisition, administration, and interpretation.\nD. To supersede MIL-HDBK-1012/3, dated MAY 1996, UFC 3-580-10, and UFC 3-580-01 dated June 2007.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "26116ae9-8118-4f52-a4bc-165b6009bdbc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can recommended changes to UFC be submitted?\nHow do you respond?\nA. Submitted through the Whole Building Design Guide website.\nB. Submitted through the UFC Change Request form.\nC. Submitted through the cognizant DoD working group.\nD. Submitted through the preparing service for document interpretation and improvements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4d62d43a-6c2d-47c0-ac52-8ee9588c0dae",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the scope of UFC 3-580-01?\nHow do you respond?\nA. It applies to all interior telecommunications infrastructure planning, design, and installation in new or existing facilities.\nB. It only applies to Navy-specific technical authorities.\nC. It only applies to the design and installation of telecommunications systems within existing facilities.\nD. It provides requirements for the planning, design, and construction of interior telecommunications infrastructure for voice, data, and video systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "8191b0dc-55ed-403a-9000-4ce33212b577",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the service-specific requirements for telecommunications infrastructure?\nHow do you respond?\nA. Requirements common to all services are contained in Chapters 1 and 2 of this document.\nB. Service-specific requirements are identified in Chapters 3, 4, 5, and 6.\nC. The scope includes telecommunications spaces, pathways, cabling, and interconnecting components necessary to support the infrastructure for voice, data, and video systems.\nD. The UFC provides requirements for the planning, design, and construction of interior telecommunications infrastructure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b6a47b65-3d82-41d3-8a2e-4cb069925a2d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the applicability of UFC 3-580-01?\nHow do you respond?\nA. It applies to all interior telecommunications infrastructure planning, design, and installation in new or existing facilities for all services.\nB. It applies to all telecommunications systems within existing facilities solely for the purpose of meeting design criteria in this UFC.\nC. It applies to the planning, design, and construction of interior telecommunications infrastructure for voice, data, and video systems for the Navy and Marine Corps only.\nD. It applies to the design and specifics of the technologies that utilize the telecommunications infrastructure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "de68a349-f843-4e72-9e9b-a4a3bb4977f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the governing criteria for electrical systems in UFC 3-580-01?\nHow do you respond?\nA. UFC 3-501-01\nB. UFC 3-520-01\nC. UFC 1-200-01\nD. UFC 3-580-01\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d81bd7ef-0a27-4155-ae43-9f4a0d79b204",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is modernization of telecommunications systems within existing facilities required?\nHow do you respond?\nA. Yes, modernization of telecommunications systems within existing facilities is required.\nB. No, modernization of telecommunications systems within existing facilities is not required.\nC. Only if the existing facility is being renovated or upgraded.\nD. Only if the existing facility is not up to code.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "85b9b2dd-7bbb-4da8-9eff-3f697623cadf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the telecommunications manager in UFC 3-580-01?\nHow do you respond?\nA. To coordinate telecommunications projects for the Army.\nB. To manage the telecommunications infrastructure for the Navy.\nC. To oversee the design and installation of telecommunications systems for the Air Force.\nD. To provide technical guidance for telecommunications projects for the Marine Corps.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "194ce155-6f1c-42f4-a660-f82a4dc2327a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does the term \"G6\" refer to in the context of the Marine Corps?\nHow do you respond?\nA. The Base Communications Officer (BCO)\nB. The telecommunications manager\nC. The Certified Tempest Technical Authority (CTTA)\nD. The Government-Designed Projects\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9273fe45-a319-4f8e-ac60-26a81a2c116d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the glossary in the document?\nHow do you respond?\nA. To provide a list of acronyms, abbreviations, and terms used in the document.\nB. To outline the design requirements for telecommunications infrastructure.\nC. To describe the different types of telecommunications spaces.\nD. To explain the process for obtaining approval of telecommunications shop drawings.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e4980e6b-d929-44d8-ab6f-4ec11d76f187",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between government-designed projects and design-build projects?\nHow do you respond?\nA. Government-designed projects are designed by the government, while design-build projects are designed by a contractor.\nB. Government-designed projects are designed by a contractor, while design-build projects are designed by the government.\nC. Government-designed projects require an RCDD stamp, while design-build projects do not.\nD. Government-designed projects do not require an RCDD stamp, while design-build projects do.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "039815a5-eb79-4b40-8f3f-fec681d39ac5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is responsible for coordinating the design of classified telecommunications infrastructure?\nHow do you respond?\nA. The BICSI Registered Communications Distribution Designer (RCDD)\nB. The Certified Tempest Technical Authority (CTTA)\nC. The government telecommunications manager\nD. The A/E contractor\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "540fb902-339f-427d-aa57-84f1cf42fd3e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different types of telecommunications spaces defined in the TIA-569-C standard?\nHow do you respond?\nA. Telecommunications Entrance Facility (EF) and Telecommunications Room (TR)\nB. Telecommunications Enclosure (TE) and Distributor Room (DR)\nC. Telecommunications Entrance Facility (EF), Telecommunications Room (TR), and Equipment Room (ER)\nD. Telecommunications Enclosure (TE), Distributor Enclosure (DE), and Telecommunications Room (TR)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "edc1f39a-4e59-4be3-a9d9-03864745ad9a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the demarcation point between the outside plant (OSP) cabling and the inside plant distribution cabling?\nHow do you respond?\nA. Building entrance terminal (BET)\nB. Telecommunications entrance facility (EF)\nC. Backbone\nD. Horizontal cabling\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "67cf8b8a-60d7-4bec-b344-0aefde356dda",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a Telecommunications Room (TR)?\nHow do you respond?\nA. A room that houses telecommunications equipment, cable terminations, and cross-connect cabling.\nB. A space that serves as the telecommunications entrance facility and contains telecommunications equipment.\nC. A case or housing for telecommunications equipment, cable terminations, and cross-connect cabling.\nD. An environmentally controlled, centralized space for telecommunications equipment that usually houses a main or intermediate cross-connect.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "aac9b060-48c9-4773-b9c5-fbf043112e65",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is an Equipment Room (ER)?\nHow do you respond?\nA. A space that houses telecommunications equipment, cable terminations, and cross-connect cabling.\nB. A room that serves as a centralized space for telecommunications equipment that usually houses a main or intermediate cross-connect.\nC. A case or housing for telecommunications equipment, cable terminations, and cross-connect cabling.\nD. A space that contains the telecommunications equipment for connecting the horizontal cabling system to the backbone cabling system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "46b5b879-4b98-48a3-a531-73b73eaa928e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a Telecommunications Enclosure (TE)?\nHow do you respond?\nA. A space that houses telecommunications equipment, cable terminations, and cross-connect cabling.\nB. A case or housing for telecommunications equipment, cable terminations, and cross-connect cabling.\nC. A centralized space for telecommunications equipment that usually houses a main or intermediate cross-connect.\nD. An architectural space designed to contain telecommunications equipment, cable terminations, and cross-connect cabling, which must not replace a Telecommunications Room (TR).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "81871421-639c-4d0b-b3d9-cc07591238c7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the architectural considerations for locating telecommunications spaces?\nHow do you respond?\nA. Locate telecommunications spaces in accessible areas of the building, away from sources of electromagnetic interference.\nB. Locate telecommunications spaces in electrical rooms, mechanical rooms, or other fixed building walls.\nC. Locate telecommunications spaces in areas that are restricted by building components that may limit expansion.\nD. Locate telecommunications spaces near sources of electromagnetic interference to enhance the effects of this interference.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1136e305-79d3-47c4-9f5c-84b6a4758cb5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should telecommunications spaces be sized?\nHow do you respond?\nA. According to the size of the area they serve, with a minimum size of 10 feet by 8 feet (3 meters by 2.4 meters) for each space.\nB. According to the number of telecommunications equipment and cable terminations that will be housed in each space.\nC. According to the distance between the telecommunications space and the farthest outlet, with a maximum distance of 295 feet (90 meters).\nD. According to the available space in the building, with a minimum of one telecommunications space per floor.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6a909b06-a577-4b73-bc7d-4c3a10eb3fe2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many telecommunications rooms are required for a 10,000 sq foot area?\nHow do you respond?\nA. 1\nB. 2\nC. 3\nD. 4\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4d3b3722-45b7-4137-9193-cc01bc6d6263",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a TR suffice for multi-story buildings?\nHow do you respond?\nA. Yes, a TR can suffice for multi-story buildings.\nB. No, a TR cannot suffice for multi-story buildings.\nC. It depends on the size of the building.\nD. It depends on the number of floors in the building.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "2e437468-bd04-4c80-8951-662e51f3fafe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a telecommunications entrance facility?\nHow do you respond?\nA. To house telecommunications equipment for connecting horizontal cabling to the backbone cabling system.\nB. To provide a centralized space for telecommunications equipment that usually houses a main or intermediate cross-connect.\nC. To serve as a case or housing for telecommunications equipment, cable terminations, and cross-connect cabling.\nD. To function as an equipment room that contains telecommunications equipment for connecting the horizontal cabling to the backbone cabling system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a1bea16a-e15e-4771-9f6d-e4e67eb2e202",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many TRs are required for a multi-story building with a total floor area greater than 10,000 sq ft?\nHow do you respond?\nA. One TR per floor.\nB. One TR for the entire building.\nC. Two TRs per floor.\nD. Three TRs per floor.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1318f482-957c-45ec-aeed-ef288d43179f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended spacing for TRs in a multi-story building?\nHow do you respond?\nA. One TR per floor, vertically aligned on successive floors.\nB. One TR per 10,000 square feet or 929 square meters, regardless of the number of floors.\nC. One TR per 5,000 square feet or 464 square meters, with a maximum of two TRs per floor.\nD. One TR per 2,000 square feet or 181 square meters, with a minimum of one TR per floor.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "40614f51-7f5e-43c3-b392-b717554dfd61",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of lighting is recommended for TRs?\nHow do you respond?\nA. Suspended ceiling lighting\nB. Recessed lighting\nC. Surface-mounted lighting\nD. Track lighting\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d2c0a6b0-56c9-46fc-8f3f-2b4431ccc52d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended spacing for convenience receptacles in a TR?\nHow do you respond?\nA. 12 inches (305 mm) on center along perimeter walls\nB. 18 inches (457 mm) on center along perimeter walls\nC. 24 inches (610 mm) on center along perimeter walls\nD. 30 inches (762 mm) on center along perimeter walls\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6c98e2af-8ae6-4acc-97a4-7d54d3a8c58a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of power strips are recommended for use in a TR?\nHow do you respond?\nA. 120V, 1-phase, with indicator lights and integral on/off switch.\nB. 240V, 3-phase, with twist-lock type receptacles fed from dedicated circuits in the TR panel.\nC. 120V, 1-phase, with matching (NEMA configured) twist-lock type receptacles fed from dedicated circuits in the TR panel.\nD. 208V, 3-phase, with no indicator lights or integral on/off switch.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a9e3b6f4-3934-4e19-a4d8-f8adc77a2b39",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should power strips be configured in a TR?\nHow do you respond?\nA. One 240V, 1-phase power strip and one 120V, 1-phase power strip.\nB. Two 240V, 1-phase power strips.\nC. Two 120V, 1-phase power strips.\nD. One 240V, 3-phase power strip and one 120V, 3-phase power strip.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "db0dc821-1f41-4651-98e9-e8cb12797919",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of receptacles are required for power strips in a TR?\nHow do you respond?\nA. NEMA 5-15, 120V, 15A\nB. NEMA 6-20, 240V, 20A\nC. NEMA L5-20, 240V, 20A\nD. NEMA 14-30, 240V, 30A\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9427f07b-21ed-400a-9bf0-a77031861869",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of providing independent thermostats for climate control in telecommunication spaces?\nHow do you respond?\nA. To ensure that the temperature and humidity levels in the space are maintained within specific limits to protect electronic equipment.\nB. To allow for more efficient energy use by adjusting the temperature and humidity levels based on occupancy and usage patterns.\nC. To provide a more comfortable working environment for personnel in the telecommunication space.\nD. To reduce the risk of overheating or cooling of electronic equipment, which can cause damage or malfunction.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "966253fb-3979-498b-89b9-22e66b5227f8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of system is necessary to meet temperature and humidity requirements in telecommunication spaces?\nHow do you respond?\nA. Zoned system\nB. Dedicated system\nC. Split-core system\nD. Centralized system\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ffa6ea46-6344-4189-b18d-f4635161b3c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two types of building entrance terminals (BET) identified by TIA-758?\nHow do you respond?\nA. Protected and unprotected\nB. Powered and unpowered\nC. Hardwired and wireless\nD. 110-type and 210-type\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3757596b-be7f-48c3-9e61-becdc577e2a2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of providing protected terminals in telecommunication spaces?\nHow do you respond?\nA. To protect the inside plant cabling and equipment from power surges.\nB. To provide a secure location for storing telecommunications equipment.\nC. To control the temperature and humidity in the telecommunication space.\nD. To prevent unauthorized access to telecommunications equipment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7cdc6f04-baf0-4225-b3c9-bfbb2cf8a818",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of equipment racks should be used in telecommunication spaces?\nHow do you respond?\nA. 19-inch floor-mounted racks\nB. Wall-mounted racks\nC. 23-inch floor-mounted racks\nD. 19-inch wall-mounted racks\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ac05872d-3eb0-4b4b-8b8c-c91d4caee9b7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much space is required in front and back of equipment racks in telecommunication spaces?\nHow do you respond?\nA. 18 inches (450 mm)\nB. 36 inches (900 mm)\nC. 24 inches (600 mm)\nD. 48 inches (1200 mm)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "515cdcbe-f169-4bf9-b608-8c26d364b98b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of providing spare capacity within utilized racks in telecommunication spaces?\nHow do you respond?\nA. To ensure that there is enough space for future equipment upgrades\nB. To allow for easier maintenance and repair of existing equipment\nC. To provide additional storage space for supplies and materials\nD. To enable the installation of backup power systems and generators.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f04efd21-f937-4e9c-ae99-a42cd77f47b1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much space is required between equipment cabinets in telecommunication spaces?\nHow do you respond?\nA. 12 inches (300 mm)\nB. 24 inches (600 mm)\nC. 36 inches (900 mm)\nD. 48 inches (1200 mm)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "7f40557b-38d2-456b-8fcd-0415e9de3042",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended spare capacity for utilized cabinets in a telecommunication space?\nHow do you respond?\nA. 10%\nB. 25%\nC. 50%\nD. 75%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "82b52726-e358-458c-8faa-5d32a4fc793a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many spare cabinets are required for every four utilized cabinets?\nHow do you respond?\nA. 1\nB. 2\nC. 3\nD. 4\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8059b038-bb07-4a2a-82ed-0faeee9182ca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can equipment cabinets be wall-mounted in existing facilities with narrow or crowded telecommunication spaces?\nHow do you respond?\nA. Yes, with the approval of the telecommunications manager.\nB. No, they must be floor-mounted in all cases.\nC. Only if the cabinets are specifically designed for wall-mounting.\nD. Yes, but only if the space is limited and clearances are affected.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fe72a8fc-7f66-4b0e-b965-3131331fcafa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum width required for vertical cable management panels?\nHow do you respond?\nA. 6 inches (150mm)\nB. 8 inches (200mm)\nC. 4 inches (100mm)\nD. 10 inches (250mm)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "be157b26-7896-4df6-917f-81b3ffba92e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended spare capacity for fiber optic patch panels?\nHow do you respond?\nA. 10%\nB. 25%\nC. 30%\nD. 50%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f66cc0fc-b677-458e-8b07-e3db727e35d6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a backbone pathway in a telecommunication space?\nHow do you respond?\nA. To provide a facility for the placement of telecommunications cables.\nB. To conceal, protect, support, and provide access to cables between telecommunications spaces.\nC. To distribute power to telecommunications equipment.\nD. To manage and organize cables in a telecommunications space.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "67e64548-71ac-4f08-849f-7481d24488f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum size of conduit required for intra-building backbone distribution?\nHow do you respond?\nA. 2 inches (51mm)\nB. 3 inches (76mm)\nC. 4 inches (103mm)\nD. 6 inches (150mm)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a7d9a598-dcef-473d-a2e9-2b41e834a41f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many conduits are required between TRs located on the same floor in a multistory building?\nHow do you respond?\nA. 1\nB. 2\nC. 3\nD. 4\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "9254a9af-5f1e-4d77-8dd1-1e34acc315c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended method for distributing cable from the telecommunications space to the work area outlet?\nHow do you respond?\nA. Utilize under-floor conduits that are designed and installed in accordance with TIA-569-C.\nB. Employ a ceiling distribution system using a centralized cable tray system.\nC. Use J-hooks, flexible cable tray, and alternative support systems specifically certified for Category 6 cable.\nD. Combine conduit, non-continuous cable supports, and stub-ups/outs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7b6e5886-ab36-4e15-bde0-fc33b112a211",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum fill ratio allowed for a cable tray?\nHow do you respond?\nA. 25%\nB. 50%\nC. 75%\nD. 90%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6b14fb08-46ed-4152-8822-9722a767f83d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum depth of a cable tray?\nHow do you respond?\nA. 3 inches (75 mm)\nB. 6 inches (150 mm)\nC. 12 inches (305 mm)\nD. 18 inches (455 mm)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "591e60b9-669f-48fa-b67f-24a29b832949",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much of the horizontal cable length should be accommodated by cable trays in a horizontal distribution system?\nHow do you respond?\nA. 50%\nB. 80% - 90%\nC. 25%\nD. 100%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f3dbb5a7-5c1a-4328-93f3-d6def25a8d6a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum size of conduit required for intra-building backbone distribution?\nHow do you respond?\nA. 2 inches (51 mm)\nB. 4 inches (103 mm)\nC. 6 inches (150 mm)\nD. 8 inches (203 mm)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0919a497-3744-409a-aa34-040146d5666c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of utility columns in telecommunications distribution?\nHow do you respond?\nA. To provide a pathway for horizontal distribution of cables in open office wiring.\nB. To support the weight of the cable tray and prevent it from collapsing.\nC. To protect cables from damage caused by environmental factors such as moisture and heat.\nD. To conceal and organize cables in a neat and aesthetically pleasing manner.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "22442db4-394a-4b3f-a29a-a173de9751b2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended method for protecting cables in utility columns and systems furniture track?\nHow do you respond?\nA. Metallic separation\nB. Cable trays\nC. Non-metallic raceway\nD. J-hooks\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7061e15a-2d3d-4cb6-813d-4a22dc9a8ecd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum fill ratio allowed for cable trays?\nHow do you respond?\nA. 40 percent\nB. 50 percent\nC. 60 percent\nD. 70 percent\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "78a2b110-8b6c-4c7d-b6fb-e3dc8a735d92",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum fill depth of a cable tray?\nHow do you respond?\nA. 3 inches (75 mm)\nB. 6 inches (150 mm)\nC. 12 inches (300 mm)\nD. 18 inches (450 mm)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "316466f7-c617-44b6-a435-a5e667e866f8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum access headroom required above a cable tray system or cable runway?\nHow do you respond?\nA. 6 inches (150 mm)\nB. 12 inches (300 mm)\nC. 18 inches (450 mm)\nD. 24 inches (600 mm)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a9cde421-6b5f-470e-96f3-55db1f631714",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended conduit fill ratio for telecommunications wiring?\nHow do you respond?\nA. 25%\nB. 40%\nC. 50%\nD. 60%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2e12c474-50f8-4bde-b63e-94c1888d3b47",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum length of flexible metal conduit allowed for floor-access boxes in a raised floor?\nHow do you respond?\nA. 10 feet (3 meters)\nB. 20 feet (6 meters)\nC. 30 feet (9 meters)\nD. 40 feet (12 meters)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2e6010a1-896c-4cf4-b73f-0ceb67543b5f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of cable supports are not allowed in certain locations?\nHow do you respond?\nA. Continuous cable supports\nB. Non-continuous cable supports\nC. Cable tray system\nD. Home-run conduit\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fb61c32b-8f8c-4818-9a63-af62cb72cfd8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum number of cables allowed in a 1-inch (27 mm) conduit?\nHow do you respond?\nA. Two, four-pair cables.\nB. Four, four-pair cables.\nC. Six, two-pair cables.\nD. Eight, single-pair cables.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c9fbbabc-bdba-4d24-9730-6ad49d5f5c08",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended cable for backbone cabling in a hierarchical star configuration?\nHow do you respond?\nA. Copper backbone cable\nB. Fiber optic cable\nC. Category 6 (CAT6) unshielded twisted pair (UTP) cable\nD. Plenum rated cable\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "adcc187d-9d63-4501-b160-2661ebe51055",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum number of strands of fiber optic cable required between the main telecommunications room and each TR?\nHow do you respond?\nA. 4 strands\nB. 6 strands\nC. 8 strands\nD. 12 strands\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "730b4352-fffa-4274-8e07-2055fbe00017",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum number of pairs of copper backbone cable required for each TR?\nHow do you respond?\nA. 1 pair\nB. 1.5 pairs\nC. 2 pairs\nD. 25 pairs\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a14b689d-251f-4b82-97a6-fa53cb6b9754",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should copper backbone cables be sized to support legacy systems?\nHow do you respond?\nA. Provide a minimum 25-pair copper backbone to each TR to support legacy systems.\nB. Size copper backbone cables to support no more than 1.5 pairs for every outlet connected to the serving TR.\nC. Use solid untinned copper, 24 AWG conductors for copper backbone cables.\nD. Utilize minimal copper backbone to support traditional two-wire phones and legacy systems as the transition to an all-fiber backbone occurs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8c2c4ad5-88ec-4954-9b7e-5d96a1020962",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended method for terminating outside plant (OSP) cable?\nHow do you respond?\nA. Terminate OSP cable on a protected entrance terminal (PET).\nB. Terminate OSP cable on a 110-type insulation-displacement wiring block mounted on the backboard.\nC. Fusion-splice OSP fibers to factory-produced pigtails.\nD. Utilize ST or MT-RJ fiber optic adapters and connectors for new construction.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "53ffc160-14d2-48ea-8b2b-c3fcfb76640e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of using shielded twisted pair (STP) cabling in certain situations?\nHow do you respond?\nA. To reduce the probability of alien crosstalk.\nB. To increase the cable diameter and weight.\nC. To reduce the cost of cabling.\nD. To improve the cable's ability to transmit data over long distances.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "de4e7736-fb96-4273-97c2-a79570b1bd86",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended patch cable size for Category 6 UTP cabling?\nHow do you respond?\nA. 4-pair, 24 AWG stranded UTP\nB. 2-pair, 26 AWG solid UTP\nC. 6-pair, 22 AWG stranded UTP\nD. 8-pair, 20 AWG solid UTP\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "15b83372-1f80-4f83-b07a-43e9994d1598",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended cable management practice for fiber optic cables in in-slab or below-grade telecommunications conduit systems?\nHow do you respond?\nA. Use plenum-rated cables.\nB. Use riser-rated cables.\nC. Use gel-filled OSP cables.\nD. Use unlisted cables.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9078f259-9a42-4f03-97d8-6cc2267c60bd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of patch cables should be used to interconnect patch panels?\nHow do you respond?\nA. Duplex patch cables\nB. Simplex patch cables\nC. Pre-connectorized patch cables\nD. Custom-length patch cables\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5b91d937-8bce-46bd-9adc-92912ec1edf6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum length of copper data cables allowed for connecting patch panel termination to data outlet termination?\nHow do you respond?\nA. 295 feet (90m)\nB. 395 feet (120m)\nC. 495 feet (150m)\nD. 595 feet (180m)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ef822d85-9534-43cb-a2db-a87c1b46f80f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a work area in the context of telecommunications cabling?\nHow do you respond?\nA. A space where telecommunications terminal equipment is installed and maintained.\nB. A space where occupants interact with telecommunications terminal equipment.\nC. A space that includes consolidation points (CP) and multi-user telecommunications outlet assemblies (MUTOA).\nD. A space that includes in-floor outlet boxes for feeding systems furniture, classroom desks, and lecterns in lecture halls.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8da1b4d6-b362-4fd9-8334-61348449270c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the requirements for telecommunications outlets in the work area?\nHow do you respond?\nA. Provide at least two duplex receptacles for each work area outlet to power personal computers, monitors, and typical office appurtenances.\nB. Provide single-gang, four-position modular faceplates for each work area outlet, with two RJ-45 modular jacks and two blanks for future applications.\nC. Use in-floor outlet boxes for feeding systems furniture, classroom desks, lecterns in lecture halls, and other free-standing furniture.\nD. Provide unkeyed Category 6 (CAT6) modular jacks terminated per T568A configuration.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a05aad53-bd61-46d7-b58d-36a88e9e8284",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended configuration for work area outlet faceplates?\nHow do you respond?\nA. Single gang, four position, modular faceplate with two RJ-45 modular jacks and two blanks.\nB. Single gang, two position, modular faceplate with one RJ-45 modular jack and one blank.\nC. Double gang, four position, modular faceplate with four RJ-45 modular jacks.\nD. Double gang, two position, modular faceplate with two RJ-45 modular jacks and two coaxial adapters.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3f2f61fb-381a-49b8-a631-d537741735b5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of cable jacks, connectors, and adapters should be used for copper, fiber optic, and coaxial cables?\nHow do you respond?\nA. Unkeyed Category 6 (CAT6) modular jacks, TIA-568-C.0, terminated per T568A configuration\nB. Keyed Category 5 (CAT5) modular jacks, TIA-568-B.0, terminated per T568B configuration\nC. F-type coaxial adapters, RG-6 quad-shield coaxial cable, and BNC connectors\nD. LC, SC, or MT-RJ adapters, duplex patch cables, and ST connectors\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6fd20b6d-d953-4c17-b879-a34ec00cf99c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of providing blank spaces on work area outlet faceplates?\nHow do you respond?\nA. To label the faceplate for easy identification.\nB. To provide space for future applications.\nC. To allow for the installation of additional modules.\nD. To match the aesthetics of the surrounding decor.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ab837fb0-75fc-4ae5-ba50-b321f3333049",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum outlet density required for administrative spaces, including private offices, conference rooms, and classrooms?\nHow do you respond?\nA. 40 SF(SM) per outlet\nB. 60 SF(SM) per outlet\nC. 80 SF(SM) per outlet\nD. 100 SF(SM) per outlet\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "052ca632-7990-480f-8fff-68071f7fa262",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended outlet configuration for systems furniture?\nHow do you respond?\nA. Two 8-pin modular (RJ45 type) outlets/connectors in a single gang outlet faceplate.\nB. One 8-pin modular and one duplex fiber optic connector in a modular furniture outlet faceplate with an outlet box extender.\nC. Two duplex fiber optic connectors in a single gang outlet faceplate.\nD. Four 8-pin modular (RJ45 type) outlets/connectors in a quad gang outlet faceplate.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9f78de6a-aaa3-4a4e-98c2-e45de0b8d123",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can other types of connectors and adapters be used instead of those specified in TIA-568-C.0, TIA-568-C.3, and TIA-568-C.4?\nHow do you respond?\nA. Yes, with telecommunications manager approval.\nB. No, only the specified connectors and adapters are allowed.\nC. Yes, but only for special-purpose spaces not identified in Table 2-1.\nD. No, but the use of small form factor connectors and adapters with high-density patch panels may be allowed for cost reduction.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4beb5605-50db-41fe-a233-44b1573eca3d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for outlet locations in work areas?\nHow do you respond?\nA. The telecommunications manager must approve all outlet locations in work areas.\nB. Outlet locations in work areas must be determined by the proponent and telecommunications manager.\nC. Outlet locations in work areas must be based on the gross area of the building.\nD. Outlet locations in work areas must be determined by the type of facility space category.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b919c274-e0c4-4e29-beb8-b24e2404507a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Table 2-1 in UFC 3-580-01?\nHow do you respond?\nA. To provide guidelines for selecting the appropriate type and density of outlets in various facility spaces.\nB. To list the approved connector and adapter types for copper, fiber optic, and coaxial cable systems.\nC. To specify the requirements for terminating cable systems with category-rated patch panels.\nD. To identify the approved cable types and colors for use in military construction projects.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c7c1b21b-facf-4d05-b4b5-c183b18e703c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can the requirements for outlet configurations, densities, and locations be modified?\nHow do you respond?\nA. Yes, with written documentation and approval from the telecommunications manager.\nB. No, the requirements are fixed and cannot be modified.\nC. Yes, based on the user's discretion and without the need for approval.\nD. No, but the telecommunications manager can provide exceptions for specific cases.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f2c21d1e-54a9-4ef9-acaa-899c0bfd0c58",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum number of dual outlets required for private offices?\nHow do you respond?\nA. One dual outlet\nB. Two dual outlets\nC. Three dual outlets\nD. Four dual outlets\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3aa3ddd7-a8ed-48d5-8a6d-ae6cff417ad5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of outlet/connector is required for Systems Furniture?\nHow do you respond?\nA. 8-pin modular (RJ45 type) outlet/connector\nB. Duplex fiber optic connector\nC. One 8-pin modular and one Duplex fiber optic connector\nD. Two duplex fiber optic connectors in a modular furniture outlet faceplate with outlet box extender.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5906c700-2656-45dd-b4c9-67e05cf1dbfd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum number of users that a Multi-user Telecommunications Outlet Assembly (MUTOA) can accommodate?\nHow do you respond?\nA. 6 users\nB. 12 users\nC. 18 users\nD. 24 users\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4bcb61bf-d38c-4f72-a256-341682f08535",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Consolidation Point (CP)?\nHow do you respond?\nA. To provide a minimum of one systems furniture work area outlet per single occupancy cubicle.\nB. To facilitate the termination of single or multiple horizontal cables in a common location within a furniture cluster or similar open area.\nC. To provide a complete structured telecommunications system throughout a housing unit.\nD. To accommodate energy management systems in utility rooms.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "74429fe5-f0d1-4214-ac60-583cd8af207b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between a MUTOA and a Consolidation Point (CP)?\nHow do you respond?\nA. A MUTOA is limited to terminating a maximum of 12 users, while a CP can terminate more than 12 users.\nB. A MUTOA requires an additional connection for each horizontal cable run, while a CP does not.\nC. A MUTOA is defined as an interconnection point within the horizontal cabling, while a CP is a grouping of several telecommunications outlet/connectors in one location.\nD. A MUTOA facilitates the termination of single or multiple horizontal cables in a common location, while a CP does not.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f1d397cf-05b7-4421-9247-e8b1a71af1ec",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum number of outlets required for a barracks or dormitory space?\nHow do you respond?\nA. One 8-pin modular (RJ45 type) outlet/connector\nB. Two 8-pin modular (RJ45 type) outlet/connectors\nC. One 8-pin modular and one duplex fiber optic connector\nD. Two duplex fiber optic connectors in a single gang outlet faceplate.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d0ee72c4-ba21-43ba-8c5b-4f58344ec68d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the required outlet/connector for Family Housing Units?\nHow do you respond?\nA. One CAT6 modular jack (RJ-45 type) per bedroom and common area (living room) configured per TIA-570-C.\nB. One 8-pin modular (RJ45 type) outlet/connector per single gang outlet faceplate with mounting lugs.\nC. Two duplex fiber optic connectors in a modular furniture outlet faceplate with outlet box extender.\nD. A Multi-user Telecommunications Outlet Assembly (MUTOA) with a maximum of 12 users, located in accordance with TIA-568-C.1.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5cd2cfda-4148-4e68-ab30-5257f001428d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where should wall-mounted telephone outlets be located in a utility room?\nHow do you respond?\nA. On the wall near the entrance of the utility room.\nB. On the wall near the electrical panels.\nC. On the wall near the mechanical equipment.\nD. On the wall near the telecommunications equipment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "86e0c1cf-5531-4115-8256-dfa150f827eb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many standard work area outlets are required for each elevator?\nHow do you respond?\nA. 1\nB. 2\nC. 3\nD. 4\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "266847c6-79c4-48f4-bd5c-a7dcc43718df",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of providing wall-mounted telephone outlets at logical locations?\nHow do you respond?\nA. To provide a convenient location for employees to charge their personal devices.\nB. To support safety, courtesy, and convenience in various areas of the building.\nC. To facilitate communication between employees in different parts of the building.\nD. To enable the installation of additional telecommunications equipment as needed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b455908a-6a3b-4f91-bf02-607a4f5ae0e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of cable is recommended for CCTV systems?\nHow do you respond?\nA. 75-ohm broadband quad-shield coaxial cable\nB. Single-mode fiber optic cable\nC. Category 6A twisted-pair cable\nD. RG-59 coaxial cable\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0a8a9920-2ed6-4f59-9022-3f6a7529e85d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum distance for CCTV cable runs?\nHow do you respond?\nA. 295 feet\nB. 90 meters\nC. 1000 feet\nD. 550 meters\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c4d1ee03-ab1d-48c0-9644-1feb717e9410",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended cable for Community Antenna Television (CATV) Systems?\nHow do you respond?\nA. RG-59 coaxial cable\nB. RG-6 coaxial cable\nC. RG-11 coaxial cable\nD. Single-mode fiber optic cable\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "7274ca83-ec35-4262-a282-f27527f08d7b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum signal level required for CATV systems?\nHow do you respond?\nA. 0 decibel millivolts (dBmV) (1000 microvolts)\nB. 15 dBmV at 55 and 750 MHz\nC. 1000 MHz passive UFC 3 -580-01\nD. 1 gigahertz bandwidth\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f3ed9da7-97e5-4905-958e-021670f5d3d4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What type of cabling system is recommended for Wireless Access Points (WAP)?\nHow do you respond?\nA. Category 6 twisted-pair cabling system\nB. Category 6A twisted-pair cabling system\nC. OM3 optical fiber cabling system\nD. RG-6 coaxial cabling system\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a6afe3c1-c6d7-473e-a327-0166c1dc915e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a Telecommunications Cabling Guidelines for Wireless Access Points (TSB-162-A)?\nHow do you respond?\nA. To provide guidelines for the installation of wireless access points (WAPs) in a telecommunications network.\nB. To provide guidelines for the installation of category 6A twisted-pair cabling to support WAPs.\nC. To provide guidelines for the installation of optical fiber cabling to support WAPs.\nD. To provide guidelines for the termination of WAPs on category 6A patch panels.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8a217d6d-dc83-4edb-aac6-4d7b408a73c1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum distance for drops from the TR (or headend) to the wall outlet in CATV systems?\nHow do you respond?\nA. 295 feet (90m)\nB. 500 feet (152m)\nC. 750 feet (229m)\nD. 1000 feet (305m)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "00b12633-dfbb-4228-83a8-b21573f6fe38",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the recommended cable for drops from the TR (or headend) to the wall outlet in CATV systems?\nHow do you respond?\nA. RG -11 coaxial trunk cable.\nB. RG -6 coaxial cables.\nC. 625 series cable.\nD. Category 6A twisted- pair cable.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                }
+            ]
+        }
+    ]
+}

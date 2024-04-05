@@ -1,0 +1,771 @@
+{
+    "tests": [
+        {
+            "key": "d1fc4d7d-8e00-4a84-b8b7-f6ee101f7baf",
+            "documents": [
+                "Banking_Act.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "d4d44838-81cc-45a5-ad54-38babd15065c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a company incorporated outside Sri Lanka remit currency to Sri Lanka?\nHow do you respond?\nA. Yes, without any restrictions.\nB. No, only if it has a subsidiary in Sri Lanka.\nC. No, only if it has obtained prior approval from the Monetary Board.\nD. No, it is not allowed to remit currency to Sri Lanka.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "9c8d4840-2ec7-4ab0-b3f0-5d54d80ec4f1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the consequences of a licensed commercial bank failing to commence business within the time specified in its licence?\nHow do you respond?\nA. The licence will be automatically cancelled.\nB. The bank will be required to pay a penalty fee.\nC. The bank's licence will be suspended until it commences business.\nD. The bank will be prohibited from carrying on any banking business.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "ec5cebf0-0a24-47d4-8585-ac9a63685c98",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank carry on off-shore banking business?\nHow do you respond?\nA. Yes, without any restrictions.\nB. Yes, but only with the approval of the Monetary Board.\nC. No, licensed commercial banks are not allowed to engage in off-shore banking business.\nD. Yes, but only if the bank has a subsidiary in the country where the off-shore banking business is being conducted.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fbf8b7f3-9dbd-4bd1-b1ba-9d778c1c12cf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum amount of capital that a licensed commercial bank must maintain?\nHow do you respond?\nA. 25 million rupees\nB. 50 million rupees\nC. 100 million rupees\nD. 200 million rupees\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "510d060c-7d34-4370-b415-b61b8fe74269",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the reserve fund that a licensed commercial bank must maintain?\nHow do you respond?\nA. To provide a source of funds for the bank's operations.\nB. To act as a buffer against potential losses.\nC. To meet the bank's capital requirements.\nD. To fund the bank's lending activities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c7e4b8c4-88da-42e4-bdc7-de7e6f935ff7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens to the banking business of a licensed bank that becomes insolvent?\nHow do you respond?\nA. The bank's assets are sold to pay off its debts, and the bank ceases to operate.\nB. The bank's shareholders are responsible for paying off its debts.\nC. The Monetary Board takes over the bank's operations and manages its assets and liabilities.\nD. The bank's employees continue to run the bank as usual, and the bank's operations are not affected.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "0e8b3971-bd88-495d-9db0-88b636aa1997",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens to safe deposit boxes during liquidation proceedings of a licensed commercial bank?\nHow do you respond?\nA. The Director of Bank Supervision takes control of the safe deposit boxes and their contents.\nB. The licensed commercial bank continues to manage the safe deposit boxes until the liquidation is completed.\nC. The safe deposit boxes and their contents are transferred to another licensed commercial bank.\nD. The safe deposit boxes and their contents are seized by the government.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fb7ff014-85a3-4565-92d0-46833710ffec",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are unclaimed funds handled during liquidation proceedings of a licensed commercial bank?\nHow do you respond?\nA. They are transferred to the liquidator for distribution to creditors.\nB. They are held in a special account and distributed to depositors after the liquidation process.\nC. They are used to pay off the bank's debts before any remaining funds are distributed to creditors.\nD. They are turned over to the government as unclaimed property.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "718fc139-6a9f-4dd9-a210-cdcd0390445a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Monetary Board issuing directions to licensed specialised banks?\nHow do you respond?\nA. To ensure that licensed specialised banks maintain adequate capital and liquidity ratios.\nB. To direct licensed specialised banks to follow unsound practices.\nC. To grant loans to licensed specialised banks.\nD. To wind up or dissolve licensed specialised banks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9e63a4cf-e0c3-4999-af30-01b6dac4fc8a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank engage in buying, selling, or otherwise dealing with immovable property?\nHow do you respond?\nA. Yes, a licensed commercial bank can engage in buying, selling, or otherwise dealing with immovable property.\nB. No, a licensed commercial bank cannot engage in buying, selling, or otherwise dealing with immovable property.\nC. A licensed commercial bank can engage in buying, selling, or otherwise dealing with immovable property only with the prior approval of the Monetary Board.\nD. A licensed commercial bank can engage in buying, selling, or otherwise dealing with immovable property only for its own use and not for commercial purposes.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "192a64ce-99f9-4eec-ba47-20933550268e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the effect of non-compliance with the provisions of the Banking Act?\nHow do you respond?\nA. The company will be issued a license under the Banking Act.\nB. The company will be guilty of an offense under the Banking Act.\nC. The company will be exempt from the provisions of the Banking Act.\nD. The company will be allowed to carry on banking business without a license.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f3f55df9-3bbd-410e-a3ee-fef471e8856e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens after an application for a licence is received by the Monetary Board?\nHow do you respond?\nA. The Monetary Board will issue a licence immediately.\nB. The Director of Bank Supervision will require the applicant to furnish additional documents and information.\nC. The Monetary Board will conduct an investigation and then issue a Letter of Provisional Approval.\nD. The application will be rejected.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "cf237ae1-d9d1-4a23-8529-526b03c04f78",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long is a Letter of Provisional Approval valid for?\nHow do you respond?\nA. 12 months from the date of issue\nB. 6 months from the date of issue\nC. 18 months from the date of issue\nD. 24 months from the date of issue\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fa06ebb0-4973-4964-ad3b-437d97daceb4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens after a Letter of Provisional Approval is issued?\nHow do you respond?\nA. The applicant shall take all preliminary measures required in terms of the Letter of Provisional Approval prior to the issue of a license under section 5.\nB. The Monetary Board shall issue a license to the applicant.\nC. The applicant shall not be required to take any further action.\nD. The application shall be rejected.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5f437ea2-e31e-43ba-bb33-a2ecdce4a136",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for a company or proposed company in respect of which a Letter of Provisional Approval has been issued under subsection (4) to commence banking business?\nHow do you respond?\nA. The company or proposed company must obtain a licence under section 5.\nB. The company or proposed company must first comply with the conditions stipulated in the Letter of Provisional Approval.\nC. The company or proposed company must first obtain the approval of the Registrar of Companies.\nD. The company or proposed company can commence banking business immediately after receiving the Letter of Provisional Approval.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "68af80a7-9c06-408c-aa7e-52f2b1cb6d58",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of Schedule II to this Act?\nHow do you respond?\nA. It specifies the forms of business that a company may carry on, other than banking business, as defined in this Act.\nB. It sets out the requirements for a company to be eligible for the issue of a licence under section 5.\nC. It lists the grounds on which the Monetary Board may withdraw a Letter of Provisional Approval or refrain from issuing a licence under section 5.\nD. It provides for the procedure to be followed by the Monetary Board when conducting investigations under subsection (10).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "92bee353-f923-4c40-9ecf-6c86f58dde43",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Monetary Board conducting investigations before issuing a licence to a company?\nHow do you respond?\nA. To determine the financial status and history of the company.\nB. To assess the suitability of the company's directors and CEO.\nC. To evaluate the company's ability to cover all obligations and liabilities incurred in the conduct of business in Sri Lanka.\nD. To determine the company's compliance with the provisions of the Act.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6742eb75-9248-476d-8547-d7f2c0050c25",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the matters that the Monetary Board may require an applicant to satisfy it on during an investigation?\nHow do you respond?\nA. The financial status and history of the company or proposed company.\nB. The validity and acceptability of the documents and particulars submitted by the applicant.\nC. The ability of the company or proposed company to cover all obligations and liabilities incurred in the conduct of business in Sri Lanka.\nD. The compliance of the applicant with the provisions of the Act or any directions given under the Act in relation to the application for a licence under the Act.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5e36b693-2e55-45fe-9208-454e040f8dbc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the offence committed by a person who submits false or misleading information in an application for a licence or in any other document submitted in connection therewith?\nHow do you respond?\nA. An offence under the Act.\nB. A criminal offence punishable by law.\nC. A civil wrong that can be redressed through legal action.\nD. A minor infringement that can be penalized with a fine.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d352056b-7500-4491-acf7-7fbeadfb94f6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of requiring a company or body corporate incorporated outside Sri Lanka to remit a sum of money to Sri Lanka before commencing business in Sri Lanka?\nHow do you respond?\nA. To ensure that the company has sufficient capital to conduct business in Sri Lanka.\nB. To prevent the company from engaging in illegal activities in Sri Lanka.\nC. To promote foreign investment in Sri Lanka.\nD. To discourage companies from incorporating outside Sri Lanka.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "542ac75c-ff03-416d-9b18-acbd9328acd2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the Monetary Board determine the amount of money to be remitted by a company or body corporate incorporated outside Sri Lanka?\nHow do you respond?\nA. The Monetary Board determines the amount based on the company's financial status and history.\nB. The Monetary Board requires the company to remit a sum of money determined with the approval of the Minister in United States Dollars or its equivalent in any designated foreign currency.\nC. The Monetary Board determines the amount based on the company's ability to cover all obligations and liabilities incurred in the conduct of business in Sri Lanka.\nD. The Monetary Board determines the amount based on the company's compliance with the provisions of the Act.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4e49adba-eb49-4a9a-b759-cb6ea3f4c644",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the duration for which a determination made by the Monetary Board under section 4(2) applies to companies and bodies corporate incorporated outside Sri Lanka?\nHow do you respond?\nA. 6 months\nB. 1 year\nC. 2 years\nD. Indefinite period\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "7bb71843-8a4a-45ea-88a5-9fad57114cfd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the limits imposed on all licensed commercial banks?\nHow do you respond?\nA. They cannot carry on any banking business other than the business specified in the license.\nB. They cannot carry on any other form of business other than those specified in Schedule II to this Act.\nC. They must pay an annual license fee to the Central Bank.\nD. They must commence business within nine months of the issue of the license under section 5.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "28857805-4941-4467-b505-ce783cb1fa1d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much is the annual license fee for a licensed commercial bank?\nHow do you respond?\nA. The amount determined by the Monetary Board, having regard to the different classes of banking business carried on by such bank.\nB. A fixed amount determined by the Central Bank.\nC. A percentage of the bank's profits.\nD. It is not specified in the given context.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "459a0dbc-50bf-49ce-956a-924a27e4f441",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who informs a licensed commercial bank of the amount payable as license fee and the manner in which such fee shall be paid?\nHow do you respond?\nA. The Monetary Board\nB. The Central Bank\nC. The licensed commercial bank itself\nD. The Ministry of Finance\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8c8481cc-ab03-48fb-9a66-7aa557534522",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a licensed commercial bank fails to commence business within nine months of the issue of the license?\nHow do you respond?\nA. The Monetary Board may give notice that it would cancel the license issued to such bank.\nB. The bank shall be liable to pay a fine of one hundred thousand rupees.\nC. The bank shall be prohibited from carrying on any banking business.\nD. The bank shall be entitled to a refund of the license fee paid.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "352bb452-0699-413d-b6ee-05b27f782756",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank tender objections in writing to the Monetary Board against the notice of intended cancellation?\nHow do you respond?\nA. Yes, within 14 days of receipt of the notice.\nB. No, the licensed commercial bank cannot tender objections.\nC. Only if the licensed commercial bank has furnished false, misleading, or inaccurate information or documents.\nD. Only if the licensed commercial bank has failed to pay its debts.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "04b6644e-35fa-4e33-8419-1a6c2c2a1c5a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank appeal against a decision of the Monetary Board to impose conditions on the withdrawal of the notice given under subsection (1) or to cancel its license?\nHow do you respond?\nA. Yes, to the Court of Appeal, within fourteen days of the date of receipt of the notification given under subsection (3).\nB. No, there is no provision for appeal against a decision of the Monetary Board under this section.\nC. Yes, to the Supreme Court, within thirty days of the date of receipt of the notification given under subsection (3).\nD. Yes, to the Monetary Board, within fourteen days of the date of receipt of the notification given under subsection (3), for reconsideration of their decision.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e1212c86-4a31-4f3c-abf1-65fb94eabd5e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the time frame for a licensed commercial bank to appeal against a decision of the Monetary Board?\nHow do you respond?\nA. 7 days\nB. 14 days\nC. 30 days\nD. 90 days\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "68efc4f4-e309-465f-a66e-e7766042483e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the Monetary Board notify a licensed commercial bank of its decision to cancel its license?\nHow do you respond?\nA. By publishing a notification in the Gazette and a daily newspaper.\nB. By sending a letter to the bank's headquarters.\nC. By emailing the bank's CEO.\nD. By phone call to the bank's customer service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1abc55db-9c42-40f6-a1d2-4a6d4c79c99b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a licensed commercial bank fails to comply with the Monetary Board's directions issued under subsection (1) of section 10?\nHow do you respond?\nA. The Monetary Board may further direct the bank to suspend its business within Sri Lanka and take charge of its books, records, and assets.\nB. The bank may appeal to the Court of Appeal against the Monetary Board's directions.\nC. The Director of Bank Supervision may take charge of the bank's business and assets.\nD. The bank may be wound up and its assets liquidated.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d7cf19bc-7416-47f6-b79e-e60600b6b416",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens to a licensed commercial bank's assets, books, and records when the Monetary Board withdraws the cancellation of its license?\nHow do you respond?\nA. The Director of Bank Supervision returns them to the bank.\nB. The Monetary Board takes control of them indefinitely.\nC. They are sold to another financial institution.\nD. They are destroyed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f3d9b8df-6959-4cb3-95e8-9705bcd19d5b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the effect of a cancellation of a licensed commercial bank's license on its operations?\nHow do you respond?\nA. The bank can continue to operate as usual until it exhausts all appeals.\nB. The bank must immediately cease all operations.\nC. The bank can only continue to operate with the approval of the Monetary Board.\nD. The bank's operations are not affected, as the cancellation only applies to its license.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8257d9b9-940c-44e8-a3f1-0a5a83552e18",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the Monetary Board notify the public of a licensed commercial bank's cancellation of license?\nHow do you respond?\nA. By publishing a notification in the Gazette and a daily newspaper circulating in Sri Lanka.\nB. By issuing a press release to all media outlets.\nC. By posting a notice on the Monetary Board's website.\nD. By contacting the bank's customers directly.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3929cfe8-ff2a-49f9-8e48-a78f6192555d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank appeal the Monetary Board's decision to cancel its license to the Supreme Court?\nHow do you respond?\nA. Yes, directly to the Supreme Court.\nB. No, the bank can only appeal to the Court of Appeal.\nC. Yes, but only if the bank can prove that the Monetary Board's decision was made in bad faith.\nD. No, the decision of the Monetary Board is final and cannot be appealed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6f636b04-097c-4e5b-9fc5-4767cc59bb08",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Monetary Board directing a licensed commercial bank to suspend its business in Sri Lanka?\nHow do you respond?\nA. To prevent the continuance of the business of banking by such bank.\nB. To allow the Director of Bank Supervision to take charge of its business and assets.\nC. To enable the bank to suspend its business outside Sri Lanka.\nD. To permit the licensed commercial bank to continue its business without any restrictions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "60896ac6-ef43-49f0-b413-e378ce061a52",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens when a licensed commercial bank's licence is cancelled?\nHow do you respond?\nA. The bank's business within Sri Lanka is suspended, and the Director of Bank Supervision takes charge of its books, records, and assets.\nB. The bank's business both within and outside Sri Lanka is suspended, and the Director of Bank Supervision takes charge of its books, records, and assets.\nC. The bank's business outside Sri Lanka is suspended, and the head office is informed to honor the written undertaking submitted under paragraph (a) of subsection (2) of section 3.\nD. The bank's licence is reinstated, and it can continue its business as usual.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "02f91cbd-213b-4a1b-87d3-d58d576e8c3f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens to the business of a licensed commercial bank incorporated outside Sri Lanka when its licence is cancelled?\nHow do you respond?\nA. The business of the bank is taken over by the Director of Bank Supervision.\nB. The bank is allowed to continue its business outside Sri Lanka.\nC. The bank is required to close down its business in Sri Lanka only.\nD. The bank is allowed to continue its business in Sri Lanka but under strict conditions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6debe302-b3fd-4064-a990-27d3d0d437a0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the circumstances under which the Monetary Board may cancel a licensed commercial bank's licence?\nHow do you respond?\nA. Where the bank has violated any of the provisions of the written law or any direction given by the Monetary Board.\nB. Where the bank has made a profit for three consecutive years.\nC. Where the bank has been found guilty of money laundering.\nD. Where the bank has been in operation for more than 20 years.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d826493d-b88e-491e-a663-65edf7b6e072",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank appeal against the Monetary Board's decision to cancel its licence?\nHow do you respond?\nA. Yes, the bank can appeal to the Monetary Board for reconsideration of its decision.\nB. No, the bank cannot appeal against the Monetary Board's decision as it is final and binding.\nC. Yes, the bank can appeal to the Supreme Court against the Monetary Board's decision.\nD. No, the bank can only appeal to the Minister of Finance against the Monetary Board's decision.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0f1509ec-abd6-4873-b6a8-ed08f852b504",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the powers conferred on the Monetary Board by section 30 of the Monetary Law Act?\nHow do you respond?\nA. The power to approve or reject applications for licenses to carry on banking business.\nB. The power to require a licensed commercial bank to hand over all books, records, and assets to the Director of Bank Supervision.\nC. The power to restrain any director, manager, or controller of a licensed commercial bank from carrying out any function in or in relation to the bank.\nD. The power to vest the business of a licensed commercial bank in another licensed commercial bank that consents to such vesting.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "279b3971-302b-47a5-925f-6b07755499d5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank incorporated or established within Sri Lanka open or close a branch, agency, or office outside Sri Lanka?\nHow do you respond?\nA. Yes, without the approval of the Monetary Board.\nB. No, it requires the approval of the Monetary Board.\nC. Yes, but only if it has a representative office in Sri Lanka.\nD. No, it is not allowed to open or close a branch, agency, or office outside Sri Lanka.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "821612a9-3b0d-4710-847d-3e95ada9bce6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank acquire the business or part of the business of another licensed commercial bank or a licensed specialised bank?\nHow do you respond?\nA. Yes, without the approval of the Monetary Board.\nB. Yes, with the approval of the Monetary Board.\nC. No, such acquisition is not allowed.\nD. Yes, but only if the acquiring bank is a foreign bank.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0b6df4b7-28e8-40fb-baf7-5a2a3cf6388a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank merge or consolidate with another licensed commercial bank or a licensed specialised bank?\nHow do you respond?\nA. Yes, without the approval of the Monetary Board.\nB. Yes, with the approval of the Monetary Board.\nC. No, licensed commercial banks are not allowed to merge or consolidate with other banks.\nD. Yes, but only with the approval of the Minister.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "86f53dd3-262d-4447-bb3c-133f7686d626",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What information must be included in an application for approval of an acquisition or merger or consolidation under paragraph (c) or (e) of subsection (1) of section 12?\nHow do you respond?\nA. A statement of the nature of the acquisition or merger or consolidation, as the case may be.\nB. The name and address of the licensed commercial bank or branches thereof that are involved in the acquisition or merger or consolidation.\nC. A detailed plan for how the acquisition or merger or consolidation will be carried out, including timelines and milestones.\nD. Financial statements for the licensed commercial bank or branches thereof that are involved in the acquisition or merger or consolidation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "13a97928-2438-411f-b84d-45b0727e0e0c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of requiring a licensed commercial bank to hand over all books, records, and assets to the Director of Bank Supervision under section 11(b) of the Banking Act?\nHow do you respond?\nA. To enable the Director of Bank Supervision to assess the bank's financial health and compliance with regulations.\nB. To allow the Monetary Board to assume control of the bank's business and carry out its functions.\nC. To facilitate the merger or consolidation of the bank with another licensed commercial bank.\nD. To enable the Director of Bank Supervision to investigate any suspected fraudulent activities within the bank.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a9592569-fc9d-43b6-8ffa-db93ed6e1a22",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the criteria for determining whether an individual or the directors of a corporate body are fit and proper persons to acquire a material interest in a licensed commercial bank?\nHow do you respond?\nA. The criteria set out in subsection (2) of section 42 of the Monetary Law Act.\nB. The criteria set out in subsection (1C) of section 12 of the Monetary Law Act.\nC. The criteria set out in section 30 of the Monetary Law Act.\nD. The criteria set out in subsection (1B) of section 12 of the Monetary Law Act.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0c7243b7-e6c8-439e-a46d-2480658b28c6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of \"material interest\" for the purpose of subsection (1C) of the Monetary Law Act?\nHow do you respond?\nA. The holding of over ten percent of the issued capital of a licensed commercial bank carrying voting rights.\nB. The ability to exercise significant influence over the management and operations of a licensed commercial bank.\nC. The ownership of a majority stake in a licensed commercial bank.\nD. The power to appoint or remove a majority of the directors of a licensed commercial bank.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "96ebc3a3-fa5c-444a-9f0f-f617c787857f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank to whom notice has been issued under subsection (1) of section 13 of the Monetary Law Act tender objections in writing to the Monetary Board?\nHow do you respond?\nA. Yes, within 30 days of the date of the order.\nB. No, the bank has no right to object.\nC. Only if the bank has already complied with the terms and conditions of the approval.\nD. Only if the Minister has approved the withdrawal or variation of the approval.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6394091d-cc1a-471a-b860-07bb78007ac7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Monetary Board's power to withdraw or vary the terms and conditions of an approval granted under section 12 of the Monetary Law Act?\nHow do you respond?\nA. To ensure that licensed commercial banks comply with the requirements of section 12 of the Monetary Law Act.\nB. To promote a safe, sound, and stable banking system and fair competition in the banking industry.\nC. To allow the Monetary Board to cancel or vary an approval granted under section 12 without giving any reason.\nD. To enable the Monetary Board to grant approvals under section 12 subject to terms and conditions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4548808e-adc9-442c-9a7a-5e0304a128c4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Monetary Board's power to cancel or confirm a notice of withdrawal or variation?\nHow do you respond?\nA. To ensure that all depositors are given the opportunity to withdraw their moneys expeditiously and to safeguard their interests.\nB. To grant approval for the establishment of mobile banking units subject to certain terms and conditions.\nC. To examine the books, accounts, and records of persons suspected of carrying on banking business in contravention of the Act.\nD. To alter the Memorandum of Association and the Articles of Association of a licensed commercial bank.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a9ced854-cde7-484a-b7f2-8a62f6a32c76",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the timeframe for the Monetary Board to consider objections placed before it under subsection (2) of section 13?\nHow do you respond?\nA. 60 days\nB. 90 days\nC. 120 days\nD. There is no specific timeframe\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2c0346f6-7a4d-4c7f-bf8c-f890528ea5d3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Director of Bank Supervision in relation to the closure of a branch, agency or office of a licensed commercial bank?\nHow do you respond?\nA. The Director of Bank Supervision shall cancel the notice of withdrawal or variation unconditionally.\nB. The Director of Bank Supervision shall confirm the withdrawal or variation with or without modification.\nC. The Director of Bank Supervision shall take all steps necessary to satisfy himself that all persons who have deposited moneys in that branch, agency or office are given the opportunity to withdraw such moneys expeditiously and to ensure that such measures as would safeguard the interest of such depositors are taken.\nD. The Director of Bank Supervision shall grant approval for the establishment of mobile banking units, subject to such terms and conditions as he may determine.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c154972d-b66b-4e4f-adc4-351993a37596",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if the Deputy Governor withdraws or varies the terms and conditions of approval for a mobile banking unit?\nHow do you respond?\nA. The mobile banking unit must cease operations immediately.\nB. The mobile banking unit can continue to operate under the existing terms and conditions until the expiration of sixty days from the date of the notice.\nC. The mobile banking unit can continue to operate under the varied terms and conditions.\nD. The Director of Bank Supervision will take steps to ensure that depositors can withdraw their money expeditiously.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e54bd1af-0ce0-4a07-8504-78222afbfebf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the consequence of failing to furnish information or produce books, minutes, accounts, cash, securities, vouchers, other documents and records when required to do so?\nHow do you respond?\nA. The person will be guilty of an offense under this Act. (Correct)\nB. The person will be subject to warning and a fine.\nC. The person's license will be suspended or canceled.\nD. The person will be required to pay a fee for non-compliance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f888c030-13c1-4fc3-a6f8-834dbc7b6885",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the provisions of Part II of the Monetary Law Act?\nHow do you respond?\nA. To restrict the use of certain names and descriptions related to banking.\nB. To provide guidelines for the incorporation and naming of banking institutions.\nC. To regulate the exercise of powers and functions of the Monetary Board and the Central Bank.\nD. To require licenses for carrying on business in Sri Lanka.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "53e53781-8799-47b7-a0a8-ca4a25fdc651",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can an agency, institution, person or body of persons which is a banking institution in terms of paragraph (b) or paragraph (d) of the definition of the expression \"banking institution\" in section 127 of the Monetary Law Act use the words \"bank\", \"banker\" or \"banking\" in its name?\nHow do you respond?\nA. Yes, with the prior written approval of the Monetary Board.\nB. No, such an agency, institution, person or body of persons is not permitted to use the words \"bank\", \"banker\" or \"banking\" in its name.\nC. Yes, if it is a subsidiary of a licensed commercial bank or licensed specialized bank.\nD. Yes, if it is a trade union registered under the Trade Union Ordinance (Chapter 138).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f1831c9e-35a9-468a-8a50-a3495e47aee0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank or licensed specialised bank incorporated or established outside Sri Lanka use the words \"bank\", \"banker\" or \"banking\" in its name?\nHow do you respond?\nA. Yes, without any restrictions.\nB. Yes, but only with the prior written approval of the Monetary Board.\nC. No, as it is prohibited by the Monetary Law Act.\nD. No, but the bank can use the words \"bank\", \"banker\" or \"banking\" in its description.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ed8bb4a9-6efb-49a2-9cf9-0e7072bf717c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main purpose of the Monetary Board in relation to licensed commercial banks in Sri Lanka?\nHow do you respond?\nA. To regulate and supervise the activities of licensed commercial banks in Sri Lanka.\nB. To provide financial assistance to licensed commercial banks in Sri Lanka.\nC. To promote the growth and development of licensed commercial banks in Sri Lanka.\nD. To impose penalties on licensed commercial banks that violate banking regulations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3d56a0a7-20b1-4c20-89b1-c14fd71ad661",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is a company considered a subsidiary of another company?\nHow do you respond?\nA. If the other company holds more than half of its equity share capital.\nB. If the other company controls the composition of its board of directors.\nC. If the company is a subsidiary of any company that is the other company's subsidiary.\nD. If the other company is a shareholder of it and controls the composition of its board of directors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "3ed50e4c-9667-4e3f-9f3f-9f5d84167709",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are shares held or power exercisable by a nominee for a company considered when determining whether one company is a subsidiary of another?\nHow do you respond?\nA. Yes, always.\nB. No, never.\nC. Yes, but only if the nominee has the power to exercise the shares or vote on behalf of the company.\nD. Yes, but only if the company has a fiduciary relationship with the nominee.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "aabddc4f-6a93-4d2e-8833-7551e48a7ec5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of a holding company in the context of the Act?\nHow do you respond?\nA. A company that is owned and controlled by another company.\nB. A company that owns and controls another company.\nC. A company that is subsidiary to another company.\nD. A company that has the same shareholders as another company.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "34dd16a0-abbf-463f-ad96-d9593c0a2604",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a licensed commercial bank acquire shares in a public company other than a listed company?\nHow do you respond?\nA. Yes, without any restrictions.\nB. Yes, but only with the approval of the Monetary Board.\nC. No, such acquisition is prohibited.\nD. Yes, but only up to a specified percentage of the bank's capital funds.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "c55ffd49-6505-45b0-a363-a02afd0ba567",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum equity capital requirement for a licensed commercial bank, as per the Act?\nHow do you respond?\nA. Twenty-five million rupees.\nB. One hundred million rupees.\nC. Five hundred million rupees.\nD. The amount assigned to such bank by the head office, if it is a licensed commercial bank incorporated or established outside Sri Lanka.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "655f370b-6ae5-47d9-af9b-ad79c66306bc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is compliance with the provisions of this Part of the Act essential for a licensed commercial bank?\nHow do you respond?\nA. Yes, compliance is essential.\nB. No, compliance is not essential.\nC. Compliance is essential only for banks incorporated in Sri Lanka.\nD. Compliance is essential only for banks established after the commencement of this section.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "34ab3f30-cfba-4f5e-912d-79b182faad73",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the consequence of a licensed commercial bank failing to comply with the provisions of this Part of the Act?\nHow do you respond?\nA. The bank shall be liable to a fine not exceeding one hundred thousand rupees.\nB. The bank shall be liable to have its license revoked.\nC. The bank shall be liable to pay a penalty not exceeding five hundred thousand rupees.\nD. The bank shall be liable to have its assets seized by the Monetary Board.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "67baaecf-a8bc-4105-8f40-fa6fbaf327fd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the viability and stability of the banking system and the interest of the national economy considered when determining the minimum equity capital requirement for a licensed commercial bank?\nHow do you respond?\nA. The Monetary Board considers the deposit liabilities or total liabilities, including contingent liabilities, of a licensed commercial bank.\nB. The Monetary Board considers the total assets or a specified category of assets of a licensed commercial bank.\nC. The Monetary Board considers the interest of national economy and the viability and stability of the banking system.\nD. The Monetary Board considers the paid-up capital or assigned capital of a licensed commercial bank.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a8c986bb-d5ef-434e-95b9-38141b4d7184",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the limit of foreign participation in the capital of a licensed commercial bank in Sri Lanka?\nHow do you respond?\nA. 50%\nB. 25%\nC. 10%\nD. 75%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "681f175f-4008-48cc-8baf-630bd266f119",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if the equity capital or capital funds of a licensed commercial bank become deficient?\nHow do you respond?\nA. The Monetary Board may grant a reasonable period of time for the rectification of such deficiency.\nB. The bank shall, out of the net profits after the payment of tax of each year, before any dividend is declared or any profits are transferred to the head office or elsewhere, transfer to the reserve fund.\nC. The licensed commercial bank shall not reduce its equity capital without the prior written approval of the Monetary Board.\nD. The licensed commercial bank shall create a charge upon any unpaid capital of such bank.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}
