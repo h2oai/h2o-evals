@@ -1,0 +1,1244 @@
+{
+    "tests": [
+        {
+            "key": "1f759f46-e41d-4f7a-92a5-dd67f6da4f3a",
+            "documents": [
+                "Maternal_Child_Healthcare.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "5364fda3-001a-4103-9d7e-2bbee04bb190",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the author of the lecture notes?\nHow do you respond?\nA. Mesfin Addisse\nB. The Carter Center\nC. The Ethiopia Ministry of Health\nD. The Ethiopia Ministry of Education\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e1a2d86a-76f2-479b-a0d7-17e35fe490fc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the intended audience for the lecture notes?\nHow do you respond?\nA. Healthcare workers and students in a healthcare field\nB. The Carter Centre\nC. Members of the Department of Community Health\nD. The Ethiopian Public Health Initiative\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e99cf420-d77a-4832-bfe4-6d3ac25a1969",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the lecture notes?\nHow do you respond?\nA. To provide a comprehensive guide for healthcare workers in maternal and child health care.\nB. To serve as a reference material for students in their future practice.\nC. To prepare students for their assignments and group discussions.\nD. To highlight the importance of selected topics in maternal and child health care.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "d73328b3-7b46-4e7f-88b2-252b91d68e69",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What topics are covered in the lecture notes?\nHow do you respond?\nA. MMR, PNM, abortion, family planning, ANC, anemia\nB. ARI in children, child abuse, sexual violence\nC. School health services\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "eebb93e0-bba7-496d-b840-9ab6cfcaee57",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are there any limitations to the topics covered in the lecture notes?\nHow do you respond?\nA. No, the lecture notes cover all essential topics for Maternal and Child Health Care.\nB. Yes, the lecture notes focus on selected topics and do not cover all areas of Maternal and Child Health Care.\nC. Yes, the lecture notes are limited to MMR, PNM, abortion, family planning, ANC, and anemia.\nD. No, the lecture notes cover all areas of Maternal and Child Health Care, but with less emphasis on topics focused on diploma programs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bfa7e219-59a4-4e70-ac5c-b9c486b72b44",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What sources were used to compile the lecture notes?\nHow do you respond?\nA. Notes from the author's student days, books, journals, and WHO manuals\nB. Books, journals, and WHO manuals only\nC. Notes from the author's student days, books, journals, and manuals from the Carter Center\nD. Notes from the author's student days, books, journals, WHO manuals, and the internet\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "71765145-6976-4ffa-99cf-f1b04c1dd344",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who helped the author prepare the lecture notes?\nHow do you respond?\nA. Members of the Department of Community Health\nB. The Carter Centre\nC. Health Science Students\nD. Mesfin Addisse\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bedc3b62-ff9f-4941-9749-ae2489ae8ef2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who reviewed the lecture notes and provided feedback?\nHow do you respond?\nA. Members of the Department of Community Health at GCMS.\nB. The Carter Centre through the Ethiopia Public Health Initiative.\nC. Mesfin Addisse, the author of the lecture notes.\nD. All of the above.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ca3b5737-1f72-43ac-bc25-7f9e2fd2e37b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the copyright status of the lecture notes?\nHow do you respond?\nA. The lecture notes are in the public domain and can be used freely without any restrictions.\nB. The lecture notes are copyrighted by Mesfin Addisse, and permission is required to reproduce or distribute them.\nC. The lecture notes are copyrighted by the University of Gondar, and permission is required to reproduce or distribute them.\nD. The lecture notes are copyrighted by the Ethiopia Public Health Training Initiative, and permission is required to reproduce or distribute them.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4dd91a62-12f4-44bd-93a5-516a592b596d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the note that the author took parts of for the Department of Community Health, according to the text?\nHow do you respond?\nA. To provide an overview of maternal and child health care services.\nB. To outline strategies for reducing maternal and child mortality rates.\nC. To highlight the importance of school health services in MCH care.\nD. To provide a reference for the Ministry of Health's immunization schedule.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "218faf97-2157-4561-a48c-90238c787ffc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What percentage of the population consists of mothers and children?\nHow do you respond?\nA. 2/3\nB. 1/3\nC. 1/2\nD. 3/4\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "99c20a06-dc9b-44f0-ad65-31735cc74429",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the leading cause of maternal mortality in developing countries?\nHow do you respond?\nA. Miscarriage\nB. Induced abortion\nC. Obstetric complications of pregnant state (pregnancy, labor, and puerperium)\nD. Malnutrition\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "74301799-47c8-4ba7-866a-db88ef95ef4a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the risks associated with poor maternal health?\nHow do you respond?\nA. Maternal mortality, fetal or perinatal death, and developmental impairments in children.\nB. Infectious diseases, malnutrition, and low birth weight babies.\nC. Miscarriage, induced abortion, and poor management techniques during labor and delivery.\nD. All of the above.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "2670ae7b-8dd6-4bad-a852-7078f0b33d8b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of maternal mortality on fetal and perinatal health?\nHow do you respond?\nA. Maternal mortality has no impact on fetal and perinatal health.\nB. Maternal mortality is associated with a higher risk of fetal and perinatal death.\nC. Maternal mortality is associated with a lower risk of fetal and perinatal death.\nD. Maternal mortality has no impact on fetal health but is associated with a higher risk of perinatal death.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a29dfc1b-2675-460b-9391-0d65679f3313",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the complications associated with childbirth in developing countries?\nHow do you respond?\nA. Miscarriage, induced abortion, and other factors that cause over 40 percent of pregnancies to result in complications, illnesses, or permanent disability for the mother or child.\nB. Poorly timed unwanted pregnancies that carry high risks of morbidity and mortality, as well as social and economic costs, particularly to the adolescent, and many unwanted pregnancies end in unsafe abortion.\nC. Infectious diseases like malaria that are more prevalent in pregnant women than in non-pregnant women, and an increasing number of pregnant women testing positive for the human immunodeficiency virus.\nD. Development impairments among children due to poor management during labor and delivery, and low birth weight babies due to women's exposure to persistent low nutritional status and high-energy expenditure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "15752b6d-5065-467e-a16d-a01d9c60eda8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the factors that contribute to low birth weight in infants?\nHow do you respond?\nA. Poor management during labor and delivery\nB. Malnutrition during pregnancy\nC. Infections during pregnancy\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6d49c7c3-8381-46d9-ae7d-18c86b629b3e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the barriers to accessing maternal and child healthcare services in developing countries?\nHow do you respond?\nA. Cultural attitudes and practices that impede women's use of services that are available.\nB. Lack of access to relevant information, trained providers, and supplies, emergency transport, and other essential services.\nC. High fertility rates and early marriage, leading to a large number of pregnancies in young women.\nD. Poor management techniques during labor and delivery.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "26f752a7-93fd-4baa-b7df-ed61449ba346",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the challenges faced by women in accessing MCH services?\nHow do you respond?\nA. Cultural attitudes and practices that impede women's use of services.\nB. Lack of knowledge about available services.\nC. Insufficient healthcare facilities in rural areas.\nD. High cost of services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c2fca375-1526-4258-b2aa-8fc4c66c4c81",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can MCH services be improved in Ethiopia?\nHow do you respond?\nA. By providing primary health care services and extending integrated MCH services into rural areas.\nB. By focusing on reducing maternal and childhood mortality and morbidity through education in health and nutrition.\nC. By promoting the use of safe water, sanitation, and immunization.\nD. By initiating, developing, and coordinating operational and other relevant research in MCH.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4e5bb1c7-2410-446a-a671-a596655469ae",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of health education in MCH care?\nHow do you respond?\nA. To educate healthcare providers on MCH care interventions.\nB. To promote healthy behaviors and practices among mothers and children.\nC. To provide nutrition and sanitation education to mothers and children.\nD. To educate communities on the importance of MCH care.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5fb7339e-3ee4-4d4b-9756-66fa8aed3214",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can the referral system be revised and improved in MCH care?\nHow do you respond?\nA. By coordinating with other organizations and institutions involved in activities related to MCH.\nB. By providing adequate emphasis on MCH in the curricula of health workers.\nC. By promoting the use of safe water, sanitation, and immunization.\nD. By constantly improving the skills and knowledge of health personnel.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3de834db-52ba-4ae5-924d-17dc98acc26b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of MCH care?\nHow do you respond?\nA. To reduce maternal and child mortality rates.\nB. To promote the health and well-being of mothers and children.\nC. To prevent the spread of infectious diseases.\nD. To provide nutrition and health education to families.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "84fde806-868b-41e2-acc3-6c2366dde509",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the objectives of the MCH programs?\nHow do you respond?\nA. To provide healthcare services to mothers and children.\nB. To prevent maternal and child mortality and morbidity.\nC. To promote community participation and involvement in MCH activities.\nD. To seek resources for the expansion of MCH services from the government and Non-Governmental Organizations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7861b606-db49-4c79-a148-88866d0c869f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the major health problems of mothers and children in developing countries?\nHow do you respond?\nA. Malnutrition and stunted growth\nB. Maternal mortality and morbidity\nC. Infant mortality and stillbirths\nD. Malaria and HIV/AIDS\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "983c653e-d7ba-4fc8-9fbc-02f1991643e5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the factors that affect the health of mothers and children?\nHow do you respond?\nA. Socio-economic development, poor agricultural development, poor sanitary environment, access to health services, and access to education.\nB. Poor nutritional status, obstructed labor, infection, and hemorrhage.\nC. Lack of antenatal care, untrained health workers, and poor access to family planning services.\nD. Adverse social and physical environment, poor housing, unsafe water, and denial of education.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "78ddb90f-cd5c-489c-b737-e0ef220091f1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the magnitude of maternal mortality in developing countries?\nHow do you respond?\nA. More than 500,000 women die from pregnancy-related causes every year.\nB. More than 150 million women become pregnant in developing countries each year.\nC. Most women in developing countries lack access to modern health care services.\nD. The magnitude of maternal mortality is low in developing countries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "da4ffcdb-b373-45dd-b8d3-0fb4a1dc9be2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the causes of maternal mortality?\nHow do you respond?\nA. Poor sanitary environment, poor housing, unsafe and inadequate water, adverse social and physical environment.\nB. Socio-economic development of the country, poor agricultural development, lack of access to modern healthcare services, poor education of women.\nC. Access to health services, access to education, poor sanitary environment, poor housing, unsafe and inadequate water, adverse social and physical environment.\nD. Lack of access to modern healthcare services, poor education of women, poor agricultural development, socio-economic development of the country.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3794e092-1d70-403f-b109-60ff7152e4eb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can maternal mortality be prevented?\nHow do you respond?\nA. By providing access to modern healthcare services.\nB. By promoting education for women.\nC. By improving sanitation and hygiene practices.\nD. By increasing access to family planning services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "385c5d1a-12bc-4120-8399-23fc74391431",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of community participation in MCH activities?\nHow do you respond?\nA. To ensure the sustainability of MCH services\nB. To empower women and girls through education and decision-making\nC. To address the social and economic determinants of maternal and child health\nD. To provide access to modern healthcare services for pregnant women and mothers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "0f2a7467-fe65-49fe-aee7-113400dd3446",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can MCH services be expanded in developing countries?\nHow do you respond?\nA. By providing access to modern healthcare services and trained health workers.\nB. By improving sanitation and hygiene practices in communities.\nC. By increasing access to education for women.\nD. By promoting the use of traditional medicine and home remedies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9de73ab0-902a-42a2-9d5e-9e3ebf5831c7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between education and women's reproductive behavior?\nHow do you respond?\nA. Education has no impact on women's reproductive behavior.\nB. Education increases women's reproductive behavior.\nC. Education decreases women's reproductive behavior.\nD. Education has a significant impact on women's reproductive behavior, as it influences age at marriage, contraception, and healthcare use, and raises awareness of risks and danger signs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "2504ecd6-3f1c-4449-93d3-f1d819fb98f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some factors that influence women's access to and control of income and resources?\nHow do you respond?\nA. High level of education\nB. Low level of education\nC. No education\nD. Education not relevant\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "96982b54-0f61-4592-9637-fc6fc1de4caf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the leading cause of death among women of reproductive age in most developing countries?\nHow do you respond?\nA. Maternal mortality\nB. Malnutrition\nC. HIV/AIDS\nD. Tuberculosis\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "736bdff7-f3b4-49bd-ba70-78f8d70ffc43",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many women die each year due to pregnancy-related complications worldwide?\nHow do you respond?\nA. 50,000\nB. 500,000\nC. 1,000,000\nD. 2,000,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3c056d9a-a8b7-4639-8bfc-e5ffead30598",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the magnitude of maternal deaths in Sub-Saharan Africa and South Asia?\nHow do you respond?\nA. 200 times higher than in industrial countries.\nB. 20 times higher than in industrial countries.\nC. 2 times higher than in industrial countries.\nD. The same as in industrial countries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7658f901-cbf3-4c0b-bfe2-9ae044074479",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between maternal mortality and maternal morbidity?\nHow do you respond?\nA. Maternal mortality is the leading cause of maternal morbidity.\nB. Maternal morbidity is the leading cause of maternal mortality.\nC. Maternal mortality and maternal morbidity are unrelated.\nD. Maternal mortality is a small part of the larger maternal morbidity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "a998df61-9bdd-4015-b120-d5147335dc43",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of addressing the factors that influence maternal mortality and morbidity?\nHow do you respond?\nA. To reduce the disparity in human development indicators between developed and developing countries.\nB. To ensure that women are physically, mentally, and socially healthy to fulfill their reproductive duty safely and efficiently.\nC. To increase the family planning coverage to more than 10% in Ethiopia and other developing countries.\nD. To eliminate the suffering and death of women during pregnancy, delivery, and postpartum period.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cd0135f3-75b6-4a9e-869b-530e4a784e32",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the five major causes of maternal mortality in developing countries?\nHow do you respond?\nA. Haemorrhage, infection, hypertensive disorders of pregnancy, obstructed labor, and abortion.\nB. Infection, hypertensive disorders of pregnancy, obstructed labor, abortion, and malnutrition.\nC. Haemorrhage, infection, obstructed labor, abortion, and unsafe delivery.\nD. Malnutrition, infection, hypertensive disorders of pregnancy, obstructed labor, and unsafe abortion.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a01bf3d6-8c73-4370-b099-a9a988117b27",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does poverty affect maternal health?\nHow do you respond?\nA. Poverty has no impact on maternal health.\nB. Poverty increases the risk of maternal mortality and morbidity.\nC. Poverty only affects the health of the newborn, not the mother.\nD. Poverty improves maternal health by reducing access to healthcare.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c0a784c4-9ff3-4bc6-a69b-106f366a5ed1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the lifetime risk of maternal death for women in Africa?\nHow do you respond?\nA. 1 in 22\nB. 1 in 47\nC. 1 in 67\nD. 1 in 805\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "841eb4ec-b223-4b20-9e79-4181c38c6555",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between maternal mortality and newborn deaths?\nHow do you respond?\nA. Maternal mortality and newborn deaths are unrelated.\nB. Maternal mortality directly causes newborn deaths.\nC. Newborn deaths directly cause maternal mortality.\nD. Maternal mortality and newborn deaths are related, as they both result from similar underlying health issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "8a4f90ce-60f6-4fe3-9614-d203d9702dba",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of frequent pregnancies on maternal mortality?\nHow do you respond?\nA. It reduces the risk of maternal mortality.\nB. It has no impact on maternal mortality.\nC. It increases the risk of maternal mortality.\nD. It is not associated with maternal mortality.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "1cfd0932-9adc-4c7a-b717-ce9b720c8322",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of gender discrimination in maternal mortality?\nHow do you respond?\nA. Gender discrimination has no role in maternal mortality.\nB. Gender discrimination contributes to maternal mortality by limiting access to healthcare services for women.\nC. Gender discrimination increases the risk of maternal mortality by promoting harmful traditional practices during pregnancy and childbirth.\nD. Gender discrimination has no impact on maternal mortality, as it is primarily a matter of access to healthcare services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "18f9970f-5888-4d8d-a01c-4da4dcf9333d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference in maternal mortality between developed and developing countries?\nHow do you respond?\nA. Developed countries have a higher maternal mortality rate than developing countries.\nB. Developing countries have a higher maternal mortality rate than developed countries.\nC. There is no significant difference in maternal mortality between developed and developing countries.\nD. Maternal mortality is not a concern in either developed or developing countries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7f5544d6-0e3f-4f8d-84d8-ccb4ce3a5d9d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the predisposing factors for ante partum haemorrhage?\nHow do you respond?\nA. Placenta praevia, multiple pregnancy, and scarred uterus\nB. Common in multiparity, increased age, and emotional trauma\nC. Increased chance for recurrence, high parity, and anaemia\nD. Prolonged labour, trauma, and retained placenta\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d671541e-5329-4cc4-9039-32e72110a875",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the predisposing factors for abruptio placenta?\nHow do you respond?\nA. Common in patients with hypertension, trauma, injuries to the abdomen, excessively hard work, and emotional trauma.\nB. Common in multiparity, scarred uterus, and multiple pregnancy.\nC. History of postpartum haemorrhage, increased chance of recurrence, high parity, multiple pregnancy, anaemia \u2013 causing poor contraction, prolonged labor, and trauma.\nD. Placenta praevia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "596cf729-34b5-4942-8ff7-544384b1acbd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the predisposing factors for post partum haemorrhage?\nHow do you respond?\nA. Atonic uterus, history of postpartum haemorrhage, increased chance for recurrence, high parity, multiple pregnancy, anaemia \u2013 causing poor contraction, prolonged labour, trauma \u2013 this can show quality of care.\nB. Placenta praevia, common in multiparity, increases with age, scarred uterus, multiple pregnancy.\nC. Infection, anaemia, malaria, goitre, malnutrition, poverty, illiteracy, poor sanitation, inadequate housing (crowding), inadequate and unsafe water.\nD. Prolonged labour, use of instruments to assist delivery, trauma, caesarean section, especially in ruptured uterus, pre-existing genital and reproductive tract infections.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2fa22b44-f6ea-4917-909f-76499fce3cc7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is puerperal sepsis?\nHow do you respond?\nA. Sepsis that occurs following long and complicated deliveries and is rare in uncomplicated spontaneous delivery.\nB. Sepsis that occurs due to infection after unsafe abortion.\nC. Sepsis that occurs due to poor sterile procedures during delivery.\nD. Sepsis that occurs due to pre-existing genital and reproductive tract infections.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "829d2130-7fca-4d5c-b6ba-078404dad6b5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the important factors that increase the risk of puerperal sepsis?\nHow do you respond?\nA. Prolonged labor, use of instruments to assist delivery, and pre-existing genital and reproductive tract infections.\nB. Prolonged labor, use of instruments to assist delivery, and pre-existing genital and reproductive tract infections.\nC. Prolonged labor, use of instruments to assist delivery, and pre-existing genital and reproductive tract infections.\nD. Prolonged labor, use of instruments to assist delivery, and pre-existing genital and reproductive tract infections.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "138bafa2-2872-4e00-bfa0-afef5695f747",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the aim of trained birth attendant training programs throughout the developing world?\nHow do you respond?\nA. To promote clean delivery in homes through education and provision of basic supplies such as sterile razor blades and washable plastic sheets.\nB. To educate trained birth attendants, women, their families, and community health workers to recognize the early signs of sepsis and seek medical care.\nC. To reduce the risk of mortality or long-term sequelae from postpartum sepsis through early detection and timely use of antibiotics.\nD. To improve standards of hygiene in routine care and keep interventions and vaginal examinations to a minimum.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "575cabb7-e0b0-4ccd-a144-36545564d3a3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of early detection and timely use of antibiotics for postpartum sepsis?\nHow do you respond?\nA. It reduces the risk of mortality or long-term sequelae.\nB. It increases the risk of mortality or long-term sequelae.\nC. It has no impact on mortality or long-term sequelae.\nD. It causes more harm than good.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "09e7c2c3-b589-420f-8714-ad8be299dc8b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of improving maternal health care?\nHow do you respond?\nA. To reduce the risk of postpartum sepsis\nB. To prevent pelvic inflammatory disease\nC. To reduce the risk of ectopic pregnancy\nD. To prevent infertility\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "168494eb-4984-4a26-a75f-3343d2539241",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of evacuating retained placental fragments promptly after childbirth?\nHow do you respond?\nA. To prevent infection and reduce the risk of maternal mortality\nB. To ensure proper placenta formation for future pregnancies\nC. To prevent excessive bleeding during delivery\nD. To reduce the risk of breastfeeding complications\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b9ef19f9-f1bf-418f-b6a9-6d5c214d3e1f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of early detection and timely use of antibiotics in preventing postpartum sepsis?\nHow do you respond?\nA. Early detection and timely use of antibiotics can help prevent postpartum sepsis by identifying and treating infections before they become severe.\nB. Early detection and timely use of antibiotics have no role in preventing postpartum sepsis, as it is a genetic condition.\nC. Early detection and timely use of antibiotics can help prevent postpartum sepsis by reducing the risk of mortality or long-term sequelae.\nD. Early detection and timely use of antibiotics can help prevent postpartum sepsis by treating malaria, which is a common cause of sepsis.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "deeda588-3d90-481e-a7d7-04e4f4f63410",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the impact of malaria during pregnancy?\nHow do you respond?\nA. Severe anemia, spontaneous abortion, preterm labor, stillbirth, and low birth weight.\nB.  Congenital anomalies, mental retardation, and blindness.\nC.  Preterm labor, liver failure, and severe hemorrhage.\nD.  Increased risk of getting malaria, cerebral malaria, and severe anemia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "737ebc07-4142-4bea-af47-f6f62a66fa49",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the risk of anemia during pregnancy?\nHow do you respond?\nA. Severe anemia, which can lead to congestive heart failure and hemorrhage.\nB. Mild anemia, which has no significant impact on pregnancy.\nC. Iron deficiency anemia, which can be prevented by taking iron supplements.\nD. Vitamin deficiency anemia, which can be prevented by taking vitamin supplements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9220d46b-e117-40b6-a7a9-77aaca2889b8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the complications of severe hepatitis during pregnancy?\nHow do you respond?\nA. Premature labor, liver failure, and severe hemorrhage\nB. Spontaneous abortion, ectopic pregnancy, and congenital anomalies\nC. Severe anemia, spontaneous abortion, and preterm labor\nD. Stillbirth, poor foetal growth, and low birth weight\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "00d807af-232c-41cc-be89-7cfaae0e7ffc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the consequences of sexually transmitted diseases and pelvic infections during pregnancy?\nHow do you respond?\nA. Infertility, ectopic pregnancy, and congenital anomalies.\nB. Spontaneous abortion, preterm labor, and low birth weight.\nC. Severe anemia, cerebral malaria, and poor foetal growth.\nD. Preterm labour, liver failure, and severe haemorrhage.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2d98a14c-f009-49cc-8825-c62f65fe9284",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the magnitude of Acquired Immuno Deficiency Syndrome (AIDS) during pregnancy?\nHow do you respond?\nA. 16,000 people are infected every day, and there are 3 million infected women.\nB. 3.8 million children are born with HIV.\nC. The chance of transmitting HIV in the uterus for an Ethiopian woman is 35%.\nD. AIDS is expected to be the major cause of maternal mortality.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e1bcda34-d6c0-4e11-9695-1b77b2bff6e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of educating trained birth attendants, women, their families, and community health workers to recognize the early signs of sepsis and seek medical care?\nHow do you respond?\nA. To reduce the risk of mortality or long-term sequelae from postpartum sepsis.\nB. To prevent the spread of sexually transmitted diseases and pelvic infections.\nC. To prevent malaria during pregnancy and its severe consequences.\nD. To reduce the risk of acquiring Immuno Deficiency Syndrome (AIDS) during childbirth.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0cfa87a4-0571-44f1-9406-8f2bd8ad4e91",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is obstructed labour?\nHow do you respond?\nA. Labour that results in the birth of a stillborn baby\nB. Labour that lasts longer than expected and may result in complications such as infection or excessive bleeding\nC. Labour that occurs in a woman who is less than 18 years old\nD. Labour that is assisted by medical professionals using specialized tools or techniques\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d3603d6e-acbe-4460-87e7-63e3a5745fcf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the risks associated with prolonged labour?\nHow do you respond?\nA. Postpartum haemorrhage and infection.\nB. Fetal death due to infection, birth injury, or asphyxia.\nC. Prolonged labour is not associated with any risks.\nD. The mother may experience severe pain.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f237d17f-b89f-480b-9bbf-da8bbaab55cb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can prolonged labour be detected and referred for higher-level care?\nHow do you respond?\nA. By using the partograph to monitor the progress of labour and assessing cervical dilation every four hours.\nB. By conducting prenatal risk screening and early detection and referral of women for whom labour is not progressing at a normal rate.\nC. By promoting abstinence before marriage or faithfulness to one partner and screening blood to prevent HIV transmission.\nD. By providing health education at all levels and addressing specific problems such as religious and cultural issues.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "106dedb0-e03d-4c84-a34b-f901488a6690",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the causes of obstructed labour?\nHow do you respond?\nA. Prolonged labor due to cephalo-pelvic disproportion\nB. Abnormal lie, such as transverse or oblique lie\nC. Malnourished girls who grew up stunted may have small pelvis\nD. Teenage pregnancy\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5d68e0c4-1566-4d20-a78f-595d743d8a5d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the worst consequence of childbirth vesico-vaginal fistula (VVF)?\nHow do you respond?\nA. Prolonged labor\nB. Fetal death\nC. Maternal mortality\nD. Infection\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5b366c72-b054-47d3-a911-d1445f3ff4a1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can health workers in antenatal clinics prevent maternal mortality?\nHow do you respond?\nA. By screening for and addressing risk factors such as malnutrition, anemia, and hypertension.\nB. By providing education on proper hygiene and sanitation practices during pregnancy and childbirth.\nC. By performing routine cesarean sections to prevent prolonged labor and obstructed labor.\nD. By prescribing antibiotics prophylactically to prevent infections during pregnancy and childbirth.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3c579208-52b8-4eb3-a95f-674acf0afaac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of prenatal risk screening and early detection and referral of women for whom labour is not progressing at a normal rate?\nHow do you respond?\nA. To prevent postpartum haemorrhage and infection\nB. To prevent obstructed labour due to abnormal lie\nC. To reduce the risk of teenage pregnancy\nD. To improve decision-making for operative delivery or other interventions\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "681d2366-f2fe-43f7-8f2d-3986d90b0483",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the prevalence of vesico-vaginal fistula (VVF) in sub-Saharan Africa?\nHow do you respond?\nA. High, due to the high incidence of obstructed labor in the region.\nB. Low, due to the widespread availability of maternal healthcare services.\nC. Moderate, as some women in the region have access to healthcare, but many do not.\nD. Unknown, as there is a lack of data on VVF prevalence in sub-Saharan Africa.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "23ec8714-1a96-493e-a8a9-931747fce643",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the most common cause of VVF?\nHow do you respond?\nA. Obstructed labor due to chronic malnutrition or untreated infections in childhood and adolescence.\nB. Prolonged labor resulting from a lack of access to healthcare services.\nC. Previous cesarean section.\nD. Inherited genetic disorders.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7ab19e68-bcdf-47f4-b147-15f3c22b1e56",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the problems encountered by women with VVF?\nHow do you respond?\nA. Rejection by husbands and ostracised by their community for life if untreated.\nB. High blood pressure, generalized edema, and excess protein in the urine.\nC. Convulsions and possible cerebral haemorrhage.\nD. Low-birth-weight infants or fetal death.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "23029c0e-890b-4238-b02f-e433d8f5bc7d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the outcome of untreated pre-eclampsia?\nHow do you respond?\nA. It can lead to eclampsia, which can cause death or severe disability for both the mother and the baby.\nB. It can cause the baby to be born prematurely, leading to low birth weight and increased risk of health problems.\nC. It can cause the mother to experience severe morning sickness and fatigue, but it will not affect the baby.\nD. It will not have any significant impact on the mother or the baby.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9bacac05-fb1f-44d6-a2cd-294ce067565a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of community education in preventing eclampsia?\nHow do you respond?\nA. Community education can help women recognize the danger signs of severe pre-eclampsia and the importance of seeking care immediately in case of convulsions.\nB. Community education can help healthcare providers take blood pressure measurements in a reliable, unbiased fashion.\nC. Community education can help reduce the prevalence of obstructed labor, which is a leading cause of fistula.\nD. Community education has no role in preventing eclampsia.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2c114549-b1c5-48f9-84cf-f3c88afd3553",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two types of abortion?\nHow do you respond?\nA. Spontaneous and induced abortion\nB. Elective and emergency abortion\nC. Therapeutic and unsafe abortion\nD. Unsafe and induced abortion\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d5d72cc1-a43a-4fd2-aba3-6076d0c122e7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the leading cause of maternal mortality in developing countries?\nHow do you respond?\nA. Pre-eclampsia\nB. Unrecognized toxemia\nC. Unsafe abortion\nD. High parity\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "865af3bb-39bf-4006-8203-e1362a9daca2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the demographic risk factors for unsafe abortion?\nHow do you respond?\nA. Age, high parity, and low socioeconomic status\nB. Young age, low parity, and lack of access to contraception\nC. High parity, lack of access to healthcare, and unmarried status\nD. Low socioeconomic status, lack of education, and unmarried status\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "68e450d5-e223-4797-a01b-419933effbdb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why do young girls in Africa often experience complications from unsafe abortion?\nHow do you respond?\nA. Because they lack access to contraception.\nB. Because they tend to deny pregnancy symptoms until they become unmistakable.\nC. Because they are more likely to experience spontaneous abortion.\nD. Because they have less access to relevant information about reproductive health.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "30800fa9-b9c9-4e48-898c-df464cfed807",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the factors leading to unsafe abortion?\nHow do you respond?\nA. Age\nB. High Parity\nC. Lack of access to contraception\nD. All of the above\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "7ec97655-4d4a-47af-9713-78eb053616dd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of gestational age limits for induced abortion?\nHow do you respond?\nA. It allows for abortion only in cases where the fetus is viable outside the womb.\nB. It ensures that abortion is performed before the fetus can feel pain.\nC. It prevents the mother from having an abortion without proper medical supervision.\nD. It allows for abortion at any time during pregnancy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1990e92c-232e-4e24-b541-4b87a571e0d4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the type of abortion (spontaneous or induced) and the care received determine whether the abortion is safe or unsafe?\nHow do you respond?\nA. Spontaneous abortion is always safe, while induced abortion is always unsafe.\nB. The type of abortion does not matter, it is the care received that determines whether the abortion is safe or unsafe.\nC. Induced abortion is safe if performed by a trained professional, while spontaneous abortion is unsafe.\nD. The type of abortion and the care received both play a role in determining whether the abortion is safe or unsafe.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "3d1d1124-d9bf-4083-af74-caf9f23aa628",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the result of pregnancy advancing and leading to complicated abortion?\nHow do you respond?\nA. High parity women have better clinical outcomes.\nB. Adolescents are at a higher risk of complicated abortion.\nC. Women seek abortion when pregnancy occurs in circumstances such as severe hardship, insufficient income, or intense socio-economic deprivation.\nD. Family planning services can bring dramatic change by decreasing abortion-related mortality.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4d0f4162-8c3d-4de4-8e80-043124a3619b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the socio-economic & cultural risk factors for abortion?\nHow do you respond?\nA. High parity women have better clinical outcomes.\nB. Women seek abortion when pregnancy occurs in circumstances such as severe hardship, insufficient income, or intense socio-economic deprivation.\nC. Myths and taboos prevent the use of contraception or value fertility.\nD. Family life education, even during the abortion procedure, can help decrease unwanted pregnancies.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c1dd1081-ce3a-47f4-b2c9-d735aab007a1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the common age group for high-risk groups for complicated abortion?\nHow do you respond?\nA. Adolescents (13-19 years old)\nB. Young adults (20-24 years old)\nC. Middle-aged women (35-44 years old)\nD. Older women (45-55 years old)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1ef123f8-7823-433f-a20e-095ed95878dc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can family planning services help reduce abortion-related mortality?\nHow do you respond?\nA. By providing access to contraception to prevent unwanted pregnancies.\nB. By educating women on the risks associated with abortion.\nC. By promoting abstinence until marriage.\nD. By providing free abortion services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e48cfeb2-7fe9-44c6-9c78-6ab09887232b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the psychosocial problems caused by unwanted pregnancy?\nHow do you respond?\nA. Rejection of the infant, baby battering, baby dumping, and infanticide.\nB. Unwanted pregnancy does not cause any psychosocial problems.\nC. Post-abortion trauma, depression, and anxiety.\nD. Increased risk of contraceptive failure and unintended pregnancy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "77b0053b-cc0c-4689-87d9-843c42f86eed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of family life education during abortion procedures?\nHow do you respond?\nA. To educate women on the risks associated with abortion.\nB. To provide counseling and support to women who have had an abortion.\nC. To educate women on the importance of using contraception to prevent future unwanted pregnancies.\nD. To provide information on the legal and ethical implications of abortion.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6dd7b889-c654-46fe-9b14-889c326aa463",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the changes needed in abortion laws in developing countries?\nHow do you respond?\nA. Legalize abortion on demand.\nB. Allow abortion only in cases of rape, incest, or when the mother's life is in danger.\nC. Ban abortion entirely and impose harsh penalties for those who break the law.\nD. Decriminalize abortion and ensure access to safe and legal abortion services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "6f7133c6-7d28-4f4f-a275-551880e09c8b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: In which countries is FGM most prevalent?\nHow do you respond?\nA. Somalia, Egypt, Sudan, Uganda, and Congo\nB. China, Cuba, Vietnam, India, and Singapore\nC. Zambia, Tunisia, Mozambique\nD. Ethiopia, Nigeria, Kenya, and South Africa\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "acc3e51d-e9eb-4dd6-991e-4b76087f58d6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the estimated prevalence of FGM in Somalia?\nHow do you respond?\nA. 100%\nB. 80%\nC. 50%\nD. 20%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "32f4641d-7e31-44de-8117-0e679ab219dc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the estimated prevalence of FGM in Sudan?\nHow do you respond?\nA. 80%\nB. 50%\nC. 90%\nD. 10%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "99575354-b220-4a61-9cb3-970893a565f6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the estimated prevalence of FGM in Uganda and Congo?\nHow do you respond?\nA. 5-10%\nB. 80-90%\nC. 100%\nD. 0%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5539a4cf-941c-4a95-9d7f-c4c3c82768b8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the estimated prevalence of FGM in Ethiopia?\nHow do you respond?\nA. 80-90%\nB. 50%\nC. 20%\nD. 10%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5e2901e8-a070-4cb8-b6e9-b07133c19c3b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the most severe form of FGM?\nHow do you respond?\nA. Sunna\nB. Excision\nC. Radical Circumcision or Infibulation\nD. Clitoral Prepuce\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5a587357-49bb-43c7-ab50-54e906e1914b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main cause of maternal mortality in developing countries?\nHow do you respond?\nA. Inadequate management of complications of pregnancy\nB. Lack of access to modern health services\nC. Nutritional deficiency\nD. Infection during delivery\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2d6599ed-d226-476b-93a7-618a460ade0c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of reducing FGM?\nHow do you respond?\nA. To eliminate the practice of FGM, a violation of human rights.\nB. To reduce the risk of infection and other health complications associated with FGM.\nC. To promote cultural and traditional practices.\nD. To increase the rate of trans placental transmission.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "739e3d47-65c8-4855-807b-3cd1a87e907a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between maternal mortality and developed/non-developed countries?\nHow do you respond?\nA. Maternal mortality is higher in developed countries than in non-developed countries.\nB. Maternal mortality shows a greater disparity between developed and non-developed countries than most other health indicators.\nC. Maternal mortality is lower in developed countries than in non-developed countries.\nD. There is no relationship between maternal mortality and developed/non-developed countries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "aad56a88-0577-49f2-a73a-f3d19d10f7ac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does AIDS affect maternal health?\nHow do you respond?\nA. AIDS may lead to a doubling of maternal mortality.\nB. AIDS has no impact on maternal health.\nC. AIDS can cause chronic pelvic sepsis leading to infertility.\nD. AIDS can result in blocking the birth canal, causing obstructed labor.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "abd79e25-564e-4b69-aa68-e81e988f53a7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Family Planning Services?\nHow do you respond?\nA. To promote the health of women and families and to reduce the high MMR, IMR, and CMR.\nB. To prevent maternal mortality by reducing exposure to pregnancy and childbirth.\nC. To prevent unwanted pregnancies and abortions.\nD. To promote sustainable growth and decrease dependency ratio.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "52afa084-df7c-4ee4-9b55-4634cf0fd969",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the objective of Family Planning Services in Ethiopia?\nHow do you respond?\nA. To reduce fertility rate and population growth\nB. To promote maternal and child health\nC. To prevent unwanted pregnancies and abortions\nD. To increase sustainable growth and decrease dependency ratio\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "d468127a-c309-4408-bda1-dd980319082a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different types of Family Planning Methods?\nHow do you respond?\nA. Natural methods, Technical methods, Permanent contraception\nB. Hormonal methods, Mechanical and chemical methods, Post coital contraception\nC. Breast feeding as a contraceptive, Abstinence, Withdrawal (Coitus interrupts)\nD. Female sterilisation, Male sterilisation, Community-based providers with appropriate training\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5c784ed7-4b94-498a-9907-39636ff6fc57",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the benefits of Family Planning Services?\nHow do you respond?\nA. It helps to avoid closely spaced, frequently ill children, LBW newborns, and slow growth of children.\nB. It reduces the high MMR, IMR, and CMR.\nC. It promotes the health of women and families and is part of a strategy to reduce maternal mortality.\nD. It prevents maternal mortality by reducing exposure to pregnancy and childbirth.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "7ccc5e02-2e26-4e51-bb02-6b44d47d35c7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of Community-Based Distribution Services (CBD) in Family Planning Services?\nHow do you respond?\nA. To provide family planning counseling and advice to individuals.\nB. To distribute contraceptives and provide basic family planning information to communities.\nC. To manage and coordinate all family planning services, including facility-based and outreach services.\nD. To promote breastfeeding as a contraceptive method.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "42a5006f-bb46-48b5-850a-7e77e0d017b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of Social Marketing in Family Planning Services?\nHow do you respond?\nA. To promote the use of contraceptives and increase awareness about family planning methods.\nB. To provide family planning services through community-based providers.\nC. To reduce the high MMR, IMR, and CMR by promoting healthy pregnancy and childbirth practices.\nD. To offer counseling and advice on family planning methods to infertile couples.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "82512c9e-b881-4953-981d-a191bef135d2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can Family Planning Services help in reducing Maternal and Child Mortality?\nHow do you respond?\nA. By preventing unwanted pregnancies and reducing the risk of maternal mortality.\nB. By promoting breastfeeding as a contraceptive method.\nC. By providing immunization services to children.\nD. By offering antenatal care and management of complications during pregnancy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8d50764d-641f-4e6c-b903-bcbd00a63846",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the most popular method of contraception in China?\nHow do you respond?\nA. Female sterilization\nB. IUD\nC. The pill\nD. Barrier methods\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c2caddbf-da79-4924-af73-c95eb918e0b9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the leading method of contraception worldwide?\nHow do you respond?\nA. Female sterilization\nB. Male sterilization\nC. Oral contraceptives\nD. IUD\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "458d3009-bba4-45ad-9951-19895650be49",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can family planning programs be effective?\nHow do you respond?\nA. Access to services, contraceptive diversity, counseling, and collaboration with the private sector.\nB. Access to services, contraceptive diversity, counseling, and targeting women who have had abortions.\nC. Access to services, contraceptive diversity, counseling, and strategic management.\nD. Access to services, contraceptive diversity, counseling, and focus on reducing fertility.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "29e49ec8-df0e-4fdf-8e23-534e9ee847fa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the relationship between contraceptive use and maternal mortality ratio?\nHow do you respond?\nA. Contraceptive use has a direct impact on the risk of death once pregnant.\nB. Increasing contraceptive prevalence could lead to a decline in fertility, which means that first births, which are riskier, will increase as a proportion of all births, resulting in an increase in the maternal mortality ratio.\nC. Contraceptive use has no direct effect on the risk of death once pregnant; therefore, increasing contraceptive prevalence would not change the risk of death once pregnant.\nD. Contraceptive use significantly reduces the risk of maternal mortality ratio.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4bd55700-aab3-40d7-af5b-d666bbe8ffa5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the major cause of death among reproductive-age women in many developing countries?\nHow do you respond?\nA. Maternal mortality due to unsafe abortion\nB. Maternal mortality due to pregnancy and childbirth complications\nC. Death due to HIV infection\nD. Death due to sexually transmitted diseases\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0ea9ffc7-2f29-4cdc-abb0-aff9d5c7723e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the use of contraceptives affect the risk of death once pregnant?\nHow do you respond?\nA. It directly decreases the risk of death once pregnant.\nB. It has no direct effect on the risk of death once pregnant.\nC. It increases the risk of death once pregnant.\nD. It decreases the risk of death once pregnant, but only for women who have had abortions before.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a448e782-ddfb-468b-a15d-2b27fd20e151",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the benefit of using barrier methods?\nHow do you respond?\nA. They protect against HIV infection and sexually transmitted diseases.\nB. They have a high success rate in preventing pregnancy.\nC. They are easy to use and require minimal skill.\nD. They have a low risk of side effects and are reversible.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "997fb5a1-dfa9-43e0-9d53-701bb377c3d8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can community-based distribution programs be effective in promoting family planning?\nHow do you respond?\nA. By providing access to services through public and private health facilities and community-based distribution networks.\nB. By offering counseling by healthcare providers trained to respect clients' concerns and sensibilities.\nC. By targeting women known to have had abortions in family planning efforts.\nD. By providing only one type of contraceptive method to meet varying family planning needs.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a24244d9-58cb-444a-b684-a723f640f57d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the private sector in promoting family planning?\nHow do you respond?\nA. The private sector can collaborate with public health facilities to reach more people.\nB. The private sector has no role in promoting family planning.\nC. The private sector should provide contraceptives only to high-risk individuals.\nD. The private sector should focus on providing abortion services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                }
+            ]
+        }
+    ]
+}

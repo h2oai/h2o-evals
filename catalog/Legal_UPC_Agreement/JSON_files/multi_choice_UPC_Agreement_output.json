@@ -1,0 +1,738 @@
+{
+    "tests": [
+        {
+            "key": "e60d21e1-aa4c-4918-a994-b9e7fc4ada46",
+            "documents": [
+                "UPC_Agreement.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "b3028eb6-c812-44f8-86e8-7659eee1413c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the European Patent Convention (EPC) in relation to the Unified Patent Court?\nHow do you respond?\nA. The EPC established the Unified Patent Court and its procedures.\nB. The EPC provides for a single procedure for granting European patents by the European Patent Office, which can then be litigated at the Unified Patent Court.\nC. The EPC gives the Unified Patent Court exclusive competence in respect of European patents with unitary effect and European patents granted under the provisions of the EPC.\nD. The EPC is not relevant to the Unified Patent Court, as it only applies to national patent laws.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b55abee8-fa92-4131-9505-2cb63db543fa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the Unified Patent Court being a court common to the Contracting Member States?\nHow do you respond?\nA. It will have exclusive competence in respect of European patents with unitary effect and European patents granted under the provisions of the EPC.\nB. It will ensure the uniformity of the Union legal order and the primacy of European Union law.\nC. It will provide a single procedure for granting European patents by the European Patent Office.\nD. It will ensure that the Court of Justice of the European Union can enforce patents and defend against unfounded claims and patents which should be revoked.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "466b4109-e5cd-49d2-819e-2114e22b708b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the Unified Patent Court ensure legal certainty?\nHow do you respond?\nA. By setting up a Unified Patent Court for litigation relating to the infringement and validity of patents.\nB. By ensuring expeditious and high-quality decisions that strike a fair balance between the interests of right holders and other parties.\nC. By granting unitary effect to European patents so as to obtain unitary patent protection in the Member States of the European Union participating in the enhanced cooperation.\nD. By providing a single procedure for granting European patents by the European Patent Office.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ebc49514-0267-477d-892d-88ea37f1f6b4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can any Member State of the European Union join the Agreement?\nHow do you respond?\nA. Yes, any Member State of the European Union can join the Agreement.\nB. No, only the three States in which the highest number of European patents was in force in the year preceding the year in which the signature of the Agreement takes place can join the Agreement.\nC. No, only the Member States that have decided not to participate in the enhanced cooperation in the area of the creation of unitary patent protection can join the Agreement.\nD. No, the Agreement is only open to accession by the Member States that have ratified or acceded to Regulation (EU) No 1215/2012.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "b678540c-7a27-4283-8b8d-a6307406be77",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of \"Member State\" in the Agreement?\nHow do you respond?\nA. A member state of the European Union.\nB. A contracting member state party to this agreement.\nC. A state that has decided not to participate in the enhanced cooperation in the area of the creation of unitary patent protection.\nD. A state that has ratified or acceded to the agreement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "11fb6635-392b-4410-bef0-1f25deb20359",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Agreement?\nHow do you respond?\nA. To establish the Unified Patent Court\nB. To grant patents with unitary effect\nC. To regulate the recognition and enforcement of judgments in civil and commercial matters\nD. To create a supplementary protection certificate\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a3f2c833-15d7-4c63-849a-ab41503cadf3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the legal status of the Court?\nHow do you respond?\nA. The Court has legal personality in each Contracting Member State and shall enjoy the most extensive legal capacity accorded to legal persons under the national law of that State.\nB. The Court is a non-profit organization that has no legal personality or capacity.\nC. The Court is a private entity that can be sued for its actions.\nD. The Court is an international organization that operates outside the legal framework of the European Union.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a3fde7b3-ae08-46db-9229-46db8b80c5b8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Regulation (EC) No 593/2008 of the European Parliament and of the Council?\nHow do you respond?\nA. To establish the law applicable to contractual obligations (Rome I)\nB. To establish the law applicable to non-contractual obligations (Rome II)\nC. To create a supplementary certificate for plant protection products\nD. To set up a regional division for two or more Contracting Member States\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1d868e9b-5409-4230-8b5b-baad101287d6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where will the central division of the Court of First Instance have its seat?\nHow do you respond?\nA. London\nB. Paris\nC. Munich\nD. Rome\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e7afbb76-f9f6-41de-bc07-9d89d2c9b052",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a local division be set up in a Contracting Member State?\nHow do you respond?\nA. Yes, upon request by the Contracting Member State.\nB. No, only a regional division can be set up.\nC. Yes, if the Contracting Member State has more than 100 patent cases per year.\nD. No, the central division shall have jurisdiction over all cases.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f4aed57a-3297-4a2d-b66f-5c036792b289",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many local divisions can be set up in one Contracting Member State?\nHow do you respond?\nA. 1\nB. 2\nC. 3\nD. 4\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "d0f280df-4f47-4f3a-9864-4f44fad9dd1e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a regional division be set up for two or more Contracting Member States?\nHow do you respond?\nA. Yes, a regional division can be set up for two or more Contracting Member States.\nB. No, a regional division can only be set up for one Contracting Member State.\nC. Yes, but only if the Contracting Member States have a shared border.\nD. No, regional divisions are not allowed under the Agreement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "813e6547-0cc1-4340-b936-9fd8c0c8613f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a technically qualified judge be allocated to a panel of a local or regional division?\nHow do you respond?\nA. Yes, upon request by one of the parties.\nB. No, technically qualified judges are only allocated to the central division.\nC. Yes, only if the panel is hearing a case in a field of technology that requires specialized expertise.\nD. No, the panels of local and regional divisions must consist only of legally qualified judges.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1acc74df-c645-4438-80e8-5bf6594d7393",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum number of judges that a panel of a local or regional division must have?\nHow do you respond?\nA. 1 judge\nB. 2 judges\nC. 3 judges\nD. 5 judges\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "52d7c8b4-69d0-4f2c-b903-63d427078b32",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the composition of a panel of the central division dealing with actions under Article 32(1)(i)?\nHow do you respond?\nA. Three legally qualified judges who are nationals of different Contracting Member States.\nB. Two legally qualified judges who are nationals of different Contracting Member States and one technically qualified judge allocated from the Pool of Judges in accordance with Article 18(3) with qualifications and experience in the field of technology concerned.\nC. Three technically qualified judges allocated from the Pool of Judges in accordance with Article 18(3) with qualifications and experience in the field of technology concerned.\nD. One legally qualified judge who is a national of a Contracting Member State and two technically qualified judges allocated from the Pool of Judges in accordance with Article 18(3) with qualifications and experience in the field of technology concerned.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "556225f7-27b6-45cb-967a-bf4e8fea6947",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can parties agree to have their case heard by a single legally qualified judge?\nHow do you respond?\nA. Yes, in accordance with Article 7 of the Agreement.\nB. No, parties cannot agree to have their case heard by a single legally qualified judge.\nC. Only if the case is dealing with actions under Article 32(1)(i).\nD. Only if the parties are from the same Contracting Member State.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "576631b0-6d96-4dd1-b7e6-719b3b4f91d2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who chairs a panel of the Court of First Instance?\nHow do you respond?\nA. A technically qualified judge allocated from the Pool of Judges.\nB. A legally qualified judge.\nC. The President of the Court of Appeal.\nD. The Registrar.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0d606b66-1a80-4c57-96bd-5cc27d66eb1f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many judges sit on a panel of the Court of Appeal?\nHow do you respond?\nA. Three judges (one legally qualified judge and two technically qualified judges)\nB. Five judges (three legally qualified judges and two technically qualified judges)\nC. Seven judges (three legally qualified judges, two technically qualified judges, and two additional judges)\nD. Nine judges (three legally qualified judges, two technically qualified judges, and four additional judges)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d10106f1-5b0b-4666-82d0-7e5e59f583b3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where is the seat of the Court of Appeal?\nHow do you respond?\nA. Luxembourg\nB. The Hague\nC. Brussels\nD. Strasbourg\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e0387ebd-5daf-4483-ae96-91197717e06c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Registrar?\nHow do you respond?\nA. To manage the Registry and perform the functions assigned to it in accordance with the Statute.\nB. To set up sub-registries at all divisions of the Court of First Instance.\nC. To appoint the Registrar in accordance with Article 22 of the Statute.\nD. To ensure the effective implementation and operation of this Agreement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4fd508d4-7cdb-4889-8e31-f83b2463b133",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many years is the term of office for the chairperson of the Budget Committee?\nHow do you respond?\nA. 2 years\nB. 3 years\nC. 4 years\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b07475c1-5e77-4d3f-b8bc-36072fa28529",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum number of votes required for the adoption of the budget by the Budget Committee?\nHow do you respond?\nA. A simple majority of the representatives of the Contracting Member States.\nB. A majority of three-quarters of the representatives of the Contracting Member States.\nC. Two-thirds of the representatives of the Contracting Member States.\nD. One-half of the representatives of the Contracting Member States.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3b3a672d-dcca-4d15-9b88-06843ac28cbf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Advisory Committee in the appointment of judges of the Court?\nHow do you respond?\nA. The Advisory Committee shall establish a list of the most suitable candidates to be appointed as judges of the Court.\nB. The Advisory Committee shall appoint the judges of the Court acting by common accord.\nC. The Advisory Committee shall assist the Administrative Committee in the preparation of the appointment of judges of the Court.\nD. The Advisory Committee shall make proposals to the Presidium referred to in Article 15 of the Statute on the guidelines for the training framework for judges referred to in Article 19.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "6a98a3e7-fda2-4b54-bd5a-4b7eb7581b99",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the three criteria for the eligibility of technically qualified judges?\nHow do you respond?\nA. A university degree and proven expertise in a field of technology, proven knowledge of civil law and procedure relevant in patent litigation, and a minimum of five years of experience in patent litigation.\nB. A university degree and proven expertise in a field of technology, proven knowledge of civil law and procedure relevant in patent litigation, and a minimum of ten years of experience in patent litigation.\nC. A degree in law and proven expertise in a field of technology, proven knowledge of civil law and procedure relevant in patent litigation, and a minimum of five years of experience in patent litigation.\nD. A degree in law and proven expertise in a field of technology, proven knowledge of civil law and procedure relevant in patent litigation, and a minimum of ten years of experience in patent litigation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e9523121-6a3e-4d02-a2e0-40d60c49c872",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the term of office for part-time technically qualified judges of the Court?\nHow do you respond?\nA. Three years, renewable.\nB. Six years, renewable.\nC. Nine years, non-renewable.\nD. Indefinite, subject to annual review.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "02f77a22-2ed5-4e59-a1af-eeff575ff9ca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Pool of Judges?\nHow do you respond?\nA. To establish a list of the most suitable candidates to be appointed as judges of the Court.\nB. To appoint the judges of the Court acting by common accord.\nC. To ensure the highest standards of competence and proven experience in the field of patent litigation.\nD. To grant exceptions for judges to engage in other occupations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7b170f35-9d2a-4049-86ac-363e048699aa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum number of representatives of Contracting Member States required for the adoption of decisions by the Budget Committee?\nHow do you respond?\nA. A simple majority of the representatives of the Contracting Member States.\nB. A majority of three-quarters of the representatives of the Contracting Member States.\nC. One representative from each Contracting Member State.\nD. Two representatives from each Contracting Member State.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2ea374a9-0688-4079-87c0-3b1f88c021b2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of technically qualified judges in the Court of First Instance?\nHow do you respond?\nA. They are full-time judges of the Court of Appeal.\nB. They are part-time judges of the Court of First Instance who are allocated to the division concerned by the President of the Court of First Instance.\nC. They are judges from the Pool of Judges who are available to the Court of Appeal.\nD. They are responsible for the training framework for judges.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "765f8e3b-ea52-45ea-a10f-e78eddd77419",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens in case of a conflict of interest for a judge?\nHow do you respond?\nA. The judge concerned shall not take part in proceedings.\nB. The judge concerned shall take part in proceedings despite the conflict of interest.\nC. The judge concerned shall be replaced by another judge.\nD. The judge concerned shall be penalized.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fdba01fb-e08b-404c-8c48-2338bb8190cb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How often does the training framework provide for continuous training?\nHow do you respond?\nA. Daily\nB. Weekly\nC. Monthly\nD. Yearly\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "1526386d-e0c1-414a-b0dd-d1127e5a6222",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can an action for damages resulting from an infringement of Union law by the Court of Appeal be brought?\nHow do you respond?\nA. Before the Court of Justice of the European Union\nB. Before the competent authority of the Contracting Member State where the claimant has its residence or principal place of business\nC. Before the competent authority of the Contracting Member State where the Court of Appeal has its seat\nD. Before any national court of a Contracting Member State\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "eaf5fc9d-243f-41f4-9502-8bff37179ed8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the competent authority in relation to the lex fori?\nHow do you respond?\nA. The competent authority shall apply the lex fori to all questions not regulated by Union law or by this Agreement.\nB. The competent authority shall apply the lex fori only to questions regulated by Union law or by this Agreement.\nC. The competent authority shall not apply the lex fori to any question.\nD. The competent authority shall apply the lex fori only to disputes involving nationals of non-Contracting Member States.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0a8af5bf-702a-426e-9fe8-2903ed4c220e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the claimant entitled to obtain from the competent authority?\nHow do you respond?\nA. Damages awarded by the competent authority from the Contracting Member State against which the action was brought.\nB. Proportional contribution established in accordance with the method laid down in Article 37(3) and (4) from the other Contracting Member States.\nC. An injunction to prevent further infringement of the patent.\nD. Declaration of non-infringement of the patent.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0190c5b5-a995-4404-bd3b-765f291505ab",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How will the Contracting Member States' contribution be determined?\nHow do you respond?\nA. According to the method laid down in Article 37(3) and (4) of the Agreement.\nB. According to the discretion of the Administrative Committee.\nC. According to the national law of each Contracting Member State.\nD. According to the decision of the Court.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bf9c36ca-d77b-4a31-bd67-e2f0c8a4c3e2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the sources of law that the Court shall base its decisions on?\nHow do you respond?\nA. Union law, national law, and international agreements.\nB. National law, international agreements, and the EPC.\nC. Union law, the EPC, and national law.\nD. International agreements, national law, and the EPC.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "93792a1d-2f6f-4868-b9b0-c1d7e6fe1aab",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Article 27 of the patent law?\nHow do you respond?\nA. To limit the scope of patent protection\nB. To extend the scope of patent protection\nC. To provide exclusive rights to patent holders\nD. To promote innovation and technological progress\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fddb8ffb-3ae6-4e1d-bd34-82ee55c30372",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the exception for \"experimental purposes relating to the subject-matter of the patented invention\"?\nHow do you respond?\nA. To allow farmers to use patented seeds for propagation and multiplication.\nB. To enable researchers to conduct experiments without infringing on patent rights.\nC. To permit the use of patented inventions for non-commercial purposes.\nD. To allow pharmacies to prepare medicines extemporaneously for individual cases.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a5832701-8915-4ffb-94c7-de916e5e635c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the exception for \"the acts allowed pursuant to Article 13(6) of Directive 2001/82/EC or Article 10(6) of Directive 2001/83/EC\"?\nHow do you respond?\nA. To allow farmers to use patented inventions for agricultural purposes without infringing on the patent rights.\nB. To enable pharmacies to prepare medicines extemporaneously for individual cases without infringing on the patent rights.\nC. To permit the use of patented inventions for experimental purposes relating to the subject matter of the patented invention.\nD. To allow the use of patented inventions on board vessels of countries of the International Union for the Protection of Industrial Property (Paris Union) or members of the World Trade Organisation, other than those Contracting Member States in which that patent has effect.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "05e91fc3-63e9-49da-ad7e-1b54f4698264",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the exception for \"the use of the patented invention on board vessels of countries of the International Union for the Protection of Industrial Property (Paris Union) or members of the World Trade Organisation\"?\nHow do you respond?\nA. To allow the use of patented inventions on board vessels for commercial purposes.\nB. To permit the use of patented inventions on board vessels for non-commercial purposes, such as scientific research.\nC. To allow the use of patented inventions on board vessels for the purpose of repairing or maintaining the vessel.\nD. To permit the use of patented inventions on board vessels for the purpose of temporarily or accidentally entering the waters of a Contracting Member State in which that patent has effect.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "dff5e13b-d63e-4d87-88db-b5bcfc5cdd2c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the exception for \"the use by a farmer of protected livestock for an agricultural purpose\"?\nHow do you respond?\nA. To allow farmers to sell protected livestock for commercial purposes.\nB. To enable farmers to use protected livestock for agricultural purposes without infringing on the patent rights of the breeder.\nC. To promote the development of new breeds of livestock.\nD. To restrict the use of protected livestock to only certain farmers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "519cc9c8-0d73-4159-b732-86fbb3b3ed1a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Article 28 of the text?\nHow do you respond?\nA. To establish the international jurisdiction of the Court.\nB. To confer the same rights as conferred by the patent and shall be subject to the same limitations and the same obligations.\nC. To provide that the national courts of the Contracting Member States shall remain competent for actions relating to patents and supplementary protection certificates which do not come within the exclusive competence of the Court.\nD. To indicate that the intended victim(s) was/were.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8443d461-dca8-4e92-bb32-51ca58351d9b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the international jurisdiction of the Court established in accordance with?\nHow do you respond?\nA. Regulation (EU) No 1215/2012\nB. The Convention on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters (Lugano Convention)\nC. Directive 2009/24/EC\nD. Directive 98/44/EC\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9eefc261-ad5a-43da-ace8-4fddb0b96678",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Regulation (EU) No 1257/2012 according to the text?\nHow do you respond?\nA. To establish the European Patent Office and define its tasks\nB. To provide for the creation of supplementary protection certificates\nC. To confer the same rights as conferred by the patent and shall be subject to the same limitations and the same obligations.\nD. To establish the Court's exclusive competence in respect of actions for actual or threatened infringements of patents and supplementary protection certificates.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "334d9d79-cd14-4070-ad99-a033df59d65c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where should actions referred to in Article 32(1)(b) and (d) be brought?\nHow do you respond?\nA. The local or regional division in accordance with point (b) of the first subparagraph of Article 33(1).\nB. The central division.\nC. The local division hosted by the Contracting Member State where the actual or threatened infringement has occurred or may occur, or the regional division in which that Contracting Member State participates.\nD. The regional division in which the defendant or, in the case of multiple defendants, one of the defendants has its residence, or principal place of business, or in the absence of residence or principal place of business, its place of business.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3bf07024-a41b-4bff-be3a-831b8aa88dd6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the scope of decisions made by the Court in relation to European patents?\nHow do you respond?\nA. The decisions of the Court shall cover the territory of the Contracting Member State in which the European patent has effect.\nB. The decisions of the Court shall cover the territory of all Contracting Member States.\nC. The decisions of the Court shall cover the territory of the Contracting Member State in which the local division that heard the case is located.\nD. The decisions of the Court shall cover the territory of the Contracting Member State in which the central division is located.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "96a250ed-c1d2-4280-a582-615b886b334c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can parties agree to bring actions referred to in Article 32(1)(a) to (h) before the division of their choice?\nHow do you respond?\nA. Yes, but only if the action is an infringement action.\nB. Yes, but only if the parties have previously agreed on a specific division.\nC. Yes, for all actions referred to in Article 32(1)(a) to (h).\nD. No, the central division shall have jurisdiction over all actions referred to in Article 32(1)(a) to (h).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "02918406-3169-4463-8f19-86010706160e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where are the seats of the patent mediation and arbitration centre established under Article 35?\nHow do you respond?\nA. Ljubljana and Lisbon\nB. The Hague and Vienna\nC. Paris and London\nD. Berlin and Rome\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "13f14c2b-5ef9-4415-afcf-82ee9de03e46",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a patent be revoked or limited in mediation or arbitration proceedings?\nHow do you respond?\nA. Yes, a patent can be revoked or limited in mediation or arbitration proceedings.\nB. No, a patent cannot be revoked or limited in mediation or arbitration proceedings.\nC. Yes, a patent can be revoked but not limited in mediation or arbitration proceedings.\nD. No, a patent can be limited but not revoked in mediation or arbitration proceedings.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3a447772-7725-4f00-9cbc-a6f0401f5f11",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who shall inform the Court of any pending revocation, limitation or opposition proceedings before the European Patent Office, and of any request for accelerated processing before the European Patent Office?\nHow do you respond?\nA. The European Patent Office.\nB. The party requesting a declaration of non-infringement.\nC. The holder of an exclusive licence.\nD. The applicant.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "67ddb00e-93ac-4411-8a53-3d8860b809ed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens after the end of the initial transitional period?\nHow do you respond?\nA. The Contracting Member States shall remit special financial contributions to the Court.\nB. The Court shall become self-financing, and no contributions shall be necessary.\nC. The training framework for judges shall be financed by the budget of the Court.\nD. The Contracting Member States concerned shall provide administrative support staff without prejudice to the Statute of that staff.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d7b6e0f4-6b3f-43b2-b728-1a4060c25600",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How will the operating costs of the Centre be financed?\nHow do you respond?\nA. By the budget of the Court\nB. By the Contracting Member States\nC. By the European Commission\nD. By the initial financial contributions of the Contracting Member States\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1531d2ae-acff-4cd9-8aed-0f8bf81922ab",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the consultation with stakeholders in adopting the Rules of Procedure?\nHow do you respond?\nA. To ensure that the Rules of Procedure comply with Union law.\nB. To guarantee that the functioning of the Court is organized in the most efficient and cost-effective manner.\nC. To lay down the details of the proceedings before the Court.\nD. To ensure equitable access to justice.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "df8afc2f-1ac5-4268-9440-a245e4cdba33",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Rules of Procedure for the Unified Patent Court?\nHow do you respond?\nA. To provide a fair balance between the legitimate interests of all parties.\nB. To ensure that the decisions of the Court are of the highest quality.\nC. To guarantee that the proceedings are organized in the most efficient and cost-effective manner.\nD. To provide a framework for the Court to actively manage cases without impairing the freedom of the parties.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "9eda4065-3afe-4159-848d-2437acbefbdf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who shall adopt the Rules of Procedure for the Unified Patent Court?\nHow do you respond?\nA. The European Commission\nB. The Administrative Committee\nC. The Court\nD. The European Patent Office\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e291679a-e434-4fce-a064-f54f60e33751",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How may the Rules of Procedure be amended?\nHow do you respond?\nA. By a decision of the Administrative Committee, on the basis of a proposal from the Court and after consultation with the European Commission.\nB. By a decision of the European Commission, on the basis of a proposal from the Court and after consultation with the Administrative Committee.\nC. By a decision of the Court, on the basis of a proposal from the Administrative Committee and after consultation with the European Commission.\nD. By a decision of the parties to the dispute, on the basis of a proposal from the Court and after consultation with the Administrative Committee.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9897cff1-0f4e-4e60-9833-12aded64ffe9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the requirement for the Rules of Procedure in relation to the compatibility with Union law?\nHow do you respond?\nA. The Rules of Procedure must be compatible with Union law, and the European Commission's prior opinion on compatibility shall be requested.\nB. The Rules of Procedure must not contradict or alter this Agreement or the Statute.\nC. The Rules of Procedure shall ensure a fair balance between the legitimate interests of all parties.\nD. The Rules of Procedure may be amended by a decision of the Administrative Committee, on the basis of a proposal from the Court and after consultation with the European Commission.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "43561f03-be1b-4b1d-9c58-dc6bd0dc6dc6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are proceedings before the Court open to the public?\nHow do you respond?\nA. Yes, proceedings before the Court are always open to the public.\nB. No, proceedings before the Court are always confidential.\nC. Yes, proceedings before the Court are open to the public, unless the Court decides to make them confidential.\nD. No, proceedings before the Court are open to the public, but only for certain types of cases.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "97cbd342-b87e-4ab0-872a-e0f126955461",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who has the capacity to be a party to the proceedings before the Court?\nHow do you respond?\nA. The patent proprietor and the holder of an exclusive licence.\nB. Any natural or legal person, or any body equivalent to a legal person entitled to initiate proceedings in accordance with its national law.\nC. The European Patent Office.\nD. The holder of a non-exclusive licence.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2f70e3d9-7f95-494e-ba60-c20cd0e79fbc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who may bring actions before the Court in relation to a patent?\nHow do you respond?\nA. The patent proprietor and the holder of an exclusive license.\nB. The holder of a non-exclusive license, the patent proprietor, and any other natural or legal person concerned by the patent.\nC. The European Patent Office, the patent proprietor, and the holder of an exclusive license.\nD. Any natural or legal person, or any body entitled to bring actions in accordance with its national law, who is concerned by a patent.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "4addb0b2-58aa-49a4-a77e-fb86d0b8b109",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How shall parties be represented in proceedings before the Court?\nHow do you respond?\nA. Parties shall be represented by lawyers authorized to practice before a court of a Contracting Member State.\nB. Parties may alternatively be represented by European Patent Attorneys who are entitled to act as professional representatives before the European Patent Office pursuant to Article 134 of the EPC and who have appropriate qualifications such as a European Patent Litigation Certificate.\nC. Parties shall be represented by legal persons entitled to bring actions in accordance with their national law.\nD. Parties may be represented by any natural or legal person concerned by a patent.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "aaafffd8-a28d-4ed2-a2f4-377adad6f3c1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the requirements for qualifications for European Patent Attorneys to represent parties before the Court?\nHow do you respond?\nA. They must have a European Patent Litigation Certificate and appropriate qualifications.\nB. They must be authorized to practice before a court of a Contracting Member State.\nC. They must have expertise in patent law and procedure.\nD. They must be registered with the European Patent Office.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "94dc0ba2-3f82-48d8-b65c-4d134eeeb8b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can the panel of the Court of First Instance and the Court of Appeal dispense with translation requirements?\nHow do you respond?\nA. Yes, in all cases.\nB. Yes, to the extent deemed appropriate.\nC. No, translation requirements are mandatory.\nD. Yes, only in cases where an action for infringement is brought before the central division.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d54afa00-42ff-4e4f-adb2-9871b9247678",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can the Court of First Instance and the Court of Appeal provide interpretation facilities to assist parties at oral proceedings?\nHow do you respond?\nA. Yes, to the extent deemed appropriate and at the request of one of the parties.\nB. No, the Court of First Instance and the Court of Appeal do not have the power to provide interpretation facilities.\nC. Yes, but only for parties that have their residence, principal place of business, or place of business in a Member State.\nD. Yes, but only for parties that do not have proper knowledge of the language of the proceedings.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f52fb265-1f31-49cb-99de-fd9acccc2da0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a defendant obtain translations of relevant documents in the language of the Member State of residence, principal place of business or, in the absence of residence or principal place of business, place of business?\nHow do you respond?\nA. Yes, in all cases where the defendant does not have proper knowledge of the language of the proceedings.\nB. Yes, only if the language of proceedings at the central division is a language which is not an official language of the Member State where the defendant has its residence, principal place of business or, in the absence of residence or principal place of business, place of business.\nC. No, the defendant must always have proper knowledge of the language of the proceedings.\nD. Yes, only if the defendant has its residence, principal place of business or, in the absence of residence or principal place of business, place of business in a Member State where the language of the proceedings is not an official language.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b0610cdb-9e46-498b-90e0-dc93c0c10384",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the interim procedure?\nHow do you respond?\nA. To explore with parties the possibility of a settlement, including through mediation and/or arbitration.\nB. To hear the parties and give them an opportunity to explain their arguments.\nC. To dispense with the oral hearing.\nD. To provide interpretation facilities to assist the parties concerned at oral proceedings.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b5052644-85d8-448b-8b22-6e4f981ad3ce",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the burden of proof in proceedings before the Court?\nHow do you respond?\nA. The burden of proof is on the party opposing the patent proprietor.\nB. The burden of proof is on the party relying on the facts.\nC. The burden of proof is on the patent proprietor.\nD. The burden of proof is on the party that filed the lawsuit.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                }
+            ]
+        }
+    ]
+}

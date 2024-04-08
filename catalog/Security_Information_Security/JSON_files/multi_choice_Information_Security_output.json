@@ -1,0 +1,826 @@
+{
+    "tests": [
+        {
+            "key": "eb9e7282-0cf9-4b9b-b3f9-f4c067871078",
+            "documents": [
+                "Information_Security.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "490ce1e8-a15a-4422-846d-83aff895733e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus of the module series?\nHow do you respond?\nA. To provide technical manuals for ICT policymaking\nB. To develop familiarity with the substantive issues related to ICTD from both a policy and technology perspective\nC. To train policymakers on the social and policy implications of technologies they are developing and using\nD. To regulate the ICT industry or sector of the economy\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0c786c62-dfbf-4d5d-a7fa-7a6b04b2845e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the \"digital economy\" in today's world?\nHow do you respond?\nA. It refers to the production of goods and services using digital technologies.\nB. It is a shift from the production of goods to the creation of ideas.\nC. It is the use of ICTs to stimulate economic growth and social development.\nD. It is the development of the ICT industry or sector of the economy.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "89cda672-3467-4b97-be51-795f04a39b13",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the difficulties that governments face in formulating ICT policy?\nHow do you respond?\nA. Unfamiliarity with rapidly changing technology landscape\nB. Lack of technologists to help with policymaking\nC. Limited resources to invest in ICT infrastructure\nD. Resistance from the public to adopt new technologies\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0b5800ef-234a-4e42-83b7-888611181e5d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are the modules designed?\nHow do you respond?\nA. The modules are designed to be used for self-study by individuals or as a resource in a training course or program.\nB. The modules are designed to be used only in a training course or program, and not for self-study.\nC. The modules are designed to be used by individuals who want to learn about ICT essentials for government leaders.\nD. The modules are designed to be used by organizations that want to train their employees on ICT essentials for government leaders.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "305e3916-fb4e-4b13-a378-51143487d264",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can readers access the module series?\nHow do you respond?\nA. Online through the APCICT Virtual Academy\nB. Through a training course or program\nC. By purchasing the print format\nD. By downloading the module series from the internet\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "373db5c5-0fdc-4cd9-b3dc-e30bc810906c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who prepared the Academy of ICT Essentials for Government Leaders: Information Security and Privacy module?\nHow do you respond?\nA. Freddy Tan\nB. Kiyoung Ko\nC. Robert De Jesus\nD. International Telecommunications Union (ITU)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1808957a-18b9-4ca0-b892-0e23fc0d582f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of information in the field of Information Security?\nHow do you respond?\nA. Information is defined as the result of mental activity; it is an intangible product that is transmitted through media.\nB. Information is defined as an asset; it is something that has value and should therefore be protected.\nC. Information is defined as the ability to collect, analyze, and use information.\nD. Information is defined as the result of processing, manipulating, and organizing data, which is simply a collection of facts.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d5208318-c2d1-401c-818e-ba522306e9be",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between information assets and tangible assets?\nHow do you respond?\nA. Information assets are tangible, while tangible assets are intangible.\nB. Information assets are intangible, while tangible assets are tangible.\nC. Information assets have a physical form, while tangible assets do not have a physical form.\nD. Information assets are less valuable than tangible assets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f1fc5788-494a-4ebb-89c8-4b245399a6a8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of governments in ensuring information security?\nHow do you respond?\nA. Governments should establish systems to protect against information security threats and expand the information-communication infrastructure.\nB. Governments should not intervene in information security matters, as it is the responsibility of individuals and organizations.\nC. Governments should only provide funding for information security research and development.\nD. Governments should mandate strict regulations for information security compliance, with severe penalties for non-compliance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8278b655-ade7-45bc-9a47-e4a4f218f6b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of ISO/IEC 27001:2005?\nHow do you respond?\nA. To provide guidelines for implementing an Information Security Management System (ISMS)\nB. To define the minimum requirements for protecting information assets\nC. To establish a framework for cybersecurity risk management\nD. To outline the steps for responding to cybersecurity incidents.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c70e5e66-5d27-4d3a-978e-9c979044e6be",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between information security and cybersecurity?\nHow do you respond?\nA. Information security focuses on protecting physical data storage media, while cybersecurity focuses on protecting digital data in transit.\nB. Information security focuses on protecting data at rest, while cybersecurity focuses on protecting data in transit.\nC. Information security focuses on protecting against cyber threats, while cybersecurity focuses on protecting against physical threats.\nD. Information security and cybersecurity are the same thing.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "9bd10bdb-a72a-4fd3-888b-0ceee97c1c15",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of awareness and training in information security?\nHow do you respond?\nA. Awareness and training are critical components of information security as they help prevent security breaches and minimize the impact of any incidents that do occur.\nB. Awareness and training are not essential for information security as technology alone can adequately protect against threats.\nC. Awareness and training are necessary only for IT professionals and not for the general workforce.\nD. Awareness and training are important, but they should focus primarily on compliance with regulations rather than practical security measures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5460a7cd-d2b7-44fc-9f5a-a58c81220bb8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the growing consensus regarding information?\nHow do you respond?\nA. Information needs to be protected.\nB. Information is more valuable than tangible assets.\nC. Information should be freely accessible to all.\nD. Information is less valuable than tangible assets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fbef1791-3249-4ded-8a7f-e3559c1968a6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between information assets and tangible assets?\nHow do you respond?\nA. Information assets have a physical form, while tangible assets do not.\nB. Information assets have a variable value, while tangible assets have a fixed value.\nC. Information assets can be reproduced unlimitedly, while tangible assets cannot.\nD. Information assets are delivered independently of media, while tangible assets are delivered through media.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "47a452f2-e231-4f2b-93eb-89ef6ac4b92e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is information security?\nHow do you respond?\nA. Protection of confidentiality, integrity, and availability of information.\nB. Protection of tangible assets.\nC. Protection of intangible assets.\nD. Protection of digital infrastructure security.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "29290780-c8f8-405a-b394-d00f61d92978",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between information security and cybersecurity?\nHow do you respond?\nA. Information security focuses on protecting information from unauthorized access, use, disclosure, disruption, deletion/destruction, corruption, modification, inspection, recording, or devaluation, while cybersecurity focuses on protecting digital infrastructure from cyber threats.\nB. Information security and cybersecurity are the same thing.\nC. Information security focuses on protecting digital infrastructure from cyber threats, while cybersecurity focuses on protecting information from unauthorized access, use, disclosure, disruption, deletion/destruction, corruption, modification, inspection, recording, or devaluation.\nD. Information security is concerned with the protection of the confidentiality, integrity, and availability of data, while cybersecurity is concerned with the protection of the confidentiality, integrity, and availability of digital infrastructure.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3f8be741-07b4-4004-8995-0cef505144b1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the 4Rs of information security?\nHow do you respond?\nA. Right Information, Right People, Right Time, and Right Form.\nB. Confidentiality, Integrity, Availability, and Anonymity.\nC. Information, People, Technology, and Process.\nD. Security, Privacy, Access, and Control.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5b2c4df5-0358-4cf6-ba34-9127aaacb302",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can information assets be protected?\nHow do you respond?\nA. By implementing the 4Rs of information security.\nB. By focusing on the CIA triad of confidentiality, integrity, and availability.\nC. By protecting tangible assets, such as paperwork and hardware.\nD. By preventing unauthorized access and use through digital infrastructure security measures.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b76cc843-3e46-4dde-818e-e25db7df512c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some common threats to information security?\nHow do you respond?\nA. Unauthorized access, use, disclosure, disruption, deletion/destruction, corruption, modification, inspection, recording, or devaluation of information.\nB. Lack of confidentiality, integrity, and availability of information.\nC. Increased productivity and efficient policy implementation.\nD. Cybersecurity threats, including Supervisory Control and Data Acquisition (SCADA) systems and Internet-of-Things (IoT) systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7896610d-f110-4731-a792-74d5d6c918e2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the 4Rs of Information Security?\nHow do you respond?\nA. Right Information, Right People, Right Time, and Right Form.\nB. Risk Reduction, Risk Acceptance, Risk Transference, and Risk Avoidance.\nC. Information Security Management Systems, Supervisory Control and Data Acquisition (SCADA) systems, Internet-of-Things (IoT) systems, and Certified Information Systems Security Professional (CISSP).\nD. Confidentiality, Integrity, Availability, and Threats.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8ff22a0f-77a0-4650-95aa-9b46e6a5cf69",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does \"Right Information\" refer to?\nHow do you respond?\nA. The accuracy and completeness of information, which guarantees the integrity of information.\nB. The accessibility of information and its usability upon demand by an authorized entity.\nC. Providing information in the right format.\nD. The value of information assets, as well as their vulnerabilities and corresponding threats.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e2a4e7ab-66ba-4ef9-999d-8722a4f8d476",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does \"Right People\" mean?\nHow do you respond?\nA. Refers to the accessibility of information and its usability upon demand by an authorized entity.\nB. Means that information is available only to authorized individuals, which guarantees confidentiality.\nC. Providing information in the right format.\nD. The accuracy and completeness of information, which guarantees the integrity of information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d7109519-2c8d-4d04-b644-cf08b16c0565",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does \"Right Time\" refer to?\nHow do you respond?\nA. The accessibility of information and its usability upon demand by an authorized entity, guaranteeing availability.\nB. The accuracy and completeness of information, which guarantees the integrity of information.\nC. The likelihood of threats/vulnerabilities and their effect, which determines the risk.\nD. The value of information assets, threats, and vulnerabilities, which determines the risk.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e93c8624-8050-4615-8fac-00e99b905a41",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does \"Right Form\" refer to?\nHow do you respond?\nA. Providing information in a format that is easily accessible and usable by authorized individuals.\nB. Ensuring that information is accurate and complete.\nC. Protecting information from unauthorized access, use, disclosure, disruption, modification, or destruction.\nD. Providing information in a format that is compatible with the intended device or system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "3cc1980f-8eca-4e5a-8a19-cf331fea6bfc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is risk management in the context of information security?\nHow do you respond?\nA. A method of reducing the likelihood of threats and vulnerabilities.\nB. A method of identifying, assessing, and mitigating potential risks.\nC. A method of protecting information from unauthorized access, use, disclosure, disruption, modification, or destruction.\nD. A method of transferring risk to another party.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "926e419a-d13c-43e5-9f55-97fc33513989",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the four methods of risk management?\nHow do you respond?\nA. Risk reduction, risk acceptance, risk transference, and risk avoidance.\nB. Risk mitigation, risk management, risk transfer, and risk avoidance.\nC. Risk reduction, risk acceptance, risk sharing, and risk avoidance.\nD. Risk mitigation, risk acceptance, risk transference, and risk elimination.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c33fb290-9711-443a-a30c-3053c1819ff0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a cost-effectiveness analysis in risk management?\nHow do you respond?\nA. To determine the likelihood of a threat occurring.\nB. To evaluate the effectiveness of risk reduction measures.\nC. To identify the most cost-effective risk management method.\nD. To assess the impact of a risk on the organization.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "22879928-e423-4d69-9570-d571d2914771",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the standard for information security management systems published by the International Organization for Standardization and International Electrotechnical Commission (ISO/IEC)?\nHow do you respond?\nA. ISO/IEC 27001\nB. ISO/IEC 27002\nC. ISO/IEC 27000\nD. ISO/IEC 27005\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "010494c8-6bd2-43a0-8ca0-b88c1198f31f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the focus of ISO/IEC 27001?\nHow do you respond?\nA. Technical security\nB. Administrative security\nC. Physical security\nD. Human resources security\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1dd83756-a3b9-4489-8bf7-fd46e857cff1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main focus of CISA?\nHow do you respond?\nA. Technical security\nB. Administrative security\nC. Physical security\nD. Auditing and control\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "2d0a20c9-11e5-444f-8fc3-e74438590b4d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main focus of CISSP?\nHow do you respond?\nA. Administrative security\nB. Technical security\nC. Physical security\nD. Auditing process\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6de3d428-ae66-4ee4-a150-1e29286ee412",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the four methods of information security?\nHow do you respond?\nA. Technical, administrative, physical, and operational\nB. Technical, administrative, physical, and legal\nC. Technical, administrative, physical, and human resources\nD. Technical, administrative, physical, and network security\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bfa19e98-ba25-47ab-b98a-05345f73e2ca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between ISO/IEC 27001 and CISA?\nHow do you respond?\nA. ISO/IEC 27001 focuses on administrative security, while CISA focuses on audit activities and controls on information systems.\nB. ISO/IEC 27001 focuses on technical security, while CISA focuses on administrative security.\nC. ISO/IEC 27001 focuses on physical security, while CISA focuses on audit activities and controls on information systems.\nD. ISO/IEC 27001 and CISA have the same focus, which is technical security.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "48282074-c79e-4b50-8594-f788790f962e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between CISA and CISSP?\nHow do you respond?\nA. CISA focuses on audit activities and controls on information systems, while CISSP focuses on technical security.\nB. CISA focuses on administrative security, while CISSP focuses on physical security.\nC. CISA focuses on technical security, while CISSP focuses on administrative security.\nD. CISA and CISSP are the same thing.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "80d5ff81-71ab-4b67-8ebd-b5810961635b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of information security awareness?\nHow do you respond?\nA. To assess the level of information security awareness among members of an organization.\nB. To identify examples of information security measures in the administrative, physical, and technical domains within an organization.\nC. To ensure information security by implementing measures in the administrative, physical, and technical domains.\nD. To differentiate between each of the three information security domains (administrative, physical, and technical).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "83591aae-6977-420e-a169-13237e67c305",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is hacking?\nHow do you respond?\nA. Unauthorized access to a computer or computer network to obtain or modify information without legal authorization.\nB. A type of malware that spreads through email attachments.\nC. A type of cyber attack that floods a website with traffic to make it unavailable to users.\nD. A type of security measure that prevents unauthorized access to a network.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2776f9ad-be44-468b-aca3-02bb917bc8f6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the different types of hacking?\nHow do you respond?\nA. Recreational, criminal, and political hacking\nB. Hacking, phishing, and spamming\nC. Denial-of-service, distributed denial-of-service, and malware\nD. Internal, external, and social engineering hacking\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dc90688e-70f4-48d9-9aac-4ed4d2e48b26",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a Distributed Denial-of-Service (DDoS) attack?\nHow do you respond?\nA. An attack that targets a single device or network to cause a denial of service.\nB. An attack that targets multiple devices or networks to cause a denial of service.\nC. An attack that targets a single device or network to cause a distributed denial of service.\nD. An attack that targets multiple devices or networks to cause a distributed denial of service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d9d3a5e4-4547-4ddf-b664-af02f2df4092",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the JPMorgan Chase Bank hack in 2014?\nHow do you respond?\nA. A hacking group accessed 76 million personal accounts and 7 million small business accounts, infiltrating all 90 of JPMorgan Chase's server computers.\nB. A DDoS attack was launched on JPMorgan Chase's servers, disrupting their services and compromising sensitive information.\nC. Malware was spread through email spam to seize personal information, targeting JPMorgan Chase employees and customers.\nD. JPMorgan Chase's servers were compromised, resulting in the theft of basic information such as names, phone numbers, email addresses, and home addresses of 80 million users.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "dcdcde66-d8b0-442d-95cd-9d641f8d95da",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is spam?\nHow do you respond?\nA. A type of malware that steals personal information\nB. Unsolicited commercial messages delivered through email\nC. A type of cyber attack that causes a network or system to become unresponsive\nD. A type of security measure that prevents unauthorized access to a system\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "09879005-b253-44ef-81ce-06205909d415",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the major DDoS attack in October 2016?\nHow do you respond?\nA. Dyn DNS attack\nB. JPMorgan Chase Bank Hacked\nC. Spam\nD. Hacking\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "36e3749c-9d70-49aa-99e3-a3abf1e799df",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the hackers behind the October 2016 DDoS attack compromise endpoint IoT devices?\nHow do you respond?\nA. By exploiting vulnerabilities in the devices' software\nB. By sending malicious emails to the devices' users\nC. By using social engineering tactics to trick users into installing malware\nD. By compromising the devices' security through physical access\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bfde6055-84c8-482e-b68a-3f0bfb5640a1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of social engineering in cyber attacks?\nHow do you respond?\nA. To gain unauthorized access to a computer or computer network.\nB. To obtain or modify information without legal authorization.\nC. To exploit less security-aware employees.\nD. To broadcast unauthorized political messages.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "c03c893d-5779-47c1-9d60-a4c77ca07956",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the size of the attack mentioned in the first case study?\nHow do you respond?\nA. 1 Tbps (one terabyte per second)\nB. 100 Gbps (one hundred gigabits per second)\nC. 10 Gbps (ten gigabits per second)\nD. 1 Gbps (one gigabit per second)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c36be99c-b4c0-4247-8505-aa7b99c2c06f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the method used by the group behind the attack to compromise endpoint IoT devices?\nHow do you respond?\nA. Malware\nB. Phishing\nC. Credential Stuffing\nD. Social Engineering\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8696fa36-8c8c-41c5-a5d6-268b56cafaac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is phishing?\nHow do you respond?\nA. A type of cyberattack where stolen account credentials are used to gain unauthorized access to user accounts.\nB. A type of malware that causes damage to a system when executed.\nC. A type of cybercrime where sensitive information such as usernames, passwords, and credit card details are obtained by using a trustworthy entity.\nD. A type of software that protects computer systems and data from malicious code.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "3db5c995-61fd-44bc-bf44-750b374094a1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the estimated amount of fraud prevented in the UK after three men were convicted of launching sophisticated phishing scams?\nHow do you respond?\nA. \u00a359m\nB. \u00a3113m\nC. \u00a32million\nD. \u00a31million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "57e82ee3-a30c-4448-b7ab-a8b132394fb4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many phishing pages were analyzed by the Met Police Central e-Crime Unit (PCeU), the Serious Organized Crime Agency, and the US Secret Service?\nHow do you respond?\nA. 2,600\nB. 12,500\nC. 30,000\nD. 70 million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "84392918-6797-4b57-904b-a11c4502c115",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the estimated amount of money raked in by the fraudsters in the UK's biggest ever cyber scam?\nHow do you respond?\nA. \u00a359m\nB. \u00a3113m\nC. \u00a32million\nD. \u00a31million\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "916122f9-a29d-4542-a6ad-86672ffe2b7f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the name of the botnet that generated billions of emails per day promoting unlicensed online pharmacies and cut-price impotence pills?\nHow do you respond?\nA. Rustock botnet\nB. Phishing botnet\nC. Spam botnet\nD. Malicious botnet\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3f599e9e-ca7d-47dd-8990-8c55a13824c7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the method used by Microsoft to shut down the Rustock botnet?\nHow do you respond?\nA. Microsoft issued a patch to fix the vulnerability that Rustock exploited.\nB. Microsoft seized servers that were rented from commercial internet hosting firms across the Mid-West.\nC. Microsoft launched a counter-attack against the botnet's command and control servers.\nD. Microsoft collaborated with other tech companies to develop a new security protocol.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f1289265-db94-480d-b3f8-fed2f24766dc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is credential stuffing?\nHow do you respond?\nA. A type of cyberattack where stolen account credentials are used to gain unauthorized access to user accounts through large-scale automated login requests directed against a web application.\nB. A type of cyberattack where stolen credit card information is used to make unauthorized purchases online.\nC. A type of cyberattack where malware is used to steal sensitive information such as usernames, passwords, and credit card details.\nD. A type of cyberattack where hackers use social engineering tactics to trick users into revealing sensitive information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a46af90f-459a-4e89-92b2-3a1a01f578d8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What percentage of users reuse the same username/password combination across multiple sites, according to a survey?\nHow do you respond?\nA. 50%\nB. 81%\nC. 25%\nD. 10%\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a8dc8614-cfc1-420d-b56c-7655bea9a16c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is malicious code?\nHow do you respond?\nA. Any code that causes damage to a system when executed.\nB. A program that appears to be useful and/or harmless but has a malicious function.\nC. A network attack in which an unauthorized person gains access to a network and stays there undetected for a long period.\nD. A program that alters files but resides in active memory, using parts of an operating system that are automatic and usually invisible to the user.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7c4243ea-3443-4853-998d-19c19c7a81b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a worm?\nHow do you respond?\nA. A program that appears to be useful and/or harmless but has a malicious function such as threatening to publish the victim's data or perpetually block access to it unless ransom is paid.\nB. A program that appears to be useful and/or harmless but has a malicious function such as unloading hidden programs or command scripts that make a system vulnerable to encroachment.\nC. A computer virus that damages computer systems and data by replicating itself by initiating copying to another program, computer boot sector, or document.\nD. A self-replicating virus that does not alter files but resides in active memory, using parts of an operating system that are automatic and usually invisible to the user.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4293786d-4d88-4663-8599-01d38be8edb6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a Trojan horse?\nHow do you respond?\nA. A program that appears to be useful and/or harmless but has a malicious function such as threatening to publish the victim's data or perpetually block access to it unless ransom is paid.\nB. A program that appears to be useful and/or harmless but has a malicious function such as unloading hidden programs or command scripts that make a system vulnerable to encroachment.\nC. A network attack in which an unauthorized person gains access to a network and stays there undetected for a long period of time, with the intention of stealing data rather than causing damage to the network or organization.\nD. A computer virus that damages computer systems and data by replicating itself by initiating copying to another program, computer boot sector, or document.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e423e6bc-dc53-4731-a208-d7d17ca07604",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the Stuxnet worm designed to target?\nHow do you respond?\nA. Siemens Simatic WinCC SCADA systems\nB. State Farm accounts\nC. Iran's nuclear facility\nD. UK firms\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "50ba5c6d-fbcd-4700-b2f0-3730c3228ebb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the estimated cost of the WannaCry cyber-attack to the NHS?\nHow do you respond?\nA. \u00a392m\nB. \u00a319m\nC. \u00a31.9m\nD. \u00a30.19m\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "33558c44-3351-4c19-9865-3db77d31d149",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which sector is most targeted by APT attacks?\nHow do you respond?\nA. National defense\nB. Financial industry\nC. Manufacturing\nD. Healthcare\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d3e2c65a-6114-484f-a54b-18c8ee7fa231",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is an advanced persistent threat (APT)?\nHow do you respond?\nA. A type of malware that targets a specific vulnerability in an operating system.\nB. A type of social engineering attack that uses psychological manipulation to trick victims into divulging sensitive information.\nC. A type of cyber attack that uses a combination of hacking techniques to gain unauthorized access to a network or system.\nD. A type of threat that uses a combination of hacking techniques to gain unauthorized access to a network or system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "05b8e659-4bed-4192-97aa-16583a66636b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the impact of the WannaCry cyber-attack on the NHS?\nHow do you respond?\nA. It resulted in the cancellation of 19,000 appointments and cost the NHS \u00a320m in a week.\nB. It caused a total of \u00a372m in damages, including \u00a320m in ransom payments.\nC. It resulted in the loss of 1pc of all NHS care.\nD. It led to the shutdown of hundreds of thousands of computers, demanding ransom payments.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "35aaa705-fe55-44af-8383-dd74cf22abeb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is two-factor authentication?\nHow do you respond?\nA. A security process in which a user provides two different authentication factors to access a system, network, or application.\nB. A security process in which a user provides a username and password to access a system, network, or application.\nC. A security process in which a user provides a fingerprint and a password to access a system, network, or application.\nD. A security process in which a user provides a password and a one-time code sent to their phone to access a system, network, or application.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b9747ad6-414c-4b09-87ae-1923ae4fe91d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the result of the RSA SecurID hack?\nHow do you respond?\nA. RSA SecurID customers' accounts were directly compromised.\nB. The information extracted could potentially be used to reduce the effectiveness of a current two-factor authentication implementation as part of a broader attack.\nC. RSA assured its clients that the information extracted did not enable a successful direct attack on any of their RSA SecurID customers.\nD. Lockheed-Martin, a client of RSA, was not subsequently hacked.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2bc3c854-9a96-4063-8cf4-eb632fc5ab12",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a backdoor?\nHow do you respond?\nA. A type of social engineering attack used to gain access to a network\nB. A type of malware that remains hidden in plain sight\nC. A legitimate means of accessing a network through a vulnerability\nD. A type of two-factor authentication solution\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "42cee03e-0f1c-4fc9-bae3-bb7d4e3f481d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is spear phishing?\nHow do you respond?\nA. A type of social engineering attack where the attacker sends a large number of generic phishing emails to a large number of recipients in the hopes of tricking someone into revealing sensitive information.\nB. A type of social engineering attack where the attacker targets a specific individual or group of individuals with a tailored message, often using information about the target to make the message appear more convincing.\nC. A type of malware that is designed to spread itself from system to system without the need for human interaction.\nD. A type of encryption algorithm used to protect data from unauthorized access.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a27b7059-b449-4c92-bf3d-1c20d07f32f1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of security awareness training for employees?\nHow do you respond?\nA. To educate employees on how to use two-factor authentication.\nB. To eradicate risky behaviors that could potentially lead to cyber breaches.\nC. To provide stronger security than is provided by a username and password alone.\nD. To identify APTs through behavior analysis.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f4884081-6a5a-4d66-8540-c1fe2d42949a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some trends in information security threats that have been reported?\nHow do you respond?\nA. Automation of attack tools, faster discovery of vulnerabilities, and attack tools that are difficult to detect.\nB. Social engineering, polymorphic tools, and anti-forensic techniques.\nC. Phishing emails, ransomware, and social engineering scams via telephone, text message, or social media channels.\nD. Increased use of artificial intelligence and machine learning by cybercriminals, the rise of cloud-based attacks, and the increasing number of Internet of Things (IoT) devices.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5c3e6313-ffc1-40f2-b5cc-89e1a5f61aca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the trend in data breach volumes?\nHow do you respond?\nA. The trend in data breach volumes is decreasing.\nB. The trend in data breach volumes is increasing.\nC. The trend in data breach volumes is steady.\nD. The trend in data breach volumes is unpredictable.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7283eb16-201d-4f8f-8f89-ecfccb2641b8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is cybercrime, according to the text?\nHow do you respond?\nA. The deliberate destruction, disruption, or distortion of digital data or information flows for political, economic, religious, or ideological reasons.\nB. The use of technology to commit crimes such as hacking, DoS, malicious code, and social engineering.\nC. The unauthorized access or theft of personal information for financial gain.\nD. The use of the internet to spread hate speech or propaganda.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b73b8ee4-9720-4f17-8b89-ca618e69230c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the most common types of cybercrime, according to the text?\nHow do you respond?\nA. Hacking, DoS, malicious code, and social engineering\nB. Identity theft, phishing, ransomware, and cryptojacking\nC. Online harassment, cyberstalking, cyberbullying, and hate speech\nD. Credit card fraud, money laundering, and intellectual property theft\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "635606e0-2ae7-4efb-b26c-6d732beae3ac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the price range for general non-financial institution login credentials on the dark web, according to the text?\nHow do you respond?\nA. $1-$100\nB. $100-$1,000\nC. $1,000-$10,000\nD. $10,000-$100,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6f9abd58-f2da-459e-87e3-fc8d2633dfe2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the price range for online payment services login information, such as Paypal, on the dark web, according to the text?\nHow do you respond?\nA. $5-110\nB. $20-200\nC. $100-400\nD. $1,000-2,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "281af456-682f-4f06-bee8-fcea7db96813",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the price range for medical records on the dark web, according to the text?\nHow do you respond?\nA. $1-$100\nB. $100-$1,000\nC. $1,000-$10,000\nD. $10,000-$100,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2b5bcbf1-714a-4c13-b4c9-2b51fb153898",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a security improvement program, according to the text?\nHow do you respond?\nA. To implement new security technologies\nB. To adapt to changing security threats and attack technologies\nC. To develop a comprehensive information security strategy\nD. To document policies and procedures for information security\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                }
+            ]
+        }
+    ]
+}

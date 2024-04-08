@@ -1,0 +1,760 @@
+{
+    "tests": [
+        {
+            "key": "b80e9b3c-3cb3-4adb-a9a7-0a345449d782",
+            "documents": [
+                "IMF_Financial_Statements.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "a6b8cf59-8813-4eb0-8af1-c13d0e16fecd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the title of the report described in the text?\nHow do you respond?\nA. \"Financial Statements and Supplementary Schedules of the General Department\"\nB. \"Financial Statements and Supplementary Schedules of the SDR Department\"\nC. \"Financial Statements and Supplementary Schedules of the Concessional Lending and Debt Relief Trusts\"\nD. \"Financial Statements and Supplementary Schedules of the Administered Accounts\"\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "3ae33d5c-0026-40d8-ab81-56cb03f49121",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the department that has prepared the financial statements included in the report?\nHow do you respond?\nA. General Department\nB. SDR Department\nC. Concessional Lending and Debt Relief Trusts\nD. Administered Accounts\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a4412122-af86-4477-99b9-474d60d936cd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the department that has prepared the financial statements and supplementary schedules of the administered accounts included in the report?\nHow do you respond?\nA. General Department\nB. SDR Department\nC. Concessional Lending and Debt Relief Trusts\nD. Administered Accounts\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "3f99c5e4-acb7-448a-8bfd-85b39b6c42a4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the organization that publishes the Annual Report 2022?\nHow do you respond?\nA. International Monetary Fund\nB. PricewaterhouseCoopers LLP\nC. International Accounting Standards Board\nD. United States of America\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3986111a-3034-4900-a639-47f1ba78658b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the title of the report that contains the audited financial statements of the General Department of the IMF?\nHow do you respond?\nA. \"Annual Report 2022: Financial Statements of the General Department\"\nB. \"Audited Financial Statements of the General Department: Years Ended April 30, 2022 and 2021\"\nC. \"IMF Annual Report 2022: General Department Finances\"\nD. \"Financial Report of the General Department: April 30, 2022\"\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "15acac3a-922b-4684-a058-a07fe64ed02d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the audit firm that conducted the audit of the financial statements of the General Department of the IMF?\nHow do you respond?\nA. PricewaterhouseCoopers LLP\nB. KPMG LLP\nC. Ernst & Young LLP\nD. Deloitte LLP\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0b98f937-df7e-4711-aeb5-526a399873ad",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the opinion of the auditors on the financial statements of the General Department of the IMF?\nHow do you respond?\nA. The auditors have expressed a qualified opinion, indicating that the financial statements are presented fairly, but there is a minor issue that needs to be addressed.\nB. The auditors have expressed an unqualified opinion, indicating that the financial statements are presented fairly and there are no material misstatements.\nC. The auditors have expressed an adverse opinion, indicating that the financial statements are not presented fairly and there are material misstatements.\nD. The auditors have abstained from expressing an opinion, indicating that they are unable to form an opinion due to a lack of evidence or information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b23da16f-8b09-4845-be7a-c7c0cc7460fc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for the auditors' opinion on the financial statements of the General Department of the IMF?\nHow do you respond?\nA. US GAAS (Generally Accepted Auditing Standards in the United States)\nB. ISAs (International Standards on Auditing)\nC. IFRS (International Financial Reporting Standards)\nD. ISB (International Standards Board)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "61b0e768-f603-4cca-8a92-20ee5c713549",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Annual Report 2022?\nHow do you respond?\nA. To provide a detailed analysis of the financial performance of the International Monetary Fund (IMF) during the year 2022.\nB. To provide an overview of the IMF's financial statements and audited financial reports for the year 2022.\nC. To report on the IMF's activities and policies during the year 2022, including its efforts to promote global economic stability and financial stability.\nD. To provide a comprehensive guide to the IMF's organizational structure, including its departments, offices, and affiliates.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1ffa9a45-0968-4aa5-a23f-008d35dd6b0b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can the Annual Report 2022 be obtained?\nHow do you respond?\nA. By ordering it through IMF Publication Services.\nB. By downloading it from the IMF's website.\nC. By purchasing it from a local bookstore.\nD. By requesting it through the IMF's email address.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "66a6c820-c461-4988-8c7d-6e6124ae07ac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the languages in which the Annual Report 2022 is available?\nHow do you respond?\nA. Arabic, Chinese, English, French, German, Japanese, Portuguese, Russian, and Spanish.\nB. English, French, German, Italian, Portuguese, Russian, Spanish, and Chinese.\nC. Arabic, English, French, German, Italian, Portuguese, Russian, and Spanish.\nD. English, French, German, Japanese, Portuguese, Russian, Spanish, and Arabic.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "19720b7c-f175-4e52-bd25-b5d270ef59e1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the auditors\u2019 responsibilities for the audit of the financial statements?\nHow do you respond?\nA. To express an opinion on the effectiveness of the Department's internal control.\nB. To obtain reasonable assurance about whether the financial statements as a whole are free from material misstatement.\nC. To identify and assess the risks of material misstatement of the financial statements, and design and perform audit procedures responsive to those risks.\nD. To communicate with those charged with governance regarding the planned scope and timing of the audit, significant audit findings, and certain internal control-related matters that we identified during the audit.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c1c25208-f06f-4dcf-b272-d053f5da3adf",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the level of assurance that auditors strive for in their audit?\nHow do you respond?\nA. Absolute assurance.\nB. Reasonable assurance.\nC. High level of assurance.\nD. Substantial doubt.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3464b8cf-49a6-416c-bf2f-1720b107ce07",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are misstatements considered material if they have a substantial likelihood of influencing the judgment made by a reasonable user based on the financial statements?\nHow do you respond?\nA. Misstatements that are intentional and made with the purpose of deceiving users.\nB. Misstatements that result from fraudulent activities.\nC. Misstatements that are immaterial and do not impact the overall financial position of the organization.\nD. Misstatements that have a substantial likelihood of influencing the judgment made by a reasonable user based on the financial statements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "0f95d5ad-83ef-4cc6-9d80-411caa461c63",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What procedures do auditors perform to identify and assess the risks of material misstatement of the financial statements?\nHow do you respond?\nA. Examine evidence regarding the amounts and disclosures in the financial statements on a test basis.\nB. Obtain an understanding of internal control relevant to the audit.\nC. Evaluate the appropriateness of accounting policies used and the reasonableness of significant accounting estimates made by management.\nD. Communicate with those charged with governance regarding significant audit findings.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ced6a5f7-9f08-497c-b453-8077eb4f5efe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of obtaining an understanding of internal control relevant to the audit?\nHow do you respond?\nA. To express an opinion on the effectiveness of the Department's internal control.\nB. To design audit procedures that are appropriate in the circumstances.\nC. To identify and assess the risks of material misstatement of the financial statements.\nD. To evaluate the appropriateness of accounting policies used and the reasonableness of significant accounting estimates made by management.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3043d9a8-2208-4b8e-9929-c6efda60d349",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total amount of investments reported in the Statement of Financial Position at April 30, 2022?\nHow do you respond?\nA. 25,418 million SDRs\nB. 23,032 million SDRs\nC. 297,217 million SDRs\nD. 458,656 million SDRs\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "856b2395-e92c-48fb-8924-2c30cb0ee53d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total amount of gold holdings reported in the Statement of Financial Position at April 30, 2022?\nHow do you respond?\nA. 3,167 million SDRs\nB. 551 million SDRs\nC. 25,418 million SDRs\nD. 911 million SDRs\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4366d9fe-ac0e-418a-ba04-ae0dddcf9226",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total amount of borrowings reported in the Statement of Financial Position at April 30, 2022?\nHow do you respond?\nA. 2,615 million SDRs\nB. 5,138 million SDRs\nC. 476,272 million SDRs\nD. 482,978 million SDRs\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "895bbafc-d3e4-464c-a9f0-ecccbe9da5e5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total amount of quota subscriptions reported in the Statement of Financial Position at April 30, 2022?\nHow do you respond?\nA. 476,272\nB. 475,808\nC. 458,656\nD. 482,978\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b091e1c6-f218-4a9d-b22b-252f07cc92a4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the international organization that is the subject of the financial statements?\nHow do you respond?\nA. International Monetary Fund (IMF)\nB. World Bank\nC. World Trade Organization (WTO)\nD. United Nations (UN)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "9af05d6d-7981-4166-b56d-560497d2832b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the investment objective of the Fixed-Income Subaccount during the financial year ended April 30, 2022?\nHow do you respond?\nA. To achieve a real return of 3 percent in US dollar terms over the long term.\nB. To achieve returns that exceed the SDR interest rate by a margin of 50 basis points over time.\nC. To provide balance of payments assistance on special terms to low-income member countries.\nD. To protect the most vulnerable and set the stage for economic recovery.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a830d4a3-d471-4a32-aeed-bad6a5154610",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the amount of profits credited to the Endowment Subaccount from gold sales during financial years 2010 and 2011?\nHow do you respond?\nA. SDR 4.4 billion\nB. SDR 3.2 billion\nC. SDR 1.1 billion\nD. SDR 2.5 billion\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "43d9197b-58fd-44fd-ae4e-928d9ccba187",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the other entities administered by the IMF, aside from the General Department?\nHow do you respond?\nA. Special Drawing Rights Department (SDR Department)\nB. Special Disbursement Account (SDA)\nC. Concessional Lending and Debt Relief Trusts\nD. Administered Accounts\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1ad57819-67b8-499c-ad7d-abc1bc3e6995",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How has the pandemic affected the General Department's credit exposure?\nHow do you respond?\nA. It has decreased due to reduced demand for financial assistance.\nB. It has increased due to the pandemic's impact on global economic activity.\nC. It remains unchanged as the General Department's resources are not affected by global economic developments.\nD. It has become negative as the pandemic has resulted in a decrease in the value of the SDR interest rate.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "11788d81-e718-495d-baee-807fd4af6106",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis of preparation and measurement for the financial statements of the General Department?\nHow do you respond?\nA. Historical cost convention\nB. Fair value through profit or loss\nC. Going concern basis\nD. International Financial Reporting Standards (IFRS) issued by the International Accounting Standards Board (IASB)\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "f236d7b4-a738-4be8-a65f-6cb64ce03cfd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the unit of account used in the financial statements of the General Department?\nHow do you respond?\nA. US Dollar\nB. Special Drawing Rights (SDR)\nC. Euro\nD. Japanese Yen\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "13baee40-004c-4eeb-a4ca-564dda095b4f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the composition of the SDR valuation basket as of April 30, 2022?\nHow do you respond?\nA. Chinese renminbi, Euro, Japanese yen, Pound sterling, and US dollar.\nB. US dollar, Chinese renminbi, Japanese yen, Euro, and Pound sterling.\nC. Euro, Pound sterling, US dollar, Chinese renminbi, and Japanese yen.\nD. Japanese yen, Pound sterling, US dollar, Chinese renminbi, and Euro.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c105e209-714d-47ee-9f79-5afeaf8cb65a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the value of SDR 1 in US dollars as of April 30, 2022?\nHow do you respond?\nA. US$1.34430\nB. US$1.43599\nC. US$1.41730\nD. US$1.38671\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6f475a17-7603-4482-a197-79fe240f617c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the extension of the current SDR valuation basket beyond its original expiration date of September 30, 2021?\nHow do you respond?\nA. The Executive Board decided to extend it to July 31, 2022, due to the ongoing impact of the pandemic on global economic uncertainty.\nB. The extension was granted to allow for further review and consideration of the currencies to be included in the SDR valuation basket.\nC. The Executive Board decided to extend the valuation basket to July 31, 2022, to align it with the quinquennial review of the SDR method of valuation.\nD. The extension was necessary to accommodate changes in the composition of the SDR currency basket, which were scheduled to take effect on August 1, 2022.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "784d4bcb-a029-432f-a5df-4fc9c802444f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What changes were made to the SDR basket valuation basket as a result of the quinquennial review concluded on May 11, 2022?\nHow do you respond?\nA. The composition of the SDR valuation basket was maintained, but the weights of the currencies were adjusted.\nB. The SDR valuation basket was replaced with a new basket consisting of different currencies.\nC. The method of valuation of the SDR was changed from a basket of currencies to a different method.\nD. No changes were made to the SDR basket valuation basket.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "82f76d37-eaae-4083-a46a-d8ceadb200c8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the new weights for the SDR basket currencies effective August 1, 2022?\nHow do you respond?\nA. 12.28% Chinese renminbi, 29.31% Euro, 7.59% Japanese yen, 7.44% Pound sterling, 43% US dollar\nB. 10.92% Chinese renminbi, 30.93% Euro, 8.33% Japanese yen, 8.09% Pound sterling, 41.73% US dollar\nC. 11.90% Chinese renminbi, 38.67% Euro, 11.90% Japanese yen, 8.59% Pound sterling, 43.57% US dollar\nD. 10.50% Chinese renminbi, 32.20% Euro, 8.00% Japanese yen, 7.20% Pound sterling, 42.10% US dollar\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b688da5d-ce79-4a98-8cf3-738d51c59a52",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How has the General Department managed its risks in response to the pandemic and the war in Ukraine?\nHow do you respond?\nA. By using its existing risk management framework, which has effectively mitigated the risk exposure of the effects of global developments on investment portfolios.\nB. By tightening monetary conditions coupled with a sharp increase in inflation and inflation expectations.\nC. By impairing the credit portfolio analysis.\nD. By extending the SDR valuation basket expiration date.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "97c79db6-3f95-4191-992c-00cbc4f25860",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for the valuation of investments held at amortized cost in the financial statements of the General Department?\nHow do you respond?\nA. Fair value through profit or loss\nB. Historical cost convention\nC. Mark-to-market\nD. Amortized cost\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6c763146-9552-4185-ab6c-55e7ac0b86d0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the SDR basket valuation?\nHow do you respond?\nA. To determine the value of the US dollar against other currencies\nB. To determine the interest rate on SDR holdings\nC. To determine the weights of currencies in the SDR basket\nD. To determine the amount of each currency in the SDR basket\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "2cac5820-6978-4a9c-9d1e-eb2189bd4474",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the five currencies included in the SDR basket?\nHow do you respond?\nA. Chinese renminbi, Euro, Japanese yen, Pound sterling, and US dollar\nB. Chinese renminbi, Euro, Japanese yen, Pound sterling, and Canadian dollar\nC. Chinese renminbi, Euro, Japanese yen, Pound sterling, and Australian dollar\nD. Chinese renminbi, Euro, Japanese yen, Pound sterling, and Swiss franc\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a3555e90-27f6-4c6f-8fff-28f27710bce4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are the weights of the currencies in the SDR basket determined?\nHow do you respond?\nA. By the International Monetary Fund (IMF) based on the economic indicators of the countries whose currencies are included in the basket.\nB. By the IMF based on the relative economic power of the countries whose currencies are included in the basket.\nC. By the countries whose currencies are included in the basket based on their own economic indicators.\nD. By the countries whose currencies are included in the basket based on their relative economic power.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e184d949-c236-473c-9da9-828ee02deb5c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the average SDR interest rate for the financial years ended April 30, 2022, and 2021?\nHow do you respond?\nA. 0.077 percent per annum\nB. 0.107 percent per annum\nC. 0.128 percent per annum\nD. 0.050 percent per annum\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "b66db6f1-5f9c-49c9-b1c8-9875a546b916",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the transition date of July 29, 2022, in relation to the SDR basket valuation?\nHow do you respond?\nA. It is the date when the new weights for the SDR basket currencies came into effect.\nB. It is the date when the next review of the SDR basket valuation method will take place.\nC. It is the date when the SDR interest rate was first determined.\nD. It is the date when the General Department became a party to the contractual provisions of the financial instruments.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f63838c5-123b-4417-82a9-7debe4c5a319",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for accounting for financial instruments in the financial statements of the General Department?\nHow do you respond?\nA. Fair value\nB. Historical cost\nC. Net realizable value\nD. Amortized cost\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "da282d7e-8a1e-4dbc-851b-271160b929f4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: When are financial assets derecognized in the financial statements of the General Department?\nHow do you respond?\nA. When the contractual rights to receive cash flows from the assets have expired.\nB. When the General Department transfers substantially all the risks and rewards of ownership.\nC. When the General Department neither transfers nor retains substantially all the risks and rewards of ownership, but the General Department has retained control.\nD. When the financial assets are sold or transferred to another entity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "525fadc4-29d1-4f01-b3e3-87c75203adb5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are financial liabilities derecognized in the financial statements of the General Department?\nHow do you respond?\nA. When the General Department transfers substantially all the risks and rewards of ownership.\nB. When the General Department neither transfers nor retains substantially all the risks and rewards of ownership.\nC. When the General Department has retained control.\nD. When the obligation is discharged, canceled, or expires.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "d7098251-2e13-445c-9ee4-8d7ee2ffde8c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are financial liabilities derecognized?\nHow do you respond?\nA. When they are extinguished, canceled, or expire.\nB. When the General Department recognizes ECL.\nC. When they are measured at fair value through other comprehensive income (FVOCI).\nD. When they are classified at fair value with changes in fair value recognized in profit or loss (FVPL).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "19a27602-7c97-4aab-9602-a4bf37396701",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are financial assets classified on initial recognition?\nHow do you respond?\nA. Based on their liquidity.\nB. Based on the business model for managing the financial asset and its contractual cash flow characteristics.\nC. Based on their market value.\nD. Based on the financial asset's expected return.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "20744816-3767-4395-b159-854336fa7713",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are financial assets measured at fair value?\nHow do you respond?\nA. With changes in fair value recognized in profit or loss (FVPL).\nB. Using the effective interest method.\nC. By evaluating a range of possible outcomes, the time value of money, and reasonable and supportable information that is available without undue cost or effort at the reporting date about past events, current conditions, and forecasts of future economic conditions.\nD. At amortized cost (AC).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "d365a7dc-778f-4b0f-9492-b28d80561722",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of evaluating expected credit losses (ECL) associated with financial assets at AC and with undrawn balances under lending commitments?\nHow do you respond?\nA. To determine the fair value of financial assets and lending commitments.\nB. To assess the likelihood of default by borrowers and adjust the interest rate accordingly.\nC. To calculate the impairment allowance for financial assets at AC.\nD. To determine the time value of money and the probability-weighted amount of expected credit losses.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "137bee8d-01d6-4e9b-8005-4b53e7d1f3f2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are impairment allowances for financial assets at AC calculated?\nHow do you respond?\nA. By applying the effective interest rate to its amortized cost (i.e., net of the impairment allowance).\nB. By evaluating a range of possible outcomes, the time value of money, and reasonable and supportable information that is available without undue cost or effort at the reporting date about past events, current conditions, and forecasts of future economic conditions.\nC. By measuring the time value of money and reasonable and supportable information that is available without undue cost or effort at the reporting date about past events, current conditions, and forecasts of future economic conditions.\nD. By evaluating a range of possible outcomes and the time value of money.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f8f2726f-b2f2-4633-8ee9-2e48224960cd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are derivative financial liabilities measured?\nHow do you respond?\nA. At fair value with changes in fair value recognized in profit or loss.\nB. At amortized cost with interest expense recognized using the effective interest method.\nC. At cost, with no changes in value recognized until the liability is settled.\nD. At face value, with no adjustments for market fluctuations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6657d92a-9af9-4f71-b9b2-00a1d61ba321",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are other financial liabilities measured?\nHow do you respond?\nA. Fair value through other comprehensive income (FVOCI)\nB. Fair value with changes in fair value recognized in profit or loss (FVPL)\nC. Amortized cost (AC)\nD. Net realizable value\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d871b31d-98f6-4a64-9cbc-45acad263684",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the currency revaluation receivables and payables included in the statements of financial position?\nHow do you respond?\nA. To represent the amount of currency that can be exchanged for other currencies.\nB. To reflect the changes in the value of currencies due to exchange rate fluctuations.\nC. To record the transactions related to the purchase and sale of currencies.\nD. To represent the amount of interest earned on currency holdings.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4767e3ef-37eb-4b59-b556-9e54881a4cb4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How do members receive financing from the GRA?\nHow do you respond?\nA. By purchasing SDRs or usable currencies in exchange for their own currencies.\nB. By borrowing from other member countries.\nC. By receiving grants from the IMF.\nD. By issuing their own currency.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "14b09d16-8e16-4041-99eb-fda2fdeea111",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if charges not received from members within the required timeframe are not paid?\nHow do you respond?\nA. The GRA earns interest on the unpaid charges.\nB. The GRA recovers the unpaid charges by adjusting the rate of charge for debtor members and decreasing the rate of remuneration on members' reserve tranche positions.\nC. The GRA cancels the arrangement and recognizes the unpaid charges as income.\nD. The GRA writes off the unpaid charges as a loss.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "2ef83edf-12da-4ac6-a6e0-171e8876fada",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is commitment fee income recognized by the GRA?\nHow do you respond?\nA. Commitment fee income is recognized on a straight-line basis over the duration of the arrangement.\nB. Commitment fee income is recognized when the arrangement is cancelled or expires.\nC. Commitment fee income is recognized as the member makes purchases under the relevant arrangement.\nD. Commitment fee income is recognized as the member settles its financial obligations to the GRA.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "20c95462-850c-4f69-9945-5a1d6aee0992",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Has the General Department recognized any impairment losses since inception?\nHow do you respond?\nA. Yes, the General Department has recognized impairment losses since inception.\nB. No, the General Department has not recognized any impairment losses since inception.\nC. The General Department recognizes impairment losses only on its reserve tranche positions.\nD. The General Department recognizes impairment losses only on its lending to private sector entities.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7d822090-1ee1-4330-9930-06208aa18ee6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are external credit risk ratings used by the General Department to assess credit risk?\nHow do you respond?\nA. Yes, the General Department uses external credit risk ratings to assess credit risk.\nB. No, the General Department does not use external credit risk ratings to assess credit risk because its credit risk exposure is not comparable to sovereign credit risk faced by commercial financial entities.\nC. No, the General Department does not use external credit risk ratings to assess credit risk because it produces its own internal credit rating grades.\nD. Yes, the General Department uses external credit risk ratings to assess credit risk, but only for certain member countries.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "da9f854d-6234-4952-929f-b23187181f05",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for assessing credit risk for the General Department's exposure to a member country?\nHow do you respond?\nA. The status of the economic programs underlying IMF financing.\nB. The member's cooperation on policy implementation and timely settlement of IMF financial obligations.\nC. The member's capacity to repay, based on forward-looking assessments.\nD. The risk of default, based on the member's credit history.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "75f04d30-5f50-4c9c-9de8-513eefea88aa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the definition of default according to the General Department?\nHow do you respond?\nA. A member country is considered in default when it is 90 days or more overdue in settling its financial obligations to the General Department.\nB. A member country is considered in default when it is six months or more overdue in settling its financial obligations to the General Department.\nC. A member country is considered in default when it is 12 months or more overdue in settling its financial obligations to the General Department.\nD. A member country is considered in default when it is 18 months or more overdue in settling its financial obligations to the General Department.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8bf4e0cd-0b9c-4299-ae61-172423af8acc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is considered credit-impaired according to the General Department?\nHow do you respond?\nA. A member country that is six months or more overdue in settling its financial obligations to the General Department.\nB. A member country that has defaulted on its obligations to the General Department.\nC. A member country with a high risk of default.\nD. A member country with low credit risk at the reporting date.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e835b1b6-b16c-47f5-88c9-50e5eb78b9be",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the General Department measure expected credit loss (ECL)?\nHow do you respond?\nA. By comparing expected cash flows with contractual cash flows and discounting the expected cash shortfalls at the effective interest rate.\nB. By assessing the probability of default and loss given default based on a member's creditworthiness.\nC. By measuring the difference between the present value of expected future cash flows and the present value of contractual cash flows.\nD. By estimating the probability of a member country defaulting and the potential loss in the event of default.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c9dd94a2-72f2-447d-8092-2801660f9e9a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for the General Department's assumption that credit risk related to a member country is low?\nHow do you respond?\nA. If the member country has a low risk of default, a strong capacity to meet contractual cash flow obligations in the near term, and adverse changes in economic and business conditions in the longer term may reduce the ability of the member country to fulfill its contractual cash flow obligations.\nB. If the member country has not been more than 30 days past due on its financial obligations to the IMF, and there are no signals of noncooperation by the member.\nC. If the member country has a strong capacity to repay the IMF, and the risk of default at the reporting date is lower than the risk of default at the date of the most recent disbursement to the debtor member.\nD. If the member country has a low risk of default, and the expected cash flows from the member country are sufficient to cover the contractual cash flows.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7c7a8250-eacb-4041-9a70-2c15061099e8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the burden-sharing mechanism in the IMF's financial structure and operations?\nHow do you respond?\nA. To compensate the IMF for loss of income due to overdue payments.\nB. To assess a range of possible outcomes in light of expected future economic conditions.\nC. To determine the credit risk of a member country.\nD. To measure the expected credit loss.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0406781b-1d34-4c68-bc61-5ed8b44abeb7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the source of the General Department's ECL estimation model?\nHow do you respond?\nA. The IMF's financial statements for the financial years ended April 30, 2022, and 2021.\nB. The General Department's Notes to the Financial Statements for the Financial Years Ended April 30, 2022, and 2021.\nC. The member country's financial obligations to the General Department.\nD. The IMF's unique institutional status and consistency with the threshold for internal risk management purposes.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4c136a6d-2f0d-4617-bd59-238a20176279",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are investments in the IMF's portfolios managed and evaluated?\nHow do you respond?\nA. Investments in the IMF's portfolios are managed and evaluated based on their liquidity and risk profile to ensure they meet the IMF's financial objectives.\nB. Investments in the IMF's portfolios are managed and evaluated based on their potential for long-term capital appreciation and their contribution to the IMF's overall investment strategy.\nC. Investments in the IMF's portfolios are managed and evaluated based on their alignment with the IMF's mission and objectives, and their impact on the global economy.\nD. Investments in the IMF's portfolios are managed and evaluated based on their market value and performance relative to benchmarks, and their contribution to the IMF's financial performance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "b59498ed-9ff1-4039-bc7e-de1e4743667f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the carrying value of gold holdings in the IMF's financial statements?\nHow do you respond?\nA. Historical cost\nB. Fair value\nC. Carrying value determined by the restrictions on the use of the IMF's gold holdings and the disposition of profits from the sale of gold.\nD. Book value\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5ba6d260-2a66-4d05-b2c5-248ea998a8ed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for recognizing cash and cash equivalents in the IMF's financial statements?\nHow do you respond?\nA. Historical cost\nB. Fair value\nC. Face value\nD. Amortized cost\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "ef2f960a-19c9-47b1-a5c2-e52074536650",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the basis for recognizing write-offs in the IMF's financial statements?\nHow do you respond?\nA. Historical cost\nB. Fair value\nC. Amortized cost\nD. Effective interest method\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "cbdeec06-3b5f-4107-a8fa-c87eeb8e826e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How are SDR holdings measured and classified in the IMF's financial statements?\nHow do you respond?\nA. SDR holdings are measured at fair value and classified as investments.\nB. SDR holdings are measured at historical cost and classified as cash and cash equivalents.\nC. SDR holdings are measured at fair value and classified as assets for the IMF's financial operations.\nD. SDR holdings are measured at cost and classified as other assets.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "8d265bb1-ca84-4165-b501-7d8ce93f5292",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the burden-sharing mechanism in the IMF's financial structure?\nHow do you respond?\nA. To protect the IMF in case of the ultimate failure of a member to repay its overdue obligations to the GRA.\nB. To compensate the IMF for loss of income due to overdue payments.\nC. To manage investments in accordance with their respective investment strategy.\nD. To achieve fair value gains in the invested portfolios.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                }
+            ]
+        }
+    ]
+}

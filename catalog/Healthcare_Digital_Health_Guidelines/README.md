@@ -1,11 +1,11 @@
-# Health_Digital_Health_Guidelines
+# Healthcare_Digital_Health_Guidelines
 
 ## Overview
-Welcome to the Health_Digital_Health_Guidelines, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Health industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
+Welcome to the Healthcare_Digital_Health_Guidelines, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Health industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Health sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [Digital_Health_Guidelines.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Health_Digital_Health_Guidelines/used_documents/Digital_Health_Guidelines.pdf)
+1. [Digital_Health_Guidelines.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_Digital_Health_Guidelines/used_documents/Digital_Health_Guidelines.pdf)
 
 ## Dataset Details
 - **Industry:** Health
@@ -34,7 +34,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Token Presence:** ['2016']
 
-![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Health_Digital_Health_Guidelines/screenshots/tokens_present.png)
+![token_presence_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_Digital_Health_Guidelines/screenshots/tokens_present.png)
 
 #### Sample Conditional questions from the dataset:
 
@@ -42,7 +42,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** The Technical Working Group: Digital Health Standards & Interoperability (TWG – DHSI) was appointed by the National eHealth Steering Committee to review the existing National eHealth Guidelines and Standards and to formulate a new version of the guidelines and standards that align with current developments in digital health.
 
-![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Health_Digital_Health_Guidelines/screenshots/question_type.png)
+![conditional_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_Digital_Health_Guidelines/screenshots/question_type.png)
 
 #### Sample Multi choice questions from the dataset:
 
@@ -50,7 +50,7 @@ The dataset is carefully curated from a diverse set of documents within the Heal
 
 **Answer:** ['2016', '2018', '2015', '2020']
 
-![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Health_Digital_Health_Guidelines/screenshots/multi_choice.png)
+![multi_choice_question_image](https://github.com/h2oai/h2o-evals/blob/main/catalog/Healthcare_Digital_Health_Guidelines/screenshots/multi_choice.png)
 
 ## Usage
 

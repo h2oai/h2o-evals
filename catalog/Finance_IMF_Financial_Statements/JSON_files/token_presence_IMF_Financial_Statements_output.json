@@ -1,0 +1,1702 @@
+{
+    "tests": [
+        {
+            "key": "bd5fd719-6642-4aca-a1b9-16bef3ca6b5b",
+            "documents": [
+                "IMF_Financial_Statements.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "ae7ba7f6-d630-44de-810b-81b391fcfcfa",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the title of the report described in the text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['IMF Annual Report 2022 Financial Statements']"
+                    ],
+                    "expected_output": [
+                        "The title of the report described in the text is \"IMF Annual Report 2022 Financial Statements.\""
+                    ]
+                },
+                {
+                    "key": "cc90a9c1-0478-4071-b14a-3da2a0ff576e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the department that has prepared the financial statements included in the report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Financial Statements Department']"
+                    ],
+                    "expected_output": [
+                        "The financial statements included in the report have been prepared by the Financial Statements Department."
+                    ]
+                },
+                {
+                    "key": "6434048e-e9f0-4918-b1c9-7d40d30beeb2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Schedule 1 in the report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Schedule 1', 'report', 'quota', 'subscriptions', 'GRA', 'holdings', 'currencies', 'reserve', 'tranche', 'positions', 'outstanding', 'credit', 'General', 'Resources', 'Account', 'April 30', '2022']"
+                    ],
+                    "expected_output": [
+                        "Schedule 1 in the report provides information on quota subscriptions, GRA's holdings of currencies, reserve tranche positions, and outstanding credit in the General Resources Account at April 30, 2022."
+                    ]
+                },
+                {
+                    "key": "435650b8-3ae4-49cf-acb1-01401da4595f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Schedule 5 in the report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Schedule 5', 'General Resources Account', 'April 30', '2022', '2021']"
+                    ],
+                    "expected_output": [
+                        "Schedule 5 in the report provides information on effective bilateral borrowing agreements in the General Resources Account at April 30, 2022, and 2021."
+                    ]
+                },
+                {
+                    "key": "3495a460-e3c0-4b9d-8989-92a775220481",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the trust that has been established to provide concessional lending and debt relief to low-income countries?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Poverty Reduction and Growth Trust', 'PRG Trust']"
+                    ],
+                    "expected_output": [
+                        "The trust that has been established to provide concessional lending and debt relief to low-income countries is the Poverty Reduction and Growth Trust (PRG Trust)."
+                    ]
+                },
+                {
+                    "key": "c8312b8a-d3e0-4bb6-9e28-e6b686d5f7ee",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the account that has been established to administer the resources provided by the PRG Trust?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['PRG Trust Loan Account']"
+                    ],
+                    "expected_output": [
+                        "The account that has been established to administer the resources provided by the PRG Trust is the PRG Trust Loan Account."
+                    ]
+                },
+                {
+                    "key": "43a19d54-b3c1-4c4c-b67e-17fbff3b6adb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Schedule 4 in the report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Schedule 4', 'PRG', 'PRG-HIPC', 'CCR Trusts', 'April 30', '2022']"
+                    ],
+                    "expected_output": [
+                        "Schedule 4 in the report provides information on cumulative contributions to the PRG, PRG-HIPC, and CCR Trusts at April 30, 2022."
+                    ]
+                },
+                {
+                    "key": "c29a3c87-cf88-4b27-9ff0-2a5b947e9755",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Schedule 5 in the report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Schedule 5', 'COVID-19', 'pandemic', 'cumulative', 'debt', 'relief', 'assistance', 'April 30', '2022']"
+                    ],
+                    "expected_output": [
+                        "Schedule 5 in the report provides information on the response of the CCR Trust to the COVID-19 pandemic, including cumulative debt relief assistance provided at April 30, 2022."
+                    ]
+                },
+                {
+                    "key": "ec314f0f-a4d8-4f34-9129-02bca4c888db",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the department that has prepared the financial statements and supplementary schedules of the administered accounts included in the report?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Administered Accounts Department']"
+                    ],
+                    "expected_output": [
+                        "The department that has prepared the financial statements and supplementary schedules of the administered accounts included in the report is the Administered Accounts Department."
+                    ]
+                },
+                {
+                    "key": "cb020b7d-81b0-43f7-961a-3263fd5fe713",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the organization that publishes the Annual Report 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['International Monetary Fund', 'IMF']"
+                    ],
+                    "expected_output": [
+                        "The organization that publishes the Annual Report 2022 is the International Monetary Fund (IMF)."
+                    ]
+                },
+                {
+                    "key": "a2601041-0ee4-4c0a-b56b-e3eb531c104b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the title of the report that contains the audited financial statements of the General Department of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Financial Statements of the General Department.']"
+                    ],
+                    "expected_output": [
+                        "The title of the report that contains the audited financial statements of the General Department of the IMF is \"Financial Statements of the General Department.\""
+                    ]
+                },
+                {
+                    "key": "95f45881-e951-4568-90f5-87a3bf2a30c9",
+                    "prompt": "Respond to the following question.\n\nQuestion: Who is responsible for the preparation and fair presentation of the financial statements of the General Department of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Management', 'responsible', 'preparation', 'fair', 'presentation', 'financial', 'statements', 'General', 'Department', 'IMF']"
+                    ],
+                    "expected_output": [
+                        "Management is responsible for the preparation and fair presentation of the financial statements of the General Department of the IMF."
+                    ]
+                },
+                {
+                    "key": "1c3258cc-71ad-42c9-9424-38758911c11b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the audit firm that conducted the audit of the financial statements of the General Department of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['PricewaterhouseCoopers LLP']"
+                    ],
+                    "expected_output": [
+                        "The name of the audit firm that conducted the audit of the financial statements of the General Department of the IMF is PricewaterhouseCoopers LLP."
+                    ]
+                },
+                {
+                    "key": "5d85a0e3-31ba-4e59-854a-29ec51d8aca1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the opinion of the auditors on the financial statements of the General Department of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['fairly', 'financial', 'position', 'Department', 'April 30', '2022', '2021', 'results', 'operations', 'cash', 'flows', 'years', 'ended', 'International', 'Financial', 'Reporting', 'Standards', 'issued', 'International', 'Accounting', 'Standards', 'Board']"
+                    ],
+                    "expected_output": [
+                        "The opinion of the auditors on the financial statements of the General Department of the IMF is that they present fairly, in all material respects, the financial position of the Department as of April 30, 2022 and 2021, and the results of its operations and its cash flows for the years then ended in accordance with International Financial Reporting Standards as issued by the International Accounting Standards Board."
+                    ]
+                },
+                {
+                    "key": "90012810-0f62-425a-aa62-cbd5c418f4c3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for the auditors' opinion on the financial statements of the General Department of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['US GAAS', 'ISAs']"
+                    ],
+                    "expected_output": [
+                        "The basis for the auditors' opinion on the financial statements of the General Department of the IMF is their audit conducted in accordance with auditing standards generally accepted in the United States of America (US GAAS) and in accordance with International Standards on Auditing (ISAs)."
+                    ]
+                },
+                {
+                    "key": "ccb1aa77-65df-4b0e-bdbb-eb8ef50fd0bd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Board of Governors of the IMF in relation to the financial statements of the General Department of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Board', 'Governors', 'IMF', 'financial', 'statements', 'approval']"
+                    ],
+                    "expected_output": [
+                        "The Board of Governors of the IMF is responsible for overseeing the financial activities of the General Department of the IMF, including the approval of the financial statements."
+                    ]
+                },
+                {
+                    "key": "cbbe7643-08f6-4914-b34b-b8de153071b3",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Annual Report 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['financial activities', 'performance', 'IMF', 'financial year', 'April 30', '2022']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Annual Report 2022 is to provide information on the financial activities and performance of the IMF during the financial year ended April 30, 2022."
+                    ]
+                },
+                {
+                    "key": "06b856ca-24cd-435b-9063-f75223807c74",
+                    "prompt": "Respond to the following question.\n\nQuestion: How can the Annual Report 2022 be obtained?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['www.imf.org/AR2022']"
+                    ],
+                    "expected_output": [
+                        "The Annual Report 2022 can be obtained through IMF Publication Services at the following address: International Monetary Fund, Publication Services, P.O. Box 92780, Washington, DC 20090, U.S.A. It can also be downloaded from the IMF's website at www.imf.org/AR2022."
+                    ]
+                },
+                {
+                    "key": "f1040b8a-7889-4152-8a51-8a1bfa949603",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the languages in which the Annual Report 2022 is available?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Arabic', 'Chinese', 'English', 'French', 'German', 'Japanese', 'Portuguese', 'Russian', 'Spanish']"
+                    ],
+                    "expected_output": [
+                        "The Annual Report 2022 is available in nine languages: Arabic, Chinese, English, French, German, Japanese, Portuguese, Russian, and Spanish."
+                    ]
+                },
+                {
+                    "key": "b74d891d-3e87-4e36-9349-8b9460bf6923",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of management in preparing the financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['going concern', 'management', 'assessing', 'disclosing', 'reporting period']"
+                    ],
+                    "expected_output": [
+                        "Management is responsible for assessing the Department\u2019s ability to continue as a going concern for at least twelve months from the end of the reporting period and disclosing, as applicable, matters related to going concern and using the going concern basis of accounting."
+                    ]
+                },
+                {
+                    "key": "032c62e4-a133-4e7a-9f1b-d8dc7ae45c2f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the role of those charged with governance in the financial reporting process?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Those', 'charged', 'with', 'governance', 'responsible', 'overseeing', 'Department\u2019s', 'financial', 'reporting', 'process']"
+                    ],
+                    "expected_output": [
+                        "Those charged with governance are responsible for overseeing the Department\u2019s financial reporting process."
+                    ]
+                },
+                {
+                    "key": "1bd78ef4-079b-40c8-8874-af4f2b7e5996",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the auditors\u2019 responsibilities for the audit of the financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['reasonable', 'assurance', 'financial', 'statements', 'free', 'material', 'misstatement', 'fraud', 'error', 'auditors', 'report', 'opinion']"
+                    ],
+                    "expected_output": [
+                        "The auditors\u2019 responsibilities include obtaining reasonable assurance about whether the financial statements as a whole are free from material misstatement, whether due to fraud or error, and issuing an auditors\u2019 report that includes their opinion."
+                    ]
+                },
+                {
+                    "key": "ab89e51c-d2f7-45af-a0c5-f939639a1850",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the level of assurance that auditors strive for in their audit?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['high', 'reasonable', 'assurance']"
+                    ],
+                    "expected_output": [
+                        "Auditors strive for a high level of assurance, which is reasonable assurance, but not absolute assurance, and therefore is not a guarantee that an audit conducted in accordance with US GAAS and ISAs will always detect a material misstatement when it exists."
+                    ]
+                },
+                {
+                    "key": "ba9af049-205b-42fc-abcc-139f6de7d8d1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are misstatements considered material if they have a substantial likelihood of influencing the judgment made by a reasonable user based on the financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['substantial likelihood', 'judgment', 'financial statements']"
+                    ],
+                    "expected_output": [
+                        "Misstatements are considered material if there is a substantial likelihood that, individually or in the aggregate, they would influence the judgment made by a reasonable user based on the financial statements."
+                    ]
+                },
+                {
+                    "key": "80ee2014-7db7-4f51-9711-a6da7b5d04a5",
+                    "prompt": "Respond to the following question.\n\nQuestion: What procedures do auditors perform to identify and assess the risks of material misstatement of the financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['risks', 'material', 'misstatement', 'financial', 'statements', 'audit', 'procedures']"
+                    ],
+                    "expected_output": [
+                        "Auditors identify and assess the risks of material misstatement of the financial statements by exercising professional judgment and maintaining professional skepticism throughout the audit, and designing and performing audit procedures responsive to those risks."
+                    ]
+                },
+                {
+                    "key": "9d2848e6-2339-490d-9f3a-806b428488dd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of obtaining an understanding of internal control relevant to the audit?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['obtaining', 'internal', 'control', 'relevant', 'audit', 'design', 'appropriate', 'circumstances', 'expressing', 'opinion', 'effectiveness', 'Department', 'internal', 'control']"
+                    ],
+                    "expected_output": [
+                        "The purpose of obtaining an understanding of internal control relevant to the audit is to design audit procedures that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of the Department\u2019s internal control."
+                    ]
+                },
+                {
+                    "key": "84cb8d47-fa83-4733-b779-e97098a71b3e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of auditors regarding communication with those charged with governance?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Auditors', 'communicate', 'with', 'those', 'charged', 'governance', 'regarding', 'planned', 'scope', 'timing', 'audit', 'significant', 'findings', 'certain', 'internal', 'control-related', 'matters', 'identified', 'during', 'audit']"
+                    ],
+                    "expected_output": [
+                        "Auditors are required to communicate with those charged with governance regarding, among other matters, the planned scope and timing of the audit, significant audit findings, and certain internal control-related matters that they identified during the audit."
+                    ]
+                },
+                {
+                    "key": "157f9387-6971-44e2-821e-09757e96687b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the supplemental schedules presented in the financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'supplemental', 'schedules', 'presented', 'financial', 'statements', 'purpose', 'additional', 'analysis', 'not', 'required', 'part', 'management', 'derived', 'underlying', 'accounting', 'records', 'prepare', 'financial', 'statements']"
+                    ],
+                    "expected_output": [
+                        "The supplemental schedules are presented for purposes of additional analysis and are not a required part of the financial statements. They are the responsibility of management and were derived from and relate directly to the underlying accounting and other records used to prepare the financial statements."
+                    ]
+                },
+                {
+                    "key": "5dab1285-2a03-4e0b-bea8-f58ecb8fc7a2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the conclusion of the auditors regarding the Department\u2019s ability to continue as a going concern?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['substantial doubt', 'going concern', 'reasonable period of time']"
+                    ],
+                    "expected_output": [
+                        "The auditors concluded that, in their judgment, there are conditions or events, considered in the aggregate, that raise substantial doubt about the Department\u2019s ability to continue as a going concern for a reasonable period of time."
+                    ]
+                },
+                {
+                    "key": "7373891c-dda1-417e-b575-7934491e9b8d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of usable currencies reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['292,280 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of usable currencies reported in the Statement of Financial Position at April 30, 2022 was 292,280 million SDRs."
+                    ]
+                },
+                {
+                    "key": "42b88884-a5c1-4d5c-9e0d-9f1cc789c29e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of investments reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['25,418 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of investments reported in the Statement of Financial Position at April 30, 2022 was 25,418 million SDRs."
+                    ]
+                },
+                {
+                    "key": "cd705382-2708-44f2-91aa-43d1ba013859",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of gold holdings reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['3,167 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of gold holdings reported in the Statement of Financial Position at April 30, 2022 was 3,167 million SDRs."
+                    ]
+                },
+                {
+                    "key": "2f68bad9-e171-4bce-88ad-eb535eff22c0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of property, plant, and equipment reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['551 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of property, plant, and equipment reported in the Statement of Financial Position at April 30, 2022 was 551 million SDRs."
+                    ]
+                },
+                {
+                    "key": "297b75b7-8bab-427f-947b-0045ca8c20bb",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of net assets under retirement benefit plans reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['1,375 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of net assets under retirement benefit plans reported in the Statement of Financial Position at April 30, 2022 was 1,375 million SDRs."
+                    ]
+                },
+                {
+                    "key": "de97f583-9649-4a4d-80dd-e5684bb9c9bf",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of borrowings reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['2,615 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of borrowings reported in the Statement of Financial Position at April 30, 2022 was 2,615 million SDRs."
+                    ]
+                },
+                {
+                    "key": "55f0c37b-bbfc-440b-a7d5-09422dccc1f1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of quota subscriptions reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['476,272 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of quota subscriptions reported in the Statement of Financial Position at April 30, 2022 was 476,272 million SDRs."
+                    ]
+                },
+                {
+                    "key": "aae5ed16-ed3c-4e35-b938-f2239f8d7c26",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of net liabilities under retirement benefit plans reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['127 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of net liabilities under retirement benefit plans reported in the Statement of Financial Position at April 30, 2022 was 127 million SDRs."
+                    ]
+                },
+                {
+                    "key": "d2fc6e51-02e0-487e-815f-c0281426055a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of other liabilities reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['970 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of other liabilities reported in the Statement of Financial Position at April 30, 2022 was 970 million SDRs."
+                    ]
+                },
+                {
+                    "key": "ddc715c4-8019-4f82-b73c-01842f8cb0a4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of resources of the Special Disbursement Account reported in the Statement of Financial Position at April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['zero']"
+                    ],
+                    "expected_output": [
+                        "The total amount of resources of the Special Disbursement Account reported in the Statement of Financial Position at April 30, 2022 was zero."
+                    ]
+                },
+                {
+                    "key": "3434fea4-df03-48e8-ade5-3ad407fe99b2",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the total amount of comprehensive income reported in the Statement of Comprehensive Income for the financial year ended April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['3,085 million SDRs']"
+                    ],
+                    "expected_output": [
+                        "The total amount of comprehensive income reported in the Statement of Comprehensive Income for the financial year ended April 30, 2022 was 3,085 million SDRs."
+                    ]
+                },
+                {
+                    "key": "ba9d84d3-db5f-4312-91ca-f73fab1311b4",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the international organization that is the subject of the financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['International Monetary Fund', 'IMF']"
+                    ],
+                    "expected_output": [
+                        "The name of the international organization that is the subject of the financial statements is the International Monetary Fund (IMF)."
+                    ]
+                },
+                {
+                    "key": "4055f114-6026-49c2-a44d-f9731d94ecd7",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the primary mission of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['stability', 'international', 'monetary', 'system']"
+                    ],
+                    "expected_output": [
+                        "The primary mission of the IMF is to ensure the stability of the international monetary system."
+                    ]
+                },
+                {
+                    "key": "ab68e9ed-1818-4328-8955-f8a583ccf25e",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the IMF conduct its operations and transactions?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'IMF', 'GRA', 'IA', 'SDA']"
+                    ],
+                    "expected_output": [
+                        "The IMF conducts its operations and transactions through the General Department, which comprises three accounts: the General Resources Account (GRA), the Investment Account (IA), and the Special Disbursement Account (SDA)."
+                    ]
+                },
+                {
+                    "key": "4b9b91dd-2f11-41b5-ae49-c08e5205737b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the General Resources Account (GRA)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['GRA', 'IMF', 'financial', 'operations', 'members']"
+                    ],
+                    "expected_output": [
+                        "The General Resources Account (GRA) is used to conduct the IMF's financial operations with its members."
+                    ]
+                },
+                {
+                    "key": "d5e946f2-82d1-421c-be0e-5b7b67f1f195",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Investment Account (IA)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['IMF', 'investments']"
+                    ],
+                    "expected_output": [
+                        "The Investment Account (IA) is used to manage the IMF's investments."
+                    ]
+                },
+                {
+                    "key": "108242c1-e3d2-426c-a28c-3223dfe70eb0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Special Disbursement Account (SDA)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'Special', 'Disbursement', 'Account', 'is', 'used', 'to', 'provide', 'financial', 'assistance', 'to', 'member', 'countries']"
+                    ],
+                    "expected_output": [
+                        "The Special Disbursement Account (SDA) is used to provide financial assistance to member countries."
+                    ]
+                },
+                {
+                    "key": "52cb2d2a-8797-47df-a4ca-2893a4cdf93a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the account that is used to record the IMF's net income?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['General Resources Account (GRA)']"
+                    ],
+                    "expected_output": [
+                        "The name of the account that is used to record the IMF's net income is the General Resources Account (GRA)."
+                    ]
+                },
+                {
+                    "key": "8389fbad-aaab-46ae-8821-6d7f2bc3929e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the account that is used to record the IMF's other comprehensive income?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Investment Account (IA)']"
+                    ],
+                    "expected_output": [
+                        "The name of the account that is used to record the IMF's other comprehensive income is the Investment Account (IA)."
+                    ]
+                },
+                {
+                    "key": "3ab89d4d-a5bc-46ef-be0a-69712bc3195e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the account that is used to record the IMF's transfers from the Investment Account?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['General Resources Account (GRA)']"
+                    ],
+                    "expected_output": [
+                        "The name of the account that is used to record the IMF's transfers from the Investment Account is the General Resources Account (GRA)."
+                    ]
+                },
+                {
+                    "key": "fd74d544-e303-40a9-a0a0-54c0bfd30cfe",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the name of the note that provides information about the IMF's financing activities?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Note 11', 'Financing Activities']"
+                    ],
+                    "expected_output": [
+                        "The name of the note that provides information about the IMF's financing activities is Note 11: Financing Activities."
+                    ]
+                },
+                {
+                    "key": "3b063289-7391-4619-8c5f-4adefe3fa80c",
+                    "prompt": "Respond to the following question.\n\nQuestion: Where is the IMF headquartered?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Washington', 'DC', 'USA']"
+                    ],
+                    "expected_output": [
+                        "The IMF is headquartered in Washington, DC, USA."
+                    ]
+                },
+                {
+                    "key": "cbba7268-6397-4118-9e02-67687c77fea1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the three accounts that comprise the General Department of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['GRA', 'IA', 'SDA']"
+                    ],
+                    "expected_output": [
+                        "The three accounts that comprise the General Department of the IMF are the General Resources Account (GRA), the Investment Account (IA), and the Special Disbursement Account (SDA)."
+                    ]
+                },
+                {
+                    "key": "f077869e-bfdd-42b5-a8d2-12f2450104da",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the primary purpose of the GRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['GRA', 'financial', 'operations', 'member', 'countries', 'financial', 'assistance', 'members', 'balance', 'payments', 'problems']"
+                    ],
+                    "expected_output": [
+                        "The primary purpose of the GRA is to conduct financial operations with member countries and provide financial assistance to members experiencing balance of payments problems."
+                    ]
+                },
+                {
+                    "key": "30edb598-fe17-477a-a63d-a9feb5c0ee82",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the Stand-By Arrangement (SBA)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Stand-By Arrangement', 'financing', 'balance of payments', 'short to medium term']"
+                    ],
+                    "expected_output": [
+                        "The Stand-By Arrangement (SBA) is a financing arrangement that provides financial assistance to members with balance of payments problems expected to be resolved in the short to medium term."
+                    ]
+                },
+                {
+                    "key": "bf0200ac-2eea-4c2a-aed4-a2711ff33e91",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the Extended Fund Facility (EFF)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['EFF', 'GRA', 'balance', 'payments', 'problems', 'reforms']"
+                    ],
+                    "expected_output": [
+                        "The Extended Fund Facility (EFF) is a special facility in the GRA for members with longer-term balance of payments problems, the resolution of which would require structural and more comprehensive economic reforms."
+                    ]
+                },
+                {
+                    "key": "0edc6775-7fa8-4244-bdd4-40173ec8795d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the Flexible Credit Line (FCL)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Flexible', 'Credit', 'Line']"
+                    ],
+                    "expected_output": [
+                        "The Flexible Credit Line (FCL) is available for members with very strong fundamentals, policies, and track records of policy implementation and is intended for both crisis prevention and resolution."
+                    ]
+                },
+                {
+                    "key": "6ab43266-3443-47b8-acb6-ae5dc782126b",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the Short-term Liquidity Line (SLL)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Short-term Liquidity Line (SLL)']"
+                    ],
+                    "expected_output": [
+                        "The Short-term Liquidity Line (SLL) is designed to provide liquidity support and has several innovative features, including revolving access."
+                    ]
+                },
+                {
+                    "key": "ee9bd5a0-c474-4dec-87cc-769d54cee3f9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the Precautionary and Liquidity Line (PLL)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Precautionary', 'Liquidity', 'Line', 'available', 'members', 'sound', 'economic', 'fundamentals', 'vulnerabilities', 'qualification', 'criteria', 'FCL', 'SLL']"
+                    ],
+                    "expected_output": [
+                        "The Precautionary and Liquidity Line (PLL) is available for members with sound economic fundamentals but with some remaining vulnerabilities that prevent them from meeting the qualification criteria for the FCL and the SLL."
+                    ]
+                },
+                {
+                    "key": "2fa803ce-f12e-4c07-a14d-a9cc5353666c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the Rapid Financing Instrument (RFI)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Rapid Financing Instrument', 'RFI', 'urgent balance of payments need', 'full-fledged program']"
+                    ],
+                    "expected_output": [
+                        "The Rapid Financing Instrument (RFI) is used by members facing an urgent balance of payments need without the necessity or capacity for a full-fledged program."
+                    ]
+                },
+                {
+                    "key": "49edaf5d-6b5a-414e-8d18-4936db774fcc",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Investment Account (IA)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "[\"The purpose of the Investment Account (IA) is to broaden the IMF's income base by investing resources transferred from the GRA.\"]"
+                    ],
+                    "expected_output": [
+                        "The purpose of the Investment Account (IA) is to broaden the IMF's income base by investing resources transferred from the GRA."
+                    ]
+                },
+                {
+                    "key": "650e85e1-90e1-4908-bb42-faf7e9f47043",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the investment objective of the Fixed-Income Subaccount during the financial year ended April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['achieve', 'exceed', 'SDR', 'interest', 'rate', 'margin', 'basis', 'points']"
+                    ],
+                    "expected_output": [
+                        "The investment objective of the Fixed-Income Subaccount during the financial year ended April 30, 2022 was to achieve, over time, returns that exceed the SDR interest rate by a margin of 50 basis points."
+                    ]
+                },
+                {
+                    "key": "b36296ca-6d32-4288-afd5-61bb5f893fef",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the amount of profits credited to the Endowment Subaccount from gold sales during financial years 2010 and 2011?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SDR 4.4 billion']"
+                    ],
+                    "expected_output": [
+                        "The Endowment Subaccount was credited with SDR 4.4 billion in profits from gold sales during financial years 2010 and 2011."
+                    ]
+                },
+                {
+                    "key": "d0c2c4f0-2870-4b52-86ec-41ea581ef29e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the investment objective of the Endowment Subaccount?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['3 percent', 'long term', 'real value']"
+                    ],
+                    "expected_output": [
+                        "The investment objective of the Endowment Subaccount is to achieve a real return of 3 percent in US dollar terms over the long term to contribute to covering the IMF\u2019s administrative expenditures, while preserving the long-term real value of these assets."
+                    ]
+                },
+                {
+                    "key": "471a09f7-7a8a-4f9c-80a8-ba541146bc3d",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Special Disbursement Account (SDA)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SDA', 'IMF', 'GRA', 'IA']"
+                    ],
+                    "expected_output": [
+                        "The SDA is used to receive profits from the sale of gold held by the IMF at the time of the Second Amendment of the IMF\u2019s Articles of Agreement (April 1978). SDA resources can be used for various purposes, including transfers to the GRA for immediate use in operations and transactions, transfers to the IA, or operations and transactions that are not authorized by other provisions of the IMF\u2019s Articles of Agreement but are consistent with the mandate of the IMF, in particular to provide balance of payments assistance on special terms to low-income member countries."
+                    ]
+                },
+                {
+                    "key": "f80d07d3-6ff6-466a-80bd-e3c4e2449203",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the other entities administered by the IMF, aside from the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Special Drawing Rights Department', 'Concessional Lending', 'Debt Relief Trusts', 'Administered Accounts']"
+                    ],
+                    "expected_output": [
+                        "The IMF also administers the Special Drawing Rights Department (SDR Department), trusts (Concessional Lending and Debt Relief Trusts), and special purpose accounts (Administered Accounts) established to fund financial and technical services consistent with the IMF\u2019s purposes."
+                    ]
+                },
+                {
+                    "key": "fdd76d6b-0419-46cc-ba55-2a90ade4de1d",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are the resources of the SDR Department held and used?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['held', 'separately', 'resources', 'IMF', 'Articles', 'Agreement', 'liabilities', 'obligations', 'losses', 'operations', 'General', 'Department', 'expenses', 'business', 'reimbursed']"
+                    ],
+                    "expected_output": [
+                        "The resources of the SDR Department are held separately from the assets of all other accounts owned or administered by the IMF. As specified in the IMF\u2019s Articles of Agreement, these resources may not be used to meet the liabilities, obligations, or losses incurred in the operations of the General Department (or vice versa), except that expenses of conducting the business of the SDR Department are paid by the General Department and are then reimbursed by the SDR Department."
+                    ]
+                },
+                {
+                    "key": "45bb4465-db1d-4947-a633-9acb3276435f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the impact of the COVID-19 pandemic on the IMF's financing activity?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['severe', 'disruptions', 'global', 'economic', 'activity', 'IMF', 'responded', 'crisis', 'unprecedented', 'speed', 'magnitude', 'financial', 'assistance', 'countries', 'vulnerable', 'recovery', 'emergency', 'financing', 'RFI', 'purchases']"
+                    ],
+                    "expected_output": [
+                        "The COVID-19 pandemic has created severe disruptions in global economic activity, and the IMF responded to the crisis with unprecedented speed and magnitude of financial assistance, to help countries, notably to protect the most vulnerable and set the stage for economic recovery. A significant number of countries benefited from emergency financing through RFI purchases during the financial year ended April 30, 2021."
+                    ]
+                },
+                {
+                    "key": "9402af63-e098-43ab-8a93-85dd2b3489c4",
+                    "prompt": "Respond to the following question.\n\nQuestion: How has the pandemic affected the General Department's credit exposure?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['increased', 'credit', 'exposure', 'pre-pandemic', 'financing', 'activity']"
+                    ],
+                    "expected_output": [
+                        "The pandemic has increased the General Department's credit exposure compared with the pre-pandemic level, due to the increased financing activity."
+                    ]
+                },
+                {
+                    "key": "bd9d9174-c0d1-4c5e-b3eb-6e3e61603814",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the expected impact of the war in Ukraine on global growth?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['significant', 'negative', 'effect', 'global', 'growth']"
+                    ],
+                    "expected_output": [
+                        "The war in Ukraine that started in February 2022 is expected to have a significant negative effect on global growth through commodity markets, trade, and, to a lesser extent, financial interlinkages."
+                    ]
+                },
+                {
+                    "key": "bade0c32-82c5-4b7d-930f-622e8bd7794a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Schedule 3 mentioned in the text?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Schedule', '3', 'IMF', 'lending', 'arrangements', 'pandemic']"
+                    ],
+                    "expected_output": [
+                        "Schedule 3 provides information on the IMF's financial assistance approved under its lending arrangements and augmented existing lending arrangements to accommodate new needs arising from the impact of the pandemic during the financial years ended April 30, 2022, and 2021."
+                    ]
+                },
+                {
+                    "key": "1992ac67-3d33-4ee8-841c-bc65c57f2429",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis of preparation and measurement for the financial statements of the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['IFRS', 'IASB']"
+                    ],
+                    "expected_output": [
+                        "The financial statements of the General Department are prepared in accordance with International Financial Reporting Standards (IFRS) issued by the International Accounting Standards Board (IASB) and have been prepared under the historical cost convention, except for the revaluation of financial instruments at fair value through profit or loss."
+                    ]
+                },
+                {
+                    "key": "33be72b4-dfa7-4a8e-a3a9-24e764180351",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the unit of account used in the financial statements of the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SDRs']"
+                    ],
+                    "expected_output": [
+                        "The financial statements are presented in SDRs, which is the IMF\u2019s unit of account."
+                    ]
+                },
+                {
+                    "key": "6e6403af-2234-4c99-8bc8-5389faf704fd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the composition of the SDR valuation basket as of April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Chinese renminbi', 'Euro', 'Japanese yen', 'Pound sterling', 'US dollar']"
+                    ],
+                    "expected_output": [
+                        "The SDR valuation basket consists of five currencies, with the following weights: Chinese renminbi (10.92%), Euro (30.93%), Japanese yen (8.33%), Pound sterling (8.09%), and US dollar (41.73%)."
+                    ]
+                },
+                {
+                    "key": "297170e3-de77-4324-adc3-b3d09609ce1f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the value of SDR 1 in US dollars as of April 30, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['1.34430']"
+                    ],
+                    "expected_output": [
+                        "SDR 1 was equal to US$1.34430 as of April 30, 2022."
+                    ]
+                },
+                {
+                    "key": "bcc861d5-2513-4feb-899f-f101aec24951",
+                    "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the extension of the current SDR valuation basket beyond its original expiration date of September 30, 2021?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'Executive', 'Board', 'decided', 'to', 'extend', 'the', 'current', 'SDR', 'valuation', 'basket', 'to', 'July', '31', '2022', 'to', 'allow', 'for', 'the', 'completion', 'of', 'the', 'quinquennial', 'review', 'of', 'the', 'method', 'of', 'valuation', 'of', 'the', 'SDR']"
+                    ],
+                    "expected_output": [
+                        "The Executive Board decided to extend the current SDR valuation basket to July 31, 2022, to allow for the completion of the quinquennial review of the method of valuation of the SDR."
+                    ]
+                },
+                {
+                    "key": "a010c636-c670-48ca-9ada-503bd95e4297",
+                    "prompt": "Respond to the following question.\n\nQuestion: What changes were made to the SDR basket valuation basket as a result of the quinquennial review concluded on May 11, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['US dollar', 'Chinese renminbi', 'British pound', 'euro', 'Japanese yen']"
+                    ],
+                    "expected_output": [
+                        "The Executive Board agreed to maintain the current composition of the SDR currency and interest rate baskets and approved their updated weights, which imply slightly higher weights for the US dollar and the Chinese renminbi and somewhat lower weights for the British pound, the euro, and the Japanese yen."
+                    ]
+                },
+                {
+                    "key": "8c6ed393-6bbb-4aba-be63-02edb730d301",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the new weights for the SDR basket currencies effective August 1, 2022?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Chinese renminbi', 'Euro', 'Japanese yen', 'Pound sterling', 'US dollar']"
+                    ],
+                    "expected_output": [
+                        "The new weights for the SDR basket currencies effective August 1, 2022, are as follows: Chinese renminbi (12.28%), Euro (29.31%), Japanese yen (7.59%), Pound sterling (7.44%), and US dollar (43%)."
+                    ]
+                },
+                {
+                    "key": "bbb2e6b1-e971-4cbd-9fc4-ea60e33ed6fc",
+                    "prompt": "Respond to the following question.\n\nQuestion: How has the war in Ukraine affected the investment portfolios of the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['significant', 'negative', 'impacted']"
+                    ],
+                    "expected_output": [
+                        "The war in Ukraine has had a significant negative effect on global growth through commodity markets, trade, and, to a lesser extent, financial interlinkages, which has impacted the investment portfolios of the General Department."
+                    ]
+                },
+                {
+                    "key": "d5217010-7c8c-4860-bfcd-bdffb24dad96",
+                    "prompt": "Respond to the following question.\n\nQuestion: How has the General Department managed its risks in response to the pandemic and the war in Ukraine?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['mitigating', 'risk', 'management', 'framework']"
+                    ],
+                    "expected_output": [
+                        "The General Department continues to manage its risks in accordance with its existing risk management framework, which has been effective in mitigating the risk exposure of the effects of the global developments on the investment portfolios."
+                    ]
+                },
+                {
+                    "key": "ec49fc31-baa2-44b9-9282-6a9dc95efe56",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for the valuation of investments held at amortized cost in the financial statements of the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['not', 'impacted']"
+                    ],
+                    "expected_output": [
+                        "The valuation of investments held at amortized cost in the financial statements of the General Department is not impacted by the global developments."
+                    ]
+                },
+                {
+                    "key": "e460e02c-5c3c-4f7f-b304-a146919a21da",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the SDR basket valuation?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SDR basket valuation', 'interest rate', 'remuneration', 'borrowings']"
+                    ],
+                    "expected_output": [
+                        "The SDR basket valuation is used to determine the weights of the five currencies (Chinese renminbi, euro, Japanese yen, British pound, and US dollar) in the SDR basket, which is used as the basis for calculating the interest rate on SDR holdings, remuneration paid on members\u2019 reserve tranche positions, and interest on borrowings."
+                    ]
+                },
+                {
+                    "key": "76823c83-820a-412e-9877-39ca0d193639",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the five currencies included in the SDR basket?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Chinese renminbi', 'euro', 'Japanese yen', 'British pound', 'US dollar']"
+                    ],
+                    "expected_output": [
+                        "The five currencies included in the SDR basket are the Chinese renminbi, euro, Japanese yen, British pound, and US dollar."
+                    ]
+                },
+                {
+                    "key": "d0007302-2e66-4443-8814-d4c7ad3c0820",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are the weights of the currencies in the SDR basket determined?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['based', 'every', 'five', 'years']"
+                    ],
+                    "expected_output": [
+                        "The weights of the currencies in the SDR basket are determined based on a review conducted every five years, or sooner if developments in the interim justify an earlier review. The review takes into account the economic positions of the currencies and the interests of the IMF's member countries."
+                    ]
+                },
+                {
+                    "key": "6278a33e-6980-4544-b961-482b5678b278",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the SDR interest rate?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SDR interest rate', 'interest rate', 'yields', 'rates', 'short-term instruments', 'money markets', 'members', 'currencies', 'SDR valuation basket']"
+                    ],
+                    "expected_output": [
+                        "The SDR interest rate is the interest rate paid on SDR holdings, remuneration paid on members\u2019 reserve tranche positions, and interest on borrowings. It is determined weekly by reference to a weighted average of yields or rates on short-term instruments in the money markets of the members whose currencies are included in the SDR valuation basket."
+                    ]
+                },
+                {
+                    "key": "0f774f80-cef5-488a-be2f-bbecff9f0db7",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the floor for the SDR interest rate?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['0.050 percent']"
+                    ],
+                    "expected_output": [
+                        "The SDR interest rate is subject to a floor of 0.050 percent."
+                    ]
+                },
+                {
+                    "key": "f12e5ac3-9740-4cb6-be2e-8ec97ec4af7e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the average SDR interest rate for the financial years ended April 30, 2022, and 2021?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['0.107', '0.077']"
+                    ],
+                    "expected_output": [
+                        "The average SDR interest rate was 0.107 percent per annum for the financial year ended April 30, 2022, and 0.077 percent per annum for the financial year ended April 30, 2021."
+                    ]
+                },
+                {
+                    "key": "3edd18a4-6181-4f19-a59b-9adadd071b0a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the transition date of July 29, 2022, in relation to the SDR basket valuation?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['July 29, 2022', 'SDR basket', 'SDR interest rate']"
+                    ],
+                    "expected_output": [
+                        "The transition date of July 29, 2022, is significant because it is the date on which the new weights for the SDR basket currencies will be assigned and used to calculate the SDR interest rate."
+                    ]
+                },
+                {
+                    "key": "ec987a71-408d-4473-8371-d08e93c559d0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for accounting for financial instruments in the financial statements of the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['fair value', 'transaction amount']"
+                    ],
+                    "expected_output": [
+                        "Financial instruments in the financial statements of the General Department are accounted for using settlement date accounting, except for investments, which are accounted for using trade date accounting. At initial recognition, a financial instrument is measured at its fair value, which is best evidenced by the transaction amount."
+                    ]
+                },
+                {
+                    "key": "199bfb11-73a4-4f27-804f-c4047bb63ca3",
+                    "prompt": "Respond to the following question.\n\nQuestion: When are financial assets derecognized in the financial statements of the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['derecognized', 'financial', 'assets', 'General', 'Department']"
+                    ],
+                    "expected_output": [
+                        "Financial assets are derecognized in the financial statements of the General Department when the contractual rights to receive the cash flows from the assets have expired, or when they have been transferred and either: (i) the General Department transfers substantially all the risks and rewards of ownership; or (ii) the General Department neither transfers nor retains substantially all the risks and rewards of ownership but the General Department has not retained control."
+                    ]
+                },
+                {
+                    "key": "b0dce78f-da0c-4413-ac10-3e8a8e6e4a81",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are financial liabilities derecognized in the financial statements of the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['derecognized', 'financial', 'liabilities', 'General', 'Department', 'extinguished', 'obligation', 'discharged', 'canceled', 'expires']"
+                    ],
+                    "expected_output": [
+                        "Financial liabilities are derecognized in the financial statements of the General Department when they are extinguished (i.e., when the obligation is discharged, canceled, or expires)."
+                    ]
+                },
+                {
+                    "key": "0917963a-ba51-462f-9219-629fbce1ab14",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are financial liabilities derecognized?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['discharged', 'canceled', 'expires']"
+                    ],
+                    "expected_output": [
+                        "Financial liabilities are derecognized when they are extinguished, such as when the obligation is discharged, canceled, or expires."
+                    ]
+                },
+                {
+                    "key": "18b63fac-082d-481a-91b4-a9889ba1892e",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are financial assets classified on initial recognition?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['based', 'two', 'factors']"
+                    ],
+                    "expected_output": [
+                        "Financial assets are classified on initial recognition based on two factors: the business model for managing the financial asset and its contractual cash flow characteristics."
+                    ]
+                },
+                {
+                    "key": "1c733fa7-46bd-4d9e-8d0a-e91300179aff",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the measurement basis for financial assets held for collection of contractual cash flows where those cash flows represent solely payments of principal and interest?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['amortized cost', 'AC']"
+                    ],
+                    "expected_output": [
+                        "Financial assets that are held for collection of contractual cash flows where those cash flows represent solely payments of principal and interest are measured at amortized cost (AC)."
+                    ]
+                },
+                {
+                    "key": "ab614913-6a6b-4e81-8c78-b6fcf8272a6e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the measurement basis for financial assets held for collection of contractual cash flows and for selling, where the assets\u2019 cash flows represent solely payments of principal and interest?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['FVOCI']"
+                    ],
+                    "expected_output": [
+                        "Financial assets that are held for collection of contractual cash flows and for selling, where the assets\u2019 cash flows represent solely payments of principal and interest, would be measured at fair value through other comprehensive income (FVOCI)."
+                    ]
+                },
+                {
+                    "key": "1ca5e4c5-8780-4fe8-98a4-942ecfd8819e",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are financial assets measured at fair value?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['fair value', 'profit or loss', 'FVPL']"
+                    ],
+                    "expected_output": [
+                        "Financial assets that do not meet the criteria to be measured at AC or FVOCI are measured at fair value, with changes in fair value recognized in profit or loss (FVPL)."
+                    ]
+                },
+                {
+                    "key": "b592e62f-18d6-4f04-8ba5-83234d11afb0",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of evaluating expected credit losses (ECL) associated with financial assets at AC and with undrawn balances under lending commitments?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['ECL', 'assess', 'credit', 'losses', 'associated', 'financial', 'assets', 'AC', 'undrawn', 'balances', 'lending', 'commitments', 'record', 'impairment', 'allowances', 'liability', 'provisions']"
+                    ],
+                    "expected_output": [
+                        "The purpose of evaluating ECL is to assess the expected credit losses associated with financial assets at AC and with undrawn balances under lending commitments, and to record impairment allowances for assets at AC and liability provisions for undrawn commitments as needed."
+                    ]
+                },
+                {
+                    "key": "2ed047c8-cb47-4768-8a54-ec1e19df6de8",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are impairment allowances for financial assets at AC calculated?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['applying', 'effective', 'interest', 'rate', 'amortized', 'cost', 'net', 'impairment', 'allowance']"
+                    ],
+                    "expected_output": [
+                        "Impairment allowances for financial assets at AC are calculated by applying the effective interest rate to its amortized cost (i.e., net of the impairment allowance)."
+                    ]
+                },
+                {
+                    "key": "aa374f02-d9f0-4499-84e2-bd559a62e189",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are derivative financial liabilities measured?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['fair value', 'profit or loss']"
+                    ],
+                    "expected_output": [
+                        "Derivative financial liabilities are measured at fair value with changes in fair value recognized in profit or loss."
+                    ]
+                },
+                {
+                    "key": "7f6737ee-1005-4a0d-ae83-4f23c80737f5",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are other financial liabilities measured?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['amortized', 'cost', 'interest', 'income', 'effective', 'method']"
+                    ],
+                    "expected_output": [
+                        "All other financial liabilities are measured at amortized cost. Interest expense from these financial liabilities is included in the statements of income using the effective interest method."
+                    ]
+                },
+                {
+                    "key": "f016a2ab-5412-494f-a0ef-b1b18f670df1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the currency revaluation receivables and payables included in the statements of financial position?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['currency', 'revaluation', 'receivables', 'payables', 'statements', 'financial', 'position', 'impact', 'currency', 'fluctuations', 'value', \"GRA's\", 'assets', 'liabilities', 'foreign', 'currencies']"
+                    ],
+                    "expected_output": [
+                        "The currency revaluation receivables and payables are included in the statements of financial position to reflect the impact of currency fluctuations on the value of the GRA's assets and liabilities denominated in foreign currencies."
+                    ]
+                },
+                {
+                    "key": "7e3a9302-dc3e-4077-adce-16dfafd772a1",
+                    "prompt": "Respond to the following question.\n\nQuestion: How do members receive financing from the GRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SDRs', 'usable currencies', 'exchange', 'currencies']"
+                    ],
+                    "expected_output": [
+                        "Members receive financing from the GRA by purchasing SDRs or usable currencies in exchange for their own currencies."
+                    ]
+                },
+                {
+                    "key": "ac321bec-926f-44b5-bd7c-d176648a1df2",
+                    "prompt": "Respond to the following question.\n\nQuestion: How is the GRA credit repaid by members?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['GRA', 'credit', 'repurchasing', 'holdings', 'currencies', 'SDRs', 'usable currencies']"
+                    ],
+                    "expected_output": [
+                        "GRA credit is repaid by members by repurchasing holdings of their currencies in exchange for SDRs or usable currencies."
+                    ]
+                },
+                {
+                    "key": "3f263813-3940-4dbe-9ff7-5f894f2c4381",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are the charges and fees associated with GRA credit?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['interest', 'basic charges', 'surcharges']"
+                    ],
+                    "expected_output": [
+                        "The GRA earns interest, referred to as basic charges, on members\u2019 use of GRA credit. Basic charges are recognized using the effective interest method. In addition, outstanding GRA credit is also subject to level-based and time-based surcharges."
+                    ]
+                },
+                {
+                    "key": "3a437251-8aa4-4425-8055-b35aad25e68c",
+                    "prompt": "Respond to the following question.\n\nQuestion: What happens if charges not received from members within the required timeframe are not paid?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['not', 'paid']"
+                    ],
+                    "expected_output": [
+                        "Charges not received from members within the required timeframe are recovered by the GRA under the burden-sharing mechanism, through adjustments to increase the rate of charge for debtor member s and decrease the rate of remuneration on members\u2019 reserve tranche positions."
+                    ]
+                },
+                {
+                    "key": "f32514ad-0072-44c7-a924-c16993c64d19",
+                    "prompt": "Respond to the following question.\n\nQuestion: Is a service charge levied by the GRA on all purchases from the GRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['Yes']"
+                    ],
+                    "expected_output": [
+                        "Yes, a service charge is levied by the GRA on all purchases from the GRA except reserve tranche purchases."
+                    ]
+                },
+                {
+                    "key": "3e3f1550-9c62-4df5-897e-014f64f2b2e6",
+                    "prompt": "Respond to the following question.\n\nQuestion: How is commitment fee income recognized by the GRA?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['straight-line', 'basis', 'duration', 'SLL arrangement']"
+                    ],
+                    "expected_output": [
+                        "Commitment fee income is recognized on a straight-line basis over the duration of the SLL arrangement."
+                    ]
+                },
+                {
+                    "key": "ae26f2a2-1b06-4393-b095-37a6f97c8b78",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for the General Department\u2019s assessment for impairment of its credit outstanding?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['grounded', 'context', 'nature', \"IMF's\", 'financing', 'unique', 'institutional', 'status']"
+                    ],
+                    "expected_output": [
+                        "The General Department\u2019s assessment for impairment of its credit outstanding is grounded in the context of the nature of the IMF\u2019s financing and its unique institutional status."
+                    ]
+                },
+                {
+                    "key": "1db31f85-c8cd-4a68-9b68-2b23199b70c1",
+                    "prompt": "Respond to the following question.\n\nQuestion: Has the General Department recognized any impairment losses since inception?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the General Department has not recognized any impairment losses since inception."
+                    ]
+                },
+                {
+                    "key": "5fb787d7-d56f-4054-8d1b-495ab1076f4f",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the General Department assess credit risk?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['holistically', 'qualitative', 'quantitative', 'debtor', 'member', 'IMF', 'financing', 'cooperation', 'policy', 'implementation', 'timely', 'settlement', 'financial', 'obligations', 'forward-looking', 'capacity', 'repay']"
+                    ],
+                    "expected_output": [
+                        "The General Department assesses credit risk holistically based on qualitative and quantitative considerations pertaining to each debtor member, such as the status of the economic programs underlying IMF financing, the member\u2019s cooperation on policy implementation and timely settlement of IMF financial obligations, and forward-looking assessment of the member\u2019s capacity to repay."
+                    ]
+                },
+                {
+                    "key": "cfb8879e-6c7c-4716-bc8c-853ab08fae58",
+                    "prompt": "Respond to the following question.\n\nQuestion: Are external credit risk ratings used by the General Department to assess credit risk?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['No']"
+                    ],
+                    "expected_output": [
+                        "No, the General Department does not use external credit risk ratings to assess credit risk as its credit risk exposure is not comparable to sovereign credit risk faced by commercial financial entities."
+                    ]
+                },
+                {
+                    "key": "943c7e09-c26a-4871-84b4-28bfbc12a8fd",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for assessing credit risk for the General Department's exposure to a member country?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['holistically', 'qualitative', 'quantitative', 'debtor', 'member', 'status', 'economic', 'programs', 'IMF', 'financing', 'cooperation', 'policy', 'implementation', 'timely', 'settlement', 'IMF', 'obligations', 'forward-looking', 'assessment', 'capacity', 'repay']"
+                    ],
+                    "expected_output": [
+                        "The credit risk for the General Department's exposure to a member country is assessed holistically based on qualitative and quantitative considerations pertaining to each debtor member, such as the status of the economic programs underlying IMF financing, the member's cooperation on policy implementation and timely settlement of IMF financial obligations, and forward-looking assessment of the member's capacity to repay."
+                    ]
+                },
+                {
+                    "key": "5fbb4b62-116f-4a5a-8e26-4eae6035944f",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the definition of default according to the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['six months', 'more overdue', 'financial obligations']"
+                    ],
+                    "expected_output": [
+                        "According to the General Department, a member country is considered to be in default when it is six months or more overdue in settling its financial obligations to the General Department."
+                    ]
+                },
+                {
+                    "key": "25a26d56-62e8-4f06-a14d-6e98f0867c2e",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is considered credit-impaired according to the General Department?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['credit-impaired', 'defaulted', 'obligation', 'member country', 'credit risk', 'reporting date']"
+                    ],
+                    "expected_output": [
+                        "Credit outstanding is considered credit-impaired when the obligation has defaulted, and the General Department assumes that the credit risk of a member country has increased significantly since initial recognition if the member is determined to have low credit risk at the reporting date."
+                    ]
+                },
+                {
+                    "key": "80b80bd5-0383-460d-8cd3-b03e404e839f",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the General Department assess whether a significant increase in credit risk has occurred?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['significant', 'increase', 'credit', 'risk', 'member', 'default']"
+                    ],
+                    "expected_output": [
+                        "The General Department assesses whether a significant increase in credit risk has occurred on a member-by-member basis by comparing the risk of default at the reporting date with the risk of default at the date of the most recent disbursement to the debtor member, taking into account a range of qualitative and quantitative criteria."
+                    ]
+                },
+                {
+                    "key": "742c7ef6-ca45-422b-b630-71055720448a",
+                    "prompt": "Respond to the following question.\n\nQuestion: What are some of the criteria used by the General Department to identify significant increases in credit risk?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['overdue obligations', 'signals of noncooperation', 'forward-looking indicators', 'capacity to repay']"
+                    ],
+                    "expected_output": [
+                        "Some of the criteria used by the General Department to identify significant increases in credit risk include overdue obligations to the IMF, signals of noncooperation by the member, and forward-looking indicators of capacity to repay the IMF."
+                    ]
+                },
+                {
+                    "key": "8be3ccd3-dfd1-4dd3-a043-5e44d17cd361",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the General Department measure expected credit loss (ECL)?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'General', 'Department', 'measures', 'ECL', 'by', 'comparing', 'expected', 'cash', 'flows', 'with', 'contractual', 'cash', 'flows', 'and', 'discounting', 'the', 'expected', 'cash', 'shortfalls', 'at', 'the', 'effective', 'interest', 'rate', 'which', 'is', 'the', 'basic', 'rate', 'of', 'charge']"
+                    ],
+                    "expected_output": [
+                        "The General Department measures ECL by comparing expected cash flows with contractual cash flows and discounting the expected cash shortfalls at the effective interest rate, which is the basic rate of charge."
+                    ]
+                },
+                {
+                    "key": "560f4c1b-1319-44ec-ac1a-322ce2ef8c04",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for the General Department's assumption that credit risk related to a member country is low?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['low risk of default', 'strong capacity', 'contractual cash flow obligations', 'adverse changes', 'economic and business conditions']"
+                    ],
+                    "expected_output": [
+                        "The General Department assumes that credit risk related to a member country is low if the member has a low risk of default, a strong capacity to meet its contractual cash flow obligations in the near term, and adverse changes in economic and business conditions in the longer term may, but will not necessarily, reduce the ability of the member country to fulfill its contractual cash flow obligations."
+                    ]
+                },
+                {
+                    "key": "67b3c34c-647c-4fe4-b4d3-20ec825a5953",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the burden-sharing mechanism in the IMF's financial structure and operations?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['compensate', 'IMF', 'loss', 'income', 'overdue', 'payments']"
+                    ],
+                    "expected_output": [
+                        "The purpose of the burden-sharing mechanism in the IMF's financial structure and operations is to compensate the IMF for loss of income due to overdue payments."
+                    ]
+                },
+                {
+                    "key": "221ec5fe-1d6d-4de8-a4c4-8c633b51ffc6",
+                    "prompt": "Respond to the following question.\n\nQuestion: How does the General Department consider financial safeguards in measuring ECL?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', \"IMF's\"]"
+                    ],
+                    "expected_output": [
+                        "The General Department considers financial safeguards that are integral to the IMF's financial structure and operations, such as the burden-sharing mechanism, when measuring ECL."
+                    ]
+                },
+                {
+                    "key": "7dd8f877-0d92-409c-8f47-8bb138279993",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the source of the General Department's ECL estimation model?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The', 'General', 'Department', 'has', 'developed', 'a', 'model', 'for', 'ECL', 'estimation', 'based', 'on', 'changes', 'in', 'credit', 'quality', 'since', 'initial', 'recognition', 'where', 'credit', 'quality', 'is', 'referred', 'to', 'as', 'Stage', '1', 'Stage', '2', 'and', 'Stage', '3']"
+                    ],
+                    "expected_output": [
+                        "The General Department has developed a model for ECL estimation based on changes in credit quality since initial recognition, where credit quality is referred to as Stage 1, Stage 2, and Stage 3."
+                    ]
+                },
+                {
+                    "key": "24cfd01f-e013-4deb-a1b5-81147eb50616",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for recognizing investment income in the financial statements of the IMF?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['interest', 'income', 'investments', 'gains', 'losses', 'currency', 'valuation', 'differences', 'exchange', 'rate', 'movements', 'SDR', 'trading-related', 'fees']"
+                    ],
+                    "expected_output": [
+                        "Investment income is recognized using the effective interest method, and it includes interest income on investments at AC, interest and dividend income, and realized and unrealized gains and losses from FVPL investments, including currency valuation differences arising from exchange rate movements against the SDR, net of all trading-related fees."
+                    ]
+                },
+                {
+                    "key": "a4b606b2-f1a5-4c55-b182-1c0341e56c89",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are investments in the IMF's portfolios managed and evaluated?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['fair value']"
+                    ],
+                    "expected_output": [
+                        "Investments in each of the two subaccounts are managed in accordance with their respective investment strategy and their performance is evaluated on a fair value basis. The business model for the invested portfolios focuses on achieving fair value gains."
+                    ]
+                },
+                {
+                    "key": "97f69b71-dbc0-4c45-8fed-15dd26b13b44",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the carrying value of gold holdings in the IMF's financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['historical cost', 'specific identification method', 'carrying value', 'restrictions', 'use', 'disposition', 'profits', 'sale']"
+                    ],
+                    "expected_output": [
+                        "Gold holdings are carried at historical cost using the specific identification method, and the carrying value is determined by the restrictions on the use of the IMF's gold holdings and the disposition of profits from the sale of gold."
+                    ]
+                },
+                {
+                    "key": "9efb0b09-faa0-43d3-83dd-b86b836cc0e1",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for recognizing cash and cash equivalents in the IMF's financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['usable currencies', 'SDR holdings', 'cash', 'cash equivalents', 'statements', 'flows']"
+                    ],
+                    "expected_output": [
+                        "Usable currencies and SDR holdings are considered cash and cash equivalents in the statements of cash flows."
+                    ]
+                },
+                {
+                    "key": "5595aa02-4965-4ed1-96f0-c0f854122789",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are property, plant, and equipment, and intangible assets measured and depreciated or amortized in the IMF's financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['historical cost', 'accumulated depreciation', 'amortization', 'straight-line method']"
+                    ],
+                    "expected_output": [
+                        "Property, plant, and equipment, and intangible assets are measured at historical cost less accumulated depreciation or amortization. They are capitalized and depreciated or amortized over the estimated remaining useful lives using the straight-line method."
+                    ]
+                },
+                {
+                    "key": "46db90c4-8fea-44f6-a131-9b1092621928",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Special Contingent Account (SCA-1) in the IMF's financial structure?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['The Special Contingent Account (SCA-1)']"
+                    ],
+                    "expected_output": [
+                        "The Special Contingent Account (SCA-1) is used to protect the IMF in case of the ultimate failure of a member to repay its overdue obligations to the General Department."
+                    ]
+                },
+                {
+                    "key": "80b68f0e-ffc7-436e-b8b6-0ad4bbee47af",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the basis for recognizing write-offs in the IMF's financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['withdraws', 'repudiates', 'outstanding', 'obligations', 'General Department', 'foreseeable', 'future']"
+                    ],
+                    "expected_output": [
+                        "Write-offs are recognized in the unlikely event that a member with credit outstanding withdraws from the IMF, repudiates its outstanding obligations to the General Department, and there are no prospects of recovering amounts due to the General Department in the foreseeable future."
+                    ]
+                },
+                {
+                    "key": "ea438189-1370-4dc1-8bb9-ae22a8a6dbb3",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are SDR holdings measured and classified in the IMF's financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['SDR holdings', 'measured', 'classified', 'statements', 'financial position']"
+                    ],
+                    "expected_output": [
+                        "SDR holdings are measured at AC and classified as SDR holdings in the statements of financial position."
+                    ]
+                },
+                {
+                    "key": "057908be-ee14-4e31-b765-df76696ed9c9",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the burden-sharing mechanism in the IMF's financial structure?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['burden-sharing', 'mechanism', 'IMF', 'loss', 'income', 'overdue', 'payments']"
+                    ],
+                    "expected_output": [
+                        "The burden-sharing mechanism is used to compensate the IMF for loss of income due to overdue payments."
+                    ]
+                },
+                {
+                    "key": "cd3d091b-86ca-4809-8111-779085348e95",
+                    "prompt": "Respond to the following question.\n\nQuestion: How are dividend income and realized and unrealized gains and losses from FVPL investments recognized in the IMF's financial statements?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "['dividend', 'income', 'realized', 'unrealized', 'gains', 'losses', 'FVPL', 'investments', 'recognized', 'financial', 'statements']"
+                    ],
+                    "expected_output": [
+                        "Dividend income is recognized based on the ex-dividend date, and realized and unrealized gains and losses from FVPL investments are recognized in investment income using the effective interest method."
+                    ]
+                }
+            ]
+        }
+    ]
+}
