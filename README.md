@@ -38,9 +38,10 @@ The datasets in this project are generated based on documents for different indu
 - Finance
 - Security
 
+
 ## Available Datasets
 
-Following is the collection of 25 Datasets by different industries, different evaluation types, built in H2O LLM Data Studio. Click on any dataset to get more details.
+Following is the collection of 40 Datasets by different industries, different evaluation types, built in H2O LLM Data Studio. Click on any dataset to get more details.
 
 | # | Dataset Name      | Industry | Sub Industry | No of Entries | Prompt Type |
 |---| -------------- | --------- | -------------- | ----- | ----- |
@@ -85,35 +86,19 @@ Following is the collection of 25 Datasets by different industries, different ev
 | 39. | [Healthcare_Maternal_Child_Healthcare](https://github.com/h2oai/h2o-evals/tree/main/catalog/Healthcare_Maternal_Child_Healthcare)| `Health` | Maternal Child Healthcare | 147 | RAG |
 | 40. | [Legal_UPC_Agreement](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_UPC_Agreement)| `Legal` | UPC Agreement | 141 | RAG |
 
-## Using the Dataset in EvalStudio 📊
-
-To utilize these evaluation datasets in EvalStudio for your own evaluations, follow these steps:
-
-1. **Access Dataset and Download**: Navigate to the desired dataset folder in the [h2oai/h2o-evals GitHub repository](https://github.com/h2oai/h2o-evals/tree/main/catalog). Each dataset has its own folder containing JSON files. Identify the JSON file corresponding to the evaluation type you want to use and download it. Ensure that the JSON file contains public URLs for accessing the documents if you intend to use the RAG model.
-
-2. **Access EvalStudio**: If you haven't already, sign up for an account on [EvalStudio](https://eval-studio.internal-genai.dedicated.h2o.ai).
-
-3. **Import Test Suite**: In EvalStudio, navigate to the sidebar and select "Tests". Click on "Import test suite" and paste the JSON content into the "Test Suite JSON or URL" field. Then click "Import" to import the test cases.
-
-   ![Step 3 Image](images/step3.png)
-
-4. **Verify Test Case Import**: Ensure that the test cases are successfully imported.
-
-   ![Step 4 Image](images/step4.png)
-
-5. **Create Leaderboard**: Proceed to the "Leaderboard" tab and click on "New leaderboard". Select the appropriate options, making sure to choose the correct evaluation type to evaluate the JSON properly. For example, for multiple-choice questions, you can select "answer correctness" or "token presence". Similarly, for question type, choose "answer correctness", and for token presence JSON, select "JSON presence".
-
-   ![Step 5 Image](images/step5.png)
-
-6. **View Results**: After successfully creating the leaderboard, you can view the results to analyze the evaluation metrics and performance.
-
-   ![Step 6 Image](images/step6.png)
-
-By following these steps, you can effectively use the evaluation datasets in EvalStudio to conduct evaluations.
-
 ### Create your own Evaluation Dataset using LLM DataStudio 💡
+
 If you're interested in creating your own evaluation dataset using LLM DataStudio, you can follow the step-by-step guide provided in our [dataset creation guide](https://github.com/h2oai/h2o-evals/blob/main/LLMDataStudio_README.md).
 
+![LLM DataStudio Screenshot](images/DS_step1.png)
+
+## Using the Dataset in EvalStudio 📊
+
+Bring-your-own Evals from LLM DataStudio seamlessly integrates in H2O EvalStudio. To utilize these datasets in EvalStudio for your own evaluations, follow the steps in the [evaluation creation guide]
+
+![LLM EvalStudio Screenshot](images/step4.png)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/h2oai/h2o-evals/issues) for any improvements, suggestions or errors in the content.
+
+[def]: https://github.com/h2oai/h2o-evals/blob/main/EvalStudio_README.md
