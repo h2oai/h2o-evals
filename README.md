@@ -42,7 +42,7 @@ The datasets in this project are generated based on documents for different indu
 
 If you're interested in creating your own evaluation dataset using LLM DataStudio, you can follow the step-by-step guide provided in our [dataset creation guide](https://github.com/h2oai/h2o-evals/blob/main/LLMDataStudio_README.md).
 
-![LLM DataStudio Screenshot](images/DS_step4.png)
+![LLM DataStudio Screenshot](images/DS_step1.png)
 
 ## Available Datasets
 
