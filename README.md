@@ -38,11 +38,6 @@ The datasets in this project are generated based on documents for different indu
 - Finance
 - Security
 
-### Create your own Evaluation Dataset using LLM DataStudio 💡
-
-If you're interested in creating your own evaluation dataset using LLM DataStudio, you can follow the step-by-step guide provided in our [dataset creation guide](https://github.com/h2oai/h2o-evals/blob/main/LLMDataStudio_README.md).
-
-![LLM DataStudio Screenshot](images/DS_step1.png)
 
 ## Available Datasets
 
@@ -90,6 +85,12 @@ Following is the collection of 40 Datasets by different industries, different ev
 | 38. | [Government_SA_Home_Affairs](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_SA_Home_Affairs)| `Government` | Home Affairs | 140 | RAG |
 | 39. | [Healthcare_Maternal_Child_Healthcare](https://github.com/h2oai/h2o-evals/tree/main/catalog/Healthcare_Maternal_Child_Healthcare)| `Health` | Maternal Child Healthcare | 147 | RAG |
 | 40. | [Legal_UPC_Agreement](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_UPC_Agreement)| `Legal` | UPC Agreement | 141 | RAG |
+
+### Create your own Evaluation Dataset using LLM DataStudio 💡
+
+If you're interested in creating your own evaluation dataset using LLM DataStudio, you can follow the step-by-step guide provided in our [dataset creation guide](https://github.com/h2oai/h2o-evals/blob/main/LLMDataStudio_README.md).
+
+![LLM DataStudio Screenshot](images/DS_step1.png)
 
 ## Using the Dataset in EvalStudio 📊
 
