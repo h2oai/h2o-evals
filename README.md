@@ -94,7 +94,7 @@ If you're interested in creating your own evaluation dataset using LLM DataStudi
 
 ## Using the Dataset in EvalStudio 📊
 
-Bring-your-own Evals from LLM DataStudio seamlessly integrates in H2O EvalStudio. To utilize these datasets in EvalStudio for your own evaluations, follow the steps in the [evaluation creation guide]
+Bring-your-own Evals from LLM DataStudio seamlessly integrates in H2O EvalStudio. To utilize these datasets in EvalStudio for your own evaluations, follow the steps in the [evaluation creation guide](https://github.com/h2oai/h2o-evals/blob/main/EvalStudio_README.md)
 
 ![LLM EvalStudio Screenshot](images/step4.png)
 
