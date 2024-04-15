@@ -1,0 +1,958 @@
+{
+    "tests": [
+        {
+            "key": "74e32097-1efe-47c0-8fbb-b3183fd48c3a",
+            "documents": [
+                "HR_Policy.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "60817bac-1b88-4f01-aae1-d47d136c07e9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can the probationary period be extended for staff?\nHow do you respond?\nA. Yes, upon recommendation by the Reporting Officer and Head of Department/Executive Secretary of Industrial Union.\nB. No, the probationary period cannot be extended, and staff must be confirmed or terminated at the end of the probationary period.\nC. Yes, but only for staff who are on Grade N1 to N3.\nD. Yes, but only for staff who are on probation for more than six months.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "768c2f35-5639-4a7d-915e-8074e60f1e8e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is there a flexible hours of operations policy for staff?\nHow do you respond?\nA. Yes, the policy is outlined in Section 1, Working Hours, of the staff handbook.\nB. No, there is no flexible hours of operations policy for staff.\nC. Yes, but only for staff who are confirmed in service.\nD. Yes, but only for staff who are on probation.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "878ec518-e36c-45a4-9149-35275cd824e9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can staff take unpaid leave?\nHow do you respond?\nA. Yes, staff can take unpaid leave for up to 3 days per year.\nB. No, staff cannot take unpaid leave.\nC. Yes, staff can take unpaid leave for any reason.\nD. Yes, staff can take unpaid leave, but only with the approval of the CEO.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "38fa0b8d-33ac-4205-9657-6a1e4bc13bd7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can staff take leave to care for a sick family member?\nHow do you respond?\nA. Yes, staff can take unpaid leave for this purpose.\nB. No, staff cannot take leave to care for a sick family member.\nC. Yes, staff can take annual leave or half-day annual leave for this purpose.\nD. Yes, staff can take family care leave, which includes childcare and eldercare.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "f04b2613-b0a7-499b-bb0b-61f56ca9dd75",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the notice period for termination of employment?\nHow do you respond?\nA. 3 months\nB. 6 months\nC. 1 month\nD. 2 weeks\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f584c3c8-b3fd-4c6b-8e1d-4240bb549ffd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the notice period for staff who are on probation?\nHow do you respond?\nA. 1 month\nB. 2 weeks\nC. 48 hours\nD. 3 months\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1095ff6a-a299-4290-8742-2f2e083a748e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can staff substitute the notice requirement with a payment?\nHow do you respond?\nA. Yes, staff can substitute the notice requirement with a payment.\nB. No, staff cannot substitute the notice requirement with a payment.\nC. Yes, but only for staff who are on probation.\nD. Yes, but only for staff who are confirmed in service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "726975df-92a2-41e2-9a8b-3f68cba954c2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can staff apply for annual leave during the period of notice?\nHow do you respond?\nA. Yes, staff can apply for annual leave during the period of notice.\nB. No, staff cannot apply for annual leave during the period of notice.\nC. Staff can apply for annual leave, but only with the approval of the Reporting Officer.\nD. Staff can apply for annual leave, but only if they have completed at least six months of service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "58f05df2-77f2-4c31-9665-2ea4f2e9a4bd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a staff member does not serve a full month due to resignation?\nHow do you respond?\nA. They will receive a full month's salary.\nB. They will receive a pro-rated salary for the last month of service.\nC. They will not receive any salary for the last month of service.\nD. They will receive a reduced salary for the last month of service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "d2305f48-62be-45d9-a2f5-28732062206e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are public holidays recognized by NTUC-ARU?\nHow do you respond?\nA. Yes, all gazetted public holidays in Singapore are recognized by NTUC-ARU.\nB. No, NTUC-ARU does not recognize public holidays.\nC. Only public holidays that fall on a staff member's rest day (i.e. Sunday) are recognized by NTUC-ARU.\nD. Public holidays are not recognized by NTUC-ARU, but staff members may be given a day off as substitution for that holiday.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e401abe2-59aa-4ab6-a260-528a54d684ba",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a public holiday falls on a staff member's rest day?\nHow do you respond?\nA. The staff member gets an extra day off as a substitute holiday.\nB. The staff member has to work on the public holiday.\nC. The staff member gets a paid day off on the next working day.\nD. The staff member has to take a leave on the public holiday.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "1b1e29c9-fef5-4019-8a98-918f6e600529",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can staff take lunch breaks outside the specified hours?\nHow do you respond?\nA. Yes, staff can take lunch breaks outside the specified hours with the approval of their Reporting Officer.\nB. No, staff must take their lunch breaks between 12 pm and 2 pm only.\nC. Yes, staff can take lunch breaks outside the specified hours without seeking approval from their Reporting Officer.\nD. No, staff cannot take lunch breaks outside the specified hours except on special occasions such as public holidays.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "277cda8a-f768-4060-a008-1539575a6c73",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the attendance policy for staff?\nHow do you respond?\nA. Staff must report for duty at the stipulated working hours.\nB. Staff can choose their own work schedule.\nC. Staff must inform their Reporting Officer in advance if they cannot report for duty.\nD. Staff can take up to 2 consecutive workdays off without informing their Reporting Officer.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4c04382c-8847-4cef-9c50-2de1cc651e3f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should staff treat members of the public, union officials, and members during the course of their duties?\nHow do you respond?\nA. With courtesy and respect\nB. With professionalism and dignity\nC. With kindness and empathy\nD. With familiarity and informality\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c63385bc-68c5-4fbc-a705-f23a632e3e4d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are staff allowed to \"dress down\" on Fridays?\nHow do you respond?\nA. Yes, staff are allowed to dress down on Fridays.\nB. No, staff are not allowed to dress down on Fridays.\nC. Staff are allowed to dress down on Fridays, but only if they have to attend meetings with external parties.\nD. Staff are allowed to dress down on Fridays, but only if they have a written permission from their Reporting Officer.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "067f6138-ceee-491b-a1d8-94314c883428",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the policy on loss of or damage to property and vandalism?\nHow do you respond?\nA. Staff must restitute 100% of the net book value of the lost or damaged property.\nB. Staff must restitute 60% of the net book value of the lost or damaged property, unless the insurance policy covers it.\nC. Staff are not responsible for lost or damaged property, as long as they have taken reasonable care.\nD. Staff must pay a fine equal to the net book value of the lost or damaged property.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "34768196-9bb2-43ea-8971-c6b99e2d7b6b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should staff maintain their hairstyle for the office environment?\nHow do you respond?\nA. Staff should maintain a suitable hairstyle that is neat and tidy.\nB. Staff should have unduly long and unkempt hairstyles.\nC. Staff should color/tint their hair in shades of brown.\nD. Staff should avoid maintaining a hairstyle that is inappropriate for an office environment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7dc6babb-46ba-42cf-8bcb-2abe83e39ce5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a staff member is financially embarrassed?\nHow do you respond?\nA. The staff member will be demoted.\nB. The staff member will be dismissed from service.\nC. The staff member will receive financial assistance from the organization.\nD. The staff member will be suspended without pay.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "220320c7-276f-4880-8727-0e1ac0018cad",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member accept gifts or presents from the public or companies?\nHow do you respond?\nA. Yes, staff members can accept gifts or presents from the public or companies.\nB. No, staff members cannot accept gifts or presents from the public or companies.\nC. Staff members can accept gifts or presents from the public or companies, but they must report it to their Head of Department/Executive Secretary of Industrial Union.\nD. Staff members can accept gifts or presents from the public or companies, but only if it is impracticable to refuse them.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f3f32e5e-20fe-448b-8152-d493bef0145a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member engage in any trade or business privately?\nHow do you respond?\nA. Yes, staff members are allowed to engage in any trade or business privately.\nB. No, staff members are not allowed to engage in any trade or business privately without the approval of the NTUC-ARU management.\nC. Staff members can engage in trade or business privately, but they must inform their Head of Department/Executive Secretary of Industrial Union.\nD. Staff members are not allowed to engage in any trade or business privately, and any violation of this rule will lead to immediate dismissal.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "da200533-fc4d-428c-8de4-35e4b25c2ede",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member deliver lectures in external organizations or commercial institutions?\nHow do you respond?\nA. Yes, with the approval of the NTUC-ARU management.\nB. No, staff members are not allowed to deliver lectures in external organizations or commercial institutions.\nC. Yes, but only for payment.\nD. Yes, but only for gratuitously.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "ccfbe990-42e9-4a2b-9a68-5dd284993e9e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member be represented on the Boards/Companies as its Director/Member?\nHow do you respond?\nA. Yes, with the approval of the NTUC-ARU management.\nB. No, it is not allowed.\nC. Yes, but only for non-profit organizations.\nD. Yes, but only if the staff member is not paid for their services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "171c1ed5-ca50-4347-9220-d9f67d3abdc2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the procedure for seeking permission to engage in activities described in paragraph 10.1?\nHow do you respond?\nA. Submit an application in writing to the Human Resource Department.\nB. Inform the Reporting Officer, who shall report the matter to the Head of Department/Executive Secretary of Industrial Union.\nC. Discuss and resolve the matter with SUN and Human Resource Department.\nD. Give written notice to NTUC-ARU, requesting a meeting at the first available opportunity.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c88906c9-26be-44c4-b254-52c773a33190",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the grievance procedure for staff who have a grievance?\nHow do you respond?\nA. The staff should inform SUN, who will present the grievance to the Human Resource Department.\nB. The staff should submit a complaint to their Reporting Officer, who will report it to the Head of Department/Executive Secretary of Industrial Union.\nC. The staff should directly report the grievance to the Head of Department/Executive Secretary of Industrial Union.\nD. The staff should first discuss the grievance with their colleagues before submitting a complaint to their Reporting Officer.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e0e2140f-d8f0-4ca1-b8ff-4e91e7c827bb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long does the Head of Department/Executive Secretary of Industrial Union have to give a decision on a grievance?\nHow do you respond?\nA. 3 working days\nB. 7 working days\nC. 14 working days\nD. 30 working days\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "98577545-c662-4589-8efb-4188ad1d5466",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a staff feels aggrieved after the decision on their grievance?\nHow do you respond?\nA. They can appeal to the Human Resource Department.\nB. They can file a complaint with the Ministry of Manpower.\nC. They can seek legal action against NTUC-ARU.\nD. They can discuss and resolve the matter with SUN and the Human Resource Department.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "cb9a4033-add1-44d4-80eb-2283d6071b18",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can staff access their electronic pay slip?\nHow do you respond?\nA. By logging into the NTUC -ARU intranet\nB. By accessing the electronic pay slip at the Infoshare / My Applications / Employee Self Service\nC. By requesting for it from the Human Resource Department\nD. By contacting the Finance Department\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8e4506fb-8ff3-410e-bfb6-96c0e6e6602a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the AWS bonus in the given text?\nHow do you respond?\nA. 1 month's gross salary\nB. 1.5 months' gross salary\nC. 2 months' gross salary\nD. 3 months' gross salary\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fff600ef-cd7d-40ea-a580-2c527b4ea7ed",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the performance bonus in the given text?\nHow do you respond?\nA. Variable Bonus\nB. Performance Bonus (PB)\nC. Variable Increment (VI)\nD. Industrial Relations (IR) Allowance\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1d1b43bb-4949-4463-8fa7-0ccbd679a4df",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the performance bonus quantum determined in the given text?\nHow do you respond?\nA. It is based on the staff's endorsed performance rating and salary grade.\nB. It is based on the staff's years of service with the company.\nC. It is based on the company's profitability for the year.\nD. It is based on the staff's job size and market value.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a7c75550-7582-4da8-8ef5-e98fea3034c0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the variable increment in the given text?\nHow do you respond?\nA. $100\nB. $59\nC. $200\nD. $370\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "441637c5-a964-4f3f-9bc1-3455ad36d3d5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the IR allowance pro-rated for a staff member who relinquishes their appointment during the month?\nHow do you respond?\nA. According to the number of working days served in that month.\nB. According to the number of months served in that year.\nC. According to the staff member's salary grade.\nD. Not pro-rated, the staff member will receive the full IR allowance for that month.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0cdbc13f-5ea9-4eaa-bb35-38e38ace191e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Will a staff member who is on probation be eligible for IR allowance?\nHow do you respond?\nA. Yes, staff members on probation are eligible for IR allowance.\nB. No, staff members on probation are not eligible for IR allowance.\nC. Yes, but only if the probation period is more than six months.\nD. No, unless the staff member has completed at least one year of service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "6a3920b3-c477-41a9-9bfc-7c4da7be0930",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the current salary grade for a staff member on Grade N10?\nHow do you respond?\nA. Grade N6 to N12 - Superscale\nB. Grade N4 and N5 - Basic\nC. Grade N1 to N3 - Office Attendant\nD. Grade N10 - Superscale 4 to 5\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "b1bebf78-f5ad-4b5e-ab1b-fde2b64ab731",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member downgrade from the EIS or IAR plan to a lower plan?\nHow do you respond?\nA. Yes, a staff member can downgrade to the Basic or Enhanced C plan.\nB. No, a staff member cannot downgrade from the EIS or IAR plan.\nC. Yes, a staff member can downgrade to any plan that provides comparable coverage to NTUC Income's provisions.\nD. Yes, a staff member can downgrade to the Preferred plan.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8ab105be-8523-482d-b6a3-8f7eedd3f175",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member upgrade from the EIS or IAR plan to a higher plan?\nHow do you respond?\nA. Yes, staff members can upgrade to a higher plan, such as the Preferred plan, if they are eligible.\nB. No, staff members cannot upgrade from the EIS or IAR plan to a higher plan.\nC. Yes, staff members can upgrade to a higher plan, but only if they are not eligible for the EIS or IAR plan.\nD. No, staff members can only downgrade from the EIS or IAR plan to a lower plan.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "5434da24-1dd5-4178-a059-245cd8a2cee6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the staff member bear the excess of the annual premium if they choose to continue with their existing medical insurance plan with another insurer?\nHow do you respond?\nA. The staff member must pay the excess premium out of pocket.\nB. NTUC - ARU will pay the excess premium on behalf of the staff member.\nC. The excess premium will be deducted from the staff member's salary.\nD. The staff member can choose to downgrade their plan to avoid paying the excess premium.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0a975d20-a196-4641-bf94-db936ce50532",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can staff claim the balance of the health screening cost that exceeds the cap reimbursed by NTUC-ARU from their Flexible Benefit?\nHow do you respond?\nA. Yes, staff can claim the balance from their Flexible Benefit.\nB. No, staff cannot claim the balance from their Flexible Benefit.\nC. Staff can claim the balance from their Flexible Benefit, but only for health screening expenses incurred for themselves, parents, spouse, and children.\nD. Staff can claim the balance from their Flexible Benefit, but only for health screening expenses incurred at MHC Healthcare or any clinic/hospital.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f1ba7c5b-8f63-434f-b5ac-293ff7603cc7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Group Hospital & Surgical Plan?\nHow do you respond?\nA. To provide staff with comprehensive health insurance coverage for outpatient and inpatient treatment.\nB. To cover staff for accidents and medical emergencies that may occur during work hours.\nC. To provide staff with a flexible benefit that can be used for various purposes, including health screening, medical insurance, and wellness activities.\nD. To offer staff a co-payment of $15 per visit for outpatient specialist treatment referred by any polyclinic or registered General Practitioner.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "41200d17-082d-4e8b-8ee4-f183abf2f7cd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much is the premium for the Group Hospital & Surgical Plan?\nHow do you respond?\nA. $36.69\nB. $1.12\nC. $1.13\nD. $1.15\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4309616c-35f2-48da-8706-f523a6d9ba38",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the i-Medicare (Specialist) plan?\nHow do you respond?\nA. A health insurance plan that covers outpatient specialist treatment for staff at NTUC Income.\nB. A health screening package that is claimable under the Flexible Benefit.\nC. A life insurance plan that covers staff, their parents, spouse, and children.\nD. A dental care plan that covers expenses for spectacles, contact lenses, and dental treatment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "efdda988-e7a6-4d75-b58a-0e7ffc6c71d9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum limit for outpatient treatment under the Flexible Benefit per calendar year?\nHow do you respond?\nA. $850\nB. $950\nC. $300\nD. $400\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "137e779c-2f50-4e76-8bb4-cb94af53c967",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum amount of flexible benefit that a staff member can receive per calendar year?\nHow do you respond?\nA. $850\nB. $950\nC. $1,000\nD. $1,200\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4a2d1b00-7da4-4823-bcf8-2dc1cd7b397d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the flexible benefit amount pro-rated for staff members who join or leave the employment of NTUC-ARU during the year?\nHow do you respond?\nA. It is not pro-rated, and the staff member is entitled to the full amount.\nB. It is pro-rated based on the number of days served in the calendar year.\nC. It is pro-rated based on the number of months served in the calendar year.\nD. It is not pro-rated, and the staff member is entitled to a prorated amount based on their length of service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "38851519-e15d-4e7b-8672-888c1c7be7b3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can staff members make claims for their flexible benefits?\nHow do you respond?\nA. Through the HRIS system, retaining original receipts for 6 months\nB. By submitting a claim form to the Human Resource Department with supporting receipts\nC. By deducting the amount from their monthly salary\nD. By submitting a request to their supervisor or manager\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "239e4c83-7b50-4ff8-8f8c-3fff95672845",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens to any unused flexible benefit amount by 31 December of the year?\nHow do you respond?\nA. It is transferred to the staff's Medisave account.\nB. It is forfeited and transferred to the company's account.\nC. It can be carried over to the following year.\nD. It can be used to pay for any outstanding transport claims.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e2cb069f-37ac-4bc2-98a5-795544e59652",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the rate of transport reimbursement for staff members who use their own cars for official journeys?\nHow do you respond?\nA. 60 cents per km\nB. 15 cents per km\nC. As per actual fare\nD. Nil\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "efb3bfe7-73f9-4ed6-8cfa-148d09ccc662",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is there a fixed transport reimbursement amount for staff members who travel frequently in the course of their work?\nHow do you respond?\nA. Yes, $275 per month for staff who are assessed to need to travel frequently.\nB. No, there is no fixed transport reimbursement amount for staff who travel frequently.\nC. Yes, $50 per month for all staff members who travel frequently.\nD. Yes, $80 per month for staff members who are away from the office and must stay in constant contact with their clients.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bcfa0421-a85b-4578-8e51-5aab6b176345",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the fixed transport reimbursement amount pro-rated for staff members who are away from work for more than 14 consecutive working days?\nHow do you respond?\nA. It is not pro-rated, and the staff member will receive the full amount.\nB. It is pro-rated based on the number of days the staff member was away from work.\nC. It is pro-rated based on the number of months the staff member was away from work.\nD. It is not pro-rated, and the staff member will receive half of the amount.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "547807a9-6c30-4919-a1df-9bb1214c9816",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can staff members who are in receipt of handphone allowance use their handphones for personal purposes?\nHow do you respond?\nA. Yes, they can use their handphones for personal purposes, but they must reimburse the company for any personal usage exceeding the monthly allowance.\nB. No, they cannot use their handphones for personal purposes. They must only use them for official reasons.\nC. Yes, they can use their handphones for personal purposes, but they must inform their supervisor of their personal usage.\nD. No, they cannot use their handphones for personal purposes, but they can use them for emergency situations.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "46790f47-314b-42c6-a889-54712920db93",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much is the handphone allowance for NTUC-ARU staff?\nHow do you respond?\nA. $30 per month\nB. $100 per month\nC. $150 per month\nD. $200 per month\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f2da9f47-db84-40aa-bfb8-39b3bce341c7",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can NTUC-ARU staff use their handphone allowance for overseas calls?\nHow do you respond?\nA. Yes, NTUC-ARU staff can use their handphone allowance for overseas calls.\nB. No, NTUC-ARU staff cannot use their handphone allowance for overseas calls.\nC. Yes, but only for official reasons.\nD. No, staff must use their personal phone for overseas calls.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "9706728f-b8aa-4b68-be21-bf8c1f09ce52",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the mobile broadband access allowance for NTUC-ARU staff?\nHow do you respond?\nA. To provide staff with access to the internet and email while off-site.\nB. To reimburse staff for personal mobile broadband plans.\nC. To allow staff to stay in constant contact via handphone and access email on the go.\nD. To provide a flat allowance of $100 per month for combined phone and email plans.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c8d67c1e-a323-4e56-8cb5-9b008e200425",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can NTUC-ARU staff use their mobile broadband access allowance for personal use?\nHow do you respond?\nA. Yes, staff can use their mobile broadband access allowance for personal use.\nB. No, staff cannot use their mobile broadband access allowance for personal use. It is only for work-related purposes.\nC. Staff can use their mobile broadband access allowance for personal use, but they must pay for the excess usage beyond the allowance.\nD. Staff can use their mobile broadband access allowance for personal use, but they must seek approval from their supervisor first.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "61c26d89-a426-4404-9ec0-fbcbe2444a00",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens to the mobile broadband access allowance when a staff member resigns or goes on long-term no-pay leave?\nHow do you respond?\nA. The allowance continues until the staff member returns from leave or resignation.\nB. The allowance ceases immediately upon resignation or start of no-pay leave.\nC. The allowance is pro-rated based on the number of days the staff member was on leave or resignation.\nD. The allowance is transferred to another staff member who takes over the role.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "547d0b79-01f2-4d68-8d11-e05bb4ce4701",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the counter service incentive for NTUC-ARU staff?\nHow do you respond?\nA. To provide a subsidy for maternity/delivery costs related to childbirth\nB. To encourage staff to perform counter duty on an ad-hoc basis\nC. To provide a flat allowance for staff to subscribe to a combined phone/email plan\nD. To exercise due care and discretion in handphone usage, especially for overseas calls.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "86cfb2c3-2222-4068-8b58-9a4eaa2c218d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much is the counter service incentive for NTUC-ARU staff?\nHow do you respond?\nA. $100 per month\nB. $50 per month\nC. $150 per month\nD. $200 per month\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "2c9aa7f2-a20f-4266-8efc-48c3325fcc79",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the counter service incentive paid to NTUC-ARU staff?\nHow do you respond?\nA. Monthly, based on the number of hours worked at the counter\nB. Quarterly, based on the number of hours worked at the counter\nC. Annually, based on the total number of hours worked at the counter throughout the year\nD. One-time payment upon completion of a certain number of hours worked at the counter\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "5e3eb8f1-1710-4944-ab4c-7a70489bdecb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the maximum amount of travel insurance coverage for staff in Grade N4 and above for overseas travel?\nHow do you respond?\nA. $250,000\nB. $500,000\nC. $1,000,000\nD. $2,000,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c71b545b-e6d3-49c5-aa98-7b342c710161",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Group Personal Accident plan coverage for staff in Grade N1 to N3?\nHow do you respond?\nA. $150,000\nB. $250,000\nC. $500,000\nD. $1,000,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "f7d30dd8-56e9-4efe-a5c6-cc5a0025c374",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long is the repayment period for the computer loan?\nHow do you respond?\nA. 1 year\nB. 2 years\nC. 3 years\nD. 5 years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "69d41a8c-f481-4d69-9962-96715e7eb060",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Are re-employed staff eligible for long service awards?\nHow do you respond?\nA. Yes, re-employed staff are eligible for long service awards.\nB. No, re-employed staff are not eligible for long service awards.\nC. Re-employed staff are eligible for long service awards only if they have completed at least 10 years of service.\nD. Re-employed staff are eligible for long service awards only if they have completed at least 20 years of service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "59d91ed6-0818-45d7-b26c-182f07bca71a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the value of the long service award for staff with 15 years of completed service?\nHow do you respond?\nA. $800\nB. $1,000\nC. $1,500\nD. $2,000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5c7c1dbc-ee34-4c29-89aa-09bce3f8cabe",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can staff use the Orchid Country Club Union Corporate Golfing & Social Membership Card and Aranda Country Club Union Corporate Membership Card?\nHow do you respond?\nA. Yes, staff can use both membership cards for personal use.\nB. Yes, staff can use both membership cards for official purposes.\nC. No, staff can only use the Orchid Country Club Union Corporate Golfing & Social Membership Card for personal use.\nD. No, staff cannot use either membership card.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "60f36937-4795-42b5-8477-f98899a5cd43",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is a staff member eligible for annual leave on resignation?\nHow do you respond?\nA. Yes, a staff member is eligible for annual leave on resignation.\nB. No, a staff member is not eligible for annual leave on resignation.\nC. The staff member is eligible for annual leave on resignation, but only if they have given written notice of resignation.\nD. The staff member is not eligible for annual leave on resignation, but they can encash their annual leave balance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "695de90e-8973-4ff0-9ce5-be883911f5c4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many working days of annual leave are staff members entitled to per calendar year of service?\nHow do you respond?\nA. 14 working days\nB. 18 working days\nC. 21 working days\nD. 28 working days\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "683f38a2-c044-4cb9-b9b7-763f35f87867",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member take half-day annual leave?\nHow do you respond?\nA. Yes, a staff member can take half-day annual leave, subject to the approval of the Reporting Officer.\nB. No, a staff member cannot take half-day annual leave.\nC. Yes, a staff member can take half-day annual leave, but only on the eves of major public holidays.\nD. Yes, a staff member can take half-day annual leave, but only if they have completed 10 years of service with NTUC-ARU.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "028ba313-9ec3-48fe-a665-8a159ba31eff",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is the annual leave entitlement of a staff member who resigns calculated?\nHow do you respond?\nA. The staff member is entitled to the full annual leave entitlement for the current year, regardless of the resignation date.\nB. The staff member is entitled to the pro-rated annual leave entitlement based on the number of completed months of service in the current year.\nC. The staff member is not entitled to any annual leave entitlement upon resignation.\nD. The staff member is entitled to the full annual leave entitlement for the current year, plus an additional month's leave as a bonus for resigning.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "22873f15-86f3-44ef-b216-59a2aa9b6d1c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the formula for computing annual leave taken in excess by a staff member who resigns?\nHow do you respond?\nA. Monthly Salary X 12 months X 52 weeks X No. of working days per week X No. of annual leave taken in excess\nB. Annual Salary X 12 months X 52 weeks X No. of working days per week X No. of annual leave taken in excess\nC. Monthly Salary X 12 months X No. of working days per week X No. of annual leave taken in excess\nD. Annual Salary X No. of working days per week X No. of annual leave taken in excess\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "de5ddfd8-e2dd-47c5-bdc0-d91120d1ae83",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the amount of funeral grant given to a staff member in the event of the death of an immediate family member?\nHow do you respond?\nA. $500\nB. $400\nC. $1000\nD. $2000\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8fa0a10b-a3f5-424f-9983-bb2045256361",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens to a staff member's annual leave balance if they resign from NTUC-ARU?\nHow do you respond?\nA. The staff member forfeits their entire annual leave balance.\nB. The staff member is paid out for their unused annual leave balance.\nC. The staff member can carry over their annual leave balance to their new job.\nD. The staff member's annual leave balance is transferred to their next employer.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "a91a50d9-da86-425e-9235-1b87e72bf326",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member encash their annual leave balance if they are unable to clear it due to exigencies of service?\nHow do you respond?\nA. Yes, the staff member can encash their annual leave balance.\nB. No, the staff member cannot encash their annual leave balance.\nC. The staff member can encash half of their annual leave balance.\nD. The staff member can encash their annual leave balance only if they have more than six months of continuous service at NTUC-ARU.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "54a0d9d3-46f2-47ec-961a-6c56efb0cc45",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is annual leave handled on termination or dismissal of a staff member?\nHow do you respond?\nA. Any unconsumed annual leave will be compensated by payment of salary.\nB. The staff member will not be eligible for any salary payment for annual leave that is not yet consumed as at the day of dismissal.\nC. The staff member can take all the annual leave due to them immediately before the date of retirement.\nD. The staff member can take all the annual leave due to them immediately before the date of termination.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "428adc0b-09b4-4f33-9d14-2df31b331df5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is medical leave handled for staff members who did not complete probation and cease employment for whatever reason before confirmation?\nHow do you respond?\nA. They are entitled to the full amount of medical leave as per Employment Act provisions.\nB. They are entitled to a pro-rated amount of medical leave based on the length of completed service.\nC. They are not entitled to any medical leave.\nD. They can take medical leave but must pay back the amount of leave taken upon returning to work.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0c05a5f9-139e-4eff-9c87-589de7442a9c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a staff member is unable to report for work due to illness?\nHow do you respond?\nA. The staff member can take unlimited sick leave without informing anyone.\nB. The staff member must inform their reporting officer immediately and submit a medical leave application via the e-Leave system.\nC. The staff member can take a maximum of 14 days of outpatient medical leave without a medical certificate.\nD. The staff member is not eligible for any leave and must return to work immediately.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "50d35b7c-aaac-493d-9317-b217bbe77211",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member apply for no pay leave if they have exhausted all their annual leave?\nHow do you respond?\nA. Yes, they can apply for no pay leave.\nB. No, they cannot apply for no pay leave if they have exhausted all their annual leave.\nC. They can apply for no pay leave, but only if they have a doctor's note.\nD. They can apply for no pay leave, but only if they have been employed for over a year.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0f9b095a-ee5d-493f-8ce2-011dda697178",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a staff member misconducts himself while on long-term illness leave?\nHow do you respond?\nA. The staff member will be eligible for no pay leave.\nB. The staff member will be medically boarded out of service.\nC. The staff member will receive a compensation of 1 month's gross salary for every year of service, subject to a maximum of 12 months' gross salary.\nD. The staff member will be terminated without sufficient cause.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ea178549-12d0-4f2f-bea6-4a98d217a5a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a confirmed staff member apply for no pay leave?\nHow do you respond?\nA. Yes, for any reason.\nB. Yes, only if they have exhausted all annual and medical leave.\nC. No, confirmed staff members are not eligible for no pay leave.\nD. Yes, but only with the approval of the Director (Human Resource).\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c5cf736a-5225-49a3-83cd-1d9f71b61e64",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many days of no pay leave can a staff member take?\nHow do you respond?\nA. Up to 30 calendar days or more, with weekends treated as no pay leave.\nB. Up to 12 months' gross salary for every year of service, subject to a maximum of 12 months' gross salary.\nC. Up to 16 weeks maternity leave, with the last 8 weeks taken flexibly over 12 months.\nD. Up to 2 months of no pay leave immediately after maternity leave.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bb7d9aee-e990-4771-a1aa-d77ab87f6667",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Will a staff member's weekends be treated as no pay leave if they take no pay leave for 30 calendar days or more?\nHow do you respond?\nA. Yes, all weekends during the no pay leave period will be treated as no pay leave.\nB. No, only weekends that fall within the first 30 days of the no pay leave period will be treated as no pay leave.\nC. No, weekends will not be treated as no pay leave, regardless of the length of the no pay leave period.\nD. Yes, but only if the staff member has exhausted all their annual leave.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6f846d0f-a229-45c8-8568-4611987db494",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Will a staff member's no pay leave affect their annual wage supplement, variable bonuses, performance bonus, and variable increment?\nHow do you respond?\nA. Yes, it will affect all of the mentioned benefits.\nB. No, it will not affect any of the mentioned benefits.\nC. It will only affect the annual wage supplement.\nD. It will only affect the variable increment.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "5a9e51c8-ef7a-4630-b4e4-5fb7a296427c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member who has fallen ill apply for no pay leave?\nHow do you respond?\nA. Yes, any staff member who has fallen ill can apply for no pay leave.\nB. No, only confirmed staff members who have exhausted all their annual and medical leave can apply for no pay leave.\nC. No, staff members who have fallen ill are not eligible for no pay leave.\nD. Yes, but only if the staff member has a likelihood of recovering from their illness.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7593afc2-109b-4537-8310-e6a9441b7b57",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if a staff member is not likely to recover from their illness after going through a medical review?\nHow do you respond?\nA. They will be granted no pay leave for 30 calendar days or more.\nB. They will be medically boarded out of service.\nC. They will receive a compensation of 1 month's gross salary for every year of service, subject to a maximum of 12 months' gross salary.\nD. They will be eligible for up to 15 days of Family Care Leave per calendar year.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1c75528b-761b-4324-b02a-9a12f403efba",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much compensation will a staff member receive if they are medically boarded out of service?\nHow do you respond?\nA. 1 month's gross salary for every year of service, subject to a maximum of 12 months' gross salary.\nB. 2 months' gross salary for every year of service, subject to a maximum of 24 months' gross salary.\nC. 3 months' gross salary for every year of service, subject to a maximum of 36 months' gross salary.\nD. 12 months' gross salary, regardless of the number of years of service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "4f887add-41ac-42c4-bad8-99b74423b29b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a staff member take marriage leave?\nHow do you respond?\nA. Yes, up to 7 working days.\nB. No, marriage leave is not allowed.\nC. Only if the staff member has been employed for more than a year.\nD. Only if the staff member is getting married for the first time.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "1840e0cc-864d-46e3-92ce-0129d488a6a5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can a female staff member take maternity leave?\nHow do you respond?\nA. Yes, up to 8 weeks.\nB. Yes, up to 16 weeks.\nC. No, maternity leave is not available.\nD. It depends on the staff member's years of service.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                }
+            ]
+        }
+    ]
+}

@@ -1,24 +1,24 @@
 # Telcom_Telecommunication_Regulations
 
 ## Overview
-Welcome to the Telcom_Telecommunication_Regulations, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Telecom industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
+Welcome to the Telcom_Telecommunication_Regulations, part of the H2O.ai LLM Evaluation Datasets collection. This dataset is tailored for evaluating Large Language Models (LLM) and RAG systems within the Telcom industry, focusing on Conditional Questions Multi Choice and Tokens Presence.
 
 ## Documents Used
-The dataset is derived from a selection of key documents within the Telecom sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
+The dataset is derived from a selection of key documents within the Telcom sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
 1. [Telecommunication_Regulations.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Telcom_Telecommunication_Regulations/used_documents/Telecommunication_Regulations.pdf)
 
 ## Dataset Details
-- **Industry:** Telecom
+- **Industry:** Telcom
 - **Sub Industry:** Telecommunications Regulations
 - **Number of Question-Answer Pairs:** 114
 - **Prompt Type:** RAG
 - **Evaluation Techniques:** Conditional Questions Multi Choice and Tokens Presence
 
 ## Industries and Evaluation Types
-The H2O LLM Evaluation Datasets encompass various industries and evaluation types. This dataset, specifically tailored for the Telecom sector, focuses on conditional questions, Multi choice questions and Token presence to ensure targeted evaluation.
+The H2O LLM Evaluation Datasets encompass various industries and evaluation types. This dataset, specifically tailored for the Telcom sector, focuses on conditional questions, Multi choice questions and Token presence to ensure targeted evaluation.
 
 ## Dataset Content
-The dataset is carefully curated from a diverse set of documents within the Telecom industry. It comprises a rich set of 114 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions Multi Choice and Tokens Presence.
+The dataset is carefully curated from a diverse set of documents within the Telcom industry. It comprises a rich set of 114 question-answer pairs, emphasizing the assessment of language models' understanding and reasoning in the context of Conditional Questions Multi Choice and Tokens Presence.
 
 ## Dataset Configuration
 

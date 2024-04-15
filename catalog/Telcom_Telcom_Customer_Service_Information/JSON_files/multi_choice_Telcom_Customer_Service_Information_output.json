@@ -1,0 +1,771 @@
+{
+    "tests": [
+        {
+            "key": "f8e23664-da22-4ed8-a7f3-91dafc5b050c",
+            "documents": [
+                "Telcom_Customer_Service_Information.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "abae4f24-f1c3-479f-95b9-a22b9e527e79",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main problem discussed in the text?\nHow do you respond?\nA. The need to improve the efficiency and quality of customer service in the telecom industry.\nB. The difficulty of sorting out beneficial information in the telecom industry.\nC. The high demand for IT resources in the telecom industry.\nD. The stress and demanding nature of customer service representative jobs in the telecom industry.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8b91a697-fd1e-40cc-aa19-191029c5abf8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who presented the problem in the text?\nHow do you respond?\nA. Alexander\nB. Fredric\nC. Lage Eriksson\nD. The customer\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "4e9a624c-641d-4a2c-8409-a2b0a43e7d6d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the current situation in the telecom industry?\nHow do you respond?\nA. The telecom industry is facing a problem of providing relevant information to customer service representatives.\nB. Customer service representatives are facing a problem of dealing with a large amount of customer complaints, support, and sales errands.\nC. The telecom industry is facing a problem of high demands on IT resources due to the amount of information and data that exists in the business.\nD. The telecom industry is facing a problem of customers switching to other operators due to lucrative offers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "e37b86b6-147e-4b2d-85f1-3c8ba4ab73be",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the interview with Lage Eriksson?\nHow do you respond?\nA. To discuss the problem of information overload in the telecom industry and its impact on customer service.\nB. To evaluate the effectiveness of IT support systems in handling customer information.\nC. To identify ways to improve customer relationship management in the telecom industry.\nD. To understand the role of customer service representatives in resolving customer complaints.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "4d7dbfe4-dc23-4a94-b0b3-9e6311271171",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the questionnaire?\nHow do you respond?\nA. To gather information about customer service representatives' experiences and observations.\nB. To evaluate the effectiveness of IT support systems in the telecom industry.\nC. To identify the root causes of customer complaints and support issues.\nD. To assess the impact of customer relationship management on customer satisfaction.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6668779c-abed-49e8-a61e-468131e94491",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the study?\nHow do you respond?\nA. To evaluate the efficiency of IT support systems in the telecom industry.\nB. To identify the challenges faced by customer service representatives in the telecom industry.\nC. To determine the impact of customer satisfaction on business performance in the telecom industry.\nD. To develop a new IT system for customer service in the telecom industry.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cfe19403-ad57-4126-aee9-5956cf1dfce2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main purpose of the thesis?\nHow do you respond?\nA. To create a data warehouse architecture for a telecom company.\nB. To develop a customer service model for a telecom company.\nC. To analyze the impact of IT on customer service in a telecom company.\nD. To design a data warehouse for a telecom company's IT department.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "319cca9b-258d-4561-9b41-a086ba595caa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a data warehouse?\nHow do you respond?\nA. A collection of technologies aimed at enabling the knowledge worker to make better and faster decisions by integrating heterogeneous data sources to enable online analytic processing.\nB. A system that stores data from various sources in its original form to support real-time data processing.\nC. A centralized repository that stores historical data from various sources, frequently used for long-term decisions, historical analysis, trend analysis, or integrated analysis.\nD. A tool that enables the creation of new data by combining data from different sources.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a9dfdc32-d7a0-419c-bcdb-60fb0d4d8ff5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the components of a data warehouse architecture?\nHow do you respond?\nA. Global data warehouse, local warehouses, and operational databases.\nB. Customer service unit, IT support systems, and data sources.\nC. Legacy systems, data sources, and operational databases.\nD. Data sources, global data warehouse, and local warehouses.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "b3258c5d-07a8-42e3-864e-7c66faae9cfb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the global data warehouse?\nHow do you respond?\nA. To provide real-time data to support operational systems\nB. To store historical data for long-term trend analysis\nC. To integrate heterogeneous data sources for online analytical processing\nD. To support customer service units with up-to-date information\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "cecd88de-38d3-47e9-9cdb-715c7189e419",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of local warehouses?\nHow do you respond?\nA. To store historical data from the global data warehouse\nB. To support information processing management decisions\nC. To integrate heterogeneous data sources\nD. To keep a record of data that can be many years old\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "0a8039d3-3f5b-499b-b696-55e700ced304",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the challenges faced by customer service representatives?\nHow do you respond?\nA. Dealing with irate customers and meeting tight work requirements.\nB. Handling a large volume of calls and selling new services.\nC. Managing complex and tightly coupled IT architecture.\nD. Restricted access to customer information and long-term decisions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "bc57ee17-9652-401f-87c8-d2cec5488a1f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the average age of data in a data warehouse?\nHow do you respond?\nA. Two years\nB. Five years\nC. Ten years\nD. Twenty years\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "fdbfd7a4-013a-4f6f-9fb4-ca93d724249a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two main types of users that are attracted to an ODS?\nHow do you respond?\nA. Farmers and Explorers\nB. Operational users and Analysts\nC. Data analysts and Data scientists\nD. Business users and IT professionals\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "612c220b-842b-4fa2-9c7a-c2573cc4e113",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the primary difference between farmers and explorers?\nHow do you respond?\nA. Farmers work in a structured environment, while explorers work in an unstructured environment.\nB. Farmers work in a heuristic mode, while explorers work in a structured mode.\nC. Farmers are focused on finding small amounts of data, while explorers are focused on finding large sets of data.\nD. Farmers are focused on finding patterns and relationships, while explorers are focused on completing specific tasks.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "46a20222-53aa-4e42-ac70-497ac17491cb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of a metadata store in a data warehouse?\nHow do you respond?\nA. To store data that can be many years old\nB. To track and administer data, processes, and components in a data warehouse\nC. To serve as a distribution center for current data\nD. To enable integrated and collective on-line processing\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bf51131c-5913-445e-931f-e23d986541f8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between a data warehouse and an ODS in terms of data age?\nHow do you respond?\nA. A data warehouse contains data that is older than an ODS.\nB. An ODS contains data that is older than a data warehouse.\nC. A data warehouse and an ODS contain the same age data.\nD. An ODS contains data that is more volatile than a data warehouse.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "537b66c9-9e59-4068-805b-4e4a3ca0974c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the primary advantage of using a stovepipe architecture in an IT environment?\nHow do you respond?\nA. It allows for better data integration and sharing between systems.\nB. It creates a more flexible and adaptable IT environment.\nC. It reduces the complexity and cost of IT system development and maintenance.\nD. It enables better data security and compliance with regulatory requirements.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "19112b2a-411b-4fd4-af3d-3c5d98c2046d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two ways to describe business processes, and what is the difference between them?\nHow do you respond?\nA. Executable and Abstract Processes; Executable Processes model actual behavior, while Abstract Processes are partially specified and serve a descriptive role.\nB. Executable and Abstract Processes; Executable Processes are partially specified, while Abstract Processes model actual behavior.\nC. Business and Abstract Processes; Business Processes model actual behavior, while Abstract Processes are partially specified and serve a descriptive role.\nD. Business and Executable Processes; Business Processes are partially specified, while Executable Processes model actual behavior.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8c318c91-7a64-4806-b4e7-054387817719",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a business rule?\nHow do you respond?\nA. A statement of Boolean logic that defines how a system should respond to a specific event or input.\nB. A set of guidelines that outline how a business should operate and make decisions.\nC. A software application that contains definitions of business rules.\nD. A definition of customers that are likely to leave the company for another offering.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e1fc6c9f-f8ce-4dd6-8d99-ceff7300dbb1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two main groupings of business rules engines?\nHow do you respond?\nA. Interference engines and result-oriented engines\nB. Database-centric engines and user-centric engines\nC. Broadband engines and phone service engines\nD. Churn engines and product differentiation engines\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "72545a6e-392c-48cb-b3c3-2050fd6f3186",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why do telecoms and cable TV companies use mass marketing to reduce churn?\nHow do you respond?\nA. To target specific customer segments and build relationships\nB. To differentiate their services from competitors\nC. To acquire new customers and increase revenue\nD. To reduce the cost of acquiring new customers\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "8a73da89-a822-4277-8715-6af5659e17fa",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is exploratory research?\nHow do you respond?\nA. Research that tests theoretical hunches or propositions.\nB. Research that is used to develop hypothesis and probes.\nC. Research that is concerned with describing and interpreting less well understood topics.\nD. Research that is used to develop a quantitative base for the construction of an ethnographic survey.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "a5cb348c-3725-456b-85b9-f6df12e41289",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of semi-structured interviews in research?\nHow do you respond?\nA. To collect quantitative data for hypothesis testing\nB. To explore and clarify research questions and hypotheses\nC. To gather information for database marketing\nD. To persuade the public that a service is better than others\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "802fc941-949e-4af4-8e73-93aa534fd0c8",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two types of observation techniques mentioned in the text?\nHow do you respond?\nA. Overt and covert observation\nB. Structured and unstructured observation\nC. Participant and non-participant observation\nD. Observer-participant and observer-as-participant observation\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "d7afc89e-ac67-4061-a91a-0cd81442762c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Hawthorn effect, and how can it be a problem in overt observation?\nHow do you respond?\nA. The tendency of people to act differently when being observed, which can lead to biased data.\nB. A phenomenon where observers influence the behavior of the observed, causing them to act differently.\nC. A type of observational bias where the observer's presence affects the behavior of the observed.\nD. A type of measurement error caused by the observer's perception of the observed.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "21b15afe-019a-4703-b123-b85add65de7b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of using open-ended questions during interviews and observations?\nHow do you respond?\nA. To encourage interviewees to explain and elaborate their answers more accurately.\nB. To gather quantitative data for statistical analysis.\nC. To influence interviewees' responses and obtain biased answers.\nD. To obtain a limited number of predetermined responses.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "c8d6c15e-a0ba-461f-bd88-2344519c2b9f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can leading questions be avoided when building a questionnaire?\nHow do you respond?\nA. By using emotive language to influence respondents' answers.\nB. By avoiding assumptions and ensuring questions are neutral.\nC. By using open-ended questions to encourage elaborate answers.\nD. By providing respondents with answer options to choose from.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c6fa9fcd-d68f-402a-aded-7340f853936b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the importance of anonymity in observations and interviews?\nHow do you respond?\nA. To prevent participants from fearing later actions by superiors or being quoted in reports.\nB. To ensure that participants are not influenced by the observer's presence.\nC. To make participants more open and honest in their responses.\nD. To allow researchers to observe participants without being detected.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "3a1d1633-7a59-4076-a407-8abd6c8ebc3a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the advantage of using recognized interview, observation, and questionnaire techniques?\nHow do you respond?\nA. It ensures high validity and reliability in data collection.\nB. It reduces the risk of observer bias and Hawthorne effect.\nC. It makes the researcher's presence known to the participants.\nD. It allows the researcher to manipulate the responses to suit their assumptions.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "7a79de7d-3f07-40ca-9a19-f8b897b5c57e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is content validity, and how was it ensured in the study described in the text?\nHow do you respond?\nA. Content validity is the extent to which a measure or instrument measures what it is supposed to measure.\nB. Content validity was ensured by selecting experts with solid expertise in their areas and having a good position in a recognized business.\nC. Content validity was ensured by using recognized interview, observation, and questionnaire techniques.\nD. Content validity was ensured by comparing the instrument and findings with an established standard to determine the correlation between measured performance and actual performance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "349b64ec-0937-4f89-8b2b-ced13e00d62a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the difference between qualitative and quantitative data analysis?\nHow do you respond?\nA. Qualitative data analysis is primarily used by positivist researchers, while quantitative data analysis is primarily used by interpretive and critical researchers.\nB. Qualitative data analysis is concerned with comparing the instrument and findings with an established standard, while quantitative data analysis is concerned with generating evidence based on numbers.\nC. Qualitative data analysis focuses on categorizing data into themes and connections between segments, while quantitative data analysis focuses on searching for patterns that may be present over a whole category.\nD. Qualitative data analysis is used to analyze data that includes all non-numeric data, while quantitative data analysis is used to analyze data generated by experiments and surveys.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "dd9cd754-681d-49cb-88a4-69ce2019b5bb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the main purpose of the research study?\nHow do you respond?\nA. To determine the correlation between measured performance and actual performance.\nB. To ensure that the instrument used was valid and reliable.\nC. To generate a theory about the patterns and connections between the segments and categories.\nD. To get a better insight into how the customer service representative works and what type of information they need.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "8a4a7130-8cc9-4100-8f13-b1ad17e73d9b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the significance of the finding that the instrument had high criterion-related validity?\nHow do you respond?\nA. It indicated that the instrument was able to measure what it was designed to measure.\nB. It showed that the instrument was able to accurately predict real-world outcomes.\nC. It demonstrated that the instrument was able to distinguish between people with different levels of knowledge or ability.\nD. It proved that the instrument was free from bias and errors.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "12c10efe-0ea7-4906-8419-6a11a673ab57",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many days did the observers spend observing the customer service representatives?\nHow do you respond?\nA. 1 day\nB. 2 days\nC. 4 days\nD. 5 days\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "18a74f5d-5d1a-46b4-b52e-a10b32e57106",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many skilled customer service representatives answered the questionnaire?\nHow do you respond?\nA. 5\nB. 10\nC. 15\nD. 20\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6150f825-85a0-41f5-9383-5a0e73c2db50",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How long did the respondents have to answer the questionnaire?\nHow do you respond?\nA. 2 days\nB. 4 days\nC. 1 day\nD. 3 days\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "f50528ec-bfe8-45ec-a9f8-025accade82c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the first part of the questionnaire?\nHow do you respond?\nA. Open-ended questions\nB. Checkbox answers\nC. Customer service representative observations\nD. Information areas\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "18e45660-6b8a-43ef-a82d-dc4f9616023f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the number of alternatives that could be marked in the question about the hardest area to answer/find information?\nHow do you respond?\nA. 2\nB. 3\nC. 4\nD. 5\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "cdcdbf8e-3094-41b4-9111-199e4ca560e5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the purpose of the open-ended questions in the questionnaire?\nHow do you respond?\nA. To locate specific areas that were troublesome for customer service representatives.\nB. To get customer service representatives' views on the different information parameters they use in their systems.\nC. To determine the number of customer service representatives who believed that the information provided was adequate.\nD. To identify the amount of time customer service representatives spent learning the information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "e28f0929-9fb0-44c0-88dc-b8865e31dee1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which information area do you believe is irrelevant or not useful?\nHow do you respond?\nA. Customer history\nB. Fiber LAN\nC. Changes in Apollo\nD. Regular telephone\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "51827984-1450-4764-80f6-77e15330fe45",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which information area do you believe is most related to problems for a customer service representative?\nHow do you respond?\nA. Customer history\nB. Fiber LAN\nC. Changes in Apollo\nD. Invoice changes\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ce1603ed-5d42-47b2-9fc1-1633784a9660",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which information area do you feel most comfortable with?\nHow do you respond?\nA. Customer history\nB. Fiber LAN\nC. Changes in Apollo\nD. Invoice changes\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "e295ceb8-4d94-42d6-a524-3eb57ee180bb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What information do you think is missing today?\nHow do you respond?\nA. Information about disturbance in the area to help inform customers about redirections to technical assistance.\nB. Information about the customer's history of moves, which is missing.\nC. Information on converting between ADSL and fiber, which lacks a good approach.\nD. Information about the customer's current engagement, which is almost never a problem and often shows the right place at the right time.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "96fc58be-5684-45da-8489-6b6228a1a0ac",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some proposals on information that would help but not exist today?\nHow do you respond?\nA. Information about disturbance in the area to help inform customers about redirection to technical assistance.\nB. History of orders that have been done and disappear too fast from the system.\nC. Information about fiber, routines on converting, and a good approach for converting between ADSL and fiber.\nD. Information about the customer's current engagement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "3c4e7566-510e-4827-9b4c-7165d9bdae0e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the biggest potential improvement areas in IT?\nHow do you respond?\nA. Customer history\nB. Fiber LAN area\nC. Changes in Apollo\nD. Error reporting and trouble shooting\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "1b35d3eb-5f2d-455c-ae7a-5aa957672251",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the problems that customer service units experience today, especially within IT?\nHow do you respond?\nA. Insufficient information to effectively perform work.\nB. Inadequate tools for error reporting and trouble shooting.\nC. Lack of customer history and engagement information.\nD. Inconsistent and outdated information.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ae286554-324c-46e7-9981-4f7cbd8c3254",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the main problem that Siv noticed in the information presented to the customer?\nHow do you respond?\nA. The information was not easily accessible for the task at hand.\nB. The information was scattered and not organized properly.\nC. The information was not accurate or up-to-date.\nD. The information was not presented in a user-friendly format.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "95773f64-1920-44c3-b7f2-3a65ed5eb03c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What did Siv suggest as a solution to the problem of misinterpretations by the customer?\nHow do you respond?\nA. Siv suggested that the customer service representative should call the customer to offer support in how to install the service before the customer calls them.\nB. Siv suggested that the customer service representative should provide the customer with more information concerning the service they haven't used yet.\nC. Siv suggested that the customer service unit should implement a new system that can detect misinterpretations by the customer.\nD. Siv suggested that the customer service representative should ask the customer if they would like assistance on how to use or install the service they haven't used yet.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "c9acd582-5dc4-4194-9f2b-3e703bbc3d3c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the purpose of the interview with Ole Larsson?\nHow do you respond?\nA. To get an expert's view on business intelligence in the telecom industry.\nB. To gather information about the customer service unit's problems.\nC. To understand how to improve the quality of service offered to customers.\nD. To learn about the different technologies used in the telecom industry.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "7a15f282-0492-4d93-8958-0ed1e0765f0b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was Ole Larsson's definition of Operational data store (ODS)?\nHow do you respond?\nA. A level of data warehouse flow that contains data available for tactical reporting.\nB. A technology used in business intelligence to create data that becomes available in tactical situations.\nC. A method of data storage used in the telecom industry for efficient data access.\nD. A type of data mart used for strategic decision-making.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "6db5d543-4d5a-49cf-b585-95f50ed0fc7a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the result of the discussion on how to improve IT?\nHow do you respond?\nA. The result was a plan to increase the amount of information available to customer service representatives to improve their ability to assist customers.\nB. The result was a plan to implement new business rules to help customer service representatives make better decisions.\nC. The result was a plan to increase the number of customer service representatives to reduce the workload and improve customer service.\nD. The result was a plan to implement a new system for tracking customer interactions and analyzing customer data.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "11d66f3f-6bab-4cbd-b9ff-bc60f8825a0c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the main purpose of the observation, interview, and questionnaire at the customer service unit?\nHow do you respond?\nA. To identify the problems faced by the customer service representatives and find ways to improve their service.\nB. To evaluate the performance of the customer service representatives and provide feedback.\nC. To assess the customer's satisfaction with the service provided by the customer service unit.\nD. To determine the impact of the business intelligence expert's advice on the customer service unit's performance.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "8f2a916a-5422-46d5-8f5c-b0e41164a643",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of using a business object in the data warehouse environment?\nHow do you respond?\nA. To optimize data storage for efficient reporting and analysis.\nB. To provide a general updating tool for both operational and tactical export of data.\nC. To enable the profiling of customers and demography.\nD. To outsource the profiling part of the data to an external company.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "64ad3a3b-e840-45b7-821c-771bd4c488b2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is Ole's view on profiling customers and demography in BI?\nHow do you respond?\nA. Ole sees profiling customers and demography in BI as problematic because it raises ethical concerns.\nB. Ole believes that profiling data that supports services like Churn is very suitable to do in a warehouse environment, and sees no problems concerning profiling and demography in BI.\nC. Ole thinks that profiling customers and demography in BI is a waste of resources and should be avoided.\nD. Ole believes that profiling customers and demography in BI is only suitable for small businesses and not for large enterprises.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "bff5cd82-38d4-484e-8db0-dc348ec7545e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the situation with widely spread information throughout many systems affect BI?\nHow do you respond?\nA. It makes it easier to get a 360-degree customer view.\nB. It makes it harder to get a 360-degree customer view.\nC. It has no impact on getting a 360-degree customer view.\nD. It is not possible to get a 360-degree customer view.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "1dccc6dd-fda4-48cf-9bc5-ecc798844ef4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does a data warehouse handle data from different systems?\nHow do you respond?\nA. It combines data from different systems into a single database.\nB. It stores data from different systems in separate databases.\nC. It converts data from different systems into a standard format.\nD. It uses APIs to access data from different systems.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "ad47223d-6e18-4316-b4a2-5b482062f046",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the challenge in merging two different areas into one data mart?\nHow do you respond?\nA. Ensuring data consistency across both areas.\nB. Transferring data from one area to another.\nC. Making the data in the two areas coherent.\nD. Creating a new data model that incorporates data from both areas.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "dba082ad-bce6-45b2-ab05-428da48d619d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can you solve the issue of creating a mutual bill for all the customers' engagement in Telia Sonera?\nHow do you respond?\nA. By creating a separate data mart for billing information and integrating it with the operative systems.\nB. By modifying the existing data warehouse to include billing information and applying business rules to create a unified bill.\nC. By using a portal and web logging to collect data on customer engagement and automatically generate error reports.\nD. By implementing a new billing system that can handle multiple sources of data and generate a single bill for all customer engagement.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "fbd53461-99d0-401b-aa63-894c54c19b15",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How can BI be used to help customer service representatives with error reporting?\nHow do you respond?\nA. By creating a portal for customers to report errors directly into the BI system.\nB. By automatically sending error reports containing web logs to the customer service representatives.\nC. By providing real-time data to customer service representatives to help them identify and resolve errors.\nD. By generating reports that summarize error data and trends for customer service managers.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f2a6e4c9-dcac-4068-b938-16c774f1b467",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the hardest part of BI?\nHow do you respond?\nA. Ensuring data quality and accuracy.\nB. Creating a mutual bill for all customers' engagements.\nC. Merging two different areas into one data mart.\nD. Solving issues with the billing system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "a61ab938-01df-4d85-a213-ee1034765371",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main challenge in working with business intelligence, according to Ole?\nHow do you respond?\nA. The complexity of integrating data from multiple sources.\nB. Difficulty in interpreting data dumps from technical administrators.\nC. Insufficient attention from different areas resulting in quick fixes.\nD. The need to apply business rules to data and take it back into the business.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                },
+                {
+                    "key": "f4fb15ab-907f-4057-bd69-32a605fa4440",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What does Ole suggest should be done to improve the process of receiving new data from operational systems?\nHow do you respond?\nA. Use \"quick fixes\" to solve problems in the operational systems.\nB. Implement a message-based system using JMS queue to receive data from operational systems.\nC. Import data from external services into the data warehouse environment.\nD. Merge two different areas into one data mart.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "989e8143-f8dc-4b92-8e2a-e052cfb91d04",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does Ole suggest communicating with the warehouse environment?\nHow do you respond?\nA. Sending a XML message to a server over a JMS transport.\nB. Importing data directly into the data warehouse environment.\nC. Using a file clearing house to transfer data securely.\nD. Using a legacy system to communicate with the operational system.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "0d81a7ab-0734-4437-81ff-ecd09571152d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How should data from external services be imported into the data warehouse environment, according to Ole?\nHow do you respond?\nA. Through a JMS queue, as a message\nB. By uploading it to a file-sharing service and sending a link to the warehouse environment\nC. Using a web service to push the data directly into the warehouse database\nD. Through a batch process that runs daily to collect data from external sources\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^A.*"
+                    ],
+                    "expected_output": "A"
+                },
+                {
+                    "key": "b5362f62-d015-4a8e-9e99-4dfc0bc9a254",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is a big problem that Ole sees in working with business intelligence?\nHow do you respond?\nA. Merging two different areas into one data mart.\nB. Applying business rules to data and taking it back into the business.\nC. Retrieving data with the help of meta data.\nD. Working with legacy requirements and at the same time considering building a modern enterprise warehouse.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "31b204c0-1744-4120-a92a-b6dc6da80422",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the issue with merging two different areas into one data mart, according to Ole?\nHow do you respond?\nA. It can cause problems when applying business rules to the data.\nB. It can be difficult to ensure data coherence.\nC. It can lead to quick fixes that increase complexity.\nD. It can be challenging to import data from external services.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^B.*"
+                    ],
+                    "expected_output": "B"
+                },
+                {
+                    "key": "c597a971-a8ae-4d0f-ae27-d988362bf44a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the challenge in applying business rules to data and taking it back into the business, according to Ole?\nHow do you respond?\nA. The challenge lies in retrieving data with the help of meta data.\nB. The challenge lies in merging two different areas into one data mart.\nC. The challenge lies in working with legacy requirements and at the same time considering building a modern enterprise warehouse.\nD. The challenge lies in applying business rules to the data and taking it back into the business.\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^D.*"
+                    ],
+                    "expected_output": "D"
+                },
+                {
+                    "key": "da05b37a-0f40-49d1-9031-92d730ad42a1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the two big areas that a customer service unit can benefit from, according to Lage Eriksson?\nHow do you respond?\nA. Business Activity Monitor and Business Rules\nB. Business Intelligence and Operative Data\nC. Customer Engagement and Offerings\nD. Error Analysis and Testing Hardware\n",
+                    "categories": [
+                        "question-answering"
+                    ],
+                    "constraints": [
+                        "REGEXP^C.*"
+                    ],
+                    "expected_output": "C"
+                }
+            ]
+        }
+    ]
+}

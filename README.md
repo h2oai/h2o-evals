@@ -1,14 +1,14 @@
 <div align='center'>
 
 <h1>Eval Datasets </h1>
-4️⃣0️⃣ Evaluation Datasets
+4️⃣2️⃣ Evaluation Datasets
 
 <br>
 <br>
 </div>
 
 ## Mission 🚀
-To showcase 40 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
+To showcase 42 Eval datasets for a range of different industries and types of evaluation for beginners, intermediates as well as experts.
 
 
 
@@ -57,7 +57,7 @@ Following is the collection of 40 Datasets by different industries, different ev
 | 10. | [Banking_CBA_AnnualReport_2023](https://github.com/h2oai/h2o-evals/tree/main/catalog/Banking_CBA_AnnualReport_2023)| `Banking` | Annual Report | 120 | RAG |
 | 11. | [Government_Home_Affairs](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_Home_Affairs)| `Government` | Home Affairs | 116 | RAG |
 | 12. | [Finance_Product_Disclosure_Statement](https://github.com/h2oai/h2o-evals/tree/main/catalog/Finance_Product_Disclosure_Statement)| `Finance` | Product Disclosure Statement | 123 | RAG |
-| 13. | [Telcom_Telecommunication_Regulations](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecommunication_Regulations)| `Telecom` | Telecommunications Regulations | 114 | RAG |
+| 13. | [Telcom_Telecommunication_Regulations](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecommunication_Regulations)| `Telcom` | Telecommunications Regulations | 114 | RAG |
 | 14. | [Banking_Brokers_Agreement](https://github.com/h2oai/h2o-evals/tree/main/catalog/Banking_Brokers_Agreement)| `Banking` | Brokers Agreement | 58 | RAG |
 | 15. | [Security_Singapore_Cyber_Landscape](https://github.com/h2oai/h2o-evals/tree/main/catalog/Security_Singapore_Cyber_Landscape)| `Security` | Singapore Cyber Landscape | 104 | RAG |
 | 16. | [Risk_Management_Inherent_Risk_Assessment](https://github.com/h2oai/h2o-evals/tree/main/catalog/Risk_Management_Inherent_Risk_Assessment)| `Risk Management` | Inherent Risk Assessment | 116 | RAG |
@@ -66,7 +66,7 @@ Following is the collection of 40 Datasets by different industries, different ev
 | 19. | [Government_US_Veterans_Affairs](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_US_Veterans_Affairs)| `Government` | Veterans Affairs | 121 | RAG |
 | 20. | [Security_Cyber_Security_Policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/Security_Cyber_Security_Policy)| `Security` | Cyber Security | 125 | RAG |
 | 21. | [Risk_Management_Risk_Management_Guidelines](https://github.com/h2oai/h2o-evals/tree/main/catalog/Risk_Management_Risk_Management_Guidelines)| `Risk Management` | Risk Management Guidelines | 123 | RAG |
-| 22. | [Telcom_Annual_Report_Singtel](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Annual_Report_Singtel)| `Telecom` | Annual Report | 153 | RAG |
+| 22. | [Telcom_Annual_Report_Singtel](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Annual_Report_Singtel)| `Telcom` | Annual Report | 153 | RAG |
 | 23. | [Legal_IRS_Strategic_Operating_Plan](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_IRS_Strategic_Operating_Plan)| `Legal` | IRS Strategic Operating Plan | 128 | RAG |
 | 24. | [Government_Immigration_in_Singapore](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_Immigration_in_Singapore)| `Government` | Immigration in Singapore | 122 | RAG |
 | 25. | [Telcom_Telecommunications_regulation_strategy_policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecommunications_regulation_strategy_policy)| `Telecom` | Telecommunications Regulations | 116 | RAG |
@@ -78,15 +78,17 @@ Following is the collection of 40 Datasets by different industries, different ev
 | 31. | [Legal_Employment_Contract](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_Employment_Contract)| `Legal` | Employment Contract | 60 | RAG |
 | 32. | [Healthcare_Digital_Health_Guidelines](https://github.com/h2oai/h2o-evals/tree/main/catalog/Healthcare_Digital_Health_Guidelines)| `Health` | Digital Health Guidelines | 127 | RAG |
 | 33. | [Risk_Management_Risk_Management_Techniques_Tool](https://github.com/h2oai/h2o-evals/tree/main/catalog/Risk_Management_Risk_Management_Techniques_Tool)| `Risk Management` | Risk Management | 120 | RAG |
-| 34. | [Telcom_Telecom_Infrastructure_Planning](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecom_Infrastructure_Planning)| `Telecom` | Telecom Infrastructure Planning | 153 | RAG |
+| 34. | [Telcom_Telecom_Infrastructure_Planning](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telecom_Infrastructure_Planning)| `Telcom` | Telecom Infrastructure Planning | 153 | RAG |
 | 35. | [Banking_Banking_Act](https://github.com/h2oai/h2o-evals/tree/main/catalog/Banking_Banking_Act)| `Banking` | Banking Act | 148 | RAG |
 | 36. | [Finance_IMF_Financial_Statements](https://github.com/h2oai/h2o-evals/tree/main/catalog/Finance_IMF_Financial_Statements)| `Finance` | Financial Statement | 126 | RAG |
 | 37. | [Security_Information_Security](https://github.com/h2oai/h2o-evals/tree/main/catalog/Security_Information_Security)| `Security` | Information Security  | 125 | RAG |
 | 38. | [Government_SA_Home_Affairs](https://github.com/h2oai/h2o-evals/tree/main/catalog/Government_SA_Home_Affairs)| `Government` | Home Affairs | 140 | RAG |
 | 39. | [Healthcare_Maternal_Child_Healthcare](https://github.com/h2oai/h2o-evals/tree/main/catalog/Healthcare_Maternal_Child_Healthcare)| `Health` | Maternal Child Healthcare | 147 | RAG |
 | 40. | [Legal_UPC_Agreement](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_UPC_Agreement)| `Legal` | UPC Agreement | 141 | RAG |
+| 41. | [HR_HR_Policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/HR_HR_Policy)| `HR` | HR Policy | 122 | RAG |
+| 42. | [Telcom_Telcom_Customer_Service_Information](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telcom_Customer_Service_Information)| `Telcom` | Telcom Customer Service Information | 133 | RAG |
 
-### Create your own Evaluation Dataset using LLM DataStudio 💡
+## Create your own Evaluation Dataset using LLM DataStudio 💡
 
 If you're interested in creating your own evaluation dataset using LLM DataStudio, you can follow the step-by-step guide provided in our [dataset creation guide](https://github.com/h2oai/h2o-evals/blob/main/LLMDataStudio_README.md).
 

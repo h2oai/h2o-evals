@@ -1,0 +1,1598 @@
+{
+    "tests": [
+        {
+            "key": "f751a675-e8f6-4e42-b345-bb12a0a36a50",
+            "documents": [
+                "HR_Policy.pdf"
+            ],
+            "test_cases": [
+                {
+                    "key": "a643580d-02d9-4188-95a1-e5773d9f7a31",
+                    "prompt": "Question: Can staff members claim transport reimbursement for traveling to places that are inaccessible by bus or MRT from their homes and vice versa for official purposes?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, staff members can claim transport reimbursement for such travel, and they will be reimbursed the taxi fare after deducting the usual daily transport expenses incurred between home and office."
+                    ]
+                },
+                {
+                    "key": "0ca16738-e1c7-4562-b088-6b11171d7029",
+                    "prompt": "Question: How is the fixed transport reimbursement amount pro-rated for staff members who are away from work for more than 14 consecutive working days?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The fixed transport reimbursement amount will be pro-rated for staff members who are away from work for more than 14 consecutive working days."
+                    ]
+                },
+                {
+                    "key": "eb881134-537b-472c-9063-3d5723381cf6",
+                    "prompt": "Question: What is the rate of transport reimbursement for staff members who use their own cars for official journeys?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "60 cents per km."
+                    ]
+                },
+                {
+                    "key": "f802f936-bf4d-4e48-84b6-d8b1d9ab47a9",
+                    "prompt": "Question: Is there a fixed transport reimbursement amount for staff members who travel frequently in the course of their work?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, there is a fixed transport reimbursement amount of $275 per month for staff members who are recommended by the Head of Department/Executive Secretary of Industrial Union and are required to travel frequently in the course of their work."
+                    ]
+                },
+                {
+                    "key": "ff747823-5d9a-44a5-ae0b-81ff552e355e",
+                    "prompt": "Question: Will a staff member's weekends be treated as no pay leave if they take no pay leave for 30 calendar days or more?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, all weekends in that period will be treated as no pay leave."
+                    ]
+                },
+                {
+                    "key": "fa1dae5b-4684-4a18-8b9c-897704615932",
+                    "prompt": "Question: What is the maximum amount that NTUC-ARU will contribute to a staff member's Medisave and salary accounts in a year?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "NTUC-ARU will contribute up to $170 to a staff member's Medisave and salary accounts in a year."
+                    ]
+                },
+                {
+                    "key": "4b613a27-2ae7-4ae9-89b5-9d9aa6a37c06",
+                    "prompt": "Question: Can a staff member encash their annual leave balance if they are unable to clear it due to exigencies of service?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a staff member can encash their annual leave balance if they are unable to clear it due to exigencies of service. The formula for leave encashment is provided in the text."
+                    ]
+                },
+                {
+                    "key": "c234ea06-3483-4370-a55e-2d7675d289ad",
+                    "prompt": "Question: Can staff refer to any polyclinic or registered General Practitioner (GP) to a panel of specialists approved by NTUC Income?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes."
+                    ]
+                },
+                {
+                    "key": "d6dd0cdb-7d2c-47dd-8dbe-8379b31c4404",
+                    "prompt": "Question: Can a staff member work for another employer during their annual leave within the period of notice of resignation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, a staff member cannot work for another employer during their annual leave within the period of notice of resignation. NTUC-ARU has the right to withhold payment or claim the refund of payment for such annual leave or a portion thereof."
+                    ]
+                },
+                {
+                    "key": "c3805c22-3235-4011-8a71-2ed6ab724639",
+                    "prompt": "Question: How does the staff member bear the excess of the annual premium if they choose to continue with their existing medical insurance plan with another insurer?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The staff member will have to bear the excess of the annual premium themselves via their Medisave account, being the difference in cost between the EIS Advantage Plan and their existing medical insurance plan. However, the staff member will enjoy a cost savings via their salary account, being the difference in cost between the IAR Advantage Plan and their existing medical insurance plan."
+                    ]
+                },
+                {
+                    "key": "2d2dd4bb-d8bc-4573-8f4f-95c5db0d9b74",
+                    "prompt": "Question: Can a staff member apply for no pay leave if they have exhausted all their annual leave?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a confirmed staff member who has exhausted all their annual leave may apply for no pay leave. Approval is granted on a case-by-case basis."
+                    ]
+                },
+                {
+                    "key": "676aba16-c71d-4cf5-9e62-ae844e8a3ebb",
+                    "prompt": "Question: What is the annual premium for the Enhanced Incomeshield (EIS) plan for a staff member under 31 years old?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The annual premium for the EIS plan for a staff member under 31 years old is $95."
+                    ]
+                },
+                {
+                    "key": "70d552e1-f8dc-4431-affc-fd6fe65a1b16",
+                    "prompt": "Question: How is the IR allowance pro-rated for a staff member who relinquishes their appointment during the month?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The IR allowance will be pro-rated according to the number of working days served in that month."
+                    ]
+                },
+                {
+                    "key": "61ce89d8-d839-4d82-807f-916270048be7",
+                    "prompt": "Question: How much does NTUC-ARU contribute to a staff member's salary account for the IAR plan?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "NTUC-ARU contributes $8.34 per month to a staff member's salary account for the IAR plan."
+                    ]
+                },
+                {
+                    "key": "f604b6e4-b4d6-40a9-a0cd-50b01f3b04f5",
+                    "prompt": "Question: Can staff members who are in receipt of handphone allowance use their handphones for personal purposes?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, staff members who are in receipt of handphone allowance must remain contactable at all times and the handphone number must be posted in the NTUC Directory and be contactable by all persons."
+                    ]
+                },
+                {
+                    "key": "4ab1a6bc-3b43-40bd-8e32-ef2a5e055778",
+                    "prompt": "Question: Can NTUC-ARU withdraw permission granted to staff for performance of work described in paragraph 10.1?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, NTUC-ARU reserves the right to withdraw any permission granted to staff for the performance of such work."
+                    ]
+                },
+                {
+                    "key": "2d3bc82a-743c-497c-b139-9f9e9e54b439",
+                    "prompt": "Question: What is the rate of pay for a staff member who works more than 44 hours in a week on a Sunday (Rest Day)?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The rate of pay for a staff member who works more than 44 hours in a week on a Sunday (Rest Day) is 2 days' basic rate of pay."
+                    ]
+                },
+                {
+                    "key": "d9f7200c-b0d4-42ae-8187-aabf12de004a",
+                    "prompt": "Question: What is the maximum amount of travel insurance coverage for staff in Grade N4 and above for overseas travel?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount of travel insurance coverage for staff in Grade N4 and above for overseas travel is $500,000."
+                    ]
+                },
+                {
+                    "key": "1b4aeb8e-ec69-4d43-b377-86b792900c64",
+                    "prompt": "Question: How long does the Head of Department/Executive Secretary of Industrial Union have to give a decision on a grievance?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The Head of Department/Executive Secretary of Industrial Union shall give his decision on the matter within 3 working days from the date the complaint was referred to him."
+                    ]
+                },
+                {
+                    "key": "1c9e05c6-c94b-457c-8c1d-cc19f0d38d36",
+                    "prompt": "Question: Can a staff member who has fallen ill apply for no pay leave?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a staff member who has fallen ill under circumstances in which paragraph 7 is inapplicable and has exhausted all his annual and medical leave may apply for no pay leave."
+                    ]
+                },
+                {
+                    "key": "e75952ec-cab9-4fc3-b80c-91ca82538090",
+                    "prompt": "Question: What is the amount of funeral grant given to a staff member in the event of the death of an immediate family member?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The funeral grant for a staff member in the event of the death of an immediate family member is $500, and a wreath."
+                    ]
+                },
+                {
+                    "key": "f637df39-00dc-4e13-82a8-63f9f55e6b11",
+                    "prompt": "Question: Is a staff member allowed to take annual leave during the period of notice?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, a staff member will not be permitted to take his available annual leave during the period of notice unless with the approval of the Reporting Officer."
+                    ]
+                },
+                {
+                    "key": "d3267df7-4f90-417b-935f-5ad24655ae2e",
+                    "prompt": "Question: Can staff claim the balance of the health screening cost that exceeds the cap reimbursed by NTUC-ARU from their Flexible Benefit?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes."
+                    ]
+                },
+                {
+                    "key": "8570b314-6595-43cd-b315-98747c036515",
+                    "prompt": "Question: How is medical leave handled for staff members who did not complete probation and cease employment for whatever reason before confirmation?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The number of days of Medical Leave that a staff member is entitled to will be pro-rated according to the length of completed service, as per Employment Act provisions."
+                    ]
+                },
+                {
+                    "key": "48c0aa83-0150-40c3-802c-61107764d76f",
+                    "prompt": "Question: What happens to the mobile broadband access allowance when a staff member resigns or goes on long-term no-pay leave?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The mobile broadband access allowance will cease on the effective date of resignation or no-pay leave."
+                    ]
+                },
+                {
+                    "key": "51e95392-1a07-4498-b41c-d7d59fd339ab",
+                    "prompt": "Question: Can a staff member take part in the management or proceedings of any commercial or other undertakings?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, a staff member cannot take part in the management or proceedings of any commercial or other undertakings without the approval of the NTUC-ARU management."
+                    ]
+                },
+                {
+                    "key": "7c81dd6c-753a-4b46-b91a-59119d191aa2",
+                    "prompt": "Question: What happens to the handphone allowance when a staff member resigns or goes on long-term no-pay leave?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The handphone allowance will cease on the effective date of resignation or no-pay leave."
+                    ]
+                },
+                {
+                    "key": "a026e5d5-927a-41d0-810a-23353ad5993f",
+                    "prompt": "Question: Can a staff member take all their annual leave due to them immediately before their retirement?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a staff member who will be retiring from NTUC-ARU will be given permission to take all the annual leave due to them immediately before the date of retirement."
+                    ]
+                },
+                {
+                    "key": "1e1a934c-d55f-4e11-9c81-27de9fb16eb9",
+                    "prompt": "Question: How many working days of annual leave are staff members entitled to per calendar year of service?\n",
+                    "categories": [
+                        "simple"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Staff members are entitled to 14 working days of annual leave per calendar year of service if they have less than 10 years of service, and 18 working days if they have 10 years of service or more."
+                    ]
+                },
+                {
+                    "key": "8827c573-5ba8-43b6-80ba-03f333e4f67e",
+                    "prompt": "Question: What is the pro-rated flexible benefit amount for staff members who join or leave NTUC-ARU during the year, considering their completed years of service and calendar days?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The flexible benefit amount is pro-rated according to the number of days served in a calendar year, with staff members eligible for $850 or $950 based on their completed years of service. The amount is transferable to the staff's Medisave account if not used by December 31st of the year."
+                    ]
+                },
+                {
+                    "key": "c9a7138f-91b3-4e3f-8ce8-bb2e304aa19c",
+                    "prompt": "Question: What is the maximum number of days of medical leave that a staff member can take in a calendar year, considering Outpatient Medical Leave and Hospitalisation Leave, and how is it affected by the staff member's probation and confirmation status?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member can take up to an aggregate of 14 working days of paid Outpatient Medical Leave and up to an aggregate of 60 days of Hospitalisation Leave in each calendar year, less any Outpatient Medical Leave taken during the year. The number of days of Medical Leave a staff member is entitled to will be pro-rated according to the length of completed service if they did not complete probation and cease employment for whatever reason before confirmation."
+                    ]
+                },
+                {
+                    "key": "a316e834-6dea-433a-bb7a-4bde5ebb658c",
+                    "prompt": "Question: What is the policy regarding annual leave and termination or dismissal of a staff member at NTUC-ARU?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "In case of termination of service by NTUC-ARU, any unconsumed annual leave may be compensated by payment of salary. However, if a staff member is summarily dismissed for misconduct, they will not be eligible for any salary payment for annual leave that is not yet consumed as at the day of dismissal."
+                    ]
+                },
+                {
+                    "key": "432a3b0c-feac-45a5-823d-aa4279af096d",
+                    "prompt": "Question: What is the dual purpose of the co-payment for outpatient specialist treatment under the i-Medicare (Specialist) plan concerning staff's expenses and NTUC Income's reimbursement?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "$15 per visit."
+                    ]
+                },
+                {
+                    "key": "cc234ce1-7cb9-49f7-a02f-4f7b425cd99f",
+                    "prompt": "Question: What are the guidelines for staff when interacting with the public, union officials, and members during their duties?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Staff should treat all members of the public, union officials, and members with courtesy and conduct themselves in a manner that keeps up with the dignity, prestige, and status of NTUC-ARU."
+                    ]
+                },
+                {
+                    "key": "0b48d130-29b5-4e4b-baa9-c8a20a4c9c94",
+                    "prompt": "Question: What is the maximum interest-free loan amount for a computer set that a confirmed staff can obtain, and how is it determined?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum interest-free loan amount for a computer set that a confirmed staff can obtain is 80% of the cost of the computer set or $2,400, whichever is lower. This amount is determined by the organization's policy, which aims to support staff in purchasing necessary equipment for their work while ensuring that the loan repayment is manageable and does not exceed 2 years."
+                    ]
+                },
+                {
+                    "key": "447161ae-0d5f-44a7-999a-5a03cf6e2a2f",
+                    "prompt": "Question: What is the annual premium for the Incomeshield Assist Rider (IAR) plan, considering the 5% cumulative increase in healthcare expenditure and insurance premiums, and how does NTUC-ARU contribute to the staff's Medisave and salary accounts?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "$100, and NTUC-ARU contributes $8.34 per month to the staff's salary and an amount equal to 1/12 of the annual premium into his monthly salary, subject to CPF contributions and income tax, with an increase of up to 5% per year cumulatively, and any increases beyond that are co-paid equally between NTUC-ARU and the staff."
+                    ]
+                },
+                {
+                    "key": "fae8743f-ab24-4806-9d50-c4356b85822f",
+                    "prompt": "Question: What are the conditions that affect a staff member's eligibility for IR allowance?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member who is on probation is not eligible for IR allowance. Additionally, the staff member's salary grade, confirmation status, and exit process also affect their eligibility for IR allowance."
+                    ]
+                },
+                {
+                    "key": "38a2aa4e-5389-4408-a66d-e64b742ba93f",
+                    "prompt": "Question: What long-term illness leave benefits are available to confirmed staff members?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A confirmed staff member who is certified by a registered medical doctor to be suffering from long-term illnesses such as cancer, stroke, tuberculosis, and hepatitis, shall be entitled to long-term sick leave as follows: the first 6 months on full pay, the second 6 months on half pay, and the third 6 months on no pay."
+                    ]
+                },
+                {
+                    "key": "892f0913-cae5-45e3-9f7e-bf13e199a104",
+                    "prompt": "Question: What is the procedure for addressing staff grievances, and how does it involve the Human Resource Department and Employee Disciplinary Committee?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The procedure for addressing staff grievances involves the staff submitting a complaint to their Reporting Officer, who reports it to the Head of Department/Executive Secretary of Industrial Union. The Head of Department/Executive Secretary shall give his decision on the matter within 3 working days. If the staff feels aggrieved, they may inform SUN, who will present the grievances to the Human Resource Department. The Human Resource Department and SUN will discuss and resolve the matter as soon as possible. In cases of alleged violation of the agreement, a meeting may be requested to resolve the issue. If the matter involves dismissal, the Human Resource Department may appoint an Employee Disciplinary Committee to inquire into the matter and submit a report."
+                    ]
+                },
+                {
+                    "key": "5e1c3f28-e9bf-4ed8-a352-5bef389b5ccf",
+                    "prompt": "Question: What is the formula for computing annual leave taken in excess by a resigning staff member?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The formula for computing annual leave taken in excess by a resigning staff member is: Monthly Salary X 12 months / 52 weeks / No. of working days per week / No. of annual leave taken in excess."
+                    ]
+                },
+                {
+                    "key": "88b70a91-cb9b-4abc-9aec-115478863b4b",
+                    "prompt": "Question: What are the effects of taking a no-pay leave on an employee's benefits, such as annual wage supplement, variable bonuses, performance bonus, and variable increment?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Taking a no-pay leave can exclude the employee from the computation for the award of annual wage supplement, variable bonuses, performance bonus, and variable increment."
+                    ]
+                },
+                {
+                    "key": "1ca93ba5-b0b9-4104-82de-0ba5a4302ecd",
+                    "prompt": "Question: What is the dual purpose of plant roots concerning soil nutrients and stability?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Plant roots serve a dual purpose by absorbing water and nutrients from the soil, which is vital for the plant's growth, and providing stability by anchoring the plant in the ground."
+                    ]
+                },
+                {
+                    "key": "00736172-7a0f-4795-881b-b6374b7260ff",
+                    "prompt": "Question: What are the conditions that must be met before a staff member who has been dismissed for misconduct, neglect of duty, or other disciplinary grounds can receive their salary and monies they are eligible for?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member who is dismissed for misconduct, neglect of duty, or on other disciplinary grounds may be paid salary and monies for which they are eligible up to the day immediately before the effective date of their dismissal after settling any debts/loans due to NTUC-ARU, leave pay which they have to refund to NTUC-ARU, Income Tax liability (for foreigners only), pro-rated flexible benefits claim, and all items belonging to NTUC-ARU have been returned and/or restituted."
+                    ]
+                },
+                {
+                    "key": "b4463bd6-cac8-41d8-9199-e8f6b2cce819",
+                    "prompt": "Question: What is the procedure for seeking permission to engage in activities described in paragraph 10.1, and how does it involve the Human Resource Department and staff?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The procedure for seeking permission to engage in activities described in paragraph 10.1 involves submitting an application in writing to the Human Resource Department. The Human Resource Department then reviews the application and decides on the matter. If the staff feels aggrieved, they can inform SUN, who will present the grievances to the Human Resource Department for resolution. The Human Resource Department may also appoint an Employee Disciplinary Committee to inquire into the matter and submit a report. The final decision will be made based on the facts available, and the staff may be paid salary and monies for which they are eligible up to the day immediately before the effective date of their dismissal, after settling any debts or loans due to NTUC-ARU, leave pay, income tax liability, pro-rated flexible benefits claim, and return or restitution of all items belonging to NTUC-ARU."
+                    ]
+                },
+                {
+                    "key": "cbf69cbf-4f73-4223-8c4c-d4af2698155a",
+                    "prompt": "Question: What are the restrictions on a staff member's engagement in private trade or business, and what are the consequences of violating these restrictions?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member is not allowed to engage in any trade or business privately without the approval of the NTUC-ARU management. If a staff member violates this restriction, it may lead to disciplinary proceedings, which may result in dismissal from service. Additionally, the staff member must report any gifts received from external sources to their Head of Department/Executive Secretary of Industrial Union, and the circumstances of their receipt must be reported in writing."
+                    ]
+                },
+                {
+                    "key": "bf30cb04-e89b-4962-b436-acf8330efa18",
+                    "prompt": "Question: What is the maximum amount of compensation a staff member can receive if they are medically boarded out of service, and how is it calculated?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount of compensation a staff member can receive if they are medically boarded out of service is 12 months' gross salary. It is calculated by paying 1 month's gross salary for every year of service, subject to a maximum of 12 months' gross salary."
+                    ]
+                },
+                {
+                    "key": "ca3277dd-3557-42f2-ab09-f332403bedf0",
+                    "prompt": "Question: What options are available for staff members regarding leave during their notice period, and what are the requirements for approval?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Staff members can apply for annual leave or encash their leave balance during the notice period, subject to the approval of the Reporting Officer. The notice period varies based on the staff member's salary grade and confirmation status, and can be substituted with a payment in-lieu of notice. Staff members are also entitled to take a day off for public holidays that fall on their rest days, and May Day is celebrated without financial compensation or time-off."
+                    ]
+                },
+                {
+                    "key": "4b207ced-970d-4a8c-9b9c-a5ee37270861",
+                    "prompt": "Question: What is the policy regarding alcohol consumption during work hours for staff members at NTUC-ARU?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "According to the NTUC-ARU's code of conduct, staff members are not allowed to consume liquor or alcoholic drinks during official working hours."
+                    ]
+                },
+                {
+                    "key": "1746b711-2d15-4fcd-ad85-26900fc1f4c8",
+                    "prompt": "Question: What is the consequence for a staff member who is not likely to recover from their illness after a medical review?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "NTUC-ARU will medically board them out of service"
+                    ]
+                },
+                {
+                    "key": "0540a610-0531-47c3-9984-9e6c1ea3a2ab",
+                    "prompt": "Question: What are the consequences of misconducting oneself while on long-term illness leave as a staff member?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member who misconducts himself while on long-term illness leave will forfeit the stated benefits."
+                    ]
+                },
+                {
+                    "key": "c52fd1da-3cd4-47ce-9b57-879ea4a92cda",
+                    "prompt": "Question: What is the formula for leave encashment when a staff member resigns from NTUC-ARU, and how is the amount calculated?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The formula for leave encashment when a staff member resigns from NTUC-ARU is Monthly Salary X 12 months X 52 weeks X No. of working days per week X No. of annual leave balance. The amount is calculated by multiplying the staff member's monthly salary by 12 months, 52 weeks, and the number of working days per week, and then multiplying that result by the number of annual leave balance. This formula is provided in the text."
+                    ]
+                },
+                {
+                    "key": "68ef6541-366a-481e-92fe-6c8667d75607",
+                    "prompt": "Question: What restrictions does a staff member have concerning providing expert reports or consultations?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member cannot provide expert reports or consultations without the approval of the NTUC-ARU management."
+                    ]
+                },
+                {
+                    "key": "0a8e44af-9a8e-465d-b7ae-57bb44cdf5f9",
+                    "prompt": "Question: What is the policy regarding annual leave for a staff member who has resigned?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member who has given written notice of resignation is eligible for annual leave calculated up to the last day of service."
+                    ]
+                },
+                {
+                    "key": "bc2c616e-0f94-4ad7-a0bf-56963391137d",
+                    "prompt": "Question: What is the amount of medical coverage provided by the travel insurance for staff, and how does it relate to the maternity benefit?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "$5,000 is the medical coverage included in the travel insurance for staff, and it is separate from the maternity benefit, which ranges from $800 to $1,200 for childbirth-related costs."
+                    ]
+                },
+                {
+                    "key": "9e2d4b3a-b9bc-4131-848f-5c917ef6a510",
+                    "prompt": "Question: What are the dual purposes of plant roots regarding soil nutrients and stability?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Plant roots serve a dual purpose by absorbing water and nutrients from the soil, which is vital for the plant's growth, and providing stability by anchoring the plant in the ground."
+                    ]
+                },
+                {
+                    "key": "34db31ee-e590-4959-95ec-59624b34da2b",
+                    "prompt": "Question: What is the maximum amount that NTUC-ARU will contribute to a staff member's Medisave and salary accounts if the premium for the EIS or IAR plan increases beyond 5% per year cumulatively?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "$173, with the balance being co-paid equally between NTUC-ARU and the staff member."
+                    ]
+                },
+                {
+                    "key": "7ce4aec3-406c-4ae6-9cfa-f412556b5f97",
+                    "prompt": "Question: What is the procedure for staff members when a public holiday coincides with their rest day?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "When a public holiday falls on a staff member's rest day, the following Monday will be considered a paid holiday."
+                    ]
+                },
+                {
+                    "key": "a2350e49-3e0f-4bb8-9ead-4100912ec8c9",
+                    "prompt": "Question: What is the policy regarding encashing annual leave for staff members who resign due to exigencies of service?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member who resigns due to exigencies of service can encash their unused annual leave balance."
+                    ]
+                },
+                {
+                    "key": "249e3302-54ab-41e0-a833-7f7653d1f7fc",
+                    "prompt": "Question: What are the benefits of Work Injury Compensation Act (WICA) for eligible staff?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "All eligible staff will be covered under the Work Injury Compensation Act (WICA), and the benefits payable to staff will be in accordance with the WICA."
+                    ]
+                },
+                {
+                    "key": "68869e8b-d1a1-4578-82b0-c068620bbd13",
+                    "prompt": "Question: What is the maximum period for repaying a loan taken from NTUC-ARU?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum period for repaying a loan taken from NTUC-ARU is 2 years."
+                    ]
+                },
+                {
+                    "key": "584e278a-d8b8-466d-a98a-644fa64b2fb2",
+                    "prompt": "Question: What is the formula for computing annual leave taken in excess by a staff member who resigns, considering their monthly salary, number of working days per week, and number of annual leave days taken in excess?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The formula for computing annual leave taken in excess is: Monthly Salary X 12 months / 52 weeks / No. of working days per week X No. of annual leave taken in excess."
+                    ]
+                },
+                {
+                    "key": "1e584b9f-6580-4b98-ab60-9785ce50dc51",
+                    "prompt": "Question: What is the maximum outpatient treatment limit under the Flexible Benefit per calendar year, and how does it vary based on years of service?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum limit for outpatient treatment under the Flexible Benefit per calendar year is $850 for staff with less than 10 years of service and $950 for staff with 10 years of service or more."
+                    ]
+                },
+                {
+                    "key": "a6c32354-ab96-4730-9368-59f0785b0b9c",
+                    "prompt": "Question: What are the two main responsibilities given to staff members regarding their duties and behavior?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The two main responsibilities given to staff members are to faithfully and diligently carry out their duties to the best of their ability and to treat all members of the public, union officials, and members with whom they come into contact with courtesy, keeping up the dignity, prestige, and status of NTUC-ARU."
+                    ]
+                },
+                {
+                    "key": "2027fcf0-b6d4-4780-ba37-09ae0e27b320",
+                    "prompt": "Question: What are the conditions under which a staff member can downgrade from the EIS or IAR plan to a lower plan, and how does NTUC-ARU's contribution to their Medisave and salary accounts change?\n",
+                    "categories": [
+                        "conditional"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member can downgrade from the EIS or IAR plan to a lower plan, such as the Basic or Enhanced C plan. NTUC-ARU will contribute to the staff member's Medisave and salary accounts based on the plan that commensurates with their salary grade."
+                    ]
+                },
+                {
+                    "key": "96272c71-348e-49d8-be64-0995fc3d2f84",
+                    "prompt": "Question: Is half-day annual leave an option for staff?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, annual leave may be taken in half days, subject to the approval of the Reporting Officer."
+                    ]
+                },
+                {
+                    "key": "92dc22fa-0f20-45a7-ac69-e6ece85eb79e",
+                    "prompt": "Question: What's the point of NTUC-ARU's mobile broadband allowance?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The mobile broadband access allowance is provided to enable staff to access the internet and email while they are off-site."
+                    ]
+                },
+                {
+                    "key": "212c8a85-54c7-4894-a21c-24028b550be1",
+                    "prompt": "Question: Must staff exercise caution with their phone use, especially for international calls?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, staff members are required to exercise due care and discretion in their handphone usage, especially for overseas calls. Only overseas calls made for official reasons will be reimbursed on actual usage where these costs exceed the monthly allowance."
+                    ]
+                },
+                {
+                    "key": "e8057802-4f71-4b46-a1ba-622ff5695c77",
+                    "prompt": "Question: Is smart casual okay for external meetings on a Friday?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, if a staff has to attend meetings with external parties on a Friday, they have to revert to normal office attire (same as worn for Monday to Thursday)."
+                    ]
+                },
+                {
+                    "key": "3d52aaee-bb6d-48b8-af28-55fe67e4085e",
+                    "prompt": "Question: Can a staff member upgrade their plan?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a staff member can upgrade from the EIS or IAR plan to a higher plan, such as the Preferred plan. NTUC-ARU will contribute to the staff member's Medisave and salary accounts based on the plan that commensurates with their salary grade."
+                    ]
+                },
+                {
+                    "key": "23312576-c541-435b-8399-43a4c2d9986e",
+                    "prompt": "Question: What's the outcome if a staffer stays with their current medical insurer?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If a staff member chooses to continue with their existing medical insurance plan with another insurer, NTUC-ARU will make a monthly contribution to the staff member's Medisave and/or salary account based on what would otherwise be paid for them under the respective EIS and Assist Rider plans."
+                    ]
+                },
+                {
+                    "key": "670320a8-a55a-4a3f-969f-614fb17a2374",
+                    "prompt": "Question: Does rehiring affect long-term awards?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, re-employed staff are eligible for long service awards, and their past service will be recognized for the purpose of long service award."
+                    ]
+                },
+                {
+                    "key": "6f6a2d74-782f-430c-9255-a712e962c205",
+                    "prompt": "Question: What's the formula for the mid-year bonus?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The mid-year bonus is calculated based on the staff member's salary as at 30 June and is pro-rated for staff members with less than 6 months' continuous service from January to June of the year."
+                    ]
+                },
+                {
+                    "key": "5b55c4b6-f72f-4707-902f-3c439ba064e9",
+                    "prompt": "Question: What's the plan when staff can't come to work because of illness?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member who is unable to report for work due to illness must inform their Reporting Officer immediately and submit a Medical Leave application via the e-Leave System immediately upon their return to work. The Medical Leave application must be supported by a Medical Certificate issued by a registered medical/TCM practitioner."
+                    ]
+                },
+                {
+                    "key": "54117742-582e-4cfe-900a-9b0c67f08280",
+                    "prompt": "Question: What's the impact of incomplete service on staff member's monthly salary?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If a staff member does not serve a full month due to resignation, they will receive a pro-rated salary for the last month of service."
+                    ]
+                },
+                {
+                    "key": "502a27c4-2245-457d-915f-3e9be4f5679e",
+                    "prompt": "Question: Can a staff member serve as a director or member of a board or company?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, a staff member cannot be represented on the Boards/Companies as its Director/Member without the approval of the NTUC-ARU management."
+                    ]
+                },
+                {
+                    "key": "396bbf84-853e-447a-a8fb-1783292ffe30",
+                    "prompt": "Question: What's covered in NTUC-ARU's MediCare Plan?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The NTUC-ARU's MediCare Plan provides three components of benefits: Inpatient (Hospitalisation) Care, Outpatient Specialist Care, and Outpatient Primary Care."
+                    ]
+                },
+                {
+                    "key": "28aa805a-7855-4bfc-bcae-226055eb4643",
+                    "prompt": "Question: What's the deal with property damage?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "All staff shall take all possible care to prevent loss of or damage to any property of NTUC-ARU while such property is under their charge or control. If such property is lost or damaged, the staff is required to restitute 60% of the net book value of the said property, unless the insurance policy taken covers such loss or damage."
+                    ]
+                },
+                {
+                    "key": "eb69370a-0394-4dfc-8987-0971caa47095",
+                    "prompt": "Question: What's the max flex benefit per year?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "$950 (for staff members who have completed 10 years of service or more)."
+                    ]
+                },
+                {
+                    "key": "e7e41c6e-9f1b-43af-a587-5b86e2b112c4",
+                    "prompt": "Question: How long must probationary staff give notice?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The notice period for staff who are on probation is 48 hours before the expiry of the probation period."
+                    ]
+                },
+                {
+                    "key": "787d180a-03b0-410c-9a42-fb0570488bbe",
+                    "prompt": "Question: Is handphone allowance for NTUC-ARU staff applicable to overseas calls?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, staff can use their handphone allowance for overseas calls, but only for official reasons. The costs exceeding the monthly allowance will be reimbursed."
+                    ]
+                },
+                {
+                    "key": "498b1a50-675a-45f4-845c-a07025b93b7b",
+                    "prompt": "Question: Are the Orchid and Aranda Country Club memberships interchangeable for staff?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, staff can use the Orchid Country Club Union Corporate Golfing & Social Membership Card and Aranda Country Club Union Corporate Membership Card, subject to availability and on a first-come, first-served basis."
+                    ]
+                },
+                {
+                    "key": "920da9ab-6370-406f-8370-95ecc8f2058c",
+                    "prompt": "Question: What's the mobile broadband allowance for NTUC-ARU?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The mobile broadband access allowance is $30 per month."
+                    ]
+                },
+                {
+                    "key": "28c2a784-10cc-42b4-92a4-ca2c59aa2bda",
+                    "prompt": "Question: What's the fate of unused flexible benefits by year's end?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Any unused flexible benefit amount will be transferred to the staff member's Medisave account."
+                    ]
+                },
+                {
+                    "key": "e20001e9-16eb-4d3c-bbbf-a90ccb76df27",
+                    "prompt": "Question: What's the next step when a staff is unsatisfied with the grievance decision?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If the staff feels aggrieved, they may inform SUN who shall present the grievances to the Human Resource Department. SUN and Human Resource Department shall discuss and resolve the matter as soon as possible."
+                    ]
+                },
+                {
+                    "key": "bc75e31d-89c7-4769-af9c-1ca0aa1e07a7",
+                    "prompt": "Question: How long till the comp loan's paid off?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The repayment period for the computer loan is a maximum of 2 years, and repayment will be made through monthly deduction from the staff's salary."
+                    ]
+                },
+                {
+                    "key": "0ca4de54-fb8a-4d03-abb3-d9adc231db64",
+                    "prompt": "Question: What roles can a staff member fulfill?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, a staff member cannot act as an executor, administrator, or receiver without the approval of the NTUC-ARU management."
+                    ]
+                },
+                {
+                    "key": "d73561ea-6f77-4e09-ada7-83cc73031d1e",
+                    "prompt": "Question: What's the next step when a declined gift is still given to staff?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If a staff member receives a gift or present despite declining it, they should immediately hand it over to their Head of Department or Executive Secretary of Industrial Union."
+                    ]
+                },
+                {
+                    "key": "38231347-22f5-474b-a10a-d1ca6aa1e584",
+                    "prompt": "Question: Is it acceptable for staff to receive gifts from the public or companies?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, a staff member should firmly decline all offers of gifts or presents from the public or companies."
+                    ]
+                },
+                {
+                    "key": "9b09c70e-44bc-4d5c-b6cc-3ac94b538f16",
+                    "prompt": "Question: Is moonlighting allowed for staff?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, a staff member cannot undertake work for payment for any other employer without the approval of the NTUC-ARU management."
+                    ]
+                },
+                {
+                    "key": "c93ffc5e-f182-48a1-b859-03f5515174a7",
+                    "prompt": "Question: What's the Monday-Thursday dress code for staff?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The dress code for staff on Mondays to Thursdays is office attire, which includes skirt suits, pant suits, blouse and skirt, or dress for female staff, and long/short sleeved shirts with tailored pants for male staff."
+                    ]
+                },
+                {
+                    "key": "eeac67fc-85fd-4b35-af64-5e0357e22b59",
+                    "prompt": "Question: What's the handphone allowance for NTUC-ARU staff for?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The handphone allowance is provided to ensure that staff are contactable at all times and can be reached by all persons for official purposes."
+                    ]
+                },
+                {
+                    "key": "9c8938b4-9a30-45c1-83be-b1f56c4dff27",
+                    "prompt": "Question: How many no-pay leave days are allowed?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member can take up to 30 calendar days of no pay leave."
+                    ]
+                },
+                {
+                    "key": "be20bbac-c4d7-4484-b5ab-6ce168de7862",
+                    "prompt": "Question: What's the point of NTUC-ARU's counter service incentive?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The counter service incentive is provided to staff who provide counter services and meet certain eligibility criteria."
+                    ]
+                },
+                {
+                    "key": "baa92a70-a44e-4413-9d30-85820c49dc2b",
+                    "prompt": "Question: Is there a relaxed dress code on Fridays?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, staff are allowed to \"dress down\" on Fridays, but the attire must be smart casual."
+                    ]
+                },
+                {
+                    "key": "d40ceb43-e4fc-4987-9d09-418f167d07f7",
+                    "prompt": "Question: What's the cost of Group Hospital & Surgical Plan?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The premium for the Group Hospital & Surgical Plan is fully paid by NTUC-ARU."
+                    ]
+                },
+                {
+                    "key": "e69ba4a0-91de-47c2-aaae-85fc0864a838",
+                    "prompt": "Question: Is EIS plan a must for CPF account holders?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, the Enhanced Incomeshield (EIS) plan is not mandatory for all CPF account holders."
+                    ]
+                },
+                {
+                    "key": "569f4521-5587-488a-af12-2c44915e6c00",
+                    "prompt": "Question: How do NTUC-ARU staff get their counter service incentives?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The counter service incentive is paid monthly or quarterly, subject to meeting the eligibility criteria."
+                    ]
+                },
+                {
+                    "key": "613021ef-2639-4b78-8363-1431a4c3ffe2",
+                    "prompt": "Question: What's the process for letting go of an employee?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "When NTUC-ARU receives a report from the Investigation Officer or Head of Department/Executive Secretary of Industrial Union that a staff has committed an offence or misconduct which is serious enough to warrant termination of service or dismissal, the Human Resource Department shall inform the staff in writing of the offence or misconduct alleged against them and give them not less than 7 working days to exculpate themselves in writing. If the staff denies the charge(s) or submits an exculpatory statement which is not satisfactory, an Employee Disciplinary Committee shall be appointed to inquire into the matter and submit a report."
+                    ]
+                },
+                {
+                    "key": "0c2126b6-7f0a-49d8-b7b5-496ac059f950",
+                    "prompt": "Question: What's the handphone allowance for NTUC-ARU employees?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The handphone allowance is $30 per month."
+                    ]
+                },
+                {
+                    "key": "5dac3f81-67a7-4270-844e-fa0345d05fe8",
+                    "prompt": "Question: Can a payment replace the notice?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, staff can substitute the notice requirement by paying in-lieu of notice, a sum of money equal to the salary for the period not served."
+                    ]
+                },
+                {
+                    "key": "acad2776-0c18-4846-8b02-205830d67041",
+                    "prompt": "Question: What's the NTUC-ARU staff counter service incentive?\n",
+                    "categories": [
+                        "compress"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The counter service incentive is $100 per month for staff who perform full-time counter duty of at least 75% of the time."
+                    ]
+                },
+                {
+                    "key": "02c8f592-0d80-4220-8080-dde1b3729ea1",
+                    "prompt": "Question: If a female staff member takes 16 weeks of maternity leave and then applies for no pay leave for 2 months immediately after, will she still receive the maternity leave benefits if she is terminated without sufficient cause within the last 6 months of pregnancy or retrenched within the last 3 months of pregnancy?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, the female staff member will still receive the maternity leave benefits if she is terminated without sufficient cause within the last 6 months of pregnancy or retrenched within the last 3 months of pregnancy, even if she has taken 16 weeks of maternity leave and 2 months of no pay leave immediately after. However, the no pay leave application must be supported by the Head of Department / Executive Secretary of Industrial Union and approved by Director (Human Resource) before the staff member goes on no pay leave."
+                    ]
+                },
+                {
+                    "key": "dea7d6c3-ae73-4845-9370-3aefabb006bd",
+                    "prompt": "Question: What is the maximum amount of variable increment that a staff member with a salary grade of N6 and a performance rating of 'C' can receive in a year, assuming they have completed less than 1 year of service and have spent 50% of their time in union-based IR work, and how is this amount calculated?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount of variable increment that a staff member with a salary grade of N6 and a performance rating of 'C' can receive in a year is $370, which is calculated by multiplying their salary grade's monthly IR allowance of $330 by 12 months and then subtracting the pro-rated amount for their tenure during the qualifying period, which is calculated by dividing the number of days they spent in union-based IR work by 365 days and multiplying the result by the monthly IR allowance for their salary grade."
+                    ]
+                },
+                {
+                    "key": "65ac3ce1-c560-41de-84e0-a9d13874a8b5",
+                    "prompt": "Question: What is the formula for computing notice pay for a staff member who resigns from their position at NTUC-ARU, and how does it relate to their salary grade and confirmation status?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The formula for computing notice pay is equal to the salary for the period not served, and it depends on the staff member's salary grade and confirmation status. Before confirmation, staff members in Grade N1 to N3 are required to give 48 hours' notice, while those in Grade N4 and above are required to give 2 weeks' notice. After confirmation, staff members in Grade N1 to N10 are required to give 1 month's notice, while those in Grade N11 and above are required to give 3 months' notice. The notice period can be substituted with a payment in lieu of notice, which is calculated using the formula: No. of Working Days NOT served in Month of Resignation / Total No. of Working Days in Month of Resignation X Monthly Salary."
+                    ]
+                },
+                {
+                    "key": "cca49a41-ecb4-49ad-a72b-ff1088c05658",
+                    "prompt": "Question: What is the total amount of variable bonus, performance bonus, and variable increment that a staff member who joins NTUC-ARU on September 1, 2009, and remains in service until January 31, 2011, with a gross monthly salary of $3,000 and a performance rating of 'C', would receive in March 2011, assuming the staff member spends 50% of their time in union-based IR work and is eligible for a full monthly IR allowance of $280?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "{'variable_bonus': '122/365 X 1.5 X $3,000 = $1,500', 'performance_bonus': '122/365 X 1.5 X $3,000 = $1,500', 'variable_increment': '212/365 X $100 = $59', 'ir_allowance': '280', 'total': '$1,500 + $1,500 + $59 + $280 = $3,339'}"
+                    ]
+                },
+                {
+                    "key": "ae63625f-3821-4d2e-a32d-7d999b41a993",
+                    "prompt": "Question: If a staff member is financially embarrassed and has exceeded three months' emoluments in unsecured debts and liabilities, can they deliver lectures in external organizations or commercial institutions to offset their debts?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "No, a staff member who is financially embarrassed and has exceeded three months' emoluments in unsecured debts and liabilities cannot deliver lectures in external organizations or commercial institutions without prior approval from the NTUC-ARU management. According to the context, staff members who are financially embarrassed are subject to disciplinary proceedings that may lead to their dismissal from service. Additionally, staff members are not allowed to engage in any trade or business privately without the approval of the NTUC-ARU management. Therefore, delivering lectures in external organizations or commercial institutions to offset debts without approval would be a violation of the rules and may result in disciplinary action."
+                    ]
+                },
+                {
+                    "key": "f1d5e660-3ff3-4e14-ba31-e055621fb844",
+                    "prompt": "Question: How much of the health screening cost for staff aged 40 and above will NTUC-ARU reimburse, and how can the balance be claimed?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "NTUC-ARU will reimburse up to $400 of the health screening cost for staff aged 40 and above. Any amount exceeding the cap can be claimed from the staff's Flexible Benefit. The balance can be claimed by submitting a claim form found in the HR webpage in Infoshare, attaching the receipts and referral letter from the polyclinic or registered GP, and submitting it to NTUC Income."
+                    ]
+                },
+                {
+                    "key": "f9524fac-1f41-40c7-89f1-a62961ce7a35",
+                    "prompt": "Question: How does NTUC-ARU's employee benefit plan support staff's health and wellness, and what are the conditions and limitations of such support?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "NTUC-ARU's employee benefit plan supports staff's health and wellness through various features. The Group Hospital & Surgical Plan provides coverage for staff who are hospitalized or undergo surgery. Staff can also claim for outpatient specialist treatment under NTUC Income's i-Medicare plan, and outpatient primary care expenses from any polyclinic, registered general practitioner, or registered TCM practitioner. Additionally, staff can claim for health screening expenses under the Flexible Benefit, subject to a cap. The plan also includes co-payment by NTUC-ARU for health screening packages at MHC Healthcare or any clinic/hospital. However, there are conditions and limitations to the coverage, such as co-payments, caps, and limits on the amount that can be claimed from the Flexible Benefit. Staff must also bear the costs of any extra/optional tests and follow-up consultations."
+                    ]
+                },
+                {
+                    "key": "4e18defe-9aed-47ea-8067-e775b3e6e657",
+                    "prompt": "Question: If a confirmed staff member has exhausted all his annual leave and is eligible for no pay leave, and his spouse is expecting a child, can he take marriage leave and if so, how many days of marriage leave can he take?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Yes, a staff member in this scenario can take marriage leave. They are eligible for up to a maximum of 7 working days of marriage leave as per the policy. However, they will need to ensure that their application for no pay leave is approved before taking the marriage leave. Additionally, if the staff member's spouse gives birth during the marriage leave, they may be eligible for paternity leave and/or family care leave (childcare and/or eldercare) subject to the conditions outlined in the policy."
+                    ]
+                },
+                {
+                    "key": "e8df246f-c2ab-4ff0-806b-6da39567d9ec",
+                    "prompt": "Question: What is the maximum amount that NTUC -ARU will co -pay for health screening for staff who are 40 years old & above, and how can staff claim the balance from their Flexible Benefit?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "{'answer': 'The maximum amount that NTUC -ARU will co -pay for health screening for staff who are 40 years old & above is $400. Staff can claim the balance from their Flexible Benefit by submitting a claim form found in the HR webpage in Infoshare, attaching the receipts and referral letter from the polyclinic or registered GP, and submitting it to NTUC Income. The claim will be reimbursed subject to the maximum limit per calendar year, which is $850 for staff with less than 10 years of service and $950 for staff with 10 years of service or more.'}"
+                    ]
+                },
+                {
+                    "key": "286fde5b-9914-4650-bc07-05b6182af41c",
+                    "prompt": "Question: What is the maximum number of days of annual leave that a staff member can take in a year, assuming they have been confirmed in service, have not resigned or been terminated, and have not taken any unrecorded leave, compassionate leave, family care leave, unpaid infant care leave, adoption leave, or medical boarding out, and have not been on probation or half-day annual leave, and have not exceeded the maximum number of days of annual leave that can be taken at any time during the year, and have not taken any leave that requires the approval of the Head of Department / Executive Secretary of Industrial Union, and have not been subject to any disciplinary action, and have not been absent without authority, and have not had any deductions made from their salary due to unauthorized absence, and have not been on flexible working hours, and have not been subject to any variation in their working hours, and have not been on telecommuting, and have not had any time off for public holidays, and have not had any time off for May Day, and have not had any time off for lunch breaks, and have not had any time off for attendance, and have not had any time off for medical leave, and have not had any time off for long-term illness leave, and have not had any time off for no-pay leave, and have not had any time off for marriage leave, and have not had any time off for maternity leave, and have not had any time off for paternity leave, and have not had any time off for family care leave, and have not had any time off for unpaid infant care leave, and have not had any time off for adoption leave, and have not had any time off for unrecorded leave, and have not had any time off for compassionate leave, and have not had any time off for medical boarding out, and have not had any time off for any other reason that may require approval from the Head of Department / Executive Secretary of Industrial Union?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "14 days"
+                    ]
+                },
+                {
+                    "key": "768d44be-6e50-430c-af27-201e7c8df87f",
+                    "prompt": "Question: What are the different working schedules that staff can be on, and how do the probation and confirmation processes work for staff appointed at different salary grades?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Staff can be on any of the following working schedules, subject to operational needs and approval of the Heads of Departments / Executive Secretaries of Industrial Unions: Mondays \u2013 Fridays (a) 8 am to 5.30 pm, (b) 8.30 am to 6 pm, (c) 9 am to 6.30 pm, (d) 9.30 am to 7 pm. Heads of Departments / Executive Secretaries of Industrial Unions have the option to exercise flexible hours of operations within their Departments/Unions, and staff posted to external organizations may be subject to different working hours. The probation period for staff appointed at different salary grades differs, with Grade N1 to N3 having a 3-month probation period and Grade N4 and above having a 6-month probation period. The Head of Department / Executive Secretary of Industrial Union, in consultation with the respective Reporting Officer, will assess the staff\u2019s performance during the probation period and determine his suitability for confirmation, with the possibility of extension upon recommendation."
+                    ]
+                },
+                {
+                    "key": "2ee723dd-fc1a-4fc0-a430-00a4c23c87cb",
+                    "prompt": "Question: What are the circumstances under which the employment of a staff member who is confirmed in service can be terminated by either party, and how does the probationary period factor into this process?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The employment of a staff member who is confirmed in service can be terminated by either party at any time by giving written notice to the other party. The probationary period does not factor into this process, as it only applies to staff members who are on probation. However, if a staff member is still on probation, their probationary period may be extended upon recommendation by the Reporting Officer and Head of Department / Executive Secretary of Industrial Union, and their employment may be terminated by either party before the expiry of the probation period without any reasons being given, by giving written notice to the other party."
+                    ]
+                },
+                {
+                    "key": "62e79888-bdeb-4764-ba17-bb39a8489e96",
+                    "prompt": "Question: If a staff member is on probation and resigns from their position on a non-working day that falls within the notice period, how much notice must they provide to NTUC-ARU, and will they receive a pro-rated salary for the last month of service?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If a staff member is on probation and resigns from their position on a non-working day that falls within the notice period, they must provide written notice to NTUC-ARU for the number of working days remaining in the notice period. The notice period for probationary staff is 48 hours, and the formula for computing notice pay is (No. of Working Days NOT served in Month of Resignation) / (Total No. of Working Days in Month of Resignation) x Monthly Salary. Since the staff member resigned on a non-working day, they will not receive a pro-rated salary for the last month of service, as they did not work any days in that month."
+                    ]
+                },
+                {
+                    "key": "e160df7b-d140-4ffe-8e20-945aeacdb4fa",
+                    "prompt": "Question: Suppose a staff member has been financially embarrassed and has exceeded the maximum allowable limit of unsecured debts and liabilities as stated in the policy. They have also failed to notify their Head of Department/Executive Secretary of Industrial Union about their financial situation. Furthermore, they have been using their computer for unauthorized purposes and have installed illegal software. They have also been accessing inappropriate sites and violating copyright laws. What disciplinary actions might they face, and how will their failure to notify their superiors affect their case?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The staff member in question may face disciplinary proceedings for violating multiple policies, including financial embarrassment, unauthorized use of technology, and failure to notify their superiors. They may be subject to penalties such as demotion, reduction in salary, or even dismissal from service. Their failure to notify their superiors may be seen as a violation of the trust placed in them as a staff member and may aggravate their case, leading to more severe disciplinary actions."
+                    ]
+                },
+                {
+                    "key": "62b60361-9007-4591-a6c9-c16338473e16",
+                    "prompt": "Question: What is the minimum number of days that a staff member on probation must serve before their employment can be terminated by either party without any reasons being given, and what is the notice period for staff members who are confirmed in service and want to resign?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "A staff member on probation must serve at least 3 months (for Grade N1 to N3) or 6 months (for Grade N4 and above) before their employment can be terminated by either party without any reasons being given. The notice period for staff members who are confirmed in service and want to resign is either party by giving written notice to the other party."
+                    ]
+                },
+                {
+                    "key": "db662411-842b-4ab0-a806-f18d3f8695eb",
+                    "prompt": "Question: If an NTUC-ARU staff member is dismissed for misconduct, what amount of salary and monies will they be eligible to receive up to the day immediately before the effective date of their dismissal, and how will the amount be determined?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "If an NTUC-ARU staff member is dismissed for misconduct, they will be eligible to receive salary and monies up to the day immediately before the effective date of their dismissal, after settling any debts or loans due to NTUC-ARU, leave pay refunds, income tax liability (for foreigners only), pro-rated flexible benefits claim, and return or restitution of all items belonging to NTUC-ARU. The amount will be determined based on the facts available, and may include payments for salary, annual wage supplement, variable bonus, performance bonus, variable increment, industrial relations allowance, overtime, rest day, and public holiday pay, as well as any pro-rated entitlements for less than a full year of service."
+                    ]
+                },
+                {
+                    "key": "a49fe9d7-4475-413c-b232-2003dabaa4e5",
+                    "prompt": "Question: What are the conditions for staff to work from home, and how does the probation and confirmation process work for staff on flexible working hours?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Staff can work from home subject to approval by the Head of Department / Executive Secretary of Industrial Union, and they must ensure that their work is not affected by the work-from-home arrangement. The probation period for staff on flexible working hours may be extended upon recommendation by the Reporting Officer and Head of Department / Executive Secretary of Industrial Union, and the employment of staff who are on probation may at any time be terminated by either party before the expiry of the probation period without any reasons being given, by giving written notice to the other party."
+                    ]
+                },
+                {
+                    "key": "98f439ec-af69-4ac4-8eda-46c5c4edf6fc",
+                    "prompt": "Question: What are the options for staff working hours, and how do they vary based on departmental needs and approvals, and what is the role of the Human Resource Department in this regard?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "Staff can be on any of the following working schedules, subject to operational needs and approval of the Heads of Departments / Executive Secretaries of Industrial Unions: Mondays \u2013 Fridays (a) 8 am to 5.30 pm, (b) 8.30 am to 6 pm, (c) 9 am to 6.30 pm, (d) 9.30 am to 7 pm. Heads of Departments / Executive Secretaries of Industrial Unions are given the option to exercise flexible hours of operations within their Departments/Unions, and the Human Resource Department must be kept informed of such operations. Staff who are posted to external organizations may be subject to different working hours and will be informed accordingly."
+                    ]
+                },
+                {
+                    "key": "2a398789-90f1-4f61-92aa-486c247a6382",
+                    "prompt": "Question: What is the total amount of variable bonus and performance bonus that a staff member who joins NTUC-ARU on September 1, 2009, and remains in service until January 31, 2011, with a gross monthly salary of $3,000 and a performance rating of 'C', would receive in March 2011?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "{'variable_bonus': '122/365 X 1.5 X $3,000 = $1,500', 'performance_bonus': '122/365 X 1.5 X $3,000 = $1,500', 'total': '$1,500 + $1,500 = $3,000'}"
+                    ]
+                },
+                {
+                    "key": "6ca15ec3-c5dd-409b-9f9f-57ff01843156",
+                    "prompt": "Question: If a staff member is unable to report for duty for more than 2 consecutive working days without informing their Reporting Officer, what happens to their employment status?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The staff member's employment with NTUC-ARU shall cease automatically, as they will be considered to have vacated their office."
+                    ]
+                },
+                {
+                    "key": "12b5cc1d-d5dd-447a-b1a3-1d1ca156c5ee",
+                    "prompt": "Question: What is the maximum amount of variable increment that a staff member can receive in a year, assuming they have been in service for at least 1 year and have an endorsed performance rating of 'C', and how is this amount calculated?\n",
+                    "categories": [
+                        "multi-hop reasoning"
+                    ],
+                    "constraints": [
+                        ""
+                    ],
+                    "expected_output": [
+                        "The maximum amount of variable increment that a staff member can receive in a year is $100, and it is calculated by multiplying the staff member's endorsed performance rating (in this case, 'C') by the quantum of the variable increment for that rating (which is $100), and then pro-rating the result based on the staff member's tenure during the qualifying period (which is April to March of the following year). The formula for calculating the variable increment is: (Endorsed Performance Rating x Quantum of Variable Increment) x (Number of days in the qualifying period / 365)."
+                    ]
+                }
+            ]
+        }
+    ]
+}
