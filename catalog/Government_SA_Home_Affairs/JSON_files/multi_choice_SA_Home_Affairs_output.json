@@ -1,822 +1,822 @@
 {
     "tests": [
         {
-            "key": "dfaa56e5-9b92-442d-bd9f-ca0b9f9df1fd",
+            "key": "b20cccdf-3a43-4962-ac38-d3b28366e42b",
             "documents": [
                 "SA_Home_Affairs.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "48ec1d61-64f9-4f0c-ad0a-f22e9c42e6c5",
+                    "key": "afb4440d-7787-40b3-a521-90c96a0b4106",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department's constitutional mandate?\nHow do you respond?\nA. To provide secure and modern departmental services that are located within the state security system.\nB. To enable socio-economic development and transformation by ensuring identity, status, and citizenship are key enablers of citizen empowerment and inclusivity, economic development, and national security.\nC. To establish an effective border management authority and complete the modernization program.\nD. To facilitate the importation of critical skills and tourism into South Africa through a risk-based and strategic approach to immigration.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "2f8e2ea3-dfc8-4b26-bdf0-8e8839672fe1",
+                    "key": "5b8b81a5-f0d1-43aa-9a18-c1ad10401798",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the department's key priorities?\nHow do you respond?\nA. Establishment of an effective Border Management Authority (BMA) and upgrading and redevelopment of six (6) key land ports of entry to One-Stop Border posts.\nB. Completion of the modernization program, facilitating the importation of critical skills and tourism into South Africa through a risk-based and strategic approach to immigration, and repositioning the DHA as a secure and modern department located within the state security system.\nC. Early birth registration, accelerated rollout of the smart ID card to all eligible persons, and access and footprint development to improve the reach of DHA services.\nD. War on queues, immigration services performance, and Refugee Reception Offices.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "d8876d21-705e-470a-928a-1127d794e607",
+                    "key": "f4ca5e4c-cc80-411f-b976-eb7bf6a04ca2",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the COVID-19 pandemic affect the department's performance in the 2021/22 financial year?\nHow do you respond?\nA. It had no impact on the department's performance.\nB. It significantly improved the department's performance.\nC. It had a negative impact on the department's performance.\nD. It had a positive impact on the department's performance.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "c633fc1c-3685-4976-aa26-836cc5411816",
+                    "key": "c769a0d5-11bf-4d4c-9f2b-1bae0f4fc9fb",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the smart ID card?\nHow do you respond?\nA. To enable the department to contribute to the MTSF priorities of government.\nB. To improve the reach of DHA services, including purpose-fit DHA physical infrastructure and mobile offices.\nC. To facilitate the importation of critical skills and tourism into South Africa through a risk-based and strategic approach to immigration.\nD. To secure the population register while, at the same time, enabling access to identification, status, immigration, and citizenship services to qualifying citizens and residents.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^D.*"
+                        "REGEXP:.*(D|D\\.).*"
                     ],
                     "expected_output": "D"
                 },
                 {
-                    "key": "3d7c3655-2b34-42bd-b47e-a64e5f070f51",
+                    "key": "68fc76fa-7289-436d-b466-e6e5612f7de4",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the War on Queues?\nHow do you respond?\nA. It is a campaign to minimize the time spent by citizens waiting in line for DHA services.\nB. It is a program aimed at reducing the number of immigrants entering South Africa.\nC. It is an initiative to combat corruption within the DHA.\nD. It is a plan to improve the security of the country's borders.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "38832ce8-3b95-4c7f-8e19-9efeeea94e83",
+                    "key": "dbd9b278-26f1-4dd1-968e-72b30a4bcc12",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were some of the key interventions aimed at eradicating queues in the offices?\nHow do you respond?\nA. Piloting of Branch Appointment Booking Systems (BABS) in all offices that can process Smart ID Cards and passports.\nB. Inclusion of seven offices in the Presidential Infrastructure Priorities offices.\nC. Implementation of an online birth registration system in 1445 public health facilities.\nD. Introduction of a \"War on Queues\" program.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "e9af1629-efe9-4043-b343-5e2043fa11a2",
+                    "key": "65aac27d-7753-461f-b04b-f5f9905c2b52",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome of the pilot project of the online birth registration system?\nHow do you respond?\nA. All 1445 public health facilities were fully equipped with the online birth registration system.\nB. Only 160 health facilities were equipped with the online birth registration system, which is responsible for 63% of births delivered.\nC. The project was abandoned due to a lack of funding.\nD. The project was successful, and all children born in health facilities left with a birth certificate.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "fcf83c03-3cda-4ec0-8a63-839e0d4d9e60",
+                    "key": "50afeed8-082e-44e1-9eeb-6adbfe5da936",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the ultimate goal of the Early Birth Registration Strategy?\nHow do you respond?\nA. To register all births in health facilities with maternity wards within 30 days of birth.\nB. To ensure that all children born in health facilities leave with a birth certificate.\nC. To reduce the number of births delivered in health facilities.\nD. To increase the number of health facilities with maternity wards.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "66b66dc2-8de2-4368-ab63-a02f2cdb9d77",
+                    "key": "26fdbd4e-f72a-4ae2-ba1f-7fb3752cdd66",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many health facilities were responsible for 85% of births delivered, and how many have been covered by the department so far?\nHow do you respond?\nA. 251 health facilities were responsible for 85% of births delivered, and the department has covered 160 of them.\nB. 1445 health facilities were responsible for 85% of births delivered, and the department has covered 160 of them.\nC. 251 health facilities were responsible for 63% of births delivered, and the department has covered 160 of them.\nD. 1445 health facilities were responsible for 63% of births delivered, and the department has covered 160 of them.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "7a243bb6-d1bd-4d0c-8fd0-4ffc4759a3f4",
+                    "key": "b66a9b84-2505-404f-9618-10a983e08527",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department\u2019s plan to address the remaining 91 facilities?\nHow do you respond?\nA. The department will submit a business case to National Treasury to request additional funding for the remaining health facilities.\nB. The department will look for self-financing options to fund the remaining health facilities.\nC. The department will prioritize the 251 health facilities where the majority of births occur and forget about the remaining 91 facilities.\nD. The department will close down the 160 health facilities it has managed to establish a presence in and focus on the remaining 91 facilities.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "fee19758-47e8-4d1b-a256-d7ffc3ae4f6e",
+                    "key": "b87091e1-c9eb-45ce-84af-aedc45478548",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome of the consultation process on the Green Paper on Marriages?\nHow do you respond?\nA. The Department received more than 1000 submissions from the public and stakeholders, and the Green Paper was revised and submitted to Cabinet as a draft White Paper.\nB. The consultation process was inconclusive, and the Green Paper was not revised or submitted to Cabinet.\nC. The Department received fewer than 100 submissions from the public and stakeholders, and the Green Paper was not revised or submitted to Cabinet.\nD. The consultation process was halted due to a lack of interest from the public and stakeholders.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "e11e993c-1e07-4b22-854c-5ffc9fb092f6",
+                    "key": "96cdc767-661e-482d-ab98-3d595d7b2a1c",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the significance of the One-Stop Border Post (OSBP) Policy?\nHow do you respond?\nA. To enable South Africans and residents of different sexual orientation, religious and cultural persuasions to conclude legal marriages.\nB. To guide the development of a new legislation that will regulate the establishment and management of OSBPs in SA.\nC. To amend the Electoral Act 73 of 1998.\nD. To address child marriages.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "13027e6c-2b1b-4203-996d-effdefb6f563",
+                    "key": "eb25ac5d-671c-4dcf-b355-4a43b89df2f6",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the amendment of the Electoral Act 73 of 1998?\nHow do you respond?\nA. To accommodate independent candidates in national and provincial elections.\nB. To address the defects in the Electoral Act 1998 as per the Constitutional Court judgement.\nC. To introduce a mixed-member proportional electoral system.\nD. To modify the existing multi-member electoral system.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "495d63ee-08da-4ad6-9916-29ef833c22f2",
+                    "key": "037d40a8-3602-4862-a94c-97161241e92f",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What were the two options proposed by the Ministerial Advisory Committee (MAC) for the electoral system?\nHow do you respond?\nA. The minimalist model and the mixed-member model.\nB. The first-past-the-post model and the proportional representation model.\nC. The single-member constituency model and the multi-member constituency model.\nD. The mixed-member proportional model and the single-transferable-vote model.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "8941ca4d-41f5-4958-80db-65fda5535cbf",
+                    "key": "864384a6-35ca-42f6-9d2a-4c202d03e720",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the outcome of the public consultations on the Electoral Amendment Bill?\nHow do you respond?\nA. The minimalist model was adopted.\nB. The mixed-member model was adopted.\nC. The public consultations are still ongoing.\nD. The Electoral Amendment Bill was withdrawn.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "3cad044a-5e96-4527-84b8-36dad7a3cbde",
+                    "key": "9732d25a-1c74-441a-8221-180c0574dc14",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the current status of the Electoral Amendment Bill?\nHow do you respond?\nA. The Bill has been tabled in Parliament for public consultations.\nB. The Bill has been passed by Parliament and is awaiting the President's signature.\nC. The Bill has been withdrawn due to public outcry.\nD. The Bill has been rejected by Cabinet.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "df040f61-96e7-4860-885b-6662ba5ce3ea",
+                    "key": "d4e4ddf3-76a2-4261-92a0-21da79eba698",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the current staff complement of the DHA, and what is the approved structure?\nHow do you respond?\nA. The current staff complement of the DHA is 8,277 employees, and the approved structure provides for 19,886 posts.\nB. The current staff complement of the DHA is 19,886 employees, and the approved structure provides for 8,277 posts.\nC. The current staff complement of the DHA is 4,556 employees, and the approved structure provides for 12,345 posts.\nD. The current staff complement of the DHA is 12,345 employees, and the approved structure provides for 4,556 posts.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "5846187f-78bb-48e7-a71a-16869f565367",
+                    "key": "a3b4d80a-c9fc-4ba5-aa7e-5d2d56c46f4e",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the capacitation business case developed by the DHA?\nHow do you respond?\nA. To address capacity challenges experienced by the department.\nB. To establish the BMA and transfer frontline functions to it.\nC. To review the issuance of permits and root out fraud and corruption.\nD. To implement the recommendations of the Task Team on the APP targets.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "84379c60-cc0f-4c97-acc6-aeec0c40dbc9",
+                    "key": "cd7971ad-0316-46d2-8dd0-cb6ffda54619",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the fundamental right that every employee of the Department of Home Affairs is constitutionally mandated to defend for all persons?\nHow do you respond?\nA. The right to freedom, justice, and security.\nB. The right to legal record of existence.\nC. The right to citizenship and nationality.\nD. The right to social and economic equality.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "f7f1a84a-36ab-4c83-81cd-c15647dec9bb",
+                    "key": "f69fdd09-a768-4420-bbc2-e1afc6b18ece",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the \u201cscandal of invisibility\u201d that the Department of Home Affairs is working to eliminate?\nHow do you respond?\nA. The lack of access to identification documents for foreign nationals.\nB. The absence of a legal record of existence for all persons who live in the country, irrespective of their status.\nC. The failure to provide adequate protection to foreign nationals as prescribed in domestic law and international commitments.\nD. The inability to affirm or grant citizenship and issue visas or permits to qualifying non-citizens.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "ed120b99-89c5-436d-a083-d9e2d32e4cfa",
+                    "key": "554c323a-893f-4c7c-8396-bab8f82f9a92",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the services that the Department of Home Affairs provides to safeguard the sovereignty and national security of the State?\nHow do you respond?\nA. Visa and permit services, birth registration, and passport issuance.\nB. Marriage and death certificates, identity document issuance, and passport services.\nC. Early birth registration, optimization of birth registration, and statelessness eradication.\nD. Sustainable Development Goal implementation, national security maintenance, and foreign national tracking.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "ebf94b52-9df3-421f-ba85-574f6fb3f0b2",
+                    "key": "8a006ff8-0986-4506-bb35-f49756ebf396",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the United Nations\u2019 Sustainable Development Goal that the Department of Home Affairs is working towards in relation to birth registration?\nHow do you respond?\nA. Sustainable Development Goal 3: Good Health and Well-being\nB. Sustainable Development Goal 16: Peace, Justice and Strong Institutions\nC. Sustainable Development Goal 4: Quality Education\nD. Sustainable Development Goal 8: Decent Work and Economic Growth\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "a95e35e3-29cc-4912-ac29-a1a4133b1a8e",
+                    "key": "907e8342-988e-4e48-a026-3eb15708af38",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the target set by the Department of Home Affairs for registering births within 30 calendar days in the 2021/22 financial year?\nHow do you respond?\nA. 500 000 births\nB. 750 000 births\nC. 1 000 000 births\nD. 1 500 000 births\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "0f629541-617e-40f7-9f67-eaf2d9ac851b",
+                    "key": "d7476ec3-30e1-46e7-ad97-f88fd1fa58c2",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many births were registered by the Department of Home Affairs in the 2021/22 financial year?\nHow do you respond?\nA. 750,000\nB. 1,016,684\nC. 850,000\nD. 751,025\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "4ccdc179-6f8e-4f96-b903-4557a1b0b7e7",
+                    "key": "f80feaf5-a3d9-43fa-af5c-0f40dd052c85",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the current rate of birth registration in South Africa, according to the Department of Home Affairs?\nHow do you respond?\nA. 85%\nB. 75%\nC. 83%\nD. 70%\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "ba3e6c59-ee56-457c-af85-33bf0d671d4e",
+                    "key": "61aec4b1-2c81-415e-a9e2-aa256fcfb972",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the improvement in the DHA's status between 2014 and 2022?\nHow do you respond?\nA. The DHA's status improved from 50% to 85%.\nB. The DHA's status improved from 30% to 70%.\nC. The DHA's status improved from 70% to 90%.\nD. The DHA's status improved from 40% to 60%.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "501f0057-78c7-4f30-af6d-507615b85e28",
+                    "key": "8e86bcbe-f8a4-46c8-8125-d2027bc0ab07",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the target set by the department for registering births in 2021/22?\nHow do you respond?\nA. 750 000 births within 30 calendar days.\nB. 1 016 684 births.\nC. 751 025 births registered within 30 calendar days.\nD. 42.3% of births registered in 2021/2022.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "58c99041-ad87-4544-ba62-ff66ba247c13",
+                    "key": "1d10c32e-922f-42b4-a17d-4b944d2ad1c5",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many births were registered by the department in 2021/22?\nHow do you respond?\nA. 751,025\nB. 1,016,684\nC. 750,000\nD. 1,600,000\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "75a8e0d0-0235-4b92-a408-49f7f91b11d6",
+                    "key": "567beafa-0ad7-4db4-892e-67bc0dbf9faa",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the positive impact of health facilities on birth registrations in 2021/22?\nHow do you respond?\nA. There was a 42.3% increase in births registered in health facilities.\nB. Birth registrations in health facilities increased by 33.4% in 2021/22.\nC. Health facilities registered 751,025 births, of which 750,000 were registered within 30 calendar days.\nD. 42.3% of births registered in 2021/22 were done at health facilities, which is a decrease from 33.4% in 2020/21.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "85b645ce-f0cd-4a83-9778-85aee9d80417",
+                    "key": "4fee3cba-a625-4248-b2cb-07dc15a66909",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many schools did the department visit in partnership with the Department of Basic Education in 2021/22?\nHow do you respond?\nA. 500 schools\nB. 1011 schools\nC. 2000 schools\nD. 3000 schools\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "40cf2fc6-e10b-409c-8e88-ea71b1e55047",
+                    "key": "ff85beb2-e99c-43f5-8e6c-89c5557af8a1",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the reason for the department's system downtime in 2021/22?\nHow do you respond?\nA. The department's old green barcoded ID books were being replaced with new smart ID cards.\nB. The department was experiencing a high volume of applications for smart ID cards and passports.\nC. The department's live capture system was experiencing technical difficulties.\nD. The department's offices were closed over the weekends, and the youth were not available to provide services.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "89755f24-b4d3-4043-ad6b-c5c6364f8d7a",
+                    "key": "1e73ea14-3e5e-4a5b-ab70-fccd0cf0e76d",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many applications were missed due to downtimes in 2021/22?\nHow do you respond?\nA. 200 000\nB. 682 000\nC. 1 016 684\nD. 2 369 245\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "ad61528c-8dff-4d25-aae7-b39c5b5cfeac",
+                    "key": "e6320648-64f6-4832-81d6-ff2aab6cf4f5",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main objective of the Department of Home Affairs?\nHow do you respond?\nA. To provide secure, efficient, and accessible services and enabling documents to citizens and residents.\nB. To facilitate and regulate the secure movement of people through ports of entry into and out of South Africa, to determine the status of asylum seekers, and to regulate refugee affairs.\nC. To strengthen efforts aimed at improving the stability of the system and network.\nD. To provide strategic leadership, management, and support services to the department.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "523fc4f3-ef07-4d01-9927-8d875e670116",
+                    "key": "42fc5399-6bc5-4cb3-ac6d-631b5b943200",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much was the budget allocated to the provinces for service delivery coordination in the 2022/23 financial year?\nHow do you respond?\nA. R1 billion\nB. R2 billion\nC. R582 million\nD. R13 billion\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "80557cef-be7c-4c59-8e90-f409b72551d1",
+                    "key": "f171f202-6eef-48a0-9b26-622978ea3be0",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the current Director-General of the Department of Home Affairs?\nHow do you respond?\nA. Dr. PA Motsoaledi\nB. Mr. L. T. Makhode\nC. Mr. N Nzuza\nD. Ms. unknown\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "82784b4b-6363-4e5e-b14c-a8a851dd463a",
+                    "key": "77ed1434-c71f-4a83-995b-36037382f104",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the role of the Ministry in the Department of Home Affairs?\nHow do you respond?\nA. To provide strategic leadership, management, and support services to the department.\nB. To facilitate and regulate the secure movement of people through ports of entry into and out of South Africa.\nC. To ensure that registration at birth is the only entry point to the population register.\nD. To determine the status of asylum seekers and regulate refugee affairs.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "2313ea88-b6bb-499d-a3ef-2564e9005026",
+                    "key": "82a83997-4843-4e62-8c2b-7f50f5287ff0",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How has the Covid-19 pandemic affected the operations of the Department of Home Affairs?\nHow do you respond?\nA. It has made it difficult for the department to provide essential services such as issuing birth and death certificates, identity documents, and visas.\nB. It has highlighted the need for the department to refocus itself as an organ within the security cluster and apparatus of the state.\nC. It has not had any impact on the operations of the department.\nD. It has made it easier for the department to return to pre-Covid levels of production and get 100% of staff back at the office.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "9b81d230-7d75-4cb4-8246-1ca42c1c6331",
+                    "key": "7d299877-372f-4416-ac77-8814a18d88ee",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the critical role that the Department of Home Affairs plays in government and society?\nHow do you respond?\nA. Issuing birth and death certificates, identity documents, and visas.\nB. Providing secure, efficient, and accessible services and enabling documents to citizens and residents.\nC. Facilitating and regulating the secure movement of people through ports of entry into and out of South Africa.\nD. Determining the status of asylum seekers and regulating refugee affairs.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "66ddc5fe-c9d3-42d3-9168-2ac9e8455599",
+                    "key": "7f051c90-c442-47f3-926e-17d15da0d1b1",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the department of Home Affairs collect revenue?\nHow do you respond?\nA. Through the National Revenue Fund (NRF).\nB. Through DIRCO employees on an agent principle basis at missions where the department does not have a presence.\nC. Through the e-Visa system.\nD. Through the Independent Electoral Commission (IEC).\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "9e593592-5e62-4f3e-82b8-b3863b040067",
+                    "key": "434ba426-cb32-48ce-a141-d3984434acba",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the e-Visa system?\nHow do you respond?\nA. To facilitate and regulate the secure movement of people through ports of entry into and out of South Africa.\nB. To make it easier for eligible travelers to complete the online application forms in the comfort of their homes and submit these to Home Affairs without visiting our missions abroad.\nC. To assist the department in discharging its mandate in accordance with the Immigration Act, 2002, and the Refugees Act, 1998.\nD. To provide institutional support and transfer funds to the Independent Electoral Commission (IEC), the Represented Political Parties\u2019 Fund, and the Border Management Authority (BMA).\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "1b9565e3-6bea-4886-8fd6-e506d2e1cc3a",
+                    "key": "45abc474-5711-4d8f-87f7-254a5117ff7d",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the responsibility of the Minister of Home Affairs?\nHow do you respond?\nA. To ensure free and fair elections.\nB. To assist the department in discharging its mandate in accordance with the Immigration Act, 2002, and the Refugees Act, 1998.\nC. To coordinate and manage the provision of services through front offices at the provincial level.\nD. To modernize and streamline the visa application process.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "4a4a92de-b513-4b90-9530-6e940fde46f6",
+                    "key": "b1a9fe48-cb10-4165-91b9-5ecde4e0e75a",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How many missions abroad does the department of Home Affairs have?\nHow do you respond?\nA. 32\nB. 14\nC. 8\nD. 2\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "74a93114-8c2e-4f1f-9f86-977d7906b2e0",
+                    "key": "b7d5dda7-232e-4d2f-925b-3c48bd3a612c",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main reason for the non-achievement of the Electoral Act 73 of 1998?\nHow do you respond?\nA. Procurement delays.\nB. Protracted consultation process.\nC. Impact of Covid 19.\nD. Delays in finalizing the Section 97 proclamation pertaining to the transfer of functions in respect of the BMA.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "9984f350-7e3e-42b9-ab51-23df91c1dd46",
+                    "key": "b6b8227e-5bbc-46bb-a694-c54af3d78d31",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the directive given by the Constitutional Court in the New Nation Movement NPC and Others v the President of South Africa matter?\nHow do you respond?\nA. The Electoral Act 73 of 1998 was declared unconstitutional, and Parliament was directed to rectify the defective sections within 24 months.\nB. The Constitutional Court directed the Independent Electoral Commission (IEC) to allow adult citizens to be elected to the National Assembly (NA) and Provincial Legislatures (PLs) through their membership of political parties.\nC. The Constitutional Court declared that the Representative Political Parties Fund was unconstitutional and directed the Government Printing Works (GPW) to stop providing security printing for the State.\nD. The Constitutional Court ordered the department to achieve 69% of its APP targets within the 2021/22 financial year.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "fc497130-9c4b-4360-b7c6-83d0297dab94",
+                    "key": "9674226b-666f-440f-8d55-8ed906c793fa",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Electoral Amendment Bill tabled in Parliament in 2021?\nHow do you respond?\nA. To amend the Electoral Act 73 of 1998 to ensure free and fair elections.\nB. To provide security printing for the State, such as passports and identity documents.\nC. To enable public consultations on the Green Paper on the management of citizenship, international migration, and refugee protection.\nD. To transfer the functions of the Independent Electoral Commission (IEC) to the Government Printing Works (GPW).\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "a352bb0f-41db-4979-b28a-e2eb9b0a480e",
+                    "key": "5dd75655-396d-4636-afcb-8fb4f788a6e3",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the overall performance of the department in achieving its APP targets in the 2021/22 financial year?\nHow do you respond?\nA. The department achieved 71% of its APP targets.\nB. The department achieved 69% of its APP targets.\nC. The department achieved 80% of its APP targets.\nD. The department achieved 90% of its APP targets.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "27e05ec7-e9e4-433b-9d66-0f28ddd38413",
+                    "key": "1cc15662-7763-4da6-b51b-ace4f9a210ef",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Which programmes did not achieve their targets and why?\nHow do you respond?\nA. Administration, because the procurement delays and the impact of Covid 19 affected the achievement of the targets.\nB. Citizen Affairs, because the consultation process took longer than expected.\nC. Immigration Affairs, because the targets were not achievable due to the limited number of Immigration officials available to process applications.\nD. Institutional Support and Transfers, because the Section 97 proclamation pertaining to the transfer of functions in respect of the BMA was not finalized.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "fcd1384e-d534-4e72-b532-45b015c980e5",
+                    "key": "09141267-6313-463e-9e88-8f397e596f5f",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the reason for the delay in the implementation of the biometric movement control system (BMCS) at 23 selected ports of entry?\nHow do you respond?\nA. Procurement delays due to a global shortage of computer chips.\nB. The impact of Covid-19 restrictions on the number of immigration officials available to process applications.\nC. Delays in finalizing the Section 97 proclamation pertaining to the transfer of functions in respect of the BMA.\nD. Protracted consultation processes.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "019337eb-a721-477e-a92d-86cdbc51df93",
+                    "key": "bf41db72-5721-4bc7-b821-a7a56571bfeb",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the status of the development of the Asylum seeker and Refugee system onto a live capture prototype?\nHow do you respond?\nA. A fully functional prototype was developed in the Quality Assurance environment.\nB. A prototype was developed, but it was not functional.\nC. The system is currently being developed and implemented by a service provider appointed by SITA.\nD. The development of the system has been finalized, and it is now live.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "ec188bc5-d5f6-4303-9d83-1975f6c30e95",
+                    "key": "1180521a-71a7-4be2-abfa-f74de8d40c75",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the current status of the DHA Bill?\nHow do you respond?\nA. The DHA Bill has been submitted to Cabinet for approval for introduction in Parliament.\nB. The DHA Bill has been approved by Cabinet and is awaiting introduction in Parliament.\nC. The DHA Bill is still in the drafting stage and has not yet been submitted to Cabinet.\nD. The DHA Bill has been rejected by Cabinet and is being redrafted.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "90b5a773-2a5d-4132-8362-6ca0dec6e55d",
+                    "key": "59fb2ad4-2625-4244-9283-75b6127093eb",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the reason for the delay in the finalisation of the Green Paper on the management of citizenship, international migration and refugee protection?\nHow do you respond?\nA. Procurement delays in the appointment of a legal drafter to redraft the Bill.\nB. The impact of Covid-19 restrictions on the number of immigration officials available to process applications.\nC. Protracted consultation processes.\nD. Delays in finalising the Section 97 proclamation pertaining to the transfer of functions in respect of the BMA.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "6907e96a-6bec-4927-b76b-954b9b436447",
+                    "key": "b14569ae-5ce1-4937-bc75-ab16ec38ca50",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the BMA, and what is its purpose?\nHow do you respond?\nA. BMA stands for \"Border Management Agency,\" and its purpose is to manage and regulate the flow of people and goods across South Africa's borders.\nB. BMA stands for \"Borders and Management Agency,\" and its purpose is to ensure the safety and security of South Africa's borders.\nC. BMA stands for \"Business Management Agency,\" and its purpose is to support small businesses and entrepreneurs in South Africa.\nD. BMA stands for \"Bureau of Management Assistance,\" and its purpose is to provide administrative support to other government agencies.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "d675fa20-d567-4297-884a-33293f20119b",
+                    "key": "66699794-775e-4d2c-96bd-134c10040114",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Section 97 proclamation?\nHow do you respond?\nA. To establish the BMA SARS protocol.\nB. To incorporate frontline immigration, port health, border facility management, and agriculture functions into the BMA.\nC. To grant interim custodial powers, duties, and responsibilities to the Minister of Home Affairs for Oshoek, Lebombo, Ficksburg, and Maseru ports of entry.\nD. To finalize the transfer of functions to the BMA.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^D.*"
+                        "REGEXP:.*(D|D\\.).*"
                     ],
                     "expected_output": "D"
                 },
                 {
-                    "key": "f15dd415-8ea4-4c42-ad77-363b2d5bcc30",
+                    "key": "5b3e3f0a-92e8-4e0f-b815-92b4720845cc",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the status of the implementation of the IMS delegations on January 12, 2022?\nHow do you respond?\nA. The implementation of the IMS delegations was successful and has improved service delivery.\nB. The implementation of the IMS delegations was partially successful, but there were some challenges that need to be addressed.\nC. The implementation of the IMS delegations was delayed due to the Covid-19 pandemic and is still in the process of being implemented.\nD. The implementation of the IMS delegations was a failure and has not improved service delivery.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "a303c57b-61f9-4cb9-b979-660b9ddb8f4a",
+                    "key": "dafd81e0-9db7-4cb2-a6a9-c65ef4437e2a",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the reason for the delay in finalizing the BMA Defence implementation protocol?\nHow do you respond?\nA. The Minister for Public Works and Administration has not assigned interim custodial powers, duties, and responsibilities to the Minister of Home Affairs for Oshoek, Lebombo, Ficksburg, and Maseru ports of entry.\nB. The SANDF has not provided a revised draft of the BMA Defense implementation protocol for signature.\nC. The Section 97 proclamations by means of which the frontline functions would have been incorporated into the BMA were not finalized as concurrence on e.g. the health functions was not received.\nD. The BMA SARS protocol has not been signed, and 10 port coordinators have not been appointed.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "5e83ccf1-779e-4835-a19f-13ac658c4272",
+                    "key": "6ebaaed0-375a-4eb5-8d7e-6a3d85061da1",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the reason for the under-performance of the Department of Home Affairs?\nHow do you respond?\nA. Inadequate planning and poor management.\nB. Insufficient funding and resources.\nC. Lack of clear targets and performance metrics.\nD. Ineffective implementation of the BMA and IMS systems.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "47d42722-c8c2-40d4-a78e-c95690016972",
+                    "key": "4bab4542-167b-4353-888f-cbb824b2247d",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Annual Operational Plan (AOP) and the Annual Performance Plan (APP)?\nHow do you respond?\nA. To outline the department's targets and performance measures for the year.\nB. To provide a comprehensive plan for the department's operations and performance.\nC. To monitor and evaluate the department's progress towards its goals.\nD. To communicate the department's priorities and expectations to stakeholders.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "b83059a4-44e6-4245-b53d-ec89cc352e75",
+                    "key": "a201bc04-957f-4dfe-94a6-945d8aa500e9",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department's goal in terms of service delivery?\nHow do you respond?\nA. To achieve 100% of its targets and obtain a clean audit outcome.\nB. To meet the demands and expectations of its diverse clientele and stakeholders.\nC. To render services in real-time, with predictability, and with assurance that systems are fully effective and robust.\nD. To eliminate queues altogether and exceed customer expectations.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "99a098e8-2db5-4513-b833-e933237c7c1a",
+                    "key": "a2267811-54b4-40a7-853c-1c077027c1bb",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the challenges faced by the department in achieving its goals?\nHow do you respond?\nA. Network connectivity, long queues, and insufficient and poor office accommodation.\nB. Poor staff training, inadequate funding, and lack of community engagement.\nC. Inefficient service delivery, poor communication, and lack of technology integration.\nD. Inadequate planning, poor management, and lack of stakeholder engagement.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "0c9c14c2-c9f6-4a93-8d29-a290af9e61c7",
+                    "key": "79d1a4a0-c049-4725-8f80-7366497e669d",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department's approach to reducing long queues?\nHow do you respond?\nA. Improving staff training and customer communication to manage expectations.\nB. Introducing an appointment system and leveraging technology integration.\nC. Increasing the number of mobile units and expanding the department's footprint.\nD. Improving system stability and optimizing IT infrastructure.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "d88de80b-3430-4963-a47b-aa34dc27f621",
+                    "key": "c7ee4a9a-2721-4807-a0e9-c48b86780055",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the department plan to improve customer satisfaction?\nHow do you respond?\nA. By leveraging technology integration and investing in staff.\nB. By reducing long queues and improving turnaround times.\nC. By acquiring standalone, purpose-built facilities on state-owned land.\nD. By introducing an appointment system for clients.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "6012460a-21b7-4171-8b14-31579a588ccb",
+                    "key": "baa6da63-de70-43a4-aee2-e293cc96c674",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How has the Covid-19 pandemic affected the department's service delivery?\nHow do you respond?\nA. The department has been able to exceed customer expectations and eliminate queues altogether.\nB. The department has been able to maintain its service delivery levels despite the pandemic.\nC. The department has had to close some offices due to the pandemic, resulting in service delivery interruptions.\nD. The department has not been affected by the pandemic, and service delivery has continued as usual.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "65515bed-aa27-4780-8e5d-e22a944ac643",
+                    "key": "3ae91cff-1fcc-4379-b6e2-1d3655d3d8d6",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department's approach to modernisation?\nHow do you respond?\nA. Adopting new technology to improve service delivery and exceed customer expectations.\nB. Focusing on maintaining current systems and processes to ensure stability and continuity.\nC. Implementing a comprehensive digital transformation strategy to enhance operational efficiency.\nD. Prioritizing staff training and development to improve the quality of service delivery.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "cbe8b79a-a12b-4ebf-954a-3f642935e7f1",
+                    "key": "9c61a10a-8f60-4f5f-9ac6-3d7af874db03",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the department plan to expand its service offerings?\nHow do you respond?\nA. By leveraging technology integration and investing in staff.\nB. By acquiring standalone, purpose-built facilities on state-owned land.\nC. By deploying mobile units to rural communities.\nD. By introducing an appointment system for clients.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "b92fc452-0c60-47ce-b0b6-cf4ecc2ba293",
+                    "key": "0baa56eb-0725-4da4-8e58-f03ee036426c",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department's focus in terms of staff development?\nHow do you respond?\nA. Improving staff satisfaction and well-being to deliver quality services.\nB. Developing technology skills to enhance service delivery.\nC. Focusing on recruiting more staff to reduce workload.\nD. Providing training on customer service and communication skills.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^D.*"
+                        "REGEXP:.*(D|D\\.).*"
                     ],
                     "expected_output": "D"
                 },
                 {
-                    "key": "29d5d86d-fcfc-4e55-8da3-cfc00d80cfc7",
+                    "key": "73fa9503-e15b-4ac9-a741-c8f631752d04",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the reason for the department's strategy to acquire standalone, purpose-built facilities?\nHow do you respond?\nA. To reduce the cost and dependency on private landlords and the DPW&I.\nB. To increase the capacity of the department and address vacancy challenges.\nC. To improve the maintenance of office accommodation and comply with OHS standards.\nD. To combat fraud and corruption within the department.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "789eee9a-28bd-43a8-9f72-c42a6c318d83",
+                    "key": "3bc9fc01-f82b-4cb7-8cec-4188d40fb5cb",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the department ensure service delivery during the Covid-19 pandemic?\nHow do you respond?\nA. By closing all offices and deploying mobile units to minimize service interruptions.\nB. By relocating offices to shopping malls with adequate parking and security.\nC. By engaging DPWI to take over repair and maintenance responsibilities.\nD. By developing a capacitation business case to address staffing challenges.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "541258cd-334a-4c4b-82cc-bd106cc081bf",
+                    "key": "a6df528e-b25b-4a6f-b491-032c04221c3b",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the problem with the department's current office accommodation?\nHow do you respond?\nA. Insufficient parking and access.\nB. Frequent injunctions issued for non-compliance to the prescribed OHS standards.\nC. Capacity constraints due to underfunding.\nD. Fraud and corruption.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "2623f9c1-5a55-44cd-9a66-b9d0f6970e19",
+                    "key": "c02cabc3-0c05-4e8c-b9f0-f4bca276dc13",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department's plan to address capacity constraints?\nHow do you respond?\nA. The department intends to pursue the option of relocating some of its offices into malls with adequate parking and access.\nB. The department will focus on core business and fill more than 750 posts, with preference given to lower-level staff at front-line offices in the Civic Services branch.\nC. The department will engage DPWI to cede or assign the repair and maintenance responsibility for its stock of office accommodation.\nD. The department will adopt a zero-tolerance campaign against fraud and corruption.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "3118cba9-28c5-4860-9dda-7e18e097f5ba",
+                    "key": "6cd32054-12ff-4873-a179-d86351f193ab",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the department's financial performance in the 2020/21 financial year?\nHow do you respond?\nA. The department obtained its fifth unqualified audit opinion.\nB. The department experienced a significant increase in fraud and corruption cases.\nC. The department's annual appropriation was reduced due to budget cuts.\nD. The department's expenditure exceeded its revenue collected.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "c6cb111e-9fd4-401c-8b68-2914d9ce6657",
+                    "key": "6324dd29-5271-4889-b9cd-d553d049b5ef",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department's annual appropriation for the 2022/23 financial year?\nHow do you respond?\nA. R266.953 million\nB. R278.832 million\nC. R291.352 million\nD. R9\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "f47ff16c-59c7-40d9-90d0-ed7f267e520d",
+                    "key": "356668f9-d354-4fa5-af67-d3589025f197",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What percentage of the department's staff complement is currently filled?\nHow do you respond?\nA. 41.6%\nB. 45.4%\nC. 54.6%\nD. 60%\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "e1a8f92d-e328-408f-a4fc-3a752f4d6e6e",
+                    "key": "d96e9034-f32d-488f-b765-6760d46852ef",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the main cause of fraud and corruption in the department?\nHow do you respond?\nA. Capacity constraints and underfunding\nB. Lack of proper maintenance of office accommodation\nC. Inadequate screening of employees and lack of background checks\nD. Inefficient system of tracing and monitoring transactions\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "7175abef-c279-4209-97a6-2501a8eee74b",
+                    "key": "ba771f0b-73b5-47ff-9531-900789d3f199",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the department's plan for filling posts in the incoming financial year?\nHow do you respond?\nA. The department intends to fill more than 750 posts in the incoming financial year.\nB. The department does not have a plan for filling posts in the incoming financial year.\nC. The department plans to reduce the number of posts in the incoming financial year.\nD. The department will not fill any posts in the incoming financial year.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 }

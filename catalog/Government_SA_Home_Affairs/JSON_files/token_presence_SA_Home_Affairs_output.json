@@ -1,1960 +1,2313 @@
 {
     "tests": [
         {
-            "key": "3d9d7156-5094-4848-a081-1c65f0718283",
+            "key": "2b252f82-d684-4f23-a4fb-c1bd933e42ab",
             "documents": [
                 "SA_Home_Affairs.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "2a4b8583-67fd-44be-b949-3ac0642cc1c3",
+                    "key": "764803d7-cc96-434b-8df8-fe40fb15cb3d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the department that produced the annual report?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Department of Home Affairs']"
+                        "Department of Home Affairs"
                     ],
-                    "expected_output": [
-                        "The name of the department that produced the annual report is the Department of Home Affairs."
-                    ]
+                    "expected_output": "The name of the department that produced the annual report is the Department of Home Affairs."
                 },
                 {
-                    "key": "59fbfc2c-8019-4b7d-a307-5285f27ac80e",
+                    "key": "51e41f8e-1da7-42dc-9eba-a11dd12ab804",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the vision of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['secure', 'prosperous', 'South Africa', 'efficient', 'effective', 'home affairs', 'services']"
+                        "secure",
+                        "prosperous",
+                        "South Africa",
+                        "efficient",
+                        "effective",
+                        "home affairs",
+                        "services"
                     ],
-                    "expected_output": [
-                        "The vision of the Department of Home Affairs is to \"create a secure and prosperous South Africa through the provision of efficient and effective home affairs services.\""
-                    ]
+                    "expected_output": "The vision of the Department of Home Affairs is to \"create a secure and prosperous South Africa through the provision of efficient and effective home affairs services.\""
                 },
                 {
-                    "key": "42378c5a-1a60-47c8-9eb3-8b3745acc6ab",
+                    "key": "3ab40fc7-a3e0-489a-a94a-64a780361f81",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the mission of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        NaN
-                    ],
-                    "expected_output": [
-                        "The mission of the Department of Home Affairs is to \"provide secure, efficient, and effective home affairs services that promote and support the well-being of South African citizens, residents, and visitors.\""
-                    ]
+                    "constraints": [],
+                    "expected_output": "The mission of the Department of Home Affairs is to \"provide secure, efficient, and effective home affairs services that promote and support the well-being of South African citizens, residents, and visitors.\""
                 },
                 {
-                    "key": "689628c0-8da3-4a7f-9e54-247f8d732d69",
+                    "key": "c64dc399-5584-4f42-be3d-bdb07feb2f9f",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the values of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['accountability', 'Batho Pele', 'transparency', 'Ubuntu']"
+                        "accountability",
+                        "Batho Pele",
+                        "transparency",
+                        "Ubuntu"
                     ],
-                    "expected_output": [
-                        "The values of the Department of Home Affairs are \"accountability, Batho Pele, transparency, and Ubuntu.\""
-                    ]
+                    "expected_output": "The values of the Department of Home Affairs are \"accountability, Batho Pele, transparency, and Ubuntu.\""
                 },
                 {
-                    "key": "4f2ba235-4d40-424b-b1f8-e10a54e0be98",
+                    "key": "df40448e-9cfa-4c82-9c7b-8da3f873e6c6",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the programme that deals with citizen affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Programme 2: Citizen Affairs']"
+                        "Programme 2: Citizen Affairs"
                     ],
-                    "expected_output": [
-                        "The name of the programme that deals with citizen affairs is Programme 2: Citizen Affairs."
-                    ]
+                    "expected_output": "The name of the programme that deals with citizen affairs is Programme 2: Citizen Affairs."
                 },
                 {
-                    "key": "6463ff55-8fcc-47a6-aff9-f5d6e43335b2",
+                    "key": "919f60d2-333c-47b7-ada5-e719bc162c16",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the programme that deals with immigration affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Programme 3', 'Immigration Affairs']"
+                        "Programme 3",
+                        "Immigration Affairs"
                     ],
-                    "expected_output": [
-                        "The name of the programme that deals with immigration affairs is Programme 3: Immigration Affairs."
-                    ]
+                    "expected_output": "The name of the programme that deals with immigration affairs is Programme 3: Immigration Affairs."
                 },
                 {
-                    "key": "fa1049ef-ebb5-49d9-a07d-1e4a9d87f5b4",
+                    "key": "e5b31309-e689-481b-a6a5-656c70f40631",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the programme that deals with institutional support and transfers?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Programme 4', 'Institutional Support and Transfers']"
+                        "Programme 4",
+                        "Institutional Support and Transfers"
                     ],
-                    "expected_output": [
-                        "The name of the programme that deals with institutional support and transfers is Programme 4: Institutional Support and Transfers."
-                    ]
+                    "expected_output": "The name of the programme that deals with institutional support and transfers is Programme 4: Institutional Support and Transfers."
                 },
                 {
-                    "key": "06af1fc7-c459-4bfc-9985-9e48e1c502b1",
+                    "key": "c2ae35c9-ea03-49c6-9a80-64352dc67b70",
                     "prompt": "Respond to the following question.\n\nQuestion: How many transfer payments did the Department of Home Affairs make to public entities in the 2021/2022 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['122']"
+                        "122"
                     ],
-                    "expected_output": [
-                        "The Department of Home Affairs made 122 transfer payments to public entities in the 2021/2022 financial year."
-                    ]
+                    "expected_output": "The Department of Home Affairs made 122 transfer payments to public entities in the 2021/2022 financial year."
                 },
                 {
-                    "key": "96e5b1be-70ed-4930-9657-2d58dd136236",
+                    "key": "a629eb2b-23cc-4f83-b5af-ae3921e69d68",
                     "prompt": "Respond to the following question.\n\nQuestion: How many conditional grants did the Department of Home Affairs receive in the 2021/2022 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['122']"
+                        "122"
                     ],
-                    "expected_output": [
-                        "The Department of Home Affairs received 122 conditional grants in the 2021/2022 financial year."
-                    ]
+                    "expected_output": "The Department of Home Affairs received 122 conditional grants in the 2021/2022 financial year."
                 },
                 {
-                    "key": "e7c15c38-20b2-4c42-ad62-c5c50c22b138",
+                    "key": "f1dd9485-e93f-467f-bf63-434abaaf76f6",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the website address of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['www.dha.gov.za']"
+                        "www.dha.gov.za"
                     ],
-                    "expected_output": [
-                        "The website address of the Department of Home Affairs is [www.dha.gov.za](http://www.dha.gov.za)."
-                    ]
+                    "expected_output": "The website address of the Department of Home Affairs is [www.dha.gov.za](http://www.dha.gov.za)."
                 },
                 {
-                    "key": "c6b6882f-e66c-43f8-9c60-090b76bd1d3c",
+                    "key": "5210d3d0-2a5a-4e21-a60f-15eb880590e7",
                     "prompt": "Respond to the following question.\n\nQuestion: What does ACSA stand for?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ACSA', 'Airports', 'Company', 'South', 'Africa']"
+                        "ACSA",
+                        "Airports",
+                        "Company",
+                        "South",
+                        "Africa"
                     ],
-                    "expected_output": [
-                        "ACSA stands for Airports Company South Africa."
-                    ]
+                    "expected_output": "ACSA stands for Airports Company South Africa."
                 },
                 {
-                    "key": "fcc8a444-af62-4239-899e-8bf6e3e8e991",
+                    "key": "47820f39-775c-4fd3-9b9a-46e94e50c7be",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the AGSA?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['AGSA', 'audit', 'evaluate', 'financial', 'statements', 'performance']"
+                        "AGSA",
+                        "audit",
+                        "evaluate",
+                        "financial",
+                        "statements",
+                        "performance"
                     ],
-                    "expected_output": [
-                        "The purpose of the AGSA is to audit and evaluate the public sector's financial statements and performance."
-                    ]
+                    "expected_output": "The purpose of the AGSA is to audit and evaluate the public sector's financial statements and performance."
                 },
                 {
-                    "key": "bff68674-9682-4262-b6ce-9fc4901fac59",
+                    "key": "56e68b1f-e283-41db-b4f3-cb81b353aff3",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the AU in the immigration sector?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['AU', 'African Union', 'immigration']"
+                        "AU",
+                        "African Union",
+                        "immigration"
                     ],
-                    "expected_output": [
-                        "The AU, or African Union, plays a role in promoting regional and continental integration, including in the area of immigration."
-                    ]
+                    "expected_output": "The AU, or African Union, plays a role in promoting regional and continental integration, including in the area of immigration."
                 },
                 {
-                    "key": "a361f07c-3c02-41af-bbb5-bdf706eba9b8",
+                    "key": "2d175053-5ee7-45f9-9929-fa71ecf7e0c8",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the BMA?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['BMA', 'Border Management Authority', 'South Africa', 'borders']"
+                        "BMA",
+                        "Border Management Authority",
+                        "South Africa",
+                        "borders"
                     ],
-                    "expected_output": [
-                        "The purpose of the BMA, or Border Management Authority, is to manage and control the movement of people and goods across South Africa's borders."
-                    ]
+                    "expected_output": "The purpose of the BMA, or Border Management Authority, is to manage and control the movement of people and goods across South Africa's borders."
                 },
                 {
-                    "key": "06bdd704-b51d-4969-8bbf-ee186b7f63ef",
+                    "key": "3e353c06-4d26-49f4-af7b-f2229eb3788a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between BBBEE and BEC?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['BBBEE', 'BEC', 'Broad-based', 'Black', 'Economic', 'Empowerment', 'policy', 'South Africa', 'Bid', 'Evaluation', 'Committee', 'government', 'contracts']"
+                        "BBBEE",
+                        "BEC",
+                        "Broad-based",
+                        "Black",
+                        "Economic",
+                        "Empowerment",
+                        "policy",
+                        "South Africa",
+                        "Bid",
+                        "Evaluation",
+                        "Committee",
+                        "government",
+                        "contracts"
                     ],
-                    "expected_output": [
-                        "BBBEE stands for Broad-based Black Economic Empowerment, which is a policy aimed at promoting economic transformation and black empowerment in South Africa. BEC, on the other hand, stands for Bid Evaluation Committee, which is responsible for evaluating bids for government contracts."
-                    ]
+                    "expected_output": "BBBEE stands for Broad-based Black Economic Empowerment, which is a policy aimed at promoting economic transformation and black empowerment in South Africa. BEC, on the other hand, stands for Bid Evaluation Committee, which is responsible for evaluating bids for government contracts."
                 },
                 {
-                    "key": "91a482ad-7cce-4228-819f-37645052e8bb",
+                    "key": "2b9f24fb-f077-4ca8-abbf-cb031b87a7a8",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the CDPSE in the immigration sector?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['CDPSE', 'Certified Data Privacy Solutions Engineer', 'privacy', 'security', 'personal data', 'immigration sector']"
+                        "CDPSE",
+                        "Certified Data Privacy Solutions Engineer",
+                        "privacy",
+                        "security",
+                        "personal data",
+                        "immigration sector"
                     ],
-                    "expected_output": [
-                        "The CDPSE, or Certified Data Privacy Solutions Engineer, plays a role in ensuring the privacy and security of personal data in the immigration sector."
-                    ]
+                    "expected_output": "The CDPSE, or Certified Data Privacy Solutions Engineer, plays a role in ensuring the privacy and security of personal data in the immigration sector."
                 },
                 {
-                    "key": "97edd29d-0292-4c2a-a206-673ac8e48b06",
+                    "key": "0e554978-f5bc-4005-913c-37eea6b32b83",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the DHA's HANIS system?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['manage', 'maintain', 'issuance', 'identity', 'documents']"
+                        "manage",
+                        "maintain",
+                        "issuance",
+                        "identity",
+                        "documents"
                     ],
-                    "expected_output": [
-                        "The purpose of the DHA's HANIS system is to manage and maintain the country's national identity system, including the issuance of identity documents."
-                    ]
+                    "expected_output": "The purpose of the DHA's HANIS system is to manage and maintain the country's national identity system, including the issuance of identity documents."
                 },
                 {
-                    "key": "c7113e49-5487-4997-8085-873f675c9934",
+                    "key": "98ac51ca-f979-4fdb-b4c0-334004baf337",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the DPSA in the public service?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['DPSA', 'public', 'service', 'management', 'human', 'resources', 'policies']"
+                        "DPSA",
+                        "public",
+                        "service",
+                        "management",
+                        "human",
+                        "resources",
+                        "policies"
                     ],
-                    "expected_output": [
-                        "The DPSA, or Department of Public Service and Administration, plays a role in overseeing and coordinating the public service, including the management of human resources and the implementation of policies."
-                    ]
+                    "expected_output": "The DPSA, or Department of Public Service and Administration, plays a role in overseeing and coordinating the public service, including the management of human resources and the implementation of policies."
                 },
                 {
-                    "key": "f8d27a45-bc96-4e88-b9e1-059f9f91a1de",
+                    "key": "0704c7ec-08e4-4c2f-b6ab-d67677f1844a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the EAP?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['EAP', 'Employee Assistance Programme', 'HIV/AIDS']"
+                        "EAP",
+                        "Employee Assistance Programme",
+                        "HIV/AIDS"
                     ],
-                    "expected_output": [
-                        "The purpose of the EAP, or Employee Assistance Programme, is to provide support and assistance to employees in need, including those affected by HIV/AIDS."
-                    ]
+                    "expected_output": "The purpose of the EAP, or Employee Assistance Programme, is to provide support and assistance to employees in need, including those affected by HIV/AIDS."
                 },
                 {
-                    "key": "add5d6d0-ee86-4f97-8a76-305f194623be",
+                    "key": "31b9dfd0-9ab9-4863-9a81-86fe29c04937",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the MTEF?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['MTEF', 'medium-term', 'government', 'funds', 'resources', 'allocation']"
+                        "MTEF",
+                        "medium-term",
+                        "government",
+                        "funds",
+                        "resources",
+                        "allocation"
                     ],
-                    "expected_output": [
-                        "The purpose of the MTEF, or Medium Term Expenditure Framework, is to provide a framework for the allocation of government funds and resources over a medium-term period."
-                    ]
+                    "expected_output": "The purpose of the MTEF, or Medium Term Expenditure Framework, is to provide a framework for the allocation of government funds and resources over a medium-term period."
                 },
                 {
-                    "key": "d664cab7-80ad-49ba-8ea1-ba8b2fedb345",
+                    "key": "d883e390-0dde-46fc-91c9-b9a3b868ec00",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main theme of the 2021/22 Annual Report of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['South Africa', 'citizen empowerment', 'inclusivity', 'economic development', 'national security']"
+                        "South Africa",
+                        "citizen empowerment",
+                        "inclusivity",
+                        "economic development",
+                        "national security"
                     ],
-                    "expected_output": [
-                        "The main theme of the report is the department's efforts towards the realization of its vision of a South Africa where identity, status, and citizenship are key enablers of citizen empowerment and inclusivity, economic development, and national security."
-                    ]
+                    "expected_output": "The main theme of the report is the department's efforts towards the realization of its vision of a South Africa where identity, status, and citizenship are key enablers of citizen empowerment and inclusivity, economic development, and national security."
                 },
                 {
-                    "key": "7ab11bc6-94d8-4bfa-9243-13eee1cb8f07",
+                    "key": "9ef7c470-210c-47c7-a0e6-1ee74cc9db38",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's constitutional mandate?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['enso-economic', 'development', 'transformation', 'integrity']"
+                        "enso-economic",
+                        "development",
+                        "transformation",
+                        "integrity"
                     ],
-                    "expected_output": [
-                        "The department's constitutional mandate is to enable socio-economic development and transformation, and to ensure that DHA enabling documents have integrity."
-                    ]
+                    "expected_output": "The department's constitutional mandate is to enable socio-economic development and transformation, and to ensure that DHA enabling documents have integrity."
                 },
                 {
-                    "key": "f78bfce7-2567-4618-8966-3457507eac57",
+                    "key": "c97aa989-7817-4ef6-ad94-c63ad45b27c7",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the department's key priorities?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        NaN
-                    ],
-                    "expected_output": [
-                        "The department's key priorities include the establishment of an effective Border Management Authority, completion of the modernization program, facilitating the importation of critical skills and tourism into South Africa, upgrading and redevelopment of key land ports of entry, early birth registration, accelerated rollout of the smart ID card, repositioning of the DHA as a secure and modern department, war on queues, and access and footprint development to improve the reach of DHA services."
-                    ]
+                    "constraints": [],
+                    "expected_output": "The department's key priorities include the establishment of an effective Border Management Authority, completion of the modernization program, facilitating the importation of critical skills and tourism into South Africa, upgrading and redevelopment of key land ports of entry, early birth registration, accelerated rollout of the smart ID card, repositioning of the DHA as a secure and modern department, war on queues, and access and footprint development to improve the reach of DHA services."
                 },
                 {
-                    "key": "b49fd85f-f05d-4a3d-8da8-1a2ad0259629",
+                    "key": "f8badac2-b7c5-45fd-b5b0-e0b2770a0902",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the National Development Plan (NDP) and the Medium-Term Strategic Framework (MTSF) to the department?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['NDP', 'MTSF', 'department', 'mandate', 'priorities', 'government', 'goals']"
+                        "NDP",
+                        "MTSF",
+                        "department",
+                        "mandate",
+                        "priorities",
+                        "government",
+                        "goals"
                     ],
-                    "expected_output": [
-                        "The NDP and MTSF are important frameworks that guide the department's mandate and priorities, and help the department to contribute to the government's overall goals."
-                    ]
+                    "expected_output": "The NDP and MTSF are important frameworks that guide the department's mandate and priorities, and help the department to contribute to the government's overall goals."
                 },
                 {
-                    "key": "6f020c96-a7c2-4abd-8493-d156f1ecf8b7",
+                    "key": "1daa57c4-375c-4992-97ab-689353b43069",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the COVID-19 pandemic affect the department's performance in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['negative', 'impact']"
+                        "negative",
+                        "impact"
                     ],
-                    "expected_output": [
-                        "The COVID-19 pandemic had a negative impact on the department's service delivery operations and performance, particularly in the immigration services, which were severely affected by the disruption of services and capacitation of staff."
-                    ]
+                    "expected_output": "The COVID-19 pandemic had a negative impact on the department's service delivery operations and performance, particularly in the immigration services, which were severely affected by the disruption of services and capacitation of staff."
                 },
                 {
-                    "key": "6fc77081-6e34-46ee-ad77-cbbfecc7fb4b",
+                    "key": "77b137bd-ecd2-4067-8d51-f9080d266514",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Critical Skills List?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['facilitate', 'importation', 'critical', 'skills', 'South Africa', 'immigration']"
+                        "facilitate",
+                        "importation",
+                        "critical",
+                        "skills",
+                        "South Africa",
+                        "immigration"
                     ],
-                    "expected_output": [
-                        "The purpose of the Critical Skills List is to facilitate the importation of critical skills into South Africa through a risk-based and strategic approach to immigration."
-                    ]
+                    "expected_output": "The purpose of the Critical Skills List is to facilitate the importation of critical skills into South Africa through a risk-based and strategic approach to immigration."
                 },
                 {
-                    "key": "afbe2223-67d9-401b-a31f-7b20bbe9c941",
+                    "key": "3cfee407-2124-4c5c-ac9a-326fd75f8fa7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the One-Stop Border Posts?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['One-Stop Border Posts', 'upgrading', 'redevelopment', 'six key land ports', 'efficiency', 'effectiveness', 'border management']"
+                        "One-Stop Border Posts",
+                        "upgrading",
+                        "redevelopment",
+                        "six key land ports",
+                        "efficiency",
+                        "effectiveness",
+                        "border management"
                     ],
-                    "expected_output": [
-                        "The One-Stop Border Posts are important for upgrading and redevelopment of the six key land ports of entry, which will improve the efficiency and effectiveness of border management."
-                    ]
+                    "expected_output": "The One-Stop Border Posts are important for upgrading and redevelopment of the six key land ports of entry, which will improve the efficiency and effectiveness of border management."
                 },
                 {
-                    "key": "961e228d-8f3c-416a-a28c-5eda6ab108f8",
+                    "key": "22fa7005-8bf5-4440-ba41-096a672c2632",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the smart ID card?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['security', 'efficiency', 'identity management', 'modern form of identification']"
+                        "security",
+                        "efficiency",
+                        "identity management",
+                        "modern form of identification"
                     ],
-                    "expected_output": [
-                        "The purpose of the smart ID card is to improve the security and efficiency of identity management and to enable all eligible persons to have access to a secure and modern form of identification."
-                    ]
+                    "expected_output": "The purpose of the smart ID card is to improve the security and efficiency of identity management and to enable all eligible persons to have access to a secure and modern form of identification."
                 },
                 {
-                    "key": "50821c5d-f97a-4d82-8282-cee6f9e79136",
+                    "key": "1f208a1d-9a22-476a-94f1-025044521ad0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the War on Queues?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['War', 'Queues', 'departmental', 'initiative', 'aimed', 'reducing', 'waiting', 'times', 'improving', 'customer', 'experience', 'DHA', 'offices']"
+                        "War",
+                        "Queues",
+                        "departmental",
+                        "initiative",
+                        "aimed",
+                        "reducing",
+                        "waiting",
+                        "times",
+                        "improving",
+                        "customer",
+                        "experience",
+                        "DHA",
+                        "offices"
                     ],
-                    "expected_output": [
-                        "The War on Queues is a departmental initiative aimed at reducing waiting times and improving the overall customer experience in DHA offices."
-                    ]
+                    "expected_output": "The War on Queues is a departmental initiative aimed at reducing waiting times and improving the overall customer experience in DHA offices."
                 },
                 {
-                    "key": "baec2307-e273-4566-b9d9-1c8b47e75d3c",
+                    "key": "0e87f412-1de2-465f-b24a-344dfd4b3eee",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the department perform in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['69%', '68%', 'improvement']"
+                        "69%",
+                        "68%",
+                        "improvement"
                     ],
-                    "expected_output": [
-                        "In the 2021/22 financial year, the department achieved 69% of its APP targets, which is a slight improvement on the 68% performance of the previous year."
-                    ]
+                    "expected_output": "In the 2021/22 financial year, the department achieved 69% of its APP targets, which is a slight improvement on the 68% performance of the previous year."
                 },
                 {
-                    "key": "ec789315-ad9a-4d85-8a57-06cc7ebfc033",
+                    "key": "62051913-3186-4ef9-ad1f-72bc8239beaa",
                     "prompt": "Respond to the following question.\n\nQuestion: What services were not offered by the Department of Home Affairs during the 2021/2022 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Permanent Residence Applications', 'Permanent Residence Appeals', 'Refugee Reception Offices']"
+                        "Permanent Residence Applications",
+                        "Permanent Residence Appeals",
+                        "Refugee Reception Offices"
                     ],
-                    "expected_output": [
-                        "Permanent Residence Applications and Permanent Residence Appeals were not offered for most of the 2021/2022 financial year, and the Refugee Reception Offices remained closed during this period."
-                    ]
+                    "expected_output": "Permanent Residence Applications and Permanent Residence Appeals were not offered for most of the 2021/2022 financial year, and the Refugee Reception Offices remained closed during this period."
                 },
                 {
-                    "key": "b98f3be7-d0f8-4383-8a2b-51b21c047b1e",
+                    "key": "92b3d7fa-3f13-4818-a912-71189cef6b94",
                     "prompt": "Respond to the following question.\n\nQuestion: Why were the Refugee Reception Offices closed during the 2021/2022 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['COVID-19', 'pandemic', 'health facilities']"
+                        "COVID-19",
+                        "pandemic",
+                        "health facilities"
                     ],
-                    "expected_output": [
-                        "The Refugee Reception Offices were closed due to the impact of the COVID-19 pandemic and the resulting limited access to health facilities."
-                    ]
+                    "expected_output": "The Refugee Reception Offices were closed due to the impact of the COVID-19 pandemic and the resulting limited access to health facilities."
                 },
                 {
-                    "key": "848cf0bc-e882-4363-a4c8-939e8df9970f",
+                    "key": "fc1fb038-c241-4864-8ce7-3891a2462a90",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the impact of the COVID-19 pandemic on the civic services environment?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['severely', 'affected', 'backlogs', 'overcrowding', 'inability']"
+                        "severely",
+                        "affected",
+                        "backlogs",
+                        "overcrowding",
+                        "inability"
                     ],
-                    "expected_output": [
-                        "The civic services environment was severely affected by the COVID-19 pandemic, with abrupt office closures and limited access to health facilities. This resulted in backlogs in certain areas, overcrowding in offices, and an inability to service all clients in a day."
-                    ]
+                    "expected_output": "The civic services environment was severely affected by the COVID-19 pandemic, with abrupt office closures and limited access to health facilities. This resulted in backlogs in certain areas, overcrowding in offices, and an inability to service all clients in a day."
                 },
                 {
-                    "key": "8eae8906-6c38-4517-a022-7425f4433458",
+                    "key": "6a8e65dc-2629-4e5a-8b57-79d093a5b95c",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the largest threat facing the operational environment during the review period?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['reduction', 'human', 'capital', 'local', 'offices', 'vacated', 'unable', 'filled', 'acute', 'funding', 'shortages']"
+                        "reduction",
+                        "human",
+                        "capital",
+                        "local",
+                        "offices",
+                        "vacated",
+                        "unable",
+                        "filled",
+                        "acute",
+                        "funding",
+                        "shortages"
                     ],
-                    "expected_output": [
-                        "The largest threat facing the operational environment during the review period was the reduction of human capital at local offices, with 155-line function posts being vacated and unable to be filled due to acute funding shortages."
-                    ]
+                    "expected_output": "The largest threat facing the operational environment during the review period was the reduction of human capital at local offices, with 155-line function posts being vacated and unable to be filled due to acute funding shortages."
                 },
                 {
-                    "key": "c33a188d-6e9c-4d7a-bfbd-5a8fc970ab25",
+                    "key": "02e36123-0e95-4dff-bfd4-5d8f12677654",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the \u201cWar on Queues\u201d programme, and what was its aim?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['War on Queues', 'reducing', 'improving']"
+                        "War on Queues",
+                        "reducing",
+                        "improving"
                     ],
-                    "expected_output": [
-                        "The \u201cWar on Queues\u201d programme was a priority for the department during the period under review, aimed at reducing long queues and improving turnaround/response times."
-                    ]
+                    "expected_output": "The \u201cWar on Queues\u201d programme was a priority for the department during the period under review, aimed at reducing long queues and improving turnaround/response times."
                 },
                 {
-                    "key": "a6d9abe3-7177-41be-8ebe-1874b5ea5050",
+                    "key": "fe8cf6f4-6f04-487e-b5a0-6e91fcba7e27",
                     "prompt": "Respond to the following question.\n\nQuestion: What were some of the key interventions aimed at eradicating queues in the offices?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['BABS', 'Smart ID Cards', 'passports', 'Presidential Infrastructure Priorities']"
+                        "BABS",
+                        "Smart ID Cards",
+                        "passports",
+                        "Presidential Infrastructure Priorities"
                     ],
-                    "expected_output": [
-                        "Some of the key interventions aimed at eradicating queues in the offices included the piloting of Branch Appointment Booking Systems (BABS) in all offices that can process Smart ID Cards and passports, and the inclusion of seven offices in the Presidential Infrastructure Priorities."
-                    ]
+                    "expected_output": "Some of the key interventions aimed at eradicating queues in the offices included the piloting of Branch Appointment Booking Systems (BABS) in all offices that can process Smart ID Cards and passports, and the inclusion of seven offices in the Presidential Infrastructure Priorities."
                 },
                 {
-                    "key": "87501d52-ed0e-41d5-b730-8e911e0a5152",
+                    "key": "2d26df43-d1e3-45eb-ac87-a79bf501bb0a",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the outcome of the pilot project of the online birth registration system?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['successful', 'positive', 'plans']"
+                        "successful",
+                        "positive",
+                        "plans"
                     ],
-                    "expected_output": [
-                        "The pilot project of the online birth registration system was successful, with positive feedback from clients, and the department plans to roll out the system to more offices and increase awareness."
-                    ]
+                    "expected_output": "The pilot project of the online birth registration system was successful, with positive feedback from clients, and the department plans to roll out the system to more offices and increase awareness."
                 },
                 {
-                    "key": "9a44cd2c-da5d-4f9f-be94-ceb3c264b8bb",
+                    "key": "b89440fa-5c93-4c97-8b33-2c54cfc9dfcb",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the ultimate goal of the Early Birth Registration Strategy?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ensure', 'birth', 'certificate']"
+                        "ensure",
+                        "birth",
+                        "certificate"
                     ],
-                    "expected_output": [
-                        "The ultimate goal of the Early Birth Registration Strategy was to capacitate health facilities with maternity wards to ensure that births are registered where they occur and that all children born in these health facilities leave with a birth certificate."
-                    ]
+                    "expected_output": "The ultimate goal of the Early Birth Registration Strategy was to capacitate health facilities with maternity wards to ensure that births are registered where they occur and that all children born in these health facilities leave with a birth certificate."
                 },
                 {
-                    "key": "8b39460a-113f-4d92-a358-893948b1e51a",
+                    "key": "cd064a17-432d-4d14-abe8-fa482358559b",
                     "prompt": "Respond to the following question.\n\nQuestion: How many health facilities were responsible for 85% of births delivered, and how many have been covered by the department so far?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['251', '160', '63%', '91', '22%']"
+                        "251",
+                        "160",
+                        "63%",
+                        "91",
+                        "22%"
                     ],
-                    "expected_output": [
-                        "Approximately 85% of births are delivered in 251 health facilities, and the department has managed to have a presence in 160 health facilities responsible for 63% of births delivered. However, the department has not been able to complete the remaining 91 facilities responsible for 22% of birth occurrence due to lack of resource."
-                    ]
+                    "expected_output": "Approximately 85% of births are delivered in 251 health facilities, and the department has managed to have a presence in 160 health facilities responsible for 63% of births delivered. However, the department has not been able to complete the remaining 91 facilities responsible for 22% of birth occurrence due to lack of resource."
                 },
                 {
-                    "key": "3d82b5ef-4a7b-4084-9aeb-14ed5b8ae476",
+                    "key": "b3681531-17d2-42d6-85a5-4a6607eab1b8",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department\u2019s plan to address the remaining 91 facilities?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['submit', 'business', 'case', 'National', 'Treasury', 'request', 'additional', 'funding', 'remaining', 'health', 'facilities', 'self-financing']"
+                        "submit",
+                        "business",
+                        "case",
+                        "National",
+                        "Treasury",
+                        "request",
+                        "additional",
+                        "funding",
+                        "remaining",
+                        "health",
+                        "facilities",
+                        "self-financing"
                     ],
-                    "expected_output": [
-                        "The department plans to submit a business case to National Treasury to request additional funding for the funding of the remaining health facilities and also look at self-financing."
-                    ]
+                    "expected_output": "The department plans to submit a business case to National Treasury to request additional funding for the funding of the remaining health facilities and also look at self-financing."
                 },
                 {
-                    "key": "0019694f-46ae-4e97-9fd5-2098c1b82294",
+                    "key": "29dcad5c-dcd5-4adb-9939-37a731a3cd60",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the purpose of the Green Paper on Marriages that was gazetted in April 2021?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['gather', 'public', 'comments', 'input', 'proposed', 'policy', 'framework', 'legislation', 'marriages', 'South Africa']"
+                        "gather",
+                        "public",
+                        "comments",
+                        "input",
+                        "proposed",
+                        "policy",
+                        "framework",
+                        "legislation",
+                        "marriages",
+                        "South Africa"
                     ],
-                    "expected_output": [
-                        "The purpose of the Green Paper on Marriages was to gather public comments and input on the proposed policy framework for a new single legislation that will regulate all marriages in South Africa."
-                    ]
+                    "expected_output": "The purpose of the Green Paper on Marriages was to gather public comments and input on the proposed policy framework for a new single legislation that will regulate all marriages in South Africa."
                 },
                 {
-                    "key": "580ffe33-d53f-4cd6-a7a8-4a971a9355c4",
+                    "key": "3f79df93-b9f3-4995-b28b-cda08bd46a16",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the outcome of the consultation process on the Green Paper on Marriages?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['over', '1000', 'comments', 'public', 'stakeholders', 'policy', 'proposal', 'revised', 'draft', 'White', 'Paper']"
+                        "over",
+                        "1000",
+                        "comments",
+                        "public",
+                        "stakeholders",
+                        "policy",
+                        "proposal",
+                        "revised",
+                        "draft",
+                        "White",
+                        "Paper"
                     ],
-                    "expected_output": [
-                        "The consultation process resulted in the submission of over 1000 comments from the public and stakeholders, which were used to revise and improve the policy proposal. The revised policy was then submitted to Cabinet as a draft White Paper."
-                    ]
+                    "expected_output": "The consultation process resulted in the submission of over 1000 comments from the public and stakeholders, which were used to revise and improve the policy proposal. The revised policy was then submitted to Cabinet as a draft White Paper."
                 },
                 {
-                    "key": "af0d1c20-c9db-438c-bb5c-597b335ba123",
+                    "key": "a02076bf-eb75-48a2-8943-17093d1b6d06",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main objective of the new marriage legislation that is being developed?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['equality', 'non-discrimination', 'human dignity', 'Constitution of RSA']"
+                        "equality",
+                        "non-discrimination",
+                        "human dignity",
+                        "Constitution of RSA"
                     ],
-                    "expected_output": [
-                        "The main objective of the new marriage legislation is to ensure that all marriages in South Africa are conducted in accordance with the principles of equality, non-discrimination, and human dignity as encapsulated in the Constitution of RSA."
-                    ]
+                    "expected_output": "The main objective of the new marriage legislation is to ensure that all marriages in South Africa are conducted in accordance with the principles of equality, non-discrimination, and human dignity as encapsulated in the Constitution of RSA."
                 },
                 {
-                    "key": "2789149e-e4aa-4030-8b54-e6252dfbb48c",
+                    "key": "ad8d525d-e5d7-4042-b120-3bc0b89918c4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the One-Stop Border Post (OSBP) Policy?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['OSBP', 'South Africa', 'border law enforcement']"
+                        "OSBP",
+                        "South Africa",
+                        "border law enforcement"
                     ],
-                    "expected_output": [
-                        "The OSBP Policy aims to enable the establishment and management of OSBPs in South Africa, which will improve the efficiency and effectiveness of border law enforcement functions by SA officials and border officials of neighboring countries."
-                    ]
+                    "expected_output": "The OSBP Policy aims to enable the establishment and management of OSBPs in South Africa, which will improve the efficiency and effectiveness of border law enforcement functions by SA officials and border officials of neighboring countries."
                 },
                 {
-                    "key": "8bfa0a2f-2b05-4d75-89e2-f06d6f5d36ac",
+                    "key": "d5efa700-2c9a-4140-9383-94bfd9612431",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Official Identity Management (OIM) Policy?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['OIM', 'Policy', 'legislation', 'identities', 'South Africa']"
+                        "OIM",
+                        "Policy",
+                        "legislation",
+                        "identities",
+                        "South Africa"
                     ],
-                    "expected_output": [
-                        "The purpose of the OIM Policy is to guide the drafting of a new Identification legislation that will improve the management of official identities in South Africa."
-                    ]
+                    "expected_output": "The purpose of the OIM Policy is to guide the drafting of a new Identification legislation that will improve the management of official identities in South Africa."
                 },
                 {
-                    "key": "08cc9b75-0804-4a16-9365-31e357bdf0b0",
+                    "key": "9191d9ff-eb11-4ec0-8e6b-a84c5bda2bdb",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the amendment of the Electoral Act 73 of 1998?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['declared', 'unconstitutional', 'amended']"
+                        "declared",
+                        "unconstitutional",
+                        "amended"
                     ],
-                    "expected_output": [
-                        "The Electoral Act 73 of 1998 was amended to address the defects in the electoral law that were declared unconstitutional by the Constitutional Court."
-                    ]
+                    "expected_output": "The Electoral Act 73 of 1998 was amended to address the defects in the electoral law that were declared unconstitutional by the Constitutional Court."
                 },
                 {
-                    "key": "ec896f6d-f475-4347-9e2e-09a19d3d6464",
+                    "key": "1efa7f9c-348e-4fc9-a833-5013308e5595",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the two options proposed by the Ministerial Advisory Committee (MAC) for the electoral system?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['minimalist', 'mixed-member']"
+                        "minimalist",
+                        "mixed-member"
                     ],
-                    "expected_output": [
-                        "The MAC proposed two options: the minimalist model and the mixed-member model."
-                    ]
+                    "expected_output": "The MAC proposed two options: the minimalist model and the mixed-member model."
                 },
                 {
-                    "key": "4e08736d-74b8-4944-9660-d085680cb7dd",
+                    "key": "40a31939-5a24-4f7e-befc-84db4764132d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main difference between the minimalist model and the mixed-member model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['minimalist', 'model', 'mixed-member', 'system']"
+                        "minimalist",
+                        "model",
+                        "mixed-member",
+                        "system"
                     ],
-                    "expected_output": [
-                        "The minimalist model modifies the existing multi-member electoral system to accommodate independent candidates without many changes in the legislation, while the mixed-member model combines the first-past-the-post and proportional representation systems."
-                    ]
+                    "expected_output": "The minimalist model modifies the existing multi-member electoral system to accommodate independent candidates without many changes in the legislation, while the mixed-member model combines the first-past-the-post and proportional representation systems."
                 },
                 {
-                    "key": "309d3fa3-c9ca-4ecd-89f1-91edfa170478",
+                    "key": "db7ccdb0-a402-4310-a09c-f07641a5261d",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the outcome of the public consultations on the Electoral Amendment Bill?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['numerous', 'comments', 'suggestions', 'public', 'stakeholders', 'finalization', 'Bill']"
+                        "numerous",
+                        "comments",
+                        "suggestions",
+                        "public",
+                        "stakeholders",
+                        "finalization",
+                        "Bill"
                     ],
-                    "expected_output": [
-                        "The public consultations on the Electoral Amendment Bill resulted in the submission of numerous comments and suggestions from the public and stakeholders, which will be considered in the finalization of the Bill."
-                    ]
+                    "expected_output": "The public consultations on the Electoral Amendment Bill resulted in the submission of numerous comments and suggestions from the public and stakeholders, which will be considered in the finalization of the Bill."
                 },
                 {
-                    "key": "fd33110d-4306-4b03-a70c-efc32a5c252e",
+                    "key": "54f74b92-a374-45f5-bcda-0c03f259a3b4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the current status of the Electoral Amendment Bill?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['tabled', 'Parliament', 'undergoing', 'public', 'consultations', 'passed', 'law']"
+                        "tabled",
+                        "Parliament",
+                        "undergoing",
+                        "public",
+                        "consultations",
+                        "passed",
+                        "law"
                     ],
-                    "expected_output": [
-                        "The Electoral Amendment Bill was tabled in Parliament on 1 December 2021, and it is currently undergoing public consultations before it can be passed into law."
-                    ]
+                    "expected_output": "The Electoral Amendment Bill was tabled in Parliament on 1 December 2021, and it is currently undergoing public consultations before it can be passed into law."
                 },
                 {
-                    "key": "d2d8cc3c-743d-48a3-af2a-dff394c32604",
+                    "key": "07cafb79-25b0-4aaf-a37c-679a929731be",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Electoral Amendment Bill that was tabled in Parliament in 2021?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['public', 'consultations', 'minimalist', 'model', 'electing', 'MPs', 'single-member', 'constituencies', 'multi-member', 'constituency']"
+                        "public",
+                        "consultations",
+                        "minimalist",
+                        "model",
+                        "electing",
+                        "MPs",
+                        "single-member",
+                        "constituencies",
+                        "multi-member",
+                        "constituency"
                     ],
-                    "expected_output": [
-                        "The purpose of the Electoral Amendment Bill is to enable public consultations on the minimalist model for electing MPs from 200 single-member constituencies and the remainder from a single national multi-member constituency."
-                    ]
+                    "expected_output": "The purpose of the Electoral Amendment Bill is to enable public consultations on the minimalist model for electing MPs from 200 single-member constituencies and the remainder from a single national multi-member constituency."
                 },
                 {
-                    "key": "8995dfa8-beee-4c18-a6d1-d644d159c033",
+                    "key": "7a4f5332-adf6-49f6-9919-538f31f7f119",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the BMA, and what progress has been made towards its establishment?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['BMA', 'Border Management Agency', 'President', 'Commissioner', 'Deputy Commissioner', 'staff']"
+                        "BMA",
+                        "Border Management Agency",
+                        "President",
+                        "Commissioner",
+                        "Deputy Commissioner",
+                        "staff"
                     ],
-                    "expected_output": [
-                        "The BMA stands for Border Management Agency, and notable progress has been made towards its establishment, including the signing of a BMA Commencement proclamation by the President, the appointment of a Commissioner and Deputy Commissioner, and the recruitment of staff to fill strategic positions."
-                    ]
+                    "expected_output": "The BMA stands for Border Management Agency, and notable progress has been made towards its establishment, including the signing of a BMA Commencement proclamation by the President, the appointment of a Commissioner and Deputy Commissioner, and the recruitment of staff to fill strategic positions."
                 },
                 {
-                    "key": "be0a3dd8-a732-4299-83a9-e30e5eeb4293",
+                    "key": "8392eac0-e979-40a0-be7f-c353cf335116",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the BMA Border Guard, and where will they be deployed?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['BMA', 'Border', 'Guard', 'deployed', 'ports', 'entry', 'border', 'law', 'enforcement', 'area']"
+                        "BMA",
+                        "Border",
+                        "Guard",
+                        "deployed",
+                        "ports",
+                        "entry",
+                        "border",
+                        "law",
+                        "enforcement",
+                        "area"
                     ],
-                    "expected_output": [
-                        "The BMA Border Guard will be capacitated and deployed at identified ports of entry and within the border law enforcement area."
-                    ]
+                    "expected_output": "The BMA Border Guard will be capacitated and deployed at identified ports of entry and within the border law enforcement area."
                 },
                 {
-                    "key": "453b511c-328d-4b19-9dff-bedec228aa87",
+                    "key": "faefd763-1df3-487e-bc2f-3bd25033f4f9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the delegation of authority to the BMA Commissioner, and what functions will be transferred?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['transfer', 'frontline', 'immigration', 'functions', 'personnel', 'ports', 'entry', 'BMA']"
+                        "transfer",
+                        "frontline",
+                        "immigration",
+                        "functions",
+                        "personnel",
+                        "ports",
+                        "entry",
+                        "BMA"
                     ],
-                    "expected_output": [
-                        "The purpose of the delegation of authority is to transfer frontline immigration functions and personnel at ports of entry to the BMA."
-                    ]
+                    "expected_output": "The purpose of the delegation of authority is to transfer frontline immigration functions and personnel at ports of entry to the BMA."
                 },
                 {
-                    "key": "5fac3be0-d82e-4d41-b80f-b36e8bc646f3",
+                    "key": "14159414-c8d5-44ae-9cf9-bae35a14c5f4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the status of the Section 97 proclamations, and what functions were not transferred?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['not finalized', 'not received', 'not completed']"
+                        "not finalized",
+                        "not received",
+                        "not completed"
                     ],
-                    "expected_output": [
-                        "The Section 97 proclamations were not finalized as concurrence on certain functions, such as health functions, was not received. As a result, the transfer of frontline functions into the BMA was not completed."
-                    ]
+                    "expected_output": "The Section 97 proclamations were not finalized as concurrence on certain functions, such as health functions, was not received. As a result, the transfer of frontline functions into the BMA was not completed."
                 },
                 {
-                    "key": "03dd7288-55f0-4c5c-9406-48a6bef3b8df",
+                    "key": "32bb97fc-1cf1-4402-a352-3cee68df348f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the interim custodial powers, duties, and responsibilities assigned to the Minister of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Oshoek', 'Lebombo', 'Ficksburg', 'Maseru']"
+                        "Oshoek",
+                        "Lebombo",
+                        "Ficksburg",
+                        "Maseru"
                     ],
-                    "expected_output": [
-                        "The purpose of the interim custodial powers, duties, and responsibilities assigned to the Minister of Home Affairs is to manage the Oshoek, Lebombo, Ficksburg, and Maseru ports of entry."
-                    ]
+                    "expected_output": "The purpose of the interim custodial powers, duties, and responsibilities assigned to the Minister of Home Affairs is to manage the Oshoek, Lebombo, Ficksburg, and Maseru ports of entry."
                 },
                 {
-                    "key": "8d794421-6b57-42d1-a586-4a3db1732fba",
+                    "key": "a2d86bd7-688d-4be0-a1a6-286728173164",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the plan for rolling out the BMA in the 2022/23 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['incorporate', 'frontline', 'Immigration', 'Port', 'Health', 'Agriculture', 'Access', 'Control', 'functions', 'BMA', '46', 'ports', 'entry']"
+                        "incorporate",
+                        "frontline",
+                        "Immigration",
+                        "Port",
+                        "Health",
+                        "Agriculture",
+                        "Access",
+                        "Control",
+                        "functions",
+                        "BMA",
+                        "46",
+                        "ports",
+                        "entry"
                     ],
-                    "expected_output": [
-                        "The plan for rolling out the BMA in the 2022/23 financial year is to incorporate frontline Immigration, Port Health, Agriculture, and Access Control functions into the BMA at 46 ports of entry."
-                    ]
+                    "expected_output": "The plan for rolling out the BMA in the 2022/23 financial year is to incorporate frontline Immigration, Port Health, Agriculture, and Access Control functions into the BMA at 46 ports of entry."
                 },
                 {
-                    "key": "92a42e68-96e9-425e-82ec-43b79f4d5257",
+                    "key": "0e0ac64a-e784-4614-9b8c-763f60d4800a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the current staff complement of the DHA, and what is the approved structure?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['8,277', '19,886']"
+                        "8,277",
+                        "19,886"
                     ],
-                    "expected_output": [
-                        "The current staff complement of the DHA is 8,277 employees, while the approved structure provides for 19,886 posts."
-                    ]
+                    "expected_output": "The current staff complement of the DHA is 8,277 employees, while the approved structure provides for 19,886 posts."
                 },
                 {
-                    "key": "5e60de9b-3fd1-4fdf-967a-047bb40f2641",
+                    "key": "416a6314-9b10-4ec9-ad51-f2dff9d6522e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the capacitation business case developed by the DHA?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['capacitation', 'business', 'case', 'department', 'core', 'business']"
+                        "capacitation",
+                        "business",
+                        "case",
+                        "department",
+                        "core",
+                        "business"
                     ],
-                    "expected_output": [
-                        "The purpose of the capacitation business case is to address the capacity challenges experienced by the department, with a focus on core business."
-                    ]
+                    "expected_output": "The purpose of the capacitation business case is to address the capacity challenges experienced by the department, with a focus on core business."
                 },
                 {
-                    "key": "daf56b9b-d993-46d2-90a6-e78709b62774",
+                    "key": "b905bed6-353b-4018-a344-b3228d8aaf32",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the outcome of the Task Team launched to review the issuance of permits?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['fraud', 'financial year']"
+                        "fraud",
+                        "financial year"
                     ],
-                    "expected_output": [
-                        "The Task Team found numerous areas where fraud was taking place, and the department is focused on implementing the recommendations of the Task Team in the 2022/23 financial year."
-                    ]
+                    "expected_output": "The Task Team found numerous areas where fraud was taking place, and the department is focused on implementing the recommendations of the Task Team in the 2022/23 financial year."
                 },
                 {
-                    "key": "26da059a-9fa3-450a-b18b-8529a8f8eb11",
+                    "key": "c7ceb5da-e885-418d-a9b0-fe9f43ba302a",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the purpose of the march by 20,000 women to the Union Buildings in 1956?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['protesting', 'apartheid']"
+                        "protesting",
+                        "apartheid"
                     ],
-                    "expected_output": [
-                        "The women were protesting against the carrying of passes by women and the restrictive laws of the apartheid government."
-                    ]
+                    "expected_output": "The women were protesting against the carrying of passes by women and the restrictive laws of the apartheid government."
                 },
                 {
-                    "key": "16d9ce37-e029-420b-96e2-fb48f5df8de7",
+                    "key": "060adc88-d9b3-4ad3-9a3c-34e327f79035",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the fundamental right that every employee of the Department of Home Affairs is constitutionally mandated to defend for all persons?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['freedom', 'justice', 'security']"
+                        "freedom",
+                        "justice",
+                        "security"
                     ],
-                    "expected_output": [
-                        "The fundamental right is the right to freedom, justice, and security."
-                    ]
+                    "expected_output": "The fundamental right is the right to freedom, justice, and security."
                 },
                 {
-                    "key": "fc25befd-0189-4f57-a9f7-9e54adfb195b",
+                    "key": "69f537d4-7dae-4c67-9ffb-d5d0f3c45bbb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the \u201cscandal of invisibility\u201d that the Department of Home Affairs is working to eliminate?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['lack', 'legal', 'record', 'existence', 'individuals', 'statelessness', 'issues']"
+                        "lack",
+                        "legal",
+                        "record",
+                        "existence",
+                        "individuals",
+                        "statelessness",
+                        "issues"
                     ],
-                    "expected_output": [
-                        "The \u201cscandal of invisibility\u201d refers to the lack of legal record of existence for some individuals, which can lead to statelessness and other issues."
-                    ]
+                    "expected_output": "The \u201cscandal of invisibility\u201d refers to the lack of legal record of existence for some individuals, which can lead to statelessness and other issues."
                 },
                 {
-                    "key": "90092662-44fe-4c63-b1de-1095b84c31f3",
+                    "key": "679d2771-db1e-41cd-8eca-209b15e0f030",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the services that the Department of Home Affairs provides to safeguard the sovereignty and national security of the State?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['registering', 'issuing', 'granting']"
+                        "registering",
+                        "issuing",
+                        "granting"
                     ],
-                    "expected_output": [
-                        "The Department provides services such as registering births, affirming identities, issuing identity documents, passports, and marriage and death certificates, and granting citizenship and visas to qualifying non-citizens."
-                    ]
+                    "expected_output": "The Department provides services such as registering births, affirming identities, issuing identity documents, passports, and marriage and death certificates, and granting citizenship and visas to qualifying non-citizens."
                 },
                 {
-                    "key": "2c688339-af40-45e1-8609-0d65e033d19a",
+                    "key": "db20227f-6e6c-4389-a493-26e7004f19e5",
                     "prompt": "Respond to the following question.\n\nQuestion: How much was the allocation for the Department of Home Affairs in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R9.431 billion']"
+                        "R9.431 billion"
                     ],
-                    "expected_output": [
-                        "The allocation for the Department of Home Affairs in the 2021/22 financial year was R9.431 billion."
-                    ]
+                    "expected_output": "The allocation for the Department of Home Affairs in the 2021/22 financial year was R9.431 billion."
                 },
                 {
-                    "key": "f1cc316a-65b4-4a09-88fb-049ce2abfb1c",
+                    "key": "322d7db4-f605-4221-ba7b-6721581ab4a2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the United Nations\u2019 Sustainable Development Goal that the Department of Home Affairs is working towards in relation to birth registration?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['16']"
+                        "16"
                     ],
-                    "expected_output": [
-                        "The Department is working towards Sustainable Development Goal 16, which aims to provide access to justice, end the scandal of invisibility, statelessness, trafficking of children, and provide legal identity for all, including birth registration by 2030."
-                    ]
+                    "expected_output": "The Department is working towards Sustainable Development Goal 16, which aims to provide access to justice, end the scandal of invisibility, statelessness, trafficking of children, and provide legal identity for all, including birth registration by 2030."
                 },
                 {
-                    "key": "76e98247-b679-4a2a-87a5-ab5d032b24b8",
+                    "key": "637960b3-9c3d-474e-870c-dfdd32282336",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the target set by the Department of Home Affairs for registering births within 30 calendar days in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['750,000']"
+                        "750,000"
                     ],
-                    "expected_output": [
-                        "The target set by the Department was to register 750,000 births within 30 calendar days."
-                    ]
+                    "expected_output": "The target set by the Department was to register 750,000 births within 30 calendar days."
                 },
                 {
-                    "key": "42bb2f6c-bca9-4e06-b878-a6bbf2524189",
+                    "key": "56a955db-afab-4069-a832-42ceaa7f8853",
                     "prompt": "Respond to the following question.\n\nQuestion: How many births were registered by the Department of Home Affairs in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['1,016,684']"
+                        "1,016,684"
                     ],
-                    "expected_output": [
-                        "The Department registered 1,016,684 births in the 2021/22 financial year."
-                    ]
+                    "expected_output": "The Department registered 1,016,684 births in the 2021/22 financial year."
                 },
                 {
-                    "key": "33f6047f-5f4e-4389-93c8-200d6357593c",
+                    "key": "3d93ec02-6eec-4212-b56a-1f0023ddaba9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the current rate of birth registration in South Africa, according to the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['85%', '83%', 'NDP']"
+                        "85%",
+                        "83%",
+                        "NDP"
                     ],
-                    "expected_output": [
-                        "The current rate of birth registration in South Africa is 85%, which has improved from 83% since the National Development Plan (NDP) was launched in 2012."
-                    ]
+                    "expected_output": "The current rate of birth registration in South Africa is 85%, which has improved from 83% since the National Development Plan (NDP) was launched in 2012."
                 },
                 {
-                    "key": "6225ffb5-6c27-44e6-88d7-12f1300aa9b6",
+                    "key": "e9e75b40-7633-494e-a499-1d290729b987",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main objective of the Department of Home Affairs\u2019 Birth Optimisation Strategy?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Ensure', 'all', 'births', 'timeously', 'registered', 'no', 'child', 'unregistered', 'South Africa']"
+                        "Ensure",
+                        "all",
+                        "births",
+                        "timeously",
+                        "registered",
+                        "no",
+                        "child",
+                        "unregistered",
+                        "South Africa"
                     ],
-                    "expected_output": [
-                        "The main objective of the Department\u2019s Birth Optimisation Strategy is to ensure that all births are timeously registered and that no child\u2019s birth is left unregistered in South Africa."
-                    ]
+                    "expected_output": "The main objective of the Department\u2019s Birth Optimisation Strategy is to ensure that all births are timeously registered and that no child\u2019s birth is left unregistered in South Africa."
                 },
                 {
-                    "key": "b898cef1-424c-4e7f-8afc-2b3cab222543",
+                    "key": "171492d0-969f-4554-ace1-b78e39be40de",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the improvement in the DHA's status between 2014 and 2022?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['33.4%', '85%']"
+                        "33.4%",
+                        "85%"
                     ],
-                    "expected_output": [
-                        "The DHA's status improved from 33.4% in 2014 to 85% in 2022."
-                    ]
+                    "expected_output": "The DHA's status improved from 33.4% in 2014 to 85% in 2022."
                 },
                 {
-                    "key": "ac4d4663-9a47-4653-804f-45e9dbd2574c",
+                    "key": "c596a806-611d-4031-8e61-3d9ce0bc6ef7",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the target set by the department for registering births in 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['750,000', '30']"
+                        "750,000",
+                        "30"
                     ],
-                    "expected_output": [
-                        "The department set a target of registering 750,000 births within 30 calendar days in 2021/22."
-                    ]
+                    "expected_output": "The department set a target of registering 750,000 births within 30 calendar days in 2021/22."
                 },
                 {
-                    "key": "52b99b64-bc6b-4753-886f-cbf5c2fb5f9f",
+                    "key": "04908e8f-0007-470c-bb8d-4b70fa3ae34e",
                     "prompt": "Respond to the following question.\n\nQuestion: How many births were registered by the department in 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['1,016,684']"
+                        "1,016,684"
                     ],
-                    "expected_output": [
-                        "The department registered 1,016,684 births in 2021/22, of which 751,025 were registered within 30 calendar days."
-                    ]
+                    "expected_output": "The department registered 1,016,684 births in 2021/22, of which 751,025 were registered within 30 calendar days."
                 },
                 {
-                    "key": "f1656276-c314-45f0-af02-a50763b396a6",
+                    "key": "9b00aa8f-bcf8-4444-aeba-e31b7b5048b4",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the positive impact of health facilities on birth registrations in 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['42.3%', '33.4%']"
+                        "42.3%",
+                        "33.4%"
                     ],
-                    "expected_output": [
-                        "The positive impact of health facilities was demonstrated by the 42.3% of births registered in 2021/2022, which were done at health facilities, an increase from 33.4% in 2020/2021."
-                    ]
+                    "expected_output": "The positive impact of health facilities was demonstrated by the 42.3% of births registered in 2021/2022, which were done at health facilities, an increase from 33.4% in 2020/2021."
                 },
                 {
-                    "key": "4919d4f6-468e-42c6-abfc-eacec56d2647",
+                    "key": "4aff7f7d-cff7-44e7-978a-3edd19d414cd",
                     "prompt": "Respond to the following question.\n\nQuestion: How many smart ID cards had been issued to South African citizens by the end of 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['19 million']"
+                        "19 million"
                     ],
-                    "expected_output": [
-                        "By the end of 2021/2022, more than 19 million South African citizens had been issued with smart ID cards."
-                    ]
+                    "expected_output": "By the end of 2021/2022, more than 19 million South African citizens had been issued with smart ID cards."
                 },
                 {
-                    "key": "9fdd7376-d946-4619-be4b-8f6d5cb74b60",
+                    "key": "84a16f44-a3e9-4855-8a3e-2ad4cc77c5af",
                     "prompt": "Respond to the following question.\n\nQuestion: How many mobile units were procured by the department in 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['10']"
+                        "10"
                     ],
-                    "expected_output": [
-                        "The department procured 10 additional mobile units in 2021/22, in addition to the 100 mobile units already in operation."
-                    ]
+                    "expected_output": "The department procured 10 additional mobile units in 2021/22, in addition to the 100 mobile units already in operation."
                 },
                 {
-                    "key": "87a70fa5-9ea2-4c07-8ebd-a870c4f866c9",
+                    "key": "c14822d0-707b-4ae7-b255-7002367e4801",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the impact of the mobile units on the department's school Smart ID Campaign?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['enabled', 'reach', 'rural', 'remote', 'schools']"
+                        "enabled",
+                        "reach",
+                        "rural",
+                        "remote",
+                        "schools"
                     ],
-                    "expected_output": [
-                        "The mobile units enabled the department to reach out to areas with little or no Home Affairs footprint, especially in rural and remote areas, and benefited both urban and rural schools."
-                    ]
+                    "expected_output": "The mobile units enabled the department to reach out to areas with little or no Home Affairs footprint, especially in rural and remote areas, and benefited both urban and rural schools."
                 },
                 {
-                    "key": "cc6a85e1-0e91-45b0-aa52-2e0ce87b77f8",
+                    "key": "6be655b1-5afc-4643-9022-5aec94affc3f",
                     "prompt": "Respond to the following question.\n\nQuestion: How many learners were targeted by the department's school Smart ID Campaign in 2021?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['2,560']"
+                        "2,560"
                     ],
-                    "expected_output": [
-                        "The department targeted learners doing grade 12, ensuring that South African learners sat for their examinations already in possession of a Smart ID Card, and reduced the number of learners starting their grade 12 without identity documents from 8,187 in 2020 to 2,560 in 2021 academic year."
-                    ]
+                    "expected_output": "The department targeted learners doing grade 12, ensuring that South African learners sat for their examinations already in possession of a Smart ID Card, and reduced the number of learners starting their grade 12 without identity documents from 8,187 in 2020 to 2,560 in 2021 academic year."
                 },
                 {
-                    "key": "0cc05993-1b72-4354-b51a-e884a196632e",
+                    "key": "24a8a525-02e3-4c99-8333-42efda8e832a",
                     "prompt": "Respond to the following question.\n\nQuestion: How many schools did the department visit in partnership with the Department of Basic Education in 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['1011']"
+                        "1011"
                     ],
-                    "expected_output": [
-                        "The department visited 1011 schools in partnership with the Department of Basic Education in 2021/22."
-                    ]
+                    "expected_output": "The department visited 1011 schools in partnership with the Department of Basic Education in 2021/22."
                 },
                 {
-                    "key": "69d890bc-26db-4a14-97ee-4e64db8e0694",
+                    "key": "1fd9d152-93ed-4ab0-b3aa-ac9c134c009e",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the department's system downtime in 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['live capture system', 'production loss', 'business hours', 'business days']"
+                        "live capture system",
+                        "production loss",
+                        "business hours",
+                        "business days"
                     ],
-                    "expected_output": [
-                        "The department's system downtime was due to the live capture system, which resulted in a production loss exceeding 682 business hours, or 28 business days."
-                    ]
+                    "expected_output": "The department's system downtime was due to the live capture system, which resulted in a production loss exceeding 682 business hours, or 28 business days."
                 },
                 {
-                    "key": "b8799716-93d3-4e8f-b32c-70a96d5d1a9d",
+                    "key": "d43c3357-30ce-4ee2-b82d-d602a8c3169d",
                     "prompt": "Respond to the following question.\n\nQuestion: How many applications were missed due to downtimes in 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['approximately', '200,000']"
+                        "approximately",
+                        "200,000"
                     ],
-                    "expected_output": [
-                        "The potential number of applications missed due to downtimes was approximately 200,000."
-                    ]
+                    "expected_output": "The potential number of applications missed due to downtimes was approximately 200,000."
                 },
                 {
-                    "key": "1c067c5c-2c57-4b21-88fd-52e967a7f3ea",
+                    "key": "19a21b20-ddb1-4007-8877-d318a7090bdf",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main objective of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['secure', 'efficient', 'accessible', 'services', 'enabling', 'documents', 'citizens', 'residents', 'ports', 'entry', 'South Africa']"
+                        "secure",
+                        "efficient",
+                        "accessible",
+                        "services",
+                        "enabling",
+                        "documents",
+                        "citizens",
+                        "residents",
+                        "ports",
+                        "entry",
+                        "South Africa"
                     ],
-                    "expected_output": [
-                        "The main objective of the Department of Home Affairs is to provide secure, efficient, and accessible services and enabling documents to citizens and residents, and to facilitate and regulate the secure movement of people through ports of entry into and out of South Africa."
-                    ]
+                    "expected_output": "The main objective of the Department of Home Affairs is to provide secure, efficient, and accessible services and enabling documents to citizens and residents, and to facilitate and regulate the secure movement of people through ports of entry into and out of South Africa."
                 },
                 {
-                    "key": "16c2427b-4753-42a5-87af-7881010dfc47",
+                    "key": "db355875-f869-4793-b31f-af3837fd1074",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the four programmes that the Department of Home Affairs is organized into?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Administration', 'Citizen Affairs', 'Immigration Affairs', 'Institutional Support and Transfers']"
+                        "Administration",
+                        "Citizen Affairs",
+                        "Immigration Affairs",
+                        "Institutional Support and Transfers"
                     ],
-                    "expected_output": [
-                        "The four programmes that the Department of Home Affairs is organized into are: Administration, Citizen Affairs, Immigration Affairs, and Institutional Support and Transfers."
-                    ]
+                    "expected_output": "The four programmes that the Department of Home Affairs is organized into are: Administration, Citizen Affairs, Immigration Affairs, and Institutional Support and Transfers."
                 },
                 {
-                    "key": "358c7f90-4180-4ae0-996f-aa9ade99b14f",
+                    "key": "5aa41ca5-6c20-434f-9291-acc6bceecc04",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Programme 2: Citizen Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['secure', 'efficient', 'accessible', 'services', 'enabling', 'documents', 'citizens', 'residents', 'registration', 'birth', 'population', 'register']"
+                        "secure",
+                        "efficient",
+                        "accessible",
+                        "services",
+                        "enabling",
+                        "documents",
+                        "citizens",
+                        "residents",
+                        "registration",
+                        "birth",
+                        "population",
+                        "register"
                     ],
-                    "expected_output": [
-                        "The purpose of Programme 2: Citizen Affairs is to provide secure, efficient, and accessible services and enabling documents to citizens and residents, and to ensure that registration at birth is the only entry point to the population register."
-                    ]
+                    "expected_output": "The purpose of Programme 2: Citizen Affairs is to provide secure, efficient, and accessible services and enabling documents to citizens and residents, and to ensure that registration at birth is the only entry point to the population register."
                 },
                 {
-                    "key": "93e075a0-4e72-4c5a-87cb-6195808d71e1",
+                    "key": "5bac6b63-f1b9-485d-a76b-d0ef0eca7192",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Programme 3: Immigration Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['facilitate', 'regulate', 'secure', 'movement', 'people', 'ports', 'entry', 'South Africa', 'asylum', 'seekers', 'refugee', 'affairs']"
+                        "facilitate",
+                        "regulate",
+                        "secure",
+                        "movement",
+                        "people",
+                        "ports",
+                        "entry",
+                        "South Africa",
+                        "asylum",
+                        "seekers",
+                        "refugee",
+                        "affairs"
                     ],
-                    "expected_output": [
-                        "The purpose of Programme 3: Immigration Affairs is to facilitate and regulate the secure movement of people through ports of entry into and out of South Africa, to determine the status of asylum seekers, and to regulate refugee affairs."
-                    ]
+                    "expected_output": "The purpose of Programme 3: Immigration Affairs is to facilitate and regulate the secure movement of people through ports of entry into and out of South Africa, to determine the status of asylum seekers, and to regulate refugee affairs."
                 },
                 {
-                    "key": "1423358d-addc-49bf-9ec4-5cfd3fd7dcb9",
+                    "key": "bb28ea5f-ba7b-4da3-af15-14b4f82436e3",
                     "prompt": "Respond to the following question.\n\nQuestion: How much was the budget allocated to the provinces for service delivery coordination in the 2022/23 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R2 billion']"
+                        "R2 billion"
                     ],
-                    "expected_output": [
-                        "The budget allocated to the provinces for service delivery coordination in the 2022/23 financial year exceeded R2 billion per annum."
-                    ]
+                    "expected_output": "The budget allocated to the provinces for service delivery coordination in the 2022/23 financial year exceeded R2 billion per annum."
                 },
                 {
-                    "key": "8c71f63e-0872-4036-9c60-6371306fcef0",
+                    "key": "5c226c5f-a30d-4b7b-bb52-9421245974d3",
                     "prompt": "Respond to the following question.\n\nQuestion: Who is the current Director-General of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Mr.', 'L. T.', 'Makhode']"
+                        "Mr.",
+                        "L. T.",
+                        "Makhode"
                     ],
-                    "expected_output": [
-                        "The current Director-General of the Department of Home Affairs is Mr. L. T. Makhode."
-                    ]
+                    "expected_output": "The current Director-General of the Department of Home Affairs is Mr. L. T. Makhode."
                 },
                 {
-                    "key": "b33eda3e-af52-4a4f-8cee-47a551d36b23",
+                    "key": "e23b8f97-3a33-4133-93b8-7884f110ff91",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Ministry in the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The', 'Ministry', 'in', 'the', 'Department', 'of', 'Home', 'Affairs', 'provides', 'strategic', 'leadership', 'management', 'and', 'support', 'services', 'to', 'the', 'department']"
+                        "The",
+                        "Ministry",
+                        "in",
+                        "the",
+                        "Department",
+                        "of",
+                        "Home",
+                        "Affairs",
+                        "provides",
+                        "strategic",
+                        "leadership",
+                        "management",
+                        "and",
+                        "support",
+                        "services",
+                        "to",
+                        "the",
+                        "department"
                     ],
-                    "expected_output": [
-                        "The Ministry in the Department of Home Affairs provides strategic leadership, management, and support services to the department."
-                    ]
+                    "expected_output": "The Ministry in the Department of Home Affairs provides strategic leadership, management, and support services to the department."
                 },
                 {
-                    "key": "4f838457-7c07-40ba-b421-1a2c8fdbfca1",
+                    "key": "2f5d7b63-f556-48d0-8c49-c816db3507d3",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of transversal information technology in the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R1 billion', 'strategic leadership', 'management', 'support services']"
+                        "R1 billion",
+                        "strategic leadership",
+                        "management",
+                        "support services"
                     ],
-                    "expected_output": [
-                        "Transversal information technology in the Department of Home Affairs is allocated an annual budget in excess of R1 billion and provides for strategic leadership, management, and support services to the department."
-                    ]
+                    "expected_output": "Transversal information technology in the Department of Home Affairs is allocated an annual budget in excess of R1 billion and provides for strategic leadership, management, and support services to the department."
                 },
                 {
-                    "key": "ac22aba4-77fc-4209-ab13-82bef6840fc0",
+                    "key": "f029f6a9-ad65-4cb0-8860-40c83b947723",
                     "prompt": "Respond to the following question.\n\nQuestion: How has the Covid-19 pandemic affected the operations of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['difficult']"
+                        "difficult"
                     ],
-                    "expected_output": [
-                        "The Covid-19 pandemic has highlighted the centrality of the department within a capable, ethical, and developmental state like never before, and has proven difficult to return to pre-Covid levels of production and to get 100% of staff back at the office."
-                    ]
+                    "expected_output": "The Covid-19 pandemic has highlighted the centrality of the department within a capable, ethical, and developmental state like never before, and has proven difficult to return to pre-Covid levels of production and to get 100% of staff back at the office."
                 },
                 {
-                    "key": "0472b6e2-f426-43db-a858-5b9386a03a85",
+                    "key": "5e6f01b4-4d4d-4c9a-a84f-e8514ecee343",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the critical role that the Department of Home Affairs plays in government and society?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The', 'Department', 'of', 'Home', 'Affairs', 'plays', 'a', 'critical', 'role', 'in', 'government', 'and', 'society']"
+                        "The",
+                        "Department",
+                        "of",
+                        "Home",
+                        "Affairs",
+                        "plays",
+                        "a",
+                        "critical",
+                        "role",
+                        "in",
+                        "government",
+                        "and",
+                        "society"
                     ],
-                    "expected_output": [
-                        "The Department of Home Affairs plays a critical role in government and society by providing essential services such as issuing birth and death certificates, identity documents, and visas throughout all lockdown levels."
-                    ]
+                    "expected_output": "The Department of Home Affairs plays a critical role in government and society by providing essential services such as issuing birth and death certificates, identity documents, and visas throughout all lockdown levels."
                 },
                 {
-                    "key": "1cb5b123-c839-49cf-8320-b475e71777ad",
+                    "key": "4ef7850c-29f2-4091-8039-8df243595953",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Programme 3: Immigration Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['facilitate', 'regulate', 'secure', 'movement', 'people', 'ports', 'entry', 'South Africa', 'asylum', 'seekers', 'refugee', 'affairs']"
+                        "facilitate",
+                        "regulate",
+                        "secure",
+                        "movement",
+                        "people",
+                        "ports",
+                        "entry",
+                        "South Africa",
+                        "asylum",
+                        "seekers",
+                        "refugee",
+                        "affairs"
                     ],
-                    "expected_output": [
-                        "The purpose of Programme 3: Immigration Affairs is to facilitate and regulate the secure movement of people through ports of entry into and out of South Africa, to determine the status of asylum seekers, and to regulate refugee affairs."
-                    ]
+                    "expected_output": "The purpose of Programme 3: Immigration Affairs is to facilitate and regulate the secure movement of people through ports of entry into and out of South Africa, to determine the status of asylum seekers, and to regulate refugee affairs."
                 },
                 {
-                    "key": "af037faf-575d-4389-b3b6-b6e832c0305d",
+                    "key": "ee740e34-4f0b-426d-abbc-604abd356eea",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the objectives of Programme 3: Immigration Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ensure', 'standard', 'service', 'delivery', 'processing', 'enabling', 'documents', 'maintained', 'adjudicated', 'weeks', 'critical', 'skills']"
+                        "ensure",
+                        "standard",
+                        "service",
+                        "delivery",
+                        "processing",
+                        "enabling",
+                        "documents",
+                        "maintained",
+                        "adjudicated",
+                        "weeks",
+                        "critical",
+                        "skills"
                     ],
-                    "expected_output": [
-                        "The objectives of Programme 3: Immigration Affairs are to ensure that the standard of service delivery for processing enabling documents are maintained by ensuring 85% of permanent residence applications (processed and collected within South Africa for selected categories) are adjudicated within 8 months; that 90% of business and general work visa applications (processed and collected within South Africa) are adjudicated within 8 weeks; and that 95% of critical skills visa applications (collected within South Africa) are adjudicated within 4 weeks."
-                    ]
+                    "expected_output": "The objectives of Programme 3: Immigration Affairs are to ensure that the standard of service delivery for processing enabling documents are maintained by ensuring 85% of permanent residence applications (processed and collected within South Africa for selected categories) are adjudicated within 8 months; that 90% of business and general work visa applications (processed and collected within South Africa) are adjudicated within 8 weeks; and that 95% of critical skills visa applications (collected within South Africa) are adjudicated within 4 weeks."
                 },
                 {
-                    "key": "2f222ed0-6a0c-4403-a755-b0019a440d00",
+                    "key": "af1d8cec-9844-49c2-b7f4-1b53d94ac88a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Border Management Authority (BMA)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['BMA', 'border', 'management', 'entity', 'illegal', 'migration', 'terrorist', 'threats', 'porous', 'borders']"
+                        "BMA",
+                        "border",
+                        "management",
+                        "entity",
+                        "illegal",
+                        "migration",
+                        "terrorist",
+                        "threats",
+                        "porous",
+                        "borders"
                     ],
-                    "expected_output": [
-                        "The Border Management Authority (BMA) is responsible for the establishment of the BMA as a Schedule 3A public entity. The BMA will play a key role in integrated and coordinated border management and therefore deal effectively with the extent of illegal migration, potential terrorist threats, porous borders, etc."
-                    ]
+                    "expected_output": "The Border Management Authority (BMA) is responsible for the establishment of the BMA as a Schedule 3A public entity. The BMA will play a key role in integrated and coordinated border management and therefore deal effectively with the extent of illegal migration, potential terrorist threats, porous borders, etc."
                 },
                 {
-                    "key": "0b3f12c1-21fc-4efc-a3e9-41bd602a02f1",
+                    "key": "e890b1cb-a1a2-452c-b016-268402153bbe",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the department of Home Affairs collect revenue?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The', 'department', 'of', 'Home', 'Affairs', 'collects', 'revenue', 'through', 'services', 'facilitation', 'company', 'VFS', 'collect', 'visa', 'permit', 'applications', 'countries', 'abroad', 'South', 'Africa']"
+                        "The",
+                        "department",
+                        "of",
+                        "Home",
+                        "Affairs",
+                        "collects",
+                        "revenue",
+                        "through",
+                        "services",
+                        "facilitation",
+                        "company",
+                        "VFS",
+                        "collect",
+                        "visa",
+                        "permit",
+                        "applications",
+                        "countries",
+                        "abroad",
+                        "South",
+                        "Africa"
                     ],
-                    "expected_output": [
-                        "The department of Home Affairs collects revenue through the services of a visa facilitation company (VFS) to collect visa and permit applications in some countries abroad, as well as within South Africa."
-                    ]
+                    "expected_output": "The department of Home Affairs collects revenue through the services of a visa facilitation company (VFS) to collect visa and permit applications in some countries abroad, as well as within South Africa."
                 },
                 {
-                    "key": "611f9189-9c9c-49b4-971e-93bef859f5f6",
+                    "key": "7627c986-8b7c-42df-a8a9-3f6e1cfb17c4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the e-Visa system?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['eligible travellers', 'online application forms', 'Home Affairs', 'missions abroad']"
+                        "eligible travellers",
+                        "online application forms",
+                        "Home Affairs",
+                        "missions abroad"
                     ],
-                    "expected_output": [
-                        "The purpose of the e-Visa system is to enable eligible travellers to complete the online application forms in the comfort of their homes and submit these to Home Affairs without visiting our missions abroad."
-                    ]
+                    "expected_output": "The purpose of the e-Visa system is to enable eligible travellers to complete the online application forms in the comfort of their homes and submit these to Home Affairs without visiting our missions abroad."
                 },
                 {
-                    "key": "d26710f5-c30a-4ed4-9d56-f87a2e56bcc3",
+                    "key": "fc838b20-dfc6-4ff3-bed1-1c2336624117",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the responsibility of the Minister of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['minister', 'oversight', 'immigration', 'refugee', 'responsibility']"
+                        "minister",
+                        "oversight",
+                        "immigration",
+                        "refugee",
+                        "responsibility"
                     ],
-                    "expected_output": [
-                        "The Minister of Home Affairs has oversight of three statutory bodies: the Immigration Advisory Board, the Refugee Appeals Board and the Standing Committee on Refugee Affairs. The main responsibility of these bodies is to assist the department in discharging its mandate in accordance with the Immigration Act, 2002, and the Refugees Act, 1998."
-                    ]
+                    "expected_output": "The Minister of Home Affairs has oversight of three statutory bodies: the Immigration Advisory Board, the Refugee Appeals Board and the Standing Committee on Refugee Affairs. The main responsibility of these bodies is to assist the department in discharging its mandate in accordance with the Immigration Act, 2002, and the Refugees Act, 1998."
                 },
                 {
-                    "key": "57076a4d-8b04-4dda-81e6-ac4158930c3e",
+                    "key": "0333784a-2469-4104-8851-445e2d483cb2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Independent Electoral Commission (IEC)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Independent Electoral Commission', 'free and fair elections', 'Representative Political Parties Fund']"
+                        "Independent Electoral Commission",
+                        "free and fair elections",
+                        "Representative Political Parties Fund"
                     ],
-                    "expected_output": [
-                        "The Independent Electoral Commission (IEC) is a chapter 9 constitutional institution responsible for ensuring free and fair elections. The IEC is also responsible for the management of the Representative Political Parties Fund."
-                    ]
+                    "expected_output": "The Independent Electoral Commission (IEC) is a chapter 9 constitutional institution responsible for ensuring free and fair elections. The IEC is also responsible for the management of the Representative Political Parties Fund."
                 },
                 {
-                    "key": "90d2e697-e1aa-40e8-99ba-9cad426a3f42",
+                    "key": "d911923a-237b-469c-b828-1beddec17585",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Government Printing Works (GPW)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Government Printing Works', 'passports', 'identity documents']"
+                        "Government Printing Works",
+                        "passports",
+                        "identity documents"
                     ],
-                    "expected_output": [
-                        "The Government Printing Works (GPW) is a government component created in terms of the Public Service Act, 1999. The GPW provides security printing for the State, such as passports and identity documents."
-                    ]
+                    "expected_output": "The Government Printing Works (GPW) is a government component created in terms of the Public Service Act, 1999. The GPW provides security printing for the State, such as passports and identity documents."
                 },
                 {
-                    "key": "f55b6c79-bae2-4bfe-87f2-28a20fdc2844",
+                    "key": "c9305922-5303-4056-a861-6a7b1ae07526",
                     "prompt": "Respond to the following question.\n\nQuestion: How many missions abroad does the department of Home Affairs have?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['32']"
+                        "32"
                     ],
-                    "expected_output": [
-                        "The department of Home Affairs is represented by its employees at 32 missions abroad."
-                    ]
+                    "expected_output": "The department of Home Affairs is represented by its employees at 32 missions abroad."
                 },
                 {
-                    "key": "fa2731cc-5581-4f6d-a7ef-893ee0a6ae5a",
+                    "key": "1c606bb7-a7fe-4274-ab40-6c643661a42c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Presidential economic stimulus package?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['E-visa', 'SA']"
+                        "E-visa",
+                        "SA"
                     ],
-                    "expected_output": [
-                        "The purpose of the Presidential economic stimulus package is to roll-out the E-visa to countries which require visa to visit SA."
-                    ]
+                    "expected_output": "The purpose of the Presidential economic stimulus package is to roll-out the E-visa to countries which require visa to visit SA."
                 },
                 {
-                    "key": "e97dfce5-adb8-4835-aeaf-f50d95211c44",
+                    "key": "3bf62298-8f29-4121-a574-a1dc683d2bbd",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main reason for the non-achievement of the Electoral Act 73 of 1998?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['unconstitutionality', 'requirement', 'adult citizens', 'National Assembly', 'Provincial Legislatures', 'political parties']"
+                        "unconstitutionality",
+                        "requirement",
+                        "adult citizens",
+                        "National Assembly",
+                        "Provincial Legislatures",
+                        "political parties"
                     ],
-                    "expected_output": [
-                        "The main reason for the non-achievement of the Electoral Act 73 of 1998 is the unconstitutionality of the requirement that adult citizens may be elected to the National Assembly (NA) and Provincial Legislatures (PLs) only through their membership of political parties."
-                    ]
+                    "expected_output": "The main reason for the non-achievement of the Electoral Act 73 of 1998 is the unconstitutionality of the requirement that adult citizens may be elected to the National Assembly (NA) and Provincial Legislatures (PLs) only through their membership of political parties."
                 },
                 {
-                    "key": "0d3c8470-59d2-4be4-b4c1-cb7df2c9a0c0",
+                    "key": "acd47f49-7a06-4a99-afbf-003331d2144b",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the directive given by the Constitutional Court in the New Nation Movement NPC and Others v the President of South Africa matter?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The Constitutional Court', 'directed', 'Parliament', 'rectify', 'defective', 'sections', 'Electoral law', '24 months', 'June 2020', 'June 2022']"
+                        "The Constitutional Court",
+                        "directed",
+                        "Parliament",
+                        "rectify",
+                        "defective",
+                        "sections",
+                        "Electoral law",
+                        "24 months",
+                        "June 2020",
+                        "June 2022"
                     ],
-                    "expected_output": [
-                        "The Constitutional Court directed Parliament to rectify the defective sections of the Electoral law within a period of 24 months, from June 2020 to June 2022."
-                    ]
+                    "expected_output": "The Constitutional Court directed Parliament to rectify the defective sections of the Electoral law within a period of 24 months, from June 2020 to June 2022."
                 },
                 {
-                    "key": "47cc78eb-b17b-4b51-9f98-74a9f27241ff",
+                    "key": "7d8d9d9b-ec5b-4648-b804-133c29bef476",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Electoral Amendment Bill tabled in Parliament in 2021?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['rectify', 'unconstitutional', 'Electoral Act', 'public consultations']"
+                        "rectify",
+                        "unconstitutional",
+                        "Electoral Act",
+                        "public consultations"
                     ],
-                    "expected_output": [
-                        "The purpose of the Electoral Amendment Bill is to enable public consultations and to amend the Electoral Act 73 of 1998 to rectify the defective sections declared unconstitutional by the Constitutional Court."
-                    ]
+                    "expected_output": "The purpose of the Electoral Amendment Bill is to enable public consultations and to amend the Electoral Act 73 of 1998 to rectify the defective sections declared unconstitutional by the Constitutional Court."
                 },
                 {
-                    "key": "00416094-b240-4b11-9bd9-e0671bef4c4e",
+                    "key": "2dde479e-0656-4d99-98ec-02b04aa3f268",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the overall performance of the department in achieving its APP targets in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['69%', '68%', 'improvement']"
+                        "69%",
+                        "68%",
+                        "improvement"
                     ],
-                    "expected_output": [
-                        "The department achieved 69% of its APP targets in the 2021/22 financial year, which is a slight improvement from the 68% performance of the previous year."
-                    ]
+                    "expected_output": "The department achieved 69% of its APP targets in the 2021/22 financial year, which is a slight improvement from the 68% performance of the previous year."
                 },
                 {
-                    "key": "de303c34-c9b4-472f-8b68-499a891d91b4",
+                    "key": "3b7bbe9d-f306-4be4-a35c-3f8c9b466f37",
                     "prompt": "Respond to the following question.\n\nQuestion: Which programmes did not achieve their targets and why?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Administration', 'Immigration Affairs', 'Institutional Support and Transfers', 'procurement delays', 'protracted consultation processes', 'Covid-19', 'Section 97 proclamation', 'BMA']"
+                        "Administration",
+                        "Immigration Affairs",
+                        "Institutional Support and Transfers",
+                        "procurement delays",
+                        "protracted consultation processes",
+                        "Covid-19",
+                        "Section 97 proclamation",
+                        "BMA"
                     ],
-                    "expected_output": [
-                        "Programmes that did not achieve their targets include Administration, Immigration Affairs, and Institutional Support and Transfers. The reasons for non-achievement include procurement delays, protracted consultation processes, the impact of Covid-19, and delays in finalising the Section 97 proclamation pertaining to the transfer of functions in respect of the BMA."
-                    ]
+                    "expected_output": "Programmes that did not achieve their targets include Administration, Immigration Affairs, and Institutional Support and Transfers. The reasons for non-achievement include procurement delays, protracted consultation processes, the impact of Covid-19, and delays in finalising the Section 97 proclamation pertaining to the transfer of functions in respect of the BMA."
                 },
                 {
-                    "key": "70588ed3-d255-4a18-aff8-907fb6e03a38",
+                    "key": "4b338883-4be7-4e0b-a94a-50727251fb9a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the reason for the delay in the implementation of the biometric movement control system (BMCS) at 23 selected ports of entry?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['global shortage of computer chips', 'procurement of IT equipment']"
+                        "global shortage of computer chips",
+                        "procurement of IT equipment"
                     ],
-                    "expected_output": [
-                        "The reason for the delay is the global shortage of computer chips, which has affected the procurement of IT equipment."
-                    ]
+                    "expected_output": "The reason for the delay is the global shortage of computer chips, which has affected the procurement of IT equipment."
                 },
                 {
-                    "key": "375ff5ae-bb41-47d9-8914-6b6081d73a13",
+                    "key": "b7b8d820-1b6b-416d-949c-ed70a5518397",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the status of the development of the Asylum seeker and Refugee system onto a live capture prototype?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['prototype', 'not functional', 'SITA']"
+                        "prototype",
+                        "not functional",
+                        "SITA"
                     ],
-                    "expected_output": [
-                        "A prototype was developed in the Quality Assurance environment, but it was not functional. Bid specifications to appoint a service provider to develop and implement a fully functional system are with SITA."
-                    ]
+                    "expected_output": "A prototype was developed in the Quality Assurance environment, but it was not functional. Bid specifications to appoint a service provider to develop and implement a fully functional system are with SITA."
                 },
                 {
-                    "key": "87c679e8-2e1d-4941-b68d-91b60399604f",
+                    "key": "0cd25e06-eb83-4bcf-9377-9aac32cf3024",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the current status of the DHA Bill?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['draft Bill', 'MMM', 'legal drafter', 'Bill', 'procurement']"
+                        "draft Bill",
+                        "MMM",
+                        "legal drafter",
+                        "Bill",
+                        "procurement"
                     ],
-                    "expected_output": [
-                        "The draft Bill was presented to MMM on 17 February 2022, and MMM directed that the draft Bill must be handed to an independent legal drafter to redraft the Bill. The procurement of a legal drafter is in progress."
-                    ]
+                    "expected_output": "The draft Bill was presented to MMM on 17 February 2022, and MMM directed that the draft Bill must be handed to an independent legal drafter to redraft the Bill. The procurement of a legal drafter is in progress."
                 },
                 {
-                    "key": "8904fd72-c01c-4179-aead-957722f3b217",
+                    "key": "c2401d8f-fcf3-4acd-9b6f-9eb07bf6be40",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the reason for the delay in the finalisation of the Green Paper on the management of citizenship, international migration and refugee protection?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The', 'Green', 'Paper', 'was', 'approved', 'by', 'the', 'clusters', 'for', 'submission', 'to', 'Cabinet', 'but', 'the', 'Ministers', 'referred', 'it', 'back', 'for', 'further', 'consultation', 'before', 'final', 'submission', 'to', 'Cabinet', 'for', 'approval', 'to', 'start', 'the', 'public', 'consultation', 'process']"
+                        "The",
+                        "Green",
+                        "Paper",
+                        "was",
+                        "approved",
+                        "by",
+                        "the",
+                        "clusters",
+                        "for",
+                        "submission",
+                        "to",
+                        "Cabinet",
+                        "but",
+                        "the",
+                        "Ministers",
+                        "referred",
+                        "it",
+                        "back",
+                        "for",
+                        "further",
+                        "consultation",
+                        "before",
+                        "final",
+                        "submission",
+                        "to",
+                        "Cabinet",
+                        "for",
+                        "approval",
+                        "to",
+                        "start",
+                        "the",
+                        "public",
+                        "consultation",
+                        "process"
                     ],
-                    "expected_output": [
-                        "The Green Paper was approved by the clusters for submission to Cabinet, but the Ministers referred it back for further consultation before final submission to Cabinet for approval to start the public consultation process."
-                    ]
+                    "expected_output": "The Green Paper was approved by the clusters for submission to Cabinet, but the Ministers referred it back for further consultation before final submission to Cabinet for approval to start the public consultation process."
                 },
                 {
-                    "key": "f6dca2c4-bdfc-4da2-ad0b-b0574ffae08f",
+                    "key": "ccee8377-2c4a-4691-9bd0-76b40af3c2d5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the percentage of critical skills visas adjudicated within 4 weeks for applications processed within South Africa?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['57.2%']"
+                        "57.2%"
                     ],
-                    "expected_output": [
-                        "57.2% (2 790 out of 4 876) of critical skills visas were adjudicated within 4 weeks for applications processed within South Africa. The Covid-19 restrictions limited the number of Immigration officials available to process applications, resulting in down-time and office closures."
-                    ]
+                    "expected_output": "57.2% (2 790 out of 4 876) of critical skills visas were adjudicated within 4 weeks for applications processed within South Africa. The Covid-19 restrictions limited the number of Immigration officials available to process applications, resulting in down-time and office closures."
                 },
                 {
-                    "key": "e7d9c894-a5d8-428b-a09b-ed7d82e25f58",
+                    "key": "8d4ce362-8b31-4fc0-9c41-5657b20eb88e",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the non-achievement of some of the Department of Home Affairs' targets in 2021/22?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Covid-19', 'lockdown', 'regulations', 'limitations', 'officials', 'reporting', 'duty', 'social', 'distancing', 'protocols']"
+                        "Covid-19",
+                        "lockdown",
+                        "regulations",
+                        "limitations",
+                        "officials",
+                        "reporting",
+                        "duty",
+                        "social",
+                        "distancing",
+                        "protocols"
                     ],
-                    "expected_output": [
-                        "The non-achievement of some targets was due to the Covid-19 lockdown regulations, limitations regarding the number of officials reporting for duty, and considering social distancing protocols."
-                    ]
+                    "expected_output": "The non-achievement of some targets was due to the Covid-19 lockdown regulations, limitations regarding the number of officials reporting for duty, and considering social distancing protocols."
                 },
                 {
-                    "key": "b61dacc8-a7dd-43ce-a7d7-d525c0a8f699",
+                    "key": "8bc981a9-dd0c-4787-8a89-92b0d011839d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the BMA, and what is its purpose?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['BMA', 'Border Management Agency', 'government agency', 'South Africa', 'borders', 'immigration', 'customs', 'trade facilitation']"
+                        "BMA",
+                        "Border Management Agency",
+                        "government agency",
+                        "South Africa",
+                        "borders",
+                        "immigration",
+                        "customs",
+                        "trade facilitation"
                     ],
-                    "expected_output": [
-                        "The BMA (Border Management Agency) is a government agency responsible for managing South Africa's borders. Its purpose is to ensure efficient, effective, and secure border management, including immigration, customs, and trade facilitation."
-                    ]
+                    "expected_output": "The BMA (Border Management Agency) is a government agency responsible for managing South Africa's borders. Its purpose is to ensure efficient, effective, and secure border management, including immigration, customs, and trade facilitation."
                 },
                 {
-                    "key": "e411cc97-6294-4f62-90ca-9edb4d53ffac",
+                    "key": "2a8b5277-6143-46e4-9ad2-bdd37420693d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Section 97 proclamation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Section', '97', 'proclamation', 'SAPS', 'SARS', 'Department', 'Health', 'BMA']"
+                        "Section",
+                        "97",
+                        "proclamation",
+                        "SAPS",
+                        "SARS",
+                        "Department",
+                        "Health",
+                        "BMA"
                     ],
-                    "expected_output": [
-                        "The purpose of the Section 97 proclamation is to transfer functions from the South African Police Service (SAPS), the South African Revenue Service (SARS), and the Department of Health to the BMA."
-                    ]
+                    "expected_output": "The purpose of the Section 97 proclamation is to transfer functions from the South African Police Service (SAPS), the South African Revenue Service (SARS), and the Department of Health to the BMA."
                 },
                 {
-                    "key": "d617be0c-a9df-4e1d-b5b9-d6dbb449ceeb",
+                    "key": "536a2b29-17f7-4119-8a26-f39f21ccd4f0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the status of the implementation of the IMS delegations on January 12, 2022?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['introduced', 'manual', 'process', 'parallel', 'online', 'VAS', 'inefficient', 'cumbersome', 'time-consuming']"
+                        "introduced",
+                        "manual",
+                        "process",
+                        "parallel",
+                        "online",
+                        "VAS",
+                        "inefficient",
+                        "cumbersome",
+                        "time-consuming"
                     ],
-                    "expected_output": [
-                        "The implementation of the IMS delegations on January 12, 2022, introduced a manual process parallel to the online VAS process, which is inefficient, cumbersome, and time-consuming."
-                    ]
+                    "expected_output": "The implementation of the IMS delegations on January 12, 2022, introduced a manual process parallel to the online VAS process, which is inefficient, cumbersome, and time-consuming."
                 },
                 {
-                    "key": "fecb8853-657a-4151-8300-4e891dbc5fca",
+                    "key": "23d9f7f9-f0cb-44ad-b432-ecdf2b0477aa",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the reason for the delay in finalizing the BMA Defence implementation protocol?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['lack', 'concurrence', 'health', 'functions']"
+                        "lack",
+                        "concurrence",
+                        "health",
+                        "functions"
                     ],
-                    "expected_output": [
-                        "The reason for the delay in finalizing the BMA Defence implementation protocol is the lack of concurrence on certain functions, such as health functions."
-                    ]
+                    "expected_output": "The reason for the delay in finalizing the BMA Defence implementation protocol is the lack of concurrence on certain functions, such as health functions."
                 },
                 {
-                    "key": "82a055b8-bdf6-479d-8745-8f34728c5575",
+                    "key": "4311261b-d895-430a-bfd7-fe9f25c4021d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the TA IIA application?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The purpose of the TA IIA application is to approve the request for proposal (RfP) document for the redevelopment of six priority land ports of entry.']"
-                    ],
-                    "expected_output": [
                         "The purpose of the TA IIA application is to approve the request for proposal (RfP) document for the redevelopment of six priority land ports of entry."
-                    ]
+                    ],
+                    "expected_output": "The purpose of the TA IIA application is to approve the request for proposal (RfP) document for the redevelopment of six priority land ports of entry."
                 },
                 {
-                    "key": "c8f2a832-6c70-462e-837f-1b132d3cb146",
+                    "key": "d97bdefb-008a-45dc-8de6-2e011fc583ee",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the expected outcome of the TA IIA approval?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['redevelopment', 'six', 'priority', 'land', 'ports', 'entry']"
+                        "redevelopment",
+                        "six",
+                        "priority",
+                        "land",
+                        "ports",
+                        "entry"
                     ],
-                    "expected_output": [
-                        "The expected outcome of the TA IIA approval is the redevelopment of six priority land ports of entry."
-                    ]
+                    "expected_output": "The expected outcome of the TA IIA approval is the redevelopment of six priority land ports of entry."
                 },
                 {
-                    "key": "21556624-fc72-4f53-a2a9-0ace46a68030",
+                    "key": "e72beb2a-b2d5-408c-bff6-076f68f9ce93",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the reason for the under-performance of the Department of Home Affairs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['lack', 'better', 'target', 'setting', 'reducing', 'dependencies', 'achieving', 'targets', 'redrafting', 'individual', 'performance', 'agreements', 'monthly', 'monitoring', 'AOP', 'targets', 'holding', 'managers', 'accountable', 'under', 'poor', 'performance']"
+                        "lack",
+                        "better",
+                        "target",
+                        "setting",
+                        "reducing",
+                        "dependencies",
+                        "achieving",
+                        "targets",
+                        "redrafting",
+                        "individual",
+                        "performance",
+                        "agreements",
+                        "monthly",
+                        "monitoring",
+                        "AOP",
+                        "targets",
+                        "holding",
+                        "managers",
+                        "accountable",
+                        "under",
+                        "poor",
+                        "performance"
                     ],
-                    "expected_output": [
-                        "The reason for the under-performance of the Department of Home Affairs is the lack of better target setting, reducing dependencies on others for achieving targets, redrafting individual performance agreements, monthly monitoring of APP and AOP targets, and holding managers accountable for under or poor performance."
-                    ]
+                    "expected_output": "The reason for the under-performance of the Department of Home Affairs is the lack of better target setting, reducing dependencies on others for achieving targets, redrafting individual performance agreements, monthly monitoring of APP and AOP targets, and holding managers accountable for under or poor performance."
                 },
                 {
-                    "key": "0c478f4b-b8e0-43e7-810c-a0bd58b4480f",
+                    "key": "1246032e-b617-4123-b0e0-d0ac082136f2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Annual Operational Plan (AOP) and the Annual Performance Plan (APP)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['outline', 'department', 'year', 'operational', 'performance', 'targets']"
+                        "outline",
+                        "department",
+                        "year",
+                        "operational",
+                        "performance",
+                        "targets"
                     ],
-                    "expected_output": [
-                        "The purpose of the Annual Operational Plan (AOP) is to outline the department's operational plan for the year, while the purpose of the Annual Performance Plan (APP) is to outline the department's performance targets for the year."
-                    ]
+                    "expected_output": "The purpose of the Annual Operational Plan (AOP) is to outline the department's operational plan for the year, while the purpose of the Annual Performance Plan (APP) is to outline the department's performance targets for the year."
                 },
                 {
-                    "key": "1238795e-e501-47c6-bfe0-6bc4234e452b",
+                    "key": "c5a9f6ce-b251-4487-b23e-f1f8f514ab02",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's goal in terms of service delivery?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['100%', 'clean audit outcome']"
+                        "100%",
+                        "clean audit outcome"
                     ],
-                    "expected_output": [
-                        "The department aims to achieve 100% of its targets and obtain a clean audit outcome while also meeting the demands and expectations of its diverse clientele and stakeholders."
-                    ]
+                    "expected_output": "The department aims to achieve 100% of its targets and obtain a clean audit outcome while also meeting the demands and expectations of its diverse clientele and stakeholders."
                 },
                 {
-                    "key": "53ddba64-f932-472b-b985-5aa5ceceab9a",
+                    "key": "c4f3f520-e971-4748-a7bd-511a16ee6ea3",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the challenges faced by the department in achieving its goals?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['network connectivity', 'systems stability', 'long queues', 'insufficient', 'poor office accommodation']"
+                        "network connectivity",
+                        "systems stability",
+                        "long queues",
+                        "insufficient",
+                        "poor office accommodation"
                     ],
-                    "expected_output": [
-                        "The department faces challenges such as network connectivity, systems stability, long queues, and insufficient and poor office accommodation."
-                    ]
+                    "expected_output": "The department faces challenges such as network connectivity, systems stability, long queues, and insufficient and poor office accommodation."
                 },
                 {
-                    "key": "1f659805-9d6a-4161-afdd-21a7ac0da752",
+                    "key": "f6234f3c-4e2c-44c8-8508-05b7072e7f87",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the department plan to address the challenge of network connectivity?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['working', 'SITA', 'systems', 'networks', 'enabling', 'IT', 'infrastructure']"
+                        "working",
+                        "SITA",
+                        "systems",
+                        "networks",
+                        "enabling",
+                        "IT",
+                        "infrastructure"
                     ],
-                    "expected_output": [
-                        "The department is working with SITA, the mandatory provider of technological solutions to government, to ensure that systems, networks, and enabling IT infrastructure are optimally deployed and maintained."
-                    ]
+                    "expected_output": "The department is working with SITA, the mandatory provider of technological solutions to government, to ensure that systems, networks, and enabling IT infrastructure are optimally deployed and maintained."
                 },
                 {
-                    "key": "8c1873b3-e59d-4aa0-b545-20ec1ce9134e",
+                    "key": "49d52386-9e3a-4670-bd68-2c2c8ae2525a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's approach to reducing long queues?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['leveraging', 'technology', 'integration', 'investing', 'introducing', 'appointment']"
+                        "leveraging",
+                        "technology",
+                        "integration",
+                        "investing",
+                        "introducing",
+                        "appointment"
                     ],
-                    "expected_output": [
-                        "The department plans to reduce long queues by leveraging technology integration, investing in staff, and introducing an appointment system for clients."
-                    ]
+                    "expected_output": "The department plans to reduce long queues by leveraging technology integration, investing in staff, and introducing an appointment system for clients."
                 },
                 {
-                    "key": "e7bad6bf-668f-42df-b064-9f46b1f9077f",
+                    "key": "af8aa91a-55a8-4ee6-b577-dc60aa87ebbb",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the department plan to improve customer satisfaction?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['render', 'real-time', 'predictability', 'assurance', 'systems', 'effective', 'robust', 'avoid', 'downtimes', 'suitable', 'working', 'environment', 'professional', 'well-trained', 'staff', 'compliment', 'CARE']"
+                        "render",
+                        "real-time",
+                        "predictability",
+                        "assurance",
+                        "systems",
+                        "effective",
+                        "robust",
+                        "avoid",
+                        "downtimes",
+                        "suitable",
+                        "working",
+                        "environment",
+                        "professional",
+                        "well-trained",
+                        "staff",
+                        "compliment",
+                        "CARE"
                     ],
-                    "expected_output": [
-                        "The department aims to render services in real-time, with predictability, and with assurance that systems are fully effective and robust to avoid system downtimes, in a suitable working environment, and with a professional, well-trained staff compliment that really CARE."
-                    ]
+                    "expected_output": "The department aims to render services in real-time, with predictability, and with assurance that systems are fully effective and robust to avoid system downtimes, in a suitable working environment, and with a professional, well-trained staff compliment that really CARE."
                 },
                 {
-                    "key": "7703411c-9056-49af-8610-51c970ce740d",
+                    "key": "c7a6eeb2-8c43-4708-9a26-6bf4dec5356e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's strategy for acquiring and maintaining office space?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['standalone', 'purpose-built', 'state-owned', 'adequate', 'parking', 'access', 'future', 'accommodation', 'needs', 'reducing', 'dependency', 'private', 'landlords', 'DPW&I']"
+                        "standalone",
+                        "purpose-built",
+                        "state-owned",
+                        "adequate",
+                        "parking",
+                        "access",
+                        "future",
+                        "accommodation",
+                        "needs",
+                        "reducing",
+                        "dependency",
+                        "private",
+                        "landlords",
+                        "DPW&I"
                     ],
-                    "expected_output": [
-                        "The department plans to acquire standalone, purpose-built facilities on state-owned land with adequate parking and access as the basis for its future accommodation needs, reducing its dependency on private landlords and the DPW&I."
-                    ]
+                    "expected_output": "The department plans to acquire standalone, purpose-built facilities on state-owned land with adequate parking and access as the basis for its future accommodation needs, reducing its dependency on private landlords and the DPW&I."
                 },
                 {
-                    "key": "b5b40212-2585-422d-bfad-cad28be2b462",
+                    "key": "c871e475-5b48-4f13-854b-a697e85a988c",
                     "prompt": "Respond to the following question.\n\nQuestion: How has the Covid-19 pandemic affected the department's service delivery?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Covid-19', 'pandemic', 'affected', 'service', 'delivery', 'offices', 'closed', 'mobile', 'units', 'minimal']"
+                        "Covid-19",
+                        "pandemic",
+                        "affected",
+                        "service",
+                        "delivery",
+                        "offices",
+                        "closed",
+                        "mobile",
+                        "units",
+                        "minimal"
                     ],
-                    "expected_output": [
-                        "The department has had to close some of its offices in accordance with the Covid-19 protocols, but has deployed mobile units to ensure service delivery interruptions are minimal."
-                    ]
+                    "expected_output": "The department has had to close some of its offices in accordance with the Covid-19 protocols, but has deployed mobile units to ensure service delivery interruptions are minimal."
                 },
                 {
-                    "key": "16fb9831-00fb-4e3c-b7ad-b8278f5bf7e1",
+                    "key": "b04e7ca3-dcb8-4b95-929b-39befe238441",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's approach to modernisation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['e-Home Affairs portal']"
+                        "e-Home Affairs portal"
                     ],
-                    "expected_output": [
-                        "The department's modernisation programme comprises key facets for improved execution of its mandate through the development of applications that make it easier for a client to interact with the department, such as the e-Home Affairs portal, which allows clients to make online applications for passports and ID cards using their banking platform."
-                    ]
+                    "expected_output": "The department's modernisation programme comprises key facets for improved execution of its mandate through the development of applications that make it easier for a client to interact with the department, such as the e-Home Affairs portal, which allows clients to make online applications for passports and ID cards using their banking platform."
                 },
                 {
-                    "key": "bef5c6ac-afbc-48b8-9f00-b9c45c41d83e",
+                    "key": "77647727-4f0f-4d69-ac89-995ad7f5212d",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the department plan to expand its service offerings?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['rapid', 'expansion', 'service', 'offerings', 'deploying', 'mobile', 'units', 'satellite', 'technology', 'rural', 'communities']"
+                        "rapid",
+                        "expansion",
+                        "service",
+                        "offerings",
+                        "deploying",
+                        "mobile",
+                        "units",
+                        "satellite",
+                        "technology",
+                        "rural",
+                        "communities"
                     ],
-                    "expected_output": [
-                        "The department is working closely with the commercial banking sector and BASA to ensure rapid expansion of its departmental footprint and service offerings, and is also deploying mobile units equipped with satellite technology to rural communities."
-                    ]
+                    "expected_output": "The department is working closely with the commercial banking sector and BASA to ensure rapid expansion of its departmental footprint and service offerings, and is also deploying mobile units equipped with satellite technology to rural communities."
                 },
                 {
-                    "key": "2e1f7695-144f-42e1-9820-751905b5d2d2",
+                    "key": "6df0cb0b-bbf0-404f-9a96-595f82cf125e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's focus in terms of staff development?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['improve', 'productivity', 'well-trained', 'professional', 'CARE', 'high-quality']"
+                        "improve",
+                        "productivity",
+                        "well-trained",
+                        "professional",
+                        "CARE",
+                        "high-quality"
                     ],
-                    "expected_output": [
-                        "The department plans to invest in its staff to improve their skills and productivity, and to ensure that they are well-trained and professional, and really CARE about delivering high-quality services to clients."
-                    ]
+                    "expected_output": "The department plans to invest in its staff to improve their skills and productivity, and to ensure that they are well-trained and professional, and really CARE about delivering high-quality services to clients."
                 },
                 {
-                    "key": "4f44c209-4900-495a-8079-94633e0a23a9",
+                    "key": "39127e0d-3e38-4522-8a56-6d7f2573e474",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the reason for the department's strategy to acquire standalone, purpose-built facilities?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['reduce', 'cost', 'dependency', 'private', 'landlords', 'DPW&I']"
+                        "reduce",
+                        "cost",
+                        "dependency",
+                        "private",
+                        "landlords",
+                        "DPW&I"
                     ],
-                    "expected_output": [
-                        "The department adopted this strategy to reduce the cost and dependency on private landlords and the DPW&I."
-                    ]
+                    "expected_output": "The department adopted this strategy to reduce the cost and dependency on private landlords and the DPW&I."
                 },
                 {
-                    "key": "c9116d84-e2cc-442a-96a3-4578fd2d2365",
+                    "key": "34d5b722-ee54-498f-b4f3-0fd58f3c2e41",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the department ensure service delivery during the Covid-19 pandemic?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['deployed', 'mobile', 'units', 'minimal', 'service', 'interruptions']"
+                        "deployed",
+                        "mobile",
+                        "units",
+                        "minimal",
+                        "service",
+                        "interruptions"
                     ],
-                    "expected_output": [
-                        "The department deployed mobile units to ensure minimal service interruptions."
-                    ]
+                    "expected_output": "The department deployed mobile units to ensure minimal service interruptions."
                 },
                 {
-                    "key": "8e90f92e-28b8-4091-ba43-2862c57ef42b",
+                    "key": "e2718b51-d036-4f3a-b7ff-21ac95e3bcff",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's plan to relocate some of its offices into malls?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The department', 'landlords', 'malls', 'South Africa', 'offices']"
+                        "The department",
+                        "landlords",
+                        "malls",
+                        "South Africa",
+                        "offices"
                     ],
-                    "expected_output": [
-                        "The department is engaging landlords of various malls throughout South Africa to relocate some of its offices into these malls, with some landlords offering space for free or at significantly reduced rates."
-                    ]
+                    "expected_output": "The department is engaging landlords of various malls throughout South Africa to relocate some of its offices into these malls, with some landlords offering space for free or at significantly reduced rates."
                 },
                 {
-                    "key": "790928f6-ff7c-4941-bc82-fe3b2780741b",
+                    "key": "373ab0f4-059e-49ab-8d61-822ebd89178e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the problem with the department's current office accommodation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['inadequate maintenance', 'non-compliance', 'OHS standards']"
+                        "inadequate maintenance",
+                        "non-compliance",
+                        "OHS standards"
                     ],
-                    "expected_output": [
-                        "The department faces frequent injunctions issued for non-compliance to prescribed OHS standards due to inadequate maintenance."
-                    ]
+                    "expected_output": "The department faces frequent injunctions issued for non-compliance to prescribed OHS standards due to inadequate maintenance."
                 },
                 {
-                    "key": "7dee4f19-4b59-4249-afb2-166d0243c128",
+                    "key": "7be82220-8bfc-4674-b83d-9283a148887e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's plan to address capacity constraints?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The department', 'National Treasury', 'additional funding', '750 posts']"
+                        "The department",
+                        "National Treasury",
+                        "additional funding",
+                        "750 posts"
                     ],
-                    "expected_output": [
-                        "The department developed a capacitation business case focusing on core business and submitted it to National Treasury, which allocated additional funding for the department to fill over 750 posts."
-                    ]
+                    "expected_output": "The department developed a capacitation business case focusing on core business and submitted it to National Treasury, which allocated additional funding for the department to fill over 750 posts."
                 },
                 {
-                    "key": "6500cef5-de92-4057-8a2b-621de3f9a81e",
+                    "key": "228968c2-79bf-440f-a724-7363fbf3f21b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's strategy to address fraud and corruption?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['zero tolerance', 'fraud', 'corruption', 'arrests', 'dismissals', 'law enforcement agencies']"
+                        "zero tolerance",
+                        "fraud",
+                        "corruption",
+                        "arrests",
+                        "dismissals",
+                        "law enforcement agencies"
                     ],
-                    "expected_output": [
-                        "The department has a zero tolerance campaign against fraud and corruption and has made numerous arrests and dismissals in collaboration with other law enforcement agencies."
-                    ]
+                    "expected_output": "The department has a zero tolerance campaign against fraud and corruption and has made numerous arrests and dismissals in collaboration with other law enforcement agencies."
                 },
                 {
-                    "key": "26073de4-0f4e-439b-84e3-3a197518c5c8",
+                    "key": "fb13cfac-c48d-4375-ae0b-de6804be991d",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the department's financial performance in the 2020/21 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['fifth', 'unqualified', 'audit', 'opinion']"
+                        "fifth",
+                        "unqualified",
+                        "audit",
+                        "opinion"
                     ],
-                    "expected_output": [
-                        "The department obtained its fifth unqualified audit opinion in the 2020/21 financial year."
-                    ]
+                    "expected_output": "The department obtained its fifth unqualified audit opinion in the 2020/21 financial year."
                 },
                 {
-                    "key": "00804358-6415-46d7-8296-20c6d8baadb7",
+                    "key": "dcf63b75-c005-4e2d-9f05-bec3c2b29042",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's annual appropriation for the 2022/23 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R9']"
+                        "R9"
                     ],
-                    "expected_output": [
-                        "The department's annual appropriation for the 2022/23 financial year is R9."
-                    ]
+                    "expected_output": "The department's annual appropriation for the 2022/23 financial year is R9."
                 },
                 {
-                    "key": "93a48588-4501-4542-a392-5719c0b7467d",
+                    "key": "e3b1b18f-f3a8-49c3-bd22-86a2ffc8231d",
                     "prompt": "Respond to the following question.\n\nQuestion: What percentage of the department's staff complement is currently filled?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['41.6%', '%']"
+                        "41.6%",
+                        "%"
                     ],
-                    "expected_output": [
-                        "The department's staff complement is currently at 41.6%, with a goal to increase it to 45.4% with the funded business case capacitation."
-                    ]
+                    "expected_output": "The department's staff complement is currently at 41.6%, with a goal to increase it to 45.4% with the funded business case capacitation."
                 },
                 {
-                    "key": "acd0ea6c-9da9-446f-a346-92b592d2c69b",
+                    "key": "9fe0ae22-dca0-465e-b407-8803155d48b9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main cause of fraud and corruption in the department?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Immigration', 'permitting', 'fraud', 'corruption', 'department']"
+                        "Immigration",
+                        "permitting",
+                        "fraud",
+                        "corruption",
+                        "department"
                     ],
-                    "expected_output": [
-                        "Immigration issues, especially matters of permitting, account for 60% of fraud and corruption cases in the department."
-                    ]
+                    "expected_output": "Immigration issues, especially matters of permitting, account for 60% of fraud and corruption cases in the department."
                 },
                 {
-                    "key": "6f8dbd5e-6137-4b52-bcb4-0b88b3791794",
+                    "key": "928fde0b-89f5-4a2f-a56a-c022e117ab0f",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the department's fifth unqualified audit opinion in the 2020/21 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['fifth', 'unqualified', 'audit', 'opinion', '2020/21', 'financial', 'year']"
+                        "fifth",
+                        "unqualified",
+                        "audit",
+                        "opinion",
+                        "2020/21",
+                        "financial",
+                        "year"
                     ],
-                    "expected_output": [
-                        "The department obtained its fifth unqualified audit opinion in the 2020/21 financial year, which is a remarkable achievement given the continued impact of Covid-19 on the operating environment, reduced capacity, and system challenges."
-                    ]
+                    "expected_output": "The department obtained its fifth unqualified audit opinion in the 2020/21 financial year, which is a remarkable achievement given the continued impact of Covid-19 on the operating environment, reduced capacity, and system challenges."
                 },
                 {
-                    "key": "e86f3b59-2927-4cac-a3d1-016e2557ab87",
+                    "key": "3d6884ce-9937-478b-8123-c6710e5036fe",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the annual appropriation for the department in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R9.431 billion']"
+                        "R9.431 billion"
                     ],
-                    "expected_output": [
-                        "The annual appropriation for the department in the 2021/22 financial year was R9.431 billion."
-                    ]
+                    "expected_output": "The annual appropriation for the department in the 2021/22 financial year was R9.431 billion."
                 },
                 {
-                    "key": "3cf32f60-4408-46c0-84fc-93f08b437175",
+                    "key": "2495d3a7-a801-499a-9be2-97a7658da506",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the baseline allocation by National Treasury for the department in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R8.690 billion']"
+                        "R8.690 billion"
                     ],
-                    "expected_output": [
-                        "The baseline allocation by National Treasury for the department in the 2021/22 financial year was R8.690 billion."
-                    ]
+                    "expected_output": "The baseline allocation by National Treasury for the department in the 2021/22 financial year was R8.690 billion."
                 },
                 {
-                    "key": "c4a9c50e-e550-42b9-b7ef-b5d42c903381",
+                    "key": "5aeffe93-92f4-456c-aab5-56210178f7ba",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the increase in the department's allocation for the 2021/22 financial year compared to the previous financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['7.3%', 'R562.2 million', 'R40 million', 'R138.8 million']"
+                        "7.3%",
+                        "R562.2 million",
+                        "R40 million",
+                        "R138.8 million"
                     ],
-                    "expected_output": [
-                        "The department's allocation for the 2021/22 financial year showed a marginal increase of 7.3% compared to the previous financial year, mainly due to additional funding of R562.2 million for self-financing expenditure incurred for issuing official documents, R40 million for the Independent Electoral Commission, and R138.8 million for Compensation of employees (COE) Adjustment."
-                    ]
+                    "expected_output": "The department's allocation for the 2021/22 financial year showed a marginal increase of 7.3% compared to the previous financial year, mainly due to additional funding of R562.2 million for self-financing expenditure incurred for issuing official documents, R40 million for the Independent Electoral Commission, and R138.8 million for Compensation of employees (COE) Adjustment."
                 },
                 {
-                    "key": "6f8f2d37-c114-435c-801d-21ee0806e534",
+                    "key": "fe254ada-280d-48f3-87b5-02697bebdb2a",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the department's total expenditure in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R9.431 billion']"
+                        "R9.431 billion"
                     ],
-                    "expected_output": [
-                        "The department's total expenditure in the 2021/22 financial year was R9.431 billion."
-                    ]
+                    "expected_output": "The department's total expenditure in the 2021/22 financial year was R9.431 billion."
                 },
                 {
-                    "key": "b2cca598-89c1-487a-b3eb-cfcdd78fe2c9",
+                    "key": "0319190e-8b2e-4599-a203-a8f6bbf00c5e",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the main cost drivers for the department in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R3.667 billion', 'R2.980 billion', 'R2.443 billion']"
+                        "R3.667 billion",
+                        "R2.980 billion",
+                        "R2.443 billion"
                     ],
-                    "expected_output": [
-                        "The main cost drivers for the department in the 2021/22 financial year were compensation of employees (COE), which costed the department R3.667 billion (38.9%), followed by goods and services at R2.980 billion (31.5%), and transfers and subsidies at R2.443 billion (25.9%)."
-                    ]
+                    "expected_output": "The main cost drivers for the department in the 2021/22 financial year were compensation of employees (COE), which costed the department R3.667 billion (38.9%), followed by goods and services at R2.980 billion (31.5%), and transfers and subsidies at R2.443 billion (25.9%)."
                 },
                 {
-                    "key": "817961eb-70c7-4053-8708-b209e3379733",
+                    "key": "356dfbfa-faae-4012-b520-d5ecd5e78065",
                     "prompt": "Respond to the following question.\n\nQuestion: How much revenue did the department collect in the 2021/22 financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R719 million']"
+                        "R719 million"
                     ],
-                    "expected_output": [
-                        "The department collected revenue of R719 million in the 2021/22 financial year, which is a significant improvement from the previous financial year, and exceeded the revenue target of R562 million by R156.5 million or 27.9%."
-                    ]
+                    "expected_output": "The department collected revenue of R719 million in the 2021/22 financial year, which is a significant improvement from the previous financial year, and exceeded the revenue target of R562 million by R156.5 million or 27.9%."
                 },
                 {
-                    "key": "928f20e3-3c3b-4a03-bd0b-bd6faf5075c8",
+                    "key": "433ad369-282c-4607-8a05-29ab8694e6d5",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the department's performance in terms of revenue collection in the 2021/22 financial year compared to the pre-Covid era?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['behind']"
+                        "behind"
                     ],
-                    "expected_output": [
-                        "While the department's revenue collection in the 2021/22 financial year was a significant improvement from the previous financial year, it is still behind the revenue collected in the pre-Covid era."
-                    ]
+                    "expected_output": "While the department's revenue collection in the 2021/22 financial year was a significant improvement from the previous financial year, it is still behind the revenue collected in the pre-Covid era."
                 },
                 {
-                    "key": "5c599e5e-f039-4307-b9d2-319cd4e2b20d",
+                    "key": "7ddeaec8-eb7b-4f0f-847f-4bd6b99b20d1",
                     "prompt": "Respond to the following question.\n\nQuestion: What additional funding did the department receive over the 2022 medium term?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['R837 million', 'R267 million', 'R279 million', 'R291 million', 'R536 million', 'R171 million', 'R179 million', 'R187 million']"
+                        "R837 million",
+                        "R267 million",
+                        "R279 million",
+                        "R291 million",
+                        "R536 million",
+                        "R171 million",
+                        "R179 million",
+                        "R187 million"
                     ],
-                    "expected_output": [
-                        "The department received additional funding of R837 million (R267 million in 2022/23, R279 million in 2023/24, and R291 million in 2024/25) for capacitation, and R536 million (R171 million in 2022/23, R179 million in 2023/24, and R187 million in 2024/25) for the Represented Political Party Fund."
-                    ]
+                    "expected_output": "The department received additional funding of R837 million (R267 million in 2022/23, R279 million in 2023/24, and R291 million in 2024/25) for capacitation, and R536 million (R171 million in 2022/23, R179 million in 2023/24, and R187 million in 2024/25) for the Represented Political Party Fund."
                 },
                 {
-                    "key": "a6a1b82d-b25b-4439-ac7a-4460ce5cd276",
+                    "key": "4f3222db-adba-4ccd-8e02-83c01e92e5fb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the department's plan for filling posts in the incoming financial year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['more than 750', 'incoming financial year']"
+                        "more than 750",
+                        "incoming financial year"
                     ],
-                    "expected_output": [
-                        "The department intends to fill more than 750 posts in the incoming financial year using the additional allocation for capacitation."
-                    ]
+                    "expected_output": "The department intends to fill more than 750 posts in the incoming financial year using the additional allocation for capacitation."
                 }
             ]
         }

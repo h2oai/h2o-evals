@@ -1,1804 +1,2221 @@
 {
     "tests": [
         {
-            "key": "8dbe4f23-8509-4ec8-aa0d-a888272d2973",
+            "key": "a55c0963-f66d-40b9-be3c-f597c29733e2",
             "documents": [
                 "Information_Security.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "80294d5c-72cf-4244-b64f-b044cd10c76b",
+                    "key": "0151c4d2-c779-4ecf-ba48-8748237b7b67",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the title of the publication mentioned in the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Academy', 'of', 'ICT', 'Essentials', 'for', 'Government', 'Leaders']"
+                        "Academy",
+                        "of",
+                        "ICT",
+                        "Essentials",
+                        "for",
+                        "Government",
+                        "Leaders"
                     ],
-                    "expected_output": [
-                        "The title of the publication mentioned in the text is \"Academy of ICT Essentials for Government Leaders.\""
-                    ]
+                    "expected_output": "The title of the publication mentioned in the text is \"Academy of ICT Essentials for Government Leaders.\""
                 },
                 {
-                    "key": "80208cee-281a-4607-a193-b82e02d5b7b8",
+                    "key": "23640f5f-00d6-4bab-a88d-478adf4853cf",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Academy of ICT Essentials for Government Leaders module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ICTD', 'policymakers', 'government officials', 'managers', 'public sector']"
+                        "ICTD",
+                        "policymakers",
+                        "government officials",
+                        "managers",
+                        "public sector"
                     ],
-                    "expected_output": [
-                        "The purpose of the Academy of ICT Essentials for Government Leaders module series is to develop familiarity with the substantive issues related to ICTD from both a policy and technology perspective for policymakers, government officials, and managers in the public sector."
-                    ]
+                    "expected_output": "The purpose of the Academy of ICT Essentials for Government Leaders module series is to develop familiarity with the substantive issues related to ICTD from both a policy and technology perspective for policymakers, government officials, and managers in the public sector."
                 },
                 {
-                    "key": "93df446a-0fe3-499e-b34b-a4c0027a2e25",
+                    "key": "4fd8adf5-45f5-499e-ae46-c8061a55a9c5",
                     "prompt": "Respond to the following question.\n\nQuestion: Who is the target audience for the module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['policymakers', 'government officials', 'managers', 'ICT', 'project management']"
+                        "policymakers",
+                        "government officials",
+                        "managers",
+                        "ICT",
+                        "project management"
                     ],
-                    "expected_output": [
-                        "The target audience for the module series includes policymakers at the national and local government level responsible for ICT policymaking, government officials responsible for the development and implementation of ICT-based applications, and managers in the public sector seeking to employ ICT tools for project management."
-                    ]
+                    "expected_output": "The target audience for the module series includes policymakers at the national and local government level responsible for ICT policymaking, government officials responsible for the development and implementation of ICT-based applications, and managers in the public sector seeking to employ ICT tools for project management."
                 },
                 {
-                    "key": "bc258287-604f-43ef-9b98-1c28fcfdb242",
+                    "key": "e1aee406-9fd2-497e-b0de-b94e2e80df42",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the focus of the module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['understanding', 'digital', 'technology', 'policymaking']"
+                        "understanding",
+                        "digital",
+                        "technology",
+                        "policymaking"
                     ],
-                    "expected_output": [
-                        "The module series focuses on developing a good understanding of what current digital technology is capable of achieving and where technology is headed, and what this implies for policymaking."
-                    ]
+                    "expected_output": "The module series focuses on developing a good understanding of what current digital technology is capable of achieving and where technology is headed, and what this implies for policymaking."
                 },
                 {
-                    "key": "e0e7a006-11af-4830-98d8-997e49a5ccf9",
+                    "key": "aa94b3fb-078e-44dd-9f62-5d781f60e937",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the \"digital economy\" in today's world?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['digital', 'economy', 'shift', 'production', 'goods', 'creation', 'ideas', 'information', 'communication', 'technologies', 'ICTs', 'economy', 'society']"
+                        "digital",
+                        "economy",
+                        "shift",
+                        "production",
+                        "goods",
+                        "creation",
+                        "ideas",
+                        "information",
+                        "communication",
+                        "technologies",
+                        "ICTs",
+                        "economy",
+                        "society"
                     ],
-                    "expected_output": [
-                        "The \"digital economy\" is characterized by a shift from the production of goods to the creation of ideas, underscoring the growing, if not already central, role being played by information and communication technologies (ICTs) in the economy, in particular, and in society as a whole."
-                    ]
+                    "expected_output": "The \"digital economy\" is characterized by a shift from the production of goods to the creation of ideas, underscoring the growing, if not already central, role being played by information and communication technologies (ICTs) in the economy, in particular, and in society as a whole."
                 },
                 {
-                    "key": "592f4605-eada-4f08-bfc9-b02384c16019",
+                    "key": "97624919-a872-46d9-b0d5-510716316881",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the difficulties that governments face in formulating ICT policy?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['unfamiliarity', 'rapidly', 'changing', 'technology', 'landscape', 'competencies', 'harness', 'ICTs', 'national', 'development']"
+                        "unfamiliarity",
+                        "rapidly",
+                        "changing",
+                        "technology",
+                        "landscape",
+                        "competencies",
+                        "harness",
+                        "ICTs",
+                        "national",
+                        "development"
                     ],
-                    "expected_output": [
-                        "Governments face difficulties in formulating ICT policy due to unfamiliarity with a rapidly changing technology landscape and the competencies needed to harness ICTs for national development."
-                    ]
+                    "expected_output": "Governments face difficulties in formulating ICT policy due to unfamiliarity with a rapidly changing technology landscape and the competencies needed to harness ICTs for national development."
                 },
                 {
-                    "key": "40fc5cb0-1be0-4dd2-bc6a-978148c3f45e",
+                    "key": "8b73cf14-0a9a-4c1d-8ced-2948f06f653a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Asian and Pacific Training Centre for Information and Communication Technology for Development (APCICT) in developing the module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['APCICT', 'module', 'series', 'digital', 'technology', 'policymaking']"
+                        "APCICT",
+                        "module",
+                        "series",
+                        "digital",
+                        "technology",
+                        "policymaking"
                     ],
-                    "expected_output": [
-                        "The Asian and Pacific Training Centre for Information and Communication Technology for Development (APCICT) has developed the module series to provide a good understanding of what the current digital technology is capable of achieving and where technology is headed, and what this implies for policymaking."
-                    ]
+                    "expected_output": "The Asian and Pacific Training Centre for Information and Communication Technology for Development (APCICT) has developed the module series to provide a good understanding of what the current digital technology is capable of achieving and where technology is headed, and what this implies for policymaking."
                 },
                 {
-                    "key": "1edaabc0-6313-47f5-8d67-3a37e104328a",
+                    "key": "2d1ac464-8b2e-4dc6-bbed-c7764e37fc29",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the license under which the publication is available?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Creative Commons', 'Attribution 3.0 IGO']"
+                        "Creative Commons",
+                        "Attribution 3.0 IGO"
                     ],
-                    "expected_output": [
-                        "The publication is available under a Creative Commons license, specifically the Creative Commons Attribution 3.0 IGO license."
-                    ]
+                    "expected_output": "The publication is available under a Creative Commons license, specifically the Creative Commons Attribution 3.0 IGO license."
                 },
                 {
-                    "key": "37635876-c8cb-4df9-9835-2d28430e2263",
+                    "key": "cd058e20-d208-4f77-b811-5f7a0b8ecb6d",
                     "prompt": "Respond to the following question.\n\nQuestion: Who should be contacted for correspondence regarding the report?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['apcict@un.org']"
+                        "apcict@un.org"
                     ],
-                    "expected_output": [
-                        "Correspondence concerning the report should be addressed to apcict@un.org."
-                    ]
+                    "expected_output": "Correspondence concerning the report should be addressed to apcict@un.org."
                 },
                 {
-                    "key": "2ee93516-6232-4e5b-abec-d17f18ffe135",
+                    "key": "d3982777-93f3-4690-8e97-bb1d5edd56aa",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Academy of ICT Essentials for Government Leaders module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['provide', 'good', 'understanding', 'digital', 'technology', 'capable', 'achieving', 'headed', 'implies', 'policymaking']"
+                        "provide",
+                        "good",
+                        "understanding",
+                        "digital",
+                        "technology",
+                        "capable",
+                        "achieving",
+                        "headed",
+                        "implies",
+                        "policymaking"
                     ],
-                    "expected_output": [
-                        "The purpose of the Academy of ICT Essentials for Government Leaders module series is to provide a good understanding of what the current digital technology is capable of achieving and where technology is headed, and what this implies for policymaking."
-                    ]
+                    "expected_output": "The purpose of the Academy of ICT Essentials for Government Leaders module series is to provide a good understanding of what the current digital technology is capable of achieving and where technology is headed, and what this implies for policymaking."
                 },
                 {
-                    "key": "d1a7f5fd-6599-4606-9896-518854d11868",
+                    "key": "d50262b9-34b6-43e7-80ff-5e7ecd56bdd2",
                     "prompt": "Respond to the following question.\n\nQuestion: Who is the target audience for the module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['government leaders', 'policymakers', 'stakeholders', 'ICTs', 'development']"
+                        "government leaders",
+                        "policymakers",
+                        "stakeholders",
+                        "ICTs",
+                        "development"
                     ],
-                    "expected_output": [
-                        "The module series is designed for government leaders, policymakers, and other stakeholders who are interested in leveraging the potential of ICTs for development."
-                    ]
+                    "expected_output": "The module series is designed for government leaders, policymakers, and other stakeholders who are interested in leveraging the potential of ICTs for development."
                 },
                 {
-                    "key": "b09dfe13-26c9-4fa9-af57-228200f9cc26",
+                    "key": "ebe33eed-2242-41fc-ac85-0ce8bf652b67",
                     "prompt": "Respond to the following question.\n\nQuestion: What topics are covered in the module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information security', 'cybersecurity', 'data governance', 'digital transformation']"
+                        "information security",
+                        "cybersecurity",
+                        "data governance",
+                        "digital transformation"
                     ],
-                    "expected_output": [
-                        "The module series covers a range of topics related to ICT and development, including information security and privacy, cybersecurity, data governance, and digital transformation."
-                    ]
+                    "expected_output": "The module series covers a range of topics related to ICT and development, including information security and privacy, cybersecurity, data governance, and digital transformation."
                 },
                 {
-                    "key": "70f77bbd-6677-4b50-91dd-99f440efe1ab",
+                    "key": "090c2608-1e8a-4ec4-9f00-976464401e23",
                     "prompt": "Respond to the following question.\n\nQuestion: How are the modules designed?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['standalone', 'linked', 'case', 'studies', 'exercises', 'key', 'concepts']"
+                        "standalone",
+                        "linked",
+                        "case",
+                        "studies",
+                        "exercises",
+                        "key",
+                        "concepts"
                     ],
-                    "expected_output": [
-                        "The modules are designed to be standalone and linked together, with each module containing case studies and exercises to help deepen understanding of key concepts."
-                    ]
+                    "expected_output": "The modules are designed to be standalone and linked together, with each module containing case studies and exercises to help deepen understanding of key concepts."
                 },
                 {
-                    "key": "00c1d5cd-cef7-4761-8e1d-b5e5ed5e39c3",
+                    "key": "a408dbb5-ec98-48e8-84ad-0a63c8b91644",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the long-term objective of the module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['coherent', 'course', 'certified']"
+                        "coherent",
+                        "course",
+                        "certified"
                     ],
-                    "expected_output": [
-                        "The long-term objective of the module series is to make the modules a coherent course that can be certified."
-                    ]
+                    "expected_output": "The long-term objective of the module series is to make the modules a coherent course that can be certified."
                 },
                 {
-                    "key": "80a63330-1084-4338-bd27-0944f08b4904",
+                    "key": "a9ca05b2-f4bc-4064-83fc-f7d49e328fc9",
                     "prompt": "Respond to the following question.\n\nQuestion: How can readers access the module series?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['available', 'online', 'virtual', 'classrooms', 'video', 'PowerPoint', 'module']"
+                        "available",
+                        "online",
+                        "virtual",
+                        "classrooms",
+                        "video",
+                        "PowerPoint",
+                        "module"
                     ],
-                    "expected_output": [
-                        "The module series is available in print format and as an online distance learning platform, the APCICT Virtual Academy, which features virtual classrooms with trainers\u2019 presentations in video format and PowerPoint presentations of the module."
-                    ]
+                    "expected_output": "The module series is available in print format and as an online distance learning platform, the APCICT Virtual Academy, which features virtual classrooms with trainers\u2019 presentations in video format and PowerPoint presentations of the module."
                 },
                 {
-                    "key": "cfaee2a9-10ed-4d4b-9787-3a2e96ff33df",
+                    "key": "712bb6c9-ea4a-438a-b273-92303f7e075a",
                     "prompt": "Respond to the following question.\n\nQuestion: Who prepared the Academy of ICT Essentials for Government Leaders: Information Security and Privacy module?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Freddy Tan', 'Kiyoung Ko', 'APCICT']"
+                        "Freddy Tan",
+                        "Kiyoung Ko",
+                        "APCICT"
                     ],
-                    "expected_output": [
-                        "The Academy of ICT Essentials for Government Leaders: Information Security and Privacy module was prepared by Freddy Tan, under the overall guidance of Kiyoung Ko, Director of Asian and Pacific Training Centre for Information and Communication Technology for Development (APCICT)."
-                    ]
+                    "expected_output": "The Academy of ICT Essentials for Government Leaders: Information Security and Privacy module was prepared by Freddy Tan, under the overall guidance of Kiyoung Ko, Director of Asian and Pacific Training Centre for Information and Communication Technology for Development (APCICT)."
                 },
                 {
-                    "key": "a2d6097c-16c6-476c-a183-04c9a62ac0ca",
+                    "key": "ec78c151-6256-4f38-95db-c31a1d1aa0aa",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the learning outcomes of the Information Security and Privacy module?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information security', 'privacy', 'threats', 'policy', 'standards', 'protection', 'recommendations']"
+                        "information security",
+                        "privacy",
+                        "threats",
+                        "policy",
+                        "standards",
+                        "protection",
+                        "recommendations"
                     ],
-                    "expected_output": [
-                        "The learning outcomes of the Information Security and Privacy module include understanding the concept of information security, privacy, and related concepts, identifying threats to information security, assessing existing information security policy in terms of international standards of information security and privacy protection, and formulating or making recommendations regarding information security policy that would be appropriate to their own context."
-                    ]
+                    "expected_output": "The learning outcomes of the Information Security and Privacy module include understanding the concept of information security, privacy, and related concepts, identifying threats to information security, assessing existing information security policy in terms of international standards of information security and privacy protection, and formulating or making recommendations regarding information security policy that would be appropriate to their own context."
                 },
                 {
-                    "key": "44e89412-4e9b-4520-90f4-47cc9f376fea",
+                    "key": "c365ed1a-dd78-4c03-bb08-0a5a0c15ba5d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the module's coverage of standards of information security and privacy protection used by some countries and international organizations?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['standards', 'information', 'security', 'privacy', 'protection', 'countries', 'international', 'organizations', 'best', 'practices', 'policies']"
+                        "standards",
+                        "information",
+                        "security",
+                        "privacy",
+                        "protection",
+                        "countries",
+                        "international",
+                        "organizations",
+                        "best",
+                        "practices",
+                        "policies"
                     ],
-                    "expected_output": [
-                        "The module's coverage of standards of information security and privacy protection used by some countries and international organizations provides an overview of best practices and helps users understand the importance of aligning their own policies and practices with international standards."
-                    ]
+                    "expected_output": "The module's coverage of standards of information security and privacy protection used by some countries and international organizations provides an overview of best practices and helps users understand the importance of aligning their own policies and practices with international standards."
                 },
                 {
-                    "key": "8d6e5e54-f10a-449b-a6fd-f45cbc150285",
+                    "key": "36dc3295-57a8-4ebe-bfa3-8392f3f8a597",
                     "prompt": "Respond to the following question.\n\nQuestion: Who reviewed and provided inputs to the Information Security and Privacy module?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ITU', 'ESCAP', 'Incheon', 'November', '2019']"
+                        "ITU",
+                        "ESCAP",
+                        "Incheon",
+                        "November",
+                        "2019"
                     ],
-                    "expected_output": [
-                        "The Information Security and Privacy module benefited from substantive comments of participants to the Consultative Meeting on Capacity Building for Digital Development, held on 27-28 November 2019, in Incheon, and additional reviews and inputs were provided by the International Telecommunications Union (ITU) and the Information and Communications Technology and Disaster Risk Reduction Division (IDD) of ESCAP."
-                    ]
+                    "expected_output": "The Information Security and Privacy module benefited from substantive comments of participants to the Consultative Meeting on Capacity Building for Digital Development, held on 27-28 November 2019, in Incheon, and additional reviews and inputs were provided by the International Telecommunications Union (ITU) and the Information and Communications Technology and Disaster Risk Reduction Division (IDD) of ESCAP."
                 },
                 {
-                    "key": "ca56309c-a7c2-4fea-b8ae-38c836451d72",
+                    "key": "27b5091d-f1f7-4812-bdc2-ff64c2b474c3",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of formulating information security policies?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['framework', 'protecting', 'organization', 'information', 'assets', 'threats', 'vulnerabilities']"
+                        "framework",
+                        "protecting",
+                        "organization",
+                        "information",
+                        "assets",
+                        "threats",
+                        "vulnerabilities"
                     ],
-                    "expected_output": [
-                        "The purpose of formulating information security policies is to provide a framework for protecting an organization's information assets from various threats and vulnerabilities."
-                    ]
+                    "expected_output": "The purpose of formulating information security policies is to provide a framework for protecting an organization's information assets from various threats and vulnerabilities."
                 },
                 {
-                    "key": "cb389689-6b51-455c-9f03-5913865f0a2b",
+                    "key": "8bab3a14-c40d-48f9-8e96-2a8abc31f8d0",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the different aspects of information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['technical', 'administrative', 'physical', 'risk management', 'compliance', 'laws', 'regulations']"
+                        "technical",
+                        "administrative",
+                        "physical",
+                        "risk management",
+                        "compliance",
+                        "laws",
+                        "regulations"
                     ],
-                    "expected_output": [
-                        "The different aspects of information security include technical, administrative, and physical controls, as well as risk management and compliance with laws and regulations."
-                    ]
+                    "expected_output": "The different aspects of information security include technical, administrative, and physical controls, as well as risk management and compliance with laws and regulations."
                 },
                 {
-                    "key": "88e440a2-23ea-4b87-88c6-74bf5745d51b",
+                    "key": "28fdc6b7-c275-4001-9f11-e6ae567e2a7b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the National Cybersecurity Strategy?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['National', 'Cybersecurity', 'Strategy']"
+                        "National",
+                        "Cybersecurity",
+                        "Strategy"
                     ],
-                    "expected_output": [
-                        "The National Cybersecurity Strategy is a comprehensive plan that outlines the roles and responsibilities of various stakeholders in protecting a nation's information infrastructure from cyber threats."
-                    ]
+                    "expected_output": "The National Cybersecurity Strategy is a comprehensive plan that outlines the roles and responsibilities of various stakeholders in protecting a nation's information infrastructure from cyber threats."
                 },
                 {
-                    "key": "5a0781db-340d-4050-9b6d-ddb5c5f9c3ac",
+                    "key": "6e2650ec-2420-47b3-afc1-4d840c33b5cb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between external and internal threats to information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['external', 'internal', 'threats', 'information', 'security']"
+                        "external",
+                        "internal",
+                        "threats",
+                        "information",
+                        "security"
                     ],
-                    "expected_output": [
-                        "External threats to information security come from outside the organization, such as hackers, cybercriminals, and nation-state actors, while internal threats come from within the organization, such as employees, contractors, or other insiders."
-                    ]
+                    "expected_output": "External threats to information security come from outside the organization, such as hackers, cybercriminals, and nation-state actors, while internal threats come from within the organization, such as employees, contractors, or other insiders."
                 },
                 {
-                    "key": "af97a02f-eed1-43b6-9969-d55f49f05aea",
+                    "key": "b72ccf2e-0d1f-492a-98a5-43c29f34d641",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of a CSIRT in information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['CSIRT', 'Computer Security Incident Response Team', 'cyber attacks', 'data breaches']"
+                        "CSIRT",
+                        "Computer Security Incident Response Team",
+                        "cyber attacks",
+                        "data breaches"
                     ],
-                    "expected_output": [
-                        "A CSIRT (Computer Security Incident Response Team) plays a crucial role in responding to and managing information security incidents, such as cyber attacks or data breaches."
-                    ]
+                    "expected_output": "A CSIRT (Computer Security Incident Response Team) plays a crucial role in responding to and managing information security incidents, such as cyber attacks or data breaches."
                 },
                 {
-                    "key": "6d963d08-07aa-4d84-b95b-6bf9e6af27e5",
+                    "key": "5b14f6a7-2605-4c48-a60d-254a5fd02d1b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between a CSIRT and a CERT?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['CSIRT', 'CERT', 'team', 'incident', 'response', 'security']"
+                        "CSIRT",
+                        "CERT",
+                        "team",
+                        "incident",
+                        "response",
+                        "security"
                     ],
-                    "expected_output": [
-                        "A CSIRT (Computer Security Incident Response Team) is a team that responds to and manages information security incidents, while a CERT (Computer Emergency Response Team) is a team that provides emergency response services to organizations in the event of a cyber attack or other information security incident."
-                    ]
+                    "expected_output": "A CSIRT (Computer Security Incident Response Team) is a team that responds to and manages information security incidents, while a CERT (Computer Emergency Response Team) is a team that provides emergency response services to organizations in the event of a cyber attack or other information security incident."
                 },
                 {
-                    "key": "1ddb2843-5705-439e-a273-6a2304509bbf",
+                    "key": "f4b48840-fc81-45b6-9c2b-2cc3b146fada",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of conducting a privacy impact assessment?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['important', 'privacy risks', 'personal data']"
+                        "important",
+                        "privacy risks",
+                        "personal data"
                     ],
-                    "expected_output": [
-                        "Conducting a privacy impact assessment is important because it helps organizations identify and mitigate potential privacy risks associated with the collection, use, and sharing of personal data."
-                    ]
+                    "expected_output": "Conducting a privacy impact assessment is important because it helps organizations identify and mitigate potential privacy risks associated with the collection, use, and sharing of personal data."
                 },
                 {
-                    "key": "a85da76a-3678-4a5c-8768-c2100e221e67",
+                    "key": "9f9243e3-6781-4a5c-8260-3bec74681e3b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between a risk assessment and a risk analysis?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'analysis']"
+                        "risk",
+                        "assessment",
+                        "analysis"
                     ],
-                    "expected_output": [
-                        "A risk assessment identifies potential risks and evaluates their likelihood and impact, while a risk analysis provides a detailed examination of the risk and recommends measures to mitigate or manage it."
-                    ]
+                    "expected_output": "A risk assessment identifies potential risks and evaluates their likelihood and impact, while a risk analysis provides a detailed examination of the risk and recommends measures to mitigate or manage it."
                 },
                 {
-                    "key": "1217feba-3b75-4f25-9e30-1a0e274f61b6",
+                    "key": "64c60474-3242-4797-b221-87fc9383a346",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of international cooperation in information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['International', 'cooperation', 'information', 'security', 'countries', 'share', 'coordinate', 'develop', 'common', 'standards', 'policies', 'global', 'cyber', 'threats']"
+                        "International",
+                        "cooperation",
+                        "information",
+                        "security",
+                        "countries",
+                        "share",
+                        "coordinate",
+                        "develop",
+                        "common",
+                        "standards",
+                        "policies",
+                        "global",
+                        "cyber",
+                        "threats"
                     ],
-                    "expected_output": [
-                        "International cooperation is essential in information security because it allows countries to share information, coordinate efforts, and develop common standards and policies to address global cyber threats."
-                    ]
+                    "expected_output": "International cooperation is essential in information security because it allows countries to share information, coordinate efforts, and develop common standards and policies to address global cyber threats."
                 },
                 {
-                    "key": "410a11cf-d7ec-4b70-8112-cb2b4e1a3b65",
+                    "key": "e45ceca5-f812-45a0-a4fa-f346314c4fad",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between a security policy and a security procedure?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['security policy', 'security procedure']"
+                        "security policy",
+                        "security procedure"
                     ],
-                    "expected_output": [
-                        "A security policy outlines an organization's approach to protecting its information assets, while a security procedure provides specific steps and guidelines for implementing the policy."
-                    ]
+                    "expected_output": "A security policy outlines an organization's approach to protecting its information assets, while a security procedure provides specific steps and guidelines for implementing the policy."
                 },
                 {
-                    "key": "18a595b8-9f7c-42e1-81d4-2d07c9c34a74",
+                    "key": "d5d41055-fa25-41e7-b2a9-ea640cbb927f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the focus of the module discussed in the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Information Security', 'Cyber Security']"
+                        "Information Security",
+                        "Cyber Security"
                     ],
-                    "expected_output": [
-                        "The module discussed in the text focuses on Information Security, which is a part of Cyber Security."
-                    ]
+                    "expected_output": "The module discussed in the text focuses on Information Security, which is a part of Cyber Security."
                 },
                 {
-                    "key": "63c228be-ed50-433f-a3d6-d444077352a3",
+                    "key": "6a7120e0-2063-4540-ac49-d937958306c5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the definition of information in the field of Information Security?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        NaN
-                    ],
-                    "expected_output": [
-                        "In the field of Information Security, information is defined as an \"asset\"; it is something that has value and should therefore be protected."
-                    ]
+                    "constraints": [],
+                    "expected_output": "In the field of Information Security, information is defined as an \"asset\"; it is something that has value and should therefore be protected."
                 },
                 {
-                    "key": "d34e690e-21e8-479a-b350-f22b65f435be",
+                    "key": "9b96b934-6033-406c-8855-55c4a1316936",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between information assets and tangible assets?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information assets', 'tangible assets', 'intangible', 'risks']"
+                        "information assets",
+                        "tangible assets",
+                        "intangible",
+                        "risks"
                     ],
-                    "expected_output": [
-                        "Information assets are radically different from tangible assets. While tangible assets have a physical existence and can be seen and touched, information assets are intangible and cannot be seen or touched. Information assets are also more vulnerable to various kinds of risks."
-                    ]
+                    "expected_output": "Information assets are radically different from tangible assets. While tangible assets have a physical existence and can be seen and touched, information assets are intangible and cannot be seen or touched. Information assets are also more vulnerable to various kinds of risks."
                 },
                 {
-                    "key": "fd8efca0-db56-46c4-a360-d569720c7a71",
+                    "key": "eabac9ca-b687-4104-b253-848ca06a1cb4",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some examples of criminal and recreational hacking mentioned in the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        NaN
-                    ],
-                    "expected_output": [
-                        "The text mentions the following examples of criminal and recreational hacking:\n\n* Global websites suffering DDoS attacks\n* World's biggest source of spam email shut down\n* The United Kingdom's biggest ever cyber fraud\n* United States of America's State Farm accounts compromised in credential stuffing attack\n* Islamic Republic of Iran: The Stuxnet worm marks a new era of cyberwar\n* WannaCry cyber-attack cost the NHS \u00a392m as 19,000 appointments cancelled\n* RSA hit by advanced persistent threat attacks"
-                    ]
+                    "constraints": [],
+                    "expected_output": "The text mentions the following examples of criminal and recreational hacking:\n\n* Global websites suffering DDoS attacks\n* World's biggest source of spam email shut down\n* The United Kingdom's biggest ever cyber fraud\n* United States of America's State Farm accounts compromised in credential stuffing attack\n* Islamic Republic of Iran: The Stuxnet worm marks a new era of cyberwar\n* WannaCry cyber-attack cost the NHS \u00a392m as 19,000 appointments cancelled\n* RSA hit by advanced persistent threat attacks"
                 },
                 {
-                    "key": "e7f30dec-0f2f-4455-8dbe-e5ccce25de28",
+                    "key": "d53895da-11f1-48a8-ba2b-d0c9128d8721",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of information security for individuals, organizations, and nations?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information', 'security', 'protect', 'cyber-intrusions', 'cyber-terrorism', 'cyber-crime', 'cyber attacks', 'harm', 'financial', 'loss']"
+                        "information",
+                        "security",
+                        "protect",
+                        "cyber-intrusions",
+                        "cyber-terrorism",
+                        "cyber-crime",
+                        "cyber attacks",
+                        "harm",
+                        "financial",
+                        "loss"
                     ],
-                    "expected_output": [
-                        "Information security is crucial for individuals, organizations, and nations as it helps protect against cyber-intrusions, cyber-terrorism, cyber-crime, and other forms of cyber attacks that can cause significant harm and financial loss."
-                    ]
+                    "expected_output": "Information security is crucial for individuals, organizations, and nations as it helps protect against cyber-intrusions, cyber-terrorism, cyber-crime, and other forms of cyber attacks that can cause significant harm and financial loss."
                 },
                 {
-                    "key": "81913f35-69f8-47b8-971a-89d295915a7f",
+                    "key": "6fb839a9-0f94-4086-976c-d3ae3a90f754",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of governments in ensuring information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['governments', 'information', 'security', 'infrastructure', 'systems', 'threats']"
+                        "governments",
+                        "information",
+                        "security",
+                        "infrastructure",
+                        "systems",
+                        "threats"
                     ],
-                    "expected_output": [
-                        "Governments have an important role to play in ensuring information security by expanding the information-communication infrastructure and establishing systems to protect against information security threats."
-                    ]
+                    "expected_output": "Governments have an important role to play in ensuring information security by expanding the information-communication infrastructure and establishing systems to protect against information security threats."
                 },
                 {
-                    "key": "5d04bf2c-e60d-42da-ba57-8311f6c47228",
+                    "key": "27503a53-055a-401e-9a14-93accf3b581f",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some areas where information security is particularly important?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['finance', 'healthcare', 'government', 'defense']"
+                        "finance",
+                        "healthcare",
+                        "government",
+                        "defense"
                     ],
-                    "expected_output": [
-                        "Information security is particularly important in areas such as finance, healthcare, government, and defense, where sensitive information is frequently accessed and transmitted."
-                    ]
+                    "expected_output": "Information security is particularly important in areas such as finance, healthcare, government, and defense, where sensitive information is frequently accessed and transmitted."
                 },
                 {
-                    "key": "1d0e538d-e418-45af-93a4-a4c00acc14d6",
+                    "key": "85e44951-37c0-4879-87fa-ea0218978e49",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of ISO/IEC 27001:2005?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ISO/IEC', '27001:2005', 'Information Security Management System', 'ISMS']"
+                        "ISO/IEC",
+                        "27001:2005",
+                        "Information Security Management System",
+                        "ISMS"
                     ],
-                    "expected_output": [
-                        "ISO/IEC 27001:2005 is an international standard that provides a framework for implementing an Information Security Management System (ISMS) to protect sensitive information from unauthorized access, use, disclosure, disruption, modification, or destruction."
-                    ]
+                    "expected_output": "ISO/IEC 27001:2005 is an international standard that provides a framework for implementing an Information Security Management System (ISMS) to protect sensitive information from unauthorized access, use, disclosure, disruption, modification, or destruction."
                 },
                 {
-                    "key": "2f3d1406-294b-46cd-bfc8-a5b363137302",
+                    "key": "7051a89c-a1cd-4499-b02b-0ef7a16054a9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between information security and cybersecurity?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information', 'security', 'cybersecurity', 'digital', 'physical']"
+                        "information",
+                        "security",
+                        "cybersecurity",
+                        "digital",
+                        "physical"
                     ],
-                    "expected_output": [
-                        "Information security is a broader term that encompasses the protection of all types of information, including physical and digital information, while cybersecurity specifically focuses on protecting digital information and systems from cyber threats."
-                    ]
+                    "expected_output": "Information security is a broader term that encompasses the protection of all types of information, including physical and digital information, while cybersecurity specifically focuses on protecting digital information and systems from cyber threats."
                 },
                 {
-                    "key": "c4eb3c94-8ea1-478d-9638-567cb727661b",
+                    "key": "cb743501-71a9-42bd-95ed-0705bdeb0ea0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of awareness and training in information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['awareness', 'training', 'information', 'security', 'risks', 'protect']"
+                        "awareness",
+                        "training",
+                        "information",
+                        "security",
+                        "risks",
+                        "protect"
                     ],
-                    "expected_output": [
-                        "Awareness and training are essential components of information security as they help individuals and organizations understand the risks associated with information security and learn how to protect themselves from potential threats."
-                    ]
+                    "expected_output": "Awareness and training are essential components of information security as they help individuals and organizations understand the risks associated with information security and learn how to protect themselves from potential threats."
                 },
                 {
-                    "key": "f632ac76-36d8-436b-a2b1-61d24c420e55",
+                    "key": "7d7a78da-7577-437f-b8d8-c234fb421e9d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the growing consensus regarding information?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information', 'protected', 'value', 'media']"
+                        "information",
+                        "protected",
+                        "value",
+                        "media"
                     ],
-                    "expected_output": [
-                        "The growing consensus is that information needs to be protected, and its value is considered more important than the media holding the information."
-                    ]
+                    "expected_output": "The growing consensus is that information needs to be protected, and its value is considered more important than the media holding the information."
                 },
                 {
-                    "key": "673b61d9-857b-47c9-8908-13694ebbf485",
+                    "key": "6c8b5cfc-88e7-460d-879d-59997f668e5d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between information assets and tangible assets?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['intangible', 'tangible']"
+                        "intangible",
+                        "tangible"
                     ],
-                    "expected_output": [
-                        "Information assets are intangible, can be easily reproduced, and their value increases when combined and processed. Tangible assets, on the other hand, have a physical form, and their value is reduced when reproduced."
-                    ]
+                    "expected_output": "Information assets are intangible, can be easily reproduced, and their value increases when combined and processed. Tangible assets, on the other hand, have a physical form, and their value is reduced when reproduced."
                 },
                 {
-                    "key": "d959a188-85a8-4416-ae4f-c39740d9f59a",
+                    "key": "7e173e17-da58-4c39-8c77-d62797b2ac36",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the risks associated with information assets?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['unauthorized access', 'unauthorized use', 'computer viruses', 'others']"
+                        "unauthorized access",
+                        "unauthorized use",
+                        "computer viruses",
+                        "others"
                     ],
-                    "expected_output": [
-                        "The risks associated with information assets include unauthorized access, unauthorized use, destruction of information systems through computer viruses, and others."
-                    ]
+                    "expected_output": "The risks associated with information assets include unauthorized access, unauthorized use, destruction of information systems through computer viruses, and others."
                 },
                 {
-                    "key": "f5ca0733-069b-4b9f-bc92-0e46b3bb99c0",
+                    "key": "14e74363-64de-420f-a243-50234d2550af",
                     "prompt": "Respond to the following question.\n\nQuestion: What is information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information', 'security', 'preservation', 'confidentiality', 'integrity', 'availability', 'unauthorized', 'access', 'use', 'disclosure', 'disruption', 'deletion', 'destruction', 'corruption', 'modification', 'inspection', 'recording', 'devaluation']"
+                        "information",
+                        "security",
+                        "preservation",
+                        "confidentiality",
+                        "integrity",
+                        "availability",
+                        "unauthorized",
+                        "access",
+                        "use",
+                        "disclosure",
+                        "disruption",
+                        "deletion",
+                        "destruction",
+                        "corruption",
+                        "modification",
+                        "inspection",
+                        "recording",
+                        "devaluation"
                     ],
-                    "expected_output": [
-                        "Information security is the preservation of confidentiality, integrity, and availability of information, which involves preventing or reducing the probability of unauthorized/inappropriate access, use, disclosure, disruption, deletion/destruction, corruption, modification, inspection, recording, or devaluation."
-                    ]
+                    "expected_output": "Information security is the preservation of confidentiality, integrity, and availability of information, which involves preventing or reducing the probability of unauthorized/inappropriate access, use, disclosure, disruption, deletion/destruction, corruption, modification, inspection, recording, or devaluation."
                 },
                 {
-                    "key": "72245aac-aa0e-4e26-8f09-1653e3c4334c",
+                    "key": "e770d63d-3926-41e3-a271-8323c24e7714",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the primary focus of information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['confidentiality', 'integrity', 'availability', 'CIA triad']"
+                        "confidentiality",
+                        "integrity",
+                        "availability",
+                        "CIA triad"
                     ],
-                    "expected_output": [
-                        "The primary focus of information security is the balanced protection of the confidentiality, integrity, and availability of data (also known as the CIA triad) while maintaining a focus on efficient policy implementation, all without hampering organization productivity."
-                    ]
+                    "expected_output": "The primary focus of information security is the balanced protection of the confidentiality, integrity, and availability of data (also known as the CIA triad) while maintaining a focus on efficient policy implementation, all without hampering organization productivity."
                 },
                 {
-                    "key": "e066cd07-1407-4e7e-bc2f-63ab5e9f7f83",
+                    "key": "af139f5b-5f3c-4211-b4e2-f49c602428ee",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between information security and cybersecurity?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['cybersecurity', 'information security', 'digital infrastructure security', 'Supervisory Control and Data Acquisition', 'Internet-of-Things']"
+                        "cybersecurity",
+                        "information security",
+                        "digital infrastructure security",
+                        "Supervisory Control and Data Acquisition",
+                        "Internet-of-Things"
                     ],
-                    "expected_output": [
-                        "Cybersecurity includes not only information security but also digital infrastructure security, such as Supervisory Control and Data Acquisition (SCADA) systems and Internet-of-Things (IoT) systems, which goes beyond the protection of valuable information."
-                    ]
+                    "expected_output": "Cybersecurity includes not only information security but also digital infrastructure security, such as Supervisory Control and Data Acquisition (SCADA) systems and Internet-of-Things (IoT) systems, which goes beyond the protection of valuable information."
                 },
                 {
-                    "key": "b9c4d67a-48e0-454b-bc97-cd11c9ee416b",
+                    "key": "d5e6bc90-f080-43ee-9b54-9c4ccd2cfdad",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the 4Rs of information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Right', 'Information', 'Right', 'People', 'Right', 'Time', 'Right', 'Form']"
+                        "Right",
+                        "Information",
+                        "Right",
+                        "People",
+                        "Right",
+                        "Time",
+                        "Right",
+                        "Form"
                     ],
-                    "expected_output": [
-                        "The 4Rs of information security are Right Information, Right People, Right Time, and Right Form."
-                    ]
+                    "expected_output": "The 4Rs of information security are Right Information, Right People, Right Time, and Right Form."
                 },
                 {
-                    "key": "0f20dbe3-a673-4c49-8c17-5ed43052278c",
+                    "key": "c434dcc5-6cf5-46d6-932c-7406a0385007",
                     "prompt": "Respond to the following question.\n\nQuestion: How can information assets be protected?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['access', 'control', 'encryption', 'backups', 'network', 'security']"
+                        "access",
+                        "control",
+                        "encryption",
+                        "backups",
+                        "network",
+                        "security"
                     ],
-                    "expected_output": [
-                        "Information assets can be protected by implementing measures such as access control, encryption, backups, and network security."
-                    ]
+                    "expected_output": "Information assets can be protected by implementing measures such as access control, encryption, backups, and network security."
                 },
                 {
-                    "key": "2261ae0a-6343-41b6-8724-4b8a9cf5939b",
+                    "key": "9cb523dd-8f7a-42f5-a68c-6fcbafef2a96",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of information security in today's world?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['crucial', 'financial loss', 'reputational damage', 'legal liability', 'negative consequences']"
+                        "crucial",
+                        "financial loss",
+                        "reputational damage",
+                        "legal liability",
+                        "negative consequences"
                     ],
-                    "expected_output": [
-                        "Information security is crucial in today's world, as it helps protect sensitive information from unauthorized access, use, or theft, which can result in financial loss, reputational damage, legal liability, and other negative consequences."
-                    ]
+                    "expected_output": "Information security is crucial in today's world, as it helps protect sensitive information from unauthorized access, use, or theft, which can result in financial loss, reputational damage, legal liability, and other negative consequences."
                 },
                 {
-                    "key": "b764483f-887d-4c7d-bdb8-3c7f2124e75e",
+                    "key": "0b1773da-36e5-45e6-a5d0-98ab175697a8",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some common threats to information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['phishing', 'malware', 'ransomware', 'denial-of-service', 'insider threats']"
+                        "phishing",
+                        "malware",
+                        "ransomware",
+                        "denial-of-service",
+                        "insider threats"
                     ],
-                    "expected_output": [
-                        "Some common threats to information security include phishing attacks, malware, ransomware, denial-of-service attacks, and insider threats."
-                    ]
+                    "expected_output": "Some common threats to information security include phishing attacks, malware, ransomware, denial-of-service attacks, and insider threats."
                 },
                 {
-                    "key": "fce53abb-517b-40ae-937d-dd1d5df83047",
+                    "key": "fde457f7-4f77-4830-b41e-e1c68858812f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main difference between Cyber Security and Information Security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Cyber Security', 'Information Security', 'digital infrastructure security', 'Supervisory Control and Data Acquisition', 'Internet-of-Things']"
+                        "Cyber Security",
+                        "Information Security",
+                        "digital infrastructure security",
+                        "Supervisory Control and Data Acquisition",
+                        "Internet-of-Things"
                     ],
-                    "expected_output": [
-                        "Cyber Security includes not only information security but also digital infrastructure security, such as Supervisory Control and Data Acquisition (SCADA) systems and Internet-of-Things (IoT) systems, which goes beyond the protection of valuable information."
-                    ]
+                    "expected_output": "Cyber Security includes not only information security but also digital infrastructure security, such as Supervisory Control and Data Acquisition (SCADA) systems and Internet-of-Things (IoT) systems, which goes beyond the protection of valuable information."
                 },
                 {
-                    "key": "6f8f7217-eb7c-4fd5-8159-91d377fb1508",
+                    "key": "e4942ac5-dd93-489b-9303-6ea927ba02d9",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the 4Rs of Information Security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Right', 'Information', 'Right', 'People', 'Right', 'Time', 'Right', 'Form']"
+                        "Right",
+                        "Information",
+                        "Right",
+                        "People",
+                        "Right",
+                        "Time",
+                        "Right",
+                        "Form"
                     ],
-                    "expected_output": [
-                        "The 4Rs of Information Security are Right Information, Right People, Right Time, and Right Form."
-                    ]
+                    "expected_output": "The 4Rs of Information Security are Right Information, Right People, Right Time, and Right Form."
                 },
                 {
-                    "key": "ea3d4533-da7a-4b3e-b454-929f63f9c13c",
+                    "key": "b12bd64d-8b97-4d19-9e3a-8832ec91fe7d",
                     "prompt": "Respond to the following question.\n\nQuestion: What does \"Right Information\" refer to?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['accuracy', 'completeness', 'integrity']"
+                        "accuracy",
+                        "completeness",
+                        "integrity"
                     ],
-                    "expected_output": [
-                        "\"Right Information\" refers to the accuracy and completeness of information, which guarantees the integrity of information."
-                    ]
+                    "expected_output": "\"Right Information\" refers to the accuracy and completeness of information, which guarantees the integrity of information."
                 },
                 {
-                    "key": "6a7f0c0d-1ded-4cc9-b219-26ab294e8c72",
+                    "key": "5235d3af-719a-4be6-9725-755b488c0d72",
                     "prompt": "Respond to the following question.\n\nQuestion: What does \"Right People\" mean?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Right People', 'authorized individuals', 'confidentiality']"
+                        "Right People",
+                        "authorized individuals",
+                        "confidentiality"
                     ],
-                    "expected_output": [
-                        "\"Right People\" means that information is available only to authorized individuals, which guarantees confidentiality."
-                    ]
+                    "expected_output": "\"Right People\" means that information is available only to authorized individuals, which guarantees confidentiality."
                 },
                 {
-                    "key": "eebd930f-de20-4f46-bc19-9edd86f689ec",
+                    "key": "3b087807-b196-4970-9276-e60701bdc06f",
                     "prompt": "Respond to the following question.\n\nQuestion: What does \"Right Time\" refer to?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Right Time', 'accessibility', 'usability', 'availability']"
+                        "Right Time",
+                        "accessibility",
+                        "usability",
+                        "availability"
                     ],
-                    "expected_output": [
-                        "\"Right Time\" refers to the accessibility of information and its usability upon demand by an authorized entity, which guarantees availability."
-                    ]
+                    "expected_output": "\"Right Time\" refers to the accessibility of information and its usability upon demand by an authorized entity, which guarantees availability."
                 },
                 {
-                    "key": "91a3f9f9-07b8-414d-9a0f-840095dadf4a",
+                    "key": "c37ff71c-9047-4b2e-81fe-062d800feb3d",
                     "prompt": "Respond to the following question.\n\nQuestion: What does \"Right Form\" refer to?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Right', 'Form', 'format']"
+                        "Right",
+                        "Form",
+                        "format"
                     ],
-                    "expected_output": [
-                        "\"Right Form\" refers to providing information in the right format."
-                    ]
+                    "expected_output": "\"Right Form\" refers to providing information in the right format."
                 },
                 {
-                    "key": "958ea4b4-5ad2-4d01-9b5d-dbadf3b4cfe4",
+                    "key": "23c1e5ee-1a90-4de9-a930-9e60445348bd",
                     "prompt": "Respond to the following question.\n\nQuestion: What is risk management in the context of information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk management', 'information security', 'identifying', 'assessing', 'mitigating', 'risks', 'information assets']"
+                        "risk management",
+                        "information security",
+                        "identifying",
+                        "assessing",
+                        "mitigating",
+                        "risks",
+                        "information assets"
                     ],
-                    "expected_output": [
-                        "Risk management in the context of information security is the process of identifying, assessing, and mitigating risks to information assets."
-                    ]
+                    "expected_output": "Risk management in the context of information security is the process of identifying, assessing, and mitigating risks to information assets."
                 },
                 {
-                    "key": "6d40fdb6-149f-43ad-9cc3-07014ccaa5e6",
+                    "key": "2c8b402e-ffd5-42d4-9b99-636eecca748f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the formula for risk?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Risk', '=', '\u222b', 'Asset', 'Value', 'Threats', 'Vulnerabilities']"
+                        "Risk",
+                        "=",
+                        "\u222b",
+                        "Asset",
+                        "Value",
+                        "Threats",
+                        "Vulnerabilities"
                     ],
-                    "expected_output": [
-                        "The formula for risk is Risk = \u222b(Asset Value, Threats, Vulnerabilities)."
-                    ]
+                    "expected_output": "The formula for risk is Risk = \u222b(Asset Value, Threats, Vulnerabilities)."
                 },
                 {
-                    "key": "b2163120-c2d4-47b2-9850-38241bab2ca2",
+                    "key": "98436343-9b73-41ea-b0aa-a217051925c4",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the four methods of risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk reduction', 'risk mitigation', 'risk acceptance', 'risk transference', 'risk avoidance']"
+                        "risk reduction",
+                        "risk mitigation",
+                        "risk acceptance",
+                        "risk transference",
+                        "risk avoidance"
                     ],
-                    "expected_output": [
-                        "The four methods of risk management are risk reduction (risk mitigation), risk acceptance, risk transference, and risk avoidance."
-                    ]
+                    "expected_output": "The four methods of risk management are risk reduction (risk mitigation), risk acceptance, risk transference, and risk avoidance."
                 },
                 {
-                    "key": "448c816d-288a-405d-bcc9-7cc71f4720a0",
+                    "key": "4435e3e4-1f90-4487-b694-7d89e072161f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a cost-effectiveness analysis in risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['cost-effectiveness', 'risk', 'reduction', 'acceptance', 'transference', 'avoidance']"
+                        "cost-effectiveness",
+                        "risk",
+                        "reduction",
+                        "acceptance",
+                        "transference",
+                        "avoidance"
                     ],
-                    "expected_output": [
-                        "The purpose of a cost-effectiveness analysis in risk management is to determine the most cost-effective method of risk reduction, acceptance, transference, or avoidance."
-                    ]
+                    "expected_output": "The purpose of a cost-effectiveness analysis in risk management is to determine the most cost-effective method of risk reduction, acceptance, transference, or avoidance."
                 },
                 {
-                    "key": "4acbb569-0fe4-4dba-bee5-3d3322cf3827",
+                    "key": "2adcd37b-b6b6-40ea-8ddb-e8979fc87680",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the standard for information security management systems published by the International Organization for Standardization and International Electrotechnical Commission (ISO/IEC)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ISO', 'IEC', '27001']"
+                        "ISO",
+                        "IEC",
+                        "27001"
                     ],
-                    "expected_output": [
-                        "The standard for information security management systems published by the International Organization for Standardization and International Electrotechnical Commission (ISO/IEC) is ISO/IEC 27001."
-                    ]
+                    "expected_output": "The standard for information security management systems published by the International Organization for Standardization and International Electrotechnical Commission (ISO/IEC) is ISO/IEC 27001."
                 },
                 {
-                    "key": "608f9087-115e-4289-8e40-c273d4e2e21a",
+                    "key": "92f65366-53bb-4e42-86e9-9a6fb589a26a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the focus of ISO/IEC 27001?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['administrative security', 'documentation', 'operation audit', 'policy/guideline', 'law']"
+                        "administrative security",
+                        "documentation",
+                        "operation audit",
+                        "policy/guideline",
+                        "law"
                     ],
-                    "expected_output": [
-                        "The focus of ISO/IEC 27001 is on administrative security, with an emphasis on documentation, operation audit, and the observance of policy/guideline and law."
-                    ]
+                    "expected_output": "The focus of ISO/IEC 27001 is on administrative security, with an emphasis on documentation, operation audit, and the observance of policy/guideline and law."
                 },
                 {
-                    "key": "419ca853-7eb6-4eee-96b9-de69c9d1e198",
+                    "key": "5e58acf0-0191-41c0-ae9d-8c004baad477",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main focus of CISA?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['CISA', 'audit', 'information systems', 'auditors', 'audit process']"
+                        "CISA",
+                        "audit",
+                        "information systems",
+                        "auditors",
+                        "audit process"
                     ],
-                    "expected_output": [
-                        "The main focus of CISA is on audit activities and controls on information systems, with a strong emphasis on the role of auditors and the performance of the audit process."
-                    ]
+                    "expected_output": "The main focus of CISA is on audit activities and controls on information systems, with a strong emphasis on the role of auditors and the performance of the audit process."
                 },
                 {
-                    "key": "6fb2fc4e-ef4d-4b14-9d6f-943877df3767",
+                    "key": "e45d3949-a0b0-4ed9-bf72-b67f7e5c1a78",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main focus of CISSP?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['technical security', 'software development', 'identity and access management', 'communications', 'network security', 'operations security']"
+                        "technical security",
+                        "software development",
+                        "identity and access management",
+                        "communications",
+                        "network security",
+                        "operations security"
                     ],
-                    "expected_output": [
-                        "The main focus of CISSP is on technical security, with an emphasis on software development, identity and access management, communications and network security, and operations security."
-                    ]
+                    "expected_output": "The main focus of CISSP is on technical security, with an emphasis on software development, identity and access management, communications and network security, and operations security."
                 },
                 {
-                    "key": "a0e7528c-0b01-419d-a32e-7e6f90b5098b",
+                    "key": "e4bff245-aa30-479f-b6fc-bf56c03524f6",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the four methods of information security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['administrative', 'physical', 'technical', 'legal']"
+                        "administrative",
+                        "physical",
+                        "technical",
+                        "legal"
                     ],
-                    "expected_output": [
-                        "The four methods of information security are administrative, physical, technical, and legal."
-                    ]
+                    "expected_output": "The four methods of information security are administrative, physical, technical, and legal."
                 },
                 {
-                    "key": "f75cbe53-8ad9-40ff-8da0-533b73ffb210",
+                    "key": "be218a87-7c74-4e23-86f3-f24189d1cb09",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between ISO/IEC 27001 and CISA?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ISO', 'CISA']"
+                        "ISO",
+                        "CISA"
                     ],
-                    "expected_output": [
-                        "ISO/IEC 27001 focuses on administrative security, while CISA focuses on audit activities and controls on information systems."
-                    ]
+                    "expected_output": "ISO/IEC 27001 focuses on administrative security, while CISA focuses on audit activities and controls on information systems."
                 },
                 {
-                    "key": "a13cbb92-5671-49e3-9fa3-6dbbad0594f4",
+                    "key": "3edf0c3b-db59-4388-a92b-2e26cd728ae6",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between CISA and CISSP?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['CISA', 'CISSP', 'audit', 'controls', 'information systems', 'technical', 'security']"
+                        "CISA",
+                        "CISSP",
+                        "audit",
+                        "controls",
+                        "information systems",
+                        "technical",
+                        "security"
                     ],
-                    "expected_output": [
-                        "CISA focuses on audit activities and controls on information systems, while CISSP focuses on technical security."
-                    ]
+                    "expected_output": "CISA focuses on audit activities and controls on information systems, while CISSP focuses on technical security."
                 },
                 {
-                    "key": "bbaeb14c-82fb-4d2e-bbf7-61a41e6a3ea2",
+                    "key": "600113e0-7231-4ad4-8f29-6094b67c8764",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of information security awareness?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['important', 'information', 'security', 'awareness', 'protect', 'organization', 'information assets', 'unauthorized', 'access', 'use', 'disclosure', 'disruption', 'modification', 'destruction']"
+                        "important",
+                        "information",
+                        "security",
+                        "awareness",
+                        "protect",
+                        "organization",
+                        "information assets",
+                        "unauthorized",
+                        "access",
+                        "use",
+                        "disclosure",
+                        "disruption",
+                        "modification",
+                        "destruction"
                     ],
-                    "expected_output": [
-                        "Information security awareness is important because it helps to protect the organization's information assets from unauthorized access, use, disclosure, disruption, modification, or destruction."
-                    ]
+                    "expected_output": "Information security awareness is important because it helps to protect the organization's information assets from unauthorized access, use, disclosure, disruption, modification, or destruction."
                 },
                 {
-                    "key": "1a23fa8c-cbf3-4420-8862-5e4743ebe84a",
+                    "key": "514d9670-bc1f-4274-bd66-2d5b6de7639e",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some examples of information security measures in the administrative domain?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information security policy', 'information security organization', 'human resources management', 'physical security management']"
+                        "information security policy",
+                        "information security organization",
+                        "human resources management",
+                        "physical security management"
                     ],
-                    "expected_output": [
-                        "Examples of information security measures in the administrative domain include the formulation of an information security policy, the construction and operation of an information security organization, human resources management, and physical security management."
-                    ]
+                    "expected_output": "Examples of information security measures in the administrative domain include the formulation of an information security policy, the construction and operation of an information security organization, human resources management, and physical security management."
                 },
                 {
-                    "key": "6429dbea-5a2c-42bd-9b3c-1b754d623ed0",
+                    "key": "b78c33f0-868c-4a07-a923-4f11f8eeb65d",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some examples of information security measures in the physical domain?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['physical', 'environmental', 'asset', 'protection', 'information']"
+                        "physical",
+                        "environmental",
+                        "asset",
+                        "protection",
+                        "information"
                     ],
-                    "expected_output": [
-                        "Examples of information security measures in the physical domain include physical and environmental security, asset security, and protection of information assets."
-                    ]
+                    "expected_output": "Examples of information security measures in the physical domain include physical and environmental security, asset security, and protection of information assets."
                 },
                 {
-                    "key": "bfe15eee-0480-4d28-aaf0-e09602b44107",
+                    "key": "499edd86-33f2-4e3c-836d-a07bf97ff4b9",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some examples of information security measures in the technical domain?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['cryptography', 'communications security', 'operations security', 'identity and access management']"
+                        "cryptography",
+                        "communications security",
+                        "operations security",
+                        "identity and access management"
                     ],
-                    "expected_output": [
-                        "Examples of information security measures in the technical domain include cryptography, communications security, operations security, and identity and access management."
-                    ]
+                    "expected_output": "Examples of information security measures in the technical domain include cryptography, communications security, operations security, and identity and access management."
                 },
                 {
-                    "key": "fd06c2b8-c22b-41f5-8807-e848cce4fda4",
+                    "key": "2c44e490-8da5-4536-ad05-050c4b8bd563",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the three information security domains?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['administrative', 'physical', 'technical']"
+                        "administrative",
+                        "physical",
+                        "technical"
                     ],
-                    "expected_output": [
-                        "The three information security domains are administrative, physical, and technical."
-                    ]
+                    "expected_output": "The three information security domains are administrative, physical, and technical."
                 },
                 {
-                    "key": "b2e13aff-81dc-4d60-b0d0-a14439b0df93",
+                    "key": "dfef12ad-92df-41db-bbe0-c1af1b85b7d8",
                     "prompt": "Respond to the following question.\n\nQuestion: What is hacking?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['hacking', 'access', 'computer', 'network', 'obtain', 'modify', 'information']"
+                        "hacking",
+                        "access",
+                        "computer",
+                        "network",
+                        "obtain",
+                        "modify",
+                        "information"
                     ],
-                    "expected_output": [
-                        "Hacking is the act of gaining unauthorized access to a computer or computer network to obtain or modify information."
-                    ]
+                    "expected_output": "Hacking is the act of gaining unauthorized access to a computer or computer network to obtain or modify information."
                 },
                 {
-                    "key": "b81e7ae7-2a47-4cbe-b8ba-703743e5be4b",
+                    "key": "016ca89d-166c-41f3-9493-7363baf03776",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the different types of hacking?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['recreational', 'criminal', 'political']"
+                        "recreational",
+                        "criminal",
+                        "political"
                     ],
-                    "expected_output": [
-                        "Hacking can be classified into recreational, criminal, or political hacking, depending on the purpose of the attack."
-                    ]
+                    "expected_output": "Hacking can be classified into recreational, criminal, or political hacking, depending on the purpose of the attack."
                 },
                 {
-                    "key": "d8b97563-7fc9-4233-b9db-9cc89229c871",
+                    "key": "0967964b-3d1f-49f2-a7f4-fe511f7caddb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is a Denial-of-Service (DoS) attack?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['DoS', 'attack', 'computer', 'networked', 'device', 'processes', 'resources', 'activities', 'floundering', 'failing', 'respond', 'adequately']"
+                        "DoS",
+                        "attack",
+                        "computer",
+                        "networked",
+                        "device",
+                        "processes",
+                        "resources",
+                        "activities",
+                        "floundering",
+                        "failing",
+                        "respond",
+                        "adequately"
                     ],
-                    "expected_output": [
-                        "A DoS attack causes an action upon a computer or networked device that results in other processes, resources, or activities floundering and failing to respond adequately."
-                    ]
+                    "expected_output": "A DoS attack causes an action upon a computer or networked device that results in other processes, resources, or activities floundering and failing to respond adequately."
                 },
                 {
-                    "key": "e593a929-4d9c-4933-a9f5-cd5821a85657",
+                    "key": "ca3e953a-f088-4ebe-89ec-fccad7fc35e2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is a Distributed Denial-of-Service (DDoS) attack?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['DDoS', 'DoS', 'attack', 'launched', 'sources', 'defend']"
+                        "DDoS",
+                        "DoS",
+                        "attack",
+                        "launched",
+                        "sources",
+                        "defend"
                     ],
-                    "expected_output": [
-                        "A DDoS attack is a DoS attack that is launched from multiple sources, making it more difficult to defend against."
-                    ]
+                    "expected_output": "A DDoS attack is a DoS attack that is launched from multiple sources, making it more difficult to defend against."
                 },
                 {
-                    "key": "401a2e7a-d21e-4a05-88e6-17baf277183b",
+                    "key": "bc2bf1b6-c91f-4b3f-bfb1-2fa9e58888bc",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the JPMorgan Chase Bank hack in 2014?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['JPMorgan Chase Bank', 'hack', '2014', 'cyber attack', 'user accounts', 'hackers']"
+                        "JPMorgan Chase Bank",
+                        "hack",
+                        "2014",
+                        "cyber attack",
+                        "user accounts",
+                        "hackers"
                     ],
-                    "expected_output": [
-                        "The JPMorgan Chase Bank hack in 2014 was a cyber attack that exposed over 80 million user accounts to hackers."
-                    ]
+                    "expected_output": "The JPMorgan Chase Bank hack in 2014 was a cyber attack that exposed over 80 million user accounts to hackers."
                 },
                 {
-                    "key": "9ccb1473-cf40-4428-b094-f6d5f1b044e5",
+                    "key": "b9fb53b9-88d7-487d-aa50-3a831f8a8c80",
                     "prompt": "Respond to the following question.\n\nQuestion: What is spam?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['spam', 'bulk', 'unsolicited', 'commercial', 'electronic', 'message', 'email']"
+                        "spam",
+                        "bulk",
+                        "unsolicited",
+                        "commercial",
+                        "electronic",
+                        "message",
+                        "email"
                     ],
-                    "expected_output": [
-                        "Spam is a bulk, unsolicited, commercial electronic message delivered through an information communication service, such as email."
-                    ]
+                    "expected_output": "Spam is a bulk, unsolicited, commercial electronic message delivered through an information communication service, such as email."
                 },
                 {
-                    "key": "9d2fa13b-d668-4369-a5a9-878cf89989f4",
+                    "key": "ae908341-3ac3-46a3-b42e-551078f7ad14",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the major DDoS attack in October 2016?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['cyber attack', 'Twitter', 'Netflix', 'PayPal', 'Pinterest', 'PlayStation Network']"
+                        "cyber attack",
+                        "Twitter",
+                        "Netflix",
+                        "PayPal",
+                        "Pinterest",
+                        "PlayStation Network"
                     ],
-                    "expected_output": [
-                        "The major DDoS attack in October 2016 was a cyber attack that disrupted several websites, including Twitter, Netflix, PayPal, Pinterest, and the PlayStation Network."
-                    ]
+                    "expected_output": "The major DDoS attack in October 2016 was a cyber attack that disrupted several websites, including Twitter, Netflix, PayPal, Pinterest, and the PlayStation Network."
                 },
                 {
-                    "key": "0bb46f44-db20-4f47-9e5c-ee53291b14e7",
+                    "key": "4d600601-27b6-4836-bbc4-ab70c0538065",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the hackers behind the October 2016 DDoS attack compromise endpoint IoT devices?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compromised', 'IoT', 'botnet', 'DNS', 'Dyn']"
+                        "compromised",
+                        "IoT",
+                        "botnet",
+                        "DNS",
+                        "Dyn"
                     ],
-                    "expected_output": [
-                        "The hackers behind the October 2016 DDoS attack compromised 20,000 endpoint IoT devices and transformed them into a botnet to flood traffic to DNS hosting provider Dyn."
-                    ]
+                    "expected_output": "The hackers behind the October 2016 DDoS attack compromised 20,000 endpoint IoT devices and transformed them into a botnet to flood traffic to DNS hosting provider Dyn."
                 },
                 {
-                    "key": "b344b64a-f47b-446c-b19e-76a455f656a3",
+                    "key": "0d3ac49a-bde6-4925-9a1c-06d95838934b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of social engineering in cyber attacks?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['social engineering', 'cyber attacks', 'manipulate', 'divulging', 'sensitive information', 'trick', 'unauthorized access', 'systems', 'data', 'financial resources']"
+                        "social engineering",
+                        "cyber attacks",
+                        "manipulate",
+                        "divulging",
+                        "sensitive information",
+                        "trick",
+                        "unauthorized access",
+                        "systems",
+                        "data",
+                        "financial resources"
                     ],
-                    "expected_output": [
-                        "Social engineering is used in cyber attacks to manipulate individuals into divulging confidential or sensitive information, or to trick them into performing actions that facilitate unauthorized access to systems, data, or financial resources."
-                    ]
+                    "expected_output": "Social engineering is used in cyber attacks to manipulate individuals into divulging confidential or sensitive information, or to trick them into performing actions that facilitate unauthorized access to systems, data, or financial resources."
                 },
                 {
-                    "key": "126db156-0155-424c-834e-c9d4343aa707",
+                    "key": "aa78cdd9-53dc-4d61-9bcc-103ed8793217",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the size of the attack mentioned in the first case study?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['1 Tbps']"
+                        "1 Tbps"
                     ],
-                    "expected_output": [
-                        "The attack measured close to 1 Tbps."
-                    ]
+                    "expected_output": "The attack measured close to 1 Tbps."
                 },
                 {
-                    "key": "900ddd24-eb09-443c-a6e2-ab084d3e4c86",
+                    "key": "761e926e-daa2-4133-9f3a-807de8971e52",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the method used by the group behind the attack to compromise endpoint IoT devices?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['botnet', 'DNS', 'flood']"
+                        "botnet",
+                        "DNS",
+                        "flood"
                     ],
-                    "expected_output": [
-                        "They used a botnet to flood traffic to DNS hosting provider Dyn."
-                    ]
+                    "expected_output": "They used a botnet to flood traffic to DNS hosting provider Dyn."
                 },
                 {
-                    "key": "b92cb5b5-e555-443f-b803-4ce142cc2f21",
+                    "key": "5d1e78f9-e316-4517-b766-b739b6650ca0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is phishing?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Phishing', 'email', 'messages', 'sensitive', 'information', 'usernames', 'passwords', 'credit card', 'trustworthy', 'entity']"
+                        "Phishing",
+                        "email",
+                        "messages",
+                        "sensitive",
+                        "information",
+                        "usernames",
+                        "passwords",
+                        "credit card",
+                        "trustworthy",
+                        "entity"
                     ],
-                    "expected_output": [
-                        "Phishing is the use of email or messages to obtain sensitive information such as usernames, passwords, and credit card details by using a trustworthy entity."
-                    ]
+                    "expected_output": "Phishing is the use of email or messages to obtain sensitive information such as usernames, passwords, and credit card details by using a trustworthy entity."
                 },
                 {
-                    "key": "ac545a3f-7eab-41cb-8d86-2985354ce39f",
+                    "key": "41e7a6cf-b558-49e2-9a29-9c9a80dc553e",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the estimated amount of fraud prevented in the UK after three men were convicted of launching sophisticated phishing scams?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['\u00a359m']"
+                        "\u00a359m"
                     ],
-                    "expected_output": [
-                        "\u00a359m worth of fraud was prevented."
-                    ]
+                    "expected_output": "\u00a359m worth of fraud was prevented."
                 },
                 {
-                    "key": "fe099624-cc65-4a5d-a2ab-3affce23550b",
+                    "key": "358107d8-f570-428a-8f02-c4a89df2a1e3",
                     "prompt": "Respond to the following question.\n\nQuestion: How many phishing pages were analyzed by the Met Police Central e-Crime Unit (PCeU), the Serious Organized Crime Agency, and the US Secret Service?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['2,600']"
+                        "2,600"
                     ],
-                    "expected_output": [
-                        "They analyzed 2,600 phishing pages that mimicked banking websites."
-                    ]
+                    "expected_output": "They analyzed 2,600 phishing pages that mimicked banking websites."
                 },
                 {
-                    "key": "c31bba82-5ac5-430d-b3da-7428d3da9800",
+                    "key": "68c286cc-56cd-41fc-b08e-a2544ab3aede",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the estimated amount of money raked in by the fraudsters in the UK's biggest ever cyber scam?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['\u00a32million']"
+                        "\u00a32million"
                     ],
-                    "expected_output": [
-                        "They raked in up to \u00a32million a week."
-                    ]
+                    "expected_output": "They raked in up to \u00a32million a week."
                 },
                 {
-                    "key": "9989cdd1-42b8-4682-a037-fe14dab7d19a",
+                    "key": "542217d6-5c3d-42ca-878b-0bbe66181d15",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the name of the botnet that generated billions of emails per day promoting unlicensed online pharmacies and cut-price impotence pills?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Rustock']"
+                        "Rustock"
                     ],
-                    "expected_output": [
-                        "The Rustock botnet."
-                    ]
+                    "expected_output": "The Rustock botnet."
                 },
                 {
-                    "key": "1b2d39c4-78b3-4ea0-ab22-33c86a6195a1",
+                    "key": "ee3a6d50-6765-477c-bcfd-0beb2ec9fd1a",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the method used by Microsoft to shut down the Rustock botnet?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Microsoft', 'seized', 'servers']"
+                        "Microsoft",
+                        "seized",
+                        "servers"
                     ],
-                    "expected_output": [
-                        "Microsoft, backed by US Marshals, seized servers that it was estimated covertly controlled almost a million Windows PCs."
-                    ]
+                    "expected_output": "Microsoft, backed by US Marshals, seized servers that it was estimated covertly controlled almost a million Windows PCs."
                 },
                 {
-                    "key": "af26fd15-c6a2-4066-aa53-bec1443e518b",
+                    "key": "3357b91a-16de-403a-8f14-05c6f2922f70",
                     "prompt": "Respond to the following question.\n\nQuestion: What is credential stuffing?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['credential', 'stuffing']"
+                        "credential",
+                        "stuffing"
                     ],
-                    "expected_output": [
-                        "Credential stuffing is a type of cyberattack where stolen account credentials are used to gain unauthorized access to user accounts through large-scale automated login requests directed against a web application."
-                    ]
+                    "expected_output": "Credential stuffing is a type of cyberattack where stolen account credentials are used to gain unauthorized access to user accounts through large-scale automated login requests directed against a web application."
                 },
                 {
-                    "key": "dc47f81c-7b03-4526-bc6f-759dc738fd3a",
+                    "key": "069f0e6c-6cd2-456e-a861-a71d8e5ee72c",
                     "prompt": "Respond to the following question.\n\nQuestion: What percentage of users reuse the same username/password combination across multiple sites, according to a survey?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['81%', '25%']"
+                        "81%",
+                        "25%"
                     ],
-                    "expected_output": [
-                        "81% of users have reused a password across two or more sites, and 25% of users use the same password across a majority of their accounts."
-                    ]
+                    "expected_output": "81% of users have reused a password across two or more sites, and 25% of users use the same password across a majority of their accounts."
                 },
                 {
-                    "key": "4c82e787-2450-493c-a6de-c62e40e49d77",
+                    "key": "351ef69d-cc5e-4b80-bd18-dc30eeb0e0a2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is malicious code?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['malicious', 'code', 'viruses', 'worms', 'Trojan', 'horses']"
+                        "malicious",
+                        "code",
+                        "viruses",
+                        "worms",
+                        "Trojan",
+                        "horses"
                     ],
-                    "expected_output": [
-                        "Malicious code refers to programs that cause damage to a system when executed. Examples include viruses, worms, and Trojan horses."
-                    ]
+                    "expected_output": "Malicious code refers to programs that cause damage to a system when executed. Examples include viruses, worms, and Trojan horses."
                 },
                 {
-                    "key": "d9c451ea-6338-4fa1-84fd-a22939e51e0c",
+                    "key": "4e92c520-b604-4699-9f93-9cbf750f8d14",
                     "prompt": "Respond to the following question.\n\nQuestion: What is a computer virus?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['computer', 'virus']"
+                        "computer",
+                        "virus"
                     ],
-                    "expected_output": [
-                        "A computer virus is a computer program or programming code that damages computer systems and data by replicating itself by initiating copying to another program, computer boot sector, or document."
-                    ]
+                    "expected_output": "A computer virus is a computer program or programming code that damages computer systems and data by replicating itself by initiating copying to another program, computer boot sector, or document."
                 },
                 {
-                    "key": "436ceaab-73b1-4c45-9c3c-5766b8375790",
+                    "key": "8cd3c919-2265-44cc-94cf-d328c4e49bab",
                     "prompt": "Respond to the following question.\n\nQuestion: What is a worm?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['worm', 'self-replicating', 'virus', 'active', 'memory', 'operating', 'system', 'resources', 'slowing', 'halting']"
+                        "worm",
+                        "self-replicating",
+                        "virus",
+                        "active",
+                        "memory",
+                        "operating",
+                        "system",
+                        "resources",
+                        "slowing",
+                        "halting"
                     ],
-                    "expected_output": [
-                        "A worm is a self-replicating virus that does not alter files but resides in active memory, using parts of an operating system that are automatic and usually invisible to the user. Their uncontrolled replication consumes system resources, slowing or halting other tasks."
-                    ]
+                    "expected_output": "A worm is a self-replicating virus that does not alter files but resides in active memory, using parts of an operating system that are automatic and usually invisible to the user. Their uncontrolled replication consumes system resources, slowing or halting other tasks."
                 },
                 {
-                    "key": "b3e9879b-0148-4878-83cb-f17a4f3fbad2",
+                    "key": "97c50b02-d239-4556-a56f-f237d7190b5c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is a Trojan horse?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Trojan horse', 'program', 'malicious', 'function', 'unloading', 'hidden', 'command', 'scripts', 'system', 'vulnerable', 'encroachment']"
+                        "Trojan horse",
+                        "program",
+                        "malicious",
+                        "function",
+                        "unloading",
+                        "hidden",
+                        "command",
+                        "scripts",
+                        "system",
+                        "vulnerable",
+                        "encroachment"
                     ],
-                    "expected_output": [
-                        "A Trojan horse is a program that appears to be useful and/or harmless but really has a malicious function such as unloading hidden programs or command scripts that make a system vulnerable to encroachment."
-                    ]
+                    "expected_output": "A Trojan horse is a program that appears to be useful and/or harmless but really has a malicious function such as unloading hidden programs or command scripts that make a system vulnerable to encroachment."
                 },
                 {
-                    "key": "3b1a7805-92a9-4ddf-b405-ce739df553fe",
+                    "key": "ab5e6435-1046-4f32-8246-abb117d649e2",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the Stuxnet worm designed to target?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Siemens Simatic WinCC SCADA systems']"
+                        "Siemens Simatic WinCC SCADA systems"
                     ],
-                    "expected_output": [
-                        "The Stuxnet worm was designed to target Siemens Simatic WinCC SCADA systems, which are used in various facilities to manage pipelines, nuclear plants, and various utility and manufacturing equipment."
-                    ]
+                    "expected_output": "The Stuxnet worm was designed to target Siemens Simatic WinCC SCADA systems, which are used in various facilities to manage pipelines, nuclear plants, and various utility and manufacturing equipment."
                 },
                 {
-                    "key": "09a16465-5f9e-436c-8496-10cd5145f71d",
+                    "key": "8d30da93-e5c6-4d25-8efa-3166c795c588",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the estimated cost of the WannaCry cyber-attack to the NHS?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['\u00a392m']"
+                        "\u00a392m"
                     ],
-                    "expected_output": [
-                        "The estimated cost of the WannaCry cyber-attack to the NHS was \u00a392m, with 19,000 appointments cancelled."
-                    ]
+                    "expected_output": "The estimated cost of the WannaCry cyber-attack to the NHS was \u00a392m, with 19,000 appointments cancelled."
                 },
                 {
-                    "key": "1d2e31b5-da25-4e01-834e-0d5b2e9a4aea",
+                    "key": "66fe4d13-1242-4f03-900a-b390b7fd8e28",
                     "prompt": "Respond to the following question.\n\nQuestion: What is an advanced persistent threat (APT)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['advanced', 'persistent', 'threat', 'network', 'attack', 'unauthorized', 'access', 'undetected', 'long period', 'intention', 'stealing', 'data']"
+                        "advanced",
+                        "persistent",
+                        "threat",
+                        "network",
+                        "attack",
+                        "unauthorized",
+                        "access",
+                        "undetected",
+                        "long period",
+                        "intention",
+                        "stealing",
+                        "data"
                     ],
-                    "expected_output": [
-                        "An advanced persistent threat (APT) is a network attack in which an unauthorized person gains access to a network and stays there undetected for a long period of time, with the intention of stealing data rather than causing damage to the network or organization."
-                    ]
+                    "expected_output": "An advanced persistent threat (APT) is a network attack in which an unauthorized person gains access to a network and stays there undetected for a long period of time, with the intention of stealing data rather than causing damage to the network or organization."
                 },
                 {
-                    "key": "58374aeb-522f-4816-9ce5-63ce6e81b836",
+                    "key": "6676a177-4e1c-489e-80b4-fd0c46313ccc",
                     "prompt": "Respond to the following question.\n\nQuestion: How does an APT attacker typically gain access to a network?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['spear fishing', 'social engineering', 'back door']"
+                        "spear fishing",
+                        "social engineering",
+                        "back door"
                     ],
-                    "expected_output": [
-                        "An APT attacker often uses \"spear fishing,\" a type of social engineering, to gain access to the network through legitimate means, and then establishes a \"back door.\""
-                    ]
+                    "expected_output": "An APT attacker often uses \"spear fishing,\" a type of social engineering, to gain access to the network through legitimate means, and then establishes a \"back door.\""
                 },
                 {
-                    "key": "44bceadb-e386-4d9e-ae86-63cd63fb8c28",
+                    "key": "60b074cd-e18f-4817-9a38-7a11239421f7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a back door in an APT attack?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['back door', 'APT attack', 'attacker', 'network', 'back doors', 'user credentials', 'administrative']"
+                        "back door",
+                        "APT attack",
+                        "attacker",
+                        "network",
+                        "back doors",
+                        "user credentials",
+                        "administrative"
                     ],
-                    "expected_output": [
-                        "The purpose of a back door in an APT attack is to allow the attacker to move laterally across the network, installing more back doors and gathering valid user credentials (especially administrative ones)."
-                    ]
+                    "expected_output": "The purpose of a back door in an APT attack is to allow the attacker to move laterally across the network, installing more back doors and gathering valid user credentials (especially administrative ones)."
                 },
                 {
-                    "key": "e81c18de-dd97-4d11-891a-bbda8acc003d",
+                    "key": "b3496f56-f72b-4914-a6ab-35f0de414de5",
                     "prompt": "Respond to the following question.\n\nQuestion: Which sector is most targeted by APT attacks?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['APT', 'national defense', 'manufacturing', 'financial industry']"
+                        "APT",
+                        "national defense",
+                        "manufacturing",
+                        "financial industry"
                     ],
-                    "expected_output": [
-                        "APT attacks target organizations in sectors with high-value information, such as national defense, manufacturing, and the financial industry."
-                    ]
+                    "expected_output": "APT attacks target organizations in sectors with high-value information, such as national defense, manufacturing, and the financial industry."
                 },
                 {
-                    "key": "a167cbc7-93ff-4e35-afa3-56cbda368f85",
+                    "key": "800673bb-6d4d-4a74-88e0-558742e0f148",
                     "prompt": "Respond to the following question.\n\nQuestion: What is an advanced persistent threat (APT)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['advanced', 'persistent', 'threat', 'APT']"
+                        "advanced",
+                        "persistent",
+                        "threat",
+                        "APT"
                     ],
-                    "expected_output": [
-                        "An advanced persistent threat (APT) is a type of attack where an attacker gains access to a network through legitimate means and establishes a backdoor to install malware and move laterally across the network, remaining hidden in plain sight. (Source: 7 Rosencrance, L. (2020, August 27). What is advanced persistent threat? SearchSecurity. https://searchsecurity.techtarget.com/definition/advanced-persistent-threat-APT)"
-                    ]
+                    "expected_output": "An advanced persistent threat (APT) is a type of attack where an attacker gains access to a network through legitimate means and establishes a backdoor to install malware and move laterally across the network, remaining hidden in plain sight. (Source: 7 Rosencrance, L. (2020, August 27). What is advanced persistent threat? SearchSecurity. https://searchsecurity.techtarget.com/definition/advanced-persistent-threat-APT)"
                 },
                 {
-                    "key": "8200e172-fcc5-4b05-91f0-28fc8038514f",
+                    "key": "98d67350-e10a-417d-a352-ad593af75f94",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the impact of the WannaCry cyber-attack on the NHS?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['\u00a392m', '19,000', '\u00a372m']"
+                        "\u00a392m",
+                        "19,000",
+                        "\u00a372m"
                     ],
-                    "expected_output": [
-                        "The WannaCry cyber-attack cost the NHS \u00a392m, with 19,000 appointments cancelled and \u00a372m spent on cleanup and upgrades to its IT systems. (Source: The Telegraph; WannaCry cyber-attack cost the NHS \u00a392m as 19,000 appointments cancelled, https://www.telegraph.co.uk/technology/2018/10/11/wannacry-cyber-attack-cost-nhs-92m-19000-appointments-cancelled)"
-                    ]
+                    "expected_output": "The WannaCry cyber-attack cost the NHS \u00a392m, with 19,000 appointments cancelled and \u00a372m spent on cleanup and upgrades to its IT systems. (Source: The Telegraph; WannaCry cyber-attack cost the NHS \u00a392m as 19,000 appointments cancelled, https://www.telegraph.co.uk/technology/2018/10/11/wannacry-cyber-attack-cost-nhs-92m-19000-appointments-cancelled)"
                 },
                 {
-                    "key": "a06d3217-5435-43f0-9a47-b25ec531b5af",
+                    "key": "8300f793-6028-4205-91ed-48e6e433a4e4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is two-factor authentication?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['two-factor authentication', 'key fob', 'token', 'randomized code', 'username', 'password']"
+                        "two-factor authentication",
+                        "key fob",
+                        "token",
+                        "randomized code",
+                        "username",
+                        "password"
                     ],
-                    "expected_output": [
-                        "Two-factor authentication is a security method that uses a key fob or token to provide a randomized code that a user must enter in addition to their username and password to authenticate and gain access to a site or application. (Source: RSA hit by advanced persistent threat attacks, http://www.computerweekly.com/Articles/2011/03/18/245974/RSA-hit-by-advanced-persistent-threat-attacks.htm)"
-                    ]
+                    "expected_output": "Two-factor authentication is a security method that uses a key fob or token to provide a randomized code that a user must enter in addition to their username and password to authenticate and gain access to a site or application. (Source: RSA hit by advanced persistent threat attacks, http://www.computerweekly.com/Articles/2011/03/18/245974/RSA-hit-by-advanced-persistent-threat-attacks.htm)"
                 },
                 {
-                    "key": "684ec0c6-c3f7-4937-bc0c-44b512aa6164",
+                    "key": "4e66ddfa-2bc5-45cd-a4aa-1c7984461416",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the result of the RSA SecurID hack?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['theft', 'two-factor', 'authentication', 'attack']"
+                        "theft",
+                        "two-factor",
+                        "authentication",
+                        "attack"
                     ],
-                    "expected_output": [
-                        "The RSA SecurID hack resulted in the theft of information related to RSA\u2019s SecurID two-factor authentication products, which could potentially be used to reduce the effectiveness of a current two-factor authentication implementation as part of a broader attack. (Source: RSA hit by advanced persistent threat attacks, http://www.computerweekly.com/Articles/2011/03/18/245974/RSA-hit-by-advanced-persistent-threat-attacks.htm)"
-                    ]
+                    "expected_output": "The RSA SecurID hack resulted in the theft of information related to RSA\u2019s SecurID two-factor authentication products, which could potentially be used to reduce the effectiveness of a current two-factor authentication implementation as part of a broader attack. (Source: RSA hit by advanced persistent threat attacks, http://www.computerweekly.com/Articles/2011/03/18/245974/RSA-hit-by-advanced-persistent-threat-attacks.htm)"
                 },
                 {
-                    "key": "8756fb68-bdba-486d-bc26-a1dffa7c65b4",
+                    "key": "f832e15f-6672-4fba-8b54-ec6230d7e123",
                     "prompt": "Respond to the following question.\n\nQuestion: What is a backdoor?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['backdoor', 'security', 'measures', 'access', 'computer', 'system', 'network']"
+                        "backdoor",
+                        "security",
+                        "measures",
+                        "access",
+                        "computer",
+                        "system",
+                        "network"
                     ],
-                    "expected_output": [
-                        "A backdoor is a way for an attacker to bypass security measures and gain unauthorized access to a computer system or network. (Source: 7 Rosencrance, L. (2020, August 27). What is advanced persistent threat? SearchSecurity. https://searchsecurity.techtarget.com/definition/advanced-persistent-threat-APT)"
-                    ]
+                    "expected_output": "A backdoor is a way for an attacker to bypass security measures and gain unauthorized access to a computer system or network. (Source: 7 Rosencrance, L. (2020, August 27). What is advanced persistent threat? SearchSecurity. https://searchsecurity.techtarget.com/definition/advanced-persistent-threat-APT)"
                 },
                 {
-                    "key": "660cfd1a-0490-4c19-942f-930d2ec618f1",
+                    "key": "c4a0f473-a513-46a4-9794-8ea1b2cdb3a2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is spear phishing?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['spear phishing', 'social engineering', 'attack', 'trusted source', 'sensitive information', 'malware']"
+                        "spear phishing",
+                        "social engineering",
+                        "attack",
+                        "trusted source",
+                        "sensitive information",
+                        "malware"
                     ],
-                    "expected_output": [
-                        "Spear phishing is a type of social engineering attack where an attacker targets a specific individual or group with a tailored message or email that appears to be from a trusted source, in order to trick the recipient into divulging sensitive information or installing malware. (Source: 7 Rosencrance, L. (2020, August 27). What is advanced persistent threat? SearchSecurity. https://searchsecurity.techtarget.com/definition/advanced-persistent-threat-APT)"
-                    ]
+                    "expected_output": "Spear phishing is a type of social engineering attack where an attacker targets a specific individual or group with a tailored message or email that appears to be from a trusted source, in order to trick the recipient into divulging sensitive information or installing malware. (Source: 7 Rosencrance, L. (2020, August 27). What is advanced persistent threat? SearchSecurity. https://searchsecurity.techtarget.com/definition/advanced-persistent-threat-APT)"
                 },
                 {
-                    "key": "ec08853a-dd1a-4df7-843c-ba3cfff6ea43",
+                    "key": "e76ebcfb-eef1-4b62-a4fc-d0c62dad9314",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of security awareness training for employees?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['security', 'awareness', 'training', 'employees', 'risky', 'behaviors', 'cyber', 'breaches']"
+                        "security",
+                        "awareness",
+                        "training",
+                        "employees",
+                        "risky",
+                        "behaviors",
+                        "cyber",
+                        "breaches"
                     ],
-                    "expected_output": [
-                        "Security awareness training for employees helps to eradicate risky behaviors that could potentially lead to cyber breaches. (Source: 2.3. Types of Internal Attacks, Disgruntled employees/contractors)"
-                    ]
+                    "expected_output": "Security awareness training for employees helps to eradicate risky behaviors that could potentially lead to cyber breaches. (Source: 2.3. Types of Internal Attacks, Disgruntled employees/contractors)"
                 },
                 {
-                    "key": "a1daf3d7-ec9d-4320-a17a-28bc5913089a",
+                    "key": "0b960f2d-cb85-4775-b07c-3d6dfeedb4e1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is a ghost infrastructure?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ghost', 'infrastructure', 'bogus', 'malware', 'compromised', 'network', 'attacker', 'hidden', 'plain', 'sight', 'maintain', 'access']"
+                        "ghost",
+                        "infrastructure",
+                        "bogus",
+                        "malware",
+                        "compromised",
+                        "network",
+                        "attacker",
+                        "hidden",
+                        "plain",
+                        "sight",
+                        "maintain",
+                        "access"
                     ],
-                    "expected_output": [
-                        "A ghost infrastructure refers to a set of bogus utilities and malware that an attacker installs on a compromised network, which remains hidden in plain sight and allows the attacker to maintain access to the network. (Source: 7 Rosencrance, L. (2020, August 27). What is advanced persistent threat? SearchSecurity. https://searchsecurity.techtarget.com/definition/advanced-persistent-threat-APT)"
-                    ]
+                    "expected_output": "A ghost infrastructure refers to a set of bogus utilities and malware that an attacker installs on a compromised network, which remains hidden in plain sight and allows the attacker to maintain access to the network. (Source: 7 Rosencrance, L. (2020, August 27). What is advanced persistent threat? SearchSecurity. https://searchsecurity.techtarget.com/definition/advanced-persistent-threat-APT)"
                 },
                 {
-                    "key": "942c04d6-5a78-4512-9596-cf70e785f55e",
+                    "key": "b41c1103-30cb-445f-9ee3-8527d839a696",
                     "prompt": "Respond to the following question.\n\nQuestion: What can rogue employees do to an organization's network, systems, and data?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['rogue employees', 'network', 'systems', 'data']"
+                        "rogue employees",
+                        "network",
+                        "systems",
+                        "data"
                     ],
-                    "expected_output": [
-                        "Rogue employees, especially those with knowledge of and access to networks, data centers, and admin accounts, can cause serious damage to an organization's network, systems, and data."
-                    ]
+                    "expected_output": "Rogue employees, especially those with knowledge of and access to networks, data centers, and admin accounts, can cause serious damage to an organization's network, systems, and data."
                 },
                 {
-                    "key": "4d57f218-6cfb-454c-adb5-bf0f7947215f",
+                    "key": "1e3bf52d-8ee3-4999-951a-e612658b9be9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is security awareness training for employees, and what does it help to eradicate?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['security', 'awareness', 'training', 'employees', 'risky', 'behaviors', 'cyber', 'breaches', 'phishing', 'ransomware', 'social', 'engineering', 'scams', 'telephone', 'text', 'message', 'social', 'media', 'channels']"
+                        "security",
+                        "awareness",
+                        "training",
+                        "employees",
+                        "risky",
+                        "behaviors",
+                        "cyber",
+                        "breaches",
+                        "phishing",
+                        "ransomware",
+                        "social",
+                        "engineering",
+                        "scams",
+                        "telephone",
+                        "text",
+                        "message",
+                        "social",
+                        "media",
+                        "channels"
                     ],
-                    "expected_output": [
-                        "Security awareness training for employees helps to eradicate risky behaviors that could potentially lead to cyber breaches. It addresses threats such as phishing emails, ransomware, and social engineering scams via the telephone, text message, or social media channels."
-                    ]
+                    "expected_output": "Security awareness training for employees helps to eradicate risky behaviors that could potentially lead to cyber breaches. It addresses threats such as phishing emails, ransomware, and social engineering scams via the telephone, text message, or social media channels."
                 },
                 {
-                    "key": "ecfe4e65-1816-46ce-b623-b7c290410593",
+                    "key": "90e40b2c-cccb-416a-8bd9-f3df91813903",
                     "prompt": "Respond to the following question.\n\nQuestion: What is social engineering, and what does it refer to?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['social engineering', 'confidential information', 'manipulate', 'trickery', 'information gathering', 'computer system access']"
+                        "social engineering",
+                        "confidential information",
+                        "manipulate",
+                        "trickery",
+                        "information gathering",
+                        "computer system access"
                     ],
-                    "expected_output": [
-                        "Social engineering refers to a set of techniques used to manipulate people into divulging confidential information. It is similar to a confidence trick or simple fraud, but the term typically applies to trickery for information gathering or computer system access."
-                    ]
+                    "expected_output": "Social engineering refers to a set of techniques used to manipulate people into divulging confidential information. It is similar to a confidence trick or simple fraud, but the term typically applies to trickery for information gathering or computer system access."
                 },
                 {
-                    "key": "354eedb9-2403-4c9f-b825-1d740ef4800d",
+                    "key": "a9a8ccac-5f6c-4f4d-92e3-626adc28bf5e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is threat trend analysis, and what is its purpose?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['threat', 'trend', 'analysis', 'security', 'patterns', 'anticipate', 'responses']"
+                        "threat",
+                        "trend",
+                        "analysis",
+                        "security",
+                        "patterns",
+                        "anticipate",
+                        "responses"
                     ],
-                    "expected_output": [
-                        "Threat trend analysis is an important activity in safeguarding information security. It refers to the search for patterns in security threats over time to identify ways in which such patterns change and develop, veer to new directions, or shift. Its purpose is to anticipate likely or possible threats and prepare the appropriate responses to these threats."
-                    ]
+                    "expected_output": "Threat trend analysis is an important activity in safeguarding information security. It refers to the search for patterns in security threats over time to identify ways in which such patterns change and develop, veer to new directions, or shift. Its purpose is to anticipate likely or possible threats and prepare the appropriate responses to these threats."
                 },
                 {
-                    "key": "8736baf4-47df-4bf9-a72e-647b68e08903",
+                    "key": "8b3fadde-8c46-4892-8429-9063749037b4",
                     "prompt": "Respond to the following question.\n\nQuestion: Name some organizations that perform information security threat trend analysis and share security threat trend reports.\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['FireEye', 'IBM', 'Microsoft', 'Symantec', 'Verizon']"
+                        "FireEye",
+                        "IBM",
+                        "Microsoft",
+                        "Symantec",
+                        "Verizon"
                     ],
-                    "expected_output": [
-                        "Some organizations that perform information security threat trend analysis and share security threat trend reports include FireEye, IBM, Microsoft, Symantec, and Verizon."
-                    ]
+                    "expected_output": "Some organizations that perform information security threat trend analysis and share security threat trend reports include FireEye, IBM, Microsoft, Symantec, and Verizon."
                 },
                 {
-                    "key": "2e972a6e-429b-4a30-81da-4ebfa7c8002e",
+                    "key": "a3c2da38-25a3-43d8-b115-cc423ddb5a01",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some trends in information security threats that have been reported?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['automation', 'polymorphic', 'anti-forensic']"
+                        "automation",
+                        "polymorphic",
+                        "anti-forensic"
                     ],
-                    "expected_output": [
-                        "Some trends in information security threats that have been reported include the automation of attack tools, the use of polymorphic tools, and the use of anti-forensic techniques to mask or hide the nature of attack tools."
-                    ]
+                    "expected_output": "Some trends in information security threats that have been reported include the automation of attack tools, the use of polymorphic tools, and the use of anti-forensic techniques to mask or hide the nature of attack tools."
                 },
                 {
-                    "key": "9cae8e8d-d2aa-4163-a234-b986fba7e796",
+                    "key": "2c0fef42-40e6-4ad3-9ea7-78c1aa274e49",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some attack tools that are difficult to detect?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['new attack patterns', 'HTTP', 'legitimate network traffic']"
+                        "new attack patterns",
+                        "HTTP",
+                        "legitimate network traffic"
                     ],
-                    "expected_output": [
-                        "Some attack tools that are difficult to detect include those that use new attack patterns that are not detected by existing detection tools, and those that use common protocols like HTTP, making it difficult to distinguish them from legitimate network traffic."
-                    ]
+                    "expected_output": "Some attack tools that are difficult to detect include those that use new attack patterns that are not detected by existing detection tools, and those that use common protocols like HTTP, making it difficult to distinguish them from legitimate network traffic."
                 },
                 {
-                    "key": "ab55924f-9070-4f1b-a9b4-9a58e5be513c",
+                    "key": "bb2c4d2e-05b6-4b3c-9da6-8495a7b83fb1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the MSN Messenger worm, and how does it work?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['MSN Messenger', 'worm', 'infects', 'IM', 'client', 'sends', 'file', 'infect', 'systems', 'contacts', 'address book', 'warning', 'receive', 'file', 'mimics', 'behavior', 'real', 'IM', 'user', 'alarming']"
+                        "MSN Messenger",
+                        "worm",
+                        "infects",
+                        "IM",
+                        "client",
+                        "sends",
+                        "file",
+                        "infect",
+                        "systems",
+                        "contacts",
+                        "address book",
+                        "warning",
+                        "receive",
+                        "file",
+                        "mimics",
+                        "behavior",
+                        "real",
+                        "IM",
+                        "user",
+                        "alarming"
                     ],
-                    "expected_output": [
-                        "The MSN Messenger worm is a worm that infects the MSN Messenger Instant-Messaging (IM) client. It sends a file designed to infect systems to contacts from the infected user\u2019s address book, after first issuing a warning that they are about to receive a file. The worm mimics the behavior of a real IM user, which is alarming."
-                    ]
+                    "expected_output": "The MSN Messenger worm is a worm that infects the MSN Messenger Instant-Messaging (IM) client. It sends a file designed to infect systems to contacts from the infected user\u2019s address book, after first issuing a warning that they are about to receive a file. The worm mimics the behavior of a real IM user, which is alarming."
                 },
                 {
-                    "key": "a52b2de4-3bc0-413b-94ef-3d6c9d96ddea",
+                    "key": "466bf8ba-ab5e-466f-aaaf-785b3d88cc5f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the Computer Emergency Response Team Coordination Center (CERT/CC), and what does it do?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Computer', 'Emergency', 'Response', 'Team', 'Coordination', 'Center', 'security', 'incidents', 'threats', 'profiles', 'organizations', 'potential']"
+                        "Computer",
+                        "Emergency",
+                        "Response",
+                        "Team",
+                        "Coordination",
+                        "Center",
+                        "security",
+                        "incidents",
+                        "threats",
+                        "profiles",
+                        "organizations",
+                        "potential"
                     ],
-                    "expected_output": [
-                        "The Computer Emergency Response Team Coordination Center (CERT/CC) is a team that coordinates the response to computer security incidents. It collects and correlates information about security threats and provides incident profiles to help organizations prepare for potential threats."
-                    ]
+                    "expected_output": "The Computer Emergency Response Team Coordination Center (CERT/CC) is a team that coordinates the response to computer security incidents. It collects and correlates information about security threats and provides incident profiles to help organizations prepare for potential threats."
                 },
                 {
-                    "key": "1c4a19c8-991e-48fa-b72e-5d472fa91c6b",
+                    "key": "73251925-9fdc-4225-b0c0-b53bbacc9fa3",
                     "prompt": "Respond to the following question.\n\nQuestion: Why is it difficult for administrators to keep up to date with patches?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['It', 'is', 'difficult', 'for', 'administrators', 'to', 'keep', 'up', 'with', 'patches', 'because', 'the', 'number', 'of', 'newly', 'discovered', 'vulnerabilities', 'in', 'software', 'products', 'that', 'are', 'reported', 'to', 'the', 'CERT/CC', 'doubles', 'every', 'year', 'making', 'it', 'challenging', 'for', 'administrators', 'to', 'keep', 'up', 'with', 'patches', 'Intruders', 'know', 'this', 'and', 'take', 'advantage', 'of', 'it']"
+                        "It",
+                        "is",
+                        "difficult",
+                        "for",
+                        "administrators",
+                        "to",
+                        "keep",
+                        "up",
+                        "with",
+                        "patches",
+                        "because",
+                        "the",
+                        "number",
+                        "of",
+                        "newly",
+                        "discovered",
+                        "vulnerabilities",
+                        "in",
+                        "software",
+                        "products",
+                        "that",
+                        "are",
+                        "reported",
+                        "to",
+                        "the",
+                        "CERT/CC",
+                        "doubles",
+                        "every",
+                        "year",
+                        "making",
+                        "it",
+                        "challenging",
+                        "for",
+                        "administrators",
+                        "to",
+                        "keep",
+                        "up",
+                        "with",
+                        "patches",
+                        "Intruders",
+                        "know",
+                        "this",
+                        "and",
+                        "take",
+                        "advantage",
+                        "of",
+                        "it"
                     ],
-                    "expected_output": [
-                        "It is difficult for administrators to keep up to date with patches because the number of newly discovered vulnerabilities in software products that are reported to the CERT/CC doubles every year, making it challenging for administrators to keep up with patches. Intruders know this and take advantage of it."
-                    ]
+                    "expected_output": "It is difficult for administrators to keep up to date with patches because the number of newly discovered vulnerabilities in software products that are reported to the CERT/CC doubles every year, making it challenging for administrators to keep up with patches. Intruders know this and take advantage of it."
                 },
                 {
-                    "key": "ac6db614-28fc-41ed-811d-4ca742a5ddf7",
+                    "key": "0ce24958-2c7f-41a8-8d4f-5c7da28e3a88",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main concern of the article?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['increasing', 'threat', 'cyber', 'attacks', 'governing', 'internet', 'use', 'prevent']"
+                        "increasing",
+                        "threat",
+                        "cyber",
+                        "attacks",
+                        "governing",
+                        "internet",
+                        "use",
+                        "prevent"
                     ],
-                    "expected_output": [
-                        "The main concern of the article is the increasing threat of cyber attacks and the importance of governing internet use to prevent them."
-                    ]
+                    "expected_output": "The main concern of the article is the increasing threat of cyber attacks and the importance of governing internet use to prevent them."
                 },
                 {
-                    "key": "dfc60c0a-0d51-4034-a560-6d5229923382",
+                    "key": "e2166599-7531-4cab-8fbe-bce94b2dfe59",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Computer Emergency Response Team Coordination Center (CERT/CC)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['coordinate', 'response', 'computer', 'security', 'incidents', 'information', 'guidance', 'protect']"
+                        "coordinate",
+                        "response",
+                        "computer",
+                        "security",
+                        "incidents",
+                        "information",
+                        "guidance",
+                        "protect"
                     ],
-                    "expected_output": [
-                        "The purpose of the Computer Emergency Response Team Coordination Center (CERT/CC) is to coordinate the response to computer security incidents and provide information and guidance on how to protect against them."
-                    ]
+                    "expected_output": "The purpose of the Computer Emergency Response Team Coordination Center (CERT/CC) is to coordinate the response to computer security incidents and provide information and guidance on how to protect against them."
                 },
                 {
-                    "key": "0c0aa65a-0a5d-450c-9687-80d22001e42d",
+                    "key": "f96d93c7-4a34-4efd-8cd3-590901ace9d1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is a zero-day attack?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['zero-day attack', 'computer threat', 'vulnerability', 'software', 'administrators', 'patch', 'protect']"
+                        "zero-day attack",
+                        "computer threat",
+                        "vulnerability",
+                        "software",
+                        "administrators",
+                        "patch",
+                        "protect"
                     ],
-                    "expected_output": [
-                        "A zero-day attack is a computer threat that exploits a vulnerability in software that has not yet been discovered by administrators, making it difficult to patch or protect against."
-                    ]
+                    "expected_output": "A zero-day attack is a computer threat that exploits a vulnerability in software that has not yet been discovered by administrators, making it difficult to patch or protect against."
                 },
                 {
-                    "key": "a8ad474e-6fb9-431d-9037-96367051bb8e",
+                    "key": "5e9eb00d-704c-458c-8348-460909b9c099",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between recreational hacking and criminal hacking?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['recreational', 'hacking', 'criminal', 'fraud', 'espionage']"
+                        "recreational",
+                        "hacking",
+                        "criminal",
+                        "fraud",
+                        "espionage"
                     ],
-                    "expected_output": [
-                        "Recreational hacking is unauthorized modification of programs and data simply to satisfy the hacker\u2019s curiosity, while criminal hacking is used in fraud or espionage."
-                    ]
+                    "expected_output": "Recreational hacking is unauthorized modification of programs and data simply to satisfy the hacker\u2019s curiosity, while criminal hacking is used in fraud or espionage."
                 },
                 {
-                    "key": "a483224c-c745-44f3-accc-39dfaa26b29f",
+                    "key": "3f10a053-268c-4671-bf40-895ada6e76d4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the trend in data breach volumes?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['increasing']"
+                        "increasing"
                     ],
-                    "expected_output": [
-                        "According to Figure 4 in the text, data breach volumes have been increasing over time."
-                    ]
+                    "expected_output": "According to Figure 4 in the text, data breach volumes have been increasing over time."
                 },
                 {
-                    "key": "c2a71325-e8a9-4fa3-98a7-c82191d5293b",
+                    "key": "1c3a2894-23c9-443f-a491-5b21f65fc7ba",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of Zbot, a malware package?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['financial gain', 'stealing', 'online credentials', 'FTP', 'e-mail', 'online banking', 'other online passwords']"
+                        "financial gain",
+                        "stealing",
+                        "online credentials",
+                        "FTP",
+                        "e-mail",
+                        "online banking",
+                        "other online passwords"
                     ],
-                    "expected_output": [
-                        "The purpose of Zbot is financial gain\u2014stealing online credentials such as FTP, e-mail, online banking, and other online passwords."
-                    ]
+                    "expected_output": "The purpose of Zbot is financial gain\u2014stealing online credentials such as FTP, e-mail, online banking, and other online passwords."
                 },
                 {
-                    "key": "446d851d-5bb3-442f-8e3f-a6372eff6549",
+                    "key": "720c2e4d-0e20-4852-823c-3a628f345e11",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the definition of infrastructure attacks?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Infrastructure', 'attacks', 'Internet', 'compromise', 'sensitive', 'information', 'spread', 'misinformation', 'significant', 'diversion', 'resources', 'tasks']"
+                        "Infrastructure",
+                        "attacks",
+                        "Internet",
+                        "compromise",
+                        "sensitive",
+                        "information",
+                        "spread",
+                        "misinformation",
+                        "significant",
+                        "diversion",
+                        "resources",
+                        "tasks"
                     ],
-                    "expected_output": [
-                        "Infrastructure attacks are attacks that broadly affect key components of the Internet, resulting in compromise of sensitive information, spread of misinformation, and significant diversion of resources from other tasks."
-                    ]
+                    "expected_output": "Infrastructure attacks are attacks that broadly affect key components of the Internet, resulting in compromise of sensitive information, spread of misinformation, and significant diversion of resources from other tasks."
                 },
                 {
-                    "key": "b6d9b367-570a-4629-a36e-66f358c78add",
+                    "key": "4865788c-9312-4d3d-8055-3ab88cced095",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between hacking and cyberterrorism?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['hacking', 'cyberterrorism', 'Internet', 'computer', 'computer network', 'legal authorization', 'infrastructure', 'propaganda']"
+                        "hacking",
+                        "cyberterrorism",
+                        "Internet",
+                        "computer",
+                        "computer network",
+                        "legal authorization",
+                        "infrastructure",
+                        "propaganda"
                     ],
-                    "expected_output": [
-                        "Hacking is unauthorized access to a computer or computer network to obtain or modify information without legal authorization, while cyberterrorism is the use of the Internet to carry out acts of terrorism, such as hacking into critical infrastructure or spreading propaganda."
-                    ]
+                    "expected_output": "Hacking is unauthorized access to a computer or computer network to obtain or modify information without legal authorization, while cyberterrorism is the use of the Internet to carry out acts of terrorism, such as hacking into critical infrastructure or spreading propaganda."
                 },
                 {
-                    "key": "dfa9bcb2-bdac-4131-8118-34b00fcfb372",
+                    "key": "1be96b7c-38e0-4068-b1f7-263ee2b8695c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Internet in cyberterrorism, cyberpolitics, and cyberwarfare?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The Internet', 'cyberterrorism', 'cyberpolitics', 'cyberwarfare', 'tool', 'foreign policy', 'threat', 'national security']"
+                        "The Internet",
+                        "cyberterrorism",
+                        "cyberpolitics",
+                        "cyberwarfare",
+                        "tool",
+                        "foreign policy",
+                        "threat",
+                        "national security"
                     ],
-                    "expected_output": [
-                        "The Internet has become a tool for influencing foreign policy and poses a major threat to national security in the realms of cyberterrorism, cyberpolitics, and cyberwarfare."
-                    ]
+                    "expected_output": "The Internet has become a tool for influencing foreign policy and poses a major threat to national security in the realms of cyberterrorism, cyberpolitics, and cyberwarfare."
                 },
                 {
-                    "key": "17a87dcf-062c-459b-aa0d-b3f6c509905d",
+                    "key": "5c5a9e36-24bf-4fcd-bbc0-fa209eb480cf",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the increasing trend of hacking groups targeting major sites with national interest and holding highly sensitive information?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['significant', 'threat', 'national security', 'cyber attacks']"
+                        "significant",
+                        "threat",
+                        "national security",
+                        "cyber attacks"
                     ],
-                    "expected_output": [
-                        "The increasing trend of hacking groups targeting major sites with national interest and holding highly sensitive information poses a significant threat to national security and highlights the need for increased measures to protect against cyber attacks."
-                    ]
+                    "expected_output": "The increasing trend of hacking groups targeting major sites with national interest and holding highly sensitive information poses a significant threat to national security and highlights the need for increased measures to protect against cyber attacks."
                 },
                 {
-                    "key": "5e731d5e-b3bb-4657-ae4d-ce34d1136a65",
+                    "key": "777d7fa1-6703-49e6-a479-15bc2c68d7a3",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main purpose of cybercrime, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['money', 'slander', 'destruction', 'curiosity', 'self-satisfaction']"
+                        "money",
+                        "slander",
+                        "destruction",
+                        "curiosity",
+                        "self-satisfaction"
                     ],
-                    "expected_output": [
-                        "The main purpose of cybercrime is now money, slander, and destruction, whereas it used to be perpetrated out of curiosity or for self-satisfaction."
-                    ]
+                    "expected_output": "The main purpose of cybercrime is now money, slander, and destruction, whereas it used to be perpetrated out of curiosity or for self-satisfaction."
                 },
                 {
-                    "key": "0b2ea6d2-7fa1-44d9-b820-326113c8aced",
+                    "key": "5d4b78d3-d1ca-4b47-8843-07e64b822a3b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is cybercrime, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['cybercrime', 'deliberate', 'destruction', 'disruption', 'distortion', 'digital', 'data', 'information', 'flows', 'political', 'economic', 'religious', 'ideological']"
+                        "cybercrime",
+                        "deliberate",
+                        "destruction",
+                        "disruption",
+                        "distortion",
+                        "digital",
+                        "data",
+                        "information",
+                        "flows",
+                        "political",
+                        "economic",
+                        "religious",
+                        "ideological"
                     ],
-                    "expected_output": [
-                        "Cybercrime is the deliberate destruction, disruption, or distortion of digital data or information flows for political, economic, religious, or ideological reasons."
-                    ]
+                    "expected_output": "Cybercrime is the deliberate destruction, disruption, or distortion of digital data or information flows for political, economic, religious, or ideological reasons."
                 },
                 {
-                    "key": "7d501ab0-ccd5-4c48-90a3-06eca60bf51c",
+                    "key": "8e39b609-f4a8-4b6b-86d5-fd055c12362f",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the most common types of cybercrime, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['hacking', 'DoS', 'malicious code', 'social engineering']"
+                        "hacking",
+                        "DoS",
+                        "malicious code",
+                        "social engineering"
                     ],
-                    "expected_output": [
-                        "The most common types of cybercrime include hacking, DoS, malicious code, and social engineering."
-                    ]
+                    "expected_output": "The most common types of cybercrime include hacking, DoS, malicious code, and social engineering."
                 },
                 {
-                    "key": "a63412bb-75bb-4b10-97e2-1d02573e4f1b",
+                    "key": "7087e39c-aae5-4230-9ddf-643b4421e7f7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the PTF ITU SPAM toolkit, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['policy', 'planners', 'regulators', 'companies', 'adjust', 'recover', 'confidence', 'e-mail']"
+                        "policy",
+                        "planners",
+                        "regulators",
+                        "companies",
+                        "adjust",
+                        "recover",
+                        "confidence",
+                        "e-mail"
                     ],
-                    "expected_output": [
-                        "The purpose of the PTF ITU SPAM toolkit is to help policy planners, regulators, and companies adjust policy and recover confidence in e-mail."
-                    ]
+                    "expected_output": "The purpose of the PTF ITU SPAM toolkit is to help policy planners, regulators, and companies adjust policy and recover confidence in e-mail."
                 },
                 {
-                    "key": "df828ca5-32ca-4f23-9d09-0e7ab0ffe600",
+                    "key": "54f3dd3e-89f3-4f69-bd03-42d56c998309",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Attorney General's Office of the Republic of Indonesia in combating cybercrime, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['strengthening', 'revitalizing', 'preparing', 'designing', 'formulating', 'Cybercrime', 'Task', 'Force', 'prosecutors', 'knowledge', 'abilities', 'skills', 'expertise', 'handling', 'cybercrime', 'cases']"
+                        "strengthening",
+                        "revitalizing",
+                        "preparing",
+                        "designing",
+                        "formulating",
+                        "Cybercrime",
+                        "Task",
+                        "Force",
+                        "prosecutors",
+                        "knowledge",
+                        "abilities",
+                        "skills",
+                        "expertise",
+                        "handling",
+                        "cybercrime",
+                        "cases"
                     ],
-                    "expected_output": [
-                        "The Attorney General's Office of the Republic of Indonesia is institutionally strengthening and revitalizing the institution by preparing, designing, and formulating a Cybercrime Task Force, which will consist of prosecutors who specifically have knowledge, abilities, skills, and expertise in handling cybercrime cases."
-                    ]
+                    "expected_output": "The Attorney General's Office of the Republic of Indonesia is institutionally strengthening and revitalizing the institution by preparing, designing, and formulating a Cybercrime Task Force, which will consist of prosecutors who specifically have knowledge, abilities, skills, and expertise in handling cybercrime cases."
                 },
                 {
-                    "key": "7fdaef1c-88e0-4c73-87f4-ce8dc33b737a",
+                    "key": "557b4435-b2da-44ae-860c-31cf79f655f7",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the three special units that the Cybercrime Task Force will consist of, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['First', 'Second', 'Third']"
+                        "First",
+                        "Second",
+                        "Third"
                     ],
-                    "expected_output": [
-                        "The three special units that the Cybercrime Task Force will consist of are: First, Computer Related Crime Unit, assigned to handle criminal cases that utilize computers or information technology facilities as a means of committing crimes; Second, Crimes Against Computer Unit, assigned to handle crimes aimed at computers and information technology; and Third, Cooperation and Secretariat Unit, providing support in handling cases and cooperation both nationally and internationally."
-                    ]
+                    "expected_output": "The three special units that the Cybercrime Task Force will consist of are: First, Computer Related Crime Unit, assigned to handle criminal cases that utilize computers or information technology facilities as a means of committing crimes; Second, Crimes Against Computer Unit, assigned to handle crimes aimed at computers and information technology; and Third, Cooperation and Secretariat Unit, providing support in handling cases and cooperation both nationally and internationally."
                 },
                 {
-                    "key": "986bc70b-3eb0-4443-8d6f-2e46f75a4ffc",
+                    "key": "d73b5092-3465-4f61-8fc4-46425584a6dd",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the price range for general non-financial institution login credentials on the dark web, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$1', '$110']"
+                        "$1",
+                        "$110"
                     ],
-                    "expected_output": [
-                        "The price range for general non-financial institution login credentials on the dark web is between $1 and $110."
-                    ]
+                    "expected_output": "The price range for general non-financial institution login credentials on the dark web is between $1 and $110."
                 },
                 {
-                    "key": "9878e613-22af-4a2d-8b6e-2f36217593a3",
+                    "key": "8c0e1783-91b3-4231-b727-76630969725a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the price range for online payment services login information, such as Paypal, on the dark web, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$20', '$200']"
+                        "$20",
+                        "$200"
                     ],
-                    "expected_output": [
-                        "The price range for online payment services login information, such as Paypal, on the dark web is between $20 and $200."
-                    ]
+                    "expected_output": "The price range for online payment services login information, such as Paypal, on the dark web is between $20 and $200."
                 },
                 {
-                    "key": "e57f6ae2-9bbf-4d47-82f6-d4620812ccc8",
+                    "key": "8803ec89-41eb-4af2-afd9-91b1985e8063",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the price range for medical records on the dark web, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$1', '$1,000']"
+                        "$1",
+                        "$1,000"
                     ],
-                    "expected_output": [
-                        "The price range for medical records on the dark web is between $1 and $1,000."
-                    ]
+                    "expected_output": "The price range for medical records on the dark web is between $1 and $1,000."
                 },
                 {
-                    "key": "0ec92275-cd3e-45f5-852c-c459f38e79f0",
+                    "key": "bbc3d5c7-5ec9-4160-b053-29922b9e2f80",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a security improvement program, according to the text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['improve', 'security', 'policies', 'procedures', 'technologies', 'vigilance']"
+                        "improve",
+                        "security",
+                        "policies",
+                        "procedures",
+                        "technologies",
+                        "vigilance"
                     ],
-                    "expected_output": [
-                        "The purpose of a security improvement program is to improve security by adapting to changing environmental, well-defined policies and procedures, the use of appropriate security technologies, and constant vigilance."
-                    ]
+                    "expected_output": "The purpose of a security improvement program is to improve security by adapting to changing environmental, well-defined policies and procedures, the use of appropriate security technologies, and constant vigilance."
                 }
             ]
         }

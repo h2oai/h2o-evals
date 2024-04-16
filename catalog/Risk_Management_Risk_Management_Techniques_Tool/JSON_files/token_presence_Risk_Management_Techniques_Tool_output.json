@@ -1,1739 +1,2289 @@
 {
     "tests": [
         {
-            "key": "c6addc19-d62d-4e98-b8e9-f1ea561dcbd0",
+            "key": "3624962f-4ae4-4c88-8f36-37c081960bd9",
             "documents": [
                 "Risk_Management_Techniques_Tool.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "8846ba5a-a028-4502-8d04-95988ed4b9ef",
+                    "key": "109e2d5a-ccfb-4847-8cef-fecd0e62463d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a risk register in risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'register', 'risk management', 'index', 'administration', 'risks', 'risk plans', 'functional area']"
+                        "risk",
+                        "register",
+                        "risk management",
+                        "index",
+                        "administration",
+                        "risks",
+                        "risk plans",
+                        "functional area"
                     ],
-                    "expected_output": [
-                        "A risk register is an essential documentation tool for risk management, which serves as an \"index\" of an administration's risks and helps in developing respective risk plans for each functional area."
-                    ]
+                    "expected_output": "A risk register is an essential documentation tool for risk management, which serves as an \"index\" of an administration's risks and helps in developing respective risk plans for each functional area."
                 },
                 {
-                    "key": "688428c3-4010-4fda-a435-a86bd36eca5e",
+                    "key": "6f3fa99f-891b-4586-929a-050b2bcdd57a",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some techniques for identifying risks in risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['brainstorming', 'Delphi technique', 'check-lists', 'primary hazard analysis', 'Hazard and Operability Studies (HAZOP)', 'Hazard Analysis and Critical Control (HACCP)', 'environmental risk assessment', 'scenario analysis', 'Structure \u201cWhat if?\u201d (SWIFT)', 'failure mode effect analysis', 'cause-and-effect analysis', 'human reliability analysis', 'reliability centered maintenance']"
+                        "brainstorming",
+                        "Delphi technique",
+                        "check-lists",
+                        "primary hazard analysis",
+                        "Hazard and Operability Studies (HAZOP)",
+                        "Hazard Analysis and Critical Control (HACCP)",
+                        "environmental risk assessment",
+                        "scenario analysis",
+                        "Structure \u201cWhat if?\u201d (SWIFT)",
+                        "failure mode effect analysis",
+                        "cause-and-effect analysis",
+                        "human reliability analysis",
+                        "reliability centered maintenance"
                     ],
-                    "expected_output": [
-                        "Some techniques for identifying risks include brainstorming, the Delphi technique, structured or semi-structured interviews, use of check-lists, primary hazard analysis, Hazard and Operability Studies (HAZOP), Hazard Analysis and Critical Control (HACCP), environmental risk assessment, scenario analysis, Structure \u201cWhat if?\u201d (SWIFT), failure mode effect analysis, cause-and-effect analysis, human reliability analysis, and reliability centered maintenance."
-                    ]
+                    "expected_output": "Some techniques for identifying risks include brainstorming, the Delphi technique, structured or semi-structured interviews, use of check-lists, primary hazard analysis, Hazard and Operability Studies (HAZOP), Hazard Analysis and Critical Control (HACCP), environmental risk assessment, scenario analysis, Structure \u201cWhat if?\u201d (SWIFT), failure mode effect analysis, cause-and-effect analysis, human reliability analysis, and reliability centered maintenance."
                 },
                 {
-                    "key": "60888030-7b0e-4650-962f-a112af6f338c",
+                    "key": "770269fc-66ed-45d2-9cb7-c0f61aaa4b74",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of combining different tools and techniques in risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['important', 'combine', 'different', 'tools', 'techniques', 'risk', 'management', 'qualitative', 'quantitative', 'identifying', 'assessing', 'risks', 'more', 'effectively']"
+                        "important",
+                        "combine",
+                        "different",
+                        "tools",
+                        "techniques",
+                        "risk",
+                        "management",
+                        "qualitative",
+                        "quantitative",
+                        "identifying",
+                        "assessing",
+                        "risks",
+                        "more",
+                        "effectively"
                     ],
-                    "expected_output": [
-                        "It is important to combine different tools and techniques in risk management to reach the best outcomes. Combining aspects of qualitative and quantitative analysis can help in identifying and assessing risks more effectively."
-                    ]
+                    "expected_output": "It is important to combine different tools and techniques in risk management to reach the best outcomes. Combining aspects of qualitative and quantitative analysis can help in identifying and assessing risks more effectively."
                 },
                 {
-                    "key": "923d9b3d-2b82-45fb-877c-d5ac1faec6f7",
+                    "key": "5e872843-90f5-46da-b2da-77b838ccfd64",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a consequence/probability matrix in risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['consequence', 'probability', 'risk', 'management']"
+                        "consequence",
+                        "probability",
+                        "risk",
+                        "management"
                     ],
-                    "expected_output": [
-                        "A consequence/probability matrix is used in risk management to assess the level of risk by analyzing the potential consequences and likelihood of a risk event."
-                    ]
+                    "expected_output": "A consequence/probability matrix is used in risk management to assess the level of risk by analyzing the potential consequences and likelihood of a risk event."
                 },
                 {
-                    "key": "115482a7-a13f-4d01-95e3-6a6e20b8f949",
+                    "key": "8331e4e8-85bc-4c84-83ac-1cb5b259f52b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between a risk assessment and a risk analysis?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk assessment', 'risk analysis']"
+                        "risk assessment",
+                        "risk analysis"
                     ],
-                    "expected_output": [
-                        "Risk assessment refers to the overall process of identifying, evaluating, and prioritizing risks, while risk analysis refers to the process of evaluating the likelihood and potential impact of a specific risk event."
-                    ]
+                    "expected_output": "Risk assessment refers to the overall process of identifying, evaluating, and prioritizing risks, while risk analysis refers to the process of evaluating the likelihood and potential impact of a specific risk event."
                 },
                 {
-                    "key": "c1851a68-f0c9-4f97-830f-6c72dd747e68",
+                    "key": "9b9275bf-b89f-4db5-a0ed-2a094ba134e9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a risk treatment plan in risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'treatment', 'plan', 'mitigate', 'manage', 'assessment', 'reduction', 'measures', 'monitoring', 'review']"
+                        "risk",
+                        "treatment",
+                        "plan",
+                        "mitigate",
+                        "manage",
+                        "assessment",
+                        "reduction",
+                        "measures",
+                        "monitoring",
+                        "review"
                     ],
-                    "expected_output": [
-                        "A risk treatment plan outlines the steps to be taken to mitigate or manage a identified risk. It includes the risk assessment, risk reduction measures, and monitoring and review procedures."
-                    ]
+                    "expected_output": "A risk treatment plan outlines the steps to be taken to mitigate or manage a identified risk. It includes the risk assessment, risk reduction measures, and monitoring and review procedures."
                 },
                 {
-                    "key": "a4de8cf5-be3b-4203-9d31-fda550d84588",
+                    "key": "04b8a3da-6e12-4823-9602-999e64f36a27",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of ISO Standard 31010:2009 in risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ISO', 'Standard', '31010', 'risk', 'management']"
+                        "ISO",
+                        "Standard",
+                        "31010",
+                        "risk",
+                        "management"
                     ],
-                    "expected_output": [
-                        "ISO Standard 31010:2009 provides guidelines for risk assessment techniques in risk management. It includes details on various techniques for risk identification, risk analysis, and risk evaluation."
-                    ]
+                    "expected_output": "ISO Standard 31010:2009 provides guidelines for risk assessment techniques in risk management. It includes details on various techniques for risk identification, risk analysis, and risk evaluation."
                 },
                 {
-                    "key": "82f9d442-9435-457f-a865-b645a3325f90",
+                    "key": "5c07ecdf-18d1-4fdb-961b-f9fcd9825a37",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the advantage of using a combination of qualitative and quantitative analysis in risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['comprehensive', 'risks', 'informed', 'quantitative', 'qualitative']"
+                        "comprehensive",
+                        "risks",
+                        "informed",
+                        "quantitative",
+                        "qualitative"
                     ],
-                    "expected_output": [
-                        "Using a combination of qualitative and quantitative analysis in risk management provides a more comprehensive understanding of the risks and helps in making informed decisions. Quantitative analysis can provide numerical data, while qualitative analysis can provide insights into the underlying causes and consequences of risks."
-                    ]
+                    "expected_output": "Using a combination of qualitative and quantitative analysis in risk management provides a more comprehensive understanding of the risks and helps in making informed decisions. Quantitative analysis can provide numerical data, while qualitative analysis can provide insights into the underlying causes and consequences of risks."
                 },
                 {
-                    "key": "2620738d-3907-4f7b-982c-cf3c4402d2ed",
+                    "key": "99f0e32f-6400-49e8-a920-5069c2928e43",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a risk management framework in an organization?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'management', 'framework', 'organization']"
+                        "risk",
+                        "management",
+                        "framework",
+                        "organization"
                     ],
-                    "expected_output": [
-                        "A risk management framework in an organization provides a structured approach to identifying, assessing, and managing risks. It helps in establishing a common language and approach to risk management across the organization."
-                    ]
+                    "expected_output": "A risk management framework in an organization provides a structured approach to identifying, assessing, and managing risks. It helps in establishing a common language and approach to risk management across the organization."
                 },
                 {
-                    "key": "a7aeeb7a-0481-42eb-97ff-937e17582842",
+                    "key": "b26c470c-42e3-44f9-86cc-ae3157ae5676",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of monitoring and reviewing risk management plans in an organization?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['important', 'effective', 'up-to-date', 'new', 'risks', 'assessing', 'risk', 'mitigation', 'measures', 'adjustments', 'plans']"
+                        "important",
+                        "effective",
+                        "up-to-date",
+                        "new",
+                        "risks",
+                        "assessing",
+                        "risk",
+                        "mitigation",
+                        "measures",
+                        "adjustments",
+                        "plans"
                     ],
-                    "expected_output": [
-                        "Monitoring and reviewing risk management plans in an organization is important to ensure that the plans are effective and up-to-date. It helps in identifying new risks, assessing the effectiveness of risk mitigation measures, and making necessary adjustments to the plans."
-                    ]
+                    "expected_output": "Monitoring and reviewing risk management plans in an organization is important to ensure that the plans are effective and up-to-date. It helps in identifying new risks, assessing the effectiveness of risk mitigation measures, and making necessary adjustments to the plans."
                 },
                 {
-                    "key": "759e5622-5fc7-4b71-9b14-842867c960c9",
+                    "key": "67cd18fb-26c0-4019-95c5-086dacee9fdd",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of developing a 5x5 likelihood scale?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['standardized', 'evaluating', 'prioritizing', 'risks', 'probability', 'occurrence']"
+                        "standardized",
+                        "evaluating",
+                        "prioritizing",
+                        "risks",
+                        "probability",
+                        "occurrence"
                     ],
-                    "expected_output": [
-                        "The purpose of developing a 5x5 likelihood scale is to provide a standardized way of evaluating and prioritizing risks based on their probability of occurrence."
-                    ]
+                    "expected_output": "The purpose of developing a 5x5 likelihood scale is to provide a standardized way of evaluating and prioritizing risks based on their probability of occurrence."
                 },
                 {
-                    "key": "17f21a41-c2f8-4913-9fe6-cc35b3630f4f",
+                    "key": "39a12e44-85f0-4cde-9a30-a77dede9db62",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the five levels of likelihood in the 5x5 scale?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Almost Certain', 'Likely', 'Possible', 'Unlikely', 'Rare']"
+                        "Almost Certain",
+                        "Likely",
+                        "Possible",
+                        "Unlikely",
+                        "Rare"
                     ],
-                    "expected_output": [
-                        "The five levels of likelihood in the 5x5 scale are: Almost Certain, Likely, Possible, Unlikely, and Rare."
-                    ]
+                    "expected_output": "The five levels of likelihood in the 5x5 scale are: Almost Certain, Likely, Possible, Unlikely, and Rare."
                 },
                 {
-                    "key": "cd2a37d0-5c9e-4227-9d68-c05e76140eb4",
+                    "key": "3d147731-4397-49ee-9760-3837669bce17",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between the \"Likely\" and \"Possible\" levels of likelihood?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Likely', 'Possible']"
+                        "Likely",
+                        "Possible"
                     ],
-                    "expected_output": [
-                        "The \"Likely\" level of likelihood indicates that an event will probably occur in most circumstances, while the \"Possible\" level indicates that an event might occur at some time."
-                    ]
+                    "expected_output": "The \"Likely\" level of likelihood indicates that an event will probably occur in most circumstances, while the \"Possible\" level indicates that an event might occur at some time."
                 },
                 {
-                    "key": "964099e6-48e5-452b-8bc9-e252c9b617e5",
+                    "key": "e0fa2763-17be-4e49-a7aa-d6558b652766",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a risk significance or tolerance matrix?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'significance', 'tolerance', 'matrix', 'prioritize', 'risks', 'impact', 'likelihood', 'occurrence']"
+                        "risk",
+                        "significance",
+                        "tolerance",
+                        "matrix",
+                        "prioritize",
+                        "risks",
+                        "impact",
+                        "likelihood",
+                        "occurrence"
                     ],
-                    "expected_output": [
-                        "A risk significance or tolerance matrix is used to evaluate the significance of a risk and to prioritize risks based on their potential impact and likelihood of occurrence."
-                    ]
+                    "expected_output": "A risk significance or tolerance matrix is used to evaluate the significance of a risk and to prioritize risks based on their potential impact and likelihood of occurrence."
                 },
                 {
-                    "key": "50435a52-64e9-435e-b152-53b36984da60",
+                    "key": "8f5abe97-fc62-437b-b240-a12c92864431",
                     "prompt": "Respond to the following question.\n\nQuestion: What is an example of a risk criteria that might be used in a risk tolerance matrix?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['severity', 'risk', 'cargo', 'passenger', 'clearance']"
+                        "severity",
+                        "risk",
+                        "cargo",
+                        "passenger",
+                        "clearance"
                     ],
-                    "expected_output": [
-                        "An example of a risk criteria that might be used in a risk tolerance matrix is the severity of the risk, such as the impact on cargo and passenger clearance targets."
-                    ]
+                    "expected_output": "An example of a risk criteria that might be used in a risk tolerance matrix is the severity of the risk, such as the impact on cargo and passenger clearance targets."
                 },
                 {
-                    "key": "5eac6d39-0a5a-4809-a621-b44a12bac4d4",
+                    "key": "40eacfd2-b566-43ed-a96f-1f8ca38ac774",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between a threat analysis and a SWOT analysis?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['threat', 'analysis', 'SWOT', 'Strengths', 'Weaknesses', 'Opportunities', 'Threats']"
+                        "threat",
+                        "analysis",
+                        "SWOT",
+                        "Strengths",
+                        "Weaknesses",
+                        "Opportunities",
+                        "Threats"
                     ],
-                    "expected_output": [
-                        "A threat analysis identifies potential threats to an organization, while a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) analyzes the internal and external factors that can affect an organization's performance."
-                    ]
+                    "expected_output": "A threat analysis identifies potential threats to an organization, while a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) analyzes the internal and external factors that can affect an organization's performance."
                 },
                 {
-                    "key": "2178486e-858d-47c1-b9d4-caef0d6caf9e",
+                    "key": "4401ed4d-4fd7-4383-94ec-1784b11e6360",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of fault tree analysis?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['fault', 'tree', 'analysis', 'identify', 'combinations', 'events', 'undesirable', 'outcome']"
+                        "fault",
+                        "tree",
+                        "analysis",
+                        "identify",
+                        "combinations",
+                        "events",
+                        "undesirable",
+                        "outcome"
                     ],
-                    "expected_output": [
-                        "Fault tree analysis is used to identify possible combinations of events that can lead to a specific undesirable outcome."
-                    ]
+                    "expected_output": "Fault tree analysis is used to identify possible combinations of events that can lead to a specific undesirable outcome."
                 },
                 {
-                    "key": "613180c1-faf7-4b2b-acff-30bad9a88112",
+                    "key": "109b7e12-bef7-452e-bdd4-ac887c9a295b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of FMEA (Failure Mode & Effect Analysis)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['FMEA', 'Failure', 'Mode', 'Effect', 'Analysis', 'identify', 'prioritize', 'potential', 'failures', 'system', 'process', 'product', 'causes', 'consequences']"
+                        "FMEA",
+                        "Failure",
+                        "Mode",
+                        "Effect",
+                        "Analysis",
+                        "identify",
+                        "prioritize",
+                        "potential",
+                        "failures",
+                        "system",
+                        "process",
+                        "product",
+                        "causes",
+                        "consequences"
                     ],
-                    "expected_output": [
-                        "FMEA (Failure Mode & Effect Analysis) is used to identify and prioritize potential failures in a system, process, or product, and to identify potential causes and consequences of those failures."
-                    ]
+                    "expected_output": "FMEA (Failure Mode & Effect Analysis) is used to identify and prioritize potential failures in a system, process, or product, and to identify potential causes and consequences of those failures."
                 },
                 {
-                    "key": "44523bf7-3f99-4d84-8684-e87c5b763566",
+                    "key": "d7456314-d3f1-482e-ba08-92210ce83192",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of dependency modeling and Real Option Modeling?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['dependency modeling', 'Real Option Modeling', 'system', 'behavior']"
+                        "dependency modeling",
+                        "Real Option Modeling",
+                        "system",
+                        "behavior"
                     ],
-                    "expected_output": [
-                        "Dependency modeling and Real Option Modeling are used to analyze the relationships between different components of a system and to evaluate the impact of different scenarios on the system's behavior."
-                    ]
+                    "expected_output": "Dependency modeling and Real Option Modeling are used to analyze the relationships between different components of a system and to evaluate the impact of different scenarios on the system's behavior."
                 },
                 {
-                    "key": "d6d44cc2-658a-4591-a530-d776e17f5a50",
+                    "key": "9fa8e751-0bf6-4c0a-bc5a-8e3b55395d9e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of statistical modeling in risk analysis?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['statistical', 'modeling', 'risk', 'analysis']"
+                        "statistical",
+                        "modeling",
+                        "risk",
+                        "analysis"
                     ],
-                    "expected_output": [
-                        "Statistical modeling is used to quantify the likelihood and potential impact of different risks, and to identify patterns and trends in data that can inform risk management decisions."
-                    ]
+                    "expected_output": "Statistical modeling is used to quantify the likelihood and potential impact of different risks, and to identify patterns and trends in data that can inform risk management decisions."
                 },
                 {
-                    "key": "e94b778e-127f-4e82-ae83-82f6d7066b64",
+                    "key": "6ca9f5f5-1c16-436c-a58e-f7dd5d07ad3a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the impact of air and sea cargo delays on financial and community?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['minor', 'financial', 'community', 'impact']"
+                        "minor",
+                        "financial",
+                        "community",
+                        "impact"
                     ],
-                    "expected_output": [
-                        "Air and sea cargo delays have minor financial and community impact."
-                    ]
+                    "expected_output": "Air and sea cargo delays have minor financial and community impact."
                 },
                 {
-                    "key": "fe73bcd5-cb73-454f-9d4a-a535d6221fbb",
+                    "key": "d54799c3-3bf2-4d7b-8571-3aa2d1ecb129",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the impact of passenger clearance delays on clients?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['moderate disruption']"
+                        "moderate disruption"
                     ],
-                    "expected_output": [
-                        "Passenger clearance delays are causing moderate disruption to clients."
-                    ]
+                    "expected_output": "Passenger clearance delays are causing moderate disruption to clients."
                 },
                 {
-                    "key": "18c3cf6a-c2a3-4c26-a319-f779158224d6",
+                    "key": "58c0adda-348c-4520-ab93-738b2dd6fa06",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the likelihood of non-compliers avoiding detection and action under Customs Act and other agency's legislation enforced by Customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['highly', 'likely']"
+                        "highly",
+                        "likely"
                     ],
-                    "expected_output": [
-                        "It is highly likely that non-compliers will avoid detection and action."
-                    ]
+                    "expected_output": "It is highly likely that non-compliers will avoid detection and action."
                 },
                 {
-                    "key": "c1f55ce6-4a05-4ff1-809d-920c71bf0461",
+                    "key": "3c035416-2828-4cf5-b7a1-2f078a391bcb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the impact of revenue collection against revenue forecast?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['unexpectedly', 'significantly', 'under', 'target']"
+                        "unexpectedly",
+                        "significantly",
+                        "under",
+                        "target"
                     ],
-                    "expected_output": [
-                        "Collections against revenue forecast are unexpectedly and significantly under target."
-                    ]
+                    "expected_output": "Collections against revenue forecast are unexpectedly and significantly under target."
                 },
                 {
-                    "key": "bca8c8a2-7986-4512-8bb4-57fcfd8f954f",
+                    "key": "7a475a81-9f0c-45e2-bfb6-3a5e43a3aa67",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of compliance measurement in risk management process?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance', 'measurement', 'conform', 'Customs', 'rules', 'procedures']"
+                        "compliance",
+                        "measurement",
+                        "conform",
+                        "Customs",
+                        "rules",
+                        "procedures"
                     ],
-                    "expected_output": [
-                        "Compliance measurement is used to determine the degree to which traders, carriers, imported goods, etc. conform to Customs rules and procedures."
-                    ]
+                    "expected_output": "Compliance measurement is used to determine the degree to which traders, carriers, imported goods, etc. conform to Customs rules and procedures."
                 },
                 {
-                    "key": "d46156d4-b616-4897-8214-bae5362463d6",
+                    "key": "7d507d8c-b7ac-4a2e-95a0-874ac96a8a37",
                     "prompt": "Respond to the following question.\n\nQuestion: How can compliance measurement be used as a diagnostic tool for Customs administrations?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance', 'measurement', 'diagnostic', 'tool', 'identify', 'areas', 'non-compliance']"
+                        "compliance",
+                        "measurement",
+                        "diagnostic",
+                        "tool",
+                        "identify",
+                        "areas",
+                        "non-compliance"
                     ],
-                    "expected_output": [
-                        "Compliance measurement can be used as a diagnostic tool to identify areas of non-compliance."
-                    ]
+                    "expected_output": "Compliance measurement can be used as a diagnostic tool to identify areas of non-compliance."
                 },
                 {
-                    "key": "9d298ac9-a568-45cb-afd9-5ec8e6e33ec3",
+                    "key": "b20befd7-ab37-4889-abcf-122ef2dbbcd3",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the relationship between compliance measurement and targeting?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance', 'measurement', 'targeting', 'Customs']"
+                        "compliance",
+                        "measurement",
+                        "targeting",
+                        "Customs"
                     ],
-                    "expected_output": [
-                        "Compliance measurement and targeting can provide the necessary balance to help focus resources effectively in areas of concern to Customs."
-                    ]
+                    "expected_output": "Compliance measurement and targeting can provide the necessary balance to help focus resources effectively in areas of concern to Customs."
                 },
                 {
-                    "key": "630ccb89-8955-483d-9de5-c1cfc267f280",
+                    "key": "e22df198-5f0c-4d2e-a964-a79b50bc9dbb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of risk assessment, profiling and other targeting procedures in compliance measurement?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'profiling', 'targeting', 'compliance', 'measurement']"
+                        "risk",
+                        "assessment",
+                        "profiling",
+                        "targeting",
+                        "compliance",
+                        "measurement"
                     ],
-                    "expected_output": [
-                        "Risk assessment, profiling and other targeting procedures should be used in conjunction with compliance measurement to help focus resources effectively in areas of concern to Customs."
-                    ]
+                    "expected_output": "Risk assessment, profiling and other targeting procedures should be used in conjunction with compliance measurement to help focus resources effectively in areas of concern to Customs."
                 },
                 {
-                    "key": "dabbd4e0-23a9-4f6f-bc88-3640d4609261",
+                    "key": "b5dfe16c-8f23-4a7b-be9c-d82cbcfd1d40",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the impact of non-compliance on Customs administrations?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['severe', 'financial', 'community', 'impact']"
+                        "severe",
+                        "financial",
+                        "community",
+                        "impact"
                     ],
-                    "expected_output": [
-                        "Non-compliance can have severe financial and community impact."
-                    ]
+                    "expected_output": "Non-compliance can have severe financial and community impact."
                 },
                 {
-                    "key": "3f366afd-57ef-4b44-a214-53deedb3fc50",
+                    "key": "8918c7d4-2628-49ea-bb87-7d932eaab146",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of Parliament and Government in addressing revenue shortfall under target?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Parliament', 'Government', 'enquiry', 'shortfall']"
+                        "Parliament",
+                        "Government",
+                        "enquiry",
+                        "shortfall"
                     ],
-                    "expected_output": [
-                        "Parliament and/or Government may initiate an enquiry into the shortfall."
-                    ]
+                    "expected_output": "Parliament and/or Government may initiate an enquiry into the shortfall."
                 },
                 {
-                    "key": "8d6e4227-637d-4ef9-b3e6-b0be7e48db14",
+                    "key": "01c68cd6-98ab-4c82-9366-59c97fe2b3c1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of a 5x5 risk tolerance/significance matrix?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'tolerance', 'significance', 'matrix', 'organizational', 'objectives', 'external', 'internal', 'context', 'standards', 'laws', 'policies', 'requirements']"
+                        "risk",
+                        "tolerance",
+                        "significance",
+                        "matrix",
+                        "organizational",
+                        "objectives",
+                        "external",
+                        "internal",
+                        "context",
+                        "standards",
+                        "laws",
+                        "policies",
+                        "requirements"
                     ],
-                    "expected_output": [
-                        "A 5x5 risk tolerance/significance matrix is used to evaluate risks based on organizational objectives, external and internal context, and can be derived from standards, laws, policies and other requirements."
-                    ]
+                    "expected_output": "A 5x5 risk tolerance/significance matrix is used to evaluate risks based on organizational objectives, external and internal context, and can be derived from standards, laws, policies and other requirements."
                 },
                 {
-                    "key": "1fba879c-78a9-4ac2-aa20-a1f4af4e43cf",
+                    "key": "e59cfa18-bd20-4440-92ba-8c5156860083",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of compliance measurement for Customs administrations?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance', 'measurement', 'revenue', 'protection', 'enforcement', 'laws', 'efficiency', 'effectiveness', 'strategies', 'improve']"
+                        "compliance",
+                        "measurement",
+                        "revenue",
+                        "protection",
+                        "enforcement",
+                        "laws",
+                        "efficiency",
+                        "effectiveness",
+                        "strategies",
+                        "improve"
                     ],
-                    "expected_output": [
-                        "Compliance measurement is used as a diagnostic tool to help Customs administrations assess their performance in revenue protection and enforcement of laws, improve their efficiency and effectiveness, and develop strategies to improve compliance."
-                    ]
+                    "expected_output": "Compliance measurement is used as a diagnostic tool to help Customs administrations assess their performance in revenue protection and enforcement of laws, improve their efficiency and effectiveness, and develop strategies to improve compliance."
                 },
                 {
-                    "key": "6cda9f4f-6f55-49ea-a816-573d6485cb90",
+                    "key": "f136056e-3a45-42c3-903b-c05ba33cf488",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the approach to compliance measurement in some countries or economic unions?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Customs', 'top', '5-10%', 'highest', 'volume', 'manufacturers', 'importers', 'exporters', 'commodities', 'national', 'economy', 'being', 'reviewed', 'more', 'effectively']"
+                        "Customs",
+                        "top",
+                        "5-10%",
+                        "highest",
+                        "volume",
+                        "manufacturers",
+                        "importers",
+                        "exporters",
+                        "commodities",
+                        "national",
+                        "economy",
+                        "being",
+                        "reviewed",
+                        "more",
+                        "effectively"
                     ],
-                    "expected_output": [
-                        "In some countries or economic unions, Customs focuses on the top 5-10% of highest volume manufacturers, importers, exporters, and commodities to ensure that those with the most significant impact on the national economy are being reviewed more effectively."
-                    ]
+                    "expected_output": "In some countries or economic unions, Customs focuses on the top 5-10% of highest volume manufacturers, importers, exporters, and commodities to ensure that those with the most significant impact on the national economy are being reviewed more effectively."
                 },
                 {
-                    "key": "db1b340b-5217-4afd-a3be-18b0efec57f6",
+                    "key": "95cfa8ce-4901-47fa-8524-a5406c7d30fa",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the different areas of compliance measurement?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['documentary', 'procedural', 'revenue', 'transport', 'tariff', 'public', 'safety', 'intellectual', 'property', 'copyright', 'trade', 'agreements', 'origin', 'goods', 'high', 'selected']"
+                        "documentary",
+                        "procedural",
+                        "revenue",
+                        "transport",
+                        "tariff",
+                        "public",
+                        "safety",
+                        "intellectual",
+                        "property",
+                        "copyright",
+                        "trade",
+                        "agreements",
+                        "origin",
+                        "goods",
+                        "high",
+                        "selected"
                     ],
-                    "expected_output": [
-                        "Compliance measurement areas may include documentary issues, procedural issues, revenue issues, transport issues, and specific concerns such as compliance by tariff number or range of tariff numbers, public health and safety issues, intellectual property rights and copyright issues, compliance with trade agreements, proper country of origin marking on goods, high revenue commodities, and selected traders."
-                    ]
+                    "expected_output": "Compliance measurement areas may include documentary issues, procedural issues, revenue issues, transport issues, and specific concerns such as compliance by tariff number or range of tariff numbers, public health and safety issues, intellectual property rights and copyright issues, compliance with trade agreements, proper country of origin marking on goods, high revenue commodities, and selected traders."
                 },
                 {
-                    "key": "e0145922-673a-4927-9d26-35fbb6668dae",
+                    "key": "3c6eb75e-2ac7-4086-8642-343f0d450371",
                     "prompt": "Respond to the following question.\n\nQuestion: How does Customs gather data for compliance measurement?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Customs', 'data', 'gathers', 'sources', 'internal', 'external', 'manual', 'automated', 'import', 'export', 'records', 'statistical', 'analysis', 'large', 'traders', 'commodities']"
+                        "Customs",
+                        "data",
+                        "gathers",
+                        "sources",
+                        "internal",
+                        "external",
+                        "manual",
+                        "automated",
+                        "import",
+                        "export",
+                        "records",
+                        "statistical",
+                        "analysis",
+                        "large",
+                        "traders",
+                        "commodities"
                     ],
-                    "expected_output": [
-                        "Customs gathers data from a variety of sources, both internal and external, and by both manual and automated means, such as import and export records, statistical analysis, and systematic analysis of large traders or commodities."
-                    ]
+                    "expected_output": "Customs gathers data from a variety of sources, both internal and external, and by both manual and automated means, such as import and export records, statistical analysis, and systematic analysis of large traders or commodities."
                 },
                 {
-                    "key": "c82aa72f-c5d1-4c0d-9f2c-851778834ac4",
+                    "key": "4ded0011-64bb-4be4-b34c-d98721f50e27",
                     "prompt": "Respond to the following question.\n\nQuestion: How does Customs determine a designated universe of transactions for compliance measurement?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Customs', 'transactions', 'universe', 'review', 'verification']"
+                        "Customs",
+                        "transactions",
+                        "universe",
+                        "review",
+                        "verification"
                     ],
-                    "expected_output": [
-                        "Customs should determine a designated universe of transactions and, using a statistically valid sampling methodology, select specific transactions or entities from this universe for review or verification."
-                    ]
+                    "expected_output": "Customs should determine a designated universe of transactions and, using a statistically valid sampling methodology, select specific transactions or entities from this universe for review or verification."
                 },
                 {
-                    "key": "cb8c53d0-711f-4b9b-81dc-4e256f02d4ec",
+                    "key": "361a5bc6-6f24-4599-b181-67cd0b492b4e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the acceptable level of compliance for Customs administrations?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance', 'level', 'tolerance', 'administration']"
+                        "compliance",
+                        "level",
+                        "tolerance",
+                        "administration"
                     ],
-                    "expected_output": [
-                        "The acceptable level of compliance, also known as the level of tolerance, may vary depending on the administration. For example, a compliance rate of 95% of the transactions or entities reviewed in a given area may be the acceptable level for an administration."
-                    ]
+                    "expected_output": "The acceptable level of compliance, also known as the level of tolerance, may vary depending on the administration. For example, a compliance rate of 95% of the transactions or entities reviewed in a given area may be the acceptable level for an administration."
                 },
                 {
-                    "key": "af72badd-b688-4a25-a804-72f288c1649c",
+                    "key": "b535af1e-b3c8-4fd1-9a79-0b5885fd3cbc",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the transaction processes for compliance verifications?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['goods declaration compliance', 'trader compliance', 'transit compliance', 'free trade zone or warehouse compliance', 'manifest and transport document compliance', 'transporter compliance']"
+                        "goods declaration compliance",
+                        "trader compliance",
+                        "transit compliance",
+                        "free trade zone or warehouse compliance",
+                        "manifest and transport document compliance",
+                        "transporter compliance"
                     ],
-                    "expected_output": [
-                        "Some of the transaction processes for compliance verifications include goods declaration compliance, trader compliance, transit compliance, free trade zone or warehouse compliance, manifest and transport document compliance, and transporter compliance."
-                    ]
+                    "expected_output": "Some of the transaction processes for compliance verifications include goods declaration compliance, trader compliance, transit compliance, free trade zone or warehouse compliance, manifest and transport document compliance, and transporter compliance."
                 },
                 {
-                    "key": "155e435b-480b-42ed-97d7-0286fabdf1dd",
+                    "key": "daf3a80b-58f8-4d2a-aa73-32934d43528d",
                     "prompt": "Respond to the following question.\n\nQuestion: What factors should be considered during a verification review for a selected example of these processes?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['accuracy', 'completeness', 'consistency']"
+                        "accuracy",
+                        "completeness",
+                        "consistency"
                     ],
-                    "expected_output": [
-                        "Factors that should be considered during a verification review for a selected example of these processes include the accuracy of the information provided, the completeness of the records, and the consistency of the data."
-                    ]
+                    "expected_output": "Factors that should be considered during a verification review for a selected example of these processes include the accuracy of the information provided, the completeness of the records, and the consistency of the data."
                 },
                 {
-                    "key": "43d1b60a-0b76-4d18-8c51-ef7e27622f24",
+                    "key": "48e009bf-11da-4bc5-9b4b-bf8fc383102e",
                     "prompt": "Respond to the following question.\n\nQuestion: How can automated systems support compliance review requirements for a scientific approach to accurate data collection and analysis?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['automated', 'systems', 'compliance', 'review', 'requirements', 'data', 'collection', 'analysis']"
+                        "automated",
+                        "systems",
+                        "compliance",
+                        "review",
+                        "requirements",
+                        "data",
+                        "collection",
+                        "analysis"
                     ],
-                    "expected_output": [
-                        "Automated systems can support compliance review requirements by providing an efficient and effective way to evaluate high-risk shipments and collect data, although compliance rates can also be measured effectively without automation."
-                    ]
+                    "expected_output": "Automated systems can support compliance review requirements by providing an efficient and effective way to evaluate high-risk shipments and collect data, although compliance rates can also be measured effectively without automation."
                 },
                 {
-                    "key": "1c5311e8-085e-49e0-a103-3345778b2720",
+                    "key": "95589c26-245a-4638-8af1-ee022dfeaf6c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of risk assessment and profiling in compliance measurement?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'profiling', 'compliance', 'measurement']"
+                        "risk",
+                        "assessment",
+                        "profiling",
+                        "compliance",
+                        "measurement"
                     ],
-                    "expected_output": [
-                        "Risk assessment and profiling are used to identify areas of high risk and focus resources effectively in areas of concern to Customs, and to provide important information to enhance risk assessment methodologies."
-                    ]
+                    "expected_output": "Risk assessment and profiling are used to identify areas of high risk and focus resources effectively in areas of concern to Customs, and to provide important information to enhance risk assessment methodologies."
                 },
                 {
-                    "key": "8d623c3b-8105-47dc-a390-21a995ec2953",
+                    "key": "0f1a47b0-6024-410f-9511-e379ea4478cb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of compliance measurement in customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance', 'measurement', 'customs', 'regulations', 'laws', 'international', 'trade', 'goods', 'declarations', 'country', 'origin', 'marking', 'intellectual', 'property', 'rights']"
+                        "compliance",
+                        "measurement",
+                        "customs",
+                        "regulations",
+                        "laws",
+                        "international",
+                        "trade",
+                        "goods",
+                        "declarations",
+                        "country",
+                        "origin",
+                        "marking",
+                        "intellectual",
+                        "property",
+                        "rights"
                     ],
-                    "expected_output": [
-                        "The purpose of compliance measurement in customs is to assess the level of compliance with regulations and laws related to international trade, including the accuracy of goods declarations, country of origin marking, and intellectual property rights."
-                    ]
+                    "expected_output": "The purpose of compliance measurement in customs is to assess the level of compliance with regulations and laws related to international trade, including the accuracy of goods declarations, country of origin marking, and intellectual property rights."
                 },
                 {
-                    "key": "886d5f93-f143-4a68-a4f5-15c7d95c0255",
+                    "key": "3581ab8a-648c-4879-9594-d035bbbda30a",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the transaction processes for compliance verifications in customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['goods declaration compliance', 'trader compliance', 'transit compliance', 'free trade zone or warehouse compliance', 'manifest and transport document compliance', 'transporter compliance']"
+                        "goods declaration compliance",
+                        "trader compliance",
+                        "transit compliance",
+                        "free trade zone or warehouse compliance",
+                        "manifest and transport document compliance",
+                        "transporter compliance"
                     ],
-                    "expected_output": [
-                        "Some of the transaction processes for compliance verifications in customs include goods declaration compliance, trader compliance, transit compliance, free trade zone or warehouse compliance, manifest and transport document compliance, and transporter compliance."
-                    ]
+                    "expected_output": "Some of the transaction processes for compliance verifications in customs include goods declaration compliance, trader compliance, transit compliance, free trade zone or warehouse compliance, manifest and transport document compliance, and transporter compliance."
                 },
                 {
-                    "key": "a5d168e0-819a-46fc-9737-7beaf19ab845",
+                    "key": "230deb6e-4e63-48b4-bc25-920d5f61437b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the tolerance level for compliance measurement in customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['95%']"
+                        "95%"
                     ],
-                    "expected_output": [
-                        "The tolerance level for compliance measurement in customs is typically set at 95%, meaning that a random sampling of goods declarations should have a compliance rate of at least 95%."
-                    ]
+                    "expected_output": "The tolerance level for compliance measurement in customs is typically set at 95%, meaning that a random sampling of goods declarations should have a compliance rate of at least 95%."
                 },
                 {
-                    "key": "39f742df-d237-4dae-9ed5-05cba2e2477d",
+                    "key": "f7e106e1-d70c-48f0-8ff8-16a06e248193",
                     "prompt": "Respond to the following question.\n\nQuestion: How does customs conduct a compliance measurement review?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Customs', 'conducts', 'compliance', 'measurement', 'review', 'goods', 'declarations', 'HS', 'number', 'country', 'origin', 'importer']"
+                        "Customs",
+                        "conducts",
+                        "compliance",
+                        "measurement",
+                        "review",
+                        "goods",
+                        "declarations",
+                        "HS",
+                        "number",
+                        "country",
+                        "origin",
+                        "importer"
                     ],
-                    "expected_output": [
-                        "Customs conducts a compliance measurement review by conducting a statistically valid random sampling of goods declarations for a selected HS number, and then stratifying the results by country of origin and importer."
-                    ]
+                    "expected_output": "Customs conducts a compliance measurement review by conducting a statistically valid random sampling of goods declarations for a selected HS number, and then stratifying the results by country of origin and importer."
                 },
                 {
-                    "key": "4fc64b3a-b469-42d7-9978-0fcd2f90ed9f",
+                    "key": "a5aa5b58-3442-40e0-ac84-7435a83ad719",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if the compliance rate is less than 95% during a compliance measurement review?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['less', 'than', '95%', 'during', 'compliance', 'measurement', 'review']"
+                        "less",
+                        "than",
+                        "95%",
+                        "during",
+                        "compliance",
+                        "measurement",
+                        "review"
                     ],
-                    "expected_output": [
-                        "If the compliance rate is less than 95% during a compliance measurement review, customs may conduct further measurements, establish profiles/targets for areas of non-compliance, conduct more reviews and/or examinations, and issue fines or penalties, if appropriate."
-                    ]
+                    "expected_output": "If the compliance rate is less than 95% during a compliance measurement review, customs may conduct further measurements, establish profiles/targets for areas of non-compliance, conduct more reviews and/or examinations, and issue fines or penalties, if appropriate."
                 },
                 {
-                    "key": "13460c9a-e6df-45cb-9d79-44902fce07ed",
+                    "key": "fd473020-02de-4a36-a1be-dd3bc5b41b4c",
                     "prompt": "Respond to the following question.\n\nQuestion: How do compliance measurement results help customs officials?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance', 'measurement', 'results', 'help', 'customs', 'officials']"
+                        "compliance",
+                        "measurement",
+                        "results",
+                        "help",
+                        "customs",
+                        "officials"
                     ],
-                    "expected_output": [
-                        "Compliance measurement results help customs officials by providing information to direct resources effectively, such as examining goods from importers with low compliance rates more frequently and goods from importers with high compliance rates less frequently."
-                    ]
+                    "expected_output": "Compliance measurement results help customs officials by providing information to direct resources effectively, such as examining goods from importers with low compliance rates more frequently and goods from importers with high compliance rates less frequently."
                 },
                 {
-                    "key": "f6e2f744-8d55-4f8b-906e-4b5912529730",
+                    "key": "ff8dced5-994c-4272-afe1-02386cda9ea8",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['APEC', 'risk', 'management', 'process', 'self-assessment', 'model']"
+                        "APEC",
+                        "risk",
+                        "management",
+                        "process",
+                        "self-assessment",
+                        "model"
                     ],
-                    "expected_output": [
-                        "The APEC Risk Management Process Self-Assessment model is a tool used to evaluate the effectiveness of a customs administration\u2019s risk management programme, including its ability to identify and address risks related to specific industry sectors."
-                    ]
+                    "expected_output": "The APEC Risk Management Process Self-Assessment model is a tool used to evaluate the effectiveness of a customs administration\u2019s risk management programme, including its ability to identify and address risks related to specific industry sectors."
                 },
                 {
-                    "key": "83e7d1a2-f405-47d6-87ec-49162605cafe",
+                    "key": "2bc19505-7bb1-4843-a66d-95041d3bec0f",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some ways that compliance measurement results can be used within a control programme?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['revenue', 'commercial', 'compliance', 'performance', 'importers', 'exporters', 'trade']"
+                        "revenue",
+                        "commercial",
+                        "compliance",
+                        "performance",
+                        "importers",
+                        "exporters",
+                        "trade"
                     ],
-                    "expected_output": [
-                        "Compliance measurement results can be used within a control programme to define any revenue gap, prevent widespread commercial fraud, assess performance by major key industries, assess performance by major importers and exporters, increase commercial compliance, and accurately measure international trade."
-                    ]
+                    "expected_output": "Compliance measurement results can be used within a control programme to define any revenue gap, prevent widespread commercial fraud, assess performance by major key industries, assess performance by major importers and exporters, increase commercial compliance, and accurately measure international trade."
                 },
                 {
-                    "key": "d2a64e00-7f36-4208-ab8f-272459a8ff7f",
+                    "key": "92874f82-0414-42b8-bb71-43da23f97198",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of stratifying compliance measurement results by country of origin and importer?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['stratifying', 'compliance', 'measurement', 'results', 'country', 'origin', 'importer', 'customs', 'officials', 'identify', 'areas', 'non-compliance', 'target', 'resources', 'more', 'effectively']"
+                        "stratifying",
+                        "compliance",
+                        "measurement",
+                        "results",
+                        "country",
+                        "origin",
+                        "importer",
+                        "customs",
+                        "officials",
+                        "identify",
+                        "areas",
+                        "non-compliance",
+                        "target",
+                        "resources",
+                        "more",
+                        "effectively"
                     ],
-                    "expected_output": [
-                        "Stratifying compliance measurement results by country of origin and importer helps customs officials identify areas of non-compliance and target resources more effectively."
-                    ]
+                    "expected_output": "Stratifying compliance measurement results by country of origin and importer helps customs officials identify areas of non-compliance and target resources more effectively."
                 },
                 {
-                    "key": "c4f4d82f-112c-4f91-8460-aaea5f7902e2",
+                    "key": "b545ce20-371a-430f-bb91-9deff63090e3",
                     "prompt": "Respond to the following question.\n\nQuestion: How do compliance measurement results contribute to determining trends and issues in specific industry sectors?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance rates', 'risk', 'trade facilitation', 'enforcement']"
+                        "compliance rates",
+                        "risk",
+                        "trade facilitation",
+                        "enforcement"
                     ],
-                    "expected_output": [
-                        "Compliance measurement results contribute to determining trends and issues in specific industry sectors by providing up-to-date information on compliance rates, which can be used to identify areas of risk and inform decision-making related to trade facilitation and enforcement."
-                    ]
+                    "expected_output": "Compliance measurement results contribute to determining trends and issues in specific industry sectors by providing up-to-date information on compliance rates, which can be used to identify areas of risk and inform decision-making related to trade facilitation and enforcement."
                 },
                 {
-                    "key": "5dc2e146-9dbe-4493-b6a5-1ec5df0da731",
+                    "key": "21a6a1ed-835f-4801-96f2-58226d42d51e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['assess', 'effectiveness', 'risk', 'management', 'practices', 'identify', 'areas', 'improvement']"
+                        "assess",
+                        "effectiveness",
+                        "risk",
+                        "management",
+                        "practices",
+                        "identify",
+                        "areas",
+                        "improvement"
                     ],
-                    "expected_output": [
-                        "The purpose of the APEC Risk Management Process Self-Assessment model is to assess the effectiveness of risk management practices in an organization and identify areas for improvement."
-                    ]
+                    "expected_output": "The purpose of the APEC Risk Management Process Self-Assessment model is to assess the effectiveness of risk management practices in an organization and identify areas for improvement."
                 },
                 {
-                    "key": "3124b1e1-9cf8-4a55-a312-f0f3ad3a3271",
+                    "key": "6d6164e7-ab98-42b2-9107-2a63fa2a3ee8",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the three main components of the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Purpose', 'Context', 'Scope', 'Risk Management Concept', 'Data Analysis']"
+                        "Purpose",
+                        "Context",
+                        "Scope",
+                        "Risk Management Concept",
+                        "Data Analysis"
                     ],
-                    "expected_output": [
-                        "The three main components of the APEC Risk Management Process Self-Assessment model are Purpose/Context/Scope, Risk Management Concept, and Data Analysis."
-                    ]
+                    "expected_output": "The three main components of the APEC Risk Management Process Self-Assessment model are Purpose/Context/Scope, Risk Management Concept, and Data Analysis."
                 },
                 {
-                    "key": "f011a72e-4eb9-459f-9627-3a9f71bb5bba",
+                    "key": "f9ea651e-9b53-4e84-80c7-fbbf18236959",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Data Analysis component in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['high-quality', 'data analysis', 'decision-making', 'changing requirements']"
+                        "high-quality",
+                        "data analysis",
+                        "decision-making",
+                        "changing requirements"
                     ],
-                    "expected_output": [
-                        "The purpose of the Data Analysis component in the APEC Risk Management Process Self-Assessment model is to ensure that high-quality data is available for decision-making and that data analysis methods adapt to meet changing requirements."
-                    ]
+                    "expected_output": "The purpose of the Data Analysis component in the APEC Risk Management Process Self-Assessment model is to ensure that high-quality data is available for decision-making and that data analysis methods adapt to meet changing requirements."
                 },
                 {
-                    "key": "a836dc68-99f7-44ca-a1f2-23208dc4c2a4",
+                    "key": "b4945292-2918-4beb-9399-b981ce513fc9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Employee Investment component in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ensure', 'skills', 'competencies', 'manage', 'risk']"
+                        "ensure",
+                        "skills",
+                        "competencies",
+                        "manage",
+                        "risk"
                     ],
-                    "expected_output": [
-                        "The purpose of the Employee Investment component in the APEC Risk Management Process Self-Assessment model is to ensure that employees have the necessary skills and competencies to effectively manage risk."
-                    ]
+                    "expected_output": "The purpose of the Employee Investment component in the APEC Risk Management Process Self-Assessment model is to ensure that employees have the necessary skills and competencies to effectively manage risk."
                 },
                 {
-                    "key": "711c7973-06ee-4a66-a450-6057009e10a3",
+                    "key": "b7445849-2e87-466b-bd5f-311edb2d9fa3",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Integration component in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ensure', 'risk', 'management', 'integrated', 'operations']"
+                        "ensure",
+                        "risk",
+                        "management",
+                        "integrated",
+                        "operations"
                     ],
-                    "expected_output": [
-                        "The purpose of the Integration component in the APEC Risk Management Process Self-Assessment model is to ensure that risk management is integrated into all aspects of an organization's operations, including strategic and corporate planning, resource allocation, and project management."
-                    ]
+                    "expected_output": "The purpose of the Integration component in the APEC Risk Management Process Self-Assessment model is to ensure that risk management is integrated into all aspects of an organization's operations, including strategic and corporate planning, resource allocation, and project management."
                 },
                 {
-                    "key": "f1fe36d1-62c1-41e2-b941-08276704cb54",
+                    "key": "f479828c-c8cc-4ed0-ba2c-2903554c55bd",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Adaptation component in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ensure', 'risk', 'management', 'practices', 'adapt', 'changing', 'context', 'stakeholder', 'requirements']"
+                        "ensure",
+                        "risk",
+                        "management",
+                        "practices",
+                        "adapt",
+                        "changing",
+                        "context",
+                        "stakeholder",
+                        "requirements"
                     ],
-                    "expected_output": [
-                        "The purpose of the Adaptation component in the APEC Risk Management Process Self-Assessment model is to ensure that an organization's risk management practices adapt to changing context and stakeholder requirements."
-                    ]
+                    "expected_output": "The purpose of the Adaptation component in the APEC Risk Management Process Self-Assessment model is to ensure that an organization's risk management practices adapt to changing context and stakeholder requirements."
                 },
                 {
-                    "key": "83ad9f43-70e2-4109-9133-9b1a08877293",
+                    "key": "d37826b8-d097-429d-859a-fc063c33ae96",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Focus component in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Focus', 'risk', 'management', 'practices', 'processes', 'consequential', 'risk', 'mission', 'goals', 'Customs']"
+                        "Focus",
+                        "risk",
+                        "management",
+                        "practices",
+                        "processes",
+                        "consequential",
+                        "risk",
+                        "mission",
+                        "goals",
+                        "Customs"
                     ],
-                    "expected_output": [
-                        "The purpose of the Focus component in the APEC Risk Management Process Self-Assessment model is to ensure that risk management practices are focused on the processes that could be changed and the consequential risk to the mission and goals of Customs."
-                    ]
+                    "expected_output": "The purpose of the Focus component in the APEC Risk Management Process Self-Assessment model is to ensure that risk management practices are focused on the processes that could be changed and the consequential risk to the mission and goals of Customs."
                 },
                 {
-                    "key": "2d9ede13-ff1d-4273-8600-60ce9bce374e",
+                    "key": "e78187f8-698b-46d4-b167-3c5d35f005c3",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Realisation component in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ensure', 'stakeholder', 'perception', 'expectations', \"organization's\", 'performance', 'evaluated', \"Customs'\", 'current', 'missions', 'goals']"
+                        "ensure",
+                        "stakeholder",
+                        "perception",
+                        "expectations",
+                        "organization's",
+                        "performance",
+                        "evaluated",
+                        "Customs'",
+                        "current",
+                        "missions",
+                        "goals"
                     ],
-                    "expected_output": [
-                        "The purpose of the Realisation component in the APEC Risk Management Process Self-Assessment model is to ensure that stakeholder perception and expectations of an organization's performance are evaluated against Customs' current missions and goals."
-                    ]
+                    "expected_output": "The purpose of the Realisation component in the APEC Risk Management Process Self-Assessment model is to ensure that stakeholder perception and expectations of an organization's performance are evaluated against Customs' current missions and goals."
                 },
                 {
-                    "key": "2a4c250a-d710-448c-b700-bd4018e0cbd2",
+                    "key": "0a2c3e6e-bb06-4c75-80bb-7a65eb9154d2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Gap analysis in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['identify', 'gaps', 'skill', 'sets', 'address', 'training', 'measures']"
+                        "identify",
+                        "gaps",
+                        "skill",
+                        "sets",
+                        "address",
+                        "training",
+                        "measures"
                     ],
-                    "expected_output": [
-                        "The purpose of the Gap analysis in the APEC Risk Management Process Self-Assessment model is to identify gaps in skill sets and address them through training and other measures."
-                    ]
+                    "expected_output": "The purpose of the Gap analysis in the APEC Risk Management Process Self-Assessment model is to identify gaps in skill sets and address them through training and other measures."
                 },
                 {
-                    "key": "5ac8fbb0-61d1-4c8a-a6e9-a040d0bc9214",
+                    "key": "2e37b3fc-7978-4f6c-87ef-5383b2eac0ab",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Performance perception analysis in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['evaluate', 'document', 'effectiveness', 'policies', 'procedures', 'training']"
+                        "evaluate",
+                        "document",
+                        "effectiveness",
+                        "policies",
+                        "procedures",
+                        "training"
                     ],
-                    "expected_output": [
-                        "The purpose of the Performance perception analysis in the APEC Risk Management Process Self-Assessment model is to evaluate and document the effectiveness of policies, procedures, and training."
-                    ]
+                    "expected_output": "The purpose of the Performance perception analysis in the APEC Risk Management Process Self-Assessment model is to evaluate and document the effectiveness of policies, procedures, and training."
                 },
                 {
-                    "key": "02024764-1b4d-4571-acd6-f8122a2f2968",
+                    "key": "91555820-144c-45c9-aecf-f16603bc8828",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Modify data requirements component in the APEC Risk Management Process Self-Assessment model?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['modify', 'data', 'requirements', 'organizational', 'needs']"
+                        "modify",
+                        "data",
+                        "requirements",
+                        "organizational",
+                        "needs"
                     ],
-                    "expected_output": [
-                        "The purpose of the Modify data requirements component in the APEC Risk Management Process Self-Assessment model is to modify data requirements to reflect changing organizational needs."
-                    ]
+                    "expected_output": "The purpose of the Modify data requirements component in the APEC Risk Management Process Self-Assessment model is to modify data requirements to reflect changing organizational needs."
                 },
                 {
-                    "key": "caaeb8f5-83a0-479f-ac0e-9e6edcfbd2d4",
+                    "key": "1eb8d7a7-d5d6-43ae-9815-e428911aa6ea",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the risk management matrix?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'management', 'matrix']"
+                        "risk",
+                        "management",
+                        "matrix"
                     ],
-                    "expected_output": [
-                        "The purpose of the risk management matrix is to assist an economy in determining its current status in terms of risk management and to identify the next steps to refine or build its risk management process."
-                    ]
+                    "expected_output": "The purpose of the risk management matrix is to assist an economy in determining its current status in terms of risk management and to identify the next steps to refine or build its risk management process."
                 },
                 {
-                    "key": "d05d3eb4-eef0-4e75-b47c-3d44944da322",
+                    "key": "bf558bb3-a4c0-45d2-8686-99d1b8d1e2e9",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the five subject areas assessed in the risk management matrix?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Purpose', 'Context', 'Scope', 'Risk Management Concept', 'Data', 'Analysis', 'Employee Investment']"
+                        "Purpose",
+                        "Context",
+                        "Scope",
+                        "Risk Management Concept",
+                        "Data",
+                        "Analysis",
+                        "Employee Investment"
                     ],
-                    "expected_output": [
-                        "The five subject areas assessed in the risk management matrix are Purpose/Context/Scope, Risk Management Concept, Data, Analysis, and Employee Investment."
-                    ]
+                    "expected_output": "The five subject areas assessed in the risk management matrix are Purpose/Context/Scope, Risk Management Concept, Data, Analysis, and Employee Investment."
                 },
                 {
-                    "key": "368a2e22-0aa6-4334-9b47-8e8c27b79124",
+                    "key": "1690535f-fbe7-47fc-b453-193a8be25a81",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the starting point for the Purpose/Context/Scope subject area?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['recognizing', 'organization', 'internal', 'external', 'stakeholders', 'assumption', 'needs']"
+                        "recognizing",
+                        "organization",
+                        "internal",
+                        "external",
+                        "stakeholders",
+                        "assumption",
+                        "needs"
                     ],
-                    "expected_output": [
-                        "The starting point for the Purpose/Context/Scope subject area is recognizing that the organization has internal and external stakeholders and having an assumption of their needs."
-                    ]
+                    "expected_output": "The starting point for the Purpose/Context/Scope subject area is recognizing that the organization has internal and external stakeholders and having an assumption of their needs."
                 },
                 {
-                    "key": "1f5109cf-2159-48ac-ad73-5381b9e1ef3b",
+                    "key": "59028f43-59f4-4e12-8e7c-c42f4d26a559",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the realization stage in the Risk Management Concept subject area?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Customs', 'risk', 'management', 'process', 'understood']"
+                        "Customs",
+                        "risk",
+                        "management",
+                        "process",
+                        "understood"
                     ],
-                    "expected_output": [
-                        "The realization stage in the Risk Management Concept subject area is when the organization understands Customs current missions and goals and the risk management process is understood."
-                    ]
+                    "expected_output": "The realization stage in the Risk Management Concept subject area is when the organization understands Customs current missions and goals and the risk management process is understood."
                 },
                 {
-                    "key": "5c4d939e-58f9-4c0d-a343-63d5fbb8d903",
+                    "key": "fe53abf0-12c1-4d1f-a832-a59b9bcaffcd",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the focus stage in the Data subject area?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The', 'focus', 'stage', 'in', 'the', 'Data', 'subject', 'area', 'is', 'when', 'the', 'organization', 'identifies', 'data', 'needs', 'and', 'sources', 'within', 'the', 'context', 'goals', 'objectives', 'and', 'measures']"
+                        "The",
+                        "focus",
+                        "stage",
+                        "in",
+                        "the",
+                        "Data",
+                        "subject",
+                        "area",
+                        "is",
+                        "when",
+                        "the",
+                        "organization",
+                        "identifies",
+                        "data",
+                        "needs",
+                        "and",
+                        "sources",
+                        "within",
+                        "the",
+                        "context",
+                        "goals",
+                        "objectives",
+                        "and",
+                        "measures"
                     ],
-                    "expected_output": [
-                        "The focus stage in the Data subject area is when the organization identifies data needs and sources within the context, goals, objectives, and measures."
-                    ]
+                    "expected_output": "The focus stage in the Data subject area is when the organization identifies data needs and sources within the context, goals, objectives, and measures."
                 },
                 {
-                    "key": "3c392221-cff1-49e4-8b59-8b43e2255cbe",
+                    "key": "1ffda844-484e-45c6-a008-d891981401fe",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the adaptation stage in the Employee Investment subject area?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['identifies', 'competencies', 'gap', 'analysis', 'develops']"
+                        "identifies",
+                        "competencies",
+                        "gap",
+                        "analysis",
+                        "develops"
                     ],
-                    "expected_output": [
-                        "The adaptation stage in the Employee Investment subject area is when the organization identifies competencies for analysts, undertakes gap analysis, and develops competencies."
-                    ]
+                    "expected_output": "The adaptation stage in the Employee Investment subject area is when the organization identifies competencies for analysts, undertakes gap analysis, and develops competencies."
                 },
                 {
-                    "key": "4759ab1a-48f1-4986-9db4-2e4e902b68e9",
+                    "key": "3cf3a71b-4bad-4cf4-a4ab-6fb74c3a54ce",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the integration stage in the risk management matrix?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['fully integrated risk management process', 'aligned with its missions and goals']"
+                        "fully integrated risk management process",
+                        "aligned with its missions and goals"
                     ],
-                    "expected_output": [
-                        "The integration stage in the risk management matrix is when the organization has a fully integrated risk management process that is aligned with its missions and goals."
-                    ]
+                    "expected_output": "The integration stage in the risk management matrix is when the organization has a fully integrated risk management process that is aligned with its missions and goals."
                 },
                 {
-                    "key": "69f98c0e-468c-4094-977c-634e5972fa64",
+                    "key": "4a20b68c-ec25-4ea7-b7f6-aab1cfe67bbb",
                     "prompt": "Respond to the following question.\n\nQuestion: How do the subject areas in the risk management matrix relate to each other?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['interdependent', 'independent', 'aligned']"
+                        "interdependent",
+                        "independent",
+                        "aligned"
                     ],
-                    "expected_output": [
-                        "The subject areas in the risk management matrix are interdependent and should be assessed independently, but they should also be aligned with each other."
-                    ]
+                    "expected_output": "The subject areas in the risk management matrix are interdependent and should be assessed independently, but they should also be aligned with each other."
                 },
                 {
-                    "key": "865661fa-1d3d-4bae-98c7-06b47cf2d2c3",
+                    "key": "aa4066b7-ba59-4bb8-850f-e51bc5ac3516",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the awareness training and communication strategy in the risk management process?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['awareness', 'training', 'communication', 'risk', 'management']"
+                        "awareness",
+                        "training",
+                        "communication",
+                        "risk",
+                        "management"
                     ],
-                    "expected_output": [
-                        "The purpose of the awareness training and communication strategy in the risk management process is to raise employee awareness of the risk management concept, methodology, principles, and benefits."
-                    ]
+                    "expected_output": "The purpose of the awareness training and communication strategy in the risk management process is to raise employee awareness of the risk management concept, methodology, principles, and benefits."
                 },
                 {
-                    "key": "9e79ce42-f89d-44f9-a64b-55d6aeb7d994",
+                    "key": "2f58508e-61c7-4756-869b-b88bc5c66c12",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of stakeholders in the risk management process?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['stakeholders', 'risk', 'management', 'process', 'needs', 'expectations', 'feedback']"
+                        "stakeholders",
+                        "risk",
+                        "management",
+                        "process",
+                        "needs",
+                        "expectations",
+                        "feedback"
                     ],
-                    "expected_output": [
-                        "Stakeholders play a crucial role in the risk management process as their needs and expectations are explored and understood, and their feedback is sought throughout the process."
-                    ]
+                    "expected_output": "Stakeholders play a crucial role in the risk management process as their needs and expectations are explored and understood, and their feedback is sought throughout the process."
                 },
                 {
-                    "key": "1ea54cb7-5e64-40d4-b9cf-0f5b335bdf14",
+                    "key": "ada00698-d78d-4375-8285-f48a9125635f",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the risk management matrix help an organization?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'management', 'matrix', 'organization', 'framework', 'assess', 'status', 'identify', 'improvement', 'prioritize', 'resources', 'address']"
+                        "risk",
+                        "management",
+                        "matrix",
+                        "organization",
+                        "framework",
+                        "assess",
+                        "status",
+                        "identify",
+                        "improvement",
+                        "prioritize",
+                        "resources",
+                        "address"
                     ],
-                    "expected_output": [
-                        "The risk management matrix helps an organization by providing a framework to assess its current status in terms of risk management and identifying the next steps to refine or build its risk management process. It also helps the organization to identify areas for improvement and to prioritize resources to address those areas."
-                    ]
+                    "expected_output": "The risk management matrix helps an organization by providing a framework to assess its current status in terms of risk management and identifying the next steps to refine or build its risk management process. It also helps the organization to identify areas for improvement and to prioritize resources to address those areas."
                 },
                 {
-                    "key": "dd9b38db-1c1f-4a54-baed-da01347251ca",
+                    "key": "985018aa-b65f-41ff-ab7d-fd1cd348ba31",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the risk assessment/targeting centers?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'targeting', 'centers', 'intelligence', 'front-line', 'operations', 'stakeholder', 'Coordinated', 'Border', 'Management', 'CBM', 'cooperation']"
+                        "risk",
+                        "assessment",
+                        "targeting",
+                        "centers",
+                        "intelligence",
+                        "front-line",
+                        "operations",
+                        "stakeholder",
+                        "Coordinated",
+                        "Border",
+                        "Management",
+                        "CBM",
+                        "cooperation"
                     ],
-                    "expected_output": [
-                        "The purpose of the risk assessment/targeting centers is to build a closer interface between the traditional roles of intelligence and front-line operations, and to provide a platform for stakeholder and Coordinated Border Management (CBM) cooperation."
-                    ]
+                    "expected_output": "The purpose of the risk assessment/targeting centers is to build a closer interface between the traditional roles of intelligence and front-line operations, and to provide a platform for stakeholder and Coordinated Border Management (CBM) cooperation."
                 },
                 {
-                    "key": "7a466a4d-e058-4ee1-b9ad-ab2b38d622c9",
+                    "key": "6d272339-2720-41f1-aa05-26631562916f",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the different organizational models for operating a risk assessment/targeting center?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['centralized', 'decentralized', 'mixed']"
+                        "centralized",
+                        "decentralized",
+                        "mixed"
                     ],
-                    "expected_output": [
-                        "There are different organizational models for operating a risk assessment/targeting center, including centralized, decentralized, and mixed models. The choice of model depends on organizational roles, structures, activities, and functions, and is often influenced by the ICT capabilities of the organization."
-                    ]
+                    "expected_output": "There are different organizational models for operating a risk assessment/targeting center, including centralized, decentralized, and mixed models. The choice of model depends on organizational roles, structures, activities, and functions, and is often influenced by the ICT capabilities of the organization."
                 },
                 {
-                    "key": "3657f282-6c7f-4060-b246-ce9c74aff855",
+                    "key": "2b3a0690-8b61-42ab-9bda-5d065b8f766c",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the typical activities of risk assessment/targeting centers?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['managing', 'risk', 'analysis', 'coordination', 'planning', 'deployment', 'information', 'exchange', 'cooperation']"
+                        "managing",
+                        "risk",
+                        "analysis",
+                        "coordination",
+                        "planning",
+                        "deployment",
+                        "information",
+                        "exchange",
+                        "cooperation"
                     ],
-                    "expected_output": [
-                        "The typical activities of risk assessment/targeting centers include managing selectivity and targeting criteria, managing risk analysis related IT systems, providing 24/7/365 tactical analysis and coordination capacity to front-line operations, assisting with planning and resource deployment, acting as a hub for risk-related information exchange, and providing a platform for stakeholder and CBM cooperation."
-                    ]
+                    "expected_output": "The typical activities of risk assessment/targeting centers include managing selectivity and targeting criteria, managing risk analysis related IT systems, providing 24/7/365 tactical analysis and coordination capacity to front-line operations, assisting with planning and resource deployment, acting as a hub for risk-related information exchange, and providing a platform for stakeholder and CBM cooperation."
                 },
                 {
-                    "key": "b072087d-791b-4ada-a429-2ab91ad89237",
+                    "key": "75f2ed7f-9080-4aa7-8b28-7e3a19cf7426",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the outcome of the analysis conducted by risk assessment/targeting centers?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['development', 'risk', 'profiles', 'examination', 'criteria', 'identify', 'transactions', 'non-compliant', 'dynamic', 'manner', 'resource', 'planning', 'deployment', 'responses', 'situations', 'highest', 'risks']"
+                        "development",
+                        "risk",
+                        "profiles",
+                        "examination",
+                        "criteria",
+                        "identify",
+                        "transactions",
+                        "non-compliant",
+                        "dynamic",
+                        "manner",
+                        "resource",
+                        "planning",
+                        "deployment",
+                        "responses",
+                        "situations",
+                        "highest",
+                        "risks"
                     ],
-                    "expected_output": [
-                        "The outcome of the analysis conducted by risk assessment/targeting centers is the development of risk profiles and examination criteria, which enable Customs to identify transactions most likely to be non-compliant in a dynamic manner, thus enabling more effective resource planning and deployment responses to situations presenting the highest risks."
-                    ]
+                    "expected_output": "The outcome of the analysis conducted by risk assessment/targeting centers is the development of risk profiles and examination criteria, which enable Customs to identify transactions most likely to be non-compliant in a dynamic manner, thus enabling more effective resource planning and deployment responses to situations presenting the highest risks."
                 },
                 {
-                    "key": "8fa1eeb3-7400-4215-be64-3b7756b6be85",
+                    "key": "0a3545a1-3e59-40a9-876f-fda082b71ce7",
                     "prompt": "Respond to the following question.\n\nQuestion: How do risk assessment/targeting centers contribute to the management of selectivity systems?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'targeting', 'criteria', 'systems']"
+                        "risk",
+                        "assessment",
+                        "targeting",
+                        "criteria",
+                        "systems"
                     ],
-                    "expected_output": [
-                        "Risk assessment/targeting centers contribute to the management of selectivity systems by entering criteria into electronic and/or manual systems, and by managing selectivity and targeting criteria derived from national systems and regional or local experience."
-                    ]
+                    "expected_output": "Risk assessment/targeting centers contribute to the management of selectivity systems by entering criteria into electronic and/or manual systems, and by managing selectivity and targeting criteria derived from national systems and regional or local experience."
                 },
                 {
-                    "key": "afb64ef7-0827-4029-9dea-153920ebdb33",
+                    "key": "c9e7eb63-a70c-468d-b865-3e53942e77cf",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the matrix in the risk management process?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['matrix', 'risk', 'management', 'process', 'organizations', 'subject', 'areas', 'next', 'level', 'feasibility', 'venture']"
+                        "matrix",
+                        "risk",
+                        "management",
+                        "process",
+                        "organizations",
+                        "subject",
+                        "areas",
+                        "next",
+                        "level",
+                        "feasibility",
+                        "venture"
                     ],
-                    "expected_output": [
-                        "The purpose of the matrix in the risk management process is to help organizations determine their current position in relation to all subject areas, and to identify what it will take to get to the next level, and the feasibility of that venture."
-                    ]
+                    "expected_output": "The purpose of the matrix in the risk management process is to help organizations determine their current position in relation to all subject areas, and to identify what it will take to get to the next level, and the feasibility of that venture."
                 },
                 {
-                    "key": "8c868f63-63aa-4eac-a772-09cab5458c50",
+                    "key": "199615e2-6377-4857-8799-a6afdc8d49c6",
                     "prompt": "Respond to the following question.\n\nQuestion: How can organizations use the matrix in their risk management process?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['matrix', 'risk', 'management', 'process']"
+                        "matrix",
+                        "risk",
+                        "management",
+                        "process"
                     ],
-                    "expected_output": [
-                        "Organizations can use the matrix in their risk management process by reviewing the definitions in relation to their current status, identifying their current position, and determining what actions or activities are needed to move to the next level."
-                    ]
+                    "expected_output": "Organizations can use the matrix in their risk management process by reviewing the definitions in relation to their current status, identifying their current position, and determining what actions or activities are needed to move to the next level."
                 },
                 {
-                    "key": "5072af6c-eb05-426e-89fd-3fd63ca0b200",
+                    "key": "29146335-bcbf-492f-a04d-8a6b77704f61",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of reviewing the matrix at various intervals of time?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['important', 'allows', 'organizations', 'reassess', 'refocus', 'improve', 'risk', 'management', 'process']"
+                        "important",
+                        "allows",
+                        "organizations",
+                        "reassess",
+                        "refocus",
+                        "improve",
+                        "risk",
+                        "management",
+                        "process"
                     ],
-                    "expected_output": [
-                        "Reviewing the matrix at various intervals of time is important because it allows organizations to reassess progress, refocus goals, and improve their risk management process."
-                    ]
+                    "expected_output": "Reviewing the matrix at various intervals of time is important because it allows organizations to reassess progress, refocus goals, and improve their risk management process."
                 },
                 {
-                    "key": "5e009a5e-76e5-4523-af6c-d49be6eac251",
+                    "key": "9fff065b-1ad2-460c-99e3-fbf61afae28a",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the tools that can assist organizations in progressing through the matrix?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['automated analysis', 'trade-based research tools', 'importation trends', 'common traits', 'profiles', 'past violations', 'passenger data']"
+                        "automated analysis",
+                        "trade-based research tools",
+                        "importation trends",
+                        "common traits",
+                        "profiles",
+                        "past violations",
+                        "passenger data"
                     ],
-                    "expected_output": [
-                        "Some of the tools that can assist organizations in progressing through the matrix include automated analysis and trade-based research tools, such as importation trends, common traits, profiles, past violations, passenger data, etc."
-                    ]
+                    "expected_output": "Some of the tools that can assist organizations in progressing through the matrix include automated analysis and trade-based research tools, such as importation trends, common traits, profiles, past violations, passenger data, etc."
                 },
                 {
-                    "key": "77452da6-89fc-4dff-b744-5da0fb50d878",
+                    "key": "82c580ed-bc9c-47bb-949f-b4aa7f6746a5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of intelligence in the risk management process?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['intelligence', 'risk', 'management', 'process']"
+                        "intelligence",
+                        "risk",
+                        "management",
+                        "process"
                     ],
-                    "expected_output": [
-                        "Intelligence plays a crucial role in the risk management process by providing information from a wide variety of sources, both internal and external to Customs, which can be used to conduct analysis and develop selectivity and targeting criteria."
-                    ]
+                    "expected_output": "Intelligence plays a crucial role in the risk management process by providing information from a wide variety of sources, both internal and external to Customs, which can be used to conduct analysis and develop selectivity and targeting criteria."
                 },
                 {
-                    "key": "3c27ddaf-721b-4598-b463-3accc551b212",
+                    "key": "3c0cb9c1-5a55-4085-8e93-08c7871901b5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of risk assessment and targeting centers in managing electronic risk analysis systems?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'targeting', 'centers', 'electronic', 'risk', 'analysis', 'systems']"
+                        "risk",
+                        "assessment",
+                        "targeting",
+                        "centers",
+                        "electronic",
+                        "risk",
+                        "analysis",
+                        "systems"
                     ],
-                    "expected_output": [
-                        "Risk assessment and targeting centers often have a role in managing electronic risk analysis systems and inserting risk rules, profiles, and statistically valid random selection criteria."
-                    ]
+                    "expected_output": "Risk assessment and targeting centers often have a role in managing electronic risk analysis systems and inserting risk rules, profiles, and statistically valid random selection criteria."
                 },
                 {
-                    "key": "a9243a06-d5a5-4d1f-8642-4fe68145c0db",
+                    "key": "8abb4e6c-cde7-4a77-b634-b904e68157ab",
                     "prompt": "Respond to the following question.\n\nQuestion: How do risk assessment and targeting centers support front-line operational activity?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'targeting', 'centers', 'support', 'front-line', 'operational', 'activity']"
+                        "risk",
+                        "assessment",
+                        "targeting",
+                        "centers",
+                        "support",
+                        "front-line",
+                        "operational",
+                        "activity"
                     ],
-                    "expected_output": [
-                        "Risk assessment and targeting centers support front-line operational activity by providing additional tactical analysis capacity and operational support, such as real-time analysis of goods inspection, passenger inspection, transport, and vessel search and investigations activities."
-                    ]
+                    "expected_output": "Risk assessment and targeting centers support front-line operational activity by providing additional tactical analysis capacity and operational support, such as real-time analysis of goods inspection, passenger inspection, transport, and vessel search and investigations activities."
                 },
                 {
-                    "key": "9349c55a-9292-4425-83fd-cc8012312b25",
+                    "key": "50258d95-e6b5-4a65-bd5c-b7e0e14e66f0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of information coordination and exchange hubs in risk assessment and targeting centers?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['information', 'exchange', 'hubs', 'risk', 'assessment', 'targeting', 'centers', 'facilitate', 'information', 'exchange', 'Customs', 'governmental', 'agencies', 'private', 'sector', 'internationally']"
+                        "information",
+                        "exchange",
+                        "hubs",
+                        "risk",
+                        "assessment",
+                        "targeting",
+                        "centers",
+                        "facilitate",
+                        "information",
+                        "exchange",
+                        "Customs",
+                        "governmental",
+                        "agencies",
+                        "private",
+                        "sector",
+                        "internationally"
                     ],
-                    "expected_output": [
-                        "Information coordination and exchange hubs in risk assessment and targeting centers facilitate information exchange on risk-related issues between Customs and other governmental agencies, between Customs and the private sector, and between Customs administrations internationally."
-                    ]
+                    "expected_output": "Information coordination and exchange hubs in risk assessment and targeting centers facilitate information exchange on risk-related issues between Customs and other governmental agencies, between Customs and the private sector, and between Customs administrations internationally."
                 },
                 {
-                    "key": "102da5f1-3345-40f6-b249-e0a198ff7194",
+                    "key": "1a4e1bbe-311e-4dc6-8e01-052ba684420e",
                     "prompt": "Respond to the following question.\n\nQuestion: How do risk assessment and targeting centers contribute to the management of selectivity systems?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'targeting', 'criteria', 'systems']"
+                        "risk",
+                        "assessment",
+                        "targeting",
+                        "criteria",
+                        "systems"
                     ],
-                    "expected_output": [
-                        "Risk assessment and targeting centers contribute to the management of selectivity systems by entering criteria into electronic and/or manual systems and analyzing the resultant \u201chits\u201d to continually refine and develop selection and targeting criteria."
-                    ]
+                    "expected_output": "Risk assessment and targeting centers contribute to the management of selectivity systems by entering criteria into electronic and/or manual systems and analyzing the resultant \u201chits\u201d to continually refine and develop selection and targeting criteria."
                 },
                 {
-                    "key": "72dd10ae-02eb-4962-8519-dc56ab49ac0f",
+                    "key": "537d7518-6dfc-431c-8a31-b20683dd6599",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of stakeholder cooperation in risk assessment and targeting centers?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['cooperate', 'stakeholders', 'border agencies', 'inter-agency']"
+                        "cooperate",
+                        "stakeholders",
+                        "border agencies",
+                        "inter-agency"
                     ],
-                    "expected_output": [
-                        "Risk assessment and targeting centers cooperate closely with both internal and external stakeholders, including other border agencies, to strengthen inter-agency cooperation on managing cross-border risks."
-                    ]
+                    "expected_output": "Risk assessment and targeting centers cooperate closely with both internal and external stakeholders, including other border agencies, to strengthen inter-agency cooperation on managing cross-border risks."
                 },
                 {
-                    "key": "b32330dc-3bd5-4ad0-a450-882ac73a109b",
+                    "key": "02b391a5-509b-41d3-83b6-e7d6a331fe40",
                     "prompt": "Respond to the following question.\n\nQuestion: How do risk assessment and targeting centers support resource planning and deployment?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'assessment', 'targeting', 'centers', 'support', 'resource', 'planning', 'deployment']"
+                        "risk",
+                        "assessment",
+                        "targeting",
+                        "centers",
+                        "support",
+                        "resource",
+                        "planning",
+                        "deployment"
                     ],
-                    "expected_output": [
-                        "Risk assessment and targeting centers can provide support to resource planning and deployment, particularly in dynamic situations where mobile units may be dispatched to address risks or to bolster static resources where they are deemed insufficient to deal with a high-risk situation."
-                    ]
+                    "expected_output": "Risk assessment and targeting centers can provide support to resource planning and deployment, particularly in dynamic situations where mobile units may be dispatched to address risks or to bolster static resources where they are deemed insufficient to deal with a high-risk situation."
                 },
                 {
-                    "key": "14b9d1be-d3ce-48ee-9a13-8dcfdb68f2f8",
+                    "key": "17b99bd6-44d2-451f-8ddc-263f78de664c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Argentina Customs' Risk Management Directorate?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['control', 'foreign', 'trade', 'transaction', 'centralize', 'strategic', 'operation']"
+                        "control",
+                        "foreign",
+                        "trade",
+                        "transaction",
+                        "centralize",
+                        "strategic",
+                        "operation"
                     ],
-                    "expected_output": [
-                        "The Argentina Customs' Risk Management Directorate was created to control the foreign trade transactions and to centralize the strategic information and decentralize the strategic control operation."
-                    ]
+                    "expected_output": "The Argentina Customs' Risk Management Directorate was created to control the foreign trade transactions and to centralize the strategic information and decentralize the strategic control operation."
                 },
                 {
-                    "key": "01dd0872-f2b8-4d26-970c-2ac9120b369c",
+                    "key": "e12b09d8-e0d4-455c-8f94-b779e882c42b",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the international trade risks that Customs control aims to address?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['smuggling', 'trade mark fraud', 'international terrorism', 'drug trafficking']"
+                        "smuggling",
+                        "trade mark fraud",
+                        "international terrorism",
+                        "drug trafficking"
                     ],
-                    "expected_output": [
-                        "Customs control aims to address risks such as smuggling, trade mark fraud, international terrorism, and drug trafficking."
-                    ]
+                    "expected_output": "Customs control aims to address risks such as smuggling, trade mark fraud, international terrorism, and drug trafficking."
                 },
                 {
-                    "key": "ea6e9e10-cda0-4d6f-920f-e62093006211",
+                    "key": "793bb301-ee6d-4315-b696-b2bb8510876e",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the creation of risk profiles for foreign trade operators support Customs control?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['centralizing', 'strategic', 'intelligence', 'risk', 'profiles', 'foreign', 'trade', 'operators', 'supports', 'Customs', 'control']"
+                        "centralizing",
+                        "strategic",
+                        "intelligence",
+                        "risk",
+                        "profiles",
+                        "foreign",
+                        "trade",
+                        "operators",
+                        "supports",
+                        "Customs",
+                        "control"
                     ],
-                    "expected_output": [
-                        "The creation of risk profiles for foreign trade operators supports Customs control by centralizing the strategic definitions and intelligence applicable to said control through the creation of risk profiles for the different foreign trade operators."
-                    ]
+                    "expected_output": "The creation of risk profiles for foreign trade operators supports Customs control by centralizing the strategic definitions and intelligence applicable to said control through the creation of risk profiles for the different foreign trade operators."
                 },
                 {
-                    "key": "4cc4ec14-7485-4252-8edf-a135a1adf25b",
+                    "key": "9a5cf5cd-970b-4a4d-9714-f9b42996d280",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the outcome of the collaboration between Customs administrations and other border agencies in risk assessment and targeting centers?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['better', 'coordination', 'response', 'efficient', 'cost-effective', 'border management']"
+                        "better",
+                        "coordination",
+                        "response",
+                        "efficient",
+                        "cost-effective",
+                        "border management"
                     ],
-                    "expected_output": [
-                        "The collaboration between Customs administrations and other border agencies in risk assessment and targeting centers has enabled better planning, coordination, and response actions, contributing towards more efficient and cost-effective delivery of whole-of-government border management goals."
-                    ]
+                    "expected_output": "The collaboration between Customs administrations and other border agencies in risk assessment and targeting centers has enabled better planning, coordination, and response actions, contributing towards more efficient and cost-effective delivery of whole-of-government border management goals."
                 },
                 {
-                    "key": "96d609a5-f83f-44d6-98d3-eadf7b5df4a6",
+                    "key": "14fc2c84-d188-44c3-a49c-561f7238cf1c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main responsibility of the Risk Management Directorate in the Argentina Customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Risk Management Directorate', 'Customs control', 'information', 'risk profiles', 'Customs General Directorate', 'organizations']"
+                        "Risk Management Directorate",
+                        "Customs control",
+                        "information",
+                        "risk profiles",
+                        "Customs General Directorate",
+                        "organizations"
                     ],
-                    "expected_output": [
-                        "The main responsibility of the Risk Management Directorate is to create strategic politics for the Customs control, to collect and analyze the information to define the risk profiles, and to coordinate the activities in which the Customs General Directorate has to act with other organizations."
-                    ]
+                    "expected_output": "The main responsibility of the Risk Management Directorate is to create strategic politics for the Customs control, to collect and analyze the information to define the risk profiles, and to coordinate the activities in which the Customs General Directorate has to act with other organizations."
                 },
                 {
-                    "key": "74c44cc1-e40d-44be-aade-4d9668049b94",
+                    "key": "292d9439-593b-4b86-b0a5-3f6562817d26",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the two departments under the Risk Management Directorate in the Argentina Customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Selectivity', 'Strategic Management of Valuation']"
+                        "Selectivity",
+                        "Strategic Management of Valuation"
                     ],
-                    "expected_output": [
-                        "The two departments under the Risk Management Directorate are Selectivity and Strategic Management of Valuation."
-                    ]
+                    "expected_output": "The two departments under the Risk Management Directorate are Selectivity and Strategic Management of Valuation."
                 },
                 {
-                    "key": "443ee133-d469-46fe-a756-d1fc235db015",
+                    "key": "8103c267-1e4f-4318-9030-3cec188a25e1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the risk analysis processes in the Argentina Customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'analysis', 'processes', 'Argentina', 'Customs', 'operations', 'destinations', 'operators', 'foreign trade auxiliaries', 'results']"
+                        "risk",
+                        "analysis",
+                        "processes",
+                        "Argentina",
+                        "Customs",
+                        "operations",
+                        "destinations",
+                        "operators",
+                        "foreign trade auxiliaries",
+                        "results"
                     ],
-                    "expected_output": [
-                        "The purpose of the risk analysis processes is to define the risk profiles of the operations, destinations, operators, and foreign trade auxiliaries, and to evaluate the results."
-                    ]
+                    "expected_output": "The purpose of the risk analysis processes is to define the risk profiles of the operations, destinations, operators, and foreign trade auxiliaries, and to evaluate the results."
                 },
                 {
-                    "key": "dec0194e-78c7-4b4c-a67c-5dc1047d1052",
+                    "key": "094b2b9e-7f4b-481e-acf5-3e8b0e539da4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the basis of an effective control in the Argentina Customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['computerized', 'procedures', 'information', 'harmonized', 'criteria', 'goods', 'economic', 'operators']"
+                        "computerized",
+                        "procedures",
+                        "information",
+                        "harmonized",
+                        "criteria",
+                        "goods",
+                        "economic",
+                        "operators"
                     ],
-                    "expected_output": [
-                        "The basis of an effective control in the Argentina Customs is the use of computerized procedures that permit the analysis of a large amount of information and the use of harmonized criteria to control the goods and the economic operators."
-                    ]
+                    "expected_output": "The basis of an effective control in the Argentina Customs is the use of computerized procedures that permit the analysis of a large amount of information and the use of harmonized criteria to control the goods and the economic operators."
                 },
                 {
-                    "key": "d95234d3-f539-469d-a2ba-9efd4e7492df",
+                    "key": "2113b799-4587-4790-97fe-0834a0978838",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the objective of the Selectivity Department in the Argentina Customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['plan', 'propose', 'criteria', 'risk', 'profiles', 'operations', 'destinations', 'operators', 'foreign trade auxiliaries', 'evaluate', 'results']"
+                        "plan",
+                        "propose",
+                        "criteria",
+                        "risk",
+                        "profiles",
+                        "operations",
+                        "destinations",
+                        "operators",
+                        "foreign trade auxiliaries",
+                        "evaluate",
+                        "results"
                     ],
-                    "expected_output": [
-                        "The objective of the Selectivity Department is to plan and propose criteria to define the risk profiles of the operations, destinations, operators, and foreign trade auxiliaries, and to evaluate the results."
-                    ]
+                    "expected_output": "The objective of the Selectivity Department is to plan and propose criteria to define the risk profiles of the operations, destinations, operators, and foreign trade auxiliaries, and to evaluate the results."
                 },
                 {
-                    "key": "8ab3825d-0227-4334-94a0-c40595d46adb",
+                    "key": "38c544fa-f757-4f23-8e14-96fc44afbcc0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Strategic Management of Valuation Department in the Argentina Customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['create', 'control', 'analysis', 'criteria', 'valuation', 'goods']"
+                        "create",
+                        "control",
+                        "analysis",
+                        "criteria",
+                        "valuation",
+                        "goods"
                     ],
-                    "expected_output": [
-                        "The role of the Strategic Management of Valuation Department is to create control and analysis criteria for the valuation of the goods."
-                    ]
+                    "expected_output": "The role of the Strategic Management of Valuation Department is to create control and analysis criteria for the valuation of the goods."
                 },
                 {
-                    "key": "c9681c77-c5c3-401f-b2ce-4a86be33231c",
+                    "key": "f9933557-99ee-4a98-88c9-1be19fa4a23c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the ISO Standard 31000:2009 in the Argentina Customs?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk management framework']"
+                        "risk management framework"
                     ],
-                    "expected_output": [
-                        "The purpose of the ISO Standard 31000:2009 is to help the public and private organizations develop, apply, and improve a risk management framework as a fundamental part of their management system."
-                    ]
+                    "expected_output": "The purpose of the ISO Standard 31000:2009 is to help the public and private organizations develop, apply, and improve a risk management framework as a fundamental part of their management system."
                 },
                 {
-                    "key": "57866379-3b34-494b-a706-209ae66f57b6",
+                    "key": "2b3378e9-5eff-434c-ba42-9ad01cae7082",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the advantages of the risk-based control approach in the Jamaica Customs Department?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['better', 'increased', 'improved', 'increased', 'reduced', 'decreased', 'enhanced']"
+                        "better",
+                        "increased",
+                        "improved",
+                        "increased",
+                        "reduced",
+                        "decreased",
+                        "enhanced"
                     ],
-                    "expected_output": [
-                        "The advantages of the risk-based control approach in the Jamaica Customs Department include a better use of resources, increased incomes, improved compliance, increased risk perception, reduced clearance times, decreased logistics costs, and enhanced cooperation among operators, control agencies, and Customs."
-                    ]
+                    "expected_output": "The advantages of the risk-based control approach in the Jamaica Customs Department include a better use of resources, increased incomes, improved compliance, increased risk perception, reduced clearance times, decreased logistics costs, and enhanced cooperation among operators, control agencies, and Customs."
                 },
                 {
-                    "key": "e2383ed8-d3b1-4134-803d-53872008e2ea",
+                    "key": "6cdbff6a-5b5f-4234-a019-d270aed16a78",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between the traditional Customs control approach and the risk-based control approach in the Jamaica Customs Department?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['physical inspection', 'risk assessment', 'management']"
+                        "physical inspection",
+                        "risk assessment",
+                        "management"
                     ],
-                    "expected_output": [
-                        "The traditional Customs control approach focuses on physical inspection of goods, while the risk-based control approach focuses on risk assessment and management."
-                    ]
+                    "expected_output": "The traditional Customs control approach focuses on physical inspection of goods, while the risk-based control approach focuses on risk assessment and management."
                 },
                 {
-                    "key": "8b7cf9bf-9686-4843-a03c-4c9a2d3891b5",
+                    "key": "be5d282d-7866-4dce-9ff7-0529290f630e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the table in the text that compares the Jamaica Customs Department\u2019s previous Customs controls with its current approach?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk-based', 'traditional']"
+                        "risk-based",
+                        "traditional"
                     ],
-                    "expected_output": [
-                        "The purpose of the table is to highlight the differences between the traditional Customs control approach and the risk-based control approach, and to provide lessons learned from the implementation of the risk-based approach."
-                    ]
+                    "expected_output": "The purpose of the table is to highlight the differences between the traditional Customs control approach and the risk-based control approach, and to provide lessons learned from the implementation of the risk-based approach."
                 },
                 {
-                    "key": "cae6716b-cde4-4678-8399-0225b4ef53a3",
+                    "key": "5dee5832-1748-44b5-8e8b-69d9fd91e45c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the focus of the Jamaica Customs Department's new approach to risk management?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['compliance', 'non-compliance', 'integrity', 'trader', 'systems', 'procedures', 'regulatory', 'control', 'trade', 'facilitation']"
+                        "compliance",
+                        "non-compliance",
+                        "integrity",
+                        "trader",
+                        "systems",
+                        "procedures",
+                        "regulatory",
+                        "control",
+                        "trade",
+                        "facilitation"
                     ],
-                    "expected_output": [
-                        "The Jamaica Customs Department's new approach to risk management focuses on identifying both compliance and non-compliance, assessing the integrity of trader systems and procedures, and balancing regulatory control and trade facilitation."
-                    ]
+                    "expected_output": "The Jamaica Customs Department's new approach to risk management focuses on identifying both compliance and non-compliance, assessing the integrity of trader systems and procedures, and balancing regulatory control and trade facilitation."
                 },
                 {
-                    "key": "8610315f-ffb9-46d9-a984-fa8045823d2e",
+                    "key": "9a67b7ab-0787-459f-bdf9-20ef197e93fd",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some lessons learned from the Jamaica Customs Department's implementation of a risk-based approach?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['importance', 'staff', 'formal', 'impact', 'reduced', 'lower']"
+                        "importance",
+                        "staff",
+                        "formal",
+                        "impact",
+                        "reduced",
+                        "lower"
                     ],
-                    "expected_output": [
-                        "Some lessons learned from the Jamaica Customs Department's implementation of a risk-based approach include the importance of a structured communication network, staff awareness and training, a formal process for evaluating and monitoring risk management solutions, and the impact on trade such as reduced processing times and lower transaction costs."
-                    ]
+                    "expected_output": "Some lessons learned from the Jamaica Customs Department's implementation of a risk-based approach include the importance of a structured communication network, staff awareness and training, a formal process for evaluating and monitoring risk management solutions, and the impact on trade such as reduced processing times and lower transaction costs."
                 },
                 {
-                    "key": "c57ec60e-c8c6-428d-b39a-aeeb85f7670f",
+                    "key": "b9f9be05-75fb-4680-acfe-f710079444ac",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Risk Management Steering Committee in the Kenya Customs Department?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risks', 'priorities']"
+                        "risks",
+                        "priorities"
                     ],
-                    "expected_output": [
-                        "The purpose of the Risk Management Steering Committee in the Kenya Customs Department is to deal with organizational risks and priorities."
-                    ]
+                    "expected_output": "The purpose of the Risk Management Steering Committee in the Kenya Customs Department is to deal with organizational risks and priorities."
                 },
                 {
-                    "key": "d6fb01df-bd9f-48b3-bbbb-a645ee6b8f7e",
+                    "key": "2af30550-28a2-4fe3-928d-f4d92819a024",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the National Targeting Centre in the Kenya Customs Department?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['supports', 'operational', 'risk', 'assessment', 'profiling', 'targeting']"
+                        "supports",
+                        "operational",
+                        "risk",
+                        "assessment",
+                        "profiling",
+                        "targeting"
                     ],
-                    "expected_output": [
-                        "The National Targeting Centre in the Kenya Customs Department supports operational risk assessment, profiling, and targeting practices."
-                    ]
+                    "expected_output": "The National Targeting Centre in the Kenya Customs Department supports operational risk assessment, profiling, and targeting practices."
                 },
                 {
-                    "key": "a5848aa9-3d2f-4a95-8915-e04f75dc6297",
+                    "key": "1f49704a-1129-40a1-be6f-4f13799c9a66",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the focus of the Korea Customs Service's risk management approach?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk management', 'high-risk', 'passengers', 'goods', 'transportation', 'risk analysis']"
+                        "risk management",
+                        "high-risk",
+                        "passengers",
+                        "goods",
+                        "transportation",
+                        "risk analysis"
                     ],
-                    "expected_output": [
-                        "The Korea Customs Service's risk management approach focuses on selecting and inspecting high-risk passengers, goods, and transportation based on the results of risk analysis."
-                    ]
+                    "expected_output": "The Korea Customs Service's risk management approach focuses on selecting and inspecting high-risk passengers, goods, and transportation based on the results of risk analysis."
                 },
                 {
-                    "key": "4c441866-905a-414d-999d-bdb90019ffab",
+                    "key": "9f0d1ce0-9983-4adb-b6f9-0cb97e740d4f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Customs Data Warehouse (CDW) in the Korea Customs Service?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The purpose', 'Korea Customs Service', 'illegal', 'tax evasion']"
+                        "The purpose",
+                        "Korea Customs Service",
+                        "illegal",
+                        "tax evasion"
                     ],
-                    "expected_output": [
-                        "The purpose of the Customs Data Warehouse (CDW) in the Korea Customs Service is to collect data from various government agencies and conduct risk analysis for post-audit on illegal transactions and tax evasion cases."
-                    ]
+                    "expected_output": "The purpose of the Customs Data Warehouse (CDW) in the Korea Customs Service is to collect data from various government agencies and conduct risk analysis for post-audit on illegal transactions and tax evasion cases."
                 },
                 {
-                    "key": "f20aa167-3ab1-4eef-a224-e6ea30db3100",
+                    "key": "3cfc3c76-d085-4371-b041-06e673fc0848",
                     "prompt": "Respond to the following question.\n\nQuestion: How has the number of Customs personnel in Japan changed over time?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['same', 'level', 'increasing', 'workload', 'improved', 'operational', 'efficiency']"
+                        "same",
+                        "level",
+                        "increasing",
+                        "workload",
+                        "improved",
+                        "operational",
+                        "efficiency"
                     ],
-                    "expected_output": [
-                        "The number of Customs personnel in Japan has remained at the same level despite the increasing workload, indicating improved operational efficiency."
-                    ]
+                    "expected_output": "The number of Customs personnel in Japan has remained at the same level despite the increasing workload, indicating improved operational efficiency."
                 },
                 {
-                    "key": "44e3333b-4bec-4dc4-b204-7a18c4c572b2",
+                    "key": "fe915f1f-1acd-4217-911c-14d7588d3ef3",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the transition in main Customs services in Japan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['improve', 'operational', 'efficiency', 'reduce', 'processing', 'times']"
+                        "improve",
+                        "operational",
+                        "efficiency",
+                        "reduce",
+                        "processing",
+                        "times"
                     ],
-                    "expected_output": [
-                        "The purpose of the transition in main Customs services in Japan is to improve operational efficiency and reduce processing times."
-                    ]
+                    "expected_output": "The purpose of the transition in main Customs services in Japan is to improve operational efficiency and reduce processing times."
                 },
                 {
-                    "key": "005440b4-84c1-4b6c-9934-865f75e9a8d1",
+                    "key": "a02072c8-cb9e-4e3b-b389-0ceac224e1b1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of technology in the Korea Customs Service's risk management approach?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['technology', 'risk', 'management', 'approach']"
+                        "technology",
+                        "risk",
+                        "management",
+                        "approach"
                     ],
-                    "expected_output": [
-                        "Technology plays a crucial role in the Korea Customs Service's risk management approach, enabling the collection and analysis of data from various sources to identify high-risk passengers, goods, and transportation."
-                    ]
+                    "expected_output": "Technology plays a crucial role in the Korea Customs Service's risk management approach, enabling the collection and analysis of data from various sources to identify high-risk passengers, goods, and transportation."
                 },
                 {
-                    "key": "ca21e1db-132d-4f48-9bf5-8af7dd70abd1",
+                    "key": "6878645b-4aad-4846-b6e6-d6ae23cc1cbb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the future plan for the Jamaica Customs Department's risk management approach?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['client education', 'legislative amendments', 'operational changes', 'resource re-allocation', 'technology and technical support']"
+                        "client education",
+                        "legislative amendments",
+                        "operational changes",
+                        "resource re-allocation",
+                        "technology and technical support"
                     ],
-                    "expected_output": [
-                        "The future plan for the Jamaica Customs Department's risk management approach includes client education, legislative amendments, operational changes, resource re-allocation, and technology and technical support."
-                    ]
+                    "expected_output": "The future plan for the Jamaica Customs Department's risk management approach includes client education, legislative amendments, operational changes, resource re-allocation, and technology and technical support."
                 },
                 {
-                    "key": "4fc8dc65-89c9-440f-ac3e-e2f39844c9ad",
+                    "key": "91bd5b3e-11a9-4378-8520-38b72242c38e",
                     "prompt": "Respond to the following question.\n\nQuestion: What has the KCS traditionally conducted risk analysis for?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['post-audit', 'illegal', 'transactions', 'tax', 'evasion']"
+                        "post-audit",
+                        "illegal",
+                        "transactions",
+                        "tax",
+                        "evasion"
                     ],
-                    "expected_output": [
-                        "The KCS has traditionally conducted risk analysis for post-audit on illegal transactions and tax evasion cases."
-                    ]
+                    "expected_output": "The KCS has traditionally conducted risk analysis for post-audit on illegal transactions and tax evasion cases."
                 },
                 {
-                    "key": "6a8e676c-e4ab-40ee-9dd3-2a69ec34638b",
+                    "key": "aab54640-00d2-41d7-96b6-6d2a52744860",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Integrated Risk Management System (IRM) established by the KCS?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['comprehensive', 'reconciliation', 'real-time', 'reducing', 'decision making']"
+                        "comprehensive",
+                        "reconciliation",
+                        "real-time",
+                        "reducing",
+                        "decision making"
                     ],
-                    "expected_output": [
-                        "The purpose of the IRM is to provide comprehensive information with an enhanced reconciliation function, real-time data management, and reducing time lag, and to assist divisions with their decision making."
-                    ]
+                    "expected_output": "The purpose of the IRM is to provide comprehensive information with an enhanced reconciliation function, real-time data management, and reducing time lag, and to assist divisions with their decision making."
                 },
                 {
-                    "key": "106936c0-585e-4fe0-84f2-00a51b378cf9",
+                    "key": "ab80e966-217c-41b7-836c-f8bc933dcfd5",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the expected benefits of the IRM system?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['producing', 'enhanced', 'real-time', 'reducing', 'focus', 'assisting', 'possible']"
+                        "producing",
+                        "enhanced",
+                        "real-time",
+                        "reducing",
+                        "focus",
+                        "assisting",
+                        "possible"
                     ],
-                    "expected_output": [
-                        "The expected benefits of the IRM system include producing comprehensive information with an enhanced reconciliation function, real-time data management and reducing time lag, focus shifted from correction of mistakes to prevention, assisting divisions with their decision making, and possible efficiencies in organizational integration."
-                    ]
+                    "expected_output": "The expected benefits of the IRM system include producing comprehensive information with an enhanced reconciliation function, real-time data management and reducing time lag, focus shifted from correction of mistakes to prevention, assisting divisions with their decision making, and possible efficiencies in organizational integration."
                 },
                 {
-                    "key": "36244670-ff9e-4b04-baca-812fbf852d92",
+                    "key": "6ea2d130-c5eb-4eca-89ac-5e2daa67f8b6",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the National Targeting Council (NTC)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['National', 'Targeting', 'Council', 'NTC', 'KCS']"
+                        "National",
+                        "Targeting",
+                        "Council",
+                        "NTC",
+                        "KCS"
                     ],
-                    "expected_output": [
-                        "The National Targeting Council (NTC) is a proposed body that will focus on intelligence integration and will be established by the KCS for more effective and efficient risk management."
-                    ]
+                    "expected_output": "The National Targeting Council (NTC) is a proposed body that will focus on intelligence integration and will be established by the KCS for more effective and efficient risk management."
                 },
                 {
-                    "key": "c9f5a184-4237-455e-a208-7f3243ea16bd",
+                    "key": "7ee1126c-047b-467a-8712-d00e6f0ede4a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the NTC?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['improve', 'targeting', 'capability', 'increase', 'revenue', 'collection']"
+                        "improve",
+                        "targeting",
+                        "capability",
+                        "increase",
+                        "revenue",
+                        "collection"
                     ],
-                    "expected_output": [
-                        "The purpose of the NTC is to improve targeting capability, leading to an increase in revenue collection."
-                    ]
+                    "expected_output": "The purpose of the NTC is to improve targeting capability, leading to an increase in revenue collection."
                 },
                 {
-                    "key": "55f3db4c-275a-4a48-a8f1-76e41b8ac713",
+                    "key": "77009484-b1c0-4272-939b-d4bd09b3c9ed",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the issue with the consignment declared as fabrics in the example given?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['HS', 'code', '6307.9090', '5515.1900']"
+                        "HS",
+                        "code",
+                        "6307.9090",
+                        "5515.1900"
                     ],
-                    "expected_output": [
-                        "The consignment declared as fabrics was found to consist of curtain fabrics with scalloping edges, which are classifiable under HS code 6307.9090 and attract 0% duty and 0% VAT at importation, but the importer had wrongly classified them as textile piece goods under HS code 5515.1900."
-                    ]
+                    "expected_output": "The consignment declared as fabrics was found to consist of curtain fabrics with scalloping edges, which are classifiable under HS code 6307.9090 and attract 0% duty and 0% VAT at importation, but the importer had wrongly classified them as textile piece goods under HS code 5515.1900."
                 },
                 {
-                    "key": "6004f462-f96f-4979-a37b-1598322768a2",
+                    "key": "1355fa81-d975-4193-941c-5836d49017d1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the role of the Risk Management Section in the KCS?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk', 'management', 'section', 'kcs', 'responsible', 'conducting', 'risk', 'analysis', 'targeting', 'policy', 'making']"
+                        "risk",
+                        "management",
+                        "section",
+                        "kcs",
+                        "responsible",
+                        "conducting",
+                        "risk",
+                        "analysis",
+                        "targeting",
+                        "policy",
+                        "making"
                     ],
-                    "expected_output": [
-                        "The Risk Management Section in the KCS is responsible for conducting risk analysis, targeting, and policy making."
-                    ]
+                    "expected_output": "The Risk Management Section in the KCS is responsible for conducting risk analysis, targeting, and policy making."
                 },
                 {
-                    "key": "bf1cc98c-e5d1-4e57-b332-3d621f7ea9f0",
+                    "key": "3aa6880a-ae09-42d8-9a7a-b50a606a0960",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Risk Management Cycle?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['identify', 'monitor', 'measure', 'assess', 'set', 'priorities', 'risk', 'treatment']"
+                        "identify",
+                        "monitor",
+                        "measure",
+                        "assess",
+                        "set",
+                        "priorities",
+                        "risk",
+                        "treatment"
                     ],
-                    "expected_output": [
-                        "The purpose of the Risk Management Cycle is to identify types of risks by area, monitor and measure compliance, and assess risks and set priorities for risk treatment."
-                    ]
+                    "expected_output": "The purpose of the Risk Management Cycle is to identify types of risks by area, monitor and measure compliance, and assess risks and set priorities for risk treatment."
                 },
                 {
-                    "key": "3b5a8b4d-1543-48a2-a65c-77a400d035ba",
+                    "key": "482ab6d0-312e-4b12-ae20-f4432ea7e419",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between the KCS Risk Management Cycle and the WCO Risk Management Cycle?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk monitoring', 'risk management cycle', 'risk finding', 'risk analysis']"
+                        "risk monitoring",
+                        "risk management cycle",
+                        "risk finding",
+                        "risk analysis"
                     ],
-                    "expected_output": [
-                        "The KCS Risk Management Cycle includes the steps of preparation, detection, covering, evaluation, and risk finding, while the WCO Risk Management Cycle includes the steps of risk monitoring, info analysis, work system of im/export, audit, investigation & monitoring, administrative order, analyze degree, risks of supply chain & cargo, identify types of risk by area, monitor & measure compliance, ciblage et elaboration de la politique generale, risk management council, set high-risk areas, post-audit, system audit, comprehensive audit, investigation by order, report & finding, assess risks & set priorities, and risk profiles."
-                    ]
+                    "expected_output": "The KCS Risk Management Cycle includes the steps of preparation, detection, covering, evaluation, and risk finding, while the WCO Risk Management Cycle includes the steps of risk monitoring, info analysis, work system of im/export, audit, investigation & monitoring, administrative order, analyze degree, risks of supply chain & cargo, identify types of risk by area, monitor & measure compliance, ciblage et elaboration de la politique generale, risk management council, set high-risk areas, post-audit, system audit, comprehensive audit, investigation by order, report & finding, assess risks & set priorities, and risk profiles."
                 },
                 {
-                    "key": "f6b0d386-bc49-481e-bc2f-8f95b475331e",
+                    "key": "0a77438c-f858-4367-93cd-f25cf7fb020f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the significance of the feedback received from the seizing office at Risk Management Section in the example given?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['The', 'feedback', 'received', 'from', 'the', 'seizing', 'office', 'at', 'Risk', 'Management', 'Section', 'was', 'used', 'as', 'intelligence', 'for', 'targeting', 'and', 'was', 'retrieved', 'from', 'the', 'Customs', 'import', 'database', 'on', 'importers', 'of', 'fabrics', 'which', 'was', 'analyzed', 'to', 'compile', 'a', 'list', 'of', 'importers', 'of', 'fabrics']"
+                        "The",
+                        "feedback",
+                        "received",
+                        "from",
+                        "the",
+                        "seizing",
+                        "office",
+                        "at",
+                        "Risk",
+                        "Management",
+                        "Section",
+                        "was",
+                        "used",
+                        "as",
+                        "intelligence",
+                        "for",
+                        "targeting",
+                        "and",
+                        "was",
+                        "retrieved",
+                        "from",
+                        "the",
+                        "Customs",
+                        "import",
+                        "database",
+                        "on",
+                        "importers",
+                        "of",
+                        "fabrics",
+                        "which",
+                        "was",
+                        "analyzed",
+                        "to",
+                        "compile",
+                        "a",
+                        "list",
+                        "of",
+                        "importers",
+                        "of",
+                        "fabrics"
                     ],
-                    "expected_output": [
-                        "The feedback received from the seizing office at Risk Management Section was used as intelligence for targeting and was retrieved from the Customs import database on importers of fabrics, which was analyzed to compile a list of importers of fabrics."
-                    ]
+                    "expected_output": "The feedback received from the seizing office at Risk Management Section was used as intelligence for targeting and was retrieved from the Customs import database on importers of fabrics, which was analyzed to compile a list of importers of fabrics."
                 },
                 {
-                    "key": "c96178ad-8d99-415e-b7b9-98c0463fde7c",
+                    "key": "53abffb7-a3bc-4088-b0ac-0e9b3d7abdde",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the risk-based layered approach to supply chain security adopted by the United States Customs and Border Protection (CBP)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['risk-based', 'layered', 'approach', 'security', 'transit', 'vector', 'defense']"
+                        "risk-based",
+                        "layered",
+                        "approach",
+                        "security",
+                        "transit",
+                        "vector",
+                        "defense"
                     ],
-                    "expected_output": [
-                        "The purpose of the risk-based layered approach is to enhance security across all potential transit vectors in a more efficient and cost-effective manner than alternative approaches that focus exclusively on a single layer of defense."
-                    ]
+                    "expected_output": "The purpose of the risk-based layered approach is to enhance security across all potential transit vectors in a more efficient and cost-effective manner than alternative approaches that focus exclusively on a single layer of defense."
                 },
                 {
-                    "key": "d253a55c-96e4-4059-8848-393c5514a525",
+                    "key": "7c8c17a8-58b2-40c2-a65d-4d281d2b5912",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the objective of the layered approach to supply chain security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['integrate', 'measures', 'processes', 'commercial', 'security', 'information', 'timely', 'targeting', 'suspect', 'shipments', 'commerce', 'US', 'ports']"
+                        "integrate",
+                        "measures",
+                        "processes",
+                        "commercial",
+                        "security",
+                        "information",
+                        "timely",
+                        "targeting",
+                        "suspect",
+                        "shipments",
+                        "commerce",
+                        "US",
+                        "ports"
                     ],
-                    "expected_output": [
-                        "The objective of the layered approach is to integrate various measures into intersecting processes, allowing CBP to receive, process, and act upon commercial and security information in a timely manner, accurately targeting suspect shipments without hindering the movement of commerce upon arrival in US ports."
-                    ]
+                    "expected_output": "The objective of the layered approach is to integrate various measures into intersecting processes, allowing CBP to receive, process, and act upon commercial and security information in a timely manner, accurately targeting suspect shipments without hindering the movement of commerce upon arrival in US ports."
                 },
                 {
-                    "key": "0452c317-92a2-46b3-978a-eabb543e732b",
+                    "key": "ae999abf-0a64-4546-b509-d7c315079ff5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the program that CBP uses to detect, prevent, or deter attacks against, or the exploitation of, the supply chain?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Automated Targeting System (ATS)']"
+                        "Automated Targeting System (ATS)"
                     ],
-                    "expected_output": [
-                        "The program used by CBP to detect, prevent, or deter attacks against, or the exploitation of, the supply chain is the Automated Targeting System (ATS)."
-                    ]
+                    "expected_output": "The program used by CBP to detect, prevent, or deter attacks against, or the exploitation of, the supply chain is the Automated Targeting System (ATS)."
                 },
                 {
-                    "key": "9f14cca9-acde-42a8-b408-f1ad70eb7330",
+                    "key": "063a4353-5144-455b-adaa-c583228b8ce8",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the 24-hour rule and how does it relate to the layered approach to supply chain security?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['24-hour rule', 'advanced electronic information', 'CBP', 'shipment', 'import', 'enforcement', 'ATS']"
+                        "24-hour rule",
+                        "advanced electronic information",
+                        "CBP",
+                        "shipment",
+                        "import",
+                        "enforcement",
+                        "ATS"
                     ],
-                    "expected_output": [
-                        "The 24-hour rule requires that advanced electronic information be submitted to CBP at least 24 hours before the arrival of a shipment. This information is then used to screen all shipment information by interfacing with import and enforcement systems using the ATS."
-                    ]
+                    "expected_output": "The 24-hour rule requires that advanced electronic information be submitted to CBP at least 24 hours before the arrival of a shipment. This information is then used to screen all shipment information by interfacing with import and enforcement systems using the ATS."
                 },
                 {
-                    "key": "21234044-0ae5-4497-a63f-87bb358c271a",
+                    "key": "cfb483f5-54e8-4823-b8c5-6602a1765bf0",
                     "prompt": "Respond to the following question.\n\nQuestion: Can you name one of the additional layers of the layered approach to supply chain security that is not sensor-based?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['authorized', 'economic', 'operator', 'partnerships', 'industry', 'private', 'sector', 'C-TPAT']"
+                        "authorized",
+                        "economic",
+                        "operator",
+                        "partnerships",
+                        "industry",
+                        "private",
+                        "sector",
+                        "C-TPAT"
                     ],
-                    "expected_output": [
-                        "One of the additional layers of the layered approach to supply chain security that is not sensor-based is authorized economic operator partnerships with industry and the private sector, such as C-TPAT."
-                    ]
+                    "expected_output": "One of the additional layers of the layered approach to supply chain security that is not sensor-based is authorized economic operator partnerships with industry and the private sector, such as C-TPAT."
                 },
                 {
-                    "key": "af0a7883-d601-47c3-9e3a-437ff323ebe7",
+                    "key": "c8f9dc06-60b0-424c-833f-fc6d026b6d05",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the initiative that CBP has implemented to enhance security in the air cargo industry?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Air', 'Cargo', 'Security', 'Initiative']"
+                        "Air",
+                        "Cargo",
+                        "Security",
+                        "Initiative"
                     ],
-                    "expected_output": [
-                        "The initiative that CBP has implemented to enhance security in the air cargo industry is the Air Cargo Security Initiative."
-                    ]
+                    "expected_output": "The initiative that CBP has implemented to enhance security in the air cargo industry is the Air Cargo Security Initiative."
                 },
                 {
-                    "key": "22ee9999-4d5c-4663-890f-e8acb22626d5",
+                    "key": "563b055b-c16d-410b-a864-c15c6308fbc9",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the layered approach to supply chain security ensure that cargo and associated information is regularly assessed?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['utilizing', 'screening', 'partnerships', 'governments', 'agencies']"
+                        "utilizing",
+                        "screening",
+                        "partnerships",
+                        "governments",
+                        "agencies"
                     ],
-                    "expected_output": [
-                        "The layered approach ensures that cargo and associated information is regularly assessed by utilizing various measures such as advanced electronic information, screening all shipment information, authorized economic operator partnerships, and partnerships with foreign governments and other U.S. government agencies."
-                    ]
+                    "expected_output": "The layered approach ensures that cargo and associated information is regularly assessed by utilizing various measures such as advanced electronic information, screening all shipment information, authorized economic operator partnerships, and partnerships with foreign governments and other U.S. government agencies."
                 },
                 {
-                    "key": "ba6d05bc-7e1b-4b52-b1d2-b37f0062a2ce",
+                    "key": "7289b276-0c9e-41c8-8e3a-ef6c06f51ec9",
                     "prompt": "Respond to the following question.\n\nQuestion: Can you name one of the ways that CBP targets suspect shipments?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Automated Targeting System (ATS)']"
+                        "Automated Targeting System (ATS)"
                     ],
-                    "expected_output": [
-                        "One of the ways that CBP targets suspect shipments is by using the Automated Targeting System (ATS) to identify high-risk shipments and mandating exams for all high-risk shipments."
-                    ]
+                    "expected_output": "One of the ways that CBP targets suspect shipments is by using the Automated Targeting System (ATS) to identify high-risk shipments and mandating exams for all high-risk shipments."
                 },
                 {
-                    "key": "2bc79bf5-a505-4075-969f-076529db32b2",
+                    "key": "2dc87caa-cee9-49cf-9a43-a9a3cde92fe2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the program that CBP has implemented to enhance security in the maritime industry?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Container Security Initiative']"
+                        "Container Security Initiative"
                     ],
-                    "expected_output": [
-                        "The program that CBP has implemented to enhance security in the maritime industry is the Container Security Initiative."
-                    ]
+                    "expected_output": "The program that CBP has implemented to enhance security in the maritime industry is the Container Security Initiative."
                 },
                 {
-                    "key": "862aca5e-be9d-43f5-8d11-ad8ef16b1aff",
+                    "key": "e1230426-681b-45b8-8926-24e592b6999a",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the layered approach to supply chain security help to prevent the exploitation of the supply chain?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['utilizing', 'various', 'measures', 'advanced', 'electronic', 'information', 'screening', 'shipment', 'authorized', 'partnerships', 'foreign', 'governments', 'U.S.', 'defense', 'depth', 'segments', 'supply', 'chain']"
+                        "utilizing",
+                        "various",
+                        "measures",
+                        "advanced",
+                        "electronic",
+                        "information",
+                        "screening",
+                        "shipment",
+                        "authorized",
+                        "partnerships",
+                        "foreign",
+                        "governments",
+                        "U.S.",
+                        "defense",
+                        "depth",
+                        "segments",
+                        "supply",
+                        "chain"
                     ],
-                    "expected_output": [
-                        "The layered approach helps to prevent the exploitation of the supply chain by utilizing various measures such as advanced electronic information, screening all shipment information, authorized economic operator partnerships, and partnerships with foreign governments and other U.S. government agencies, which provide defense in depth for the various segments of the supply chain."
-                    ]
+                    "expected_output": "The layered approach helps to prevent the exploitation of the supply chain by utilizing various measures such as advanced electronic information, screening all shipment information, authorized economic operator partnerships, and partnerships with foreign governments and other U.S. government agencies, which provide defense in depth for the various segments of the supply chain."
                 }
             ]
         }

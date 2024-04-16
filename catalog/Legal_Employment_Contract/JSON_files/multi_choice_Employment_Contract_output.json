@@ -1,448 +1,448 @@
 {
     "tests": [
         {
-            "key": "9caf86b6-50d0-4a29-9c93-f57efc05d7be",
+            "key": "80fe1e5f-042d-480a-a34b-8ffbfe24f815",
             "documents": [
                 "Employment_Contract.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "d8e36e5a-a831-4e58-a513-015190228d2d",
+                    "key": "da5d7a34-bf82-4a01-b3b6-9dd3149c2ac6",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the company that is employing Marie Kyle?\nHow do you respond?\nA. Purple Nike co Pty. Ltd.\nB. Ballarat VIC 3350\nC. Cleardocs.com\nD. Parramatta, NSW 2150\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "f8cbb832-5101-41fb-8a86-fcc0d82c904a",
+                    "key": "9982760d-4424-4c7d-8410-b831cfc6fcef",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the duties that Marie Kyle must perform?\nHow do you respond?\nA. Promote and develop Purple Nike co Pty. Ltd.'s organization and interests at all times.\nB. Act with consideration for the needs of her colleagues and Purple Nike co Pty. Ltd.'s customers.\nC. Enter into contracts or agreements on Purple Nike co Pty. Ltd.'s behalf.\nD. Carry out additional or alternative duties to her normal job as required by her Employer.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^D.*"
+                        "REGEXP:.*(D|D\\.).*"
                     ],
                     "expected_output": "D"
                 },
                 {
-                    "key": "6a765ce8-7f3e-4562-99b8-97730cfa0cef",
+                    "key": "e38cf46d-bbc7-4af3-8a0e-39f2a96d1dad",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the pre-employment conditions that Marie Kyle must satisfy?\nHow do you respond?\nA. She must provide certified copies of all documents relating to her skills, qualifications, memberships, registrations, and/or licenses.\nB. She must provide proof to the Employer that she holds all visas and meets the immigration requirements necessary to work in Australia.\nC. The Employer must be satisfied with all background checks relating to her, including reference checks with previous employers, academic qualification checks, and police record checks.\nD. She must agree to abide by the Employer's rules, policies, and procedures.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "3422425d-935e-4899-a8a7-4e524d834f95",
+                    "key": "bb48635e-4f76-413e-bf92-304e1ef8ffb9",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the contract of employment?\nHow do you respond?\nA. To outline the terms and conditions of employment between the employer and employee.\nB. To provide a detailed job description and responsibilities for the employee.\nC. To outline the employee's salary and benefits package.\nD. To describe the employer's expectations for employee performance and behavior.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "230e9c2e-c8ba-48d1-ad24-1d0ad0034cb7",
+                    "key": "1f389a96-abad-4a8a-a19e-f7504beb8dad",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the conditions that must be met before the Employer's offer of employment becomes binding?\nHow do you respond?\nA. The Employer must provide a written employment contract to the employee.\nB. The employee must provide proof of their qualifications and experience.\nC. The employee must pass a background check and reference checks.\nD. The Employer and employee must agree on a start date and salary.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "c4c6f183-a0c8-4a92-ab57-0a85f78f3a77",
+                    "key": "8f612bb9-bb29-4f88-a41f-7e69568ebbd2",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if the Employee does not meet the conditions in clause 6 by the Commencement Date?\nHow do you respond?\nA. The Employer's offer of employment lapses.\nB. The Employer may terminate this Contract of Employment with immediate effect.\nC. The Employee is entitled to a pro-rata payment for the unexpired portion of the contract.\nD. The Employee can continue working without any liability to the Employer for payment or compensation.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "4b489f99-24c9-4dd4-a653-62d0863087e5",
+                    "key": "8dcf261b-42b0-48a8-b7b8-6bf0e53b5541",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: When does the Employee's employment commence and end?\nHow do you respond?\nA. Commencement Date, as stated in the Contract of Employment.\nB. The date the Employee starts working.\nC. After the Employee has completed all background checks.\nD. When the Employer confirms the Employee's acceptance of the offer.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "29a1e591-fab9-4192-bca7-960ef19f10e7",
+                    "key": "bd042858-5ac2-4973-ad7e-148d283aeadf",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much will the Employee be paid?\nHow do you respond?\nA. $10,000 per year, exclusive of superannuation and taxes.\nB. $10,000 per year, inclusive of superannuation and taxes.\nC. $12,000 per year, exclusive of superannuation and taxes.\nD. $15,000 per year, inclusive of superannuation and taxes.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "b59bba3c-3476-4ad1-bb47-7aeae8f7a201",
+                    "key": "68344409-520a-4bd3-865c-f51ddd5f6e09",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What types of leave are employees entitled to under the law?\nHow do you respond?\nA. Annual leave and personal/carer's leave\nB. Long service leave and parental leave\nC. Compulsory annual leave and shut-down periods\nD. Medical assessment and privacy\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "21939a1a-47b4-410d-ba8a-6b7b5dfa919c",
+                    "key": "f34f39c8-ec58-4da9-bad3-a5ca4b238bfe",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can an employer request an employee to work on a public holiday?\nHow do you respond?\nA. No, an employer cannot request an employee to work on a public holiday.\nB. Yes, an employer can request an employee to work on a public holiday, but only if the employee is compensated with double pay.\nC. Yes, an employer can request an employee to work on a public holiday, but only if the employee consents to it.\nD. Yes, an employer can request an employee to work on a public holiday, and the employee must comply without any compensation.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "d470a10e-408c-4ca1-aea3-d9310e8aba97",
+                    "key": "d3aa8297-2d4d-4f6d-8739-56e6a36f459d",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can an employer require an employee to take annual leave at certain times?\nHow do you respond?\nA. Yes, an employer can require an employee to take annual leave at any time.\nB. Yes, an employer can require an employee to take annual leave at certain times if it is reasonable and complies with the Fair Work Legislation and any applicable Industrial Instruments.\nC. No, an employer cannot require an employee to take annual leave at any time.\nD. No, an employer cannot require an employee to take annual leave at certain times unless the employee agrees.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "be80e529-8f64-4897-b54d-75642c00af2c",
+                    "key": "f342cc69-ba3a-4251-8485-11ac0fdb30bb",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the process for requesting parental leave?\nHow do you respond?\nA. Notify your employer in writing at least 10 weeks before the expected date of birth or adoption.\nB. Request parental leave verbally to your employer at any time before the expected date of birth or adoption.\nC. Submit a written request to your employer at least 2 weeks before the expected date of birth or adoption.\nD. Notify your employer in writing at least 6 weeks before the expected date of birth or adoption.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "1e4513b4-88ed-408f-af7a-d1a843f005fd",
+                    "key": "672cda13-e539-468d-8580-c6a7491cfdb9",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does an employer preserve confidentiality?\nHow do you respond?\nA. By requiring employees to sign a non-disclosure agreement.\nB. By limiting access to confidential information to only those who need to know.\nC. By sharing confidential information with external parties without proper authorization.\nD. By discussing confidential information in public areas.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "1c8e359b-04b5-4917-a85e-a1bc1c667472",
+                    "key": "b38bb42e-155c-431a-9829-90b1182cd951",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the minimum notice period required for terminating an employee's contract?\nHow do you respond?\nA. One week\nB. Two weeks\nC. Three weeks\nD. Four weeks\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "ab780ea9-ac0f-4a02-9665-b86f9ede3f39",
+                    "key": "e0e34e3a-b10a-4c7d-bc32-0d5a765b27e1",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is an employee entitled to a payment in lieu of notice?\nHow do you respond?\nA. Yes, always.\nB. Only if they have completed two years of continuous service with the employer.\nC. Only if the employer has breached a term of the contract.\nD. No, never.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "c9f73ce9-9f1d-4621-af45-4117e149abdf",
+                    "key": "8963a332-7cb6-4841-9036-c8be4f0f8e94",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can an employer terminate an employee's contract immediately without notice or payment in lieu of notice?\nHow do you respond?\nA. Yes, if the employee has been negligent in carrying out their duties.\nB. Yes, if the employee has breached a term of the contract.\nC. No, an employer cannot terminate an employee's contract immediately without notice or payment in lieu of notice.\nD. Yes, if the employee has committed an act of misconduct.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "3f479bf9-bda0-41db-acd5-04defa9abc5a",
+                    "key": "10161a54-9036-4ec2-9f15-97dc2ace795d",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Does an employee have moral rights in their work?\nHow do you respond?\nA. Yes, under Part IX of the Copyright Act 1968.\nB. No, moral rights do not apply to works created during employment.\nC. Only if the work is created outside of normal business hours.\nD. Only if the work is wholly unconnected with their employment.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "7cbcd0fa-628e-4020-af11-1425ad9b65da",
+                    "key": "de2cc6b1-9dc3-447c-aad6-0b69bb391021",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of clause 46 in the contract?\nHow do you respond?\nA. To ensure that the employee's moral rights are protected.\nB. To allow the employer to use the employee's intellectual property without permission.\nC. To require the employee to take reasonable care of their own health and safety.\nD. To enable the employer to terminate the employee's employment immediately without notice or payment in lieu of notice.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "28cd59f8-fc5c-4e77-a425-3e697e77d363",
+                    "key": "2968bccc-a0eb-4c33-be59-073fb60116ad",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the employer's responsibility regarding an employee's health and safety?\nHow do you respond?\nA. The employer must ensure the workplace is safe and healthy for all employees.\nB. The employer is not responsible for the employee's health and safety.\nC. The employer must provide personal protective equipment to all employees.\nD. The employer must provide health insurance to all employees.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "a839ae21-a4f7-4322-9480-57be85a5c885",
+                    "key": "893cebd6-f0df-466a-b947-c9b3fdc740b1",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much notice must an employee give to resign from their employment?\nHow do you respond?\nA. One week\nB. Two weeks\nC. Three weeks\nD. Four weeks\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "84b8b609-f640-4e8c-90ca-43c23decf281",
+                    "key": "1c2a518d-9440-40f4-ae6d-76299dda2a56",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can an employer pay an employee in lieu of notice for all or any part of the notice period?\nHow do you respond?\nA. Yes, but only if the employee has completed at least two years of continuous service.\nB. Yes, for any reason, as long as the employer pays the employee's full rate of pay for the hours they would have worked had their employment continued until the end of the notice period.\nC. No, an employer can only pay an employee in lieu of notice if the employee has committed an act of misconduct or breached a term of the contract.\nD. No, an employer cannot pay an employee in lieu of notice for any reason.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "6d7dab55-fd34-49b2-9c49-1b3b8226c0c1",
+                    "key": "81c086d7-fa79-4634-b9ba-06e892381f85",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the circumstances under which an employee's employment may be terminated?\nHow do you respond?\nA. If the employee breaches a term of the employment contract.\nB. If the employee is negligent in carrying out their duties.\nC. If the employee commits an act of misconduct.\nD. If the employee fails or refuses to obey any reasonable and authorized instruction regarding the performance of their duties.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^D.*"
+                        "REGEXP:.*(D|D\\.).*"
                     ],
                     "expected_output": "D"
                 },
                 {
-                    "key": "d0e01772-93d2-4e58-9176-076dcadd1cf1",
+                    "key": "dad0f457-46e5-4dff-8b13-676f00e9ff32",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Is an employee entitled to redundancy pay?\nHow do you respond?\nA. Yes, as per the terms of the employment contract.\nB. Yes, as per the applicable laws and regulations.\nC. No, redundancy pay is not mentioned in the employment contract.\nD. No, the employee must have completed a certain amount of time in service to be eligible for redundancy pay.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "18bca9cb-35c9-400c-9d39-2c39af5c4e79",
+                    "key": "5cf5c9d9-e707-46ed-b5f2-09bbe7db9075",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Can an employee be suspended with pay?\nHow do you respond?\nA. Yes, an employee can be suspended with pay.\nB. No, an employee cannot be suspended with pay.\nC. Only if the employee is on probation.\nD. Only if the employee has committed a crime.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "1fca64f4-5363-404e-95df-6bdd204b25d4",
+                    "key": "6fcac1b1-c06c-4f72-acd4-7b206ed351c0",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Does suspension break continuity of employment for statutory entitlements?\nHow do you respond?\nA. Yes, suspension breaks continuity of employment for statutory entitlements.\nB. No, suspension does not break continuity of employment for statutory entitlements.\nC. Only if the suspension is for a fixed period of time.\nD. Only if the employee is paid during the suspension period.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "f7e4caa3-714b-405f-af54-d1d9af897855",
+                    "key": "0165ea6d-85b3-4788-ad63-497240e6e615",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What happens if I fail to return property or equipment belonging to my employer after my employment ends?\nHow do you respond?\nA. My employer can deduct the equivalent value from any amount they owe me.\nB. My employer has no right to deduct any amount from my salary.\nC. My employer can sue me for theft.\nD. My employer can terminate my employment contract immediately.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "c4bfa705-987a-45e0-b9c7-1b1e5dc20b82",
+                    "key": "86f3d74a-a70b-45b6-a64c-5e4c7b925ff3",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are my Employer's policies?\nHow do you respond?\nA. The policies set out in Schedule 1 of this Contract.\nB. The policies that apply to my employment as set out in the Fair Work Legislation.\nC. The policies that my Employer has various policies which apply to my employment, as stated in paragraph 67.\nD. The policies that are in the public domain without breach by me of the terms of this Contract or any other person bound by similar confidentiality obligations.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^C.*"
+                        "REGEXP:.*(C|C\\.).*"
                     ],
                     "expected_output": "C"
                 },
                 {
-                    "key": "8969d375-0940-4951-8099-5e4904c8bf23",
+                    "key": "1f2ada76-d8f6-4c09-a794-660c3a7a348b",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is an Industrial Instrument?\nHow do you respond?\nA. A document signed and approved by the employer and employee that replaces the contract.\nB. A modern award, an award, an enterprise agreement, or any agreement made under such documents that applies to your employment.\nC. The policies that apply to your employment, which your employer may review, vary, add to, or withdraw in its absolute discretion.\nD. Any previous negotiations, understandings, representations, warranties, and commitments relating to or affecting your employment.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "bb990b07-1ce4-40cc-a4e6-de460273e279",
+                    "key": "5112d6d1-21b0-4ad1-ace9-28f999504c3c",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does an Industrial Instrument affect my employment contract?\nHow do you respond?\nA. It forms part of my employment contract and is binding on my Employer.\nB. It applies as a matter of law and does not form part of my employment contract.\nC. It is not binding on my Employer, but I must still comply with its obligations.\nD. It replaces my employment contract and takes priority over all previous agreements.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "b8c6f74f-1045-499f-b869-0a7384fcdee9",
+                    "key": "37fa7a1c-42f1-4f3b-91af-ac026bb5c1dc",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Commencement Date of this employment contract?\nHow do you respond?\nA. 27 May 2022 (correct answer)\nB. The date the contract is signed by both parties\nC. The date the employee starts working\nD. The date the employer issues the contract to the employee\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "39afbdb0-d00b-4c2b-9bd5-501b522003c0",
+                    "key": "92a66ea3-d9ed-41a5-8487-894b724af11e",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of Patents as referred to in the text?\nHow do you respond?\nA. Patents refer to patent applications, patented processes, and patented products as defined by the Patents Act 1990.\nB. Patents refer to trademarks, trade names, brand names, and common law trade marks as defined by the Trade Marks Act 1995.\nC. Patents refer to works as defined in Part IX of the Copyright Act 1968.\nD. Patents refer to superannuation contributions paid by employers on behalf of their employees as governed by the Superannuation Guarantee Legislation.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "ce9ebdb0-0424-4224-937f-4d6b1124e3c0",
+                    "key": "6671cbbe-22d8-4075-bd51-7fb8dcb954f8",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the Superannuation Guarantee Legislation?\nHow do you respond?\nA. Applicable Australian legislation governing the payment by employers of compulsory superannuation contributions on behalf of their employees.\nB. Legislation that defines the meaning of patents, patent applications, patented processes, and patented products within the meaning of the Patents Act 1990.\nC. Legislation that governs the use of trade names, brand names, common law trade marks, or trademarks within the meaning of the Trade Marks Act 1995.\nD. Legislation that defines a work as defined in Part IX of the Copyright Act 1968.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "9f7ece9a-9a91-4a0b-9ee5-765812fef2e9",
+                    "key": "460f81af-ecf2-4ffa-a93d-2c752abe7ebd",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of Trademarks as referred to in the text?\nHow do you respond?\nA. Any trade name, brand name, common law trade mark or trademark within the meaning of the Trade Marks Act 1995.\nB. A work as defined in Part IX of the Copyright Act 1968.\nC. Patents, patent applications, patented processes and patented products within the meaning of the Patents Act 1990.\nD. Applicable Australian legislation governing the payment by employers of compulsory superannuation contributions on behalf of their employees.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "58c45058-8efe-43f1-a5fe-23a088189279",
+                    "key": "8702a39b-bdaa-494d-bcff-8cdc33153f3f",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of Works as referred to in the text?\nHow do you respond?\nA. A work as defined in Part IX of the Copyright Act 1968.\nB. A trademark within the meaning of the Trade Marks Act 1995.\nC. A patented process or product within the meaning of the Patents Act 1990.\nD. A trade name or brand name within the meaning of the Trade Marks Act 1995.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "4af6b326-8cba-40d1-b8bf-0b0489435155",
+                    "key": "25091ce2-d0ef-4ea0-874b-44be6286bcfc",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the Schedule mentioned in the text?\nHow do you respond?\nA. To provide a detailed description of the job duties and responsibilities of the manager.\nB. To list the names and signatures of the employees who have agreed to the terms of the document.\nC. To outline the company's obligations under the Superannuation Guarantee Legislation.\nD. To specify the intellectual property rights that the company owns, including patents, trademarks, and copyrights.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "abe3278a-64df-44c5-8c11-bbee86d39d67",
+                    "key": "2d53e48f-f935-4c30-849b-2e8a9c5a12ef",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the sole director and sole company secretary of Purple Nike co Pty. Ltd.?\nHow do you respond?\nA. James Parker\nB. Marie Kyle\nC. The Employer\nD. The Director\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "3c4f6436-ee04-4145-9b6b-42d1333e466b",
+                    "key": "76375ee1-b534-4edd-9ed8-139fd661dc51",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who is the employee who signed the document?\nHow do you respond?\nA. James Parker\nB. Marie Kyle\nC. The Director\nD. The sole company secretary\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "9942f05e-4e1a-445b-a153-75e36d7e9de9",
+                    "key": "9526a8c8-b816-41d4-87fd-9b902a066b1b",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the job title of Marie Kyle?\nHow do you respond?\nA. Director\nB. Manager\nC. Employee\nD. Secretary\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^B.*"
+                        "REGEXP:.*(B|B\\.).*"
                     ],
                     "expected_output": "B"
                 },
                 {
-                    "key": "b37c758e-ca38-4e30-8ff6-770c7461c4c9",
+                    "key": "c3c1288e-fbb3-484a-a9dc-768555acc99d",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Who does Marie Kyle report to?\nHow do you respond?\nA. The Director or any other person your Employer nominates from time to time. (Correct)\nB. James Parker, sole director and sole company secretary.\nC. The Superannuation Guarantee Legislation.\nD. The Trade Marks Act 1995.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 },
                 {
-                    "key": "dd882c14-99d7-48a8-88ba-dd9ca4103cc6",
+                    "key": "9f61a0ae-0832-485f-9cd6-430f9cf07133",
                     "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the main duties and responsibilities of Marie Kyle's role?\nHow do you respond?\nA. Managing the team.\nB. Ensuring compliance with the Patents Act 1990 and Superannuation Guarantee Legislation.\nC. Overseeing the payment of compulsory superannuation contributions on behalf of employees.\nD. Managing the company's trademarks and copyrights.\n",
                     "categories": [
                         "question-answering"
                     ],
                     "constraints": [
-                        "REGEXP^A.*"
+                        "REGEXP:.*(A|A\\.).*"
                     ],
                     "expected_output": "A"
                 }

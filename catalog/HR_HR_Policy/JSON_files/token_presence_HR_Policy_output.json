@@ -1,1947 +1,2011 @@
 {
     "tests": [
         {
-            "key": "5e6bfb54-2d7c-4eb9-9098-9b6b6bdd3a22",
+            "key": "b9da28ca-bdd5-4ee1-9a71-ff39709bff0d",
             "documents": [
                 "HR_Policy.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "f0a3e879-ffb4-4f00-a683-1e125f170757",
+                    "key": "3a1d7b4c-2240-4713-97aa-6e944eb287c7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the probation period for staff appointed at Grade N1 to N3?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['3 months']"
+                        "3 months"
                     ],
-                    "expected_output": [
-                        "The probation period for staff appointed at Grade N1 to N3 is 3 months."
-                    ]
+                    "expected_output": "The probation period for staff appointed at Grade N1 to N3 is 3 months."
                 },
                 {
-                    "key": "19f68f1f-cc5e-468e-8ebf-020e87bc9977",
+                    "key": "a875b4f6-7e25-4c5a-8c59-bdf4d4377293",
                     "prompt": "Respond to the following question.\n\nQuestion: Can the probationary period be extended for staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, the probationary period may be extended upon recommendation by the Reporting Officer and Head of Department / Executive Secretary of Industrial Union."
-                    ]
+                    "expected_output": "Yes, the probationary period may be extended upon recommendation by the Reporting Officer and Head of Department / Executive Secretary of Industrial Union."
                 },
                 {
-                    "key": "42045629-1ed0-420b-94c4-d63815b74bd4",
+                    "key": "95fc2378-afd0-4af0-ae38-a23b60ba34f9",
                     "prompt": "Respond to the following question.\n\nQuestion: How many working hours are staff expected to work per day?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['8 am', '5.30 pm', '8.30 am', '6 pm', '9 am', '6.30 pm', '9.30 am', '7 pm']"
+                        "8 am",
+                        "5.30 pm",
+                        "8.30 am",
+                        "6 pm",
+                        "9 am",
+                        "6.30 pm",
+                        "9.30 am",
+                        "7 pm"
                     ],
-                    "expected_output": [
-                        "Staff can be expected to work any of the following working schedules, subject to operational needs and approval of the Heads of Departments / Executive Secretaries of Industrial Unions: Mondays \u2013 Fridays (a) 8 am to 5.30 pm, (b) 8.30 am to 6 pm, (c) 9 am to 6.30 pm, (d) 9.30 am to 7 pm."
-                    ]
+                    "expected_output": "Staff can be expected to work any of the following working schedules, subject to operational needs and approval of the Heads of Departments / Executive Secretaries of Industrial Unions: Mondays \u2013 Fridays (a) 8 am to 5.30 pm, (b) 8.30 am to 6 pm, (c) 9 am to 6.30 pm, (d) 9.30 am to 7 pm."
                 },
                 {
-                    "key": "ae06b3cb-f041-4698-b9c3-43f6f1e2b0fc",
+                    "key": "efc58c33-006f-4935-98e4-9aad43e81bf1",
                     "prompt": "Respond to the following question.\n\nQuestion: Is there a flexible hours of operations policy for staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, Heads of Departments / Executive Secretaries of Industrial Unions are given the option to exercise flexible hours of operations within their Departments/Unions, and the Human Resource Department must be kept informed of such operations."
-                    ]
+                    "expected_output": "Yes, Heads of Departments / Executive Secretaries of Industrial Unions are given the option to exercise flexible hours of operations within their Departments/Unions, and the Human Resource Department must be kept informed of such operations."
                 },
                 {
-                    "key": "ed2ad368-5e34-468d-a100-b3d8a308a195",
+                    "key": "254102f8-d28b-40f7-9073-fdc5cc076544",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff take unpaid leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff can take unpaid leave, subject to approval by the Head of Department / Executive Secretary of Industrial Union."
-                    ]
+                    "expected_output": "Yes, staff can take unpaid leave, subject to approval by the Head of Department / Executive Secretary of Industrial Union."
                 },
                 {
-                    "key": "b8a03bf6-60f6-4a8b-98e5-1f2bac0a8f2f",
+                    "key": "2eb4f02a-0b87-461a-8240-2f9f4993b65d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the probation period?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['assess', 'staff', 'performance', 'confirmation']"
+                        "assess",
+                        "staff",
+                        "performance",
+                        "confirmation"
                     ],
-                    "expected_output": [
-                        "The purpose of the probation period is to assess the staff\u2019s performance and determine their suitability for confirmation."
-                    ]
+                    "expected_output": "The purpose of the probation period is to assess the staff\u2019s performance and determine their suitability for confirmation."
                 },
                 {
-                    "key": "8d7e8397-cd56-4b17-98fb-632f8d856fe5",
+                    "key": "25a184be-4fdb-449a-bd1e-efea8eb59aaf",
                     "prompt": "Respond to the following question.\n\nQuestion: How many days of annual leave are staff entitled to?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['14 days']"
+                        "14 days"
                     ],
-                    "expected_output": [
-                        "Staff are entitled to 14 days of annual leave per year, and this can be taken at any time during the year, subject to approval by the Head of Department / Executive Secretary of Industrial Union."
-                    ]
+                    "expected_output": "Staff are entitled to 14 days of annual leave per year, and this can be taken at any time during the year, subject to approval by the Head of Department / Executive Secretary of Industrial Union."
                 },
                 {
-                    "key": "daa4a26a-5cff-4485-872e-046f6c7aa032",
+                    "key": "e3a0d2ab-a531-427e-b404-de9717ad5ca5",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff take leave to care for a sick family member?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff can take up to 3 days of family care leave per year to care for a sick family member, subject to approval by the Head of Department / Executive Secretary of Industrial Union."
-                    ]
+                    "expected_output": "Yes, staff can take up to 3 days of family care leave per year to care for a sick family member, subject to approval by the Head of Department / Executive Secretary of Industrial Union."
                 },
                 {
-                    "key": "1aee41b1-8104-4c08-a611-d49704a5c12a",
+                    "key": "aeae1caf-ba3d-4c4e-8a9a-5c2c509753c6",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the notice period for termination of employment?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['varies', \"staff's grade\", 'probation', 'confirmed', 'notice period']"
+                        "varies",
+                        "staff's grade",
+                        "probation",
+                        "confirmed",
+                        "notice period"
                     ],
-                    "expected_output": [
-                        "The notice period for termination of employment varies, depending on the staff's grade and whether they are on probation or confirmed in service. For staff on probation, the notice period is either party before the expiry of the probation period. For staff who are confirmed in service, the notice period is either party by giving written notice to the other party."
-                    ]
+                    "expected_output": "The notice period for termination of employment varies, depending on the staff's grade and whether they are on probation or confirmed in service. For staff on probation, the notice period is either party before the expiry of the probation period. For staff who are confirmed in service, the notice period is either party by giving written notice to the other party."
                 },
                 {
-                    "key": "0d0e5af8-fb01-4f41-b919-83ef583cf87f",
+                    "key": "e5b8b823-f7ac-4774-a1df-0fcff081d966",
                     "prompt": "Respond to the following question.\n\nQuestion: Is there a policy for staff to work from home?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff can work from home, subject to approval by the Head of Department / Executive Secretary of Industrial Union, and the staff must ensure that their work is not affected by the work-from-home arrangement."
-                    ]
+                    "expected_output": "Yes, staff can work from home, subject to approval by the Head of Department / Executive Secretary of Industrial Union, and the staff must ensure that their work is not affected by the work-from-home arrangement."
                 },
                 {
-                    "key": "9f21c199-9cb5-4ee5-90e2-aaa3ea06a0d4",
+                    "key": "1b2e8fa7-4d64-496c-9528-c7f98070c9b7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the notice period for staff who are on probation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['48 hours']"
+                        "48 hours"
                     ],
-                    "expected_output": [
-                        "The notice period for staff who are on probation is 48 hours before the expiry of the probation period."
-                    ]
+                    "expected_output": "The notice period for staff who are on probation is 48 hours before the expiry of the probation period."
                 },
                 {
-                    "key": "488f1d9e-93b5-482e-91ba-4b40bc323358",
+                    "key": "fb8a2ccd-2939-46f2-a112-5e6ac3852d08",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff substitute the notice requirement with a payment?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff can substitute the notice requirement by paying in-lieu of notice, a sum of money equal to the salary for the period not served."
-                    ]
+                    "expected_output": "Yes, staff can substitute the notice requirement by paying in-lieu of notice, a sum of money equal to the salary for the period not served."
                 },
                 {
-                    "key": "4f1681f0-8ffc-4eb8-bc7b-1ec4ecae56ad",
+                    "key": "c404a2fe-5d6e-4df1-9d65-e912ef5eb581",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the notice pay computed?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['monthly salary', 'number of working days', 'not served', 'month of resignation']"
+                        "monthly salary",
+                        "number of working days",
+                        "not served",
+                        "month of resignation"
                     ],
-                    "expected_output": [
-                        "The notice pay is computed by multiplying the number of working days not served in the month of resignation by the monthly salary."
-                    ]
+                    "expected_output": "The notice pay is computed by multiplying the number of working days not served in the month of resignation by the monthly salary."
                 },
                 {
-                    "key": "9a15a651-b07c-445d-b602-9ba77dd4d11a",
+                    "key": "0d2706c1-5275-486c-8fc5-993462a5f5f9",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff apply for annual leave during the period of notice?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff can apply for annual leave during the period of notice, subject to the approval of the Reporting Officer."
-                    ]
+                    "expected_output": "Yes, staff can apply for annual leave during the period of notice, subject to the approval of the Reporting Officer."
                 },
                 {
-                    "key": "5e6bc6f7-d107-41e8-8197-1d22f941ae6e",
+                    "key": "e3bc1a88-3c6e-4104-a7ce-d8c5194988a4",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if a staff member does not serve a full month due to resignation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['pro-rated', 'salary', 'last', 'month', 'service']"
+                        "pro-rated",
+                        "salary",
+                        "last",
+                        "month",
+                        "service"
                     ],
-                    "expected_output": [
-                        "If a staff member does not serve a full month due to resignation, they will receive a pro-rated salary for the last month of service."
-                    ]
+                    "expected_output": "If a staff member does not serve a full month due to resignation, they will receive a pro-rated salary for the last month of service."
                 },
                 {
-                    "key": "a4001567-f629-4b00-9146-37cc3e84c682",
+                    "key": "36f7991e-9c1d-4c06-bd69-6fe7afa25c09",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the formula for pro-rating salary?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "The formula for pro-rating salary is: No. of Working Days worked in Month of Resignation / Total No. of Working Days in Month of Resignation x Monthly Salary."
-                    ]
+                    "expected_output": "The formula for pro-rating salary is: No. of Working Days worked in Month of Resignation / Total No. of Working Days in Month of Resignation x Monthly Salary."
                 },
                 {
-                    "key": "afc3f019-1e9a-425b-8e81-34b0929c68cf",
+                    "key": "ed1f3cb5-59ac-4244-b613-6bf505c46e75",
                     "prompt": "Respond to the following question.\n\nQuestion: Are public holidays recognized by NTUC-ARU?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, NTUC-ARU recognizes all gazetted public holidays in Singapore."
-                    ]
+                    "expected_output": "Yes, NTUC-ARU recognizes all gazetted public holidays in Singapore."
                 },
                 {
-                    "key": "04dfa5c3-4067-4672-be82-f8bbc5eb3bca",
+                    "key": "3adcc6cc-d075-48df-8fc1-2a92e8cbc808",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if a public holiday falls on a staff member's rest day?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['paid holiday']"
+                        "paid holiday"
                     ],
-                    "expected_output": [
-                        "If a public holiday falls on a staff member's rest day, the following Monday shall be considered a paid holiday."
-                    ]
+                    "expected_output": "If a public holiday falls on a staff member's rest day, the following Monday shall be considered a paid holiday."
                 },
                 {
-                    "key": "e2b41a8b-ad54-4ea4-ad18-18412abacaa5",
+                    "key": "6726b0b1-0ec6-4f79-8486-0f81485ca56e",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff take lunch breaks outside the specified hours?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff may be asked to take lunch breaks outside the hours specified due to operational needs."
-                    ]
+                    "expected_output": "Yes, staff may be asked to take lunch breaks outside the hours specified due to operational needs."
                 },
                 {
-                    "key": "7e50c43f-dc43-4138-87dd-66316ddccfe9",
+                    "key": "b7274c99-f658-4c9f-8ebd-b92ff56cd9bb",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the attendance policy for staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Staff', 'report', 'duty', 'inform']"
+                        "Staff",
+                        "report",
+                        "duty",
+                        "inform"
                     ],
-                    "expected_output": [
-                        "Staff are expected to report for duty at the stipulated working hours. If a staff member is unable to report for duty, they should inform their Reporting Officer in advance."
-                    ]
+                    "expected_output": "Staff are expected to report for duty at the stipulated working hours. If a staff member is unable to report for duty, they should inform their Reporting Officer in advance."
                 },
                 {
-                    "key": "5ae90b0d-f0cd-423c-92d0-8e24fb352480",
+                    "key": "2b8dd172-4fdf-4982-9a58-5427fcae8f19",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the staff required to do at all times during their duties?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['diligently', 'best', 'ability', 'comply', 'instructions']"
+                        "diligently",
+                        "best",
+                        "ability",
+                        "comply",
+                        "instructions"
                     ],
-                    "expected_output": [
-                        "The staff are required to faithfully and diligently carry out their duties to the best of their ability and comply with the instructions of their Head of Department/Executive Secretary of Industrial Union, or any other person duly authorized to give oral or written instructions."
-                    ]
+                    "expected_output": "The staff are required to faithfully and diligently carry out their duties to the best of their ability and comply with the instructions of their Head of Department/Executive Secretary of Industrial Union, or any other person duly authorized to give oral or written instructions."
                 },
                 {
-                    "key": "314928a8-4f16-4758-b275-165f5ba0c217",
+                    "key": "a9e28764-28c0-418a-bc3b-daaea0aa5182",
                     "prompt": "Respond to the following question.\n\nQuestion: How should staff treat members of the public, union officials, and members during the course of their duties?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['courtesy', 'manner', 'dignity', 'prestige', 'status']"
+                        "courtesy",
+                        "manner",
+                        "dignity",
+                        "prestige",
+                        "status"
                     ],
-                    "expected_output": [
-                        "Staff should treat all members of the public, union officials, and members with courtesy and conduct themselves in a manner that keeps up with the dignity, prestige, and status of NTUC-ARU."
-                    ]
+                    "expected_output": "Staff should treat all members of the public, union officials, and members with courtesy and conduct themselves in a manner that keeps up with the dignity, prestige, and status of NTUC-ARU."
                 },
                 {
-                    "key": "5e50e2a5-c04d-4607-8ba8-e1fbf97256f6",
+                    "key": "194518d0-2a67-4575-91db-25d035fadd1d",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff consume liquor or alcoholic drinks during official working hours?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff shall not consume liquor or alcoholic drinks during official working hours."
-                    ]
+                    "expected_output": "No, a staff shall not consume liquor or alcoholic drinks during official working hours."
                 },
                 {
-                    "key": "dcf53327-ecbd-49d7-a2aa-24f3fa8d6863",
+                    "key": "9e4558e8-9437-4f1c-87d1-56c62ddbcd68",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the dress code for staff on Mondays to Thursdays?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['office attire', 'skirt suits', 'pant suits', 'blouse', 'skirt', 'dress', 'long/short sleeved shirts', 'tailored pants']"
+                        "office attire",
+                        "skirt suits",
+                        "pant suits",
+                        "blouse",
+                        "skirt",
+                        "dress",
+                        "long/short sleeved shirts",
+                        "tailored pants"
                     ],
-                    "expected_output": [
-                        "The dress code for staff on Mondays to Thursdays is office attire, which includes skirt suits, pant suits, blouse and skirt, or dress for female staff, and long/short sleeved shirts with tailored pants for male staff."
-                    ]
+                    "expected_output": "The dress code for staff on Mondays to Thursdays is office attire, which includes skirt suits, pant suits, blouse and skirt, or dress for female staff, and long/short sleeved shirts with tailored pants for male staff."
                 },
                 {
-                    "key": "b837e370-f429-4efd-8626-42e670df287e",
+                    "key": "204058b8-9707-4624-a819-3fe4643e38d8",
                     "prompt": "Respond to the following question.\n\nQuestion: Are staff allowed to \"dress down\" on Fridays?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff are allowed to \"dress down\" on Fridays, but the attire must be smart casual."
-                    ]
+                    "expected_output": "Yes, staff are allowed to \"dress down\" on Fridays, but the attire must be smart casual."
                 },
                 {
-                    "key": "cd7b0c89-4a3f-4d4a-b044-c62313979bf7",
+                    "key": "cc308583-1685-4f8b-9caa-510e69e74e7b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the policy on loss of or damage to property and vandalism?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['All', 'staff', 'shall', 'take', 'all', 'possible', 'care', 'to', 'prevent', 'loss', 'of', 'or', 'damage', 'to', 'any', 'property', 'of', 'NTUC-ARU', 'while', 'such', 'property', 'is', 'under', 'their', 'charge', 'or', 'control', 'If', 'such', 'property', 'is', 'lost', 'or', 'damaged', 'the', 'staff', 'is', 'required', 'to', 'restitute', '60%', 'of', 'the', 'net', 'book', 'value', 'of', 'the', 'said', 'property', 'unless', 'the', 'insurance', 'policy', 'taken', 'covers', 'such', 'loss', 'or', 'damage']"
+                        "All",
+                        "staff",
+                        "shall",
+                        "take",
+                        "all",
+                        "possible",
+                        "care",
+                        "to",
+                        "prevent",
+                        "loss",
+                        "of",
+                        "or",
+                        "damage",
+                        "to",
+                        "any",
+                        "property",
+                        "of",
+                        "NTUC-ARU",
+                        "while",
+                        "such",
+                        "property",
+                        "is",
+                        "under",
+                        "their",
+                        "charge",
+                        "or",
+                        "control",
+                        "If",
+                        "such",
+                        "property",
+                        "is",
+                        "lost",
+                        "or",
+                        "damaged",
+                        "the",
+                        "staff",
+                        "is",
+                        "required",
+                        "to",
+                        "restitute",
+                        "60%",
+                        "of",
+                        "the",
+                        "net",
+                        "book",
+                        "value",
+                        "of",
+                        "the",
+                        "said",
+                        "property",
+                        "unless",
+                        "the",
+                        "insurance",
+                        "policy",
+                        "taken",
+                        "covers",
+                        "such",
+                        "loss",
+                        "or",
+                        "damage"
                     ],
-                    "expected_output": [
-                        "All staff shall take all possible care to prevent loss of or damage to any property of NTUC-ARU while such property is under their charge or control. If such property is lost or damaged, the staff is required to restitute 60% of the net book value of the said property, unless the insurance policy taken covers such loss or damage."
-                    ]
+                    "expected_output": "All staff shall take all possible care to prevent loss of or damage to any property of NTUC-ARU while such property is under their charge or control. If such property is lost or damaged, the staff is required to restitute 60% of the net book value of the said property, unless the insurance policy taken covers such loss or damage."
                 },
                 {
-                    "key": "800ccadc-b3e6-480a-b2c8-2dae2add1df9",
+                    "key": "45403301-f45e-42e1-bc0d-36cac6ba66a5",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff attend meetings with external parties on a Friday in smart casual attire?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, if a staff has to attend meetings with external parties on a Friday, they have to revert to normal office attire (same as worn for Monday to Thursday)."
-                    ]
+                    "expected_output": "No, if a staff has to attend meetings with external parties on a Friday, they have to revert to normal office attire (same as worn for Monday to Thursday)."
                 },
                 {
-                    "key": "ac982826-1a61-4d68-87b0-59c0a1e1a6cd",
+                    "key": "0ff113ff-6244-4ae3-9acb-eca8d8da42c4",
                     "prompt": "Respond to the following question.\n\nQuestion: How should staff maintain their hairstyle for the office environment?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['suitable', 'unduly', 'unkempt', 'coloured', 'tinted', 'shades', 'brown']"
+                        "suitable",
+                        "unduly",
+                        "unkempt",
+                        "coloured",
+                        "tinted",
+                        "shades",
+                        "brown"
                     ],
-                    "expected_output": [
-                        "Staff have to maintain a suitable hairstyle for the office environment. Unduly long and unkempt hairstyles must be avoided, and coloured/tinted hair must only be in shades of brown."
-                    ]
+                    "expected_output": "Staff have to maintain a suitable hairstyle for the office environment. Unduly long and unkempt hairstyles must be avoided, and coloured/tinted hair must only be in shades of brown."
                 },
                 {
-                    "key": "40e7d070-b8a9-4dea-80a4-f56c1373ba92",
+                    "key": "8f8ac2f5-7f9b-41da-89c4-9f1396d12cdd",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if a staff member is financially embarrassed?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['financially', 'embarrassed', 'dismissal']"
+                        "financially",
+                        "embarrassed",
+                        "dismissal"
                     ],
-                    "expected_output": [
-                        "If a staff member is financially embarrassed, they may face disciplinary proceedings that could lead to their dismissal from service."
-                    ]
+                    "expected_output": "If a staff member is financially embarrassed, they may face disciplinary proceedings that could lead to their dismissal from service."
                 },
                 {
-                    "key": "14e69cbe-262a-45b5-a3c9-ff09f17010b6",
+                    "key": "3a6f1154-14b0-492e-82cb-d054f80a4398",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member accept gifts or presents from the public or companies?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member should firmly decline all offers of gifts or presents from the public or companies."
-                    ]
+                    "expected_output": "No, a staff member should firmly decline all offers of gifts or presents from the public or companies."
                 },
                 {
-                    "key": "18d30029-8512-4aa5-9cba-26c2de76c303",
+                    "key": "ed7a0895-8311-4ff8-9e44-9cdc43c55ffb",
                     "prompt": "Respond to the following question.\n\nQuestion: What should a staff member do if they receive a gift or present despite declining it?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['immediately', 'hand', 'it', 'over', 'their', 'Head', 'of', 'Department', 'or', 'Executive', 'Secretary', 'of', 'Industrial', 'Union']"
+                        "immediately",
+                        "hand",
+                        "it",
+                        "over",
+                        "their",
+                        "Head",
+                        "of",
+                        "Department",
+                        "or",
+                        "Executive",
+                        "Secretary",
+                        "of",
+                        "Industrial",
+                        "Union"
                     ],
-                    "expected_output": [
-                        "If a staff member receives a gift or present despite declining it, they should immediately hand it over to their Head of Department or Executive Secretary of Industrial Union."
-                    ]
+                    "expected_output": "If a staff member receives a gift or present despite declining it, they should immediately hand it over to their Head of Department or Executive Secretary of Industrial Union."
                 },
                 {
-                    "key": "b1235bee-55d4-46ca-b228-76733d221b9d",
+                    "key": "961ce33c-1391-4f60-8a05-5edf82d62517",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member engage in any trade or business privately?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member cannot engage in any trade or business privately without the approval of the NTUC-ARU management."
-                    ]
+                    "expected_output": "No, a staff member cannot engage in any trade or business privately without the approval of the NTUC-ARU management."
                 },
                 {
-                    "key": "5d654afc-da52-4c68-9d19-161b561da355",
+                    "key": "14725033-b234-46fc-8b17-5d5b3a045d8f",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member take part in the management or proceedings of any commercial or other undertakings?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member cannot take part in the management or proceedings of any commercial or other undertakings without the approval of the NTUC-ARU management."
-                    ]
+                    "expected_output": "No, a staff member cannot take part in the management or proceedings of any commercial or other undertakings without the approval of the NTUC-ARU management."
                 },
                 {
-                    "key": "01b4bef8-5796-42af-980d-94d653a77c9b",
+                    "key": "bab64c7f-f1f7-41ce-9ce6-410b8f62e594",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member undertake work for payment for any other employer?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member cannot undertake work for payment for any other employer without the approval of the NTUC-ARU management."
-                    ]
+                    "expected_output": "No, a staff member cannot undertake work for payment for any other employer without the approval of the NTUC-ARU management."
                 },
                 {
-                    "key": "87a0aff2-6077-4564-98cf-0893de3cf5e9",
+                    "key": "4d2b481c-c298-41cb-83f1-2b3bbe9b39f2",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member furnish any report or provide any consultation as an expert?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member cannot furnish any report or provide any consultation as an expert without the approval of the NTUC-ARU management."
-                    ]
+                    "expected_output": "No, a staff member cannot furnish any report or provide any consultation as an expert without the approval of the NTUC-ARU management."
                 },
                 {
-                    "key": "a8ba44ff-e909-47ff-b090-493c23b11abd",
+                    "key": "8b89c4b0-c98f-4f70-91c8-0b123c9e978e",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member act as an executor, administrator, or receiver?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member cannot act as an executor, administrator, or receiver without the approval of the NTUC-ARU management."
-                    ]
+                    "expected_output": "No, a staff member cannot act as an executor, administrator, or receiver without the approval of the NTUC-ARU management."
                 },
                 {
-                    "key": "e3c64975-416f-492d-9950-68b318785b67",
+                    "key": "0a9c738c-e338-41e0-b441-3c63c539c41c",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member deliver lectures in external organizations or commercial institutions?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member can deliver lectures in external organizations or commercial institutions with the approval of the NTUC-ARU management."
-                    ]
+                    "expected_output": "Yes, a staff member can deliver lectures in external organizations or commercial institutions with the approval of the NTUC-ARU management."
                 },
                 {
-                    "key": "935ba780-7533-4724-85a9-cff3346d2d76",
+                    "key": "3793bcde-bc6b-4923-a961-8b2ff55d0b81",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member be represented on the Boards/Companies as its Director/Member?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member cannot be represented on the Boards/Companies as its Director/Member without the approval of the NTUC-ARU management."
-                    ]
+                    "expected_output": "No, a staff member cannot be represented on the Boards/Companies as its Director/Member without the approval of the NTUC-ARU management."
                 },
                 {
-                    "key": "0209f379-f81c-4ede-a7f0-1bbb197b3746",
+                    "key": "759344c1-236b-4b1e-a701-9fbcd033297a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the procedure for seeking permission to engage in activities described in paragraph 10.1?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['submit', 'application', 'in', 'writing', 'Human', 'Resource', 'Department']"
+                        "submit",
+                        "application",
+                        "in",
+                        "writing",
+                        "Human",
+                        "Resource",
+                        "Department"
                     ],
-                    "expected_output": [
-                        "Staff must submit an application in writing to the Human Resource Department to seek permission."
-                    ]
+                    "expected_output": "Staff must submit an application in writing to the Human Resource Department to seek permission."
                 },
                 {
-                    "key": "87025f85-473c-4cc4-8053-ce624200e632",
+                    "key": "93c25af7-e60d-490a-9b81-3769b10bb8ad",
                     "prompt": "Respond to the following question.\n\nQuestion: Can NTUC-ARU withdraw permission granted to staff for performance of work described in paragraph 10.1?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, NTUC-ARU reserves the right to withdraw any permission granted to staff for the performance of such work."
-                    ]
+                    "expected_output": "Yes, NTUC-ARU reserves the right to withdraw any permission granted to staff for the performance of such work."
                 },
                 {
-                    "key": "7abae338-7425-49c7-8938-9dd1360e4f46",
+                    "key": "fee9e8a3-3bd8-4b16-a06b-f8a17244a69f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the grievance procedure for staff who have a grievance?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Staff', 'grievance', 'Reporting Officer', 'Head of Department', 'Executive Secretary', 'Industrial Union']"
+                        "Staff",
+                        "grievance",
+                        "Reporting Officer",
+                        "Head of Department",
+                        "Executive Secretary",
+                        "Industrial Union"
                     ],
-                    "expected_output": [
-                        "Staff with a grievance may lodge a complaint to their Reporting Officer, who shall report the matter to the Head of Department/Executive Secretary of Industrial Union."
-                    ]
+                    "expected_output": "Staff with a grievance may lodge a complaint to their Reporting Officer, who shall report the matter to the Head of Department/Executive Secretary of Industrial Union."
                 },
                 {
-                    "key": "da0fc30c-e01a-4a0f-954c-aac0460861f1",
+                    "key": "82af176c-cf77-46f7-8947-bd3e5598b994",
                     "prompt": "Respond to the following question.\n\nQuestion: How long does the Head of Department/Executive Secretary of Industrial Union have to give a decision on a grievance?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['3 working days']"
+                        "3 working days"
                     ],
-                    "expected_output": [
-                        "The Head of Department/Executive Secretary of Industrial Union shall give his decision on the matter within 3 working days from the date the complaint was referred to him."
-                    ]
+                    "expected_output": "The Head of Department/Executive Secretary of Industrial Union shall give his decision on the matter within 3 working days from the date the complaint was referred to him."
                 },
                 {
-                    "key": "1bcd8ac9-305f-4008-817d-223f9f88674d",
+                    "key": "d9e2fd56-aa56-4092-b2b2-fbee37122e5c",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if a staff feels aggrieved after the decision on their grievance?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['SUN', 'Human Resource Department']"
+                        "SUN",
+                        "Human Resource Department"
                     ],
-                    "expected_output": [
-                        "If the staff feels aggrieved, they may inform SUN who shall present the grievances to the Human Resource Department. SUN and Human Resource Department shall discuss and resolve the matter as soon as possible."
-                    ]
+                    "expected_output": "If the staff feels aggrieved, they may inform SUN who shall present the grievances to the Human Resource Department. SUN and Human Resource Department shall discuss and resolve the matter as soon as possible."
                 },
                 {
-                    "key": "d9b0f4e2-e6cf-4640-a3f1-8a714e1079ca",
+                    "key": "81d4bebd-2c21-4ea1-af0a-bb756f839660",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the procedure for dismissal of a staff member?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['When', 'NTUC-ARU', 'receives', 'report', 'staff', 'committed', 'offence', 'misconduct', 'terminal', 'service', 'dismissal', 'Human', 'Resource', 'Department', 'inform', 'staff', 'writing', 'offence', 'misconduct', 'alleged', 'them', 'give', 'working', 'days', 'exculpate', 'writing', 'denies', 'charge', 'submits', 'exculpatory', 'statement', 'satisfactory', 'Employee', 'Disciplinary', 'Committee', 'appointed', 'inquire', 'matter', 'submit', 'report']"
+                        "When",
+                        "NTUC-ARU",
+                        "receives",
+                        "report",
+                        "staff",
+                        "committed",
+                        "offence",
+                        "misconduct",
+                        "terminal",
+                        "service",
+                        "dismissal",
+                        "Human",
+                        "Resource",
+                        "Department",
+                        "inform",
+                        "staff",
+                        "writing",
+                        "offence",
+                        "misconduct",
+                        "alleged",
+                        "them",
+                        "give",
+                        "working",
+                        "days",
+                        "exculpate",
+                        "writing",
+                        "denies",
+                        "charge",
+                        "submits",
+                        "exculpatory",
+                        "statement",
+                        "satisfactory",
+                        "Employee",
+                        "Disciplinary",
+                        "Committee",
+                        "appointed",
+                        "inquire",
+                        "matter",
+                        "submit",
+                        "report"
                     ],
-                    "expected_output": [
-                        "When NTUC-ARU receives a report from the Investigation Officer or Head of Department/Executive Secretary of Industrial Union that a staff has committed an offence or misconduct which is serious enough to warrant termination of service or dismissal, the Human Resource Department shall inform the staff in writing of the offence or misconduct alleged against them and give them not less than 7 working days to exculpate themselves in writing. If the staff denies the charge(s) or submits an exculpatory statement which is not satisfactory, an Employee Disciplinary Committee shall be appointed to inquire into the matter and submit a report."
-                    ]
+                    "expected_output": "When NTUC-ARU receives a report from the Investigation Officer or Head of Department/Executive Secretary of Industrial Union that a staff has committed an offence or misconduct which is serious enough to warrant termination of service or dismissal, the Human Resource Department shall inform the staff in writing of the offence or misconduct alleged against them and give them not less than 7 working days to exculpate themselves in writing. If the staff denies the charge(s) or submits an exculpatory statement which is not satisfactory, an Employee Disciplinary Committee shall be appointed to inquire into the matter and submit a report."
                 },
                 {
-                    "key": "b5737050-ca9a-4903-87ce-a41c3994c12f",
+                    "key": "10f357b4-3444-4780-b1fd-a1e4b5c49993",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member be paid salary and monies for which they are eligible after dismissal?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member who is dismissed for misconduct, neglect of duty or on other disciplinary grounds may be paid salary and monies for which they are eligible up to the day immediately before the effective date of their dismissal after settling any debts/loans due to NTUC-ARU, leave pay which they have to refund to NTUC-ARU, Income Tax liability (for foreigners only), pro-rated flexible benefits claim, and all items belonging to NTUC-ARU have been returned and/or restituted."
-                    ]
+                    "expected_output": "Yes, a staff member who is dismissed for misconduct, neglect of duty or on other disciplinary grounds may be paid salary and monies for which they are eligible up to the day immediately before the effective date of their dismissal after settling any debts/loans due to NTUC-ARU, leave pay which they have to refund to NTUC-ARU, Income Tax liability (for foreigners only), pro-rated flexible benefits claim, and all items belonging to NTUC-ARU have been returned and/or restituted."
                 },
                 {
-                    "key": "d1754db7-a48e-4e95-bb7b-f39245466d7e",
+                    "key": "597e32be-7d66-4898-b110-c90f68068243",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the pay day for NTUC-ARU staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['23rd', 'month', 'salary', 'bank account']"
+                        "23rd",
+                        "month",
+                        "salary",
+                        "bank account"
                     ],
-                    "expected_output": [
-                        "NTUC-ARU staff will receive their full month salary on the 23rd of each month, which will be credited to their bank account specified by the staff."
-                    ]
+                    "expected_output": "NTUC-ARU staff will receive their full month salary on the 23rd of each month, which will be credited to their bank account specified by the staff."
                 },
                 {
-                    "key": "7dd1843a-45a7-47e8-a046-2580e825d40e",
+                    "key": "e4604ff4-04f8-438c-815c-22b81b109611",
                     "prompt": "Respond to the following question.\n\nQuestion: How can staff access their electronic pay slip?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Infoshare', 'My Applications', 'Employee Self Service']"
+                        "Infoshare",
+                        "My Applications",
+                        "Employee Self Service"
                     ],
-                    "expected_output": [
-                        "Staff can access their electronic pay slip at the Infoshare / My Applications / Employee Self Service."
-                    ]
+                    "expected_output": "Staff can access their electronic pay slip at the Infoshare / My Applications / Employee Self Service."
                 },
                 {
-                    "key": "5456f3f5-28f4-4c6d-8d70-504e0489a943",
+                    "key": "8022c188-3814-46f1-88cc-3cfc444568f9",
                     "prompt": "Respond to the following question.\n\nQuestion: Does NTUC-ARU adopt the Flexi-Wage system?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, NTUC-ARU adopts the Flexi-Wage system as recommended by the National Wages Council. Therefore, a Monthly Variable Component (MVC) of 10% (for staff at Grade N1 to N12) or 15% (for staff at Superscale Grades) is built into the monthly salary. During an economic downturn, NTUC-ARU may reduce the MVC partially or in full."
-                    ]
+                    "expected_output": "Yes, NTUC-ARU adopts the Flexi-Wage system as recommended by the National Wages Council. Therefore, a Monthly Variable Component (MVC) of 10% (for staff at Grade N1 to N12) or 15% (for staff at Superscale Grades) is built into the monthly salary. During an economic downturn, NTUC-ARU may reduce the MVC partially or in full."
                 },
                 {
-                    "key": "b5ec5a92-a730-4db9-8efd-f884cac8c882",
+                    "key": "1ac26900-a68c-4aea-a81f-45e789e8fc9f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the AWS bonus in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['1 month', 'gross salary', 'staff member', 'full year', 'remains', '31 January', 'following year']"
+                        "1 month",
+                        "gross salary",
+                        "staff member",
+                        "full year",
+                        "remains",
+                        "31 January",
+                        "following year"
                     ],
-                    "expected_output": [
-                        "The AWS bonus is 1 month's gross salary for a staff member who completes a full year's service and remains in service until 31 January of the following year."
-                    ]
+                    "expected_output": "The AWS bonus is 1 month's gross salary for a staff member who completes a full year's service and remains in service until 31 January of the following year."
                 },
                 {
-                    "key": "e451b52a-74a2-443e-86db-a2caef07d777",
+                    "key": "d2dbe70a-1496-430c-a216-0aff6b2201e4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the variable bonus in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['variable', 'bonus', 'prevailing', 'economic', 'situation', 'labor', 'conditions', 'market', 'quantum', 'varies']"
+                        "variable",
+                        "bonus",
+                        "prevailing",
+                        "economic",
+                        "situation",
+                        "labor",
+                        "conditions",
+                        "market",
+                        "quantum",
+                        "varies"
                     ],
-                    "expected_output": [
-                        "The variable bonus is a bonus paid to staff members based on the prevailing economic situation and labor conditions in the market. The quantum of the bonus varies from year to year."
-                    ]
+                    "expected_output": "The variable bonus is a bonus paid to staff members based on the prevailing economic situation and labor conditions in the market. The quantum of the bonus varies from year to year."
                 },
                 {
-                    "key": "35a24bcc-c513-44ae-abc7-69726d4b9c37",
+                    "key": "0a50e43b-864b-4ce4-bb68-cfb52fc7d135",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the mid-year bonus calculated in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['based', 'salary', 'pro-rated', 'staff', 'members', 'June', 'year']"
+                        "based",
+                        "salary",
+                        "pro-rated",
+                        "staff",
+                        "members",
+                        "June",
+                        "year"
                     ],
-                    "expected_output": [
-                        "The mid-year bonus is calculated based on the staff member's salary as at 30 June and is pro-rated for staff members with less than 6 months' continuous service from January to June of the year."
-                    ]
+                    "expected_output": "The mid-year bonus is calculated based on the staff member's salary as at 30 June and is pro-rated for staff members with less than 6 months' continuous service from January to June of the year."
                 },
                 {
-                    "key": "cd23dcb6-0d0a-4068-ac19-6fa7157225ca",
+                    "key": "e57695bb-6d17-4560-91be-54344e93bcfc",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the year-end bonus in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['year-end bonus', 'bonus', 'salary', 'December', 'January', 'December', 'year']"
+                        "year-end bonus",
+                        "bonus",
+                        "salary",
+                        "December",
+                        "January",
+                        "December",
+                        "year"
                     ],
-                    "expected_output": [
-                        "The year-end bonus is a bonus paid to staff members based on their salary as at 31 December and is pro-rated for staff members with less than 1 year's continuous service from January to December of the year."
-                    ]
+                    "expected_output": "The year-end bonus is a bonus paid to staff members based on their salary as at 31 December and is pro-rated for staff members with less than 1 year's continuous service from January to December of the year."
                 },
                 {
-                    "key": "2227344c-1050-4e86-af1c-03778bfea97c",
+                    "key": "77d14956-dbdf-4d44-b3b6-6090fafd206f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the performance bonus in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['performance bonus', 'bonus', 'January', 'December', 'March', 'preceding year']"
+                        "performance bonus",
+                        "bonus",
+                        "January",
+                        "December",
+                        "March",
+                        "preceding year"
                     ],
-                    "expected_output": [
-                        "The performance bonus is a bonus given to staff members to reward their contributions for the period of January to December each year. It is paid in March for work done in the preceding year."
-                    ]
+                    "expected_output": "The performance bonus is a bonus given to staff members to reward their contributions for the period of January to December each year. It is paid in March for work done in the preceding year."
                 },
                 {
-                    "key": "99e75f8d-829d-4fda-9dbf-273766ddfebe",
+                    "key": "ecf5503d-19a1-4fc2-8a44-33ccb3d9b013",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the performance bonus quantum determined in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['depends', 'performance', 'rating', 'salary', 'grade']"
+                        "depends",
+                        "performance",
+                        "rating",
+                        "salary",
+                        "grade"
                     ],
-                    "expected_output": [
-                        "The performance bonus quantum depends on the staff member's endorsed performance rating and salary grade."
-                    ]
+                    "expected_output": "The performance bonus quantum depends on the staff member's endorsed performance rating and salary grade."
                 },
                 {
-                    "key": "40241332-500a-4ef2-815f-bb305c3e6969",
+                    "key": "d1a4a3fc-55bd-49dd-a068-060296a4e26c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the variable increment in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['payment', 'staff', 'members', 'job', 'size', 'competency', 'market', 'value']"
+                        "payment",
+                        "staff",
+                        "members",
+                        "job",
+                        "size",
+                        "competency",
+                        "market",
+                        "value"
                     ],
-                    "expected_output": [
-                        "The variable increment is a payment made to staff members to recognize their job size, competency, and market value."
-                    ]
+                    "expected_output": "The variable increment is a payment made to staff members to recognize their job size, competency, and market value."
                 },
                 {
-                    "key": "08d73995-f250-4fff-8f7f-826cc8f76d04",
+                    "key": "334ca6ee-5935-4dec-8168-c16f54eb844b",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the variable increment quantum determined in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['depends', 'staff', \"member's\", 'endorsed', 'performance', 'rating', 'salary', 'grade']"
+                        "depends",
+                        "staff",
+                        "member's",
+                        "endorsed",
+                        "performance",
+                        "rating",
+                        "salary",
+                        "grade"
                     ],
-                    "expected_output": [
-                        "The variable increment quantum depends on the staff member's endorsed performance rating and salary grade."
-                    ]
+                    "expected_output": "The variable increment quantum depends on the staff member's endorsed performance rating and salary grade."
                 },
                 {
-                    "key": "9bc26e3c-f56c-4f72-8e13-21bf9a36d68c",
+                    "key": "e69a06e8-a7a0-4ee1-9ade-f0be7d76dd06",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the industrial relations allowance in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['monthly allowance', 'union-based IR work', 'irregular working hours', 'expenses', 'workers', 'union members', 'union leaders', 'management partners']"
+                        "monthly allowance",
+                        "union-based IR work",
+                        "irregular working hours",
+                        "expenses",
+                        "workers",
+                        "union members",
+                        "union leaders",
+                        "management partners"
                     ],
-                    "expected_output": [
-                        "The industrial relations allowance is a monthly allowance paid to staff members involved in union-based IR work to recognize the irregular working hours that IR work entails and to compensate for expenses incurred to build relationships with workers, union members, union leaders, and management partners."
-                    ]
+                    "expected_output": "The industrial relations allowance is a monthly allowance paid to staff members involved in union-based IR work to recognize the irregular working hours that IR work entails and to compensate for expenses incurred to build relationships with workers, union members, union leaders, and management partners."
                 },
                 {
-                    "key": "750cea57-9459-44e1-b643-7678f2f0f790",
+                    "key": "94092f82-55a4-46b8-b6c6-92c61d22aaa6",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the industrial relations allowance quantum determined in the given text?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['depends', 'salary', 'grade', 'time', 'involvement', 'union-based', 'IR', 'work', 'half', 'monthly', 'allowance', 'full']"
+                        "depends",
+                        "salary",
+                        "grade",
+                        "time",
+                        "involvement",
+                        "union-based",
+                        "IR",
+                        "work",
+                        "half",
+                        "monthly",
+                        "allowance",
+                        "full"
                     ],
-                    "expected_output": [
-                        "The industrial relations allowance quantum depends on the staff member's salary grade and time involvement in union-based IR work. Staff members who spend less than 50% of their time in union-based IR work are eligible for half the monthly allowance, while those who spend 50% or more of their time in union-based IR work are eligible for the full allowance."
-                    ]
+                    "expected_output": "The industrial relations allowance quantum depends on the staff member's salary grade and time involvement in union-based IR work. Staff members who spend less than 50% of their time in union-based IR work are eligible for half the monthly allowance, while those who spend 50% or more of their time in union-based IR work are eligible for the full allowance."
                 },
                 {
-                    "key": "dbc5545b-c6fe-4c8d-9bc4-65b10d244243",
+                    "key": "d5df6c24-b8af-4b8b-baf3-9c9508828f89",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the monthly IR allowance for a staff member on Grade N5?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$280']"
+                        "$280"
                     ],
-                    "expected_output": [
-                        "The monthly IR allowance for a staff member on Grade N5 is $280."
-                    ]
+                    "expected_output": "The monthly IR allowance for a staff member on Grade N5 is $280."
                 },
                 {
-                    "key": "d0979a81-3ed6-4ddf-9ea1-7313747439e5",
+                    "key": "33cd1493-40d9-4d05-9ec0-5ddd49d4d7b8",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the IR allowance pro-rated for a staff member who relinquishes their appointment during the month?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['pro-rated', 'number', 'working', 'days', 'served', 'month']"
+                        "pro-rated",
+                        "number",
+                        "working",
+                        "days",
+                        "served",
+                        "month"
                     ],
-                    "expected_output": [
-                        "The IR allowance will be pro-rated according to the number of working days served in that month."
-                    ]
+                    "expected_output": "The IR allowance will be pro-rated according to the number of working days served in that month."
                 },
                 {
-                    "key": "6b306f1e-6d06-44e0-8e6f-f3c5a26356f3",
+                    "key": "8278799f-8855-4328-8860-3e8c5f1dd42c",
                     "prompt": "Respond to the following question.\n\nQuestion: Will a staff member who is on probation be eligible for IR allowance?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member who is on probation is not eligible for IR allowance."
-                    ]
+                    "expected_output": "No, a staff member who is on probation is not eligible for IR allowance."
                 },
                 {
-                    "key": "95974967-3db7-4083-a6a7-87a08993bb00",
+                    "key": "12d6aff5-d2e2-4a2b-8f9e-bcf23834330b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the rate of pay for a staff member who works more than 44 hours in a week on a Sunday (Rest Day)?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "[\"2 days' basic rate of pay\"]"
+                        "2 days' basic rate of pay"
                     ],
-                    "expected_output": [
-                        "The rate of pay for a staff member who works more than 44 hours in a week on a Sunday (Rest Day) is 2 days' basic rate of pay."
-                    ]
+                    "expected_output": "The rate of pay for a staff member who works more than 44 hours in a week on a Sunday (Rest Day) is 2 days' basic rate of pay."
                 },
                 {
-                    "key": "6894ce38-d947-4a82-bfc0-e3ec9e7108fc",
+                    "key": "8650d252-c398-44e4-95db-e6fd592cc51d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum amount of overtime pay that a staff member can receive in a week?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['2 days', '1.5', '8.5']"
+                        "2 days",
+                        "1.5",
+                        "8.5"
                     ],
-                    "expected_output": [
-                        "The maximum amount of overtime pay that a staff member can receive in a week is 2 days' basic rate of pay, plus 1.5 times the hourly rate of pay for every hour above 8.5 hours."
-                    ]
+                    "expected_output": "The maximum amount of overtime pay that a staff member can receive in a week is 2 days' basic rate of pay, plus 1.5 times the hourly rate of pay for every hour above 8.5 hours."
                 },
                 {
-                    "key": "dde749f1-1770-4eb4-8d0a-326ffe95baa0",
+                    "key": "dcd70c9a-1dfc-4ed3-b02a-22d1b3d3daf1",
                     "prompt": "Respond to the following question.\n\nQuestion: Is prior approval required for overtime work?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, prior approval from the respective Head of Department / Executive Secretary of Industrial Union is required for overtime work."
-                    ]
+                    "expected_output": "Yes, prior approval from the respective Head of Department / Executive Secretary of Industrial Union is required for overtime work."
                 },
                 {
-                    "key": "b1eb5557-d0f8-4732-ba64-201627285b41",
+                    "key": "f812493a-51b8-4b86-9cde-6826d70567d0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the current salary grade for a staff member on Grade N10?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$570']"
+                        "$570"
                     ],
-                    "expected_output": [
-                        "The current salary grade for a staff member on Grade N10 is $570."
-                    ]
+                    "expected_output": "The current salary grade for a staff member on Grade N10 is $570."
                 },
                 {
-                    "key": "89b5b27d-1fd6-42d9-836e-362e96f8108a",
+                    "key": "24dc0eb9-6fd4-4d13-96fd-2919fa2acacb",
                     "prompt": "Respond to the following question.\n\nQuestion: What benefits are provided to a staff member under the NTUC-ARU's MediCare Plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Inpatient', 'Outpatient', 'Care']"
+                        "Inpatient",
+                        "Outpatient",
+                        "Care"
                     ],
-                    "expected_output": [
-                        "The NTUC-ARU's MediCare Plan provides three components of benefits: Inpatient (Hospitalisation) Care, Outpatient Specialist Care, and Outpatient Primary Care."
-                    ]
+                    "expected_output": "The NTUC-ARU's MediCare Plan provides three components of benefits: Inpatient (Hospitalisation) Care, Outpatient Specialist Care, and Outpatient Primary Care."
                 },
                 {
-                    "key": "a86f66a6-b8bd-4cb9-bcd3-f67d77ce680a",
+                    "key": "9f949bcf-9ba2-4781-870a-6e1ed7aad911",
                     "prompt": "Respond to the following question.\n\nQuestion: Is the Enhanced Incomeshield (EIS) plan mandatory for all CPF account holders?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, the Enhanced Incomeshield (EIS) plan is not mandatory for all CPF account holders."
-                    ]
+                    "expected_output": "No, the Enhanced Incomeshield (EIS) plan is not mandatory for all CPF account holders."
                 },
                 {
-                    "key": "88c66dec-0cbb-4ea7-aa90-bee6b00848c6",
+                    "key": "6f7f8af0-ede4-411a-8fbc-fce20349b177",
                     "prompt": "Respond to the following question.\n\nQuestion: How much is the annual premium for the EIS plan for a staff member on Grade N6?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$95']"
+                        "$95"
                     ],
-                    "expected_output": [
-                        "The annual premium for the EIS plan for a staff member on Grade N6 is $95."
-                    ]
+                    "expected_output": "The annual premium for the EIS plan for a staff member on Grade N6 is $95."
                 },
                 {
-                    "key": "2e7b4953-bab8-4a1c-bec0-fcc2fbcd9b49",
+                    "key": "20d0ade6-1fde-4004-8b0b-326e248820f9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the annual premium for the Enhanced Incomeshield (EIS) plan for a staff member under 31 years old?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$95']"
+                        "$95"
                     ],
-                    "expected_output": [
-                        "The annual premium for the EIS plan for a staff member under 31 years old is $95."
-                    ]
+                    "expected_output": "The annual premium for the EIS plan for a staff member under 31 years old is $95."
                 },
                 {
-                    "key": "81008ce7-d98f-4776-a908-6b85dcbb4bb1",
+                    "key": "c4258f02-e1a9-4b0d-9569-61a0db697388",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the annual premium for the Incomeshield Assist Rider (IAR) plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$100']"
+                        "$100"
                     ],
-                    "expected_output": [
-                        "The annual premium for the IAR plan is $100."
-                    ]
+                    "expected_output": "The annual premium for the IAR plan is $100."
                 },
                 {
-                    "key": "20ee25ac-e36e-4f5e-8223-6d27ce2ccfbc",
+                    "key": "26b98107-583b-4126-ac7b-a4fa6184a372",
                     "prompt": "Respond to the following question.\n\nQuestion: How much does NTUC-ARU contribute to a staff member's Medisave account for the EIS plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$6', 'per month']"
+                        "$6",
+                        "per month"
                     ],
-                    "expected_output": [
-                        "NTUC-ARU contributes $6 per month to a staff member's Medisave account for the EIS plan."
-                    ]
+                    "expected_output": "NTUC-ARU contributes $6 per month to a staff member's Medisave account for the EIS plan."
                 },
                 {
-                    "key": "b9770f54-fbf2-457c-bd82-4d9db2253c98",
+                    "key": "d3c785bf-d13d-4467-9563-5114be0fbc0b",
                     "prompt": "Respond to the following question.\n\nQuestion: How much does NTUC-ARU contribute to a staff member's salary account for the IAR plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$8.34']"
+                        "$8.34"
                     ],
-                    "expected_output": [
-                        "NTUC-ARU contributes $8.34 per month to a staff member's salary account for the IAR plan."
-                    ]
+                    "expected_output": "NTUC-ARU contributes $8.34 per month to a staff member's salary account for the IAR plan."
                 },
                 {
-                    "key": "65b6612c-d76f-48d3-93cc-ec4300a65550",
+                    "key": "75b9e209-ec95-490c-930e-610fddbfaaad",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum amount that NTUC-ARU will contribute to a staff member's Medisave and salary accounts in a year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$170']"
+                        "$170"
                     ],
-                    "expected_output": [
-                        "NTUC-ARU will contribute up to $170 to a staff member's Medisave and salary accounts in a year."
-                    ]
+                    "expected_output": "NTUC-ARU will contribute up to $170 to a staff member's Medisave and salary accounts in a year."
                 },
                 {
-                    "key": "d94d54ba-044a-4e37-a1b4-c23efcf94141",
+                    "key": "4179b25a-4d1b-4b6a-ab06-efcca28e17a7",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if the premium for the EIS or IAR plan increases?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['increases', 'staff member']"
+                        "increases",
+                        "staff member"
                     ],
-                    "expected_output": [
-                        "If the premium for the EIS or IAR plan increases, NTUC-ARU will bear the increase up to 5% per year cumulatively. Any increases beyond the 5% cumulative increase will be co-paid equally between NTUC-ARU and the staff member."
-                    ]
+                    "expected_output": "If the premium for the EIS or IAR plan increases, NTUC-ARU will bear the increase up to 5% per year cumulatively. Any increases beyond the 5% cumulative increase will be co-paid equally between NTUC-ARU and the staff member."
                 },
                 {
-                    "key": "12eddd80-a039-4881-b955-d26c2483f947",
+                    "key": "17dc94c6-3454-4e04-ab24-96ba03db7ecb",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member downgrade from the EIS or IAR plan to a lower plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member can downgrade from the EIS or IAR plan to a lower plan, such as the Basic or Enhanced C plan. NTUC-ARU will contribute to the staff member's Medisave and salary accounts based on the plan that commensurates with their salary grade."
-                    ]
+                    "expected_output": "Yes, a staff member can downgrade from the EIS or IAR plan to a lower plan, such as the Basic or Enhanced C plan. NTUC-ARU will contribute to the staff member's Medisave and salary accounts based on the plan that commensurates with their salary grade."
                 },
                 {
-                    "key": "a2c8ee5a-9ef6-43a7-9840-3b1fd789b5f0",
+                    "key": "561d6478-662a-4a67-b1df-47fbe66ca093",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member upgrade from the EIS or IAR plan to a higher plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member can upgrade from the EIS or IAR plan to a higher plan, such as the Preferred plan. NTUC-ARU will contribute to the staff member's Medisave and salary accounts based on the plan that commensurates with their salary grade."
-                    ]
+                    "expected_output": "Yes, a staff member can upgrade from the EIS or IAR plan to a higher plan, such as the Preferred plan. NTUC-ARU will contribute to the staff member's Medisave and salary accounts based on the plan that commensurates with their salary grade."
                 },
                 {
-                    "key": "db40b192-b1aa-4cf2-99f7-5c9d77fa738e",
+                    "key": "bafa97c2-fbff-41ba-9705-a19950e3d7c9",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if a staff member chooses to continue with their existing medical insurance plan with another insurer?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['NTUC-ARU', 'Medisave', 'salary account', 'EIS', 'Assist Rider']"
+                        "NTUC-ARU",
+                        "Medisave",
+                        "salary account",
+                        "EIS",
+                        "Assist Rider"
                     ],
-                    "expected_output": [
-                        "If a staff member chooses to continue with their existing medical insurance plan with another insurer, NTUC-ARU will make a monthly contribution to the staff member's Medisave and/or salary account based on what would otherwise be paid for them under the respective EIS and Assist Rider plans."
-                    ]
+                    "expected_output": "If a staff member chooses to continue with their existing medical insurance plan with another insurer, NTUC-ARU will make a monthly contribution to the staff member's Medisave and/or salary account based on what would otherwise be paid for them under the respective EIS and Assist Rider plans."
                 },
                 {
-                    "key": "e39956f8-78ce-4638-beec-663b115a87bd",
+                    "key": "c3a14e14-9d05-4008-acaa-cd6c07f65675",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the staff member bear the excess of the annual premium if they choose to continue with their existing medical insurance plan with another insurer?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['bear', 'excess', 'annual', 'premium', 'Medisave', 'cost', 'savings', 'salary']"
+                        "bear",
+                        "excess",
+                        "annual",
+                        "premium",
+                        "Medisave",
+                        "cost",
+                        "savings",
+                        "salary"
                     ],
-                    "expected_output": [
-                        "The staff member will have to bear the excess of the annual premium themselves via their Medisave account, being the difference in cost between the EIS Advantage Plan and their existing medical insurance plan. However, the staff member will enjoy a cost savings via their salary account, being the difference in cost between the IAR Advantage Plan and their existing medical insurance plan."
-                    ]
+                    "expected_output": "The staff member will have to bear the excess of the annual premium themselves via their Medisave account, being the difference in cost between the EIS Advantage Plan and their existing medical insurance plan. However, the staff member will enjoy a cost savings via their salary account, being the difference in cost between the IAR Advantage Plan and their existing medical insurance plan."
                 },
                 {
-                    "key": "b45390bd-1629-4c85-a6dd-67ddcf3622da",
+                    "key": "7bc9bcec-67ab-46e1-8ce0-3800515b894d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum amount that NTUC-ARU will co-pay for health screening for staff under the age of 40?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Up', '$300']"
+                        "Up",
+                        "$300"
                     ],
-                    "expected_output": [
-                        "Up to $300."
-                    ]
+                    "expected_output": "Up to $300."
                 },
                 {
-                    "key": "38ea1f89-678e-4494-b80a-e6ae89e5ec9a",
+                    "key": "0b8344e7-6de5-44de-833b-a740b2443c2a",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff claim the balance of the health screening cost that exceeds the cap reimbursed by NTUC-ARU from their Flexible Benefit?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes."
-                    ]
+                    "expected_output": "Yes."
                 },
                 {
-                    "key": "c1776545-1a15-480b-8dd7-aaad091a7247",
+                    "key": "cef6360c-c3f6-4425-afbf-88dc4f16d9b2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the Group Hospital & Surgical Plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['hospitalized', 'surgery']"
+                        "hospitalized",
+                        "surgery"
                     ],
-                    "expected_output": [
-                        "The Group Hospital & Surgical Plan provides coverage for staff who are hospitalized or undergo surgery."
-                    ]
+                    "expected_output": "The Group Hospital & Surgical Plan provides coverage for staff who are hospitalized or undergo surgery."
                 },
                 {
-                    "key": "dae9ef0a-5963-4fe5-97dd-5e7922dbf684",
+                    "key": "b1bbcba1-9f78-41e2-a682-a070549caf72",
                     "prompt": "Respond to the following question.\n\nQuestion: How much is the premium for the Group Hospital & Surgical Plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Fully', 'paid']"
+                        "Fully",
+                        "paid"
                     ],
-                    "expected_output": [
-                        "The premium for the Group Hospital & Surgical Plan is fully paid by NTUC-ARU."
-                    ]
+                    "expected_output": "The premium for the Group Hospital & Surgical Plan is fully paid by NTUC-ARU."
                 },
                 {
-                    "key": "827b4363-f753-4309-884f-f3b5eeba73af",
+                    "key": "82dce361-f9f3-42fa-becf-d0b3dde6efd4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the i-Medicare (Specialist) plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['outpatient', 'specialist', 'treatment']"
+                        "outpatient",
+                        "specialist",
+                        "treatment"
                     ],
-                    "expected_output": [
-                        "The i-Medicare (Specialist) plan is a plan that provides coverage for outpatient specialist treatment."
-                    ]
+                    "expected_output": "The i-Medicare (Specialist) plan is a plan that provides coverage for outpatient specialist treatment."
                 },
                 {
-                    "key": "2f894f08-8120-49ee-a8e9-f4421847da3d",
+                    "key": "337702e2-8f79-4143-8139-e6f4ced61e5b",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff refer to any polyclinic or registered General Practitioner (GP) to a panel of specialists approved by NTUC Income?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes."
-                    ]
+                    "expected_output": "Yes."
                 },
                 {
-                    "key": "27aca3d3-a3e1-4cd1-93d5-ec33eeebf816",
+                    "key": "350de21c-27e0-4f8e-a01d-68a1bbf1ac72",
                     "prompt": "Respond to the following question.\n\nQuestion: How much is the co-payment for outpatient specialist treatment under the i-Medicare (Specialist) plan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$15']"
+                        "$15"
                     ],
-                    "expected_output": [
-                        "$15 per visit."
-                    ]
+                    "expected_output": "$15 per visit."
                 },
                 {
-                    "key": "3f4c02df-7c02-4a10-b9bf-9b268526c353",
+                    "key": "fe05a1d1-0ea5-488e-b6d4-3c113bbcf60d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum limit for outpatient treatment under the Flexible Benefit per calendar year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$850', '$950']"
+                        "$850",
+                        "$950"
                     ],
-                    "expected_output": [
-                        "The maximum limit for outpatient treatment under the Flexible Benefit per calendar year is $850 for staff with less than 10 years of service and $950 for staff with 10 years of service or more."
-                    ]
+                    "expected_output": "The maximum limit for outpatient treatment under the Flexible Benefit per calendar year is $850 for staff with less than 10 years of service and $950 for staff with 10 years of service or more."
                 },
                 {
-                    "key": "dc608a59-f443-41ff-9aae-d91503184a10",
+                    "key": "2571a9bf-d2e8-4ab4-b756-cd8ba090fcf9",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff use their Flexible Benefit for dental care?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff can use their Flexible Benefit for dental care."
-                    ]
+                    "expected_output": "Yes, staff can use their Flexible Benefit for dental care."
                 },
                 {
-                    "key": "25d5685f-9236-41db-acfd-005cd7d129c3",
+                    "key": "4e789489-ede0-401c-b72c-0afffdc56796",
                     "prompt": "Respond to the following question.\n\nQuestion: How much is the subscription fee for SUN union membership?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$850', '$950']"
+                        "$850",
+                        "$950"
                     ],
-                    "expected_output": [
-                        "The subscription fee for SUN union membership is $850 for staff with less than 10 years of service and $950 for staff with 10 years of service or more."
-                    ]
+                    "expected_output": "The subscription fee for SUN union membership is $850 for staff with less than 10 years of service and $950 for staff with 10 years of service or more."
                 },
                 {
-                    "key": "89fb86df-7c8b-4070-9cdd-813e6f9dcdeb",
+                    "key": "365bc170-320f-4faf-af7a-157d0e794b00",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum amount of flexible benefit that a staff member can receive per calendar year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$950']"
+                        "$950"
                     ],
-                    "expected_output": [
-                        "$950 (for staff members who have completed 10 years of service or more)."
-                    ]
+                    "expected_output": "$950 (for staff members who have completed 10 years of service or more)."
                 },
                 {
-                    "key": "5b7ddd47-a142-4ed4-b547-f23bb2460301",
+                    "key": "2b7dccc9-0f2f-4660-9184-c031ab1d8267",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the flexible benefit amount pro-rated for staff members who join or leave the employment of NTUC-ARU during the year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['pro-rated', 'calendar year']"
+                        "pro-rated",
+                        "calendar year"
                     ],
-                    "expected_output": [
-                        "The flexible benefit amount is pro-rated according to the number of days served in a calendar year."
-                    ]
+                    "expected_output": "The flexible benefit amount is pro-rated according to the number of days served in a calendar year."
                 },
                 {
-                    "key": "683de18e-330a-4602-a1e4-3ba6afe4b601",
+                    "key": "6bd52d7d-5eea-44ef-930d-b6355c246127",
                     "prompt": "Respond to the following question.\n\nQuestion: How can staff members make claims for their flexible benefits?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Staff', 'claims', 'HRIS', 'receipts', 'submission']"
+                        "Staff",
+                        "claims",
+                        "HRIS",
+                        "receipts",
+                        "submission"
                     ],
-                    "expected_output": [
-                        "Staff members can make claims through the HRIS and must retain the original receipts for 6 months from the date of electronic submission."
-                    ]
+                    "expected_output": "Staff members can make claims through the HRIS and must retain the original receipts for 6 months from the date of electronic submission."
                 },
                 {
-                    "key": "88c089e3-f76f-48c8-a559-ca724a7c6259",
+                    "key": "84a3b912-6268-4c03-8761-0fcd53425133",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens to any unused flexible benefit amount by 31 December of the year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Any', 'unused', 'flexible', 'benefit', 'amount', 'will', 'be', 'transferred', 'to', 'the', 'staff', \"member's\", 'Medisave', 'account']"
+                        "Any",
+                        "unused",
+                        "flexible",
+                        "benefit",
+                        "amount",
+                        "will",
+                        "be",
+                        "transferred",
+                        "to",
+                        "the",
+                        "staff",
+                        "member's",
+                        "Medisave",
+                        "account"
                     ],
-                    "expected_output": [
-                        "Any unused flexible benefit amount will be transferred to the staff member's Medisave account."
-                    ]
+                    "expected_output": "Any unused flexible benefit amount will be transferred to the staff member's Medisave account."
                 },
                 {
-                    "key": "99b3404a-b82a-4e43-bff3-67cc8db43a93",
+                    "key": "4a3a885a-3d1e-43f9-8b5d-f39f9f5ae242",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the rate of transport reimbursement for staff members who use their own cars for official journeys?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['60', 'cents', 'per', 'km']"
+                        "60",
+                        "cents",
+                        "per",
+                        "km"
                     ],
-                    "expected_output": [
-                        "60 cents per km."
-                    ]
+                    "expected_output": "60 cents per km."
                 },
                 {
-                    "key": "db3ab368-e907-4788-9bee-aa0a92182a02",
+                    "key": "47767767-7dc4-4b19-9975-8658e792e887",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff members claim transport reimbursement for traveling to places that are inaccessible by bus or MRT from their homes and vice versa for official purposes?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff members can claim transport reimbursement for such travel, and they will be reimbursed the taxi fare after deducting the usual daily transport expenses incurred between home and office."
-                    ]
+                    "expected_output": "Yes, staff members can claim transport reimbursement for such travel, and they will be reimbursed the taxi fare after deducting the usual daily transport expenses incurred between home and office."
                 },
                 {
-                    "key": "bdfc3216-26fe-431b-94e1-77e0ca38d7f7",
+                    "key": "ad47ed69-c9c9-4220-9a5e-524c433f8cc6",
                     "prompt": "Respond to the following question.\n\nQuestion: Is there a fixed transport reimbursement amount for staff members who travel frequently in the course of their work?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, there is a fixed transport reimbursement amount of $275 per month for staff members who are recommended by the Head of Department/Executive Secretary of Industrial Union and are required to travel frequently in the course of their work."
-                    ]
+                    "expected_output": "Yes, there is a fixed transport reimbursement amount of $275 per month for staff members who are recommended by the Head of Department/Executive Secretary of Industrial Union and are required to travel frequently in the course of their work."
                 },
                 {
-                    "key": "4a12f4de-2881-4aa2-8250-fe8aa0180481",
+                    "key": "ec51ca29-5f0d-44f3-8e44-0fcbacd00ee2",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the fixed transport reimbursement amount pro-rated for staff members who are away from work for more than 14 consecutive working days?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['pro-rated', 'staff', 'members', 'work', 'days']"
+                        "pro-rated",
+                        "staff",
+                        "members",
+                        "work",
+                        "days"
                     ],
-                    "expected_output": [
-                        "The fixed transport reimbursement amount will be pro-rated for staff members who are away from work for more than 14 consecutive working days."
-                    ]
+                    "expected_output": "The fixed transport reimbursement amount will be pro-rated for staff members who are away from work for more than 14 consecutive working days."
                 },
                 {
-                    "key": "a4e08357-e2e5-4a7b-afb3-04a3bc052f69",
+                    "key": "10fd8048-1a7f-4802-bf0d-ab13e7cbd943",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff members who are in receipt of handphone allowance use their handphones for personal purposes?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, staff members who are in receipt of handphone allowance must remain contactable at all times and the handphone number must be posted in the NTUC Directory and be contactable by all persons."
-                    ]
+                    "expected_output": "No, staff members who are in receipt of handphone allowance must remain contactable at all times and the handphone number must be posted in the NTUC Directory and be contactable by all persons."
                 },
                 {
-                    "key": "7dd44534-6b0f-45ab-87e0-0ceba7fdc5dc",
+                    "key": "efb97ea4-9e03-4e4a-b3a7-6cff03103ca9",
                     "prompt": "Respond to the following question.\n\nQuestion: Are staff members required to exercise due care and discretion in their handphone usage, especially for overseas calls?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff members are required to exercise due care and discretion in their handphone usage, especially for overseas calls. Only overseas calls made for official reasons will be reimbursed on actual usage where these costs exceed the monthly allowance."
-                    ]
+                    "expected_output": "Yes, staff members are required to exercise due care and discretion in their handphone usage, especially for overseas calls. Only overseas calls made for official reasons will be reimbursed on actual usage where these costs exceed the monthly allowance."
                 },
                 {
-                    "key": "812723f6-302c-440e-a814-43a80fbf2a15",
+                    "key": "aff6a26c-23a7-4418-9fc7-151478ab8d06",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the handphone allowance for NTUC-ARU staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['ensure', 'contactable', 'reached', 'official']"
+                        "ensure",
+                        "contactable",
+                        "reached",
+                        "official"
                     ],
-                    "expected_output": [
-                        "The handphone allowance is provided to ensure that staff are contactable at all times and can be reached by all persons for official purposes."
-                    ]
+                    "expected_output": "The handphone allowance is provided to ensure that staff are contactable at all times and can be reached by all persons for official purposes."
                 },
                 {
-                    "key": "b6b91f88-eaac-458d-a505-f4557262aae5",
+                    "key": "3387ea0a-2c65-4ed2-938c-30a787db2392",
                     "prompt": "Respond to the following question.\n\nQuestion: How much is the handphone allowance for NTUC-ARU staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$30']"
+                        "$30"
                     ],
-                    "expected_output": [
-                        "The handphone allowance is $30 per month."
-                    ]
+                    "expected_output": "The handphone allowance is $30 per month."
                 },
                 {
-                    "key": "28e714a5-5e55-41ee-b903-b109121f781b",
+                    "key": "00ae33be-333d-4f65-beb7-baada6b0d50f",
                     "prompt": "Respond to the following question.\n\nQuestion: Can NTUC-ARU staff use their handphone allowance for overseas calls?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff can use their handphone allowance for overseas calls, but only for official reasons. The costs exceeding the monthly allowance will be reimbursed."
-                    ]
+                    "expected_output": "Yes, staff can use their handphone allowance for overseas calls, but only for official reasons. The costs exceeding the monthly allowance will be reimbursed."
                 },
                 {
-                    "key": "a10f0b30-bb05-40aa-b3cb-01598986c26a",
+                    "key": "3b7575b3-2b68-41e2-a20c-970910ddd0a8",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens to the handphone allowance when a staff member resigns or goes on long-term no-pay leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['cease', 'resignation', 'no-pay leave']"
+                        "cease",
+                        "resignation",
+                        "no-pay leave"
                     ],
-                    "expected_output": [
-                        "The handphone allowance will cease on the effective date of resignation or no-pay leave."
-                    ]
+                    "expected_output": "The handphone allowance will cease on the effective date of resignation or no-pay leave."
                 },
                 {
-                    "key": "2e690a83-37ad-4613-ad1d-48f62cef1583",
+                    "key": "f2546661-7bb5-4c58-a3e8-04c8e58999b7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the mobile broadband access allowance for NTUC-ARU staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['off-site']"
+                        "off-site"
                     ],
-                    "expected_output": [
-                        "The mobile broadband access allowance is provided to enable staff to access the internet and email while they are off-site."
-                    ]
+                    "expected_output": "The mobile broadband access allowance is provided to enable staff to access the internet and email while they are off-site."
                 },
                 {
-                    "key": "366e30c8-4eda-4b52-aa90-46566e2d4197",
+                    "key": "16dfe625-67fa-4bb2-b852-a5863aa49c02",
                     "prompt": "Respond to the following question.\n\nQuestion: How much is the mobile broadband access allowance for NTUC-ARU staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$30', 'per month']"
+                        "$30",
+                        "per month"
                     ],
-                    "expected_output": [
-                        "The mobile broadband access allowance is $30 per month."
-                    ]
+                    "expected_output": "The mobile broadband access allowance is $30 per month."
                 },
                 {
-                    "key": "ae9b862a-12df-496b-9ddc-16879e353400",
+                    "key": "5eb1b32d-40ce-4726-b1a7-5d1ee62c44ff",
                     "prompt": "Respond to the following question.\n\nQuestion: Can NTUC-ARU staff use their mobile broadband access allowance for personal use?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, the mobile broadband access allowance is only for official purposes."
-                    ]
+                    "expected_output": "No, the mobile broadband access allowance is only for official purposes."
                 },
                 {
-                    "key": "2226faab-2725-4973-b333-e22208a2a95b",
+                    "key": "d5a11cfd-6989-466b-8530-e258cd969418",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens to the mobile broadband access allowance when a staff member resigns or goes on long-term no-pay leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['cease', 'resignation', 'no-pay leave']"
+                        "cease",
+                        "resignation",
+                        "no-pay leave"
                     ],
-                    "expected_output": [
-                        "The mobile broadband access allowance will cease on the effective date of resignation or no-pay leave."
-                    ]
+                    "expected_output": "The mobile broadband access allowance will cease on the effective date of resignation or no-pay leave."
                 },
                 {
-                    "key": "9403420d-bea8-4432-a578-936562ac8601",
+                    "key": "8f0d1b64-5e51-480a-84b9-cbbeab057185",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the counter service incentive for NTUC-ARU staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['counter', 'service', 'incentive', 'staff']"
+                        "counter",
+                        "service",
+                        "incentive",
+                        "staff"
                     ],
-                    "expected_output": [
-                        "The counter service incentive is provided to staff who provide counter services and meet certain eligibility criteria."
-                    ]
+                    "expected_output": "The counter service incentive is provided to staff who provide counter services and meet certain eligibility criteria."
                 },
                 {
-                    "key": "da81066d-897c-4710-8aa7-118c2e7f0a8e",
+                    "key": "9cb0e254-a675-4057-8f2a-1792552bfdc7",
                     "prompt": "Respond to the following question.\n\nQuestion: How much is the counter service incentive for NTUC-ARU staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$100', 'per month']"
+                        "$100",
+                        "per month"
                     ],
-                    "expected_output": [
-                        "The counter service incentive is $100 per month for staff who perform full-time counter duty of at least 75% of the time."
-                    ]
+                    "expected_output": "The counter service incentive is $100 per month for staff who perform full-time counter duty of at least 75% of the time."
                 },
                 {
-                    "key": "4860476f-250a-4188-98db-e317aa9240dc",
+                    "key": "548dd5a9-fde0-4086-acfc-dd2fa912b900",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the counter service incentive paid to NTUC-ARU staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['monthly', 'quarterly']"
+                        "monthly",
+                        "quarterly"
                     ],
-                    "expected_output": [
-                        "The counter service incentive is paid monthly or quarterly, subject to meeting the eligibility criteria."
-                    ]
+                    "expected_output": "The counter service incentive is paid monthly or quarterly, subject to meeting the eligibility criteria."
                 },
                 {
-                    "key": "fb2c71d5-afd3-4bf7-8747-aef6d523cad6",
+                    "key": "73b2203f-f916-4e5c-8234-a8e9647d5f5d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maternity benefit quantum for staff in Grade N1 to N3?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$800']"
+                        "$800"
                     ],
-                    "expected_output": [
-                        "The maternity benefit quantum for staff in Grade N1 to N3 is $800."
-                    ]
+                    "expected_output": "The maternity benefit quantum for staff in Grade N1 to N3 is $800."
                 },
                 {
-                    "key": "a57ca5f0-06c4-44e0-ad8f-eaa7442389b4",
+                    "key": "5b3c48a0-788d-44ad-a51c-0a601c658c7d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum amount of travel insurance coverage for staff in Grade N4 and above for overseas travel?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$500,000']"
+                        "$500,000"
                     ],
-                    "expected_output": [
-                        "The maximum amount of travel insurance coverage for staff in Grade N4 and above for overseas travel is $500,000."
-                    ]
+                    "expected_output": "The maximum amount of travel insurance coverage for staff in Grade N4 and above for overseas travel is $500,000."
                 },
                 {
-                    "key": "ccbf1722-a580-4ea1-92c2-b0145a735453",
+                    "key": "373233e7-f7be-4263-aba1-c1e2d69ec8af",
                     "prompt": "Respond to the following question.\n\nQuestion: Is there a medical coverage included in the travel insurance for staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, there is a medical coverage of $5,000 included in the travel insurance for staff."
-                    ]
+                    "expected_output": "Yes, there is a medical coverage of $5,000 included in the travel insurance for staff."
                 },
                 {
-                    "key": "59fa150c-ce2f-433a-bcac-a38b63692e08",
+                    "key": "8aa28eea-efc2-42d6-8f3d-e133aecd21a0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the Work Injury Compensation Act (WICA) coverage for eligible staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['WICA']"
+                        "WICA"
                     ],
-                    "expected_output": [
-                        "All eligible staff will be covered under the Work Injury Compensation Act (WICA), and the benefits payable to staff will be in accordance with the WICA."
-                    ]
+                    "expected_output": "All eligible staff will be covered under the Work Injury Compensation Act (WICA), and the benefits payable to staff will be in accordance with the WICA."
                 },
                 {
-                    "key": "ebff964c-6ea9-4966-97fa-f08cccf711f7",
+                    "key": "e62af730-d443-4794-af08-3d28a0fec1ed",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the Group Personal Accident plan coverage for staff in Grade N1 to N3?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$150,000']"
+                        "$150,000"
                     ],
-                    "expected_output": [
-                        "The Group Personal Accident plan coverage for staff in Grade N1 to N3 is $150,000."
-                    ]
+                    "expected_output": "The Group Personal Accident plan coverage for staff in Grade N1 to N3 is $150,000."
                 },
                 {
-                    "key": "03285105-5cf3-427c-bfbb-cf6b08e6d719",
+                    "key": "735a499e-6a39-4e56-bce2-1da18a13bcf1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum loan amount for the interest-free computer loan for confirmed staff?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$2,400']"
+                        "$2,400"
                     ],
-                    "expected_output": [
-                        "The maximum loan amount for the interest-free computer loan for confirmed staff is 80% of the cost of the computer set or $2,400, whichever is lower."
-                    ]
+                    "expected_output": "The maximum loan amount for the interest-free computer loan for confirmed staff is 80% of the cost of the computer set or $2,400, whichever is lower."
                 },
                 {
-                    "key": "556482d2-8ff1-4fa6-9dc4-88e7fe25b2a9",
+                    "key": "e9ed211f-13e7-4cd8-8deb-8444f26e4408",
                     "prompt": "Respond to the following question.\n\nQuestion: How long is the repayment period for the computer loan?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['2 years']"
+                        "2 years"
                     ],
-                    "expected_output": [
-                        "The repayment period for the computer loan is a maximum of 2 years, and repayment will be made through monthly deduction from the staff's salary."
-                    ]
+                    "expected_output": "The repayment period for the computer loan is a maximum of 2 years, and repayment will be made through monthly deduction from the staff's salary."
                 },
                 {
-                    "key": "cf951de7-b634-4174-ae2f-1048694b756a",
+                    "key": "89e6ef45-f89a-404d-b56a-0ad37cf818d7",
                     "prompt": "Respond to the following question.\n\nQuestion: Are re-employed staff eligible for long service awards?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, re-employed staff are eligible for long service awards, and their past service will be recognized for the purpose of long service award."
-                    ]
+                    "expected_output": "Yes, re-employed staff are eligible for long service awards, and their past service will be recognized for the purpose of long service award."
                 },
                 {
-                    "key": "cffbbc22-ffcb-4c26-aeae-5fc3f026240a",
+                    "key": "3a5ef485-9cb9-450a-b48e-71075f390fa7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the value of the long service award for staff with 15 years of completed service?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$800']"
+                        "$800"
                     ],
-                    "expected_output": [
-                        "The value of the long service award for staff with 15 years of completed service is $800."
-                    ]
+                    "expected_output": "The value of the long service award for staff with 15 years of completed service is $800."
                 },
                 {
-                    "key": "2c1bd698-8b32-41cb-a599-6d696f5452ae",
+                    "key": "52bcee88-8271-434e-84ba-e74294e1ac50",
                     "prompt": "Respond to the following question.\n\nQuestion: Can staff use the Orchid Country Club Union Corporate Golfing & Social Membership Card and Aranda Country Club Union Corporate Membership Card?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, staff can use the Orchid Country Club Union Corporate Golfing & Social Membership Card and Aranda Country Club Union Corporate Membership Card, subject to availability and on a first-come, first-served basis."
-                    ]
+                    "expected_output": "Yes, staff can use the Orchid Country Club Union Corporate Golfing & Social Membership Card and Aranda Country Club Union Corporate Membership Card, subject to availability and on a first-come, first-served basis."
                 },
                 {
-                    "key": "146463b3-97e0-484a-b73a-ed5f5b6b48a4",
+                    "key": "d6110eb5-773e-4002-9b29-e8d180af4fb5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum period for repaying a loan taken from NTUC-ARU?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['2 years']"
+                        "2 years"
                     ],
-                    "expected_output": [
-                        "The maximum period for repaying a loan taken from NTUC-ARU is 2 years."
-                    ]
+                    "expected_output": "The maximum period for repaying a loan taken from NTUC-ARU is 2 years."
                 },
                 {
-                    "key": "9cbe6379-c389-417a-86c3-298a5945deff",
+                    "key": "bd828647-fdf0-40c3-9153-14125ebb1fcf",
                     "prompt": "Respond to the following question.\n\nQuestion: Is a staff member eligible for annual leave on resignation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member who has given written notice of resignation is eligible for annual leave calculated up to the last day of service."
-                    ]
+                    "expected_output": "Yes, a staff member who has given written notice of resignation is eligible for annual leave calculated up to the last day of service."
                 },
                 {
-                    "key": "e440dd56-2bf9-462d-acda-19381626d5ff",
+                    "key": "26138072-e1c5-4707-bebf-7af55f90a301",
                     "prompt": "Respond to the following question.\n\nQuestion: How many working days of annual leave are staff members entitled to per calendar year of service?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['14', '18']"
+                        "14",
+                        "18"
                     ],
-                    "expected_output": [
-                        "Staff members are entitled to 14 working days of annual leave per calendar year of service if they have less than 10 years of service, and 18 working days if they have 10 years of service or more."
-                    ]
+                    "expected_output": "Staff members are entitled to 14 working days of annual leave per calendar year of service if they have less than 10 years of service, and 18 working days if they have 10 years of service or more."
                 },
                 {
-                    "key": "43ec0b75-b72a-4189-8587-44af4831985f",
+                    "key": "b3d22191-174d-491f-99a0-4432fe2f03ec",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member take half-day annual leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, annual leave may be taken in half days, subject to the approval of the Reporting Officer."
-                    ]
+                    "expected_output": "Yes, annual leave may be taken in half days, subject to the approval of the Reporting Officer."
                 },
                 {
-                    "key": "261751ec-842b-441c-ae0c-75af3f1aec3a",
+                    "key": "16fd08fc-5e66-49b5-a0bc-9307568e7149",
                     "prompt": "Respond to the following question.\n\nQuestion: Is a staff member allowed to take annual leave during the period of notice?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member will not be permitted to take his available annual leave during the period of notice unless with the approval of the Reporting Officer."
-                    ]
+                    "expected_output": "No, a staff member will not be permitted to take his available annual leave during the period of notice unless with the approval of the Reporting Officer."
                 },
                 {
-                    "key": "829d42d0-9a25-4053-bf96-a68dc574efd9",
+                    "key": "8302fd93-0d49-4d93-8034-8e86598cdf5e",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the annual leave entitlement of a staff member who resigns calculated?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['up', 'to', 'the', 'last', 'day', 'of', 'service', 'and', 'any', 'annual', 'leave', 'taken', 'in', 'excess', 'of', 'the', 'earned', 'entitlement', 'must', 'be', 'refunded']"
+                        "up",
+                        "to",
+                        "the",
+                        "last",
+                        "day",
+                        "of",
+                        "service",
+                        "and",
+                        "any",
+                        "annual",
+                        "leave",
+                        "taken",
+                        "in",
+                        "excess",
+                        "of",
+                        "the",
+                        "earned",
+                        "entitlement",
+                        "must",
+                        "be",
+                        "refunded"
                     ],
-                    "expected_output": [
-                        "The annual leave entitlement of a staff member who resigns is calculated up to the last day of service, and any annual leave taken in excess of the earned entitlement must be refunded."
-                    ]
+                    "expected_output": "The annual leave entitlement of a staff member who resigns is calculated up to the last day of service, and any annual leave taken in excess of the earned entitlement must be refunded."
                 },
                 {
-                    "key": "d46ce147-cacb-4d12-acca-1263d53466ef",
+                    "key": "130e5c10-a46c-4908-936b-c41488bd4679",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member encash unused annual leave upon resignation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member who is unable to clear his annual leave balance due to exigencies of service can encash them."
-                    ]
+                    "expected_output": "Yes, a staff member who is unable to clear his annual leave balance due to exigencies of service can encash them."
                 },
                 {
-                    "key": "bfe9c882-30d3-4acd-9d48-53ebc86f52e3",
+                    "key": "72285e21-d927-4d1e-ba38-927956f1e1ca",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the formula for computing annual leave taken in excess by a staff member who resigns?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Monthly Salary', '12 months', '52 weeks', 'No. of working days per week', 'No. of annual leave taken in excess']"
+                        "Monthly Salary",
+                        "12 months",
+                        "52 weeks",
+                        "No. of working days per week",
+                        "No. of annual leave taken in excess"
                     ],
-                    "expected_output": [
-                        "The formula for computing annual leave taken in excess is: Monthly Salary X 12 months / 52 weeks / No. of working days per week X No. of annual leave taken in excess."
-                    ]
+                    "expected_output": "The formula for computing annual leave taken in excess is: Monthly Salary X 12 months / 52 weeks / No. of working days per week X No. of annual leave taken in excess."
                 },
                 {
-                    "key": "204045ad-fdc0-48bf-a400-7148e4ebac7c",
+                    "key": "44c07f84-6d15-40b4-8f75-ac7f12360519",
                     "prompt": "Respond to the following question.\n\nQuestion: Are staff members eligible for welfare benefits?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, all confirmed staff members are eligible for welfare benefits, which are co-shared between ARU and SUN."
-                    ]
+                    "expected_output": "Yes, all confirmed staff members are eligible for welfare benefits, which are co-shared between ARU and SUN."
                 },
                 {
-                    "key": "3ab882cd-b07d-417c-821a-455c1c8d52c6",
+                    "key": "44868f60-345d-4bd7-93f2-02bc1f0f39ce",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the amount of funeral grant given to a staff member in the event of the death of an immediate family member?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['$500']"
+                        "$500"
                     ],
-                    "expected_output": [
-                        "The funeral grant for a staff member in the event of the death of an immediate family member is $500, and a wreath."
-                    ]
+                    "expected_output": "The funeral grant for a staff member in the event of the death of an immediate family member is $500, and a wreath."
                 },
                 {
-                    "key": "e2c67bcb-ff44-4097-8660-2ff0227bfdfc",
+                    "key": "095b3d16-9307-42bc-bea9-8da42f9f127d",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens to a staff member's annual leave balance if they resign from NTUC-ARU?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['refund', 'annual leave', 'earned entitlement', 'formula']"
+                        "refund",
+                        "annual leave",
+                        "earned entitlement",
+                        "formula"
                     ],
-                    "expected_output": [
-                        "If a staff member resigns from NTUC-ARU, they will be required to refund all annual leave taken in excess of their earned entitlement. The formula for computing annual leave taken in excess is provided in the text."
-                    ]
+                    "expected_output": "If a staff member resigns from NTUC-ARU, they will be required to refund all annual leave taken in excess of their earned entitlement. The formula for computing annual leave taken in excess is provided in the text."
                 },
                 {
-                    "key": "9cb6cc8c-031f-4656-a44f-f97f3ae487bd",
+                    "key": "9f395551-5ef2-4e38-a882-90ebdb7f0d03",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member encash their annual leave balance if they are unable to clear it due to exigencies of service?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member can encash their annual leave balance if they are unable to clear it due to exigencies of service. The formula for leave encashment is provided in the text."
-                    ]
+                    "expected_output": "Yes, a staff member can encash their annual leave balance if they are unable to clear it due to exigencies of service. The formula for leave encashment is provided in the text."
                 },
                 {
-                    "key": "13e2e487-acae-4a6f-9d43-1ebbd09e6364",
+                    "key": "95cd26dd-526e-459a-bb06-62b3b00a3c86",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member work for another employer during their annual leave within the period of notice of resignation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['No']"
+                        "No"
                     ],
-                    "expected_output": [
-                        "No, a staff member cannot work for another employer during their annual leave within the period of notice of resignation. NTUC-ARU has the right to withhold payment or claim the refund of payment for such annual leave or a portion thereof."
-                    ]
+                    "expected_output": "No, a staff member cannot work for another employer during their annual leave within the period of notice of resignation. NTUC-ARU has the right to withhold payment or claim the refund of payment for such annual leave or a portion thereof."
                 },
                 {
-                    "key": "8511e651-7b2c-41c0-92a7-ee116123173c",
+                    "key": "c2c31344-f392-4608-81c4-ea9f3d48b96b",
                     "prompt": "Respond to the following question.\n\nQuestion: How is annual leave handled on termination or dismissal of a staff member?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['salary', 'payment', 'annual leave', 'dismissal', 'staff member']"
+                        "salary",
+                        "payment",
+                        "annual leave",
+                        "dismissal",
+                        "staff member"
                     ],
-                    "expected_output": [
-                        "In case of termination of service by NTUC-ARU, any unconsumed annual leave may be compensated by payment of salary. However, if a staff member is summarily dismissed for misconduct, they will not be eligible for any salary payment for annual leave that is not yet consumed as at the day of dismissal."
-                    ]
+                    "expected_output": "In case of termination of service by NTUC-ARU, any unconsumed annual leave may be compensated by payment of salary. However, if a staff member is summarily dismissed for misconduct, they will not be eligible for any salary payment for annual leave that is not yet consumed as at the day of dismissal."
                 },
                 {
-                    "key": "2dbbc581-15c1-4f5c-8e82-bc0406ac51a5",
+                    "key": "ec029540-aeaf-41ab-9e67-ebca6aa1f2a5",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member take all their annual leave due to them immediately before their retirement?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member who will be retiring from NTUC-ARU will be given permission to take all the annual leave due to them immediately before the date of retirement."
-                    ]
+                    "expected_output": "Yes, a staff member who will be retiring from NTUC-ARU will be given permission to take all the annual leave due to them immediately before the date of retirement."
                 },
                 {
-                    "key": "b5e44487-8143-419c-b2c6-17361dbee5c6",
+                    "key": "c5edd684-ba63-40df-8809-4984c662269d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the maximum number of days of medical leave that a staff member can take in a calendar year?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['14', '60']"
+                        "14",
+                        "60"
                     ],
-                    "expected_output": [
-                        "A staff member can take up to an aggregate of 14 working days of paid Outpatient Medical Leave in each calendar year, and up to an aggregate of 60 days of Hospitalisation Leave in each calendar year, less any Outpatient Medical Leave taken during the year."
-                    ]
+                    "expected_output": "A staff member can take up to an aggregate of 14 working days of paid Outpatient Medical Leave in each calendar year, and up to an aggregate of 60 days of Hospitalisation Leave in each calendar year, less any Outpatient Medical Leave taken during the year."
                 },
                 {
-                    "key": "57357309-9c8e-4ae7-8f8f-3aa0531545a1",
+                    "key": "f0f7efa0-3c4a-493f-90b9-3947034f7721",
                     "prompt": "Respond to the following question.\n\nQuestion: How is medical leave handled for staff members who did not complete probation and cease employment for whatever reason before confirmation?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['pro-rated', 'length', 'completed', 'service', 'Employment Act']"
+                        "pro-rated",
+                        "length",
+                        "completed",
+                        "service",
+                        "Employment Act"
                     ],
-                    "expected_output": [
-                        "The number of days of Medical Leave that a staff member is entitled to will be pro-rated according to the length of completed service, as per Employment Act provisions."
-                    ]
+                    "expected_output": "The number of days of Medical Leave that a staff member is entitled to will be pro-rated according to the length of completed service, as per Employment Act provisions."
                 },
                 {
-                    "key": "3db0c82d-8cb1-45eb-8e78-8ca8dc1471ba",
+                    "key": "820d988f-ed2c-40f6-ad13-48270cf48f42",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if a staff member is unable to report for work due to illness?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['immediately', 'Medical Leave', 'Medical Certificate', 'registered medical/TCM practitioner']"
+                        "immediately",
+                        "Medical Leave",
+                        "Medical Certificate",
+                        "registered medical/TCM practitioner"
                     ],
-                    "expected_output": [
-                        "A staff member who is unable to report for work due to illness must inform their Reporting Officer immediately and submit a Medical Leave application via the e-Leave System immediately upon their return to work. The Medical Leave application must be supported by a Medical Certificate issued by a registered medical/TCM practitioner."
-                    ]
+                    "expected_output": "A staff member who is unable to report for work due to illness must inform their Reporting Officer immediately and submit a Medical Leave application via the e-Leave System immediately upon their return to work. The Medical Leave application must be supported by a Medical Certificate issued by a registered medical/TCM practitioner."
                 },
                 {
-                    "key": "2772f7c1-c8e1-4963-9da1-3ff732d46ecf",
+                    "key": "7c90a925-f54c-4daa-b405-957af77f01eb",
                     "prompt": "Respond to the following question.\n\nQuestion: Is a staff member eligible for long-term illness leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['long-term', 'illness', 'leave']"
+                        "long-term",
+                        "illness",
+                        "leave"
                     ],
-                    "expected_output": [
-                        "A confirmed staff member who is certified by a registered medical doctor to be suffering from long-term illnesses such as cancer, stroke, tuberculosis, and hepatitis, shall be entitled to long-term sick leave as follows: the first 6 months on full pay, the second 6 months on half pay, and the third 6 months on no pay."
-                    ]
+                    "expected_output": "A confirmed staff member who is certified by a registered medical doctor to be suffering from long-term illnesses such as cancer, stroke, tuberculosis, and hepatitis, shall be entitled to long-term sick leave as follows: the first 6 months on full pay, the second 6 months on half pay, and the third 6 months on no pay."
                 },
                 {
-                    "key": "0518b879-dbb2-4a25-8a95-e9fbf1c802c3",
+                    "key": "b7529493-ff27-4f06-b2ab-f8f6611458c1",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member apply for no pay leave if they have exhausted all their annual leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a confirmed staff member who has exhausted all their annual leave may apply for no pay leave. Approval is granted on a case-by-case basis."
-                    ]
+                    "expected_output": "Yes, a confirmed staff member who has exhausted all their annual leave may apply for no pay leave. Approval is granted on a case-by-case basis."
                 },
                 {
-                    "key": "34bab7de-ca54-42e1-bd4f-c5cb47ee0115",
+                    "key": "d6c13493-631a-4bda-b045-f2de18f582e9",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if a staff member misconducts himself while on long-term illness leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['he', 'will', 'forfeit', 'the', 'stated', 'benefits']"
+                        "he",
+                        "will",
+                        "forfeit",
+                        "the",
+                        "stated",
+                        "benefits"
                     ],
-                    "expected_output": [
-                        "If a staff member misconducts himself while on long-term illness leave, he will forfeit the stated benefits."
-                    ]
+                    "expected_output": "If a staff member misconducts himself while on long-term illness leave, he will forfeit the stated benefits."
                 },
                 {
-                    "key": "66a53050-0c56-4232-a420-952bc7566809",
+                    "key": "c0869ecd-f816-422d-931d-2b7d073c649a",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a confirmed staff member apply for no pay leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a confirmed staff member who has exhausted all his annual leave may apply for no pay leave."
-                    ]
+                    "expected_output": "Yes, a confirmed staff member who has exhausted all his annual leave may apply for no pay leave."
                 },
                 {
-                    "key": "e1266f89-c3af-489a-9ed3-2af61a1a7c28",
+                    "key": "44b9733f-1454-4dec-b885-4ab108a6d826",
                     "prompt": "Respond to the following question.\n\nQuestion: How many days of no pay leave can a staff member take?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['up to', '30', 'calendar days']"
+                        "up to",
+                        "30",
+                        "calendar days"
                     ],
-                    "expected_output": [
-                        "A staff member can take up to 30 calendar days of no pay leave."
-                    ]
+                    "expected_output": "A staff member can take up to 30 calendar days of no pay leave."
                 },
                 {
-                    "key": "8e981c2d-509e-4284-b712-76d4874d07da",
+                    "key": "a3128372-4947-4a31-a540-48b4b6735581",
                     "prompt": "Respond to the following question.\n\nQuestion: Will a staff member's weekends be treated as no pay leave if they take no pay leave for 30 calendar days or more?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, all weekends in that period will be treated as no pay leave."
-                    ]
+                    "expected_output": "Yes, all weekends in that period will be treated as no pay leave."
                 },
                 {
-                    "key": "f28ed230-d5d9-4fbe-b47c-d44a6656db43",
+                    "key": "6b3c1b73-43c8-4e49-9dd5-3a876ebeea2f",
                     "prompt": "Respond to the following question.\n\nQuestion: Will a staff member's no pay leave affect their annual wage supplement, variable bonuses, performance bonus, and variable increment?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, the period of no pay leave will be excluded from the computation for the award of annual wage supplement, variable bonuses, performance bonus, and variable increment."
-                    ]
+                    "expected_output": "Yes, the period of no pay leave will be excluded from the computation for the award of annual wage supplement, variable bonuses, performance bonus, and variable increment."
                 },
                 {
-                    "key": "9c13202c-d38c-40be-9be8-a750c634256c",
+                    "key": "b2e23a3c-150d-4c26-b0a5-2f30e8b3fbcd",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member who has fallen ill apply for no pay leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a staff member who has fallen ill under circumstances in which paragraph 7 is inapplicable and has exhausted all his annual and medical leave may apply for no pay leave."
-                    ]
+                    "expected_output": "Yes, a staff member who has fallen ill under circumstances in which paragraph 7 is inapplicable and has exhausted all his annual and medical leave may apply for no pay leave."
                 },
                 {
-                    "key": "a561de9b-d78b-4eb1-a042-91a78e34418a",
+                    "key": "83319738-915a-4ed6-a5db-4b3ef5f817d6",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if a staff member is not likely to recover from their illness after going through a medical review?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['NTUC-ARU', 'medically board', 'out of service']"
+                        "NTUC-ARU",
+                        "medically board",
+                        "out of service"
                     ],
-                    "expected_output": [
-                        "If a staff member is not likely to recover from their illness after going through a medical review, NTUC-ARU will medically board them out of service."
-                    ]
+                    "expected_output": "If a staff member is not likely to recover from their illness after going through a medical review, NTUC-ARU will medically board them out of service."
                 },
                 {
-                    "key": "8364fb1f-aea0-4132-a6b9-7df19d92e73d",
+                    "key": "b66a18ba-98d5-4819-8efd-503fbf4c98f4",
                     "prompt": "Respond to the following question.\n\nQuestion: How much compensation will a staff member receive if they are medically boarded out of service?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['1 month', '12 months']"
+                        "1 month",
+                        "12 months"
                     ],
-                    "expected_output": [
-                        "A staff member who is medically boarded out of service will be paid a compensation of 1 month's gross salary for every year of service, subject to a maximum of 12 months' gross salary."
-                    ]
+                    "expected_output": "A staff member who is medically boarded out of service will be paid a compensation of 1 month's gross salary for every year of service, subject to a maximum of 12 months' gross salary."
                 },
                 {
-                    "key": "e585d44f-29c3-461b-ba12-b808af2bc5ee",
+                    "key": "73c2b444-9eb4-4cfe-8eb0-e838ab837abe",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a staff member take marriage leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a confirmed staff member shall be eligible for up to a maximum of 7 working days of marriage leave."
-                    ]
+                    "expected_output": "Yes, a confirmed staff member shall be eligible for up to a maximum of 7 working days of marriage leave."
                 },
                 {
-                    "key": "fd92b9c6-7e09-487f-921c-6a50b6b42fcd",
+                    "key": "03899978-06b1-4acc-9772-d4643c7d4dfd",
                     "prompt": "Respond to the following question.\n\nQuestion: Can a female staff member take maternity leave?\n",
                     "categories": [
                         "simple-questions"
                     ],
                     "constraints": [
-                        "['Yes']"
+                        "Yes"
                     ],
-                    "expected_output": [
-                        "Yes, a female staff member shall be eligible for 8 weeks of maternity leave in accordance with the Employment Act. If she also satisfies the eligibility criteria under the Child Development Co-Savings Act (CDCA), she will be eligible for an additional 8 weeks (making a total of 16 weeks maternity leave)."
-                    ]
+                    "expected_output": "Yes, a female staff member shall be eligible for 8 weeks of maternity leave in accordance with the Employment Act. If she also satisfies the eligibility criteria under the Child Development Co-Savings Act (CDCA), she will be eligible for an additional 8 weeks (making a total of 16 weeks maternity leave)."
                 }
             ]
         }
