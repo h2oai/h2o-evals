@@ -1,13 +1,13 @@
 {
     "tests": [
         {
-            "key": "75c4aa04-ff1e-4753-8982-ed4e89d13ea9",
+            "key": "efa88630-2ba8-4750-b772-249a23dafad1",
             "documents": [
-                "Singapore_Cyber_Landscape.pdf"
+                "https://enterprise-h2ogpt-public-data.s3.amazonaws.com/h2o-evals/Singapore_Cyber_Landscape.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "113850c0-d3ff-46d7-9c00-6508f6d12d3e",
+                    "key": "af15f05f-b7e3-48c4-87d4-6652185a81ff",
                     "prompt": "Question: What is the name of the malware-free ransomware attack that does not involve infecting the victim\u2019s system with malware to encrypt their data, but instead focuses on directly exfiltrating their data to coerce victims into paying?\n",
                     "categories": [
                         "simple"
@@ -18,7 +18,7 @@
                     "expected_output": "The malware-free ransomware attack that does not involve infecting the victim\u2019s system with malware to encrypt their data, but instead focuses on directly exfiltrating their data to coerce victims into paying is called \"data-kidnapping\"."
                 },
                 {
-                    "key": "e78fbe45-5046-4350-b8fa-26553d7d94c4",
+                    "key": "753d7525-2c9e-4ca2-bf78-28a095c1ac8d",
                     "prompt": "Question: What is the name of the ransomware group that claimed multiple high-profile attacks against tech companies such as Nvidia and Samsung, and targets healthcare institutions in the US?\n",
                     "categories": [
                         "simple"
@@ -29,7 +29,7 @@
                     "expected_output": "The ransomware group that claimed multiple high-profile attacks against tech companies such as Nvidia and Samsung, and targets healthcare institutions in the US is called Lapsus$."
                 },
                 {
-                    "key": "930d8e14-9cc0-42d2-af22-8e52225586a8",
+                    "key": "a5a41992-f3a0-4f3f-ae76-dcc2474981cb",
                     "prompt": "Question: What is the name of the cross-platform language that ransomware groups such as BlackCat, Hive, and RansomExx have developed versions of their malware in, to customize their malware for both the Windows and Linux operating systems?\n",
                     "categories": [
                         "simple"
@@ -40,7 +40,7 @@
                     "expected_output": "The cross-platform language that ransomware groups such as BlackCat, Hive, and RansomExx have developed versions of their malware in, to customize their malware for both the Windows and Linux operating systems, is called Rust."
                 },
                 {
-                    "key": "4594737c-445c-4d64-87d7-78a3a0d9269c",
+                    "key": "41757af9-424b-4701-8408-6811f27017ae",
                     "prompt": "Question: What is the role of the Cyber Security Agency of Singapore (CSA) in combating cybercrimes?\n",
                     "categories": [
                         "simple"
@@ -51,7 +51,7 @@
                     "expected_output": "The CSA plays a crucial role in supporting collective endeavors to combat cybercrimes, such as investigating thousands of suspicious phishing URLs, contributing to the detection and prevention of scams, and educating the public about the latest scam campaigns and techniques."
                 },
                 {
-                    "key": "92656dd5-f823-4b0c-ac13-7ca31c86e8d6",
+                    "key": "f97c23eb-4e79-4a30-80bb-86e7bc741529",
                     "prompt": "Question: What is the reason why ransomware groups are resorting to increasingly aggressive tactics to coerce victims to pay up in \"data-kidnapping\" incidents, according to the article?\n",
                     "categories": [
                         "simple"
@@ -62,7 +62,7 @@
                     "expected_output": "The reason why ransomware groups are resorting to increasingly aggressive tactics to coerce victims to pay up in \"data-kidnapping\" incidents, according to the article, is to coerce victims into paying for fear of it being leaked publicly, which creates a vicious cycle that emboldens ransomware groups, making them more likely to increase the scale and extent of ransoms demanded in future attacks on others."
                 },
                 {
-                    "key": "32cfe0aa-3d46-4a37-b8fa-ee8214372945",
+                    "key": "19ccce60-8b7d-4cc7-9ab7-4596919608b2",
                     "prompt": "Question: What was the percentage increase in Linux OS being targeted by ransomware groups from 2021 to 2022, according to Trend Micro's findings?\n",
                     "categories": [
                         "simple"
@@ -73,7 +73,7 @@
                     "expected_output": "According to Trend Micro's findings, there was a significant increase in Linux OS being targeted, from 3,790 instances in 2021 to 27,602 instances in 2022, which represents a 631% increase."
                 },
                 {
-                    "key": "abcb5c33-0aa2-4fdf-8f1c-3c034ea912b8",
+                    "key": "2dd9d929-09de-4031-9583-f7cb4fa310db",
                     "prompt": "Question: What is the name of the ransomware group that targeted Methodist McKinney Hospital and other healthcare institutions in the US, and uses extortion-only tactics?\n",
                     "categories": [
                         "simple"
@@ -84,7 +84,7 @@
                     "expected_output": "The ransomware group that targeted Methodist McKinney Hospital and other healthcare institutions in the US, and uses extortion-only tactics is called Karakurt."
                 },
                 {
-                    "key": "6a13ff4c-c09a-49a5-9f42-aa4023d7886a",
+                    "key": "5111c1c5-a91a-4908-9fdb-2be9bb8bc13a",
                     "prompt": "Question: What is the name of the ransomware group that leaked personally intrusive photos of cancer patients receiving radiation treatment at the Leigh Valley Health Network, when the latter refused to pay its US$1.5 million ransom?\n",
                     "categories": [
                         "simple"
@@ -95,7 +95,7 @@
                     "expected_output": "The ransomware group that leaked personally intrusive photos of cancer patients receiving radiation treatment at the Leigh Valley Health Network, when the latter refused to pay its US$1.5 million ransom is called BlackCat."
                 },
                 {
-                    "key": "a6a5f254-053a-4b8e-8b67-9ed4be73d491",
+                    "key": "b3b358a4-93f2-46ef-beca-d859dd474e9a",
                     "prompt": "Question: What percentage of organizations impacted by ransomware paid the ransom, according to research by cybersecurity vendor Proofpoint?\n",
                     "categories": [
                         "simple"
@@ -106,7 +106,7 @@
                     "expected_output": "According to Proofpoint's research, up to 64% of organizations impacted by ransomware ended up paying the ransom."
                 },
                 {
-                    "key": "9cb01b34-1ad6-44c8-841f-5a942870720e",
+                    "key": "09740c27-990a-40db-8a0b-0a4388af7828",
                     "prompt": "Question: What is the purpose of the Cybersecurity and Ransomware Task Force (CRTF) established in Singapore?\n",
                     "categories": [
                         "simple"
@@ -117,7 +117,7 @@
                     "expected_output": "The purpose of the Cybersecurity and Ransomware Task Force (CRTF) established in Singapore is to bring together government agencies across relevant domains to strengthen national counter-ransomware efforts."
                 },
                 {
-                    "key": "d8a94e33-3925-4c62-8ee6-5d0066c82607",
+                    "key": "436eb2b9-5957-4d38-a004-b2e0b95b97f8",
                     "prompt": "Question: What has been the impact of Big Tech companies' involvement in the Russia-Ukraine conflict?\n",
                     "categories": [
                         "simple"
@@ -128,7 +128,7 @@
                     "expected_output": "Big Tech companies' involvement has not been insignificant, with Meta's move to restrict access to Russian media on their platforms resulting in a ban on Facebook and Instagram in Russia, costing the company close to US$2 billion in revenue."
                 },
                 {
-                    "key": "fc448c33-3b5a-432e-81e1-70bd45a6cfe9",
+                    "key": "07b7e243-ca19-4449-bf77-6b9ccdab52e0",
                     "prompt": "Question: What is the name of the Singapore-based precision engineering company that managed to regain access to its systems and data without paying the ransom?\n",
                     "categories": [
                         "simple"
@@ -139,7 +139,7 @@
                     "expected_output": "The name of the Singapore-based precision engineering company that managed to regain access to its systems and data without paying the ransom is not specified in the text."
                 },
                 {
-                    "key": "66b97566-be4b-463d-9277-b4756e2284e0",
+                    "key": "ef19e6b3-1a76-4599-bff6-43bab112d1ce",
                     "prompt": "Question: What is the name of the malware that targeted Iran's Natanz nuclear-enrichment facility in 2010?\n",
                     "categories": [
                         "simple"
@@ -150,7 +150,7 @@
                     "expected_output": "The name of the malware that targeted Iran's Natanz nuclear-enrichment facility in 2010 is Stuxnet."
                 },
                 {
-                    "key": "09231197-6899-4255-bde6-112bc4b670f4",
+                    "key": "00ae0ac7-7f02-4598-85eb-6dd3ef23c733",
                     "prompt": "Question: What is the main concern of cybersecurity experts regarding the use of Artificial Intelligence (AI) chatbots?\n",
                     "categories": [
                         "simple"
@@ -161,7 +161,7 @@
                     "expected_output": "Cybersecurity experts warn that AI chatbots could be used to enable malicious cyber activities."
                 },
                 {
-                    "key": "47131a3d-caa4-4372-bd78-d24c9adfa287",
+                    "key": "10377c85-9a83-40f4-9edb-a957874abdfe",
                     "prompt": "Question: What has been the impact of hacktivist activities in the Russia-Ukraine conflict?\n",
                     "categories": [
                         "simple"
@@ -172,7 +172,7 @@
                     "expected_output": "Hacktivist activities have increased the level of unpredictability and instability in the cyber landscape, and any serious cyber incident triggered by hacktivists may inadvertently escalate the conflict or be used as a pretext for escalation."
                 },
                 {
-                    "key": "0453c1e8-b96a-4ac9-986d-4646f0a9f24f",
+                    "key": "2500beaa-94ec-47f7-b337-bb360292df49",
                     "prompt": "Question: How have ransomware groups evolved in terms of their branding and customer support?\n",
                     "categories": [
                         "simple"
@@ -183,7 +183,7 @@
                     "expected_output": "Ransomware groups have started branding their ransomware and ransom notes with a distinctive logo and style, and providing \"customer support\" functions to help victims through the ransom payment and file decryption processes."
                 },
                 {
-                    "key": "650702ab-2073-42b4-b9cf-7f099a4e814b",
+                    "key": "cc5abf59-5aa4-4500-9682-1b8bb426c344",
                     "prompt": "Question: What is the name of the group that has been accused of launching DDoS attacks and hack-and-leak campaigns against Russia-linked entities?\n",
                     "categories": [
                         "simple"
@@ -194,7 +194,7 @@
                     "expected_output": "The name of the group that has been accused of launching DDoS attacks and hack-and-leak campaigns against Russia-linked entities is Killnet."
                 },
                 {
-                    "key": "006d2ab2-dc8f-4fd3-9bb1-e6d34c770585",
+                    "key": "beb962ba-9689-4595-909c-fa21ef337c4c",
                     "prompt": "Question: What was the percentage of organizations that were hit by a second ransomware attack after paying the ransom, according to Cybereason's research?\n",
                     "categories": [
                         "simple"
@@ -205,7 +205,7 @@
                     "expected_output": "Nearly 80% of organizations that paid the ransom were hit by a second ransomware attack, with 48% of which was perpetrated by the same attackers, and 68% demanding a higher ransom."
                 },
                 {
-                    "key": "f56b8c84-f3d1-45eb-8805-dbe32c7ba573",
+                    "key": "cd9c2677-42e5-493d-83f2-9235ea681fa9",
                     "prompt": "Question: What is the purpose of the safety instrumented systems (SIS) targeted by the Triton malware?\n",
                     "categories": [
                         "simple"
@@ -216,7 +216,7 @@
                     "expected_output": "The purpose of the safety instrumented systems (SIS) targeted by the Triton malware is to ensure the operational safety of equipment and prevent dangerous industrial accidents."
                 },
                 {
-                    "key": "1739a3ad-d5cd-408c-8cc3-2851cc8d25ff",
+                    "key": "7f58f4f3-8749-4793-b8a9-c6499b747b86",
                     "prompt": "Question: What is the role of Singapore in the Counter-Ransomware Initiative (CRI)?\n",
                     "categories": [
                         "simple"
@@ -227,7 +227,7 @@
                     "expected_output": "Singapore is fully involved in the Counter-Ransomware Initiative (CRI) and is co-leads of the countering illicit finance working group, committed to disrupting the financial flows, particularly in cryptocurrency, to ransomware operators."
                 },
                 {
-                    "key": "ea2b9131-da6e-4730-a364-bdbd5a95876b",
+                    "key": "fb549e17-9735-4481-af3d-22e999083a39",
                     "prompt": "Question: What is the reason behind the increase in malware-free ransomware attacks, according to the article?\n",
                     "categories": [
                         "simple"
@@ -238,7 +238,7 @@
                     "expected_output": "The reasons behind the increase in malware-free ransomware attacks, according to the article, include the absence of a malware payload and a protracted encryption process, which makes such ransomware attacks harder to detect and stealthier, and the ability to focus on expanding their attacks towards maximizing profits, without worrying about upkeeping their encryption malware."
                 },
                 {
-                    "key": "a9c17c52-d031-4579-bf86-af362d8734cd",
+                    "key": "d4e1b9fc-c5be-44cf-9c33-5d6cab535ce6",
                     "prompt": "Question: Considering the Monetary Authority of Singapore (MAS) and the Association of Banks in Singapore's efforts to combat scams, what measures have they implemented, such as the removal of clickable links in emails or SMS messages, the implementation of an emergency self-service \"kill-switch\" for digital banking, and the co-location of officers from six leading banks at the Anti-Scam Command (ASCom)?\n",
                     "categories": [
                         "conditional"
@@ -249,7 +249,7 @@
                     "expected_output": "The MAS and the Association of Banks in Singapore have introduced measures such as the removal of clickable links in emails or SMS messages, and the implementation of an emergency self-service \u201ckill-switch\u201d for digital banking to counter scams."
                 },
                 {
-                    "key": "6f93f40a-e9b2-4379-9db7-625dd9e550b9",
+                    "key": "50356f76-8af6-4620-98e9-5e9b4bf3eafb",
                     "prompt": "Question: What type of malware poses a significant threat to OT systems by targeting individual components and causing malfunction, and how can organizations protect themselves against such threats?\n",
                     "categories": [
                         "conditional"
@@ -260,7 +260,7 @@
                     "expected_output": "Malware that targets individual components in OT systems to cause malfunction includes Programmable Logic Controllers (PLCs) and ransomware."
                 },
                 {
-                    "key": "f41429f5-8291-4f88-abcc-51c04e346d71",
+                    "key": "5b1572ea-53cd-4210-9e5e-c41ab153ee44",
                     "prompt": "Question: Given that the Conti ransomware group rebranded due to negative associations with Russia amidst the ongoing conflict with Ukraine, what other reasons might have influenced this decision, and how has this rebranding affected their operations and reputation?\n",
                     "categories": [
                         "conditional"
@@ -271,7 +271,7 @@
                     "expected_output": "The Conti ransomware group rebranded itself as several smaller ransomware groups in mid-2022 following negative reactions arising from its conspicuous affiliation with Russia amidst the ongoing Russia-Ukraine conflict."
                 },
                 {
-                    "key": "c1694f4d-96ca-4fcc-a97c-657b97494762",
+                    "key": "7c873490-ba44-4208-b5f8-f3471fe538a9",
                     "prompt": "Question: How has Incontroller, a malware package tailored to disrupt industrial processes, adapted to pose a threat to nearly all types of global industrial systems, despite OT systems being isolated from IT networks?\n",
                     "categories": [
                         "conditional"
@@ -282,7 +282,7 @@
                     "expected_output": "The malware is called Incontroller."
                 },
                 {
-                    "key": "ffe71116-5b70-430b-9bf1-1dfcd861b37a",
+                    "key": "c227dfd8-4eba-491e-9713-7a1d2d94f106",
                     "prompt": "Question: What is the name of the stage in a cyber-attack where the attacker gains control of a management workstation in an OT environment, which is isolated from IT networks, and how do threat actors accomplish this stage?\n",
                     "categories": [
                         "conditional"
@@ -293,7 +293,7 @@
                     "expected_output": "The name of the stage in a cyber-attack where the attacker gains control of a management workstation is the engagement stage."
                 },
                 {
-                    "key": "5b0f4364-b2be-45e5-b2df-b56b40fb2cc2",
+                    "key": "10b33e63-5f36-496b-b2eb-afcf4499de4e",
                     "prompt": "Question: Given the context of the Russia-Ukraine conflict and the involvement of hacktivists, Big Tech companies, and other actors, what are the significant trends and statistics regarding malicious cyber activities in Singapore's cyber landscape in 2022, and how do they compare to previous years?\n",
                     "categories": [
                         "conditional"
@@ -304,7 +304,7 @@
                     "expected_output": "Ransomware and phishing remained persistent threats locally, with more than one ransomware case reported every three days, and phishing attempts more than doubling over the past year."
                 },
                 {
-                    "key": "9ac65763-ae0d-40bc-b5b4-2d7421fa39f1",
+                    "key": "43cafe48-68f2-4899-a88b-1ce7ffa97d1a",
                     "prompt": "Question: How does the growth of Big Tech companies affect the unpredictability and instability of cyber conflicts, such as the Russia-Ukraine conflict, and what are the implications of their involvement in geopolitical and wartime developments?\n",
                     "categories": [
                         "conditional"
@@ -315,7 +315,7 @@
                     "expected_output": "The growth of Big Tech companies will continue to increase their influence and impact on future cyber conflicts and the global cyber landscape."
                 },
                 {
-                    "key": "9b9b193f-aa3b-4d48-bd99-7f9c36d2c1d5",
+                    "key": "d0bca80f-801b-4680-b8c9-cdcd609a6ce1",
                     "prompt": "Question: How has Big Tech's involvement in the Russia-Ukraine conflict affected the cyber landscape, and what are the implications of their support for Ukraine?\n",
                     "categories": [
                         "conditional"
@@ -326,7 +326,7 @@
                     "expected_output": "Big Tech companies have publicly and actively taken sides in the conflict, demonstrating their support for Ukraine in various ways, such as suspending business activities in Russia, blocking access to Russian state media, and providing tactical support to Ukraine on the physical and cyber battlefields."
                 },
                 {
-                    "key": "9a2d7529-bbf7-416e-91a7-126cf223bc68",
+                    "key": "597beac2-f56a-470b-8f36-3af66f29a154",
                     "prompt": "Question: Under what circumstances do Big Tech companies decide to support geopolitical causes, and who within the organization makes these decisions?\n",
                     "categories": [
                         "conditional"
@@ -337,7 +337,7 @@
                     "expected_output": "The decision-making process in Big Tech companies regarding their involvement in geopolitical conflicts is not explicitly stated, but it is likely that the CEO, shareholders, and employees all play a role."
                 },
                 {
-                    "key": "541b3a5b-b233-45ef-bd43-6be00c470fd5",
+                    "key": "375c86d5-3de0-4ba8-a71b-88c00c7235ab",
                     "prompt": "Question: Given the context, the rewritten question could be:\n\nWhat is the name of the collective involved in the conflict and accused of leaking data obtained from the Chinese Communist Party, amidst the rise of hacktivism and Big Tech companies' involvement in the cyber conflict?\n",
                     "categories": [
                         "conditional"
@@ -348,7 +348,7 @@
                     "expected_output": "The name of the collective that has been involved in the conflict and has been accused of leaking data obtained from the Chinese Communist Party is Anonymous."
                 },
                 {
-                    "key": "0dc5e8c4-1c64-48f8-a53d-25bcd9f58825",
+                    "key": "31132d62-6806-441e-bc6d-a6e627b367db",
                     "prompt": "Question: What malware targeted a Saudi Arabian petrochemical facility in 2017 by exploiting a zero-day vulnerability in safety instrumented systems, likely intending to cause a major accident?\n",
                     "categories": [
                         "conditional"
@@ -359,7 +359,7 @@
                     "expected_output": "The name of the malware that targeted a Saudi Arabian petrochemical facility in 2017 is Triton."
                 },
                 {
-                    "key": "cffe2610-7cd8-439c-bae5-7ddc177c9343",
+                    "key": "dfce32f5-1d7f-43ca-8b6f-3daf1f4a0762",
                     "prompt": "Question: How has the Stuxnet computer worm influenced the development of malware targeting Operational Technology (OT) systems, and what are the potential implications of such malware for national security and critical infrastructure?\n",
                     "categories": [
                         "conditional"
@@ -370,7 +370,7 @@
                     "expected_output": "Stuxnet is considered a game-changer in the field of cybersecurity as it disabled Iran\u2019s Internet-disconnected Natanz nuclear facility in 2010, and its impact has been felt since then."
                 },
                 {
-                    "key": "04251887-5f7f-45b9-b03c-d84d4a4d3860",
+                    "key": "de4c0c29-6d50-49ae-818f-63f7b0f4e295",
                     "prompt": "Question: Given the context, the rewritten question could be:\n\nWhat is the name of the ransomware used by pro-Ukraine hacktivists, which has been employed in a series of attacks to disrupt the operations of Russian entities, and how has its use by non-state actors affected the global cybersecurity landscape?\n",
                     "categories": [
                         "conditional"
@@ -381,7 +381,7 @@
                     "expected_output": "The name of the ransomware that has been used by pro-Ukraine hacktivists is Conti."
                 },
                 {
-                    "key": "0592908b-621d-4b4e-863f-56a8913eee31",
+                    "key": "373ae875-8c49-408d-b8a7-b235ba9c1827",
                     "prompt": "Question: What malware was used in the 2016 attack on Ukraine's electrical grid, and how did it target OT systems?\n",
                     "categories": [
                         "conditional"
@@ -392,7 +392,7 @@
                     "expected_output": "The name of the malware that targeted Ukraine's electrical grid in 2016 is Industroyer."
                 },
                 {
-                    "key": "ee8c7bf0-0334-4352-8365-d2373ab710c7",
+                    "key": "7062f77f-ab5c-4123-8a05-a4cb307b53b7",
                     "prompt": "Question: Given the recent surge in ransomware attacks, what coordinated international effort was launched in October 2022 to combat this global threat, and how does it aim to address the evolving tactics employed by ransomware groups?\n",
                     "categories": [
                         "conditional"
@@ -403,7 +403,7 @@
                     "expected_output": "The international effort to crackdown on the global ransomware scourge, which was attended by officials from 36 countries and the European Union in October 2022, is called the Counter-Ransomware Initiative (CRI) Summit."
                 },
                 {
-                    "key": "6aeec0b1-3fbc-46fa-935f-18d309ced65f",
+                    "key": "317c03cb-28fc-4e0a-b875-73041c12e677",
                     "prompt": "Question: How has the Russia-Ukraine conflict influenced the role of hacktivism and Big Tech companies in the global cyber landscape, and what are the implications for organizations and nations?\n",
                     "categories": [
                         "conditional"
@@ -414,7 +414,7 @@
                     "expected_output": "The conflict has increased the level of unpredictability and instability in the global cyber landscape, and its impact extends beyond the direct parties involved, posing a risk of collateral damage and unintended effects on uninvolved countries."
                 },
                 {
-                    "key": "2c84c0e6-60c6-4e07-87c0-625aa9234f3f",
+                    "key": "dbb98f9b-22e4-4be7-9d93-3905c89bc7f7",
                     "prompt": "Question: Considering the rise in ransomware cases globally and locally, what measures can organizations take to prevent falling victim to such attacks, given that the reported ransomware incidents in Singapore decreased by 4% in 2022, but the number of infected infrastructure decreased by 13%, indicating improved cyber hygiene levels?\n",
                     "categories": [
                         "conditional"
@@ -425,7 +425,7 @@
                     "expected_output": "SMEs in the manufacturing and retail sectors had the most number of ransomware incidents in Singapore in 2022."
                 },
                 {
-                    "key": "4f4c2bad-34b5-45e7-8ed8-5032ac31821b",
+                    "key": "fd81dc31-5f40-41b1-aeae-6133ea875fad",
                     "prompt": "Question: Given the context, the rewritten question could be:\n\nWhat is the name of the pro-Ukraine hacktivist group that has been involved in the conflict, and how have its actions affected the global cybersecurity landscape?\n",
                     "categories": [
                         "conditional"
@@ -436,7 +436,7 @@
                     "expected_output": "The name of the pro-Ukraine hacktivist group that has been involved in the conflict is NB65."
                 },
                 {
-                    "key": "42614477-d753-4551-a8fb-668ffacc82e5",
+                    "key": "2ceabf21-a525-4de5-b7d4-93bdbed0a726",
                     "prompt": "Question: How does SingCERT's role in preventing cyber threats in Singapore reflect the country's commitment to maintaining a secure cyber landscape, and what steps can be taken to further enhance cybersecurity measures?\n",
                     "categories": [
                         "conditional"
@@ -447,7 +447,7 @@
                     "expected_output": "SingCERT investigates reported cases of cyber threats and reports malicious URLs to relevant parties for takedown and/or blocking, and publishes alerts and advisories to raise public awareness."
                 },
                 {
-                    "key": "04366b97-8526-4606-ab25-720c833638ed",
+                    "key": "f0f7a612-640a-4e3a-83bf-c4bdc948579b",
                     "prompt": "Question: Considering the Anti-Scam Command's (ASCom) efforts to combat scams in Singapore, what measures have been implemented to prevent and respond to cybercrime, and how have they impacted the local cyber landscape?\n",
                     "categories": [
                         "conditional"
@@ -458,7 +458,7 @@
                     "expected_output": "The ASCom, led by the SPF, has been instrumental in freezing bank accounts implicated in scams, resulting in the recovery of approximately S$146 million for victims, and in coordinating investigations with six leading banks."
                 },
                 {
-                    "key": "32da0806-7c05-4db8-84e8-bb4caab31140",
+                    "key": "0febfd3a-6ef8-4c02-a0c4-8ad602a886b1",
                     "prompt": "Question: Given the context of BlackFog's tracking and the findings of various cybersecurity vendors, what percentage of organizations that paid ransomware attacks had their data fully restored, and what percentage were hit by a second ransomware attack?\n",
                     "categories": [
                         "conditional"
@@ -469,7 +469,7 @@
                     "expected_output": "There have been 73 publicly disclosed ransomware attacks globally by end-February 2023, with potentially up to 543% more attacks (i.e. 396) going unreported."
                 },
                 {
-                    "key": "b1858318-4986-4072-a77b-0b1dcf2e6efa",
+                    "key": "694c2715-fa87-4d9f-bcf8-b3bd604fc0ab",
                     "prompt": "Question: How does hacktivism's involvement in the Russia-Ukraine conflict reflect the increasing unpredictability and instability of the cyber landscape, and what are the implications of Big Tech's support for Ukraine?\n",
                     "categories": [
                         "conditional"
@@ -480,7 +480,7 @@
                     "expected_output": "Hacktivism has been used by pro-Ukraine hacktivist groups to disrupt the operations of Russian entities, but its impact pales in comparison to military campaigns and is unlikely to significantly shift the course of the war."
                 },
                 {
-                    "key": "c7be5af0-2624-45d0-96d6-fee7a0c35660",
+                    "key": "f985cab0-c7c9-4278-8e99-2f1856e1472d",
                     "prompt": "Question: Given the context, the rewritten question could be:\n\nWhat malware has been used by hacktivists to disrupt essential services, and how has its use evolved over time?\n",
                     "categories": [
                         "conditional"
@@ -491,7 +491,7 @@
                     "expected_output": "The name of the malware that has been used by hacktivists to disrupt essential services is Conti's leaked ransomware."
                 },
                 {
-                    "key": "31979a82-5c96-4420-81d0-de16bc3f8063",
+                    "key": "4447bbe8-4036-4278-abe2-d062d7632ec7",
                     "prompt": "Question: How has the Russia-Ukraine conflict influenced the severity and complexity of cyber threats to Singapore's critical infrastructure, and what measures have been taken by local agencies to mitigate potential attacks?\n",
                     "categories": [
                         "conditional"
@@ -502,7 +502,7 @@
                     "expected_output": "The Russia-Ukraine conflict has greatly complicated the global cybersecurity environment, with a surge of hacktivist attacks on both sides and the discovery of highly destructive malware. It has also led to a significant threat to vital services that sustain our daily lives and capable of causing unprecedented harm."
                 },
                 {
-                    "key": "8e41373a-ad55-4b90-97a8-b8176803de0f",
+                    "key": "682dbcc6-9aff-4524-81fd-0768371bd24c",
                     "prompt": "Question: Under what circumstances did the ASCom freeze bank accounts in 2022, and how much money was recovered?\n",
                     "categories": [
                         "conditional"
@@ -513,7 +513,7 @@
                     "expected_output": "The ASCom froze over 16,700 bank accounts implicated in scams in 2022."
                 },
                 {
-                    "key": "39a19065-f01f-4aa0-9661-bd4b2d66f764",
+                    "key": "7e3fa6bc-baca-45aa-b0bf-5a67febef58f",
                     "prompt": "Question: Given the context of ransomware attacks, how does the Cybersecurity Resilience Index (CRI) mitigate the impact of cyber incidents, and what are the key statistics on ransom payment as reported by cybersecurity vendors?\n",
                     "categories": [
                         "conditional"
@@ -524,7 +524,7 @@
                     "expected_output": "The CRI is a tool that measures an organization's cybersecurity resilience and ability to respond to cyber attacks, including ransomware attacks. The CRI will further its work in 2023 through three pillars: the Policy Pillar, the Diplomacy and Capacity Building Pillar, and the International Counter-Ransomware Task Force."
                 },
                 {
-                    "key": "20de2479-6720-4a29-b039-392204170201",
+                    "key": "2572dcd1-4a7a-465b-b3e3-4d2d5d76fb60",
                     "prompt": "Question: How does Big Tech's willingness to support a geopolitical cause, as seen in the Russia-Ukraine conflict, reflect a shift in their approach to global affairs and what are the implications of this development for the future of cyber conflicts?\n",
                     "categories": [
                         "conditional"
@@ -535,7 +535,7 @@
                     "expected_output": "Big Tech companies' willingness to support a geopolitical cause demonstrates that they too can have an independent voice on the international stage and play a part in shaping geopolitical and wartime developments."
                 },
                 {
-                    "key": "25e21239-2e84-4d87-a1f7-092bab64bf60",
+                    "key": "923e9b09-2a48-4a4b-a133-df76306ba6eb",
                     "prompt": "Question: Given the surge in hacktivist attacks and the rise of malware targeting industrial systems, what steps has Singapore taken to strengthen its cybersecurity measures in light of the unstable geopolitical landscape?\n",
                     "categories": [
                         "conditional"
@@ -546,7 +546,7 @@
                     "expected_output": "Some of the disconcerting developments in the cyber threat landscape in 2022 included bespoke exploits aimed at industrial Operational Technology (OT) systems, ransomware groups targeting essential organisations, and global service disruptions caused by hacktivist groups."
                 },
                 {
-                    "key": "0042bbf4-1725-4e61-8709-64607d03051b",
+                    "key": "32026a2f-6661-4746-b3bb-867cf9085983",
                     "prompt": "Question: How does the Russia-Ukraine conflict impact cybersecurity in terms of its potential for malicious activities, and what steps can be taken to mitigate these risks?\n",
                     "categories": [
                         "conditional"
@@ -557,7 +557,7 @@
                     "expected_output": "The Russia-Ukraine conflict has significant implications for cybersecurity, as it has led to an increase in cyber attacks and threats to critical infrastructure."
                 },
                 {
-                    "key": "5c30c3a7-0c38-4183-ba86-247534ce0f15",
+                    "key": "f69686b5-ca74-4a40-a68a-d6f6461c468e",
                     "prompt": "Question: Who leads the Counter-Ransomware Initiative, a global coalition aimed at collectively addressing the ransomware threat, besides Singapore, which is a co-lead of the countering illicit finance working group?\n",
                     "categories": [
                         "conditional"
@@ -568,7 +568,7 @@
                     "expected_output": "The Counter-Ransomware Initiative (CRI) is led by the US."
                 },
                 {
-                    "key": "c29e953c-83ff-4de5-918a-0ca1f09df292",
+                    "key": "bab06417-9344-42d2-9e12-02c8e9924804",
                     "prompt": "Question: What is the reason behind the decrease in Singapore's global share of infected infrastructure in 2022, despite a sharp growth of infected infrastructure observed worldwide?\n",
                     "categories": [
                         "conditional"
@@ -579,7 +579,7 @@
                     "expected_output": "The decrease in Singapore's global share of infected infrastructure in 2022 indicates an improvement in cyber hygiene levels in the country, but the absolute number of infected infrastructure remains high."
                 },
                 {
-                    "key": "3998420d-64ff-4419-abde-41695983b628",
+                    "key": "611bc3ee-8776-4291-b49c-3719db53590c",
                     "prompt": "Question: How does the Russia-Ukraine conflict affect cybersecurity, and what efforts has Singapore made to strengthen its digital resilience in light of this geopolitical instability?\n",
                     "categories": [
                         "conditional"
@@ -590,7 +590,7 @@
                     "expected_output": "The potential consequences of the Russia-Ukraine conflict in cyberspace include a catastrophic possibility of malicious programs targeting industrial systems, posing a significant threat to vital services that sustain our daily lives and capable of causing unprecedented harm."
                 },
                 {
-                    "key": "c40f3817-69e1-428e-8c47-0d15e2cd4b21",
+                    "key": "dfbeae1b-c23e-4251-af06-5dd61e67a895",
                     "prompt": "Question: What's the name of the stage where a cyber attacker surveys the target environment?\n",
                     "categories": [
                         "compress"
@@ -601,7 +601,7 @@
                     "expected_output": "The name of the stage in a cyber-attack where the attacker surveys the targeted network environment is the reconnaissance stage."
                 },
                 {
-                    "key": "dab355b9-8166-4fad-a343-6888e2f6436e",
+                    "key": "849fbeaa-d2b0-4ec3-9062-e2660350aefb",
                     "prompt": "Question: How did gov't collaborate with CII sector leads in 2022?\n",
                     "categories": [
                         "compress"
@@ -612,7 +612,7 @@
                     "expected_output": "The government worked closely with Critical Information Infrastructure (CII) sector leads throughout 2022 to step up vigilance and monitoring."
                 },
                 {
-                    "key": "f399f89e-1c3a-495c-8657-a35b60883e9c",
+                    "key": "15098417-2b83-4139-a7ee-fc3f1caf6a7b",
                     "prompt": "Question: What's the cyber-attack stage for tactic variety?\n",
                     "categories": [
                         "compress"
@@ -623,7 +623,7 @@
                     "expected_output": "The name of the stage in a cyber-attack where the attacker employs different tactics to accomplish their objectives is the exploitation stage."
                 },
                 {
-                    "key": "ed0183ec-e68c-4e01-ac33-4b84125e73a1",
+                    "key": "dd0e91e8-9066-4fae-9123-db11bb567ef3",
                     "prompt": "Question: What was the effect of the cyberattack on Hospital Clinic de Barcelona?\n",
                     "categories": [
                         "compress"
@@ -634,7 +634,7 @@
                     "expected_output": "The ransomware attack on the Hospital Clinic de Barcelona in Spain shut down the facility's emergency rooms, laboratories, and pharmacy at three centers and several external clinics, resulting in the cancellation of up to 3,000 patient check-ups and 150 non-urgent operations."
                 },
                 {
-                    "key": "6b6b5f2b-fbba-4695-8363-aa0d14653349",
+                    "key": "958c60fd-b3b8-4863-a69b-2f6ae909b381",
                     "prompt": "Question: What's the deal with Cybereason's ransom?\n",
                     "categories": [
                         "compress"
@@ -645,7 +645,7 @@
                     "expected_output": "Cybereason's research found that only 42% of organizations that paid the ransom managed to restore all their systems and data. 54% still encountered system errors and corrupted data after decryption using keys provided by the attackers."
                 },
                 {
-                    "key": "b50f6862-0ef0-4e81-8fb1-af6d3c6ab75e",
+                    "key": "dc0c185f-3f82-4f86-a061-ce22a1fa1f93",
                     "prompt": "Question: Who heads Cyber Security Agency of Singapore?\n",
                     "categories": [
                         "compress"
@@ -656,7 +656,7 @@
                     "expected_output": "The Commissioner of Cybersecurity and Chief Executive of Cyber Security Agency of Singapore is Mr David Koh."
                 },
                 {
-                    "key": "a66f7367-cc71-4742-8351-6fd275fbebf4",
+                    "key": "cb4b0c21-cc67-4927-8773-3e8fb2c16caa",
                     "prompt": "Question: What's the name of the ransomware report for 2022?\n",
                     "categories": [
                         "compress"
@@ -667,7 +667,7 @@
                     "expected_output": "The cybersecurity report that discusses the state of ransomware in 2022 is titled \"The State of Ransomware in 2022\" by BlackFog."
                 },
                 {
-                    "key": "5d7e36e0-efd6-4c70-81c5-ca76b115d7a1",
+                    "key": "0d1f1bd9-5eba-4d84-ae51-1ea6cd1528e5",
                     "prompt": "Question: What's driving ransomware's boldness?\n",
                     "categories": [
                         "compress"
@@ -678,7 +678,7 @@
                     "expected_output": "Ransomware groups have become more commercial and professional-like in 2022, diversifying their portfolios to target Cloud environments and Linux systems, and adopting malware-free attacks."
                 },
                 {
-                    "key": "d7823086-ed63-4ca7-ade2-2db2b8314b3b",
+                    "key": "29305da6-a9c3-4c31-8ec0-7185d998d738",
                     "prompt": "Question: How many phishing attempts were reported in SG in 2022?\n",
                     "categories": [
                         "compress"
@@ -689,7 +689,7 @@
                     "expected_output": "There were 8,500 phishing attempts reported in Singapore in 2022, more than double the 3,100 cases handled in 2021."
                 },
                 {
-                    "key": "577a8cd3-2f37-43b4-a726-d5877c5f9a74",
+                    "key": "f57c0380-0ee6-4ff7-a7a6-f4e8d0d255de",
                     "prompt": "Question: How do cyber scams affect individuals?\n",
                     "categories": [
                         "compress"
@@ -700,7 +700,7 @@
                     "expected_output": "The impact of cybercrimes such as scams on individuals is not just financial loss, but also emotional toll, including anguish, confusion, and distress."
                 },
                 {
-                    "key": "12e63470-8c8f-4bd9-b9be-cdfec096499c",
+                    "key": "50177c2c-e4d6-47ff-a4a8-ff2d9378fff8",
                     "prompt": "Question: What's the state of ransomware on cloud services?\n",
                     "categories": [
                         "compress"
@@ -711,7 +711,7 @@
                     "expected_output": "Increasingly, ransomware groups are turning their attention to cloud services and infrastructure as more organisations move their assets and data to the cloud, with a significant 48% growth in cloud-based network attacks in 2022."
                 },
                 {
-                    "key": "51048efe-f867-44af-9d3a-9bfdc29acd7f",
+                    "key": "dbb7dc5a-de15-407e-9fa3-da7f195e473b",
                     "prompt": "Question: What led to the decline in infra infection in SG in 2022?\n",
                     "categories": [
                         "compress"
@@ -722,7 +722,7 @@
                     "expected_output": "The decrease in infected infrastructure in Singapore in 2022 was mainly due to improved cyber hygiene levels, including regular backing up of critical data and securing of systems."
                 },
                 {
-                    "key": "a36fb12f-fb8c-44af-a49e-2a9f3d8d30b8",
+                    "key": "21abe41c-f416-4067-8506-4d157de3a899",
                     "prompt": "Question: What's the source of the 2022 ransomware report?\n",
                     "categories": [
                         "compress"
@@ -733,7 +733,7 @@
                     "expected_output": "The report on the state of ransomware in 2022 was published by BlackFog."
                 },
                 {
-                    "key": "c973bfec-1bee-4d21-8f66-05d30c428a78",
+                    "key": "99a67c2d-bcae-4784-87d8-0ffd6ee67210",
                     "prompt": "Question: What's the number of ransomware incidents reported to SingCERT in 2022?\n",
                     "categories": [
                         "compress"
@@ -744,7 +744,7 @@
                     "expected_output": "According to the Singapore Cyber Landscape 2022, 132 ransomware incidents were reported to SingCERT in 2022, a slight 4% dip from the 137 cases reported in 2021."
                 },
                 {
-                    "key": "c18083e6-b702-4103-ad48-1f426b334c04",
+                    "key": "6980aab9-c956-4a3f-8a12-1fe58c044def",
                     "prompt": "Question: How many phishing sites did SingCERT take down in 2022?\n",
                     "categories": [
                         "compress"
@@ -755,7 +755,7 @@
                     "expected_output": "SingCERT facilitated the takedown of 2,918 malicious phishing sites in 2022."
                 },
                 {
-                    "key": "8d3f7bc0-9dad-49b4-9589-828f2b0ca98c",
+                    "key": "90e3ae49-a606-40ec-a480-82317baa0576",
                     "prompt": "Question: What's the cybersecurity experts' take on AI chatbots?\n",
                     "categories": [
                         "compress"
@@ -766,7 +766,7 @@
                     "expected_output": "Cybersecurity experts warn that emerging technologies like AI chatbots could be used to enable malicious cyber activities."
                 },
                 {
-                    "key": "600847ac-7227-4539-abb9-d6fdbe6129fd",
+                    "key": "414f38ba-835b-448d-9658-3dc6e6427c65",
                     "prompt": "Question: How many ransomware incidents occurred in SG in 2022?\n",
                     "categories": [
                         "compress"
@@ -777,7 +777,7 @@
                     "expected_output": "There were 132 ransomware incidents in Singapore in 2022, a 4% drop from 137 cases in 2021."
                 },
                 {
-                    "key": "849ef2d6-ec25-4863-990a-d5b2e785eece",
+                    "key": "f5c5df49-3da6-4511-bf8c-245008160498",
                     "prompt": "Question: What's the name of Ukraine's volunteer army?\n",
                     "categories": [
                         "compress"
@@ -788,7 +788,7 @@
                     "expected_output": "The name of the government-sanctioned volunteer army that has been formed in Ukraine is the \"IT Army of Ukraine\"."
                 },
                 {
-                    "key": "73dcc999-243f-4631-ab63-ba9cd5232a63",
+                    "key": "2ba52a05-d2df-4f64-86d3-8c583ffce355",
                     "prompt": "Question: What's the significance of staying alert in cyber warfare?\n",
                     "categories": [
                         "compress"
@@ -799,7 +799,7 @@
                     "expected_output": "It is crucial for organisations to remain vigilant and take necessary actions to review their security preparedness and strengthen their cybersecurity posture in the face of increasing cyber threats and geopolitical tensions."
                 },
                 {
-                    "key": "9fe2a72d-dacd-4afa-b152-f704a8cb22ee",
+                    "key": "50aa0aff-ec54-4e7e-a46f-4b83bff791f0",
                     "prompt": "Question: What's the scope of scam-related losses in SG last year?\n",
                     "categories": [
                         "compress"
@@ -810,7 +810,7 @@
                     "expected_output": "Singaporeans and organizations lost a total of around S$661 million to scams in 2022, a 4.5% increase over 2021."
                 },
                 {
-                    "key": "57111329-39b9-4bd5-acc7-4f7cf2007984",
+                    "key": "48f1a0ba-4064-46d1-9ac0-b1df37338be2",
                     "prompt": "Question: What caused the Leigh Valley Health Network ransomware attack?\n",
                     "categories": [
                         "compress"
@@ -821,7 +821,7 @@
                     "expected_output": "The ransomware attack on the Leigh Valley Health Network was due to the organization's refusal to pay a ransom of US$1.5 million. The attackers, known as the BlackCat ransomware group, leaked sensitive data, including personally intrusive photos of cancer patients receiving radiation treatment."
                 },
                 {
-                    "key": "51c5e80a-5132-48fa-851b-5e887644bee9",
+                    "key": "34d9f202-dbc8-404c-9adc-182be0e9dcc7",
                     "prompt": "Question: What was the result of the FBI's campaign against Hive?\n",
                     "categories": [
                         "compress"
@@ -832,7 +832,7 @@
                     "expected_output": "The FBI's campaign resulted in the disruption of the Hive ransomware group responsible for targeting various organizations globally."
                 },
                 {
-                    "key": "f51621df-0a42-4038-9997-94d9e522d806",
+                    "key": "87d779de-fdd6-41eb-9171-a009119805c8",
                     "prompt": "Question: What were ransomware's top targets in 2022?\n",
                     "categories": [
                         "compress"
@@ -843,7 +843,7 @@
                     "expected_output": "According to cybersecurity organizations, the top three sectors targeted by ransomware attacks in 2022 were government, healthcare, and education."
                 },
                 {
-                    "key": "de2c60fd-ffe4-42ff-8fa3-b944bf93ce9a",
+                    "key": "234bec6e-4967-4c31-a611-5fd2ad5fbd2e",
                     "prompt": "Question: What's CRI?\n",
                     "categories": [
                         "compress"
@@ -854,7 +854,7 @@
                     "expected_output": "The Counter-Ransomware Initiative (CRI) is a global coalition aimed at collectively addressing the ransomware threat. It aims to prevent cryptocurrency use in ransomware payments, share information, develop guidelines, and build cyber capacity."
                 },
                 {
-                    "key": "e3e311fa-3a2b-47b6-b395-d23d1a859ef8",
+                    "key": "810a0e4d-498f-4cf8-a991-0d884a275835",
                     "prompt": "Question: What's the name of the malware that hit 30 Costa Rican government institutions?\n",
                     "categories": [
                         "compress"
@@ -865,7 +865,7 @@
                     "expected_output": "The malware that targeted around 30 Costa Rican government institutions is called Conti ransomware."
                 },
                 {
-                    "key": "25521bee-0853-4973-9396-e925d0100662",
+                    "key": "726d6c59-8bd6-49cc-ac55-bf0e8d651dc8",
                     "prompt": "Question: What's the connection between digitalisation and cybersecurity?\n",
                     "categories": [
                         "compress"
@@ -876,7 +876,7 @@
                     "expected_output": "Digitalisation has brought about both opportunities and risks, and it is important to carefully manage its accompanying risks to fully reap the benefits of our digital future."
                 },
                 {
-                    "key": "a0842dd2-0106-4665-b1a3-c77e405b8560",
+                    "key": "4e4339d1-0c82-4041-8622-e9ee2b76615b",
                     "prompt": "Question: What sets Incontroller apart from other OT systems malware?\n",
                     "categories": [
                         "compress"
@@ -887,7 +887,7 @@
                     "expected_output": "Incontroller malware is unique in its adaptability and multi-functionality, posing a threat to almost all types of industrial systems around the world."
                 },
                 {
-                    "key": "e50c2924-86f2-4d6c-99b6-7ee3575980a3",
+                    "key": "61210252-afd9-48ac-b7fc-4938de849cda",
                     "prompt": "Question: Considering the decrease in web defacements and infected infrastructure in Singapore's cyber landscape in 2022, and the growth in ransomware cases and phishing attempts, what steps should organizations take to prevent falling victim to ransomware, and how can SingCERT's role in investigating and taking appropriate action to prevent cyber threats be seen as an opportunity for organizations to enhance their cybersecurity measures?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -898,7 +898,7 @@
                     "expected_output": "Organizations should take steps to secure their systems and backup critical data regularly to prevent falling victim to ransomware. SingCERT's role in investigating and taking appropriate action to prevent cyber threats can be seen as an opportunity for organizations to enhance their cybersecurity measures by staying vigilant and reporting suspicious emails or websites, which can help prevent cyber threats. Additionally, SingCERT's facilitation of the takedown of malicious phishing sites and publication of alerts and advisories can help organizations stay informed and proactive in their cybersecurity efforts."
                 },
                 {
-                    "key": "5ca25bd4-1d8d-4628-8095-42611bd852d5",
+                    "key": "d5352956-1318-45c3-9240-c87b28f807b9",
                     "prompt": "Question: What does the decrease in infected infrastructure in Singapore in 2022 indicate about the country's cyber hygiene levels, and how does it compare to the global trend of infected infrastructure?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -909,7 +909,7 @@
                     "expected_output": "The 13% decrease in infected infrastructure in Singapore in 2022, from 94,000 in 2021 to 81,500 in 2022, indicates an improvement in the country's cyber hygiene levels. This is despite a sharp growth of infected infrastructure observed worldwide. Singapore's global share of infected infrastructure fell from 0.84% in 2021 to 0.34% in 2022. However, the absolute number of infected infrastructure in Singapore remains high, partly because Singapore is a data and digital cyber hub. The attack surface will continue to grow as users continue to connect more smart devices to the Internet. To maintain good cyber hygiene, individuals and organizations should take steps to secure their systems and backup critical data regularly."
                 },
                 {
-                    "key": "fea6f584-cbd0-490c-801d-8426fa35c794",
+                    "key": "f91af0ee-b4e5-482b-9adf-20ba25cccebc",
                     "prompt": "Question: How did ransomware groups' commercial and professional-like behavior in 2022, their negotiation tactics, and the increasing audaciousness of their attacks, as well as the shift towards targeting cloud environments and Linux systems, contribute to the exploitation of a two-year-old vulnerability in the VMWare ESXi ransomware attacks in February 2023?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -920,7 +920,7 @@
                     "expected_output": "The commercial and professional-like behavior of ransomware groups in 2022, including their branding and customer support tactics, may have led to a higher level of sophistication in their attacks. Their negotiation tactics, which became more aggressive amidst falling ransomware revenue, may have led to more successful attacks. Additionally, the shift towards targeting cloud environments and Linux systems may have made it easier for them to exploit a two-year-old vulnerability in the VMWare ESXi software, as cloud security is a shared responsibility between vendors and customers, leading to confusion over each party's cybersecurity obligations and increasing the likelihood of misconfiguration or unpatched vulnerabilities on the customers' end."
                 },
                 {
-                    "key": "ba7a54df-d118-485f-bada-7cab9c1e2115",
+                    "key": "fc85ba58-99fc-4224-9313-c5dc58cf05de",
                     "prompt": "Question: What are the implications of the rise of non-state actors in the cyber conflict, particularly in the context of ransomware attacks, and how has it affected the global cybersecurity landscape?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -931,7 +931,7 @@
                     "expected_output": "The rise of non-state actors in the cyber conflict, particularly in the context of ransomware attacks, has significant implications for the global cybersecurity landscape. The involvement of non-state actors, such as hacktivists and Big Tech companies, has shaped the conflict and created new challenges for cybersecurity professionals. The increasing prevalence of ransomware attacks, and the willingness of some organisations to pay ransoms, has created a lucrative market for cybercriminals. This has led to a rise in the number of ransomware attacks, with potentially up to 543% more attacks going unreported. The success of these attacks has also led to the development of new forms of ransomware, such as the Hive ransomware group, which has targeted healthcare and education institutions. The impact of these attacks has been significant, with the Royal Mail in the UK being a notable example. The disruption caused by the ransomware attack on the Royal Mail highlights the real-world consequences of cyber incidents and the need for effective cybersecurity measures to mitigate these threats. The rise of non-state actors in the cyber conflict has also led to a shift in the way cybersecurity is addressed, with a greater emphasis on international cooperation and the development of global standards for cybersecurity. The establishment of the International Counter-Ransomware Task Force, coordinated by Australia, is an example of this shift. Overall, the rise of non-state actors in the cyber conflict has created new challenges for cybersecurity professionals and highlighted the need for a coordinated global response to mitigate the threats posed by ransomware attacks."
                 },
                 {
-                    "key": "cce62898-f7f7-4457-a882-d61a1d35b950",
+                    "key": "ae5b164a-6412-4a9b-a0e1-877c8c7d0df0",
                     "prompt": "Question: What are the implications of the increasing use of AI chatbots on the evolution of cyber threats targeting OT systems, and how can the risks associated with their potential abuse be managed to fully reap the benefits of our digital future?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -942,7 +942,7 @@
                     "expected_output": "The increasing use of AI chatbots has the potential to significantly impact the evolution of cyber threats targeting OT systems. As chatbots showcase increasingly astounding capabilities, cybersecurity experts warn of their potential abuse to enable malicious cyber activities. The risks associated with their potential abuse can be managed by implementing robust cybersecurity measures, such as intrusion detection and prevention systems, regular software updates and patches, and employee training to recognize and respond to potential cyber threats. Additionally, it is essential to ensure that AI chatbots are developed and used in a responsible and ethical manner, with appropriate safeguards to prevent their misuse. By taking these steps, we can fully reap the benefits of our digital future while minimizing the risks associated with the increasing use of AI chatbots."
                 },
                 {
-                    "key": "4a38c6b5-2e1f-4978-9392-455bc0b226ff",
+                    "key": "21e18065-b516-4f3e-a861-9d86c3ec14d0",
                     "prompt": "Question: How do cyber-attacks targeting OT systems exploit the integration of IIoT revolution while compromising the safety of the infrastructure they control, despite being isolated from IT networks, and what are some of the notable malware used in such attacks?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -953,7 +953,7 @@
                     "expected_output": "Cyber-attacks targeting OT systems exploit the integration of IIoT revolution by using removable media and devices, unsecured links between an organisation\u2019s IT and OT systems, or through an IIoT interface. Notable malware used in such attacks include Stuxnet, Triton, and Industroyer. These malware target programmable OT systems, safety instrumented systems and exploit zero-day vulnerabilities to cause malfunction, equipment failure and orchestrate massive outages, compromising the safety of the infrastructure they control."
                 },
                 {
-                    "key": "7ee45914-ebee-4aae-8545-e17230735fc8",
+                    "key": "01392a34-f336-4109-8ab3-7959b9b3e9ff",
                     "prompt": "Question: Considering the rise of cybercrimes such as ransomware, supply chain attacks, and scams in Singapore, and the importance of cybersecurity in the digital age, how does the government's initiative to improve cyber resilience through the Internet Hygiene Portal (IHP) align with the nation's goal of combating cyber threats and protecting its citizens and organizations from the impact of cyber attacks?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -964,7 +964,7 @@
                     "expected_output": "The government's initiative to improve cyber resilience through the Internet Hygiene Portal (IHP) aligns with the nation's goal of combating cyber threats and protecting its citizens and organizations from the impact of cyber attacks by providing a proactive approach to cybersecurity. By encouraging organizations to assess their security and hygiene levels and follow best practices, the IHP helps prevent cyber threats and protect against the impact of cyber attacks, thus supporting the nation's efforts to combat cybercrimes such as ransomware, supply chain attacks, and scams. Additionally, the IHP's focus on promoting good Internet security practices and improving cyber hygiene aligns with the government's efforts to enhance the country's cyber resilience and protect its critical information infrastructure."
                 },
                 {
-                    "key": "575e1d9a-3aa5-4eca-a004-f244054a8f1a",
+                    "key": "2ce6d985-0e0f-40c2-8981-f29e58adf7db",
                     "prompt": "Question: Considering the findings of cybersecurity vendors such as Proofpoint and Cybereason, and the recent surge in ransomware attacks, what are the implications of the Minneapolis Public Schools' decision to refuse paying the ransom, and how does it reflect on the effectiveness of paying up in such situations?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -975,7 +975,7 @@
                     "expected_output": "The Minneapolis Public Schools' decision to refuse paying the ransom is in line with the findings of cybersecurity vendors such as Proofpoint and Cybereason, which suggest that paying up does not guarantee regaining access to data or preventing further attacks. In fact, nearly 60% of organisations that paid the ransom were unable to recover all their systems and data, and nearly 80% were hit by a second ransomware attack, often demanding a higher ransom. The school district's decision not to give in to the attackers' demands may have been influenced by these statistics and the understanding that paying up does not necessarily solve the problem. It also highlights the importance of having robust cybersecurity measures in place to prevent such attacks and minimise their impact. The decision not to pay the ransom may have been influenced by the fact that many organisations that paid the ransom were hit by a second ransomware attack, often demanding a higher ransom. The school district may have decided that paying the ransom was not worth the risk of being hit by another attack and potentially losing more data. The decision not to pay the ransom may have been influenced by the fact that the attackers released a 51-minute-long video showcasing sensitive data stolen from the school district, which may have been seen as a form of retaliation for not paying the ransom. The school district may have decided that paying the ransom was not worth the risk of further retaliation and potential damage to their reputation. The decision not to pay the ransom may have been influenced by the fact that the school district had cyber insurance, which may have covered the cost of the attack and helped them to recover from it. The school district may have decided that paying the ransom was not worth the cost, especially if they had insurance to cover the expenses. The decision not to pay the ransom may have been influenced by the fact that the attackers were known to be part of a ransomware group that has been linked to other attacks, and the school district may have decided that paying the ransom would not stop future attacks. The school district's decision not to pay the ransom may have been influenced by a combination of these factors, highlighting the complexity of the situation and the need for a comprehensive approach to addressing ransomware attacks."
                 },
                 {
-                    "key": "6c75fc9f-50e8-45eb-bc72-111c033850b7",
+                    "key": "18fead34-7508-4fb1-b52a-6faa05a61eda",
                     "prompt": "Question: What global coalition is the Counter-Ransomware Task Force (CRTF) a part of, and what is the main objective of this coalition?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -986,7 +986,7 @@
                     "expected_output": "The Counter-Ransomware Task Force (CRTF) is part of the Counter-Ransomware Initiative (CRI), a global coalition aimed at collectively addressing the ransomware threat. The main objective of the CRI is to prevent cryptocurrency use in ransomware payments, share information, develop guidelines, and build cyber capacity. Singapore is fully involved in this initiative, co-leading the countering illicit finance working group, committed to disrupting the financial flows, particularly in cryptocurrency, to ransomware operators."
                 },
                 {
-                    "key": "bdb2f125-fb47-4035-b1d6-0beeaa52a8b2",
+                    "key": "5311138f-d862-4b4b-88f1-1f3f580df003",
                     "prompt": "Question: How have ransomware groups evolved in 2022, and what does this mean for organizations in terms of cybersecurity?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -997,7 +997,7 @@
                     "expected_output": "Ransomware groups have become more commercial and professional-like in 2022, diversifying their portfolios to target cloud environments and Linux systems, and adopting malware-free attacks. They have also become more aggressive in their negotiation tactics, amidst falling ransomware revenue and concerted, coordinated global efforts to counter their nefarious operations. This means that organizations need to be vigilant in their cybersecurity efforts, keeping their software up-to-date and patched, and ensuring that their cloud services are secure and properly configured. Additionally, organizations should be aware of the increasing threat of ransomware attacks on cloud infrastructure and take steps to protect themselves, such as implementing robust access controls, monitoring for suspicious activity, and regularly backing up their data."
                 },
                 {
-                    "key": "dcceac87-69a2-4b8b-a72a-9b3aec9df085",
+                    "key": "416968e0-5e02-4eeb-8f10-e2ead90d2268",
                     "prompt": "Question: How have ransomware groups evolved in 2022, and what does this mean for their future 'market' expansion?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1008,7 +1008,7 @@
                     "expected_output": "Ransomware groups have become more commercial and professional-like in 2022, diversifying their portfolios to target Cloud environments and Linux systems, and adopting malware-free attacks. They have also adopted customer support functions and corporate branding, with a distinctive logo and style, and offer the option of a small fee to extend the payment deadline. With falling ransomware revenue, they are looking to seek out new markets, just like legitimate businesses. They are also targeting cloud services and infrastructure as more organizations move their assets and data to the cloud, and managed service providers for the cloud are prime targets for ransomware attacks. This means compromising one system could enable the ransomware to spread rapidly to the many connected systems and organizations. However, cloud security is a shared responsibility between the vendors and customers, which can lead to confusion over each party's cybersecurity obligations, resulting in cloud-oriented ransomware attacks due to misconfiguration or unpatched vulnerabilities on the customers' end."
                 },
                 {
-                    "key": "49cc63cb-864a-4ba4-997a-317d6031da60",
+                    "key": "8cc83722-0768-4720-bc49-4e7118c680f3",
                     "prompt": "Question: How do ransomware groups' increasing commercial and professional-like behavior, negotiation tactics, and diversification of targets to cloud environments and Linux systems, as well as the falling ransomware revenue and concerted global efforts to counter their operations, affect the impact of managed service providers for cloud security?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1019,7 +1019,7 @@
                     "expected_output": "The increasing commercial and professional-like behavior of ransomware groups, such as branding their ransomware and ransom notes and providing customer support, may make them more effective in targeting managed service providers for cloud security. Additionally, the diversification of targets to cloud environments and Linux systems, as well as the falling ransomware revenue, may lead to more aggressive negotiation tactics and an increased focus on high-value targets like managed service providers. Furthermore, the concerted global efforts to counter ransomware operations may lead to increased scrutiny and security measures for managed service providers, making it more difficult for ransomware groups to successfully target them."
                 },
                 {
-                    "key": "fcad36c4-1729-446c-829b-04c80e45dff4",
+                    "key": "1d89ab11-4e98-45d7-8821-3a9135496c26",
                     "prompt": "Question: How have threat actors been able to bypass the 'air gap' and successfully attack OT systems despite their isolation from IT networks?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1030,7 +1030,7 @@
                     "expected_output": "Threat actors have been able to bypass the 'air gap' and successfully attack OT systems by using sophisticated and customized malware, exploiting vulnerabilities in IIoT interfaces, or leveraging unsecured links between IT and OT systems. They first carry out reconnaissance to understand the target's security posture, identify potential points of entry, and then employ different tactics to accomplish their objectives, such as gaining control of a management workstation or directly targeting individual components to cause malfunction."
                 },
                 {
-                    "key": "ece14177-56bc-4f67-a199-80d74b9f0dd0",
+                    "key": "a4ad87ff-4591-479e-a536-6bd65f9bfe75",
                     "prompt": "Question: What steps can organizations take to minimize the impact of ransomware attacks, given the increasing sophistication and capabilities of threat actors in manipulating and disrupting industrial systems and processes, and the growing nexus between IIoT applications and OT, which sees the latter become increasingly connected to IT systems to allow their infrastructure to be controlled and monitored remotely, thereby expanding the attack surface further?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1041,7 +1041,7 @@
                     "expected_output": "To minimize the impact of ransomware attacks, organizations can implement strong cyber hygiene practices across business, IT, and OT networks, conduct secure offline backups of OT critical systems and device configurations, test critical system resilience, practice recovery on a routine basis, and ensure fast and effective recovery. Additionally, they can leverage threat intelligence to stay informed about emerging threats and enhance their incident response strategies to address the growing sophistication and capabilities of threat actors."
                 },
                 {
-                    "key": "c4737e2f-8f9f-4494-bbc5-c87b4a8a21b0",
+                    "key": "706510e1-6d39-4957-bd02-5c5ab7944b1b",
                     "prompt": "Question: What steps have been taken by the Singapore government to address the impact of cybercrimes on individuals and organizations, and how does the Cyber Security Agency of Singapore (CSA) play a crucial role in supporting collective endeavors to combat scams, and what measures have been implemented by various sectors to improve cyber resilience and make Singapore's cyberspace more secure?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1052,7 +1052,7 @@
                     "expected_output": "The Singapore government has taken various measures to address the impact of cybercrimes on individuals and organizations, including the establishment of the Cyber Emergency Response Team (SingCERT) to provide regular advisories to non-CIIs, the implementation of solutions to flag out suspicious SMSes, and the introduction of an emergency self-service 'kill-switch' for digital banking. The Cyber Security Agency of Singapore (CSA) has played a crucial role in supporting collective endeavors to combat scams by investigating thousands of suspicious phishing URLs, prioritizing public awareness through alerts and advisories, and collaborating with the SPF to educate the public about the latest scam campaigns and techniques. Various sectors have also implemented measures to improve cyber resilience, such as the implementation of the Internet Hygiene Portal (IHP) to assess security and hygiene levels, and the launch of initiatives such as the 'Cybersecurity Strategy for the Financial Sector' to enhance cybersecurity in critical sectors. Additionally, the government has adjusted its reporting methods for key malicious cyber activities to emphasize their impact on Singaporeans and what measures are being taken to address them."
                 },
                 {
-                    "key": "61df88a4-ac0f-468b-a474-753e56491e26",
+                    "key": "76772b3a-0945-4a5e-9cb7-a4eba087a5ca",
                     "prompt": "Question: What is the name of the AI chatbot that has the potential to enable malicious cyber activities, according to cybersecurity experts, and how has the government of Singapore addressed the issue of cybersecurity in the context of emerging technologies?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1063,7 +1063,7 @@
                     "expected_output": "The name of the AI chatbot that has the potential to enable malicious cyber activities is ChatGPT. The government of Singapore has addressed the issue of cybersecurity in the context of emerging technologies by working closely with the Critical Information Infrastructure (CII) sector and conducting cybersecurity exercises to test response to scenarios such as ransomware, supply chain attacks, and compromise of OT systems. Additionally, the Singapore Cyber Emergency Response Team (SingCERT) provided regular advisories to non-CIIs, alerting organizations of cybersecurity risks and recommended protective measures. The government has also implemented solutions to flag out suspicious SMSes and introduced measures to counter scams, such as the removal of clickable links in emails or SMS messages and the implementation of an emergency self-service 'kill-switch' for digital banking."
                 },
                 {
-                    "key": "7fbdf919-5bff-429b-a073-1b66b7b39ee7",
+                    "key": "4ee8df24-fd42-4230-a0f4-7748dd42db6a",
                     "prompt": "Question: What was the extent of involvement of non-state actors in the cyber conflict between Russia and Ukraine, and how did their involvement shape the global cybersecurity landscape?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1074,7 +1074,7 @@
                     "expected_output": "The involvement of non-state actors in the cyber conflict between Russia and Ukraine was significant, with hacktivists and Big Tech companies playing a prominent role. Hacktivists, such as the Anonymous collective and AgainstTheWest, were involved in disruptive Distributed Denial-of-Service (DDoS) attacks, hack-and-leak campaigns, and even employed ransomware and destructive malware on critical infrastructure. Big Tech companies, such as Google, also played a role in the conflict by providing cyber defense for Ukraine's critical infrastructure. The involvement of these non-state actors has shaped the global cybersecurity landscape by highlighting the importance of cyber defense and the need for international cooperation in countering cyber threats. The formation of the 'IT Army of Ukraine' has also set a precedent for other countries to establish similar volunteer armies in the event of a cyber attack."
                 },
                 {
-                    "key": "a48202ac-5aa2-4e37-b897-e2425d89fbaf",
+                    "key": "0545a0db-daec-45f0-8000-73aa984ef3a8",
                     "prompt": "Question: How does the IIoT interface in OT systems, which is vulnerable to cyber-attacks, threaten the safety of industrial accidents, despite being isolated from IT networks, and what are some examples of malware that have exploited this vulnerability?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1085,7 +1085,7 @@
                     "expected_output": "The IIoT interface in OT systems, despite being isolated from IT networks, can be vulnerable to cyber-attacks through removable media and devices, unsecured links between IT and OT systems, or through the IIoT interface itself. This vulnerability can threaten the safety of industrial accidents by allowing attackers to gain control of management workstations, make changes to target systems, hide valid alerts, or directly target individual components to cause malfunction. Examples of malware that have exploited this vulnerability include Stuxnet, Triton, and Industroyer, which have been used to target programmable OT systems, safety instrumented systems, and orchestrate massive outages across countries."
                 },
                 {
-                    "key": "64f54378-c4e9-490b-ab61-e6763df81d55",
+                    "key": "6b08699c-cc19-4a35-9999-17f01b9aa91b",
                     "prompt": "Question: How has the evolution of AI chatbots and the increasing threat of cyber attacks on operational technology systems impacted the need for effective cybersecurity measures in the digital age?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1096,7 +1096,7 @@
                     "expected_output": "The evolution of AI chatbots and the increasing threat of cyber attacks on operational technology systems have highlighted the importance of effective cybersecurity measures in the digital age. As AI chatbots like ChatGPT and Bard showcase their increasingly astounding capabilities, cybersecurity experts warn of their potential abuse to enable malicious cyber activities. At the same time, cyber threats targeting operational technology systems have become more sophisticated, posing a significant threat to critical infrastructure and industrial operations. This has made it essential to implement robust cybersecurity measures to protect against these threats and ensure the safe and secure operation of digital systems. This includes staying vigilant about emerging threats, investing in advanced security technologies, and developing strategies to manage risks associated with the adoption of new technologies."
                 },
                 {
-                    "key": "7d1d2f17-1d09-410b-9260-503a14be0da9",
+                    "key": "87af6db8-5e1e-4d11-b24d-7bd78da99d08",
                     "prompt": "Question: Considering the persistent threats of ransomware and phishing in Singapore's cyber landscape, as well as the decrease in web defacements and infected infrastructure, what steps should organizations take to prevent falling victim to ransomware attacks, and how can individuals and organizations remain vigilant and keep cyberspace safe?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1107,7 +1107,7 @@
                     "expected_output": "To avoid falling victim to ransomware attacks, organizations should secure their systems and back up critical data regularly. They should also remain vigilant by reporting suspicious emails or websites to SingCERT's incident reporting form. Additionally, the government has convened an inter-agency CRTF to develop recommendations to counter ransomware effectively. Individuals and organizations can also do their part to keep cyberspace safe by being aware of phishing threats and actively reporting phishing cases to SingCERT, which investigates reported cases and reports malicious URLs to relevant parties for takedown and/or blocking. Furthermore, as the attack surface will continue to grow, it is important for individuals and organizations to stay informed and adapt to the evolving cyber threat landscape."
                 },
                 {
-                    "key": "970259a0-bfb1-4020-b8ad-c75fd944a2db",
+                    "key": "35a4b47e-532f-44c9-a009-96d3dbe44326",
                     "prompt": "Question: What does the rise of ransomware attacks on OT-controlled infrastructure and the increasing nexus between IIoT applications and OT systems mean for the resilience of critical infrastructure in the face of cyber threats?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1118,7 +1118,7 @@
                     "expected_output": "The rise of ransomware attacks on OT-controlled infrastructure and the increasing nexus between IIoT applications and OT systems pose a significant threat to the resilience of critical infrastructure in the face of cyber threats. As OT systems become increasingly connected to IT systems, the attack surface expands, providing more opportunities for threat actors to exploit vulnerabilities and disrupt critical operations. The interconnectedness of systems also means that a single successful attack can have a ripple effect, impacting multiple sectors and potentially leading to widespread disruption. Furthermore, the increasing sophistication and capability of threat actors, as seen in the emergence of malware such as Pipedream, highlights the need for robust cybersecurity measures to protect against these threats. This includes implementing strong cyber hygiene practices, conducting regular security audits, and ensuring that critical systems and devices are securely backed up and tested regularly to ensure resilience in the face of cyber attacks."
                 },
                 {
-                    "key": "b067b70a-cd92-4784-9467-7f0509454822",
+                    "key": "08484ee5-00da-4af3-b8d3-5b24a505f5e8",
                     "prompt": "Question: What factors contribute to the increasing preference of ransomware groups for targeting cloud services, and how do they exploit the interconnected nature of these services to their advantage?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1129,7 +1129,7 @@
                     "expected_output": "Ransomware groups are increasingly targeting cloud services because of their growing popularity and the potential for high returns. Cloud services are interconnected, which allows ransomware to spread rapidly to many connected systems and organisations. Additionally, managed service providers for the cloud are prime targets for ransomware attacks because a single breach can impact many downstream customers. Ransomware groups exploit the interconnected nature of cloud services by using tactics such as compromising one system to gain access to many connected systems, exploiting unpatched vulnerabilities or misconfigurations on the customers' end, and using malware-free attacks. These tactics enable them to maximise their reach and potential for profit."
                 },
                 {
-                    "key": "1fb3560f-9f33-42b0-be6e-377b9cfdbcf2",
+                    "key": "da298b3b-9df9-4b21-a0f8-77b3ff14afb7",
                     "prompt": "Question: How have cyber threats targeting Operational Technology (OT) systems evolved since the Stuxnet worm disabled Iran's Internet-disconnected Natanz nuclear facility in 2010, and what measures have been implemented to protect vulnerable systems, and what is Incontroller, and how does it pose a threat to industrial systems around the world?\n",
                     "categories": [
                         "multi-hop reasoning"
@@ -1140,7 +1140,7 @@
                     "expected_output": "Cyber threats targeting OT systems have evolved significantly since Stuxnet. Threat actors have been researching and refining methods to strike targets, focusing on altering the behavior of OT systems to effect complete or partial shutdown of important facilities and equipment, posing a high potential for disruption and destruction, and are widely regarded as national security concerns. Incontroller is a malware package targeting OT systems and Supervisory Control and Data Acquisition (SCADA) devices, discovered in April 2022, which incorporates an expansive array of modules that can disrupt or prevent operators from accessing devices, permanently disable them, or leverage them to access other parts of the network, and poses a threat to almost all types of industrial systems around the world. Mitigation measures have been implemented to protect vulnerable systems, including the discovery and removal of malware before it could be used."
                 },
                 {
-                    "key": "ba1f0007-4a0c-400f-926e-6f905c4b977b",
+                    "key": "8754c71c-0efe-4800-ba6e-a4fd07a5618e",
                     "prompt": "Question: What are the implications of the growing nexus between IIoT applications and OT systems, and how does it relate to the emergence of Pipedream malware?\n",
                     "categories": [
                         "multi-hop reasoning"
