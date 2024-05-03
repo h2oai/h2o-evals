@@ -1,1038 +1,703 @@
 {
     "tests": [
         {
-            "key": "11fa89f9-3c08-46d5-8399-16b57aece647",
+            "key": "95b97fac-a1da-4550-bc4a-5608571d3bab",
             "documents": [
-                "TSLA-Q1-2023-Update",
-                "2023Q1_alphabet_earnings_release"
+                "Financial_Statements_Tesla.pdf",
+                "Financial_Statements_Alphabet.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "57331b5d-bd24-4480-af31-3c69630fc22c",
+                    "key": "890c3aac-d5ba-4008-a6df-79afbeacfc75",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the total revenue for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$23.3 billion",
-                        "24%"
-                    ],
+                    "constraints": [],
                     "expected_output": "The total revenue for Tesla in Q1 2023 was $23.3 billion, representing a 24% increase year over year."
                 },
                 {
-                    "key": "6e3d84fd-b163-4479-846f-3e41574eff5e",
+                    "key": "8df182c9-650e-45a2-87bc-b59cef4a5db1",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the operating income for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$2.7 billion",
-                        "11.4%"
-                    ],
+                    "constraints": [],
                     "expected_output": "The operating income for Tesla in Q1 2023 was $2.7 billion, resulting in an operating margin of 11.4%."
                 },
                 {
-                    "key": "068246d7-7c45-41bf-aff0-5cc8865cd833",
+                    "key": "23bb06ab-a42e-449e-affa-74f6dfad89bf",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the net income attributable to common stockholders (GAAP) for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$2.5 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The net income attributable to common stockholders (GAAP) for Tesla in Q1 2023 was $2.5 billion."
                 },
                 {
-                    "key": "7390412c-9bbe-43e2-bf0b-646934b0f534",
+                    "key": "116860a9-c64d-4d43-be44-bbfd27fdc553",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the adjusted EBITDA for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$4.3 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The adjusted EBITDA for Tesla in Q1 2023 was $4.3 billion, representing a 15% decrease year over year."
                 },
                 {
-                    "key": "f5aeadc2-54b1-40f0-aa1d-bd8526d4981f",
+                    "key": "4f24276b-4e7a-4ae8-8836-3244e5846aba",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the free cash flow for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$0.4 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The free cash flow for Tesla in Q1 2023 was $0.4 billion, representing a 80% decrease year over year."
                 },
                 {
-                    "key": "b4e3fb1b-f296-4b07-bfda-c2bc447a2053",
+                    "key": "d666a6b2-3c2b-447e-b47b-d75ea5bc1a90",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the total gross profit for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$5.4 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The total gross profit for Tesla in Q1 2023 was $5.4 billion, representing a 17% decrease year over year."
                 },
                 {
-                    "key": "d777bd15-0b2c-45fa-ae13-0bc2d43da487",
+                    "key": "cbd47e9f-5f54-4e06-8d17-7ce87a3016da",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the total gross margin for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "29.1%",
-                        "977",
-                        "basis point"
-                    ],
+                    "constraints": [],
                     "expected_output": "The total gross margin for Tesla in Q1 2023 was 29.1%, representing a 977 basis point decrease year over year."
                 },
                 {
-                    "key": "a9205164-117c-4122-af94-825a7d6ad03d",
+                    "key": "43fecdcb-77c8-4cc4-b8fc-af16f9a25ce6",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the income from operations for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$3.6 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The income from operations for Tesla in Q1 2023 was $3.6 billion, representing a 26% decrease year over year."
                 },
                 {
-                    "key": "e2b8b964-0574-4c9a-a93d-0a312f918474",
+                    "key": "a186e4ca-2fa1-48b6-9258-7a4d851d6a72",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the operating expenses for Tesla in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$1.8 billion",
-                        "1%"
-                    ],
+                    "constraints": [],
                     "expected_output": "The operating expenses for Tesla in Q1 2023 were $1.8 billion, representing a 1% decrease year over year."
                 },
                 {
-                    "key": "312664ee-b4d7-48cc-8d39-0599d26eeb49",
+                    "key": "1af6d75e-6767-49c8-9427-e2cdff062328",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the cash, cash equivalents and investments for Tesla as of Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "22.4 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The cash, cash equivalents and investments for Tesla as of Q1 2023 were $22.4 billion, representing a 24% increase year over year."
                 },
                 {
-                    "key": "a2c7c823-af14-45ae-907d-362c0aa1e78b",
+                    "key": "79d34581-77ea-4558-88ec-43bed4268973",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the impact of reduced ASP YoY on Tesla's revenue in Q1?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "negative",
-                        "$0.8B"
-                    ],
+                    "constraints": [],
                     "expected_output": "The reduced ASP YoY had a negative impact of $0.8B on Tesla's revenue in Q1."
                 },
                 {
-                    "key": "5e3e8d7c-7b1b-4cf4-8f05-94f1f799d152",
+                    "key": "ebea54d2-162b-4493-9112-f6d13f879875",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage increase in energy storage deployments in Q1 2023 compared to Q1 2022?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "360%",
-                        "3.9 GWh",
-                        "YoY"
-                    ],
+                    "constraints": [],
                     "expected_output": "Energy storage deployments increased by 360% YoY in Q1 to 3.9 GWh."
                 },
                 {
-                    "key": "fdffe3cc-3a03-4510-918f-59633630e4e9",
+                    "key": "813ab449-60c1-4d48-8a20-737e1f8976ae",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the new 40 GWh Megafactory that Tesla recently announced in Shanghai?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "Gigafactory Shanghai"
-                    ],
+                    "constraints": [],
                     "expected_output": "The new 40 GWh Megafactory that Tesla recently announced in Shanghai is called Gigafactory Shanghai."
                 },
                 {
-                    "key": "e5ad622b-f652-4b2b-ad40-9fe76c2a099c",
+                    "key": "866a39bf-b71b-4b5b-b200-50d5485146ef",
                     "prompt": "Respond to the following question.\n\nQuestion: How many vehicles did Tesla produce in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "5,000"
-                    ],
+                    "constraints": [],
                     "expected_output": "Tesla produced over 5,000 vehicles in Q1 2023."
                 },
                 {
-                    "key": "840585f8-4104-48eb-83ec-9ef2c22f4626",
+                    "key": "3cce0c4e-510c-4be5-8a9c-61097a68224f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the software stack that Tesla enabled for highway driving in Q1 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "Full Self-Driving (FSD) Beta"
-                    ],
+                    "constraints": [],
                     "expected_output": "The software stack that Tesla enabled for highway driving in Q1 2023 is called Full Self-Driving (FSD) Beta."
                 },
                 {
-                    "key": "af8f51c3-c43c-4d2c-9283-30be79baa2c7",
+                    "key": "da2fdfe7-d5af-4ae7-987b-0be28f39cf5e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the platform that Tesla launched for employee health and safety?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "Employee Health & Safety",
-                        "Tesla OS ecosystem"
-                    ],
+                    "constraints": [],
                     "expected_output": "Tesla launched a platform called Employee Health & Safety platforms as part of the broader Tesla OS ecosystem."
                 },
                 {
-                    "key": "ad38a4c3-5cfa-4572-bc8c-df786bc00b01",
+                    "key": "e1ec70a7-726a-43b2-85d7-46e4b0965b8d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the new architecture that Tesla is transitioning to for vehicle electronics?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "48 Volt architecture"
-                    ],
+                    "constraints": [],
                     "expected_output": "The new architecture that Tesla is transitioning to for vehicle electronics is called 48 Volt architecture."
                 },
                 {
-                    "key": "4e235df2-2770-49ad-93fd-b6606f8baf6d",
+                    "key": "6cc4b1ff-af69-432f-92df-b16bd98a45c2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main enabler of delivering on Tesla's mission?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "Cost reduction"
-                    ],
+                    "constraints": [],
                     "expected_output": "Cost reduction remains the main enabler of delivering on Tesla's mission."
                 },
                 {
-                    "key": "1f00dfd7-d1d6-496f-8d2f-a61aafbff7a7",
+                    "key": "20f4f8c1-f914-4a6b-9bc5-0b18f0b1ee5a",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage decline in cost in Q1 2023 compared to 2018?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "percentage",
-                        "decline",
-                        "cost",
-                        "Q1",
-                        "2023",
-                        "compared",
-                        "2018"
-                    ],
+                    "constraints": [],
                     "expected_output": "*Includes material costs, manufacturing costs, inbound and outbound logistics, warranty. Based on actual results inclusive of trim/region/production mix, normalized to 2018 for changes in market rates of lithium, nickel, steel and aluminum."
                 },
                 {
-                    "key": "cc0dd502-2ccd-4d7e-be70-cdc5bc5012dc",
+                    "key": "e08c93a9-2121-416a-9552-30436b350c8f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the second 40 GWh Megafactory that Tesla recently announced?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "Shanghai"
-                    ],
+                    "constraints": [],
                     "expected_output": "The second 40 GWh Megafactory that Tesla recently announced is located in Shanghai."
                 },
                 {
-                    "key": "2100a861-b021-4cd6-beae-bc3b93d09c57",
+                    "key": "b7e17edd-aeb5-4835-9b03-ed0421b71d75",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the target growth rate for production that Tesla began guiding to in early 2021?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "50%",
-                        "CAGR"
-                    ],
+                    "constraints": [],
                     "expected_output": "The target growth rate for production that Tesla began guiding to in early 2021 is 50% CAGR."
                 },
                 {
-                    "key": "cf888aed-a820-4b32-99dd-0ff6bd3a51aa",
+                    "key": "e31a9e46-7114-4728-8761-299f5a5777d4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the difference between GAAP and non-GAAP financial information in Tesla's financial reports?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "GAAP",
-                        "non-GAAP",
-                        "financial",
-                        "statements",
-                        "rules",
-                        "operating",
-                        "performance"
-                    ],
+                    "constraints": [],
                     "expected_output": "GAAP financial statements are prepared under a comprehensive set of accounting rules, while non-GAAP financial measures are not prepared under a comprehensive set of accounting rules and should only be read in conjunction with financial information reported under U.S. GAAP when understanding Tesla's operating performance."
                 },
                 {
-                    "key": "73e8b252-fcfa-45e8-9449-eb1cf536599d",
+                    "key": "82125677-16cf-46d4-bc3a-07e7cc4fc7a9",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the potential risks and uncertainties that may affect Tesla's financial results?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "uncertainties",
-                        "risks",
-                        "macroeconomic",
-                        "regulatory",
-                        "pandemic",
-                        "launching",
-                        "manufacturing",
-                        "sales",
-                        "delivery",
-                        "installation",
-                        "servicing",
-                        "charging",
-                        "electric vehicles",
-                        "suppliers",
-                        "lithium-ion cells",
-                        "factories",
-                        "product liability",
-                        "competition",
-                        "automotive",
-                        "energy product",
-                        "government",
-                        "economic incentives"
-                    ],
+                    "constraints": [],
                     "expected_output": "The potential risks and uncertainties that may affect Tesla's financial results include uncertainties in future macroeconomic and regulatory conditions arising from the current global pandemic, the risk of delays in launching and manufacturing products and features cost-effectively, the ability to grow sales, delivery, installation, servicing and charging capabilities, consumers' demand for electric vehicles, the ability of suppliers to deliver components according to schedules, prices, quality and volumes acceptable to Tesla, issues with lithium-ion cells or other components manufactured at Tesla's factories, risks relating to international expansion, product liability claims, competition in the automotive and energy product markets, and the status of government and economic incentives for electric vehicles and energy products."
                 },
                 {
-                    "key": "d27e2c48-849b-4c4f-8055-560845a4bef9",
+                    "key": "4857774b-0395-43c3-9ece-1e59fc1ae1ab",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the factors that could affect Tesla's ability to ramp its factories in accordance with its plans?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "ability",
-                        "procure",
-                        "supply",
-                        "battery",
-                        "cells",
-                        "manufacturing",
-                        "risks",
-                        "international",
-                        "expansion"
-                    ],
+                    "constraints": [],
                     "expected_output": "Some of the factors that could affect Tesla's ability to ramp its factories in accordance with its plans include the ability to procure supply of battery cells, including through its own manufacturing, and risks relating to international expansion."
                 },
                 {
-                    "key": "d1ff5157-9658-4d9d-8f81-efb64e948744",
+                    "key": "33bd29f1-ba12-48aa-85fb-dd88aec1db77",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the risks associated with Tesla's product financing programs?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "risk",
-                        "product",
-                        "liability",
-                        "claims",
-                        "government",
-                        "incentives",
-                        "electric",
-                        "vehicles",
-                        "energy"
-                    ],
+                    "constraints": [],
                     "expected_output": "Some of the risks associated with Tesla's product financing programs include the risk of product liability claims and the status of government and economic incentives for electric vehicles and energy products."
                 },
                 {
-                    "key": "c80422ee-0b80-4fd9-a6bd-50e3fb3cc0cf",
+                    "key": "e19d3a8c-2207-42b3-93a5-455c38a40ced",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the factors that could affect Tesla's ability to attract, hire and retain key employees and qualified personnel?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "ability",
-                        "credibility",
-                        "confidence",
-                        "business",
-                        "prospects",
-                        "risks",
-                        "product",
-                        "financing",
-                        "programs"
-                    ],
+                    "constraints": [],
                     "expected_output": "Some of the factors that could affect Tesla's ability to attract, hire and retain key employees and qualified personnel include the ability to maintain public credibility and confidence in Tesla's long-term business prospects and the ability to manage risks relating to its various product financing programs."
                 },
                 {
-                    "key": "91ab60bc-3ac7-497e-adc4-597590e8494d",
+                    "key": "d27e92ca-658a-4e54-a187-f087ee649d99",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the potential risks associated with Tesla's indebtedness and financing strategies?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "risks",
-                        "indebtedness",
-                        "financing",
-                        "strategies",
-                        "foreign",
-                        "exchange",
-                        "movements",
-                        "management"
-                    ],
+                    "constraints": [],
                     "expected_output": "Some of the potential risks associated with Tesla's indebtedness and financing strategies include risks relating to adverse foreign exchange movements and the ability to manage risks relating to its various product financing programs."
                 },
                 {
-                    "key": "7f07c826-2dce-4515-bb56-ecedc834bd3b",
+                    "key": "ba08f833-1636-471c-b4cc-6d6dbd157ce1",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the factors that could affect Tesla's ability to maintain the security of its information and production and product systems?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "ability",
-                        "risks",
-                        "product",
-                        "financing",
-                        "government",
-                        "incentives",
-                        "electric",
-                        "vehicles",
-                        "energy"
-                    ],
+                    "constraints": [],
                     "expected_output": "Some of the factors that could affect Tesla's ability to maintain the security of its information and production and product systems include the ability to manage risks relating to its various product financing programs and the status of government and economic incentives for electric vehicles and energy products."
                 },
                 {
-                    "key": "95bc4879-3d79-4b34-b7ed-5919d64d3b73",
+                    "key": "da23e9b5-d938-48b5-bef3-597e8084607c",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the potential risks associated with Tesla's international expansion?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "risks",
-                        "international",
-                        "expansion",
-                        "management"
-                    ],
+                    "constraints": [],
                     "expected_output": "Some of the potential risks associated with Tesla's international expansion include risks relating to international expansion and the ability to manage risks relating to its various product financing programs."
                 },
                 {
-                    "key": "27bf84e5-cbba-4b6c-b739-c943995ba9ac",
+                    "key": "50c0269a-24bc-44b7-af64-36458c666bc6",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the factors that could affect Tesla's ability to grow its sales, delivery, installation, servicing and charging capabilities?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "ability",
-                        "procure",
-                        "supply",
-                        "battery",
-                        "cells",
-                        "manage",
-                        "risks",
-                        "product",
-                        "financing",
-                        "programs"
-                    ],
+                    "constraints": [],
                     "expected_output": "Some of the factors that could affect Tesla's ability to grow its sales, delivery, installation, servicing and charging capabilities include the ability to procure supply of battery cells, including through its own manufacturing, and the ability to manage risks relating to its various product financing programs."
                 },
                 {
-                    "key": "e781c69b-37a5-4fcc-889a-1f7b8c4c09cd",
+                    "key": "57dae82d-9e58-4013-8517-acfd674e5d2d",
                     "prompt": "Respond to the following question.\n\nQuestion: What are some of the potential risks associated with Tesla's reliance on suppliers for components?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "risks",
-                        "suppliers",
-                        "components",
-                        "delays",
-                        "launching",
-                        "manufacturing",
-                        "cost-effectively",
-                        "ability",
-                        "manage",
-                        "risks",
-                        "product",
-                        "financing",
-                        "programs"
-                    ],
+                    "constraints": [],
                     "expected_output": "Some of the potential risks associated with Tesla's reliance on suppliers for components include the risk of delays in launching and manufacturing products and features cost-effectively and the ability to manage risks relating to its various product financing programs."
                 },
                 {
-                    "key": "82978c84-d375-4a46-b00d-5d07723f7ce2",
+                    "key": "eae2bc11-271d-44b2-8d36-7f7aeeeed33a",
                     "prompt": "Respond to the following question.\n\nQuestion: How does Tesla disclaim any obligation to update information contained in its forward-looking statements?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "does not have",
-                        "any obligation"
-                    ],
+                    "constraints": [],
                     "expected_output": "Tesla disclaims any obligation to update information contained in its forward-looking statements by stating that it does not have any obligation to update such information, whether as a result of new information, future events or otherwise."
                 },
                 {
-                    "key": "abb203fa-a6c0-4aef-90b6-e48e2a457711",
+                    "key": "a1315b62-c21f-46cc-a568-cf7c44f6d4c8",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the revenue of Alphabet Inc. in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$69.8 billion",
-                        "up 3%",
-                        "up 6%"
-                    ],
+                    "constraints": [],
                     "expected_output": "The revenue of Alphabet Inc. in the first quarter of 2023 was $69.8 billion, up 3% year over year, or up 6% in constant currency."
                 },
                 {
-                    "key": "3438a957-0b6a-45b7-8b9b-7262ecb24e68",
+                    "key": "1edd1fcf-4645-48c1-9e0d-232a261e7aa0",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the operating income of Alphabet Inc. in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$17.4 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The operating income of Alphabet Inc. in the first quarter of 2023 was $17.4 billion, down from $20.1 billion in the same period last year."
                 },
                 {
-                    "key": "4320e147-3402-44a2-baa9-8f0138b64143",
+                    "key": "9b70374c-f488-42da-8694-28429843b881",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the net income of Alphabet Inc. in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "15.1 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The net income of Alphabet Inc. in the first quarter of 2023 was $15.1 billion, down from $16.4 billion in the same period last year."
                 },
                 {
-                    "key": "5d175252-6b79-4d48-98c6-7b02c5b187b2",
+                    "key": "55f69088-d214-40de-b670-460b0f92680a",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the diluted EPS of Alphabet Inc. in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$1.17",
-                        "down",
-                        "$1.23"
-                    ],
+                    "constraints": [],
                     "expected_output": "The diluted EPS of Alphabet Inc. in the first quarter of 2023 was $1.17, down from $1.23 in the same period last year."
                 },
                 {
-                    "key": "1352b894-350d-4174-a9cc-1c259d25c288",
+                    "key": "303ecde2-1860-4b0e-bb98-45ed1da430a5",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the revenue growth of Alphabet Inc. in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "3%",
-                        "6%",
-                        "year over year",
-                        "constant currency"
-                    ],
+                    "constraints": [],
                     "expected_output": "The revenue growth of Alphabet Inc. in the first quarter of 2023 was 3% year over year, or 6% in constant currency."
                 },
                 {
-                    "key": "96fb9db8-2f03-4ec6-9b04-8e0ffbdf5612",
+                    "key": "6ae0fbd1-7723-4fa9-89ea-538d2da2bf04",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the operating margin of Alphabet Inc. in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "25%",
-                        "30%"
-                    ],
+                    "constraints": [],
                     "expected_output": "The operating margin of Alphabet Inc. in the first quarter of 2023 was 25%, down from 30% in the same period last year."
                 },
                 {
-                    "key": "0e55d5f9-d383-4208-8704-efe9610b4369",
+                    "key": "2af68c41-b454-4f51-82bb-d65d34cedf93",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the number of employees of Alphabet Inc. as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "190,711"
-                    ],
+                    "constraints": [],
                     "expected_output": "The number of employees of Alphabet Inc. as of March 31, 2023, was 190,711, up from 163,906 in the same period last year."
                 },
                 {
-                    "key": "53ab8c2a-b3d4-4223-8d32-37b7613d423e",
+                    "key": "3bffd670-62a1-47cc-835c-f60b2fc9bf27",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the segment operating result of Google Services in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$17.9 billion",
-                        "$16.3 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The segment operating result of Google Services in the first quarter of 2023 was $17.9 billion, up from $16.3 billion in the same period last year."
                 },
                 {
-                    "key": "6c4f07f3-cb2f-4938-9c9a-197dfac59bd4",
+                    "key": "aca32e46-6237-4392-a8c7-5a856c981fce",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the segment operating result of Google Cloud in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$7.5 billion",
-                        "$5.8 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The segment operating result of Google Cloud in the first quarter of 2023 was $7.5 billion, up from $5.8 billion in the same period last year."
                 },
                 {
-                    "key": "b25d77c6-7c6c-4d7c-9508-faf84444d078",
+                    "key": "36e7265b-3a90-415b-8a92-e318242e4625",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the segment operating result of Other Bets in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$288 million",
-                        "up from $440 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "The segment operating result of Other Bets in the first quarter of 2023 was $288 million, up from $440 million in the same period last year."
                 },
                 {
-                    "key": "9246e659-b7a6-4df4-81ee-e6ea3cfdd046",
+                    "key": "91cbeaf8-3455-4aa4-80d4-ffb39a08e6f5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the name of the new group that Google is creating by bringing together part of Google Research and DeepMind?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "Google DeepMind"
-                    ],
+                    "constraints": [],
                     "expected_output": "The new group is called Google DeepMind."
                 },
                 {
-                    "key": "9e821708-922f-45a8-811f-63176dee10db",
+                    "key": "105d7383-0170-4c62-868e-293b7906d5aa",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the reductions in workforce and office space that Google announced in January 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "optimize",
-                        "global",
-                        "office",
-                        "space",
-                        "evaluate",
-                        "real",
-                        "estate"
-                    ],
+                    "constraints": [],
                     "expected_output": "The purpose of the reductions in workforce and office space is to optimize Google's global office space and to further evaluate its real estate needs."
                 },
                 {
-                    "key": "6f4f3735-8e50-42be-acb3-47590c00d8f7",
+                    "key": "f5614c17-0e59-40a3-b31d-c037bdc5d6e9",
                     "prompt": "Respond to the following question.\n\nQuestion: How much did Google record in charges related to severance and office space reductions in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$2.5 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "Google recorded charges related to severance and office space reductions of $2.5 billion in the first quarter of 2023."
                 },
                 {
-                    "key": "c8e2b48f-1fc9-4dc2-942b-9055ebeb66f7",
+                    "key": "12955d31-38dc-4227-a652-aa8bdbfa9fb7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the new estimated useful life of Google's servers and network equipment, effective beginning in fiscal year 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "six years"
-                    ],
+                    "constraints": [],
                     "expected_output": "The new estimated useful life of Google's servers is six years, and the new estimated useful life of certain network equipment is six years."
                 },
                 {
-                    "key": "d96eb6bb-a641-4eb3-9de3-35e462c88c40",
+                    "key": "cf58628f-e5e7-4f80-8c22-4bcdc1b8470e",
                     "prompt": "Respond to the following question.\n\nQuestion: How much did the change in accounting estimate for the useful lives of servers and network equipment reduce depreciation expense and increase net income in the three months ended March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$988 million",
-                        "$770 million",
-                        "0.06"
-                    ],
+                    "constraints": [],
                     "expected_output": "The change in accounting estimate reduced depreciation expense by $988 million and increased net income by $770 million, or $0.06 per basic and $0.06 per diluted share."
                 },
                 {
-                    "key": "76b80e49-e1b4-4550-8d87-e256fba71db0",
+                    "key": "e4a07769-dd63-4b07-8b94-d40e0bf7f010",
                     "prompt": "Respond to the following question.\n\nQuestion: When did the timing of Google's annual employee stock-based compensation awards shift, and what was the impact on stock-based compensation expense in the first quarter of 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "The timing of Google's annual employee stock-based compensation awards shifted from January to March",
-                        "resulting in relatively less expense recognized in the first quarter compared to the remaining quarters of the year"
-                    ],
+                    "constraints": [],
                     "expected_output": "The timing of Google's annual employee stock-based compensation awards shifted from January to March, resulting in relatively less expense recognized in the first quarter compared to the remaining quarters of the year."
                 },
                 {
-                    "key": "ff2e9c63-4b86-4295-9fe5-57a722360197",
+                    "key": "46bfd11b-77ee-4e42-aba5-015f77be6c51",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount authorized by the Board of Directors of Alphabet for repurchasing Class A and Class C shares, and when was this authorization approved?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$70.0 billion",
-                        "April 19, 2023"
-                    ],
+                    "constraints": [],
                     "expected_output": "The Board of Directors of Alphabet authorized the company to repurchase up to an additional $70.0 billion of its Class A and Class C shares, and this authorization was approved on April 19, 2023."
                 },
                 {
-                    "key": "69528026-a879-4f99-b180-10611045f90c",
+                    "key": "182c5900-813f-4efd-a356-770e12fdf206",
                     "prompt": "Respond to the following question.\n\nQuestion: Where can one find the webcast and conference call information for Alphabet's first quarter 2023 earnings release call?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "https://www.youtube.com/watch?v=76CVRgZUfps"
-                    ],
+                    "constraints": [],
                     "expected_output": "The webcast and conference call information for Alphabet's first quarter 2023 earnings release call can be found on YouTube at https://www.youtube.com/watch?v=76CVRgZUfps."
                 },
                 {
-                    "key": "9e838c14-3507-4e7f-b08e-be4250443d22",
+                    "key": "ae4fbaf9-8d71-40af-8375-07a7f61e367d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the reductions in workforce and office space that Google announced in January 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "optimize",
-                        "global",
-                        "office",
-                        "space",
-                        "evaluate",
-                        "real",
-                        "estate"
-                    ],
+                    "constraints": [],
                     "expected_output": "The purpose of the reductions in workforce and office space is to optimize Google's global office space and to further evaluate its real estate needs."
                 },
                 {
-                    "key": "05f74ded-1914-4c27-b611-746264dc2d59",
+                    "key": "445168a5-bf0d-4960-be06-7c48c7c19757",
                     "prompt": "Respond to the following question.\n\nQuestion: How can one access the press release, including the reconciliations of certain non-GAAP measures to their nearest comparable GAAP measures?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "including",
-                        "reconciliations",
-                        "non-GAAP",
-                        "GAAP",
-                        "available",
-                        "http://abc.xyz/investor"
-                    ],
+                    "constraints": [],
                     "expected_output": "The press release, including the reconciliations of certain non-GAAP measures to their nearest comparable GAAP measures, is available at http://abc.xyz/investor."
                 },
                 {
-                    "key": "aac845db-89a6-436f-960b-f4609065aff7",
+                    "key": "51a26882-675c-487a-b15b-27be3c20a17b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the webcast and conference call mentioned in the press release?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "discuss",
-                        "first",
-                        "quarter",
-                        "2023",
-                        "earnings",
-                        "release"
-                    ],
+                    "constraints": [],
                     "expected_output": "The purpose of the webcast and conference call is to discuss the company's first quarter 2023 earnings release."
                 },
                 {
-                    "key": "1f66acc0-9037-49d7-994a-ec5e4138058e",
+                    "key": "ae2dde70-9684-4ca4-946d-f7ac162ea9d2",
                     "prompt": "Respond to the following question.\n\nQuestion: Where can investors find the live audio webcast of the conference call?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "https://www.youtube.com/watch?v=76CVRgZUfps"
-                    ],
+                    "constraints": [],
                     "expected_output": "The live audio webcast of the conference call can be found on YouTube at https://www.youtube.com/watch?v=76CVRgZUfps."
                 },
                 {
-                    "key": "767ea279-2897-4186-bcf0-b0669a709348",
+                    "key": "a069c09f-4364-40cc-8671-57605d3bc727",
                     "prompt": "Respond to the following question.\n\nQuestion: Where can investors find the press release, including the reconciliations of certain non-GAAP measures to their nearest comparable GAAP measures?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "including",
-                        "reconciliations",
-                        "non-GAAP",
-                        "GAAP",
-                        "investor relations",
-                        "website"
-                    ],
+                    "constraints": [],
                     "expected_output": "The press release, including the reconciliations of certain non-GAAP measures to their nearest comparable GAAP measures, can be found on the company's investor relations website at http://abc.xyz/investor."
                 },
                 {
-                    "key": "5a6412ba-eae2-45a0-9b6f-8dfff8388d0e",
+                    "key": "9f5a87b0-a38d-4091-8815-2111a001978f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the non-GAAP financial measures used by the company?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "supplement",
-                        "consolidated",
-                        "financial",
-                        "statements",
-                        "performance",
-                        "liquidity"
-                    ],
+                    "constraints": [],
                     "expected_output": "The company uses non-GAAP financial measures to supplement its consolidated financial statements, which are prepared and presented in accordance with GAAP, and to provide meaningful supplemental information regarding its performance and liquidity."
                 },
                 {
-                    "key": "e686363d-9246-4222-8da1-28a13e3160c6",
+                    "key": "c00a7f11-6ae2-4a4b-91f4-84c4f25a04ab",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the non-GAAP financial measures used by the company?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "free cash flow",
-                        "constant currency revenues",
-                        "percentage change",
-                        "constant currency revenues"
-                    ],
+                    "constraints": [],
                     "expected_output": "The company uses the following non-GAAP financial measures: free cash flow, constant currency revenues, and percentage change in constant currency revenues."
                 },
                 {
-                    "key": "b022d53f-286e-4064-9aa0-7efe58d57c6c",
+                    "key": "e371ba35-95a3-475f-855f-4170767efc21",
                     "prompt": "Respond to the following question.\n\nQuestion: Why does the company use non-GAAP financial measures?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "greater transparency",
-                        "key metrics",
-                        "financial and operational decision-making",
-                        "institutional investors",
-                        "analyst community",
-                        "health of the company's business"
-                    ],
+                    "constraints": [],
                     "expected_output": "The company uses non-GAAP financial measures because they allow for greater transparency with respect to key metrics used by management in its financial and operational decision-making, and they are used by institutional investors and the analyst community to help them analyze the health of the company's business."
                 },
                 {
-                    "key": "1a7d3f5c-6157-4d50-8194-107a2e6676d3",
+                    "key": "f358c848-9f9a-46af-83ab-ec12d87f6ec3",
                     "prompt": "Respond to the following question.\n\nQuestion: Are there any limitations related to the use of non-GAAP financial measures?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "Yes"
-                    ],
+                    "constraints": [],
                     "expected_output": "Yes, there are a number of limitations related to the use of non-GAAP financial measures, such as the fact that they may not be indicative of the company's recurring core business operating results, and that they may not be comparable to the non-GAAP financial measures used by other companies."
                 },
                 {
-                    "key": "84da1d78-04f0-44ae-b39e-6adac74dd51a",
+                    "key": "115615dd-e6bd-40a1-a882-065d39d3a2a2",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the company compensate for the limitations of non-GAAP financial measures?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "The company compensates",
-                        "GAAP amounts excluded",
-                        "non-GAAP financial measures",
-                        "relevant financial measures",
-                        "in accordance with GAAP"
-                    ],
+                    "constraints": [],
                     "expected_output": "The company compensates for the limitations of non-GAAP financial measures by providing specific information regarding the GAAP amounts excluded from these non-GAAP financial measures and evaluating these non-GAAP financial measures together with their relevant financial measures in accordance with GAAP."
                 },
                 {
-                    "key": "6863fa5d-ae2e-4b6e-9ae9-807b3ab284e1",
+                    "key": "8fe4afa5-2c27-43ce-99f1-b54b347b2b47",
                     "prompt": "Respond to the following question.\n\nQuestion: Where can investors find more information about the company's financial performance and investor events?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "investor relations website",
-                        "SEC website"
-                    ],
+                    "constraints": [],
                     "expected_output": "Investors can find more information about the company's financial performance and investor events on its investor relations website (http://abc.xyz/investor) and on the SEC website (www.sec.gov)."
                 },
                 {
-                    "key": "2493c697-1596-424c-ae3c-9ab59af76f19",
+                    "key": "bd44fe4a-3a0d-4590-b399-4f91c270a12b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of cash and cash equivalents that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "25,924 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $25,924 million in cash and cash equivalents."
                 },
                 {
-                    "key": "c4962423-8a57-4dba-8ed1-8d75a4b3c8e2",
+                    "key": "42bf7ac6-2de6-4d3f-9301-d8b7c6c0a468",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of accounts receivable, net, that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "40,258 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $40,258 million in accounts receivable, net."
                 },
                 {
-                    "key": "abefea1a-fc60-4169-b0ea-df40e2ba7078",
+                    "key": "f14466ca-9069-4f88-a311-6cd16ed60e02",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of inventory that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "2,670 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $2,670 million in inventory."
                 },
                 {
-                    "key": "41d92dc9-b0f6-49f8-b6ad-9888acc3b23d",
+                    "key": "be023e83-1bb3-4850-8bd1-d0f52111fa23",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of other current assets that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "8,105 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $8,105 million in other current assets."
                 },
                 {
-                    "key": "0b09693d-3b56-4fba-a53d-cb8fcfc46229",
+                    "key": "25d63d38-29b1-4d4e-9e0a-87d1e37c1fa8",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of non-marketable securities that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "30,492 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $30,492 million in non-marketable securities."
                 },
                 {
-                    "key": "911647de-cce6-42e4-9425-398e6ee87936",
+                    "key": "160ff7b7-e084-4039-8758-38d7e359a1d5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of deferred income taxes that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "5,261 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $5,261 million in deferred income taxes."
                 },
                 {
-                    "key": "34727332-f68b-4eb3-ad2f-9bf0d5ac67f1",
+                    "key": "7ca3dc27-53f7-4c1e-9566-7d513e3a9552",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of property and equipment, net, that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "112,668 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $112,668 million in property and equipment, net."
                 },
                 {
-                    "key": "4da3262b-1766-4c9b-bd70-200ea4258605",
+                    "key": "ab7ba602-7dc3-4417-9736-cea6887d9ef0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of operating lease assets that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "14,381 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $14,381 million in operating lease assets."
                 },
                 {
-                    "key": "c66e3dd6-816d-4c5b-bc7e-aae2a6468831",
+                    "key": "fe79331b-4c1b-452b-ab07-0e0c0bcae30a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the total amount of intangible assets, net, that Alphabet Inc. had as of March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$2,084 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "As of March 31, 2023, Alphabet Inc. had $2,084 million in intangible assets, net."
                 },
                 {
-                    "key": "0a34b802-ee12-413a-b6eb-9576f4ccc2c6",
+                    "key": "e2d68dee-347f-4360-8466-6e1451f856b4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the amount of depreciation and impairment of property and equipment for the quarter ended March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$3,591 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "The amount of depreciation and impairment of property and equipment for the quarter ended March 31, 2023, is $3,591 million."
                 },
                 {
-                    "key": "657b5a98-c8b8-4169-be37-5765ac280454",
+                    "key": "40def89d-377b-41f8-89e5-69872302f491",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the amount of stock-based compensation expense for the quarter ended March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$4,504 million"
-                    ],
+                    "constraints": [],
                     "expected_output": "The amount of stock-based compensation expense for the quarter ended March 31, 2023, is $4,504 million."
                 },
                 {
-                    "key": "ee4556f1-2f68-44c2-95d1-95894642773b",
+                    "key": "48d915c9-0376-4f6b-b693-e991d47d7b7b",
                     "prompt": "Respond to the following question.\n\nQuestion: How did constant currency revenues change from the quarter ended March 31, 2022, to the quarter ended March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "$4.1 billion",
-                        "6%",
-                        "March 31, 2022",
-                        "March 31, 2023",
-                        "67.7 billion",
-                        "71.8 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "Constant currency revenues increased by $4.1 billion, or 6%, from $67.7 billion in the quarter ended March 31, 2022, to $71.8 billion in the quarter ended March 31, 2023."
                 },
                 {
-                    "key": "cadde54f-a7a0-42a1-8571-5bc199479efa",
+                    "key": "c0ad5099-a481-43c0-b519-c873f764c241",
                     "prompt": "Respond to the following question.\n\nQuestion: How did revenues, excluding hedging effect, change from the quarter ended December 31, 2022, to the quarter ended March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "decreased",
-                        "7.1 billion",
-                        "8%",
-                        "75.4 billion",
-                        "68.3 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "Revenues, excluding hedging effect, decreased by $7.1 billion, or 8%, from $75.4 billion in the quarter ended December 31, 2022, to $68.3 billion in the quarter ended March 31, 2023."
                 },
                 {
-                    "key": "79d3bb67-ed89-4b9a-9cd2-781744487513",
+                    "key": "e5fb1110-c5ec-4226-8acd-045549364bff",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the revenues of the company change from the quarter ended March 31, 2021, to the quarter ended March 31, 2022?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "22%",
-                        "$55.4 billion",
-                        "$67.7 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The revenues of the company increased by 22% from $55.4 billion in the quarter ended March 31, 2021, to $67.7 billion in the quarter ended March 31, 2022."
                 },
                 {
-                    "key": "11589b4c-996f-4ef1-aa9f-f0b801b91931",
+                    "key": "34a97255-1fbf-4a2b-acad-81b6f42ef89d",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the constant currency revenues of the company change from the quarter ended December 31, 2022, to the quarter ended March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "decreased",
-                        "%",
-                        "$69.2 billion",
-                        "$68.3 billion"
-                    ],
+                    "constraints": [],
                     "expected_output": "The constant currency revenues of the company decreased by 1% from $69.2 billion in the quarter ended December 31, 2022, to $68.3 billion in the quarter ended March 31, 2023."
                 },
                 {
-                    "key": "2f13171f-d7bd-41ed-8bbd-799a36381ad7",
+                    "key": "dd6a075c-2695-4e8f-b77a-0a219b57324c",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage change in constant currency revenues from the quarter ended March 31, 2022, to the quarter ended March 31, 2023?\n",
                     "categories": [
                         "simple-questions"
                     ],
-                    "constraints": [
-                        "4%"
-                    ],
+                    "constraints": [],
                     "expected_output": "The percentage change in constant currency revenues from the quarter ended March 31, 2022, to the quarter ended March 31, 2023, was 4%."
                 }
             ]
