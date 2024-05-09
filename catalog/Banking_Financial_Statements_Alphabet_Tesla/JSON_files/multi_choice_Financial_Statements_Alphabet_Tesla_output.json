@@ -1,15 +1,15 @@
 {
     "tests": [
         {
-            "key": "fd45b479-e0ae-4c7a-96ad-dea13593fec0",
+            "key": "ae19b37a-f4b4-4644-8ef9-b83aed636581",
             "documents": [
                 "https://enterprise-h2ogpt-public-data.s3.amazonaws.com/h2o-evals/2023Q1_alphabet_earnings_release.pdf",
                 "https://enterprise-h2ogpt-public-data.s3.amazonaws.com/h2o-evals/TSLA-Q1-2023-Update.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "451d12eb-a173-422e-951a-271877cf87d1",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the revenue of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. $68,011\nB. $69,787\nC. $74,548\nD. $61,961\n",
+                    "key": "aa338fd2-efe0-4765-97ed-908ba95e1d85",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the revenue of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 6\nE. 8\nF. ,\nG. 0\nH. 1\nI. 1\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 6\nP. 9\nQ. ,\nR. 7\nS. 8\nT. 7\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 7\n[. 4\n\\. ,\n]. 5\n^. 4\n_. 8\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 6\nf. 1\ng. ,\nh. 9\ni. 6\nj. 1\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -19,8 +19,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "2e23c5be-9796-4fce-9611-8ac4358dc3a6",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating income of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. $17,415\nB. $20,094\nC. $11,721\nD. $7,454\n",
+                    "key": "b272634e-80e2-451e-a27e-413d3c1475b3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating income of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. 7\nF. ,\nG. 4\nH. 1\nI. 5\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 2\nP. 0\nQ. ,\nR. 0\nS. 9\nT. 4\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 1\n[. 1\n\\. ,\n]. 7\n^. 2\n_. 1\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 7\nf. ,\ng. 4\nh. 5\ni. 4\nj. '\nk. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -30,8 +30,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "a9c8f52b-a38d-40db-81e7-950bde3e88c3",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the net income of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. $15,051 million.\nB. $16,436 million.\nC. $17,415 million.\nD. $20,094 million.\n",
+                    "key": "4c2043a9-5568-4639-973c-1fe179430862",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the net income of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. 5\nF. ,\nG. 0\nH. 5\nI. 1\nJ.  \nK. m\nL. i\nM. l\nN. l\nO. i\nP. o\nQ. n\nR. .\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 1\nY. 6\nZ. ,\n[. 4\n\\. 3\n]. 6\n^.  \n_. m\n`. i\na. l\nb. l\nc. i\nd. o\ne. n\nf. .\ng. '\nh. ,\ni.  \nj. '\nk. $\nl. 1\nm. 7\nn. ,\no. 4\np. 1\nq. 5\nr.  \ns. m\nt. i\nu. l\nv. l\nw. i\nx. o\ny. n\nz. .\n{. '\n|. ,\n}.  \n~. '\n\u007f. $\n\u0080. 2\n\u0081. 0\n\u0082. ,\n\u0083. 0\n\u0084. 9\n\u0085. 4\n\u0086.  \n\u0087. m\n\u0088. i\n\u0089. l\n\u008a. l\n\u008b. i\n\u008c. o\n\u008d. n\n\u008e. .\n\u008f. '\n\u0090. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -41,8 +41,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "9cc54e50-995e-4a0f-961e-0e981f155b64",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the diluted EPS of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. $1.23\nB. $1.17\nC. $1.56\nD. $1.89\n",
+                    "key": "53b02c9f-9734-4763-ae0f-971ffe1f1e33",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the diluted EPS of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. .\nF. 2\nG. 3\nH. '\nI. ,\nJ.  \nK. '\nL. $\nM. 1\nN. .\nO. 1\nP. 7\nQ. '\nR. ,\nS.  \nT. '\nU. $\nV. 1\nW. .\nX. 5\nY. 6\nZ. '\n[. ,\n\\.  \n]. '\n^. $\n_. 1\n`. .\na. 8\nb. 9\nc. '\nd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -52,8 +52,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "b387dc56-48b4-4f0e-a6a9-425876f36704",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the revenue growth of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. 23%\nB. 3%\nC. 6%\nD. 26%\n",
+                    "key": "bff7ce40-adeb-45e6-bf6f-cd4691139762",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the revenue growth of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. 2\nD. 3\nE. %\nF. '\nG. ,\nH.  \nI. '\nJ. 3\nK. %\nL. '\nM. ,\nN.  \nO. '\nP. 6\nQ. %\nR. '\nS. ,\nT.  \nU. '\nV. 2\nW. 6\nX. %\nY. '\nZ. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -63,8 +63,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "4cc3d449-cc7d-4490-be19-565ee8bc0ea5",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating margin of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. 30%\nB. 25%\nC. 26%\nD. 3%\n",
+                    "key": "ea8730b0-b60e-4838-b2bf-aebfc13c52f9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating margin of Alphabet Inc. in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. 3\nD. 0\nE. %\nF. '\nG. ,\nH.  \nI. '\nJ. 2\nK. 5\nL. %\nM. '\nN. ,\nO.  \nP. '\nQ. 2\nR. 6\nS. %\nT. '\nU. ,\nV.  \nW. '\nX. 3\nY. %\nZ. '\n[. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -74,8 +74,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "89962ae1-6156-46ac-a6a9-1a84611df376",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the number of employees of Alphabet Inc. as of March 31, 2023?\nHow do you respond?\nA. 163,906\nB. 190,711\nC. 11,990\nD. 7,454\n",
+                    "key": "65262705-e4b2-4300-a7af-81a846452f77",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the number of employees of Alphabet Inc. as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. 1\nD. 6\nE. 3\nF. ,\nG. 9\nH. 0\nI. 6\nJ. '\nK. ,\nL.  \nM. '\nN. 1\nO. 9\nP. 0\nQ. ,\nR. 7\nS. 1\nT. 1\nU. '\nV. ,\nW.  \nX. '\nY. 1\nZ. 1\n[. ,\n\\. 9\n]. 9\n^. 0\n_. '\n`. ,\na.  \nb. '\nc. 7\nd. ,\ne. 4\nf. 5\ng. 4\nh. '\ni. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -85,8 +85,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "618f7083-1823-4a38-a9d7-52954bd06a65",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Google Services in the first quarter of 2023?\nHow do you respond?\nA. $17.415 billion\nB. $61.961 billion\nC. $40.359 billion\nD. $11.721 billion\n",
+                    "key": "22d17125-ca36-4f76-acaa-1750c01a0130",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Google Services in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. 7\nF. .\nG. 4\nH. 1\nI. 5\nJ.  \nK. b\nL. i\nM. l\nN. l\nO. i\nP. o\nQ. n\nR. '\nS. ,\nT.  \nU. '\nV. $\nW. 6\nX. 1\nY. .\nZ. 9\n[. 6\n\\. 1\n].  \n^. b\n_. i\n`. l\na. l\nb. i\nc. o\nd. n\ne. '\nf. ,\ng.  \nh. '\ni. $\nj. 4\nk. 0\nl. .\nm. 3\nn. 5\no. 9\np.  \nq. b\nr. i\ns. l\nt. l\nu. i\nv. o\nw. n\nx. '\ny. ,\nz.  \n{. '\n|. $\n}. 1\n~. 1\n\u007f. .\n\u0080. 7\n\u0081. 2\n\u0082. 1\n\u0083.  \n\u0084. b\n\u0085. i\n\u0086. l\n\u0087. l\n\u0088. i\n\u0089. o\n\u008a. n\n\u008b. '\n\u008c. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -96,8 +96,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "1f44b383-fadd-43c6-afa0-f8f8ab73b5f0",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Google Cloud in the first quarter of 2023?\nHow do you respond?\nA. $7.454 billion\nB. $5.821 billion\nC. $11.721 billion\nD. $17.415 billion\n",
+                    "key": "65a2e8f0-3648-4528-aa02-3ca50e8f9c83",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Google Cloud in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 7\nE. .\nF. 4\nG. 5\nH. 4\nI.  \nJ. b\nK. i\nL. l\nM. l\nN. i\nO. o\nP. n\nQ. '\nR. ,\nS.  \nT. '\nU. $\nV. 5\nW. .\nX. 8\nY. 2\nZ. 1\n[.  \n\\. b\n]. i\n^. l\n_. l\n`. i\na. o\nb. n\nc. '\nd. ,\ne.  \nf. '\ng. $\nh. 1\ni. 1\nj. .\nk. 7\nl. 2\nm. 1\nn.  \no. b\np. i\nq. l\nr. l\ns. i\nt. o\nu. n\nv. '\nw. ,\nx.  \ny. '\nz. $\n{. 1\n|. 7\n}. .\n~. 4\n\u007f. 1\n\u0080. 5\n\u0081.  \n\u0082. b\n\u0083. i\n\u0084. l\n\u0085. l\n\u0086. i\n\u0087. o\n\u0088. n\n\u0089. '\n\u008a. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -107,8 +107,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "9358c4e4-5b9a-436b-be0e-ece436421afa",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Other Bets in the first quarter of 2023?\nHow do you respond?\nA. $288 million profit\nB. $440 million loss\nC. $84 million profit\nD. $11,721 million loss\n",
+                    "key": "e633738b-f230-4f83-9651-e9295c0305c1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the segment operating result of Other Bets in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. 8\nF. 8\nG.  \nH. m\nI. i\nJ. l\nK. l\nL. i\nM. o\nN. n\nO.  \nP. p\nQ. r\nR. o\nS. f\nT. i\nU. t\nV. '\nW. ,\nX.  \nY. '\nZ. $\n[. 4\n\\. 4\n]. 0\n^.  \n_. m\n`. i\na. l\nb. l\nc. i\nd. o\ne. n\nf.  \ng. l\nh. o\ni. s\nj. s\nk. '\nl. ,\nm.  \nn. '\no. $\np. 8\nq. 4\nr.  \ns. m\nt. i\nu. l\nv. l\nw. i\nx. o\ny. n\nz.  \n{. p\n|. r\n}. o\n~. f\n\u007f. i\n\u0080. t\n\u0081. '\n\u0082. ,\n\u0083.  \n\u0084. '\n\u0085. $\n\u0086. 1\n\u0087. 1\n\u0088. ,\n\u0089. 7\n\u008a. 2\n\u008b. 1\n\u008c.  \n\u008d. m\n\u008e. i\n\u008f. l\n\u0090. l\n\u0091. i\n\u0092. o\n\u0093. n\n\u0094.  \n\u0095. l\n\u0096. o\n\u0097. s\n\u0098. s\n\u0099. '\n\u009a. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -118,8 +118,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "a89b679d-23d3-4777-92d6-4c9d3cdc49c5",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much did Google record in charges related to severance and office space reductions in the first quarter of 2023?\nHow do you respond?\nA. $2.5 billion\nB. $681 million\nC. $1.994 billion\nD. $564 million\n",
+                    "key": "318740f2-854d-4033-8097-a2361184281a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much did Google record in charges related to severance and office space reductions in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. .\nF. 5\nG.  \nH. b\nI. i\nJ. l\nK. l\nL. i\nM. o\nN. n\nO. '\nP. ,\nQ.  \nR. '\nS. $\nT. 6\nU. 8\nV. 1\nW.  \nX. m\nY. i\nZ. l\n[. l\n\\. i\n]. o\n^. n\n_. '\n`. ,\na.  \nb. '\nc. $\nd. 1\ne. .\nf. 9\ng. 9\nh. 4\ni.  \nj. b\nk. i\nl. l\nm. l\nn. i\no. o\np. n\nq. '\nr. ,\ns.  \nt. '\nu. $\nv. 5\nw. 6\nx. 4\ny.  \nz. m\n{. i\n|. l\n}. l\n~. i\n\u007f. o\n\u0080. n\n\u0081. '\n\u0082. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -129,8 +129,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "a1ec60a2-3672-4446-9049-bb7cba01e61b",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much did the change in accounting estimate for the useful lives of servers and network equipment reduce depreciation expense and increase net income in the three months ended March 31, 2023?\nHow do you respond?\nA. $988 million reduction in depreciation expense and $770 million increase in net income.\nB. $770 million reduction in depreciation expense and $988 million increase in net income.\nC. $1.2 billion reduction in depreciation expense and $1.5 billion increase in net income.\nD. $564 million reduction in depreciation expense and $2.5 billion increase in net income.\n",
+                    "key": "f5f86c8a-2fc6-402c-9bbc-37e8d4d74c0d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How much did the change in accounting estimate for the useful lives of servers and network equipment reduce depreciation expense and increase net income in the three months ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 9\nE. 8\nF. 8\nG.  \nH. m\nI. i\nJ. l\nK. l\nL. i\nM. o\nN. n\nO.  \nP. r\nQ. e\nR. d\nS. u\nT. c\nU. t\nV. i\nW. o\nX. n\nY.  \nZ. i\n[. n\n\\.  \n]. d\n^. e\n_. p\n`. r\na. e\nb. c\nc. i\nd. a\ne. t\nf. i\ng. o\nh. n\ni.  \nj. e\nk. x\nl. p\nm. e\nn. n\no. s\np. e\nq.  \nr. a\ns. n\nt. d\nu.  \nv. $\nw. 7\nx. 7\ny. 0\nz.  \n{. m\n|. i\n}. l\n~. l\n\u007f. i\n\u0080. o\n\u0081. n\n\u0082.  \n\u0083. i\n\u0084. n\n\u0085. c\n\u0086. r\n\u0087. e\n\u0088. a\n\u0089. s\n\u008a. e\n\u008b.  \n\u008c. i\n\u008d. n\n\u008e.  \n\u008f. n\n\u0090. e\n\u0091. t\n\u0092.  \n\u0093. i\n\u0094. n\n\u0095. c\n\u0096. o\n\u0097. m\n\u0098. e\n\u0099. .\n\u009a. '\n\u009b. ,\n\u009c.  \n\u009d. '\n\u009e. $\n\u009f. 7\n\u00a0. 7\n\u00a1. 0\n\u00a2.  \n\u00a3. m\n\u00a4. i\n\u00a5. l\n\u00a6. l\n\u00a7. i\n\u00a8. o\n\u00a9. n\n\u00aa.  \n\u00ab. r\n\u00ac. e\n\u00ad. d\n\u00ae. u\n\u00af. c\n\u00b0. t\n\u00b1. i\n\u00b2. o\n\u00b3. n\n\u00b4.  \n\u00b5. i\n\u00b6. n\n\u00b7.  \n\u00b8. d\n\u00b9. e\n\u00ba. p\n\u00bb. r\n\u00bc. e\n\u00bd. c\n\u00be. i\n\u00bf. a\n\u00c0. t\n\u00c1. i\n\u00c2. o\n\u00c3. n\n\u00c4.  \n\u00c5. e\n\u00c6. x\n\u00c7. p\n\u00c8. e\n\u00c9. n\n\u00ca. s\n\u00cb. e\n\u00cc.  \n\u00cd. a\n\u00ce. n\n\u00cf. d\n\u00d0.  \n\u00d1. $\n\u00d2. 9\n\u00d3. 8\n\u00d4. 8\n\u00d5.  \n\u00d6. m\n\u00d7. i\n\u00d8. l\n\u00d9. l\n\u00da. i\n\u00db. o\n\u00dc. n\n\u00dd.  \n\u00de. i\n\u00df. n\n\u00e0. c\n\u00e1. r\n\u00e2. e\n\u00e3. a\n\u00e4. s\n\u00e5. e\n\u00e6.  \n\u00e7. i\n\u00e8. n\n\u00e9.  \n\u00ea. n\n\u00eb. e\n\u00ec. t\n\u00ed.  \n\u00ee. i\n\u00ef. n\n\u00f0. c\n\u00f1. o\n\u00f2. m\n\u00f3. e\n\u00f4. .\n\u00f5. '\n\u00f6. ,\n\u00f7.  \n\u00f8. '\n\u00f9. $\n\u00fa. 1\n\u00fb. .\n\u00fc. 2\n\u00fd.  \n\u00fe. b\n\u00ff. i\n\u0100. l\n\u0101. l\n\u0102. i\n\u0103. o\n\u0104. n\n\u0105.  \n\u0106. r\n\u0107. e\n\u0108. d\n\u0109. u\n\u010a. c\n\u010b. t\n\u010c. i\n\u010d. o\n\u010e. n\n\u010f.  \n\u0110. i\n\u0111. n\n\u0112.  \n\u0113. d\n\u0114. e\n\u0115. p\n\u0116. r\n\u0117. e\n\u0118. c\n\u0119. i\n\u011a. a\n\u011b. t\n\u011c. i\n\u011d. o\n\u011e. n\n\u011f.  \n\u0120. e\n\u0121. x\n\u0122. p\n\u0123. e\n\u0124. n\n\u0125. s\n\u0126. e\n\u0127.  \n\u0128. a\n\u0129. n\n\u012a. d\n\u012b.  \n\u012c. $\n\u012d. 1\n\u012e. .\n\u012f. 5\n\u0130.  \n\u0131. b\n\u0132. i\n\u0133. l\n\u0134. l\n\u0135. i\n\u0136. o\n\u0137. n\n\u0138.  \n\u0139. i\n\u013a. n\n\u013b. c\n\u013c. r\n\u013d. e\n\u013e. a\n\u013f. s\n\u0140. e\n\u0141.  \n\u0142. i\n\u0143. n\n\u0144.  \n\u0145. n\n\u0146. e\n\u0147. t\n\u0148.  \n\u0149. i\n\u014a. n\n\u014b. c\n\u014c. o\n\u014d. m\n\u014e. e\n\u014f. .\n\u0150. '\n\u0151. ,\n\u0152.  \n\u0153. '\n\u0154. $\n\u0155. 5\n\u0156. 6\n\u0157. 4\n\u0158.  \n\u0159. m\n\u015a. i\n\u015b. l\n\u015c. l\n\u015d. i\n\u015e. o\n\u015f. n\n\u0160.  \n\u0161. r\n\u0162. e\n\u0163. d\n\u0164. u\n\u0165. c\n\u0166. t\n\u0167. i\n\u0168. o\n\u0169. n\n\u016a.  \n\u016b. i\n\u016c. n\n\u016d.  \n\u016e. d\n\u016f. e\n\u0170. p\n\u0171. r\n\u0172. e\n\u0173. c\n\u0174. i\n\u0175. a\n\u0176. t\n\u0177. i\n\u0178. o\n\u0179. n\n\u017a.  \n\u017b. e\n\u017c. x\n\u017d. p\n\u017e. e\n\u017f. n\n\u0180. s\n\u0181. e\n\u0182.  \n\u0183. a\n\u0184. n\n\u0185. d\n\u0186.  \n\u0187. $\n\u0188. 2\n\u0189. .\n\u018a. 5\n\u018b.  \n\u018c. b\n\u018d. i\n\u018e. l\n\u018f. l\n\u0190. i\n\u0191. o\n\u0192. n\n\u0193.  \n\u0194. i\n\u0195. n\n\u0196. c\n\u0197. r\n\u0198. e\n\u0199. a\n\u019a. s\n\u019b. e\n\u019c.  \n\u019d. i\n\u019e. n\n\u019f.  \n\u01a0. n\n\u01a1. e\n\u01a2. t\n\u01a3.  \n\u01a4. i\n\u01a5. n\n\u01a6. c\n\u01a7. o\n\u01a8. m\n\u01a9. e\n\u01aa. .\n\u01ab. '\n\u01ac. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -140,8 +140,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "876b95ca-dc1b-4179-946b-6d0cbedd7253",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the webcast and conference call mentioned in the press release?\nHow do you respond?\nA. To provide information about the company's financial performance and future plans.\nB. To announce the company's earnings release for the first quarter of 2023.\nC. To discuss the company's strategy for growth and development.\nD. To introduce new products and services offered by the company.\n",
+                    "key": "0570a95f-6b16-46ff-97d2-dcd5ebf0571d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the webcast and conference call mentioned in the press release?\nHow do you respond?\nA. [\nB. \"\nC. T\nD. o\nE.  \nF. p\nG. r\nH. o\nI. v\nJ. i\nK. d\nL. e\nM.  \nN. i\nO. n\nP. f\nQ. o\nR. r\nS. m\nT. a\nU. t\nV. i\nW. o\nX. n\nY.  \nZ. a\n[. b\n\\. o\n]. u\n^. t\n_.  \n`. t\na. h\nb. e\nc.  \nd. c\ne. o\nf. m\ng. p\nh. a\ni. n\nj. y\nk. '\nl. s\nm.  \nn. f\no. i\np. n\nq. a\nr. n\ns. c\nt. i\nu. a\nv. l\nw.  \nx. p\ny. e\nz. r\n{. f\n|. o\n}. r\n~. m\n\u007f. a\n\u0080. n\n\u0081. c\n\u0082. e\n\u0083.  \n\u0084. a\n\u0085. n\n\u0086. d\n\u0087.  \n\u0088. f\n\u0089. u\n\u008a. t\n\u008b. u\n\u008c. r\n\u008d. e\n\u008e.  \n\u008f. p\n\u0090. l\n\u0091. a\n\u0092. n\n\u0093. s\n\u0094. .\n\u0095. \"\n\u0096. ,\n\u0097.  \n\u0098. \"\n\u0099. T\n\u009a. o\n\u009b.  \n\u009c. a\n\u009d. n\n\u009e. n\n\u009f. o\n\u00a0. u\n\u00a1. n\n\u00a2. c\n\u00a3. e\n\u00a4.  \n\u00a5. t\n\u00a6. h\n\u00a7. e\n\u00a8.  \n\u00a9. c\n\u00aa. o\n\u00ab. m\n\u00ac. p\n\u00ad. a\n\u00ae. n\n\u00af. y\n\u00b0. '\n\u00b1. s\n\u00b2.  \n\u00b3. e\n\u00b4. a\n\u00b5. r\n\u00b6. n\n\u00b7. i\n\u00b8. n\n\u00b9. g\n\u00ba. s\n\u00bb.  \n\u00bc. r\n\u00bd. e\n\u00be. l\n\u00bf. e\n\u00c0. a\n\u00c1. s\n\u00c2. e\n\u00c3.  \n\u00c4. f\n\u00c5. o\n\u00c6. r\n\u00c7.  \n\u00c8. t\n\u00c9. h\n\u00ca. e\n\u00cb.  \n\u00cc. f\n\u00cd. i\n\u00ce. r\n\u00cf. s\n\u00d0. t\n\u00d1.  \n\u00d2. q\n\u00d3. u\n\u00d4. a\n\u00d5. r\n\u00d6. t\n\u00d7. e\n\u00d8. r\n\u00d9.  \n\u00da. o\n\u00db. f\n\u00dc.  \n\u00dd. 2\n\u00de. 0\n\u00df. 2\n\u00e0. 3\n\u00e1. .\n\u00e2. \"\n\u00e3. ,\n\u00e4.  \n\u00e5. \"\n\u00e6. T\n\u00e7. o\n\u00e8.  \n\u00e9. d\n\u00ea. i\n\u00eb. s\n\u00ec. c\n\u00ed. u\n\u00ee. s\n\u00ef. s\n\u00f0.  \n\u00f1. t\n\u00f2. h\n\u00f3. e\n\u00f4.  \n\u00f5. c\n\u00f6. o\n\u00f7. m\n\u00f8. p\n\u00f9. a\n\u00fa. n\n\u00fb. y\n\u00fc. '\n\u00fd. s\n\u00fe.  \n\u00ff. s\n\u0100. t\n\u0101. r\n\u0102. a\n\u0103. t\n\u0104. e\n\u0105. g\n\u0106. y\n\u0107.  \n\u0108. f\n\u0109. o\n\u010a. r\n\u010b.  \n\u010c. g\n\u010d. r\n\u010e. o\n\u010f. w\n\u0110. t\n\u0111. h\n\u0112.  \n\u0113. a\n\u0114. n\n\u0115. d\n\u0116.  \n\u0117. d\n\u0118. e\n\u0119. v\n\u011a. e\n\u011b. l\n\u011c. o\n\u011d. p\n\u011e. m\n\u011f. e\n\u0120. n\n\u0121. t\n\u0122. .\n\u0123. \"\n\u0124. ,\n\u0125.  \n\u0126. '\n\u0127. T\n\u0128. o\n\u0129.  \n\u012a. i\n\u012b. n\n\u012c. t\n\u012d. r\n\u012e. o\n\u012f. d\n\u0130. u\n\u0131. c\n\u0132. e\n\u0133.  \n\u0134. n\n\u0135. e\n\u0136. w\n\u0137.  \n\u0138. p\n\u0139. r\n\u013a. o\n\u013b. d\n\u013c. u\n\u013d. c\n\u013e. t\n\u013f. s\n\u0140.  \n\u0141. a\n\u0142. n\n\u0143. d\n\u0144.  \n\u0145. s\n\u0146. e\n\u0147. r\n\u0148. v\n\u0149. i\n\u014a. c\n\u014b. e\n\u014c. s\n\u014d.  \n\u014e. o\n\u014f. f\n\u0150. f\n\u0151. e\n\u0152. r\n\u0153. e\n\u0154. d\n\u0155.  \n\u0156. b\n\u0157. y\n\u0158.  \n\u0159. t\n\u015a. h\n\u015b. e\n\u015c.  \n\u015d. c\n\u015e. o\n\u015f. m\n\u0160. p\n\u0161. a\n\u0162. n\n\u0163. y\n\u0164. .\n\u0165. '\n\u0166. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -151,8 +151,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "cf700408-b107-4c37-a291-f5a646d0b79b",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find the live audio webcast of the conference call?\nHow do you respond?\nA. On YouTube at https://www.youtube.com/watch?v=76CVRgZUfps.\nB. On the company's investor relations website at http://abc.xyz/investor.\nC. On Google's Keyword blog at https://www.blog.google/.\nD. On the SEC website at www.sec.gov.\n",
+                    "key": "7f038dc8-3745-4dd6-ae7a-2007847cd401",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find the live audio webcast of the conference call?\nHow do you respond?\nA. [\nB. '\nC. O\nD. n\nE.  \nF. Y\nG. o\nH. u\nI. T\nJ. u\nK. b\nL. e\nM.  \nN. a\nO. t\nP.  \nQ. h\nR. t\nS. t\nT. p\nU. s\nV. :\nW. /\nX. /\nY. w\nZ. w\n[. w\n\\. .\n]. y\n^. o\n_. u\n`. t\na. u\nb. b\nc. e\nd. .\ne. c\nf. o\ng. m\nh. /\ni. w\nj. a\nk. t\nl. c\nm. h\nn. ?\no. v\np. =\nq. 7\nr. 6\ns. C\nt. V\nu. R\nv. g\nw. Z\nx. U\ny. f\nz. p\n{. s\n|. .\n}. '\n~. ,\n\u007f.  \n\u0080. \"\n\u0081. O\n\u0082. n\n\u0083.  \n\u0084. t\n\u0085. h\n\u0086. e\n\u0087.  \n\u0088. c\n\u0089. o\n\u008a. m\n\u008b. p\n\u008c. a\n\u008d. n\n\u008e. y\n\u008f. '\n\u0090. s\n\u0091.  \n\u0092. i\n\u0093. n\n\u0094. v\n\u0095. e\n\u0096. s\n\u0097. t\n\u0098. o\n\u0099. r\n\u009a.  \n\u009b. r\n\u009c. e\n\u009d. l\n\u009e. a\n\u009f. t\n\u00a0. i\n\u00a1. o\n\u00a2. n\n\u00a3. s\n\u00a4.  \n\u00a5. w\n\u00a6. e\n\u00a7. b\n\u00a8. s\n\u00a9. i\n\u00aa. t\n\u00ab. e\n\u00ac.  \n\u00ad. a\n\u00ae. t\n\u00af.  \n\u00b0. h\n\u00b1. t\n\u00b2. t\n\u00b3. p\n\u00b4. :\n\u00b5. /\n\u00b6. /\n\u00b7. a\n\u00b8. b\n\u00b9. c\n\u00ba. .\n\u00bb. x\n\u00bc. y\n\u00bd. z\n\u00be. /\n\u00bf. i\n\u00c0. n\n\u00c1. v\n\u00c2. e\n\u00c3. s\n\u00c4. t\n\u00c5. o\n\u00c6. r\n\u00c7. .\n\u00c8. \"\n\u00c9. ,\n\u00ca.  \n\u00cb. \"\n\u00cc. O\n\u00cd. n\n\u00ce.  \n\u00cf. G\n\u00d0. o\n\u00d1. o\n\u00d2. g\n\u00d3. l\n\u00d4. e\n\u00d5. '\n\u00d6. s\n\u00d7.  \n\u00d8. K\n\u00d9. e\n\u00da. y\n\u00db. w\n\u00dc. o\n\u00dd. r\n\u00de. d\n\u00df.  \n\u00e0. b\n\u00e1. l\n\u00e2. o\n\u00e3. g\n\u00e4.  \n\u00e5. a\n\u00e6. t\n\u00e7.  \n\u00e8. h\n\u00e9. t\n\u00ea. t\n\u00eb. p\n\u00ec. s\n\u00ed. :\n\u00ee. /\n\u00ef. /\n\u00f0. w\n\u00f1. w\n\u00f2. w\n\u00f3. .\n\u00f4. b\n\u00f5. l\n\u00f6. o\n\u00f7. g\n\u00f8. .\n\u00f9. g\n\u00fa. o\n\u00fb. o\n\u00fc. g\n\u00fd. l\n\u00fe. e\n\u00ff. /\n\u0100. .\n\u0101. \"\n\u0102. ,\n\u0103.  \n\u0104. '\n\u0105. O\n\u0106. n\n\u0107.  \n\u0108. t\n\u0109. h\n\u010a. e\n\u010b.  \n\u010c. S\n\u010d. E\n\u010e. C\n\u010f.  \n\u0110. w\n\u0111. e\n\u0112. b\n\u0113. s\n\u0114. i\n\u0115. t\n\u0116. e\n\u0117.  \n\u0118. a\n\u0119. t\n\u011a.  \n\u011b. w\n\u011c. w\n\u011d. w\n\u011e. .\n\u011f. s\n\u0120. e\n\u0121. c\n\u0122. .\n\u0123. g\n\u0124. o\n\u0125. v\n\u0126. .\n\u0127. '\n\u0128. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -162,8 +162,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "cb51b5c0-e1f0-49b6-8a29-e2666598848e",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What time does the conference call begin?\nHow do you respond?\nA. 2:00 PM (PT)\nB. 5:00 PM (ET)\nC. 7:00 PM (CT)\nD. 8:00 PM (MT)\n",
+                    "key": "1370372c-6989-4194-ba02-29e377a3e535",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What time does the conference call begin?\nHow do you respond?\nA. [\nB. '\nC. 2\nD. :\nE. 0\nF. 0\nG.  \nH. P\nI. M\nJ.  \nK. (\nL. P\nM. T\nN. )\nO. '\nP. ,\nQ.  \nR. '\nS. 5\nT. :\nU. 0\nV. 0\nW.  \nX. P\nY. M\nZ.  \n[. (\n\\. E\n]. T\n^. )\n_. '\n`. ,\na.  \nb. '\nc. 7\nd. :\ne. 0\nf. 0\ng.  \nh. P\ni. M\nj.  \nk. (\nl. C\nm. T\nn. )\no. '\np. ,\nq.  \nr. '\ns. 8\nt. :\nu. 0\nv. 0\nw.  \nx. P\ny. M\nz.  \n{. (\n|. M\n}. T\n~. )\n\u007f. '\n\u0080. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -173,8 +173,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "e0d26826-54bb-40b5-8cc8-7e39472e6196",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find the press release, including the reconciliations of certain non-GAAP measures to their nearest comparable GAAP measures?\nHow do you respond?\nA. On the company's investor relations website (http://abc.xyz/investor)\nB. On Google's Keyword blog at https://www.blog.google/\nC. On the SEC website at www.sec.gov\nD. On YouTube at https://www.youtube.com/watch?v=76CVRgZUfps\n",
+                    "key": "aa3194b0-3784-4687-9c53-a7370e35f51c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find the press release, including the reconciliations of certain non-GAAP measures to their nearest comparable GAAP measures?\nHow do you respond?\nA. [\nB. \"\nC. O\nD. n\nE.  \nF. t\nG. h\nH. e\nI.  \nJ. c\nK. o\nL. m\nM. p\nN. a\nO. n\nP. y\nQ. '\nR. s\nS.  \nT. i\nU. n\nV. v\nW. e\nX. s\nY. t\nZ. o\n[. r\n\\.  \n]. r\n^. e\n_. l\n`. a\na. t\nb. i\nc. o\nd. n\ne. s\nf.  \ng. w\nh. e\ni. b\nj. s\nk. i\nl. t\nm. e\nn.  \no. (\np. h\nq. t\nr. t\ns. p\nt. :\nu. /\nv. /\nw. a\nx. b\ny. c\nz. .\n{. x\n|. y\n}. z\n~. /\n\u007f. i\n\u0080. n\n\u0081. v\n\u0082. e\n\u0083. s\n\u0084. t\n\u0085. o\n\u0086. r\n\u0087. )\n\u0088. \"\n\u0089. ,\n\u008a.  \n\u008b. \"\n\u008c. O\n\u008d. n\n\u008e.  \n\u008f. G\n\u0090. o\n\u0091. o\n\u0092. g\n\u0093. l\n\u0094. e\n\u0095. '\n\u0096. s\n\u0097.  \n\u0098. K\n\u0099. e\n\u009a. y\n\u009b. w\n\u009c. o\n\u009d. r\n\u009e. d\n\u009f.  \n\u00a0. b\n\u00a1. l\n\u00a2. o\n\u00a3. g\n\u00a4.  \n\u00a5. a\n\u00a6. t\n\u00a7.  \n\u00a8. h\n\u00a9. t\n\u00aa. t\n\u00ab. p\n\u00ac. s\n\u00ad. :\n\u00ae. /\n\u00af. /\n\u00b0. w\n\u00b1. w\n\u00b2. w\n\u00b3. .\n\u00b4. b\n\u00b5. l\n\u00b6. o\n\u00b7. g\n\u00b8. .\n\u00b9. g\n\u00ba. o\n\u00bb. o\n\u00bc. g\n\u00bd. l\n\u00be. e\n\u00bf. /\n\u00c0. \"\n\u00c1. ,\n\u00c2.  \n\u00c3. '\n\u00c4. O\n\u00c5. n\n\u00c6.  \n\u00c7. t\n\u00c8. h\n\u00c9. e\n\u00ca.  \n\u00cb. S\n\u00cc. E\n\u00cd. C\n\u00ce.  \n\u00cf. w\n\u00d0. e\n\u00d1. b\n\u00d2. s\n\u00d3. i\n\u00d4. t\n\u00d5. e\n\u00d6.  \n\u00d7. a\n\u00d8. t\n\u00d9.  \n\u00da. w\n\u00db. w\n\u00dc. w\n\u00dd. .\n\u00de. s\n\u00df. e\n\u00e0. c\n\u00e1. .\n\u00e2. g\n\u00e3. o\n\u00e4. v\n\u00e5. '\n\u00e6. ,\n\u00e7.  \n\u00e8. '\n\u00e9. O\n\u00ea. n\n\u00eb.  \n\u00ec. Y\n\u00ed. o\n\u00ee. u\n\u00ef. T\n\u00f0. u\n\u00f1. b\n\u00f2. e\n\u00f3.  \n\u00f4. a\n\u00f5. t\n\u00f6.  \n\u00f7. h\n\u00f8. t\n\u00f9. t\n\u00fa. p\n\u00fb. s\n\u00fc. :\n\u00fd. /\n\u00fe. /\n\u00ff. w\n\u0100. w\n\u0101. w\n\u0102. .\n\u0103. y\n\u0104. o\n\u0105. u\n\u0106. t\n\u0107. u\n\u0108. b\n\u0109. e\n\u010a. .\n\u010b. c\n\u010c. o\n\u010d. m\n\u010e. /\n\u010f. w\n\u0110. a\n\u0111. t\n\u0112. c\n\u0113. h\n\u0114. ?\n\u0115. v\n\u0116. =\n\u0117. 7\n\u0118. 6\n\u0119. C\n\u011a. V\n\u011b. R\n\u011c. g\n\u011d. Z\n\u011e. U\n\u011f. f\n\u0120. p\n\u0121. s\n\u0122. '\n\u0123. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -184,8 +184,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "eadb83f9-0b58-4c8c-9836-f8ad00a1673f",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the non-GAAP financial measures used by the company?\nHow do you respond?\nA. To provide meaningful supplemental information regarding the company's performance and liquidity by excluding certain items that may not be indicative of its recurring core business operating results.\nB. To present a more optimistic financial picture than the GAAP financial measures would suggest.\nC. To comply with the requirements of the Securities and Exchange Commission (SEC).\nD. To provide a basis for the company's financial statements that is different from GAAP.\n",
+                    "key": "f01781a5-dd45-40d1-8c8e-d6a89cffe9da",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of the non-GAAP financial measures used by the company?\nHow do you respond?\nA. [\nB. \"\nC. T\nD. o\nE.  \nF. p\nG. r\nH. o\nI. v\nJ. i\nK. d\nL. e\nM.  \nN. m\nO. e\nP. a\nQ. n\nR. i\nS. n\nT. g\nU. f\nV. u\nW. l\nX.  \nY. s\nZ. u\n[. p\n\\. p\n]. l\n^. e\n_. m\n`. e\na. n\nb. t\nc. a\nd. l\ne.  \nf. i\ng. n\nh. f\ni. o\nj. r\nk. m\nl. a\nm. t\nn. i\no. o\np. n\nq.  \nr. r\ns. e\nt. g\nu. a\nv. r\nw. d\nx. i\ny. n\nz. g\n{.  \n|. t\n}. h\n~. e\n\u007f.  \n\u0080. c\n\u0081. o\n\u0082. m\n\u0083. p\n\u0084. a\n\u0085. n\n\u0086. y\n\u0087. '\n\u0088. s\n\u0089.  \n\u008a. p\n\u008b. e\n\u008c. r\n\u008d. f\n\u008e. o\n\u008f. r\n\u0090. m\n\u0091. a\n\u0092. n\n\u0093. c\n\u0094. e\n\u0095.  \n\u0096. a\n\u0097. n\n\u0098. d\n\u0099.  \n\u009a. l\n\u009b. i\n\u009c. q\n\u009d. u\n\u009e. i\n\u009f. d\n\u00a0. i\n\u00a1. t\n\u00a2. y\n\u00a3.  \n\u00a4. b\n\u00a5. y\n\u00a6.  \n\u00a7. e\n\u00a8. x\n\u00a9. c\n\u00aa. l\n\u00ab. u\n\u00ac. d\n\u00ad. i\n\u00ae. n\n\u00af. g\n\u00b0.  \n\u00b1. c\n\u00b2. e\n\u00b3. r\n\u00b4. t\n\u00b5. a\n\u00b6. i\n\u00b7. n\n\u00b8.  \n\u00b9. i\n\u00ba. t\n\u00bb. e\n\u00bc. m\n\u00bd. s\n\u00be.  \n\u00bf. t\n\u00c0. h\n\u00c1. a\n\u00c2. t\n\u00c3.  \n\u00c4. m\n\u00c5. a\n\u00c6. y\n\u00c7.  \n\u00c8. n\n\u00c9. o\n\u00ca. t\n\u00cb.  \n\u00cc. b\n\u00cd. e\n\u00ce.  \n\u00cf. i\n\u00d0. n\n\u00d1. d\n\u00d2. i\n\u00d3. c\n\u00d4. a\n\u00d5. t\n\u00d6. i\n\u00d7. v\n\u00d8. e\n\u00d9.  \n\u00da. o\n\u00db. f\n\u00dc.  \n\u00dd. i\n\u00de. t\n\u00df. s\n\u00e0.  \n\u00e1. r\n\u00e2. e\n\u00e3. c\n\u00e4. u\n\u00e5. r\n\u00e6. r\n\u00e7. i\n\u00e8. n\n\u00e9. g\n\u00ea.  \n\u00eb. c\n\u00ec. o\n\u00ed. r\n\u00ee. e\n\u00ef.  \n\u00f0. b\n\u00f1. u\n\u00f2. s\n\u00f3. i\n\u00f4. n\n\u00f5. e\n\u00f6. s\n\u00f7. s\n\u00f8.  \n\u00f9. o\n\u00fa. p\n\u00fb. e\n\u00fc. r\n\u00fd. a\n\u00fe. t\n\u00ff. i\n\u0100. n\n\u0101. g\n\u0102.  \n\u0103. r\n\u0104. e\n\u0105. s\n\u0106. u\n\u0107. l\n\u0108. t\n\u0109. s\n\u010a. .\n\u010b. \"\n\u010c. ,\n\u010d.  \n\u010e. '\n\u010f. T\n\u0110. o\n\u0111.  \n\u0112. p\n\u0113. r\n\u0114. e\n\u0115. s\n\u0116. e\n\u0117. n\n\u0118. t\n\u0119.  \n\u011a. a\n\u011b.  \n\u011c. m\n\u011d. o\n\u011e. r\n\u011f. e\n\u0120.  \n\u0121. o\n\u0122. p\n\u0123. t\n\u0124. i\n\u0125. m\n\u0126. i\n\u0127. s\n\u0128. t\n\u0129. i\n\u012a. c\n\u012b.  \n\u012c. f\n\u012d. i\n\u012e. n\n\u012f. a\n\u0130. n\n\u0131. c\n\u0132. i\n\u0133. a\n\u0134. l\n\u0135.  \n\u0136. p\n\u0137. i\n\u0138. c\n\u0139. t\n\u013a. u\n\u013b. r\n\u013c. e\n\u013d.  \n\u013e. t\n\u013f. h\n\u0140. a\n\u0141. n\n\u0142.  \n\u0143. t\n\u0144. h\n\u0145. e\n\u0146.  \n\u0147. G\n\u0148. A\n\u0149. A\n\u014a. P\n\u014b.  \n\u014c. f\n\u014d. i\n\u014e. n\n\u014f. a\n\u0150. n\n\u0151. c\n\u0152. i\n\u0153. a\n\u0154. l\n\u0155.  \n\u0156. m\n\u0157. e\n\u0158. a\n\u0159. s\n\u015a. u\n\u015b. r\n\u015c. e\n\u015d. s\n\u015e.  \n\u015f. w\n\u0160. o\n\u0161. u\n\u0162. l\n\u0163. d\n\u0164.  \n\u0165. s\n\u0166. u\n\u0167. g\n\u0168. g\n\u0169. e\n\u016a. s\n\u016b. t\n\u016c. .\n\u016d. '\n\u016e. ,\n\u016f.  \n\u0170. '\n\u0171. T\n\u0172. o\n\u0173.  \n\u0174. c\n\u0175. o\n\u0176. m\n\u0177. p\n\u0178. l\n\u0179. y\n\u017a.  \n\u017b. w\n\u017c. i\n\u017d. t\n\u017e. h\n\u017f.  \n\u0180. t\n\u0181. h\n\u0182. e\n\u0183.  \n\u0184. r\n\u0185. e\n\u0186. q\n\u0187. u\n\u0188. i\n\u0189. r\n\u018a. e\n\u018b. m\n\u018c. e\n\u018d. n\n\u018e. t\n\u018f. s\n\u0190.  \n\u0191. o\n\u0192. f\n\u0193.  \n\u0194. t\n\u0195. h\n\u0196. e\n\u0197.  \n\u0198. S\n\u0199. e\n\u019a. c\n\u019b. u\n\u019c. r\n\u019d. i\n\u019e. t\n\u019f. i\n\u01a0. e\n\u01a1. s\n\u01a2.  \n\u01a3. a\n\u01a4. n\n\u01a5. d\n\u01a6.  \n\u01a7. E\n\u01a8. x\n\u01a9. c\n\u01aa. h\n\u01ab. a\n\u01ac. n\n\u01ad. g\n\u01ae. e\n\u01af.  \n\u01b0. C\n\u01b1. o\n\u01b2. m\n\u01b3. m\n\u01b4. i\n\u01b5. s\n\u01b6. s\n\u01b7. i\n\u01b8. o\n\u01b9. n\n\u01ba.  \n\u01bb. (\n\u01bc. S\n\u01bd. E\n\u01be. C\n\u01bf. )\n\u01c0. .\n\u01c1. '\n\u01c2. ,\n\u01c3.  \n\u01c4. \"\n\u01c5. T\n\u01c6. o\n\u01c7.  \n\u01c8. p\n\u01c9. r\n\u01ca. o\n\u01cb. v\n\u01cc. i\n\u01cd. d\n\u01ce. e\n\u01cf.  \n\u01d0. a\n\u01d1.  \n\u01d2. b\n\u01d3. a\n\u01d4. s\n\u01d5. i\n\u01d6. s\n\u01d7.  \n\u01d8. f\n\u01d9. o\n\u01da. r\n\u01db.  \n\u01dc. t\n\u01dd. h\n\u01de. e\n\u01df.  \n\u01e0. c\n\u01e1. o\n\u01e2. m\n\u01e3. p\n\u01e4. a\n\u01e5. n\n\u01e6. y\n\u01e7. '\n\u01e8. s\n\u01e9.  \n\u01ea. f\n\u01eb. i\n\u01ec. n\n\u01ed. a\n\u01ee. n\n\u01ef. c\n\u01f0. i\n\u01f1. a\n\u01f2. l\n\u01f3.  \n\u01f4. s\n\u01f5. t\n\u01f6. a\n\u01f7. t\n\u01f8. e\n\u01f9. m\n\u01fa. e\n\u01fb. n\n\u01fc. t\n\u01fd. s\n\u01fe.  \n\u01ff. t\n\u0200. h\n\u0201. a\n\u0202. t\n\u0203.  \n\u0204. i\n\u0205. s\n\u0206.  \n\u0207. d\n\u0208. i\n\u0209. f\n\u020a. f\n\u020b. e\n\u020c. r\n\u020d. e\n\u020e. n\n\u020f. t\n\u0210.  \n\u0211. f\n\u0212. r\n\u0213. o\n\u0214. m\n\u0215.  \n\u0216. G\n\u0217. A\n\u0218. A\n\u0219. P\n\u021a. .\n\u021b. \"\n\u021c. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -195,8 +195,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "c6ee4aff-47b5-4857-a820-9a907beae847",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the non-GAAP financial measures used by the company?\nHow do you respond?\nA. Free cash flow, constant currency revenues, and percentage change in constant currency revenues.\nB. Revenues excluding the effect of foreign exchange rate movements and hedging activities.\nC. Liquidity and cash flow.\nD. Operating results and performance.\n",
+                    "key": "14f375d8-73d1-4da6-8261-100abd28beb4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are the non-GAAP financial measures used by the company?\nHow do you respond?\nA. [\nB. '\nC. F\nD. r\nE. e\nF. e\nG.  \nH. c\nI. a\nJ. s\nK. h\nL.  \nM. f\nN. l\nO. o\nP. w\nQ. ,\nR.  \nS. c\nT. o\nU. n\nV. s\nW. t\nX. a\nY. n\nZ. t\n[.  \n\\. c\n]. u\n^. r\n_. r\n`. e\na. n\nb. c\nc. y\nd.  \ne. r\nf. e\ng. v\nh. e\ni. n\nj. u\nk. e\nl. s\nm. ,\nn.  \no. a\np. n\nq. d\nr.  \ns. p\nt. e\nu. r\nv. c\nw. e\nx. n\ny. t\nz. a\n{. g\n|. e\n}.  \n~. c\n\u007f. h\n\u0080. a\n\u0081. n\n\u0082. g\n\u0083. e\n\u0084.  \n\u0085. i\n\u0086. n\n\u0087.  \n\u0088. c\n\u0089. o\n\u008a. n\n\u008b. s\n\u008c. t\n\u008d. a\n\u008e. n\n\u008f. t\n\u0090.  \n\u0091. c\n\u0092. u\n\u0093. r\n\u0094. r\n\u0095. e\n\u0096. n\n\u0097. c\n\u0098. y\n\u0099.  \n\u009a. r\n\u009b. e\n\u009c. v\n\u009d. e\n\u009e. n\n\u009f. u\n\u00a0. e\n\u00a1. s\n\u00a2. .\n\u00a3. '\n\u00a4. ,\n\u00a5.  \n\u00a6. '\n\u00a7. R\n\u00a8. e\n\u00a9. v\n\u00aa. e\n\u00ab. n\n\u00ac. u\n\u00ad. e\n\u00ae. s\n\u00af.  \n\u00b0. e\n\u00b1. x\n\u00b2. c\n\u00b3. l\n\u00b4. u\n\u00b5. d\n\u00b6. i\n\u00b7. n\n\u00b8. g\n\u00b9.  \n\u00ba. t\n\u00bb. h\n\u00bc. e\n\u00bd.  \n\u00be. e\n\u00bf. f\n\u00c0. f\n\u00c1. e\n\u00c2. c\n\u00c3. t\n\u00c4.  \n\u00c5. o\n\u00c6. f\n\u00c7.  \n\u00c8. f\n\u00c9. o\n\u00ca. r\n\u00cb. e\n\u00cc. i\n\u00cd. g\n\u00ce. n\n\u00cf.  \n\u00d0. e\n\u00d1. x\n\u00d2. c\n\u00d3. h\n\u00d4. a\n\u00d5. n\n\u00d6. g\n\u00d7. e\n\u00d8.  \n\u00d9. r\n\u00da. a\n\u00db. t\n\u00dc. e\n\u00dd.  \n\u00de. m\n\u00df. o\n\u00e0. v\n\u00e1. e\n\u00e2. m\n\u00e3. e\n\u00e4. n\n\u00e5. t\n\u00e6. s\n\u00e7.  \n\u00e8. a\n\u00e9. n\n\u00ea. d\n\u00eb.  \n\u00ec. h\n\u00ed. e\n\u00ee. d\n\u00ef. g\n\u00f0. i\n\u00f1. n\n\u00f2. g\n\u00f3.  \n\u00f4. a\n\u00f5. c\n\u00f6. t\n\u00f7. i\n\u00f8. v\n\u00f9. i\n\u00fa. t\n\u00fb. i\n\u00fc. e\n\u00fd. s\n\u00fe. .\n\u00ff. '\n\u0100. ,\n\u0101.  \n\u0102. '\n\u0103. L\n\u0104. i\n\u0105. q\n\u0106. u\n\u0107. i\n\u0108. d\n\u0109. i\n\u010a. t\n\u010b. y\n\u010c.  \n\u010d. a\n\u010e. n\n\u010f. d\n\u0110.  \n\u0111. c\n\u0112. a\n\u0113. s\n\u0114. h\n\u0115.  \n\u0116. f\n\u0117. l\n\u0118. o\n\u0119. w\n\u011a. .\n\u011b. '\n\u011c. ,\n\u011d.  \n\u011e. '\n\u011f. O\n\u0120. p\n\u0121. e\n\u0122. r\n\u0123. a\n\u0124. t\n\u0125. i\n\u0126. n\n\u0127. g\n\u0128.  \n\u0129. r\n\u012a. e\n\u012b. s\n\u012c. u\n\u012d. l\n\u012e. t\n\u012f. s\n\u0130.  \n\u0131. a\n\u0132. n\n\u0133. d\n\u0134.  \n\u0135. p\n\u0136. e\n\u0137. r\n\u0138. f\n\u0139. o\n\u013a. r\n\u013b. m\n\u013c. a\n\u013d. n\n\u013e. c\n\u013f. e\n\u0140. .\n\u0141. '\n\u0142. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -206,8 +206,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "05229b95-c97c-4a78-8d7b-2621bacd8160",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why does the company use non-GAAP financial measures?\nHow do you respond?\nA. To provide more accurate financial information\nB. To evaluate period-to-period comparisons\nC. To comply with GAAP regulations\nD. To mislead investors\n",
+                    "key": "7d561123-4da7-4f2e-804b-901a2b442f09",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Why does the company use non-GAAP financial measures?\nHow do you respond?\nA. [\nB. '\nC. T\nD. o\nE.  \nF. p\nG. r\nH. o\nI. v\nJ. i\nK. d\nL. e\nM.  \nN. m\nO. o\nP. r\nQ. e\nR.  \nS. a\nT. c\nU. c\nV. u\nW. r\nX. a\nY. t\nZ. e\n[.  \n\\. f\n]. i\n^. n\n_. a\n`. n\na. c\nb. i\nc. a\nd. l\ne.  \nf. i\ng. n\nh. f\ni. o\nj. r\nk. m\nl. a\nm. t\nn. i\no. o\np. n\nq. '\nr. ,\ns.  \nt. '\nu. T\nv. o\nw.  \nx. e\ny. v\nz. a\n{. l\n|. u\n}. a\n~. t\n\u007f. e\n\u0080.  \n\u0081. p\n\u0082. e\n\u0083. r\n\u0084. i\n\u0085. o\n\u0086. d\n\u0087. -\n\u0088. t\n\u0089. o\n\u008a. -\n\u008b. p\n\u008c. e\n\u008d. r\n\u008e. i\n\u008f. o\n\u0090. d\n\u0091.  \n\u0092. c\n\u0093. o\n\u0094. m\n\u0095. p\n\u0096. a\n\u0097. r\n\u0098. i\n\u0099. s\n\u009a. o\n\u009b. n\n\u009c. s\n\u009d. '\n\u009e. ,\n\u009f.  \n\u00a0. '\n\u00a1. T\n\u00a2. o\n\u00a3.  \n\u00a4. c\n\u00a5. o\n\u00a6. m\n\u00a7. p\n\u00a8. l\n\u00a9. y\n\u00aa.  \n\u00ab. w\n\u00ac. i\n\u00ad. t\n\u00ae. h\n\u00af.  \n\u00b0. G\n\u00b1. A\n\u00b2. A\n\u00b3. P\n\u00b4.  \n\u00b5. r\n\u00b6. e\n\u00b7. g\n\u00b8. u\n\u00b9. l\n\u00ba. a\n\u00bb. t\n\u00bc. i\n\u00bd. o\n\u00be. n\n\u00bf. s\n\u00c0. '\n\u00c1. ,\n\u00c2.  \n\u00c3. '\n\u00c4. T\n\u00c5. o\n\u00c6.  \n\u00c7. m\n\u00c8. i\n\u00c9. s\n\u00ca. l\n\u00cb. e\n\u00cc. a\n\u00cd. d\n\u00ce.  \n\u00cf. i\n\u00d0. n\n\u00d1. v\n\u00d2. e\n\u00d3. s\n\u00d4. t\n\u00d5. o\n\u00d6. r\n\u00d7. s\n\u00d8. '\n\u00d9. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -217,8 +217,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "f814a6f8-1030-40e4-aad4-7d4d1994c755",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the company compensate for the limitations of non-GAAP financial measures?\nHow do you respond?\nA. By providing specific information regarding the GAAP amounts excluded from these non-GAAP financial measures and evaluating these non-GAAP financial measures together with their relevant financial measures in accordance with GAAP.\nB. By using these non-GAAP financial measures only for financial and operational decision-making and not for external reporting or comparison with competitors.\nC. By adjusting the non-GAAP financial measures to exclude the effect of foreign exchange rate movements and hedging activities.\nD. By providing a reconciliation of non-GAAP financial measures to their nearest comparable GAAP measures.\n",
+                    "key": "653ce6c1-feea-41d9-ba4c-b6c024f1782c",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How does the company compensate for the limitations of non-GAAP financial measures?\nHow do you respond?\nA. [\nB. '\nC. B\nD. y\nE.  \nF. p\nG. r\nH. o\nI. v\nJ. i\nK. d\nL. i\nM. n\nN. g\nO.  \nP. s\nQ. p\nR. e\nS. c\nT. i\nU. f\nV. i\nW. c\nX.  \nY. i\nZ. n\n[. f\n\\. o\n]. r\n^. m\n_. a\n`. t\na. i\nb. o\nc. n\nd.  \ne. r\nf. e\ng. g\nh. a\ni. r\nj. d\nk. i\nl. n\nm. g\nn.  \no. t\np. h\nq. e\nr.  \ns. G\nt. A\nu. A\nv. P\nw.  \nx. a\ny. m\nz. o\n{. u\n|. n\n}. t\n~. s\n\u007f.  \n\u0080. e\n\u0081. x\n\u0082. c\n\u0083. l\n\u0084. u\n\u0085. d\n\u0086. e\n\u0087. d\n\u0088.  \n\u0089. f\n\u008a. r\n\u008b. o\n\u008c. m\n\u008d.  \n\u008e. t\n\u008f. h\n\u0090. e\n\u0091. s\n\u0092. e\n\u0093.  \n\u0094. n\n\u0095. o\n\u0096. n\n\u0097. -\n\u0098. G\n\u0099. A\n\u009a. A\n\u009b. P\n\u009c.  \n\u009d. f\n\u009e. i\n\u009f. n\n\u00a0. a\n\u00a1. n\n\u00a2. c\n\u00a3. i\n\u00a4. a\n\u00a5. l\n\u00a6.  \n\u00a7. m\n\u00a8. e\n\u00a9. a\n\u00aa. s\n\u00ab. u\n\u00ac. r\n\u00ad. e\n\u00ae. s\n\u00af.  \n\u00b0. a\n\u00b1. n\n\u00b2. d\n\u00b3.  \n\u00b4. e\n\u00b5. v\n\u00b6. a\n\u00b7. l\n\u00b8. u\n\u00b9. a\n\u00ba. t\n\u00bb. i\n\u00bc. n\n\u00bd. g\n\u00be.  \n\u00bf. t\n\u00c0. h\n\u00c1. e\n\u00c2. s\n\u00c3. e\n\u00c4.  \n\u00c5. n\n\u00c6. o\n\u00c7. n\n\u00c8. -\n\u00c9. G\n\u00ca. A\n\u00cb. A\n\u00cc. P\n\u00cd.  \n\u00ce. f\n\u00cf. i\n\u00d0. n\n\u00d1. a\n\u00d2. n\n\u00d3. c\n\u00d4. i\n\u00d5. a\n\u00d6. l\n\u00d7.  \n\u00d8. m\n\u00d9. e\n\u00da. a\n\u00db. s\n\u00dc. u\n\u00dd. r\n\u00de. e\n\u00df. s\n\u00e0.  \n\u00e1. t\n\u00e2. o\n\u00e3. g\n\u00e4. e\n\u00e5. t\n\u00e6. h\n\u00e7. e\n\u00e8. r\n\u00e9.  \n\u00ea. w\n\u00eb. i\n\u00ec. t\n\u00ed. h\n\u00ee.  \n\u00ef. t\n\u00f0. h\n\u00f1. e\n\u00f2. i\n\u00f3. r\n\u00f4.  \n\u00f5. r\n\u00f6. e\n\u00f7. l\n\u00f8. e\n\u00f9. v\n\u00fa. a\n\u00fb. n\n\u00fc. t\n\u00fd.  \n\u00fe. f\n\u00ff. i\n\u0100. n\n\u0101. a\n\u0102. n\n\u0103. c\n\u0104. i\n\u0105. a\n\u0106. l\n\u0107.  \n\u0108. m\n\u0109. e\n\u010a. a\n\u010b. s\n\u010c. u\n\u010d. r\n\u010e. e\n\u010f. s\n\u0110.  \n\u0111. i\n\u0112. n\n\u0113.  \n\u0114. a\n\u0115. c\n\u0116. c\n\u0117. o\n\u0118. r\n\u0119. d\n\u011a. a\n\u011b. n\n\u011c. c\n\u011d. e\n\u011e.  \n\u011f. w\n\u0120. i\n\u0121. t\n\u0122. h\n\u0123.  \n\u0124. G\n\u0125. A\n\u0126. A\n\u0127. P\n\u0128. .\n\u0129. '\n\u012a. ,\n\u012b.  \n\u012c. '\n\u012d. B\n\u012e. y\n\u012f.  \n\u0130. u\n\u0131. s\n\u0132. i\n\u0133. n\n\u0134. g\n\u0135.  \n\u0136. t\n\u0137. h\n\u0138. e\n\u0139. s\n\u013a. e\n\u013b.  \n\u013c. n\n\u013d. o\n\u013e. n\n\u013f. -\n\u0140. G\n\u0141. A\n\u0142. A\n\u0143. P\n\u0144.  \n\u0145. f\n\u0146. i\n\u0147. n\n\u0148. a\n\u0149. n\n\u014a. c\n\u014b. i\n\u014c. a\n\u014d. l\n\u014e.  \n\u014f. m\n\u0150. e\n\u0151. a\n\u0152. s\n\u0153. u\n\u0154. r\n\u0155. e\n\u0156. s\n\u0157.  \n\u0158. o\n\u0159. n\n\u015a. l\n\u015b. y\n\u015c.  \n\u015d. f\n\u015e. o\n\u015f. r\n\u0160.  \n\u0161. f\n\u0162. i\n\u0163. n\n\u0164. a\n\u0165. n\n\u0166. c\n\u0167. i\n\u0168. a\n\u0169. l\n\u016a.  \n\u016b. a\n\u016c. n\n\u016d. d\n\u016e.  \n\u016f. o\n\u0170. p\n\u0171. e\n\u0172. r\n\u0173. a\n\u0174. t\n\u0175. i\n\u0176. o\n\u0177. n\n\u0178. a\n\u0179. l\n\u017a.  \n\u017b. d\n\u017c. e\n\u017d. c\n\u017e. i\n\u017f. s\n\u0180. i\n\u0181. o\n\u0182. n\n\u0183. -\n\u0184. m\n\u0185. a\n\u0186. k\n\u0187. i\n\u0188. n\n\u0189. g\n\u018a.  \n\u018b. a\n\u018c. n\n\u018d. d\n\u018e.  \n\u018f. n\n\u0190. o\n\u0191. t\n\u0192.  \n\u0193. f\n\u0194. o\n\u0195. r\n\u0196.  \n\u0197. e\n\u0198. x\n\u0199. t\n\u019a. e\n\u019b. r\n\u019c. n\n\u019d. a\n\u019e. l\n\u019f.  \n\u01a0. r\n\u01a1. e\n\u01a2. p\n\u01a3. o\n\u01a4. r\n\u01a5. t\n\u01a6. i\n\u01a7. n\n\u01a8. g\n\u01a9.  \n\u01aa. o\n\u01ab. r\n\u01ac.  \n\u01ad. c\n\u01ae. o\n\u01af. m\n\u01b0. p\n\u01b1. a\n\u01b2. r\n\u01b3. i\n\u01b4. s\n\u01b5. o\n\u01b6. n\n\u01b7.  \n\u01b8. w\n\u01b9. i\n\u01ba. t\n\u01bb. h\n\u01bc.  \n\u01bd. c\n\u01be. o\n\u01bf. m\n\u01c0. p\n\u01c1. e\n\u01c2. t\n\u01c3. i\n\u01c4. t\n\u01c5. o\n\u01c6. r\n\u01c7. s\n\u01c8. .\n\u01c9. '\n\u01ca. ,\n\u01cb.  \n\u01cc. '\n\u01cd. B\n\u01ce. y\n\u01cf.  \n\u01d0. a\n\u01d1. d\n\u01d2. j\n\u01d3. u\n\u01d4. s\n\u01d5. t\n\u01d6. i\n\u01d7. n\n\u01d8. g\n\u01d9.  \n\u01da. t\n\u01db. h\n\u01dc. e\n\u01dd.  \n\u01de. n\n\u01df. o\n\u01e0. n\n\u01e1. -\n\u01e2. G\n\u01e3. A\n\u01e4. A\n\u01e5. P\n\u01e6.  \n\u01e7. f\n\u01e8. i\n\u01e9. n\n\u01ea. a\n\u01eb. n\n\u01ec. c\n\u01ed. i\n\u01ee. a\n\u01ef. l\n\u01f0.  \n\u01f1. m\n\u01f2. e\n\u01f3. a\n\u01f4. s\n\u01f5. u\n\u01f6. r\n\u01f7. e\n\u01f8. s\n\u01f9.  \n\u01fa. t\n\u01fb. o\n\u01fc.  \n\u01fd. e\n\u01fe. x\n\u01ff. c\n\u0200. l\n\u0201. u\n\u0202. d\n\u0203. e\n\u0204.  \n\u0205. t\n\u0206. h\n\u0207. e\n\u0208.  \n\u0209. e\n\u020a. f\n\u020b. f\n\u020c. e\n\u020d. c\n\u020e. t\n\u020f.  \n\u0210. o\n\u0211. f\n\u0212.  \n\u0213. f\n\u0214. o\n\u0215. r\n\u0216. e\n\u0217. i\n\u0218. g\n\u0219. n\n\u021a.  \n\u021b. e\n\u021c. x\n\u021d. c\n\u021e. h\n\u021f. a\n\u0220. n\n\u0221. g\n\u0222. e\n\u0223.  \n\u0224. r\n\u0225. a\n\u0226. t\n\u0227. e\n\u0228.  \n\u0229. m\n\u022a. o\n\u022b. v\n\u022c. e\n\u022d. m\n\u022e. e\n\u022f. n\n\u0230. t\n\u0231. s\n\u0232.  \n\u0233. a\n\u0234. n\n\u0235. d\n\u0236.  \n\u0237. h\n\u0238. e\n\u0239. d\n\u023a. g\n\u023b. i\n\u023c. n\n\u023d. g\n\u023e.  \n\u023f. a\n\u0240. c\n\u0241. t\n\u0242. i\n\u0243. v\n\u0244. i\n\u0245. t\n\u0246. i\n\u0247. e\n\u0248. s\n\u0249. .\n\u024a. '\n\u024b. ,\n\u024c.  \n\u024d. '\n\u024e. B\n\u024f. y\n\u0250.  \n\u0251. p\n\u0252. r\n\u0253. o\n\u0254. v\n\u0255. i\n\u0256. d\n\u0257. i\n\u0258. n\n\u0259. g\n\u025a.  \n\u025b. a\n\u025c.  \n\u025d. r\n\u025e. e\n\u025f. c\n\u0260. o\n\u0261. n\n\u0262. c\n\u0263. i\n\u0264. l\n\u0265. i\n\u0266. a\n\u0267. t\n\u0268. i\n\u0269. o\n\u026a. n\n\u026b.  \n\u026c. o\n\u026d. f\n\u026e.  \n\u026f. n\n\u0270. o\n\u0271. n\n\u0272. -\n\u0273. G\n\u0274. A\n\u0275. A\n\u0276. P\n\u0277.  \n\u0278. f\n\u0279. i\n\u027a. n\n\u027b. a\n\u027c. n\n\u027d. c\n\u027e. i\n\u027f. a\n\u0280. l\n\u0281.  \n\u0282. m\n\u0283. e\n\u0284. a\n\u0285. s\n\u0286. u\n\u0287. r\n\u0288. e\n\u0289. s\n\u028a.  \n\u028b. t\n\u028c. o\n\u028d.  \n\u028e. t\n\u028f. h\n\u0290. e\n\u0291. i\n\u0292. r\n\u0293.  \n\u0294. n\n\u0295. e\n\u0296. a\n\u0297. r\n\u0298. e\n\u0299. s\n\u029a. t\n\u029b.  \n\u029c. c\n\u029d. o\n\u029e. m\n\u029f. p\n\u02a0. a\n\u02a1. r\n\u02a2. a\n\u02a3. b\n\u02a4. l\n\u02a5. e\n\u02a6.  \n\u02a7. G\n\u02a8. A\n\u02a9. A\n\u02aa. P\n\u02ab.  \n\u02ac. m\n\u02ad. e\n\u02ae. a\n\u02af. s\n\u02b0. u\n\u02b1. r\n\u02b2. e\n\u02b3. s\n\u02b4. .\n\u02b5. '\n\u02b6. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -228,8 +228,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "48ae975e-f36c-4371-bd64-1828eb25fc78",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find more information about the company's financial performance and investor events?\nHow do you respond?\nA. On the company's investor relations website (http://abc.xyz/investor)\nB. On Google's Keyword blog (https://www.blog.google/)\nC. On the SEC website (www.sec.gov)\nD. On YouTube (https://www.youtube.com/watch?v=76CVRgZUfps)\n",
+                    "key": "0bad636f-8754-4f1d-9c53-6bd225514508",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: Where can investors find more information about the company's financial performance and investor events?\nHow do you respond?\nA. [\nB. \"\nC. O\nD. n\nE.  \nF. t\nG. h\nH. e\nI.  \nJ. c\nK. o\nL. m\nM. p\nN. a\nO. n\nP. y\nQ. '\nR. s\nS.  \nT. i\nU. n\nV. v\nW. e\nX. s\nY. t\nZ. o\n[. r\n\\.  \n]. r\n^. e\n_. l\n`. a\na. t\nb. i\nc. o\nd. n\ne. s\nf.  \ng. w\nh. e\ni. b\nj. s\nk. i\nl. t\nm. e\nn.  \no. (\np. h\nq. t\nr. t\ns. p\nt. :\nu. /\nv. /\nw. a\nx. b\ny. c\nz. .\n{. x\n|. y\n}. z\n~. /\n\u007f. i\n\u0080. n\n\u0081. v\n\u0082. e\n\u0083. s\n\u0084. t\n\u0085. o\n\u0086. r\n\u0087. )\n\u0088. \"\n\u0089. ,\n\u008a.  \n\u008b. \"\n\u008c. O\n\u008d. n\n\u008e.  \n\u008f. G\n\u0090. o\n\u0091. o\n\u0092. g\n\u0093. l\n\u0094. e\n\u0095. '\n\u0096. s\n\u0097.  \n\u0098. K\n\u0099. e\n\u009a. y\n\u009b. w\n\u009c. o\n\u009d. r\n\u009e. d\n\u009f.  \n\u00a0. b\n\u00a1. l\n\u00a2. o\n\u00a3. g\n\u00a4.  \n\u00a5. (\n\u00a6. h\n\u00a7. t\n\u00a8. t\n\u00a9. p\n\u00aa. s\n\u00ab. :\n\u00ac. /\n\u00ad. /\n\u00ae. w\n\u00af. w\n\u00b0. w\n\u00b1. .\n\u00b2. b\n\u00b3. l\n\u00b4. o\n\u00b5. g\n\u00b6. .\n\u00b7. g\n\u00b8. o\n\u00b9. o\n\u00ba. g\n\u00bb. l\n\u00bc. e\n\u00bd. /\n\u00be. )\n\u00bf. \"\n\u00c0. ,\n\u00c1.  \n\u00c2. '\n\u00c3. O\n\u00c4. n\n\u00c5.  \n\u00c6. t\n\u00c7. h\n\u00c8. e\n\u00c9.  \n\u00ca. S\n\u00cb. E\n\u00cc. C\n\u00cd.  \n\u00ce. w\n\u00cf. e\n\u00d0. b\n\u00d1. s\n\u00d2. i\n\u00d3. t\n\u00d4. e\n\u00d5.  \n\u00d6. (\n\u00d7. w\n\u00d8. w\n\u00d9. w\n\u00da. .\n\u00db. s\n\u00dc. e\n\u00dd. c\n\u00de. .\n\u00df. g\n\u00e0. o\n\u00e1. v\n\u00e2. )\n\u00e3. '\n\u00e4. ,\n\u00e5.  \n\u00e6. '\n\u00e7. O\n\u00e8. n\n\u00e9.  \n\u00ea. Y\n\u00eb. o\n\u00ec. u\n\u00ed. T\n\u00ee. u\n\u00ef. b\n\u00f0. e\n\u00f1.  \n\u00f2. (\n\u00f3. h\n\u00f4. t\n\u00f5. t\n\u00f6. p\n\u00f7. s\n\u00f8. :\n\u00f9. /\n\u00fa. /\n\u00fb. w\n\u00fc. w\n\u00fd. w\n\u00fe. .\n\u00ff. y\n\u0100. o\n\u0101. u\n\u0102. t\n\u0103. u\n\u0104. b\n\u0105. e\n\u0106. .\n\u0107. c\n\u0108. o\n\u0109. m\n\u010a. /\n\u010b. w\n\u010c. a\n\u010d. t\n\u010e. c\n\u010f. h\n\u0110. ?\n\u0111. v\n\u0112. =\n\u0113. 7\n\u0114. 6\n\u0115. C\n\u0116. V\n\u0117. R\n\u0118. g\n\u0119. Z\n\u011a. U\n\u011b. f\n\u011c. p\n\u011d. s\n\u011e. )\n\u011f. '\n\u0120. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -239,8 +239,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "75256892-71d1-4001-8f58-17c8c201da1d",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of cash and cash equivalents that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $21,879\nB. $25,924\nC. $113,762\nD. $115,102\n",
+                    "key": "b98d7f03-f24e-4d55-82a4-38bb09633cbb",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of cash and cash equivalents that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. 1\nF. ,\nG. 8\nH. 7\nI. 9\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 2\nP. 5\nQ. ,\nR. 9\nS. 2\nT. 4\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 1\n[. 1\n\\. 3\n]. ,\n^. 7\n_. 6\n`. 2\na. '\nb. ,\nc.  \nd. '\ne. $\nf. 1\ng. 1\nh. 5\ni. ,\nj. 1\nk. 0\nl. 2\nm. '\nn. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -250,8 +250,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "81790666-0c1a-47df-801e-1114033594ad",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of accounts receivable, net, that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $40,258\nB. $36,036\nC. $115,102\nD. $161,985\n",
+                    "key": "b98c9974-e480-4ee4-94b1-d563caee3083",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of accounts receivable, net, that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 4\nE. 0\nF. ,\nG. 2\nH. 5\nI. 8\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 3\nP. 6\nQ. ,\nR. 0\nS. 3\nT. 6\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 1\n[. 1\n\\. 5\n]. ,\n^. 1\n_. 0\n`. 2\na. '\nb. ,\nc.  \nd. '\ne. $\nf. 1\ng. 6\nh. 1\ni. ,\nj. 9\nk. 8\nl. 5\nm. '\nn. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -261,8 +261,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "8c7a9dcd-0ff7-44ac-9129-f1475ea78a6e",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of inventory that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $2,315\nB. $2,670\nC. $3,759\nD. $6,533\n",
+                    "key": "f822aeb4-63e7-4405-9efa-ea90bca729cd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of inventory that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. ,\nF. 3\nG. 1\nH. 5\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 2\nO. ,\nP. 6\nQ. 7\nR. 0\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 3\nY. ,\nZ. 7\n[. 5\n\\. 9\n]. '\n^. ,\n_.  \n`. '\na. $\nb. 6\nc. ,\nd. 5\ne. 3\nf. 3\ng. '\nh. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -272,8 +272,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "a3f28817-d90e-4da4-8b3e-df8a927df4bb",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of other current assets that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $8,105\nB. $6,439\nC. $11,985\nD. $14,532\n",
+                    "key": "9d68788c-fd22-4948-8ec3-6580afa9c145",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of other current assets that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 8\nE. ,\nF. 1\nG. 0\nH. 5\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 6\nO. ,\nP. 4\nQ. 3\nR. 9\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 1\nY. 1\nZ. ,\n[. 9\n\\. 8\n]. 5\n^. '\n_. ,\n`.  \na. '\nb. $\nc. 1\nd. 4\ne. ,\nf. 5\ng. 3\nh. 2\ni. '\nj. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -283,8 +283,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "c6edc9ee-4756-4867-9e14-f9fc19f56c57",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of non-marketable securities that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $30,492\nB. $31,213\nC. $32,341\nD. $33,478\n",
+                    "key": "2fc95fa8-b107-4372-8c1d-db7a7bc0ee7a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of non-marketable securities that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 3\nE. 0\nF. ,\nG. 4\nH. 9\nI. 2\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 3\nP. 1\nQ. ,\nR. 2\nS. 1\nT. 3\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 3\n[. 2\n\\. ,\n]. 3\n^. 4\n_. 1\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 3\nf. 3\ng. ,\nh. 4\ni. 7\nj. 8\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -294,8 +294,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "439a6e9d-a077-45c3-ad35-b8de04523e97",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of deferred income taxes that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $5,261\nB. $6,885\nC. $9,258\nD. $514\n",
+                    "key": "a329ea75-d444-4a11-96cb-a591ab7b3bb3",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of deferred income taxes that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 5\nE. ,\nF. 2\nG. 6\nH. 1\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 6\nO. ,\nP. 8\nQ. 8\nR. 5\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 9\nY. ,\nZ. 2\n[. 5\n\\. 8\n]. '\n^. ,\n_.  \n`. '\na. $\nb. 5\nc. 1\nd. 4\ne. '\nf. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -305,8 +305,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "45110946-4cef-4235-be98-5e0c31849982",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of operating lease assets that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $14,381\nB. $14,447\nC. $115,102\nD. $161,985\n",
+                    "key": "edd7e92f-bccc-418f-842c-153a9d04327e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of operating lease assets that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. 4\nF. ,\nG. 3\nH. 8\nI. 1\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 1\nP. 4\nQ. ,\nR. 4\nS. 4\nT. 7\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 1\n[. 1\n\\. 5\n]. ,\n^. 1\n_. 0\n`. 2\na. '\nb. ,\nc.  \nd. '\ne. $\nf. 1\ng. 6\nh. 1\ni. ,\nj. 9\nk. 8\nl. 5\nm. '\nn. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -316,8 +316,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "8e643e24-e6cf-4a17-b63b-f259b206fbc1",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of goodwill that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. $28,960\nB. $31,213\nC. $196,625\nD. $369,491\n",
+                    "key": "924ab3d8-cd57-4da1-b9eb-221350df4aa0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total amount of goodwill that Alphabet Inc. had as of March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. 8\nF. ,\nG. 9\nH. 6\nI. 0\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 3\nP. 1\nQ. ,\nR. 2\nS. 1\nT. 3\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 1\n[. 9\n\\. 6\n]. ,\n^. 6\n_. 2\n`. 5\na. '\nb. ,\nc.  \nd. '\ne. $\nf. 3\ng. 6\nh. 9\ni. ,\nj. 4\nk. 9\nl. 1\nm. '\nn. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -327,8 +327,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "5847dfcc-5b75-48f2-812d-0fb20a11083c",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income for the quarter ended March 31, 2023?\nHow do you respond?\nA. $15,051\nB. $16,436\nC. $23,509\nD. $25,924\n",
+                    "key": "4b144c12-9530-4d76-b13a-9833635c795f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income for the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. 5\nF. ,\nG. 0\nH. 5\nI. 1\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 1\nP. 6\nQ. ,\nR. 4\nS. 3\nT. 6\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 2\n[. 3\n\\. ,\n]. 5\n^. 0\n_. 9\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 2\nf. 5\ng. ,\nh. 9\ni. 2\nj. 4\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -338,8 +338,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "b7d9511f-f82d-440f-9c34-6e03477c2032",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the operating income for the Google Services segment for the quarter ended March 31, 2023?\nHow do you respond?\nA. $21,737\nB. $21,973\nC. $17,415\nD. $19,415\n",
+                    "key": "eccda5b3-fe05-4fa6-bcea-e8960ea51fe6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the operating income for the Google Services segment for the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. 1\nF. ,\nG. 7\nH. 3\nI. 7\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 2\nP. 1\nQ. ,\nR. 9\nS. 7\nT. 3\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 1\n[. 7\n\\. ,\n]. 4\n^. 1\n_. 5\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 1\nf. 9\ng. ,\nh. 4\ni. 1\nj. 5\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -349,8 +349,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "57347bc4-f4da-4fc0-9a4b-6dfac48f1b78",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the revenue generated by the Google Cloud segment for the quarter ended March 31, 2023?\nHow do you respond?\nA. $5,821\nB. $7,454\nC. $191\nD. $69,787\n",
+                    "key": "374d035d-3f38-480d-897c-6a7fe9475d77",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the revenue generated by the Google Cloud segment for the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 5\nE. ,\nF. 8\nG. 2\nH. 1\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 7\nO. ,\nP. 4\nQ. 5\nR. 4\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 1\nY. 9\nZ. 1\n[. '\n\\. ,\n].  \n^. '\n_. $\n`. 6\na. 9\nb. ,\nc. 7\nd. 8\ne. 7\nf. '\ng. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -360,8 +360,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "b82ebd4b-eb19-4f1e-8c11-ee3beb82a37d",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total income from operations for the quarter ended March 31, 2023?\nHow do you respond?\nA. $20,094\nB. $17,415\nC. $21,737\nD. $25,924\n",
+                    "key": "f0260629-8052-4d99-82ff-c808430c7298",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total income from operations for the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. 0\nF. ,\nG. 0\nH. 9\nI. 4\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 1\nP. 7\nQ. ,\nR. 4\nS. 1\nT. 5\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 2\n[. 1\n\\. ,\n]. 7\n^. 3\n_. 7\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 2\nf. 5\ng. ,\nh. 9\ni. 2\nj. 4\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -371,8 +371,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "b5aeebf2-579e-4996-8c91-21781b9940e6",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the amount of depreciation and impairment of property and equipment for the quarter ended March 31, 2023?\nHow do you respond?\nA. $3,591\nB. $191\nC. $2,090\nD. $1,854\n",
+                    "key": "7cb51b8d-7889-427d-876f-e1b799b8d65e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the amount of depreciation and impairment of property and equipment for the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 3\nE. ,\nF. 5\nG. 9\nH. 1\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 1\nO. 9\nP. 1\nQ. '\nR. ,\nS.  \nT. '\nU. $\nV. 2\nW. ,\nX. 0\nY. 9\nZ. 0\n[. '\n\\. ,\n].  \n^. '\n_. $\n`. 1\na. ,\nb. 8\nc. 5\nd. 4\ne. '\nf. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -382,8 +382,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "d9eddf5d-a0b0-423c-bc98-c6970682b89d",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating income of Google Services in the first quarter of 2023?\nHow do you respond?\nA. $21,973\nB. $20,222\nC. $18,883\nD. $17,135\n",
+                    "key": "36bd4dff-d7a5-4618-b84a-ebb6898d0e70",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating income of Google Services in the first quarter of 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. 1\nF. ,\nG. 9\nH. 7\nI. 3\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 2\nP. 0\nQ. ,\nR. 2\nS. 2\nT. 2\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 1\n[. 8\n\\. ,\n]. 8\n^. 8\n_. 3\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 1\nf. 7\ng. ,\nh. 1\ni. 3\nj. 5\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -393,8 +393,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "fbb3ca9e-6283-4ea1-b95b-c88a12aa1ca8",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did constant currency revenues change from the quarter ended March 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. Increased by $4.1 billion or 6%\nB. Decreased by $7.1 billion or 9%\nC. Increased by $7.1 billion or 11%\nD. Decreased by $4.1 billion or 6%\n",
+                    "key": "e66dd8df-7b85-481c-8a50-c76d926cb8ff",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did constant currency revenues change from the quarter ended March 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. I\nD. n\nE. c\nF. r\nG. e\nH. a\nI. s\nJ. e\nK. d\nL.  \nM. b\nN. y\nO.  \nP. $\nQ. 4\nR. .\nS. 1\nT.  \nU. b\nV. i\nW. l\nX. l\nY. i\nZ. o\n[. n\n\\.  \n]. o\n^. r\n_.  \n`. 6\na. %\nb. '\nc. ,\nd.  \ne. '\nf. D\ng. e\nh. c\ni. r\nj. e\nk. a\nl. s\nm. e\nn. d\no.  \np. b\nq. y\nr.  \ns. $\nt. 7\nu. .\nv. 1\nw.  \nx. b\ny. i\nz. l\n{. l\n|. i\n}. o\n~. n\n\u007f.  \n\u0080. o\n\u0081. r\n\u0082.  \n\u0083. 9\n\u0084. %\n\u0085. '\n\u0086. ,\n\u0087.  \n\u0088. '\n\u0089. I\n\u008a. n\n\u008b. c\n\u008c. r\n\u008d. e\n\u008e. a\n\u008f. s\n\u0090. e\n\u0091. d\n\u0092.  \n\u0093. b\n\u0094. y\n\u0095.  \n\u0096. $\n\u0097. 7\n\u0098. .\n\u0099. 1\n\u009a.  \n\u009b. b\n\u009c. i\n\u009d. l\n\u009e. l\n\u009f. i\n\u00a0. o\n\u00a1. n\n\u00a2.  \n\u00a3. o\n\u00a4. r\n\u00a5.  \n\u00a6. 1\n\u00a7. 1\n\u00a8. %\n\u00a9. '\n\u00aa. ,\n\u00ab.  \n\u00ac. '\n\u00ad. D\n\u00ae. e\n\u00af. c\n\u00b0. r\n\u00b1. e\n\u00b2. a\n\u00b3. s\n\u00b4. e\n\u00b5. d\n\u00b6.  \n\u00b7. b\n\u00b8. y\n\u00b9.  \n\u00ba. $\n\u00bb. 4\n\u00bc. .\n\u00bd. 1\n\u00be.  \n\u00bf. b\n\u00c0. i\n\u00c1. l\n\u00c2. l\n\u00c3. i\n\u00c4. o\n\u00c5. n\n\u00c6.  \n\u00c7. o\n\u00c8. r\n\u00c9.  \n\u00ca. 6\n\u00cb. %\n\u00cc. '\n\u00cd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -404,8 +404,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "71b15080-d021-456e-b970-63d7b40837e1",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did revenues, excluding hedging effect, change from the quarter ended December 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. Increased by $4.1 billion, or 6%\nB. Decreased by $7.1 billion, or 9%\nC. Increased by $1.4 billion, or 2%\nD. Decreased by $11.1 billion, or 16%\n",
+                    "key": "0ed2699d-41e6-47ea-97b2-ffc1aa164469",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did revenues, excluding hedging effect, change from the quarter ended December 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. I\nD. n\nE. c\nF. r\nG. e\nH. a\nI. s\nJ. e\nK. d\nL.  \nM. b\nN. y\nO.  \nP. $\nQ. 4\nR. .\nS. 1\nT.  \nU. b\nV. i\nW. l\nX. l\nY. i\nZ. o\n[. n\n\\. ,\n].  \n^. o\n_. r\n`.  \na. 6\nb. %\nc. '\nd. ,\ne.  \nf. '\ng. D\nh. e\ni. c\nj. r\nk. e\nl. a\nm. s\nn. e\no. d\np.  \nq. b\nr. y\ns.  \nt. $\nu. 7\nv. .\nw. 1\nx.  \ny. b\nz. i\n{. l\n|. l\n}. i\n~. o\n\u007f. n\n\u0080. ,\n\u0081.  \n\u0082. o\n\u0083. r\n\u0084.  \n\u0085. 9\n\u0086. %\n\u0087. '\n\u0088. ,\n\u0089.  \n\u008a. '\n\u008b. I\n\u008c. n\n\u008d. c\n\u008e. r\n\u008f. e\n\u0090. a\n\u0091. s\n\u0092. e\n\u0093. d\n\u0094.  \n\u0095. b\n\u0096. y\n\u0097.  \n\u0098. $\n\u0099. 1\n\u009a. .\n\u009b. 4\n\u009c.  \n\u009d. b\n\u009e. i\n\u009f. l\n\u00a0. l\n\u00a1. i\n\u00a2. o\n\u00a3. n\n\u00a4. ,\n\u00a5.  \n\u00a6. o\n\u00a7. r\n\u00a8.  \n\u00a9. 2\n\u00aa. %\n\u00ab. '\n\u00ac. ,\n\u00ad.  \n\u00ae. '\n\u00af. D\n\u00b0. e\n\u00b1. c\n\u00b2. r\n\u00b3. e\n\u00b4. a\n\u00b5. s\n\u00b6. e\n\u00b7. d\n\u00b8.  \n\u00b9. b\n\u00ba. y\n\u00bb.  \n\u00bc. $\n\u00bd. 1\n\u00be. 1\n\u00bf. .\n\u00c0. 1\n\u00c1.  \n\u00c2. b\n\u00c3. i\n\u00c4. l\n\u00c5. l\n\u00c6. i\n\u00c7. o\n\u00c8. n\n\u00c9. ,\n\u00ca.  \n\u00cb. o\n\u00cc. r\n\u00cd.  \n\u00ce. 1\n\u00cf. 6\n\u00d0. %\n\u00d1. '\n\u00d2. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -415,8 +415,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "3f4af3de-b4bb-41d6-b534-84244adbcb25",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the hedging gain (loss) for the quarter ended March 31, 2023?\nHow do you respond?\nA. $278\nB. $84\nC. $(109)\nD. $669\n",
+                    "key": "838e7e08-a782-428d-a7fd-10b6ca958ae0",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the hedging gain (loss) for the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. 7\nF. 8\nG. '\nH. ,\nI.  \nJ. '\nK. $\nL. 8\nM. 4\nN. '\nO. ,\nP.  \nQ. '\nR. $\nS. (\nT. 1\nU. 0\nV. 9\nW. )\nX. '\nY. ,\nZ.  \n[. '\n\\. $\n]. 6\n^. 6\n_. 9\n`. '\na. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -426,8 +426,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "be85aee1-83ed-494e-9715-8eabe6ff82ac",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, including hedging effect, for the quarter ended March 31, 2023?\nHow do you respond?\nA. $68,011\nB. $69,787\nC. $71,877\nD. $75,400\n",
+                    "key": "4925dcb0-d8eb-46f9-8bf1-94194fcf1af6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, including hedging effect, for the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 6\nE. 8\nF. ,\nG. 0\nH. 1\nI. 1\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 6\nP. 9\nQ. ,\nR. 7\nS. 8\nT. 7\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 7\n[. 1\n\\. ,\n]. 8\n^. 7\n_. 7\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 7\nf. 5\ng. ,\nh. 4\ni. 0\nj. 0\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -437,8 +437,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "6dd98d0f-1259-487e-b39f-9027915ba875",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the revenues of the company change from the quarter ended March 31, 2021, to the quarter ended March 31, 2022?\nHow do you respond?\nA. Revenues increased by 22%\nB. Revenues increased by 26%\nC. Revenues decreased by 4%\nD. Revenues remained the same\n",
+                    "key": "a5cf9606-d543-4970-aca8-d2d94b64431d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the revenues of the company change from the quarter ended March 31, 2021, to the quarter ended March 31, 2022?\nHow do you respond?\nA. [\nB. '\nC. R\nD. e\nE. v\nF. e\nG. n\nH. u\nI. e\nJ. s\nK.  \nL. i\nM. n\nN. c\nO. r\nP. e\nQ. a\nR. s\nS. e\nT. d\nU.  \nV. b\nW. y\nX.  \nY. 2\nZ. 2\n[. %\n\\. '\n]. ,\n^.  \n_. '\n`. R\na. e\nb. v\nc. e\nd. n\ne. u\nf. e\ng. s\nh.  \ni. i\nj. n\nk. c\nl. r\nm. e\nn. a\no. s\np. e\nq. d\nr.  \ns. b\nt. y\nu.  \nv. 2\nw. 6\nx. %\ny. '\nz. ,\n{.  \n|. '\n}. R\n~. e\n\u007f. v\n\u0080. e\n\u0081. n\n\u0082. u\n\u0083. e\n\u0084. s\n\u0085.  \n\u0086. d\n\u0087. e\n\u0088. c\n\u0089. r\n\u008a. e\n\u008b. a\n\u008c. s\n\u008d. e\n\u008e. d\n\u008f.  \n\u0090. b\n\u0091. y\n\u0092.  \n\u0093. 4\n\u0094. %\n\u0095. '\n\u0096. ,\n\u0097.  \n\u0098. '\n\u0099. R\n\u009a. e\n\u009b. v\n\u009c. e\n\u009d. n\n\u009e. u\n\u009f. e\n\u00a0. s\n\u00a1.  \n\u00a2. r\n\u00a3. e\n\u00a4. m\n\u00a5. a\n\u00a6. i\n\u00a7. n\n\u00a8. e\n\u00a9. d\n\u00aa.  \n\u00ab. t\n\u00ac. h\n\u00ad. e\n\u00ae.  \n\u00af. s\n\u00b0. a\n\u00b1. m\n\u00b2. e\n\u00b3. '\n\u00b4. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -448,8 +448,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "d27de6db-cb72-43e2-a402-6e7db236a086",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, including hedging effect, for the quarter ended March 31, 2022?\nHow do you respond?\nA. $67,733\nB. $69,724\nC. $55,423\nD. $68,011\n",
+                    "key": "66a00a1d-9e1e-406c-947c-f763dfe512dd",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, including hedging effect, for the quarter ended March 31, 2022?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 6\nE. 7\nF. ,\nG. 7\nH. 3\nI. 3\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 6\nP. 9\nQ. ,\nR. 7\nS. 2\nT. 4\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 5\n[. 5\n\\. ,\n]. 4\n^. 2\n_. 3\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 6\nf. 8\ng. ,\nh. 0\ni. 1\nj. 1\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -459,8 +459,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "969f277c-0168-4dd1-99e2-1124778c090c",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the constant currency revenues change from the quarter ended December 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. Increased by $4.1 billion\nB. Decreased by $7.1 billion\nC. Increased by $7.1 billion\nD. Decreased by $4.1 billion\n",
+                    "key": "5d474dd9-daf8-4db9-b06c-060a67e5a410",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How did the constant currency revenues change from the quarter ended December 31, 2022, to the quarter ended March 31, 2023?\nHow do you respond?\nA. [\nB. '\nC. I\nD. n\nE. c\nF. r\nG. e\nH. a\nI. s\nJ. e\nK. d\nL.  \nM. b\nN. y\nO.  \nP. $\nQ. 4\nR. .\nS. 1\nT.  \nU. b\nV. i\nW. l\nX. l\nY. i\nZ. o\n[. n\n\\. '\n]. ,\n^.  \n_. '\n`. D\na. e\nb. c\nc. r\nd. e\ne. a\nf. s\ng. e\nh. d\ni.  \nj. b\nk. y\nl.  \nm. $\nn. 7\no. .\np. 1\nq.  \nr. b\ns. i\nt. l\nu. l\nv. i\nw. o\nx. n\ny. '\nz. ,\n{.  \n|. '\n}. I\n~. n\n\u007f. c\n\u0080. r\n\u0081. e\n\u0082. a\n\u0083. s\n\u0084. e\n\u0085. d\n\u0086.  \n\u0087. b\n\u0088. y\n\u0089.  \n\u008a. $\n\u008b. 7\n\u008c. .\n\u008d. 1\n\u008e.  \n\u008f. b\n\u0090. i\n\u0091. l\n\u0092. l\n\u0093. i\n\u0094. o\n\u0095. n\n\u0096. '\n\u0097. ,\n\u0098.  \n\u0099. '\n\u009a. D\n\u009b. e\n\u009c. c\n\u009d. r\n\u009e. e\n\u009f. a\n\u00a0. s\n\u00a1. e\n\u00a2. d\n\u00a3.  \n\u00a4. b\n\u00a5. y\n\u00a6.  \n\u00a7. $\n\u00a8. 4\n\u00a9. .\n\u00aa. 1\n\u00ab.  \n\u00ac. b\n\u00ad. i\n\u00ae. l\n\u00af. l\n\u00b0. i\n\u00b1. o\n\u00b2. n\n\u00b3. '\n\u00b4. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -470,8 +470,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "dbef2450-9fa2-4811-88b6-88b7db4e30a6",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, excluding hedging effect, for the quarter ended December 31, 2022?\nHow do you respond?\nA. $68,261\nB. $69,703\nC. $71,877\nD. $75,379\n",
+                    "key": "16cd790c-dcb9-4249-98d1-3a80d9da04b6",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the total revenue, excluding hedging effect, for the quarter ended December 31, 2022?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 6\nE. 8\nF. ,\nG. 2\nH. 6\nI. 1\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 6\nP. 9\nQ. ,\nR. 7\nS. 0\nT. 3\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 7\n[. 1\n\\. ,\n]. 8\n^. 7\n_. 7\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 7\nf. 5\ng. ,\nh. 3\ni. 7\nj. 9\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -481,8 +481,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "416a6c57-ae1b-41a7-b18e-0973beb4bea7",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the income from operations for Tesla in Q1 2023?\nHow do you respond?\nA. $3.6B\nB. $2.6B\nC. $1.8B\nD. $4.2B\n",
+                    "key": "f91c5d6d-ad54-48fd-93b5-e2afb0c251c9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the income from operations for Tesla in Q1 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 3\nE. .\nF. 6\nG. B\nH. '\nI. ,\nJ.  \nK. '\nL. $\nM. 2\nN. .\nO. 6\nP. B\nQ. '\nR. ,\nS.  \nT. '\nU. $\nV. 1\nW. .\nX. 8\nY. B\nZ. '\n[. ,\n\\.  \n]. '\n^. $\n_. 4\n`. .\na. 2\nb. B\nc. '\nd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -492,8 +492,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "1b2bea51-32cd-4933-9a7b-ff26828f7904",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating expenses for Tesla in Q1 2023?\nHow do you respond?\nA. $1.8B\nB. $2.6B\nC. $3.2B\nD. $1.9B\n",
+                    "key": "d109da32-3bd3-433a-9101-a6c8f3c4c20e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the operating expenses for Tesla in Q1 2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. .\nF. 8\nG. B\nH. '\nI. ,\nJ.  \nK. '\nL. $\nM. 2\nN. .\nO. 6\nP. B\nQ. '\nR. ,\nS.  \nT. '\nU. $\nV. 3\nW. .\nX. 2\nY. B\nZ. '\n[. ,\n\\.  \n]. '\n^. $\n_. 1\n`. .\na. 9\nb. B\nc. '\nd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -503,8 +503,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "4a350c70-ab98-4740-9fd8-68e7dd3aac48",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the production capacity of Tesla's Model S/X in Q1?\nHow do you respond?\nA. 100,000\nB. 14,218\nC. 19,935\nD. 37%\n",
+                    "key": "4cbdca47-abf7-4287-8237-e68706b0a531",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the production capacity of Tesla's Model S/X in Q1?\nHow do you respond?\nA. [\nB. '\nC. 1\nD. 0\nE. 0\nF. ,\nG. 0\nH. 0\nI. 0\nJ. '\nK. ,\nL.  \nM. '\nN. 1\nO. 4\nP. ,\nQ. 2\nR. 1\nS. 8\nT. '\nU. ,\nV.  \nW. '\nX. 1\nY. 9\nZ. ,\n[. 9\n\\. 3\n]. 5\n^. '\n_. ,\n`.  \na. '\nb. 3\nc. 7\nd. %\ne. '\nf. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -514,8 +514,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "9126e640-5833-4d4b-9bb4-fdc54390a485",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the installed annual vehicle capacity of Tesla's Shanghai factory in Q1?\nHow do you respond?\nA. 350,000\nB. 550,000\nC. 750,000\nD. 1,000,000\n",
+                    "key": "f5777507-d6e5-4bb7-8cb0-7dd3da07f38f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the installed annual vehicle capacity of Tesla's Shanghai factory in Q1?\nHow do you respond?\nA. [\nB. '\nC. 3\nD. 5\nE. 0\nF. ,\nG. 0\nH. 0\nI. 0\nJ. '\nK. ,\nL.  \nM. '\nN. 5\nO. 5\nP. 0\nQ. ,\nR. 0\nS. 0\nT. 0\nU. '\nV. ,\nW.  \nX. '\nY. 7\nZ. 5\n[. 0\n\\. ,\n]. 0\n^. 0\n_. 0\n`. '\na. ,\nb.  \nc. '\nd. 1\ne. ,\nf. 0\ng. 0\nh. 0\ni. ,\nj. 0\nk. 0\nl. 0\nm. '\nn. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -525,8 +525,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "50584e9c-3d99-42cd-ab35-2323cbeb336a",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the installed annual vehicle capacity of Tesla's Texas factory in Q1?\nHow do you respond?\nA. 250,000\nB. 350,000\nC. 550,000\nD. 750,000\n",
+                    "key": "42734ab5-48e6-417f-9761-18fb4b6974c9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What was the installed annual vehicle capacity of Tesla's Texas factory in Q1?\nHow do you respond?\nA. [\nB. '\nC. 2\nD. 5\nE. 0\nF. ,\nG. 0\nH. 0\nI. 0\nJ. '\nK. ,\nL.  \nM. '\nN. 3\nO. 5\nP. 0\nQ. ,\nR. 0\nS. 0\nT. 0\nU. '\nV. ,\nW.  \nX. '\nY. 5\nZ. 5\n[. 0\n\\. ,\n]. 0\n^. 0\n_. 0\n`. '\na. ,\nb.  \nc. '\nd. 7\ne. 5\nf. 0\ng. ,\nh. 0\ni. 0\nj. 0\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -536,8 +536,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "96e8fbab-7262-4035-9d25-698ae15513ff",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the new 40 GWh Megafactory that Tesla recently announced in Shanghai?\nHow do you respond?\nA. Gigafactory Shanghai\nB. Megafactory Shanghai\nC. Tesla Shanghai Factory\nD. Shanghai Megapack Factory\n",
+                    "key": "c535b7ba-548e-429e-87be-cc4ab40476b2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the new 40 GWh Megafactory that Tesla recently announced in Shanghai?\nHow do you respond?\nA. [\nB. '\nC. G\nD. i\nE. g\nF. a\nG. f\nH. a\nI. c\nJ. t\nK. o\nL. r\nM. y\nN.  \nO. S\nP. h\nQ. a\nR. n\nS. g\nT. h\nU. a\nV. i\nW. '\nX. ,\nY.  \nZ. '\n[. M\n\\. e\n]. g\n^. a\n_. f\n`. a\na. c\nb. t\nc. o\nd. r\ne. y\nf.  \ng. S\nh. h\ni. a\nj. n\nk. g\nl. h\nm. a\nn. i\no. '\np. ,\nq.  \nr. '\ns. T\nt. e\nu. s\nv. l\nw. a\nx.  \ny. S\nz. h\n{. a\n|. n\n}. g\n~. h\n\u007f. a\n\u0080. i\n\u0081.  \n\u0082. F\n\u0083. a\n\u0084. c\n\u0085. t\n\u0086. o\n\u0087. r\n\u0088. y\n\u0089. '\n\u008a. ,\n\u008b.  \n\u008c. '\n\u008d. S\n\u008e. h\n\u008f. a\n\u0090. n\n\u0091. g\n\u0092. h\n\u0093. a\n\u0094. i\n\u0095.  \n\u0096. M\n\u0097. e\n\u0098. g\n\u0099. a\n\u009a. p\n\u009b. a\n\u009c. c\n\u009d. k\n\u009e.  \n\u009f. F\n\u00a0. a\n\u00a1. c\n\u00a2. t\n\u00a3. o\n\u00a4. r\n\u00a5. y\n\u00a6. '\n\u00a7. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -547,8 +547,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "0ade9c41-bc23-4209-bdba-3f134690cb8b",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the platform that Tesla launched for employee health and safety?\nHow do you respond?\nA. Tesla OS\nB. Recruitment and Employee Health & Safety platforms\nC. Megafactory Ramp\nD. FSD Beta\n",
+                    "key": "1972e78f-4b7b-4924-8a89-6a14274792bc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the platform that Tesla launched for employee health and safety?\nHow do you respond?\nA. [\nB. '\nC. T\nD. e\nE. s\nF. l\nG. a\nH.  \nI. O\nJ. S\nK. '\nL. ,\nM.  \nN. '\nO. R\nP. e\nQ. c\nR. r\nS. u\nT. i\nU. t\nV. m\nW. e\nX. n\nY. t\nZ.  \n[. a\n\\. n\n]. d\n^.  \n_. E\n`. m\na. p\nb. l\nc. o\nd. y\ne. e\nf. e\ng.  \nh. H\ni. e\nj. a\nk. l\nl. t\nm. h\nn.  \no. &\np.  \nq. S\nr. a\ns. f\nt. e\nu. t\nv. y\nw.  \nx. p\ny. l\nz. a\n{. t\n|. f\n}. o\n~. r\n\u007f. m\n\u0080. s\n\u0081. '\n\u0082. ,\n\u0083.  \n\u0084. '\n\u0085. M\n\u0086. e\n\u0087. g\n\u0088. a\n\u0089. f\n\u008a. a\n\u008b. c\n\u008c. t\n\u008d. o\n\u008e. r\n\u008f. y\n\u0090.  \n\u0091. R\n\u0092. a\n\u0093. m\n\u0094. p\n\u0095. '\n\u0096. ,\n\u0097.  \n\u0098. '\n\u0099. F\n\u009a. S\n\u009b. D\n\u009c.  \n\u009d. B\n\u009e. e\n\u009f. t\n\u00a0. a\n\u00a1. '\n\u00a2. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -558,8 +558,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "7e9b3e3f-08a0-4333-ba16-21da467696cb",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the new architecture that Tesla is transitioning to for vehicle electronics?\nHow do you respond?\nA. 48 Volt architecture\nB. Megafactory architecture\nC. Cybertruck architecture\nD. Model Y architecture\n",
+                    "key": "59a7eb6d-7c44-4542-823d-de73c76d8d1a",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of the new architecture that Tesla is transitioning to for vehicle electronics?\nHow do you respond?\nA. [\nB. '\nC. 4\nD. 8\nE.  \nF. V\nG. o\nH. l\nI. t\nJ.  \nK. a\nL. r\nM. c\nN. h\nO. i\nP. t\nQ. e\nR. c\nS. t\nT. u\nU. r\nV. e\nW. '\nX. ,\nY.  \nZ. '\n[. M\n\\. e\n]. g\n^. a\n_. f\n`. a\na. c\nb. t\nc. o\nd. r\ne. y\nf.  \ng. a\nh. r\ni. c\nj. h\nk. i\nl. t\nm. e\nn. c\no. t\np. u\nq. r\nr. e\ns. '\nt. ,\nu.  \nv. '\nw. C\nx. y\ny. b\nz. e\n{. r\n|. t\n}. r\n~. u\n\u007f. c\n\u0080. k\n\u0081.  \n\u0082. a\n\u0083. r\n\u0084. c\n\u0085. h\n\u0086. i\n\u0087. t\n\u0088. e\n\u0089. c\n\u008a. t\n\u008b. u\n\u008c. r\n\u008d. e\n\u008e. '\n\u008f. ,\n\u0090.  \n\u0091. '\n\u0092. M\n\u0093. o\n\u0094. d\n\u0095. e\n\u0096. l\n\u0097.  \n\u0098. Y\n\u0099.  \n\u009a. a\n\u009b. r\n\u009c. c\n\u009d. h\n\u009e. i\n\u009f. t\n\u00a0. e\n\u00a1. c\n\u00a2. t\n\u00a3. u\n\u00a4. r\n\u00a5. e\n\u00a6. '\n\u00a7. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -569,8 +569,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "d088a381-2170-4414-87c3-b4729419225e",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Tesla's Autopilot operating system?\nHow do you respond?\nA. To provide a more efficient and safe driving experience for Tesla owners.\nB. To enable vehicles to operate independently without human input.\nC. To provide a more enjoyable and personalized driving experience for Tesla owners.\nD. To reduce the environmental impact of Tesla's manufacturing process.\n",
+                    "key": "2283678b-0ccd-4098-b403-f472078c25b9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Tesla's Autopilot operating system?\nHow do you respond?\nA. [\nB. '\nC. T\nD. o\nE.  \nF. p\nG. r\nH. o\nI. v\nJ. i\nK. d\nL. e\nM.  \nN. a\nO.  \nP. m\nQ. o\nR. r\nS. e\nT.  \nU. e\nV. f\nW. f\nX. i\nY. c\nZ. i\n[. e\n\\. n\n]. t\n^.  \n_. a\n`. n\na. d\nb.  \nc. s\nd. a\ne. f\nf. e\ng.  \nh. d\ni. r\nj. i\nk. v\nl. i\nm. n\nn. g\no.  \np. e\nq. x\nr. p\ns. e\nt. r\nu. i\nv. e\nw. n\nx. c\ny. e\nz.  \n{. f\n|. o\n}. r\n~.  \n\u007f. T\n\u0080. e\n\u0081. s\n\u0082. l\n\u0083. a\n\u0084.  \n\u0085. o\n\u0086. w\n\u0087. n\n\u0088. e\n\u0089. r\n\u008a. s\n\u008b. .\n\u008c. '\n\u008d. ,\n\u008e.  \n\u008f. '\n\u0090. T\n\u0091. o\n\u0092.  \n\u0093. e\n\u0094. n\n\u0095. a\n\u0096. b\n\u0097. l\n\u0098. e\n\u0099.  \n\u009a. v\n\u009b. e\n\u009c. h\n\u009d. i\n\u009e. c\n\u009f. l\n\u00a0. e\n\u00a1. s\n\u00a2.  \n\u00a3. t\n\u00a4. o\n\u00a5.  \n\u00a6. o\n\u00a7. p\n\u00a8. e\n\u00a9. r\n\u00aa. a\n\u00ab. t\n\u00ac. e\n\u00ad.  \n\u00ae. i\n\u00af. n\n\u00b0. d\n\u00b1. e\n\u00b2. p\n\u00b3. e\n\u00b4. n\n\u00b5. d\n\u00b6. e\n\u00b7. n\n\u00b8. t\n\u00b9. l\n\u00ba. y\n\u00bb.  \n\u00bc. w\n\u00bd. i\n\u00be. t\n\u00bf. h\n\u00c0. o\n\u00c1. u\n\u00c2. t\n\u00c3.  \n\u00c4. h\n\u00c5. u\n\u00c6. m\n\u00c7. a\n\u00c8. n\n\u00c9.  \n\u00ca. i\n\u00cb. n\n\u00cc. p\n\u00cd. u\n\u00ce. t\n\u00cf. .\n\u00d0. '\n\u00d1. ,\n\u00d2.  \n\u00d3. '\n\u00d4. T\n\u00d5. o\n\u00d6.  \n\u00d7. p\n\u00d8. r\n\u00d9. o\n\u00da. v\n\u00db. i\n\u00dc. d\n\u00dd. e\n\u00de.  \n\u00df. a\n\u00e0.  \n\u00e1. m\n\u00e2. o\n\u00e3. r\n\u00e4. e\n\u00e5.  \n\u00e6. e\n\u00e7. n\n\u00e8. j\n\u00e9. o\n\u00ea. y\n\u00eb. a\n\u00ec. b\n\u00ed. l\n\u00ee. e\n\u00ef.  \n\u00f0. a\n\u00f1. n\n\u00f2. d\n\u00f3.  \n\u00f4. p\n\u00f5. e\n\u00f6. r\n\u00f7. s\n\u00f8. o\n\u00f9. n\n\u00fa. a\n\u00fb. l\n\u00fc. i\n\u00fd. z\n\u00fe. e\n\u00ff. d\n\u0100.  \n\u0101. d\n\u0102. r\n\u0103. i\n\u0104. v\n\u0105. i\n\u0106. n\n\u0107. g\n\u0108.  \n\u0109. e\n\u010a. x\n\u010b. p\n\u010c. e\n\u010d. r\n\u010e. i\n\u010f. e\n\u0110. n\n\u0111. c\n\u0112. e\n\u0113.  \n\u0114. f\n\u0115. o\n\u0116. r\n\u0117.  \n\u0118. T\n\u0119. e\n\u011a. s\n\u011b. l\n\u011c. a\n\u011d.  \n\u011e. o\n\u011f. w\n\u0120. n\n\u0121. e\n\u0122. r\n\u0123. s\n\u0124. .\n\u0125. '\n\u0126. ,\n\u0127.  \n\u0128. \"\n\u0129. T\n\u012a. o\n\u012b.  \n\u012c. r\n\u012d. e\n\u012e. d\n\u012f. u\n\u0130. c\n\u0131. e\n\u0132.  \n\u0133. t\n\u0134. h\n\u0135. e\n\u0136.  \n\u0137. e\n\u0138. n\n\u0139. v\n\u013a. i\n\u013b. r\n\u013c. o\n\u013d. n\n\u013e. m\n\u013f. e\n\u0140. n\n\u0141. t\n\u0142. a\n\u0143. l\n\u0144.  \n\u0145. i\n\u0146. m\n\u0147. p\n\u0148. a\n\u0149. c\n\u014a. t\n\u014b.  \n\u014c. o\n\u014d. f\n\u014e.  \n\u014f. T\n\u0150. e\n\u0151. s\n\u0152. l\n\u0153. a\n\u0154. '\n\u0155. s\n\u0156.  \n\u0157. m\n\u0158. a\n\u0159. n\n\u015a. u\n\u015b. f\n\u015c. a\n\u015d. c\n\u015e. t\n\u015f. u\n\u0160. r\n\u0161. i\n\u0162. n\n\u0163. g\n\u0164.  \n\u0165. p\n\u0166. r\n\u0167. o\n\u0168. c\n\u0169. e\n\u016a. s\n\u016b. s\n\u016c. .\n\u016d. \"\n\u016e. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -580,8 +580,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "219ba04d-6c90-469b-8728-0edae38d1483",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of Tesla's battery technology?\nHow do you respond?\nA. Cybertruck\nB. Megafactory\nC. Powerwall\nD. Gigafactory\n",
+                    "key": "5c1d99ba-0603-441d-9cae-fef64c128974",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the name of Tesla's battery technology?\nHow do you respond?\nA. [\nB. '\nC. C\nD. y\nE. b\nF. e\nG. r\nH. t\nI. r\nJ. u\nK. c\nL. k\nM. '\nN. ,\nO.  \nP. '\nQ. M\nR. e\nS. g\nT. a\nU. f\nV. a\nW. c\nX. t\nY. o\nZ. r\n[. y\n\\. '\n]. ,\n^.  \n_. '\n`. P\na. o\nb. w\nc. e\nd. r\ne. w\nf. a\ng. l\nh. l\ni. '\nj. ,\nk.  \nl. '\nm. G\nn. i\no. g\np. a\nq. f\nr. a\ns. c\nt. t\nu. o\nv. r\nw. y\nx. '\ny. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -591,8 +591,8 @@
                     "expected_output": "D"
                 },
                 {
-                    "key": "a4c9693d-5a92-443b-a5e4-4219b6f21eb1",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Tesla's Maxwell battery technology?\nHow do you respond?\nA. To reduce the cost of manufacturing and operations.\nB. To improve the efficiency of its vehicles.\nC. To increase the range of its electric vehicles.\nD. To enhance the safety features of its vehicles.\n",
+                    "key": "64e9cfb2-86cf-4889-a577-798c6e0954ab",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of Tesla's Maxwell battery technology?\nHow do you respond?\nA. [\nB. '\nC. T\nD. o\nE.  \nF. r\nG. e\nH. d\nI. u\nJ. c\nK. e\nL.  \nM. t\nN. h\nO. e\nP.  \nQ. c\nR. o\nS. s\nT. t\nU.  \nV. o\nW. f\nX.  \nY. m\nZ. a\n[. n\n\\. u\n]. f\n^. a\n_. c\n`. t\na. u\nb. r\nc. i\nd. n\ne. g\nf.  \ng. a\nh. n\ni. d\nj.  \nk. o\nl. p\nm. e\nn. r\no. a\np. t\nq. i\nr. o\ns. n\nt. s\nu. .\nv. '\nw. ,\nx.  \ny. '\nz. T\n{. o\n|.  \n}. i\n~. m\n\u007f. p\n\u0080. r\n\u0081. o\n\u0082. v\n\u0083. e\n\u0084.  \n\u0085. t\n\u0086. h\n\u0087. e\n\u0088.  \n\u0089. e\n\u008a. f\n\u008b. f\n\u008c. i\n\u008d. c\n\u008e. i\n\u008f. e\n\u0090. n\n\u0091. c\n\u0092. y\n\u0093.  \n\u0094. o\n\u0095. f\n\u0096.  \n\u0097. i\n\u0098. t\n\u0099. s\n\u009a.  \n\u009b. v\n\u009c. e\n\u009d. h\n\u009e. i\n\u009f. c\n\u00a0. l\n\u00a1. e\n\u00a2. s\n\u00a3. .\n\u00a4. '\n\u00a5. ,\n\u00a6.  \n\u00a7. '\n\u00a8. T\n\u00a9. o\n\u00aa.  \n\u00ab. i\n\u00ac. n\n\u00ad. c\n\u00ae. r\n\u00af. e\n\u00b0. a\n\u00b1. s\n\u00b2. e\n\u00b3.  \n\u00b4. t\n\u00b5. h\n\u00b6. e\n\u00b7.  \n\u00b8. r\n\u00b9. a\n\u00ba. n\n\u00bb. g\n\u00bc. e\n\u00bd.  \n\u00be. o\n\u00bf. f\n\u00c0.  \n\u00c1. i\n\u00c2. t\n\u00c3. s\n\u00c4.  \n\u00c5. e\n\u00c6. l\n\u00c7. e\n\u00c8. c\n\u00c9. t\n\u00ca. r\n\u00cb. i\n\u00cc. c\n\u00cd.  \n\u00ce. v\n\u00cf. e\n\u00d0. h\n\u00d1. i\n\u00d2. c\n\u00d3. l\n\u00d4. e\n\u00d5. s\n\u00d6. .\n\u00d7. '\n\u00d8. ,\n\u00d9.  \n\u00da. '\n\u00db. T\n\u00dc. o\n\u00dd.  \n\u00de. e\n\u00df. n\n\u00e0. h\n\u00e1. a\n\u00e2. n\n\u00e3. c\n\u00e4. e\n\u00e5.  \n\u00e6. t\n\u00e7. h\n\u00e8. e\n\u00e9.  \n\u00ea. s\n\u00eb. a\n\u00ec. f\n\u00ed. e\n\u00ee. t\n\u00ef. y\n\u00f0.  \n\u00f1. f\n\u00f2. e\n\u00f3. a\n\u00f4. t\n\u00f5. u\n\u00f6. r\n\u00f7. e\n\u00f8. s\n\u00f9.  \n\u00fa. o\n\u00fb. f\n\u00fc.  \n\u00fd. i\n\u00fe. t\n\u00ff. s\n\u0100.  \n\u0101. v\n\u0102. e\n\u0103. h\n\u0104. i\n\u0105. c\n\u0106. l\n\u0107. e\n\u0108. s\n\u0109. .\n\u010a. '\n\u010b. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -602,8 +602,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "d287937d-7e4a-4e87-a3a5-53ccccb6c77f",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total revenue for the company in Q1-2023?\nHow do you respond?\nA. 18,756\nB. 16,934\nC. 23,329\nD. 18,878\n",
+                    "key": "d09ca4d8-18ee-406b-8986-8a1f38d8ede2",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total revenue for the company in Q1-2023?\nHow do you respond?\nA. [\nB. '\nC. 1\nD. 8\nE. ,\nF. 7\nG. 5\nH. 6\nI. '\nJ. ,\nK.  \nL. '\nM. 1\nN. 6\nO. ,\nP. 9\nQ. 3\nR. 4\nS. '\nT. ,\nU.  \nV. '\nW. 2\nX. 3\nY. ,\nZ. 3\n[. 2\n\\. 9\n]. '\n^. ,\n_.  \n`. '\na. 1\nb. 8\nc. ,\nd. 8\ne. 7\nf. 8\ng. '\nh. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -613,8 +613,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "47e44cbd-fb8d-4bbe-8535-1734f4c667c7",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the cost of revenues for the company in Q1-2023?\nHow do you respond?\nA. 11,322\nB. 15,422\nC. 13,480\nD. 18,818\n",
+                    "key": "fc5c6e61-0f60-44e3-85a8-2374da09eab1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the cost of revenues for the company in Q1-2023?\nHow do you respond?\nA. [\nB. '\nC. 1\nD. 1\nE. ,\nF. 3\nG. 2\nH. 2\nI. '\nJ. ,\nK.  \nL. '\nM. 1\nN. 5\nO. ,\nP. 4\nQ. 2\nR. 2\nS. '\nT. ,\nU.  \nV. '\nW. 1\nX. 3\nY. ,\nZ. 4\n[. 8\n\\. 0\n]. '\n^. ,\n_.  \n`. '\na. 1\nb. 8\nc. ,\nd. 8\ne. 1\nf. 8\ng. '\nh. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -624,8 +624,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "dc9ec928-4668-41d5-bf2a-25df23602727",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the income from operations for the company in Q1-2023?\nHow do you respond?\nA. $3,603\nB. $2,664\nC. $3,901\nD. $1,857\n",
+                    "key": "7e85b6b7-a152-4e9d-bcdc-fff18f5ef1cc",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the income from operations for the company in Q1-2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 3\nE. ,\nF. 6\nG. 0\nH. 3\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 2\nO. ,\nP. 6\nQ. 6\nR. 4\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 3\nY. ,\nZ. 9\n[. 0\n\\. 1\n]. '\n^. ,\n_.  \n`. '\na. $\nb. 1\nc. ,\nd. 8\ne. 5\nf. 7\ng. '\nh. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -635,8 +635,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "7cf4e03e-f8e7-49d5-8d18-6988925a8de0",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income attributable to common stockholders for the company in Q1-2023?\nHow do you respond?\nA. $2,513\nB. $3,292\nC. $3,687\nD. $1,529\n",
+                    "key": "9c4b8e4f-87fb-4dcf-ac51-848cd3ba2fd5",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income attributable to common stockholders for the company in Q1-2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 2\nE. ,\nF. 5\nG. 1\nH. 3\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 3\nO. ,\nP. 2\nQ. 9\nR. 2\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 3\nY. ,\nZ. 6\n[. 8\n\\. 7\n]. '\n^. ,\n_.  \n`. '\na. $\nb. 1\nc. ,\nd. 5\ne. 2\nf. 9\ng. '\nh. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -646,8 +646,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "e1bbbd1e-abbe-4dd0-b20e-bed8ce63fb83",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income per share of common stock attributable to common stockholders for the company in Q1-2023?\nHow do you respond?\nA. $1.07\nB. $0.95\nC. $1.18\nD. $0.80\n",
+                    "key": "336eede4-4289-4da9-822c-4fac0a75477f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income per share of common stock attributable to common stockholders for the company in Q1-2023?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. .\nF. 0\nG. 7\nH. '\nI. ,\nJ.  \nK. '\nL. $\nM. 0\nN. .\nO. 9\nP. 5\nQ. '\nR. ,\nS.  \nT. '\nU. $\nV. 1\nW. .\nX. 1\nY. 8\nZ. '\n[. ,\n\\.  \n]. '\n^. $\n_. 0\n`. .\na. 8\nb. 0\nc. '\nd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -657,8 +657,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "67193ac4-d94b-402a-ab61-9d250e55fbda",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the weighted average shares used in computing net income per share of common stock for the company in Q1-2023?\nHow do you respond?\nA. 3,103\nB. 3,166\nC. 3,464\nD. 3,472\n",
+                    "key": "0b652f49-87a9-4c91-92fa-89d24211c109",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the weighted average shares used in computing net income per share of common stock for the company in Q1-2023?\nHow do you respond?\nA. [\nB. '\nC. 3\nD. ,\nE. 1\nF. 0\nG. 3\nH. '\nI. ,\nJ.  \nK. '\nL. 3\nM. ,\nN. 1\nO. 6\nP. 6\nQ. '\nR. ,\nS.  \nT. '\nU. 3\nV. ,\nW. 4\nX. 6\nY. 4\nZ. '\n[. ,\n\\.  \n]. '\n^. 3\n_. ,\n`. 4\na. 7\nb. 2\nc. '\nd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -668,8 +668,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "89b9b497-9a01-44d6-ad83-0546eaf07cd2",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total energy generation and storage revenue for the company in Q1-2023?\nHow do you respond?\nA. 1,529\nB. 1,837\nC. 1,361\nD. 1,702\n",
+                    "key": "38aa75cf-20b4-4a15-8ffb-f9b897dccf2b",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the total energy generation and storage revenue for the company in Q1-2023?\nHow do you respond?\nA. [\nB. '\nC. 1\nD. ,\nE. 5\nF. 2\nG. 9\nH. '\nI. ,\nJ.  \nK. '\nL. 1\nM. ,\nN. 8\nO. 3\nP. 7\nQ. '\nR. ,\nS.  \nT. '\nU. 1\nV. ,\nW. 3\nX. 6\nY. 1\nZ. '\n[. ,\n\\.  \n]. '\n^. 1\n_. ,\n`. 7\na. 0\nb. 2\nc. '\nd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -679,8 +679,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "08ae3568-355c-473e-a41d-497f242dde6b",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income attributable to common stockholders for the second quarter of 2022?\nHow do you respond?\nA. $1,618\nB. $2,259\nC. $2,321\nD. $3,292\n",
+                    "key": "b7f22051-406e-4bee-9b84-887fc55821f1",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net income attributable to common stockholders for the second quarter of 2022?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. ,\nF. 6\nG. 1\nH. 8\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 2\nO. ,\nP. 2\nQ. 5\nR. 9\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 2\nY. ,\nZ. 3\n[. 2\n\\. 1\n]. '\n^. ,\n_.  \n`. '\na. $\nb. 3\nc. ,\nd. 2\ne. 9\nf. 2\ng. '\nh. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -690,8 +690,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "8be70451-9543-4157-b205-b5036d06d5e0",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the depreciation, amortization, and impairment expense for the fourth quarter of 2022?\nHow do you respond?\nA. $989\nB. $1,046\nC. $1,056\nD. $1,021\n",
+                    "key": "d2a4bf8b-2e96-47db-ac92-8cc2b84b555f",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the depreciation, amortization, and impairment expense for the fourth quarter of 2022?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 9\nE. 8\nF. 9\nG. '\nH. ,\nI.  \nJ. '\nK. $\nL. 1\nM. ,\nN. 0\nO. 4\nP. 6\nQ. '\nR. ,\nS.  \nT. '\nU. $\nV. 1\nW. ,\nX. 0\nY. 5\nZ. 6\n[. '\n\\. ,\n].  \n^. '\n_. $\n`. 1\na. ,\nb. 0\nc. 2\nd. 1\ne. '\nf. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -701,8 +701,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "5693b3e9-3085-496c-978d-d24901942f25",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the stock-based compensation expense for the first quarter of 2021?\nHow do you respond?\nA. $1,807\nB. $1,850\nC. $1,841\nD. $4,968\n",
+                    "key": "6c886346-3a77-4b9d-883d-2a0ee866856e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the stock-based compensation expense for the first quarter of 2021?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. ,\nF. 8\nG. 0\nH. 7\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 1\nO. ,\nP. 8\nQ. 5\nR. 0\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 1\nY. ,\nZ. 8\n[. 4\n\\. 1\n]. '\n^. ,\n_.  \n`. '\na. $\nb. 4\nc. ,\nd. 9\ne. 6\nf. 8\ng. '\nh. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -712,8 +712,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "25f82834-6f50-4ed7-8b3a-834c33047cc6",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the adjusted EBITDA for the second quarter of 2022?\nHow do you respond?\nA. 2,259\nB. 3,292\nC. 3,687\nD. 4,968\n",
+                    "key": "5d3758ad-1dea-4c4b-89af-760210f643a9",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the adjusted EBITDA for the second quarter of 2022?\nHow do you respond?\nA. [\nB. '\nC. 2\nD. ,\nE. 2\nF. 5\nG. 9\nH. '\nI. ,\nJ.  \nK. '\nL. 3\nM. ,\nN. 2\nO. 9\nP. 2\nQ. '\nR. ,\nS.  \nT. '\nU. 3\nV. ,\nW. 6\nX. 8\nY. 7\nZ. '\n[. ,\n\\.  \n]. '\n^. 4\n_. ,\n`. 9\na. 6\nb. 8\nc. '\nd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -723,8 +723,8 @@
                     "expected_output": "C"
                 },
                 {
-                    "key": "50345ea8-f7d1-49f8-9579-3dd49273d65a",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the capital expenditure for the third quarter of 2022?\nHow do you respond?\nA. 1,858\nB. 1,767\nC. 1,730\nD. 1,803\n",
+                    "key": "30e33078-5933-40d8-85ad-9c0c0427855d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the capital expenditure for the third quarter of 2022?\nHow do you respond?\nA. [\nB. '\nC. 1\nD. ,\nE. 8\nF. 5\nG. 8\nH. '\nI. ,\nJ.  \nK. '\nL. 1\nM. ,\nN. 7\nO. 6\nP. 7\nQ. '\nR. ,\nS.  \nT. '\nU. 1\nV. ,\nW. 7\nX. 3\nY. 0\nZ. '\n[. ,\n\\.  \n]. '\n^. 1\n_. ,\n`. 8\na. 0\nb. 3\nc. '\nd. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -734,8 +734,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "b116405b-0e74-45f9-bf07-42f4c89fc59a",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the free cash flow for the fourth quarter of 2022?\nHow do you respond?\nA. $1,858\nB. $1,803\nC. $1,767\nD. $1,730\n",
+                    "key": "4f0a0b55-1435-4797-ae8f-4fb7ee1c3e84",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the free cash flow for the fourth quarter of 2022?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. ,\nF. 8\nG. 5\nH. 8\nI. '\nJ. ,\nK.  \nL. '\nM. $\nN. 1\nO. ,\nP. 8\nQ. 0\nR. 3\nS. '\nT. ,\nU.  \nV. '\nW. $\nX. 1\nY. ,\nZ. 7\n[. 6\n\\. 7\n]. '\n^. ,\n_.  \n`. '\na. $\nb. 1\nc. ,\nd. 7\ne. 3\nf. 0\ng. '\nh. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -745,8 +745,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "294d4dd6-90af-4ae7-b3c8-a753528d474d",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net cash provided by operating activities for the trailing twelve months ended June 30, 2022?\nHow do you respond?\nA. $13,242\nB. $14,724\nC. $16,031\nD. $18,756\n",
+                    "key": "e14998f2-9ee4-4668-85ef-03385a136a47",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the net cash provided by operating activities for the trailing twelve months ended June 30, 2022?\nHow do you respond?\nA. [\nB. '\nC. $\nD. 1\nE. 3\nF. ,\nG. 2\nH. 4\nI. 2\nJ. '\nK. ,\nL.  \nM. '\nN. $\nO. 1\nP. 4\nQ. ,\nR. 7\nS. 2\nT. 4\nU. '\nV. ,\nW.  \nX. '\nY. $\nZ. 1\n[. 6\n\\. ,\n]. 0\n^. 3\n_. 1\n`. '\na. ,\nb.  \nc. '\nd. $\ne. 1\nf. 8\ng. ,\nh. 7\ni. 5\nj. 6\nk. '\nl. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -756,8 +756,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "83d5ef2d-cff7-4e6a-b239-459895c83552",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the interest expense for the fourth quarter of 2022?\nHow do you respond?\nA. 163\nB. 246\nC. 99\nD. 33\n",
+                    "key": "20eba387-1de4-4966-a817-487d96cf162d",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the interest expense for the fourth quarter of 2022?\nHow do you respond?\nA. [\nB. '\nC. 1\nD. 6\nE. 3\nF. '\nG. ,\nH.  \nI. '\nJ. 2\nK. 4\nL. 6\nM. '\nN. ,\nO.  \nP. '\nQ. 9\nR. 9\nS. '\nT. ,\nU.  \nV. '\nW. 3\nX. 3\nY. '\nZ. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -767,8 +767,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "adbb980d-247c-46bc-a029-6659c8e7df37",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the formula for calculating \"free cash flow\" in Tesla's financial reports?\nHow do you respond?\nA. Operating cash flow less capital expenditures\nB. Net income (loss) attributable to common stockholders before interest expense, provision for income taxes, depreciation, amortization, and impairment, and stock-based compensation expense\nC. Average cost per vehicle divided by new vehicle deliveries (excluding leases)\nD. Operating profit minus average accounts payable for the period divided by total cost of revenues\n",
+                    "key": "711102e2-d4f4-4125-a712-a3018ec1012e",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the formula for calculating \"free cash flow\" in Tesla's financial reports?\nHow do you respond?\nA. [\nB. '\nC. O\nD. p\nE. e\nF. r\nG. a\nH. t\nI. i\nJ. n\nK. g\nL.  \nM. c\nN. a\nO. s\nP. h\nQ.  \nR. f\nS. l\nT. o\nU. w\nV.  \nW. l\nX. e\nY. s\nZ. s\n[.  \n\\. c\n]. a\n^. p\n_. i\n`. t\na. a\nb. l\nc.  \nd. e\ne. x\nf. p\ng. e\nh. n\ni. d\nj. i\nk. t\nl. u\nm. r\nn. e\no. s\np. '\nq. ,\nr.  \ns. '\nt. N\nu. e\nv. t\nw.  \nx. i\ny. n\nz. c\n{. o\n|. m\n}. e\n~.  \n\u007f. (\n\u0080. l\n\u0081. o\n\u0082. s\n\u0083. s\n\u0084. )\n\u0085.  \n\u0086. a\n\u0087. t\n\u0088. t\n\u0089. r\n\u008a. i\n\u008b. b\n\u008c. u\n\u008d. t\n\u008e. a\n\u008f. b\n\u0090. l\n\u0091. e\n\u0092.  \n\u0093. t\n\u0094. o\n\u0095.  \n\u0096. c\n\u0097. o\n\u0098. m\n\u0099. m\n\u009a. o\n\u009b. n\n\u009c.  \n\u009d. s\n\u009e. t\n\u009f. o\n\u00a0. c\n\u00a1. k\n\u00a2. h\n\u00a3. o\n\u00a4. l\n\u00a5. d\n\u00a6. e\n\u00a7. r\n\u00a8. s\n\u00a9.  \n\u00aa. b\n\u00ab. e\n\u00ac. f\n\u00ad. o\n\u00ae. r\n\u00af. e\n\u00b0.  \n\u00b1. i\n\u00b2. n\n\u00b3. t\n\u00b4. e\n\u00b5. r\n\u00b6. e\n\u00b7. s\n\u00b8. t\n\u00b9.  \n\u00ba. e\n\u00bb. x\n\u00bc. p\n\u00bd. e\n\u00be. n\n\u00bf. s\n\u00c0. e\n\u00c1. ,\n\u00c2.  \n\u00c3. p\n\u00c4. r\n\u00c5. o\n\u00c6. v\n\u00c7. i\n\u00c8. s\n\u00c9. i\n\u00ca. o\n\u00cb. n\n\u00cc.  \n\u00cd. f\n\u00ce. o\n\u00cf. r\n\u00d0.  \n\u00d1. i\n\u00d2. n\n\u00d3. c\n\u00d4. o\n\u00d5. m\n\u00d6. e\n\u00d7.  \n\u00d8. t\n\u00d9. a\n\u00da. x\n\u00db. e\n\u00dc. s\n\u00dd. ,\n\u00de.  \n\u00df. d\n\u00e0. e\n\u00e1. p\n\u00e2. r\n\u00e3. e\n\u00e4. c\n\u00e5. i\n\u00e6. a\n\u00e7. t\n\u00e8. i\n\u00e9. o\n\u00ea. n\n\u00eb. ,\n\u00ec.  \n\u00ed. a\n\u00ee. m\n\u00ef. o\n\u00f0. r\n\u00f1. t\n\u00f2. i\n\u00f3. z\n\u00f4. a\n\u00f5. t\n\u00f6. i\n\u00f7. o\n\u00f8. n\n\u00f9. ,\n\u00fa.  \n\u00fb. a\n\u00fc. n\n\u00fd. d\n\u00fe.  \n\u00ff. i\n\u0100. m\n\u0101. p\n\u0102. a\n\u0103. i\n\u0104. r\n\u0105. m\n\u0106. e\n\u0107. n\n\u0108. t\n\u0109. ,\n\u010a.  \n\u010b. a\n\u010c. n\n\u010d. d\n\u010e.  \n\u010f. s\n\u0110. t\n\u0111. o\n\u0112. c\n\u0113. k\n\u0114. -\n\u0115. b\n\u0116. a\n\u0117. s\n\u0118. e\n\u0119. d\n\u011a.  \n\u011b. c\n\u011c. o\n\u011d. m\n\u011e. p\n\u011f. e\n\u0120. n\n\u0121. s\n\u0122. a\n\u0123. t\n\u0124. i\n\u0125. o\n\u0126. n\n\u0127.  \n\u0128. e\n\u0129. x\n\u012a. p\n\u012b. e\n\u012c. n\n\u012d. s\n\u012e. e\n\u012f. '\n\u0130. ,\n\u0131.  \n\u0132. '\n\u0133. A\n\u0134. v\n\u0135. e\n\u0136. r\n\u0137. a\n\u0138. g\n\u0139. e\n\u013a.  \n\u013b. c\n\u013c. o\n\u013d. s\n\u013e. t\n\u013f.  \n\u0140. p\n\u0141. e\n\u0142. r\n\u0143.  \n\u0144. v\n\u0145. e\n\u0146. h\n\u0147. i\n\u0148. c\n\u0149. l\n\u014a. e\n\u014b.  \n\u014c. d\n\u014d. i\n\u014e. v\n\u014f. i\n\u0150. d\n\u0151. e\n\u0152. d\n\u0153.  \n\u0154. b\n\u0155. y\n\u0156.  \n\u0157. n\n\u0158. e\n\u0159. w\n\u015a.  \n\u015b. v\n\u015c. e\n\u015d. h\n\u015e. i\n\u015f. c\n\u0160. l\n\u0161. e\n\u0162.  \n\u0163. d\n\u0164. e\n\u0165. l\n\u0166. i\n\u0167. v\n\u0168. e\n\u0169. r\n\u016a. i\n\u016b. e\n\u016c. s\n\u016d.  \n\u016e. (\n\u016f. e\n\u0170. x\n\u0171. c\n\u0172. l\n\u0173. u\n\u0174. d\n\u0175. i\n\u0176. n\n\u0177. g\n\u0178.  \n\u0179. l\n\u017a. e\n\u017b. a\n\u017c. s\n\u017d. e\n\u017e. s\n\u017f. )\n\u0180. '\n\u0181. ,\n\u0182.  \n\u0183. '\n\u0184. O\n\u0185. p\n\u0186. e\n\u0187. r\n\u0188. a\n\u0189. t\n\u018a. i\n\u018b. n\n\u018c. g\n\u018d.  \n\u018e. p\n\u018f. r\n\u0190. o\n\u0191. f\n\u0192. i\n\u0193. t\n\u0194.  \n\u0195. m\n\u0196. i\n\u0197. n\n\u0198. u\n\u0199. s\n\u019a.  \n\u019b. a\n\u019c. v\n\u019d. e\n\u019e. r\n\u019f. a\n\u01a0. g\n\u01a1. e\n\u01a2.  \n\u01a3. a\n\u01a4. c\n\u01a5. c\n\u01a6. o\n\u01a7. u\n\u01a8. n\n\u01a9. t\n\u01aa. s\n\u01ab.  \n\u01ac. p\n\u01ad. a\n\u01ae. y\n\u01af. a\n\u01b0. b\n\u01b1. l\n\u01b2. e\n\u01b3.  \n\u01b4. f\n\u01b5. o\n\u01b6. r\n\u01b7.  \n\u01b8. t\n\u01b9. h\n\u01ba. e\n\u01bb.  \n\u01bc. p\n\u01bd. e\n\u01be. r\n\u01bf. i\n\u01c0. o\n\u01c1. d\n\u01c2.  \n\u01c3. d\n\u01c4. i\n\u01c5. v\n\u01c6. i\n\u01c7. d\n\u01c8. e\n\u01c9. d\n\u01ca.  \n\u01cb. b\n\u01cc. y\n\u01cd.  \n\u01ce. t\n\u01cf. o\n\u01d0. t\n\u01d1. a\n\u01d2. l\n\u01d3.  \n\u01d4. c\n\u01d5. o\n\u01d6. s\n\u01d7. t\n\u01d8.  \n\u01d9. o\n\u01da. f\n\u01db.  \n\u01dc. r\n\u01dd. e\n\u01de. v\n\u01df. e\n\u01e0. n\n\u01e1. u\n\u01e2. e\n\u01e3. s\n\u01e4. '\n\u01e5. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -778,8 +778,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "ee09e917-914e-466c-8dd2-b9d6029fa86d",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is \"average cost per vehicle\" calculated in Tesla's financial reports?\nHow do you respond?\nA. By dividing the total cost of revenue by the number of vehicles delivered.\nB. By dividing the cost of automotive sales by the number of new vehicle deliveries, excluding leases.\nC. By dividing the total cost of revenue by the number of new vehicle deliveries, including leases.\nD. By dividing the cost of automotive sales by the number of vehicles produced.\n",
+                    "key": "cbeefe2a-80fb-4924-bc90-09b606e6d504",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is \"average cost per vehicle\" calculated in Tesla's financial reports?\nHow do you respond?\nA. [\nB. '\nC. B\nD. y\nE.  \nF. d\nG. i\nH. v\nI. i\nJ. d\nK. i\nL. n\nM. g\nN.  \nO. t\nP. h\nQ. e\nR.  \nS. t\nT. o\nU. t\nV. a\nW. l\nX.  \nY. c\nZ. o\n[. s\n\\. t\n].  \n^. o\n_. f\n`.  \na. r\nb. e\nc. v\nd. e\ne. n\nf. u\ng. e\nh.  \ni. b\nj. y\nk.  \nl. t\nm. h\nn. e\no.  \np. n\nq. u\nr. m\ns. b\nt. e\nu. r\nv.  \nw. o\nx. f\ny.  \nz. v\n{. e\n|. h\n}. i\n~. c\n\u007f. l\n\u0080. e\n\u0081. s\n\u0082.  \n\u0083. d\n\u0084. e\n\u0085. l\n\u0086. i\n\u0087. v\n\u0088. e\n\u0089. r\n\u008a. e\n\u008b. d\n\u008c. .\n\u008d. '\n\u008e. ,\n\u008f.  \n\u0090. '\n\u0091. B\n\u0092. y\n\u0093.  \n\u0094. d\n\u0095. i\n\u0096. v\n\u0097. i\n\u0098. d\n\u0099. i\n\u009a. n\n\u009b. g\n\u009c.  \n\u009d. t\n\u009e. h\n\u009f. e\n\u00a0.  \n\u00a1. c\n\u00a2. o\n\u00a3. s\n\u00a4. t\n\u00a5.  \n\u00a6. o\n\u00a7. f\n\u00a8.  \n\u00a9. a\n\u00aa. u\n\u00ab. t\n\u00ac. o\n\u00ad. m\n\u00ae. o\n\u00af. t\n\u00b0. i\n\u00b1. v\n\u00b2. e\n\u00b3.  \n\u00b4. s\n\u00b5. a\n\u00b6. l\n\u00b7. e\n\u00b8. s\n\u00b9.  \n\u00ba. b\n\u00bb. y\n\u00bc.  \n\u00bd. t\n\u00be. h\n\u00bf. e\n\u00c0.  \n\u00c1. n\n\u00c2. u\n\u00c3. m\n\u00c4. b\n\u00c5. e\n\u00c6. r\n\u00c7.  \n\u00c8. o\n\u00c9. f\n\u00ca.  \n\u00cb. n\n\u00cc. e\n\u00cd. w\n\u00ce.  \n\u00cf. v\n\u00d0. e\n\u00d1. h\n\u00d2. i\n\u00d3. c\n\u00d4. l\n\u00d5. e\n\u00d6.  \n\u00d7. d\n\u00d8. e\n\u00d9. l\n\u00da. i\n\u00db. v\n\u00dc. e\n\u00dd. r\n\u00de. i\n\u00df. e\n\u00e0. s\n\u00e1. ,\n\u00e2.  \n\u00e3. e\n\u00e4. x\n\u00e5. c\n\u00e6. l\n\u00e7. u\n\u00e8. d\n\u00e9. i\n\u00ea. n\n\u00eb. g\n\u00ec.  \n\u00ed. l\n\u00ee. e\n\u00ef. a\n\u00f0. s\n\u00f1. e\n\u00f2. s\n\u00f3. .\n\u00f4. '\n\u00f5. ,\n\u00f6.  \n\u00f7. '\n\u00f8. B\n\u00f9. y\n\u00fa.  \n\u00fb. d\n\u00fc. i\n\u00fd. v\n\u00fe. i\n\u00ff. d\n\u0100. i\n\u0101. n\n\u0102. g\n\u0103.  \n\u0104. t\n\u0105. h\n\u0106. e\n\u0107.  \n\u0108. t\n\u0109. o\n\u010a. t\n\u010b. a\n\u010c. l\n\u010d.  \n\u010e. c\n\u010f. o\n\u0110. s\n\u0111. t\n\u0112.  \n\u0113. o\n\u0114. f\n\u0115.  \n\u0116. r\n\u0117. e\n\u0118. v\n\u0119. e\n\u011a. n\n\u011b. u\n\u011c. e\n\u011d.  \n\u011e. b\n\u011f. y\n\u0120.  \n\u0121. t\n\u0122. h\n\u0123. e\n\u0124.  \n\u0125. n\n\u0126. u\n\u0127. m\n\u0128. b\n\u0129. e\n\u012a. r\n\u012b.  \n\u012c. o\n\u012d. f\n\u012e.  \n\u012f. n\n\u0130. e\n\u0131. w\n\u0132.  \n\u0133. v\n\u0134. e\n\u0135. h\n\u0136. i\n\u0137. c\n\u0138. l\n\u0139. e\n\u013a.  \n\u013b. d\n\u013c. e\n\u013d. l\n\u013e. i\n\u013f. v\n\u0140. e\n\u0141. r\n\u0142. i\n\u0143. e\n\u0144. s\n\u0145. ,\n\u0146.  \n\u0147. i\n\u0148. n\n\u0149. c\n\u014a. l\n\u014b. u\n\u014c. d\n\u014d. i\n\u014e. n\n\u014f. g\n\u0150.  \n\u0151. l\n\u0152. e\n\u0153. a\n\u0154. s\n\u0155. e\n\u0156. s\n\u0157. .\n\u0158. '\n\u0159. ,\n\u015a.  \n\u015b. '\n\u015c. B\n\u015d. y\n\u015e.  \n\u015f. d\n\u0160. i\n\u0161. v\n\u0162. i\n\u0163. d\n\u0164. i\n\u0165. n\n\u0166. g\n\u0167.  \n\u0168. t\n\u0169. h\n\u016a. e\n\u016b.  \n\u016c. c\n\u016d. o\n\u016e. s\n\u016f. t\n\u0170.  \n\u0171. o\n\u0172. f\n\u0173.  \n\u0174. a\n\u0175. u\n\u0176. t\n\u0177. o\n\u0178. m\n\u0179. o\n\u017a. t\n\u017b. i\n\u017c. v\n\u017d. e\n\u017e.  \n\u017f. s\n\u0180. a\n\u0181. l\n\u0182. e\n\u0183. s\n\u0184.  \n\u0185. b\n\u0186. y\n\u0187.  \n\u0188. t\n\u0189. h\n\u018a. e\n\u018b.  \n\u018c. n\n\u018d. u\n\u018e. m\n\u018f. b\n\u0190. e\n\u0191. r\n\u0192.  \n\u0193. o\n\u0194. f\n\u0195.  \n\u0196. v\n\u0197. e\n\u0198. h\n\u0199. i\n\u019a. c\n\u019b. l\n\u019c. e\n\u019d. s\n\u019e.  \n\u019f. p\n\u01a0. r\n\u01a1. o\n\u01a2. d\n\u01a3. u\n\u01a4. c\n\u01a5. e\n\u01a6. d\n\u01a7. .\n\u01a8. '\n\u01a9. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -789,8 +789,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "18f41166-89e0-4377-bd81-a3254577293e",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of \"days sales outstanding\" in Tesla's financial reports?\nHow do you respond?\nA. The number of days it takes for Tesla to sell its inventory.\nB. The number of days it takes for Tesla to collect its accounts receivable.\nC. The number of days it takes for Tesla to pay its accounts payable.\nD. The number of days it takes for Tesla to deliver its products after receiving an order.\n",
+                    "key": "90636d30-9f8a-4f08-addf-aec2c43b42ca",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of \"days sales outstanding\" in Tesla's financial reports?\nHow do you respond?\nA. [\nB. '\nC. T\nD. h\nE. e\nF.  \nG. n\nH. u\nI. m\nJ. b\nK. e\nL. r\nM.  \nN. o\nO. f\nP.  \nQ. d\nR. a\nS. y\nT. s\nU.  \nV. i\nW. t\nX.  \nY. t\nZ. a\n[. k\n\\. e\n]. s\n^.  \n_. f\n`. o\na. r\nb.  \nc. T\nd. e\ne. s\nf. l\ng. a\nh.  \ni. t\nj. o\nk.  \nl. s\nm. e\nn. l\no. l\np.  \nq. i\nr. t\ns. s\nt.  \nu. i\nv. n\nw. v\nx. e\ny. n\nz. t\n{. o\n|. r\n}. y\n~. .\n\u007f. '\n\u0080. ,\n\u0081.  \n\u0082. '\n\u0083. T\n\u0084. h\n\u0085. e\n\u0086.  \n\u0087. n\n\u0088. u\n\u0089. m\n\u008a. b\n\u008b. e\n\u008c. r\n\u008d.  \n\u008e. o\n\u008f. f\n\u0090.  \n\u0091. d\n\u0092. a\n\u0093. y\n\u0094. s\n\u0095.  \n\u0096. i\n\u0097. t\n\u0098.  \n\u0099. t\n\u009a. a\n\u009b. k\n\u009c. e\n\u009d. s\n\u009e.  \n\u009f. f\n\u00a0. o\n\u00a1. r\n\u00a2.  \n\u00a3. T\n\u00a4. e\n\u00a5. s\n\u00a6. l\n\u00a7. a\n\u00a8.  \n\u00a9. t\n\u00aa. o\n\u00ab.  \n\u00ac. c\n\u00ad. o\n\u00ae. l\n\u00af. l\n\u00b0. e\n\u00b1. c\n\u00b2. t\n\u00b3.  \n\u00b4. i\n\u00b5. t\n\u00b6. s\n\u00b7.  \n\u00b8. a\n\u00b9. c\n\u00ba. c\n\u00bb. o\n\u00bc. u\n\u00bd. n\n\u00be. t\n\u00bf. s\n\u00c0.  \n\u00c1. r\n\u00c2. e\n\u00c3. c\n\u00c4. e\n\u00c5. i\n\u00c6. v\n\u00c7. a\n\u00c8. b\n\u00c9. l\n\u00ca. e\n\u00cb. .\n\u00cc. '\n\u00cd. ,\n\u00ce.  \n\u00cf. '\n\u00d0. T\n\u00d1. h\n\u00d2. e\n\u00d3.  \n\u00d4. n\n\u00d5. u\n\u00d6. m\n\u00d7. b\n\u00d8. e\n\u00d9. r\n\u00da.  \n\u00db. o\n\u00dc. f\n\u00dd.  \n\u00de. d\n\u00df. a\n\u00e0. y\n\u00e1. s\n\u00e2.  \n\u00e3. i\n\u00e4. t\n\u00e5.  \n\u00e6. t\n\u00e7. a\n\u00e8. k\n\u00e9. e\n\u00ea. s\n\u00eb.  \n\u00ec. f\n\u00ed. o\n\u00ee. r\n\u00ef.  \n\u00f0. T\n\u00f1. e\n\u00f2. s\n\u00f3. l\n\u00f4. a\n\u00f5.  \n\u00f6. t\n\u00f7. o\n\u00f8.  \n\u00f9. p\n\u00fa. a\n\u00fb. y\n\u00fc.  \n\u00fd. i\n\u00fe. t\n\u00ff. s\n\u0100.  \n\u0101. a\n\u0102. c\n\u0103. c\n\u0104. o\n\u0105. u\n\u0106. n\n\u0107. t\n\u0108. s\n\u0109.  \n\u010a. p\n\u010b. a\n\u010c. y\n\u010d. a\n\u010e. b\n\u010f. l\n\u0110. e\n\u0111. .\n\u0112. '\n\u0113. ,\n\u0114.  \n\u0115. '\n\u0116. T\n\u0117. h\n\u0118. e\n\u0119.  \n\u011a. n\n\u011b. u\n\u011c. m\n\u011d. b\n\u011e. e\n\u011f. r\n\u0120.  \n\u0121. o\n\u0122. f\n\u0123.  \n\u0124. d\n\u0125. a\n\u0126. y\n\u0127. s\n\u0128.  \n\u0129. i\n\u012a. t\n\u012b.  \n\u012c. t\n\u012d. a\n\u012e. k\n\u012f. e\n\u0130. s\n\u0131.  \n\u0132. f\n\u0133. o\n\u0134. r\n\u0135.  \n\u0136. T\n\u0137. e\n\u0138. s\n\u0139. l\n\u013a. a\n\u013b.  \n\u013c. t\n\u013d. o\n\u013e.  \n\u013f. d\n\u0140. e\n\u0141. l\n\u0142. i\n\u0143. v\n\u0144. e\n\u0145. r\n\u0146.  \n\u0147. i\n\u0148. t\n\u0149. s\n\u014a.  \n\u014b. p\n\u014c. r\n\u014d. o\n\u014e. d\n\u014f. u\n\u0150. c\n\u0151. t\n\u0152. s\n\u0153.  \n\u0154. a\n\u0155. f\n\u0156. t\n\u0157. e\n\u0158. r\n\u0159.  \n\u015a. r\n\u015b. e\n\u015c. c\n\u015d. e\n\u015e. i\n\u015f. v\n\u0160. i\n\u0161. n\n\u0162. g\n\u0163.  \n\u0164. a\n\u0165. n\n\u0166.  \n\u0167. o\n\u0168. r\n\u0169. d\n\u016a. e\n\u016b. r\n\u016c. .\n\u016d. '\n\u016e. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -800,8 +800,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "791dbb57-911c-481d-bca2-442cfc08794f",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of \"days payable outstanding\" in Tesla's financial reports?\nHow do you respond?\nA. The number of days it takes for Tesla to pay its suppliers for parts and materials.\nB. The number of days it takes for Tesla to receive payment from its customers for vehicles and other products.\nC. The number of days it takes for Tesla to pay its employees' salaries and wages.\nD. The number of days it takes for Tesla to pay its taxes.\n",
+                    "key": "a5e7412c-f339-4c57-8130-de9548ace801",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the meaning of \"days payable outstanding\" in Tesla's financial reports?\nHow do you respond?\nA. [\nB. '\nC. T\nD. h\nE. e\nF.  \nG. n\nH. u\nI. m\nJ. b\nK. e\nL. r\nM.  \nN. o\nO. f\nP.  \nQ. d\nR. a\nS. y\nT. s\nU.  \nV. i\nW. t\nX.  \nY. t\nZ. a\n[. k\n\\. e\n]. s\n^.  \n_. f\n`. o\na. r\nb.  \nc. T\nd. e\ne. s\nf. l\ng. a\nh.  \ni. t\nj. o\nk.  \nl. p\nm. a\nn. y\no.  \np. i\nq. t\nr. s\ns.  \nt. s\nu. u\nv. p\nw. p\nx. l\ny. i\nz. e\n{. r\n|. s\n}.  \n~. f\n\u007f. o\n\u0080. r\n\u0081.  \n\u0082. p\n\u0083. a\n\u0084. r\n\u0085. t\n\u0086. s\n\u0087.  \n\u0088. a\n\u0089. n\n\u008a. d\n\u008b.  \n\u008c. m\n\u008d. a\n\u008e. t\n\u008f. e\n\u0090. r\n\u0091. i\n\u0092. a\n\u0093. l\n\u0094. s\n\u0095. .\n\u0096. '\n\u0097. ,\n\u0098.  \n\u0099. '\n\u009a. T\n\u009b. h\n\u009c. e\n\u009d.  \n\u009e. n\n\u009f. u\n\u00a0. m\n\u00a1. b\n\u00a2. e\n\u00a3. r\n\u00a4.  \n\u00a5. o\n\u00a6. f\n\u00a7.  \n\u00a8. d\n\u00a9. a\n\u00aa. y\n\u00ab. s\n\u00ac.  \n\u00ad. i\n\u00ae. t\n\u00af.  \n\u00b0. t\n\u00b1. a\n\u00b2. k\n\u00b3. e\n\u00b4. s\n\u00b5.  \n\u00b6. f\n\u00b7. o\n\u00b8. r\n\u00b9.  \n\u00ba. T\n\u00bb. e\n\u00bc. s\n\u00bd. l\n\u00be. a\n\u00bf.  \n\u00c0. t\n\u00c1. o\n\u00c2.  \n\u00c3. r\n\u00c4. e\n\u00c5. c\n\u00c6. e\n\u00c7. i\n\u00c8. v\n\u00c9. e\n\u00ca.  \n\u00cb. p\n\u00cc. a\n\u00cd. y\n\u00ce. m\n\u00cf. e\n\u00d0. n\n\u00d1. t\n\u00d2.  \n\u00d3. f\n\u00d4. r\n\u00d5. o\n\u00d6. m\n\u00d7.  \n\u00d8. i\n\u00d9. t\n\u00da. s\n\u00db.  \n\u00dc. c\n\u00dd. u\n\u00de. s\n\u00df. t\n\u00e0. o\n\u00e1. m\n\u00e2. e\n\u00e3. r\n\u00e4. s\n\u00e5.  \n\u00e6. f\n\u00e7. o\n\u00e8. r\n\u00e9.  \n\u00ea. v\n\u00eb. e\n\u00ec. h\n\u00ed. i\n\u00ee. c\n\u00ef. l\n\u00f0. e\n\u00f1. s\n\u00f2.  \n\u00f3. a\n\u00f4. n\n\u00f5. d\n\u00f6.  \n\u00f7. o\n\u00f8. t\n\u00f9. h\n\u00fa. e\n\u00fb. r\n\u00fc.  \n\u00fd. p\n\u00fe. r\n\u00ff. o\n\u0100. d\n\u0101. u\n\u0102. c\n\u0103. t\n\u0104. s\n\u0105. .\n\u0106. '\n\u0107. ,\n\u0108.  \n\u0109. \"\n\u010a. T\n\u010b. h\n\u010c. e\n\u010d.  \n\u010e. n\n\u010f. u\n\u0110. m\n\u0111. b\n\u0112. e\n\u0113. r\n\u0114.  \n\u0115. o\n\u0116. f\n\u0117.  \n\u0118. d\n\u0119. a\n\u011a. y\n\u011b. s\n\u011c.  \n\u011d. i\n\u011e. t\n\u011f.  \n\u0120. t\n\u0121. a\n\u0122. k\n\u0123. e\n\u0124. s\n\u0125.  \n\u0126. f\n\u0127. o\n\u0128. r\n\u0129.  \n\u012a. T\n\u012b. e\n\u012c. s\n\u012d. l\n\u012e. a\n\u012f.  \n\u0130. t\n\u0131. o\n\u0132.  \n\u0133. p\n\u0134. a\n\u0135. y\n\u0136.  \n\u0137. i\n\u0138. t\n\u0139. s\n\u013a.  \n\u013b. e\n\u013c. m\n\u013d. p\n\u013e. l\n\u013f. o\n\u0140. y\n\u0141. e\n\u0142. e\n\u0143. s\n\u0144. '\n\u0145.  \n\u0146. s\n\u0147. a\n\u0148. l\n\u0149. a\n\u014a. r\n\u014b. i\n\u014c. e\n\u014d. s\n\u014e.  \n\u014f. a\n\u0150. n\n\u0151. d\n\u0152.  \n\u0153. w\n\u0154. a\n\u0155. g\n\u0156. e\n\u0157. s\n\u0158. .\n\u0159. \"\n\u015a. ,\n\u015b.  \n\u015c. '\n\u015d. T\n\u015e. h\n\u015f. e\n\u0160.  \n\u0161. n\n\u0162. u\n\u0163. m\n\u0164. b\n\u0165. e\n\u0166. r\n\u0167.  \n\u0168. o\n\u0169. f\n\u016a.  \n\u016b. d\n\u016c. a\n\u016d. y\n\u016e. s\n\u016f.  \n\u0170. i\n\u0171. t\n\u0172.  \n\u0173. t\n\u0174. a\n\u0175. k\n\u0176. e\n\u0177. s\n\u0178.  \n\u0179. f\n\u017a. o\n\u017b. r\n\u017c.  \n\u017d. T\n\u017e. e\n\u017f. s\n\u0180. l\n\u0181. a\n\u0182.  \n\u0183. t\n\u0184. o\n\u0185.  \n\u0186. p\n\u0187. a\n\u0188. y\n\u0189.  \n\u018a. i\n\u018b. t\n\u018c. s\n\u018d.  \n\u018e. t\n\u018f. a\n\u0190. x\n\u0191. e\n\u0192. s\n\u0193. .\n\u0194. '\n\u0195. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -811,8 +811,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "fb443f2a-ba10-465d-8053-b10744789122",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is \"days of supply\" calculated in Tesla's financial reports?\nHow do you respond?\nA. By dividing new car ending inventory by the relevant quarter's deliveries and using 75 trading days.\nB. By dividing average accounts receivable by total revenues and multiplied by the number of days in the period.\nC. By dividing average accounts payable by total cost of revenues and multiplied by the number of days in the period.\nD. By dividing new vehicle deliveries by the number of days it takes to produce one vehicle.\n",
+                    "key": "588147f5-cfc2-480d-818e-c04071355575",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: How is \"days of supply\" calculated in Tesla's financial reports?\nHow do you respond?\nA. [\nB. \"\nC. B\nD. y\nE.  \nF. d\nG. i\nH. v\nI. i\nJ. d\nK. i\nL. n\nM. g\nN.  \nO. n\nP. e\nQ. w\nR.  \nS. c\nT. a\nU. r\nV.  \nW. e\nX. n\nY. d\nZ. i\n[. n\n\\. g\n].  \n^. i\n_. n\n`. v\na. e\nb. n\nc. t\nd. o\ne. r\nf. y\ng.  \nh. b\ni. y\nj.  \nk. t\nl. h\nm. e\nn.  \no. r\np. e\nq. l\nr. e\ns. v\nt. a\nu. n\nv. t\nw.  \nx. q\ny. u\nz. a\n{. r\n|. t\n}. e\n~. r\n\u007f. '\n\u0080. s\n\u0081.  \n\u0082. d\n\u0083. e\n\u0084. l\n\u0085. i\n\u0086. v\n\u0087. e\n\u0088. r\n\u0089. i\n\u008a. e\n\u008b. s\n\u008c.  \n\u008d. a\n\u008e. n\n\u008f. d\n\u0090.  \n\u0091. u\n\u0092. s\n\u0093. i\n\u0094. n\n\u0095. g\n\u0096.  \n\u0097. 7\n\u0098. 5\n\u0099.  \n\u009a. t\n\u009b. r\n\u009c. a\n\u009d. d\n\u009e. i\n\u009f. n\n\u00a0. g\n\u00a1.  \n\u00a2. d\n\u00a3. a\n\u00a4. y\n\u00a5. s\n\u00a6. .\n\u00a7. \"\n\u00a8. ,\n\u00a9.  \n\u00aa. '\n\u00ab. B\n\u00ac. y\n\u00ad.  \n\u00ae. d\n\u00af. i\n\u00b0. v\n\u00b1. i\n\u00b2. d\n\u00b3. i\n\u00b4. n\n\u00b5. g\n\u00b6.  \n\u00b7. a\n\u00b8. v\n\u00b9. e\n\u00ba. r\n\u00bb. a\n\u00bc. g\n\u00bd. e\n\u00be.  \n\u00bf. a\n\u00c0. c\n\u00c1. c\n\u00c2. o\n\u00c3. u\n\u00c4. n\n\u00c5. t\n\u00c6. s\n\u00c7.  \n\u00c8. r\n\u00c9. e\n\u00ca. c\n\u00cb. e\n\u00cc. i\n\u00cd. v\n\u00ce. a\n\u00cf. b\n\u00d0. l\n\u00d1. e\n\u00d2.  \n\u00d3. b\n\u00d4. y\n\u00d5.  \n\u00d6. t\n\u00d7. o\n\u00d8. t\n\u00d9. a\n\u00da. l\n\u00db.  \n\u00dc. r\n\u00dd. e\n\u00de. v\n\u00df. e\n\u00e0. n\n\u00e1. u\n\u00e2. e\n\u00e3. s\n\u00e4.  \n\u00e5. a\n\u00e6. n\n\u00e7. d\n\u00e8.  \n\u00e9. m\n\u00ea. u\n\u00eb. l\n\u00ec. t\n\u00ed. i\n\u00ee. p\n\u00ef. l\n\u00f0. i\n\u00f1. e\n\u00f2. d\n\u00f3.  \n\u00f4. b\n\u00f5. y\n\u00f6.  \n\u00f7. t\n\u00f8. h\n\u00f9. e\n\u00fa.  \n\u00fb. n\n\u00fc. u\n\u00fd. m\n\u00fe. b\n\u00ff. e\n\u0100. r\n\u0101.  \n\u0102. o\n\u0103. f\n\u0104.  \n\u0105. d\n\u0106. a\n\u0107. y\n\u0108. s\n\u0109.  \n\u010a. i\n\u010b. n\n\u010c.  \n\u010d. t\n\u010e. h\n\u010f. e\n\u0110.  \n\u0111. p\n\u0112. e\n\u0113. r\n\u0114. i\n\u0115. o\n\u0116. d\n\u0117. .\n\u0118. '\n\u0119. ,\n\u011a.  \n\u011b. '\n\u011c. B\n\u011d. y\n\u011e.  \n\u011f. d\n\u0120. i\n\u0121. v\n\u0122. i\n\u0123. d\n\u0124. i\n\u0125. n\n\u0126. g\n\u0127.  \n\u0128. a\n\u0129. v\n\u012a. e\n\u012b. r\n\u012c. a\n\u012d. g\n\u012e. e\n\u012f.  \n\u0130. a\n\u0131. c\n\u0132. c\n\u0133. o\n\u0134. u\n\u0135. n\n\u0136. t\n\u0137. s\n\u0138.  \n\u0139. p\n\u013a. a\n\u013b. y\n\u013c. a\n\u013d. b\n\u013e. l\n\u013f. e\n\u0140.  \n\u0141. b\n\u0142. y\n\u0143.  \n\u0144. t\n\u0145. o\n\u0146. t\n\u0147. a\n\u0148. l\n\u0149.  \n\u014a. c\n\u014b. o\n\u014c. s\n\u014d. t\n\u014e.  \n\u014f. o\n\u0150. f\n\u0151.  \n\u0152. r\n\u0153. e\n\u0154. v\n\u0155. e\n\u0156. n\n\u0157. u\n\u0158. e\n\u0159. s\n\u015a.  \n\u015b. a\n\u015c. n\n\u015d. d\n\u015e.  \n\u015f. m\n\u0160. u\n\u0161. l\n\u0162. t\n\u0163. i\n\u0164. p\n\u0165. l\n\u0166. i\n\u0167. e\n\u0168. d\n\u0169.  \n\u016a. b\n\u016b. y\n\u016c.  \n\u016d. t\n\u016e. h\n\u016f. e\n\u0170.  \n\u0171. n\n\u0172. u\n\u0173. m\n\u0174. b\n\u0175. e\n\u0176. r\n\u0177.  \n\u0178. o\n\u0179. f\n\u017a.  \n\u017b. d\n\u017c. a\n\u017d. y\n\u017e. s\n\u017f.  \n\u0180. i\n\u0181. n\n\u0182.  \n\u0183. t\n\u0184. h\n\u0185. e\n\u0186.  \n\u0187. p\n\u0188. e\n\u0189. r\n\u018a. i\n\u018b. o\n\u018c. d\n\u018d. .\n\u018e. '\n\u018f. ,\n\u0190.  \n\u0191. '\n\u0192. B\n\u0193. y\n\u0194.  \n\u0195. d\n\u0196. i\n\u0197. v\n\u0198. i\n\u0199. d\n\u019a. i\n\u019b. n\n\u019c. g\n\u019d.  \n\u019e. n\n\u019f. e\n\u01a0. w\n\u01a1.  \n\u01a2. v\n\u01a3. e\n\u01a4. h\n\u01a5. i\n\u01a6. c\n\u01a7. l\n\u01a8. e\n\u01a9.  \n\u01aa. d\n\u01ab. e\n\u01ac. l\n\u01ad. i\n\u01ae. v\n\u01af. e\n\u01b0. r\n\u01b1. i\n\u01b2. e\n\u01b3. s\n\u01b4.  \n\u01b5. b\n\u01b6. y\n\u01b7.  \n\u01b8. t\n\u01b9. h\n\u01ba. e\n\u01bb.  \n\u01bc. n\n\u01bd. u\n\u01be. m\n\u01bf. b\n\u01c0. e\n\u01c1. r\n\u01c2.  \n\u01c3. o\n\u01c4. f\n\u01c5.  \n\u01c6. d\n\u01c7. a\n\u01c8. y\n\u01c9. s\n\u01ca.  \n\u01cb. i\n\u01cc. t\n\u01cd.  \n\u01ce. t\n\u01cf. a\n\u01d0. k\n\u01d1. e\n\u01d2. s\n\u01d3.  \n\u01d4. t\n\u01d5. o\n\u01d6.  \n\u01d7. p\n\u01d8. r\n\u01d9. o\n\u01da. d\n\u01db. u\n\u01dc. c\n\u01dd. e\n\u01de.  \n\u01df. o\n\u01e0. n\n\u01e1. e\n\u01e2.  \n\u01e3. v\n\u01e4. e\n\u01e5. h\n\u01e6. i\n\u01e7. c\n\u01e8. l\n\u01e9. e\n\u01ea. .\n\u01eb. '\n\u01ec. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -822,8 +822,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "6f0ec66f-6170-4d52-8d73-78e19ce1f022",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of presenting non-GAAP financial measures in Tesla's financial reports?\nHow do you respond?\nA. To provide a comprehensive view of Tesla's financial performance under U.S. GAAP.\nB. To supplement Tesla's GAAP financial statements with additional information used by management for internal decision-making.\nC. To present a more optimistic financial picture than what is reported under U.S. GAAP.\nD. To comply with regulatory requirements for financial reporting.\n",
+                    "key": "08eaefe3-39b0-4b00-9807-d2457023e030",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What is the purpose of presenting non-GAAP financial measures in Tesla's financial reports?\nHow do you respond?\nA. [\nB. \"\nC. T\nD. o\nE.  \nF. p\nG. r\nH. o\nI. v\nJ. i\nK. d\nL. e\nM.  \nN. a\nO.  \nP. c\nQ. o\nR. m\nS. p\nT. r\nU. e\nV. h\nW. e\nX. n\nY. s\nZ. i\n[. v\n\\. e\n].  \n^. v\n_. i\n`. e\na. w\nb.  \nc. o\nd. f\ne.  \nf. T\ng. e\nh. s\ni. l\nj. a\nk. '\nl. s\nm.  \nn. f\no. i\np. n\nq. a\nr. n\ns. c\nt. i\nu. a\nv. l\nw.  \nx. p\ny. e\nz. r\n{. f\n|. o\n}. r\n~. m\n\u007f. a\n\u0080. n\n\u0081. c\n\u0082. e\n\u0083.  \n\u0084. u\n\u0085. n\n\u0086. d\n\u0087. e\n\u0088. r\n\u0089.  \n\u008a. U\n\u008b. .\n\u008c. S\n\u008d. .\n\u008e.  \n\u008f. G\n\u0090. A\n\u0091. A\n\u0092. P\n\u0093. .\n\u0094. \"\n\u0095. ,\n\u0096.  \n\u0097. \"\n\u0098. T\n\u0099. o\n\u009a.  \n\u009b. s\n\u009c. u\n\u009d. p\n\u009e. p\n\u009f. l\n\u00a0. e\n\u00a1. m\n\u00a2. e\n\u00a3. n\n\u00a4. t\n\u00a5.  \n\u00a6. T\n\u00a7. e\n\u00a8. s\n\u00a9. l\n\u00aa. a\n\u00ab. '\n\u00ac. s\n\u00ad.  \n\u00ae. G\n\u00af. A\n\u00b0. A\n\u00b1. P\n\u00b2.  \n\u00b3. f\n\u00b4. i\n\u00b5. n\n\u00b6. a\n\u00b7. n\n\u00b8. c\n\u00b9. i\n\u00ba. a\n\u00bb. l\n\u00bc.  \n\u00bd. s\n\u00be. t\n\u00bf. a\n\u00c0. t\n\u00c1. e\n\u00c2. m\n\u00c3. e\n\u00c4. n\n\u00c5. t\n\u00c6. s\n\u00c7.  \n\u00c8. w\n\u00c9. i\n\u00ca. t\n\u00cb. h\n\u00cc.  \n\u00cd. a\n\u00ce. d\n\u00cf. d\n\u00d0. i\n\u00d1. t\n\u00d2. i\n\u00d3. o\n\u00d4. n\n\u00d5. a\n\u00d6. l\n\u00d7.  \n\u00d8. i\n\u00d9. n\n\u00da. f\n\u00db. o\n\u00dc. r\n\u00dd. m\n\u00de. a\n\u00df. t\n\u00e0. i\n\u00e1. o\n\u00e2. n\n\u00e3.  \n\u00e4. u\n\u00e5. s\n\u00e6. e\n\u00e7. d\n\u00e8.  \n\u00e9. b\n\u00ea. y\n\u00eb.  \n\u00ec. m\n\u00ed. a\n\u00ee. n\n\u00ef. a\n\u00f0. g\n\u00f1. e\n\u00f2. m\n\u00f3. e\n\u00f4. n\n\u00f5. t\n\u00f6.  \n\u00f7. f\n\u00f8. o\n\u00f9. r\n\u00fa.  \n\u00fb. i\n\u00fc. n\n\u00fd. t\n\u00fe. e\n\u00ff. r\n\u0100. n\n\u0101. a\n\u0102. l\n\u0103.  \n\u0104. d\n\u0105. e\n\u0106. c\n\u0107. i\n\u0108. s\n\u0109. i\n\u010a. o\n\u010b. n\n\u010c. -\n\u010d. m\n\u010e. a\n\u010f. k\n\u0110. i\n\u0111. n\n\u0112. g\n\u0113. .\n\u0114. \"\n\u0115. ,\n\u0116.  \n\u0117. '\n\u0118. T\n\u0119. o\n\u011a.  \n\u011b. p\n\u011c. r\n\u011d. e\n\u011e. s\n\u011f. e\n\u0120. n\n\u0121. t\n\u0122.  \n\u0123. a\n\u0124.  \n\u0125. m\n\u0126. o\n\u0127. r\n\u0128. e\n\u0129.  \n\u012a. o\n\u012b. p\n\u012c. t\n\u012d. i\n\u012e. m\n\u012f. i\n\u0130. s\n\u0131. t\n\u0132. i\n\u0133. c\n\u0134.  \n\u0135. f\n\u0136. i\n\u0137. n\n\u0138. a\n\u0139. n\n\u013a. c\n\u013b. i\n\u013c. a\n\u013d. l\n\u013e.  \n\u013f. p\n\u0140. i\n\u0141. c\n\u0142. t\n\u0143. u\n\u0144. r\n\u0145. e\n\u0146.  \n\u0147. t\n\u0148. h\n\u0149. a\n\u014a. n\n\u014b.  \n\u014c. w\n\u014d. h\n\u014e. a\n\u014f. t\n\u0150.  \n\u0151. i\n\u0152. s\n\u0153.  \n\u0154. r\n\u0155. e\n\u0156. p\n\u0157. o\n\u0158. r\n\u0159. t\n\u015a. e\n\u015b. d\n\u015c.  \n\u015d. u\n\u015e. n\n\u015f. d\n\u0160. e\n\u0161. r\n\u0162.  \n\u0163. U\n\u0164. .\n\u0165. S\n\u0166. .\n\u0167.  \n\u0168. G\n\u0169. A\n\u016a. A\n\u016b. P\n\u016c. .\n\u016d. '\n\u016e. ,\n\u016f.  \n\u0170. '\n\u0171. T\n\u0172. o\n\u0173.  \n\u0174. c\n\u0175. o\n\u0176. m\n\u0177. p\n\u0178. l\n\u0179. y\n\u017a.  \n\u017b. w\n\u017c. i\n\u017d. t\n\u017e. h\n\u017f.  \n\u0180. r\n\u0181. e\n\u0182. g\n\u0183. u\n\u0184. l\n\u0185. a\n\u0186. t\n\u0187. o\n\u0188. r\n\u0189. y\n\u018a.  \n\u018b. r\n\u018c. e\n\u018d. q\n\u018e. u\n\u018f. i\n\u0190. r\n\u0191. e\n\u0192. m\n\u0193. e\n\u0194. n\n\u0195. t\n\u0196. s\n\u0197.  \n\u0198. f\n\u0199. o\n\u019a. r\n\u019b.  \n\u019c. f\n\u019d. i\n\u019e. n\n\u019f. a\n\u01a0. n\n\u01a1. c\n\u01a2. i\n\u01a3. a\n\u01a4. l\n\u01a5.  \n\u01a6. r\n\u01a7. e\n\u01a8. p\n\u01a9. o\n\u01aa. r\n\u01ab. t\n\u01ac. i\n\u01ad. n\n\u01ae. g\n\u01af. .\n\u01b0. '\n\u01b1. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -833,8 +833,8 @@
                     "expected_output": "B"
                 },
                 {
-                    "key": "1f5c6faf-58a4-4da0-a079-30188579f34f",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the factors that could affect Tesla's ability to ramp its factories in accordance with its plans?\nHow do you respond?\nA. Uncertainties in future macroeconomic and regulatory conditions arising from the current global pandemic.\nB. The risk of delays in launching and manufacturing Tesla's products and features cost-effectively.\nC. Consumers' demand for electric vehicles generally and Tesla's vehicles specifically.\nD. The ability of suppliers to deliver components according to schedules, prices, quality, and volumes acceptable to Tesla, and Tesla's ability to manage such components effectively.\n",
+                    "key": "20543a0b-8e26-46ad-bdca-d4f2ef650228",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the factors that could affect Tesla's ability to ramp its factories in accordance with its plans?\nHow do you respond?\nA. [\nB. '\nC. U\nD. n\nE. c\nF. e\nG. r\nH. t\nI. a\nJ. i\nK. n\nL. t\nM. i\nN. e\nO. s\nP.  \nQ. i\nR. n\nS.  \nT. f\nU. u\nV. t\nW. u\nX. r\nY. e\nZ.  \n[. m\n\\. a\n]. c\n^. r\n_. o\n`. e\na. c\nb. o\nc. n\nd. o\ne. m\nf. i\ng. c\nh.  \ni. a\nj. n\nk. d\nl.  \nm. r\nn. e\no. g\np. u\nq. l\nr. a\ns. t\nt. o\nu. r\nv. y\nw.  \nx. c\ny. o\nz. n\n{. d\n|. i\n}. t\n~. i\n\u007f. o\n\u0080. n\n\u0081. s\n\u0082.  \n\u0083. a\n\u0084. r\n\u0085. i\n\u0086. s\n\u0087. i\n\u0088. n\n\u0089. g\n\u008a.  \n\u008b. f\n\u008c. r\n\u008d. o\n\u008e. m\n\u008f.  \n\u0090. t\n\u0091. h\n\u0092. e\n\u0093.  \n\u0094. c\n\u0095. u\n\u0096. r\n\u0097. r\n\u0098. e\n\u0099. n\n\u009a. t\n\u009b.  \n\u009c. g\n\u009d. l\n\u009e. o\n\u009f. b\n\u00a0. a\n\u00a1. l\n\u00a2.  \n\u00a3. p\n\u00a4. a\n\u00a5. n\n\u00a6. d\n\u00a7. e\n\u00a8. m\n\u00a9. i\n\u00aa. c\n\u00ab. .\n\u00ac. '\n\u00ad. ,\n\u00ae.  \n\u00af. \"\n\u00b0. T\n\u00b1. h\n\u00b2. e\n\u00b3.  \n\u00b4. r\n\u00b5. i\n\u00b6. s\n\u00b7. k\n\u00b8.  \n\u00b9. o\n\u00ba. f\n\u00bb.  \n\u00bc. d\n\u00bd. e\n\u00be. l\n\u00bf. a\n\u00c0. y\n\u00c1. s\n\u00c2.  \n\u00c3. i\n\u00c4. n\n\u00c5.  \n\u00c6. l\n\u00c7. a\n\u00c8. u\n\u00c9. n\n\u00ca. c\n\u00cb. h\n\u00cc. i\n\u00cd. n\n\u00ce. g\n\u00cf.  \n\u00d0. a\n\u00d1. n\n\u00d2. d\n\u00d3.  \n\u00d4. m\n\u00d5. a\n\u00d6. n\n\u00d7. u\n\u00d8. f\n\u00d9. a\n\u00da. c\n\u00db. t\n\u00dc. u\n\u00dd. r\n\u00de. i\n\u00df. n\n\u00e0. g\n\u00e1.  \n\u00e2. T\n\u00e3. e\n\u00e4. s\n\u00e5. l\n\u00e6. a\n\u00e7. '\n\u00e8. s\n\u00e9.  \n\u00ea. p\n\u00eb. r\n\u00ec. o\n\u00ed. d\n\u00ee. u\n\u00ef. c\n\u00f0. t\n\u00f1. s\n\u00f2.  \n\u00f3. a\n\u00f4. n\n\u00f5. d\n\u00f6.  \n\u00f7. f\n\u00f8. e\n\u00f9. a\n\u00fa. t\n\u00fb. u\n\u00fc. r\n\u00fd. e\n\u00fe. s\n\u00ff.  \n\u0100. c\n\u0101. o\n\u0102. s\n\u0103. t\n\u0104. -\n\u0105. e\n\u0106. f\n\u0107. f\n\u0108. e\n\u0109. c\n\u010a. t\n\u010b. i\n\u010c. v\n\u010d. e\n\u010e. l\n\u010f. y\n\u0110. .\n\u0111. \"\n\u0112. ,\n\u0113.  \n\u0114. \"\n\u0115. C\n\u0116. o\n\u0117. n\n\u0118. s\n\u0119. u\n\u011a. m\n\u011b. e\n\u011c. r\n\u011d. s\n\u011e. '\n\u011f.  \n\u0120. d\n\u0121. e\n\u0122. m\n\u0123. a\n\u0124. n\n\u0125. d\n\u0126.  \n\u0127. f\n\u0128. o\n\u0129. r\n\u012a.  \n\u012b. e\n\u012c. l\n\u012d. e\n\u012e. c\n\u012f. t\n\u0130. r\n\u0131. i\n\u0132. c\n\u0133.  \n\u0134. v\n\u0135. e\n\u0136. h\n\u0137. i\n\u0138. c\n\u0139. l\n\u013a. e\n\u013b. s\n\u013c.  \n\u013d. g\n\u013e. e\n\u013f. n\n\u0140. e\n\u0141. r\n\u0142. a\n\u0143. l\n\u0144. l\n\u0145. y\n\u0146.  \n\u0147. a\n\u0148. n\n\u0149. d\n\u014a.  \n\u014b. T\n\u014c. e\n\u014d. s\n\u014e. l\n\u014f. a\n\u0150. '\n\u0151. s\n\u0152.  \n\u0153. v\n\u0154. e\n\u0155. h\n\u0156. i\n\u0157. c\n\u0158. l\n\u0159. e\n\u015a. s\n\u015b.  \n\u015c. s\n\u015d. p\n\u015e. e\n\u015f. c\n\u0160. i\n\u0161. f\n\u0162. i\n\u0163. c\n\u0164. a\n\u0165. l\n\u0166. l\n\u0167. y\n\u0168. .\n\u0169. \"\n\u016a. ,\n\u016b.  \n\u016c. \"\n\u016d. T\n\u016e. h\n\u016f. e\n\u0170.  \n\u0171. a\n\u0172. b\n\u0173. i\n\u0174. l\n\u0175. i\n\u0176. t\n\u0177. y\n\u0178.  \n\u0179. o\n\u017a. f\n\u017b.  \n\u017c. s\n\u017d. u\n\u017e. p\n\u017f. p\n\u0180. l\n\u0181. i\n\u0182. e\n\u0183. r\n\u0184. s\n\u0185.  \n\u0186. t\n\u0187. o\n\u0188.  \n\u0189. d\n\u018a. e\n\u018b. l\n\u018c. i\n\u018d. v\n\u018e. e\n\u018f. r\n\u0190.  \n\u0191. c\n\u0192. o\n\u0193. m\n\u0194. p\n\u0195. o\n\u0196. n\n\u0197. e\n\u0198. n\n\u0199. t\n\u019a. s\n\u019b.  \n\u019c. a\n\u019d. c\n\u019e. c\n\u019f. o\n\u01a0. r\n\u01a1. d\n\u01a2. i\n\u01a3. n\n\u01a4. g\n\u01a5.  \n\u01a6. t\n\u01a7. o\n\u01a8.  \n\u01a9. s\n\u01aa. c\n\u01ab. h\n\u01ac. e\n\u01ad. d\n\u01ae. u\n\u01af. l\n\u01b0. e\n\u01b1. s\n\u01b2. ,\n\u01b3.  \n\u01b4. p\n\u01b5. r\n\u01b6. i\n\u01b7. c\n\u01b8. e\n\u01b9. s\n\u01ba. ,\n\u01bb.  \n\u01bc. q\n\u01bd. u\n\u01be. a\n\u01bf. l\n\u01c0. i\n\u01c1. t\n\u01c2. y\n\u01c3. ,\n\u01c4.  \n\u01c5. a\n\u01c6. n\n\u01c7. d\n\u01c8.  \n\u01c9. v\n\u01ca. o\n\u01cb. l\n\u01cc. u\n\u01cd. m\n\u01ce. e\n\u01cf. s\n\u01d0.  \n\u01d1. a\n\u01d2. c\n\u01d3. c\n\u01d4. e\n\u01d5. p\n\u01d6. t\n\u01d7. a\n\u01d8. b\n\u01d9. l\n\u01da. e\n\u01db.  \n\u01dc. t\n\u01dd. o\n\u01de.  \n\u01df. T\n\u01e0. e\n\u01e1. s\n\u01e2. l\n\u01e3. a\n\u01e4. ,\n\u01e5.  \n\u01e6. a\n\u01e7. n\n\u01e8. d\n\u01e9.  \n\u01ea. T\n\u01eb. e\n\u01ec. s\n\u01ed. l\n\u01ee. a\n\u01ef. '\n\u01f0. s\n\u01f1.  \n\u01f2. a\n\u01f3. b\n\u01f4. i\n\u01f5. l\n\u01f6. i\n\u01f7. t\n\u01f8. y\n\u01f9.  \n\u01fa. t\n\u01fb. o\n\u01fc.  \n\u01fd. m\n\u01fe. a\n\u01ff. n\n\u0200. a\n\u0201. g\n\u0202. e\n\u0203.  \n\u0204. s\n\u0205. u\n\u0206. c\n\u0207. h\n\u0208.  \n\u0209. c\n\u020a. o\n\u020b. m\n\u020c. p\n\u020d. o\n\u020e. n\n\u020f. e\n\u0210. n\n\u0211. t\n\u0212. s\n\u0213.  \n\u0214. e\n\u0215. f\n\u0216. f\n\u0217. e\n\u0218. c\n\u0219. t\n\u021a. i\n\u021b. v\n\u021c. e\n\u021d. l\n\u021e. y\n\u021f. .\n\u0220. \"\n\u0221. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -844,8 +844,8 @@
                     "expected_output": "D"
                 },
                 {
-                    "key": "8a2ad529-88e6-42c8-9c35-2f69940c4c9d",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the risks associated with Tesla's product financing programs?\nHow do you respond?\nA. Risk of product recalls\nB. Risk of delays in launching and manufacturing products cost-effectively\nC. Risk of public credibility and confidence in long-term business prospects\nD. Risk of indebtedness and financing strategies\n",
+                    "key": "a2e53c1c-4fb1-43c8-9ef0-30bae7d204b4",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the risks associated with Tesla's product financing programs?\nHow do you respond?\nA. [\nB. '\nC. R\nD. i\nE. s\nF. k\nG.  \nH. o\nI. f\nJ.  \nK. p\nL. r\nM. o\nN. d\nO. u\nP. c\nQ. t\nR.  \nS. r\nT. e\nU. c\nV. a\nW. l\nX. l\nY. s\nZ. '\n[. ,\n\\.  \n]. '\n^. R\n_. i\n`. s\na. k\nb.  \nc. o\nd. f\ne.  \nf. d\ng. e\nh. l\ni. a\nj. y\nk. s\nl.  \nm. i\nn. n\no.  \np. l\nq. a\nr. u\ns. n\nt. c\nu. h\nv. i\nw. n\nx. g\ny.  \nz. a\n{. n\n|. d\n}.  \n~. m\n\u007f. a\n\u0080. n\n\u0081. u\n\u0082. f\n\u0083. a\n\u0084. c\n\u0085. t\n\u0086. u\n\u0087. r\n\u0088. i\n\u0089. n\n\u008a. g\n\u008b.  \n\u008c. p\n\u008d. r\n\u008e. o\n\u008f. d\n\u0090. u\n\u0091. c\n\u0092. t\n\u0093. s\n\u0094.  \n\u0095. c\n\u0096. o\n\u0097. s\n\u0098. t\n\u0099. -\n\u009a. e\n\u009b. f\n\u009c. f\n\u009d. e\n\u009e. c\n\u009f. t\n\u00a0. i\n\u00a1. v\n\u00a2. e\n\u00a3. l\n\u00a4. y\n\u00a5. '\n\u00a6. ,\n\u00a7.  \n\u00a8. '\n\u00a9. R\n\u00aa. i\n\u00ab. s\n\u00ac. k\n\u00ad.  \n\u00ae. o\n\u00af. f\n\u00b0.  \n\u00b1. p\n\u00b2. u\n\u00b3. b\n\u00b4. l\n\u00b5. i\n\u00b6. c\n\u00b7.  \n\u00b8. c\n\u00b9. r\n\u00ba. e\n\u00bb. d\n\u00bc. i\n\u00bd. b\n\u00be. i\n\u00bf. l\n\u00c0. i\n\u00c1. t\n\u00c2. y\n\u00c3.  \n\u00c4. a\n\u00c5. n\n\u00c6. d\n\u00c7.  \n\u00c8. c\n\u00c9. o\n\u00ca. n\n\u00cb. f\n\u00cc. i\n\u00cd. d\n\u00ce. e\n\u00cf. n\n\u00d0. c\n\u00d1. e\n\u00d2.  \n\u00d3. i\n\u00d4. n\n\u00d5.  \n\u00d6. l\n\u00d7. o\n\u00d8. n\n\u00d9. g\n\u00da. -\n\u00db. t\n\u00dc. e\n\u00dd. r\n\u00de. m\n\u00df.  \n\u00e0. b\n\u00e1. u\n\u00e2. s\n\u00e3. i\n\u00e4. n\n\u00e5. e\n\u00e6. s\n\u00e7. s\n\u00e8.  \n\u00e9. p\n\u00ea. r\n\u00eb. o\n\u00ec. s\n\u00ed. p\n\u00ee. e\n\u00ef. c\n\u00f0. t\n\u00f1. s\n\u00f2. '\n\u00f3. ,\n\u00f4.  \n\u00f5. '\n\u00f6. R\n\u00f7. i\n\u00f8. s\n\u00f9. k\n\u00fa.  \n\u00fb. o\n\u00fc. f\n\u00fd.  \n\u00fe. i\n\u00ff. n\n\u0100. d\n\u0101. e\n\u0102. b\n\u0103. t\n\u0104. e\n\u0105. d\n\u0106. n\n\u0107. e\n\u0108. s\n\u0109. s\n\u010a.  \n\u010b. a\n\u010c. n\n\u010d. d\n\u010e.  \n\u010f. f\n\u0110. i\n\u0111. n\n\u0112. a\n\u0113. n\n\u0114. c\n\u0115. i\n\u0116. n\n\u0117. g\n\u0118.  \n\u0119. s\n\u011a. t\n\u011b. r\n\u011c. a\n\u011d. t\n\u011e. e\n\u011f. g\n\u0120. i\n\u0121. e\n\u0122. s\n\u0123. '\n\u0124. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -855,8 +855,8 @@
                     "expected_output": "D"
                 },
                 {
-                    "key": "bb97c9ea-3933-4f06-8e5e-8f7d4108cd0a",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the potential risks associated with Tesla's indebtedness and financing strategies?\nHow do you respond?\nA. Risk of defaulting on loans and interest payments.\nB. Risk of stock price volatility affecting investor sentiment.\nC. Risk of supply chain disruptions affecting production.\nD. Risk of regulatory changes affecting the electric vehicle market.\n",
+                    "key": "f4598aa7-e702-4016-90ee-6f619d55fc72",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the potential risks associated with Tesla's indebtedness and financing strategies?\nHow do you respond?\nA. [\nB. '\nC. R\nD. i\nE. s\nF. k\nG.  \nH. o\nI. f\nJ.  \nK. d\nL. e\nM. f\nN. a\nO. u\nP. l\nQ. t\nR. i\nS. n\nT. g\nU.  \nV. o\nW. n\nX.  \nY. l\nZ. o\n[. a\n\\. n\n]. s\n^.  \n_. a\n`. n\na. d\nb.  \nc. i\nd. n\ne. t\nf. e\ng. r\nh. e\ni. s\nj. t\nk.  \nl. p\nm. a\nn. y\no. m\np. e\nq. n\nr. t\ns. s\nt. .\nu. '\nv. ,\nw.  \nx. '\ny. R\nz. i\n{. s\n|. k\n}.  \n~. o\n\u007f. f\n\u0080.  \n\u0081. s\n\u0082. t\n\u0083. o\n\u0084. c\n\u0085. k\n\u0086.  \n\u0087. p\n\u0088. r\n\u0089. i\n\u008a. c\n\u008b. e\n\u008c.  \n\u008d. v\n\u008e. o\n\u008f. l\n\u0090. a\n\u0091. t\n\u0092. i\n\u0093. l\n\u0094. i\n\u0095. t\n\u0096. y\n\u0097.  \n\u0098. a\n\u0099. f\n\u009a. f\n\u009b. e\n\u009c. c\n\u009d. t\n\u009e. i\n\u009f. n\n\u00a0. g\n\u00a1.  \n\u00a2. i\n\u00a3. n\n\u00a4. v\n\u00a5. e\n\u00a6. s\n\u00a7. t\n\u00a8. o\n\u00a9. r\n\u00aa.  \n\u00ab. s\n\u00ac. e\n\u00ad. n\n\u00ae. t\n\u00af. i\n\u00b0. m\n\u00b1. e\n\u00b2. n\n\u00b3. t\n\u00b4. .\n\u00b5. '\n\u00b6. ,\n\u00b7.  \n\u00b8. '\n\u00b9. R\n\u00ba. i\n\u00bb. s\n\u00bc. k\n\u00bd.  \n\u00be. o\n\u00bf. f\n\u00c0.  \n\u00c1. s\n\u00c2. u\n\u00c3. p\n\u00c4. p\n\u00c5. l\n\u00c6. y\n\u00c7.  \n\u00c8. c\n\u00c9. h\n\u00ca. a\n\u00cb. i\n\u00cc. n\n\u00cd.  \n\u00ce. d\n\u00cf. i\n\u00d0. s\n\u00d1. r\n\u00d2. u\n\u00d3. p\n\u00d4. t\n\u00d5. i\n\u00d6. o\n\u00d7. n\n\u00d8. s\n\u00d9.  \n\u00da. a\n\u00db. f\n\u00dc. f\n\u00dd. e\n\u00de. c\n\u00df. t\n\u00e0. i\n\u00e1. n\n\u00e2. g\n\u00e3.  \n\u00e4. p\n\u00e5. r\n\u00e6. o\n\u00e7. d\n\u00e8. u\n\u00e9. c\n\u00ea. t\n\u00eb. i\n\u00ec. o\n\u00ed. n\n\u00ee. .\n\u00ef. '\n\u00f0. ,\n\u00f1.  \n\u00f2. '\n\u00f3. R\n\u00f4. i\n\u00f5. s\n\u00f6. k\n\u00f7.  \n\u00f8. o\n\u00f9. f\n\u00fa.  \n\u00fb. r\n\u00fc. e\n\u00fd. g\n\u00fe. u\n\u00ff. l\n\u0100. a\n\u0101. t\n\u0102. o\n\u0103. r\n\u0104. y\n\u0105.  \n\u0106. c\n\u0107. h\n\u0108. a\n\u0109. n\n\u010a. g\n\u010b. e\n\u010c. s\n\u010d.  \n\u010e. a\n\u010f. f\n\u0110. f\n\u0111. e\n\u0112. c\n\u0113. t\n\u0114. i\n\u0115. n\n\u0116. g\n\u0117.  \n\u0118. t\n\u0119. h\n\u011a. e\n\u011b.  \n\u011c. e\n\u011d. l\n\u011e. e\n\u011f. c\n\u0120. t\n\u0121. r\n\u0122. i\n\u0123. c\n\u0124.  \n\u0125. v\n\u0126. e\n\u0127. h\n\u0128. i\n\u0129. c\n\u012a. l\n\u012b. e\n\u012c.  \n\u012d. m\n\u012e. a\n\u012f. r\n\u0130. k\n\u0131. e\n\u0132. t\n\u0133. .\n\u0134. '\n\u0135. ]\n",
                     "categories": [
                         "question-answering"
                     ],
@@ -866,8 +866,8 @@
                     "expected_output": "A"
                 },
                 {
-                    "key": "82264631-8e46-4a7c-a67f-fb8778759932",
-                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the factors that could affect Tesla's ability to grow its sales, delivery, installation, servicing and charging capabilities?\nHow do you respond?\nA. Uncertainties in future macroeconomic and regulatory conditions arising from the current global pandemic, the risk of delays in launching and manufacturing products and features cost-effectively, consumers' demand for electric vehicles generally and Tesla's vehicles specifically, the ability of suppliers to deliver components according to schedules, prices, quality and volumes acceptable to Tesla, and Tesla's ability to manage such components effectively.\n",
+                    "key": "49735b6a-ad51-4db9-86c6-fe24e5cbecde",
+                    "prompt": "Respond to the following question with single letter answer.\n\nQuestion: What are some of the factors that could affect Tesla's ability to grow its sales, delivery, installation, servicing and charging capabilities?\nHow do you respond?\nA. [\nB. \"\nC. U\nD. n\nE. c\nF. e\nG. r\nH. t\nI. a\nJ. i\nK. n\nL. t\nM. i\nN. e\nO. s\nP.  \nQ. i\nR. n\nS.  \nT. f\nU. u\nV. t\nW. u\nX. r\nY. e\nZ.  \n[. m\n\\. a\n]. c\n^. r\n_. o\n`. e\na. c\nb. o\nc. n\nd. o\ne. m\nf. i\ng. c\nh.  \ni. a\nj. n\nk. d\nl.  \nm. r\nn. e\no. g\np. u\nq. l\nr. a\ns. t\nt. o\nu. r\nv. y\nw.  \nx. c\ny. o\nz. n\n{. d\n|. i\n}. t\n~. i\n\u007f. o\n\u0080. n\n\u0081. s\n\u0082.  \n\u0083. a\n\u0084. r\n\u0085. i\n\u0086. s\n\u0087. i\n\u0088. n\n\u0089. g\n\u008a.  \n\u008b. f\n\u008c. r\n\u008d. o\n\u008e. m\n\u008f.  \n\u0090. t\n\u0091. h\n\u0092. e\n\u0093.  \n\u0094. c\n\u0095. u\n\u0096. r\n\u0097. r\n\u0098. e\n\u0099. n\n\u009a. t\n\u009b.  \n\u009c. g\n\u009d. l\n\u009e. o\n\u009f. b\n\u00a0. a\n\u00a1. l\n\u00a2.  \n\u00a3. p\n\u00a4. a\n\u00a5. n\n\u00a6. d\n\u00a7. e\n\u00a8. m\n\u00a9. i\n\u00aa. c\n\u00ab. ,\n\u00ac.  \n\u00ad. t\n\u00ae. h\n\u00af. e\n\u00b0.  \n\u00b1. r\n\u00b2. i\n\u00b3. s\n\u00b4. k\n\u00b5.  \n\u00b6. o\n\u00b7. f\n\u00b8.  \n\u00b9. d\n\u00ba. e\n\u00bb. l\n\u00bc. a\n\u00bd. y\n\u00be. s\n\u00bf.  \n\u00c0. i\n\u00c1. n\n\u00c2.  \n\u00c3. l\n\u00c4. a\n\u00c5. u\n\u00c6. n\n\u00c7. c\n\u00c8. h\n\u00c9. i\n\u00ca. n\n\u00cb. g\n\u00cc.  \n\u00cd. a\n\u00ce. n\n\u00cf. d\n\u00d0.  \n\u00d1. m\n\u00d2. a\n\u00d3. n\n\u00d4. u\n\u00d5. f\n\u00d6. a\n\u00d7. c\n\u00d8. t\n\u00d9. u\n\u00da. r\n\u00db. i\n\u00dc. n\n\u00dd. g\n\u00de.  \n\u00df. p\n\u00e0. r\n\u00e1. o\n\u00e2. d\n\u00e3. u\n\u00e4. c\n\u00e5. t\n\u00e6. s\n\u00e7.  \n\u00e8. a\n\u00e9. n\n\u00ea. d\n\u00eb.  \n\u00ec. f\n\u00ed. e\n\u00ee. a\n\u00ef. t\n\u00f0. u\n\u00f1. r\n\u00f2. e\n\u00f3. s\n\u00f4.  \n\u00f5. c\n\u00f6. o\n\u00f7. s\n\u00f8. t\n\u00f9. -\n\u00fa. e\n\u00fb. f\n\u00fc. f\n\u00fd. e\n\u00fe. c\n\u00ff. t\n\u0100. i\n\u0101. v\n\u0102. e\n\u0103. l\n\u0104. y\n\u0105. ,\n\u0106.  \n\u0107. c\n\u0108. o\n\u0109. n\n\u010a. s\n\u010b. u\n\u010c. m\n\u010d. e\n\u010e. r\n\u010f. s\n\u0110. '\n\u0111.  \n\u0112. d\n\u0113. e\n\u0114. m\n\u0115. a\n\u0116. n\n\u0117. d\n\u0118.  \n\u0119. f\n\u011a. o\n\u011b. r\n\u011c.  \n\u011d. e\n\u011e. l\n\u011f. e\n\u0120. c\n\u0121. t\n\u0122. r\n\u0123. i\n\u0124. c\n\u0125.  \n\u0126. v\n\u0127. e\n\u0128. h\n\u0129. i\n\u012a. c\n\u012b. l\n\u012c. e\n\u012d. s\n\u012e.  \n\u012f. g\n\u0130. e\n\u0131. n\n\u0132. e\n\u0133. r\n\u0134. a\n\u0135. l\n\u0136. l\n\u0137. y\n\u0138.  \n\u0139. a\n\u013a. n\n\u013b. d\n\u013c.  \n\u013d. T\n\u013e. e\n\u013f. s\n\u0140. l\n\u0141. a\n\u0142. '\n\u0143. s\n\u0144.  \n\u0145. v\n\u0146. e\n\u0147. h\n\u0148. i\n\u0149. c\n\u014a. l\n\u014b. e\n\u014c. s\n\u014d.  \n\u014e. s\n\u014f. p\n\u0150. e\n\u0151. c\n\u0152. i\n\u0153. f\n\u0154. i\n\u0155. c\n\u0156. a\n\u0157. l\n\u0158. l\n\u0159. y\n\u015a. ,\n\u015b.  \n\u015c. t\n\u015d. h\n\u015e. e\n\u015f.  \n\u0160. a\n\u0161. b\n\u0162. i\n\u0163. l\n\u0164. i\n\u0165. t\n\u0166. y\n\u0167.  \n\u0168. o\n\u0169. f\n\u016a.  \n\u016b. s\n\u016c. u\n\u016d. p\n\u016e. p\n\u016f. l\n\u0170. i\n\u0171. e\n\u0172. r\n\u0173. s\n\u0174.  \n\u0175. t\n\u0176. o\n\u0177.  \n\u0178. d\n\u0179. e\n\u017a. l\n\u017b. i\n\u017c. v\n\u017d. e\n\u017e. r\n\u017f.  \n\u0180. c\n\u0181. o\n\u0182. m\n\u0183. p\n\u0184. o\n\u0185. n\n\u0186. e\n\u0187. n\n\u0188. t\n\u0189. s\n\u018a.  \n\u018b. a\n\u018c. c\n\u018d. c\n\u018e. o\n\u018f. r\n\u0190. d\n\u0191. i\n\u0192. n\n\u0193. g\n\u0194.  \n\u0195. t\n\u0196. o\n\u0197.  \n\u0198. s\n\u0199. c\n\u019a. h\n\u019b. e\n\u019c. d\n\u019d. u\n\u019e. l\n\u019f. e\n\u01a0. s\n\u01a1. ,\n\u01a2.  \n\u01a3. p\n\u01a4. r\n\u01a5. i\n\u01a6. c\n\u01a7. e\n\u01a8. s\n\u01a9. ,\n\u01aa.  \n\u01ab. q\n\u01ac. u\n\u01ad. a\n\u01ae. l\n\u01af. i\n\u01b0. t\n\u01b1. y\n\u01b2.  \n\u01b3. a\n\u01b4. n\n\u01b5. d\n\u01b6.  \n\u01b7. v\n\u01b8. o\n\u01b9. l\n\u01ba. u\n\u01bb. m\n\u01bc. e\n\u01bd. s\n\u01be.  \n\u01bf. a\n\u01c0. c\n\u01c1. c\n\u01c2. e\n\u01c3. p\n\u01c4. t\n\u01c5. a\n\u01c6. b\n\u01c7. l\n\u01c8. e\n\u01c9.  \n\u01ca. t\n\u01cb. o\n\u01cc.  \n\u01cd. T\n\u01ce. e\n\u01cf. s\n\u01d0. l\n\u01d1. a\n\u01d2. ,\n\u01d3.  \n\u01d4. a\n\u01d5. n\n\u01d6. d\n\u01d7.  \n\u01d8. T\n\u01d9. e\n\u01da. s\n\u01db. l\n\u01dc. a\n\u01dd. '\n\u01de. s\n\u01df.  \n\u01e0. a\n\u01e1. b\n\u01e2. i\n\u01e3. l\n\u01e4. i\n\u01e5. t\n\u01e6. y\n\u01e7.  \n\u01e8. t\n\u01e9. o\n\u01ea.  \n\u01eb. m\n\u01ec. a\n\u01ed. n\n\u01ee. a\n\u01ef. g\n\u01f0. e\n\u01f1.  \n\u01f2. s\n\u01f3. u\n\u01f4. c\n\u01f5. h\n\u01f6.  \n\u01f7. c\n\u01f8. o\n\u01f9. m\n\u01fa. p\n\u01fb. o\n\u01fc. n\n\u01fd. e\n\u01fe. n\n\u01ff. t\n\u0200. s\n\u0201.  \n\u0202. e\n\u0203. f\n\u0204. f\n\u0205. e\n\u0206. c\n\u0207. t\n\u0208. i\n\u0209. v\n\u020a. e\n\u020b. l\n\u020c. y\n\u020d. .\n\u020e. \"\n\u020f. ]\n",
                     "categories": [
                         "question-answering"
                     ],

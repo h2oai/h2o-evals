@@ -5,8 +5,8 @@ Welcome to the Banking_Financial_Statements_Alphabet_Tesla, part of the H2O.ai L
 
 ## Documents Used
 The dataset is derived from a selection of key documents within the Banking sector, enhancing the real-world relevance of the evaluation. The following source documents were instrumental in generating this dataset:
-1. [2023Q1_alphabet_earnings_release.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Banking_Financial_Statements_Alphabet_Tesla/used_documents/2023Q1_alphabet_earnings_release.pdf)
-2. [TSLA-Q1-2023-Update.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Banking_Financial_Statements_Alphabet_Tesla/used_documents/TSLA-Q1-2023-Update.pdf)
+1. [Financial_Statements_Alphabet.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Banking_Financial_Statements_Alphabet_Tesla/used_documents/Financial_Statements_Alphabet.pdf)
+2. [Financial_Statements_Tesla.pdf](https://github.com/h2oai/h2o-evals/blob/main/catalog/Banking_Financial_Statements_Alphabet_Tesla/used_documents/Financial_Statements_Tesla.pdf)
 
 ## Dataset Details
 - **Industry:** Banking
