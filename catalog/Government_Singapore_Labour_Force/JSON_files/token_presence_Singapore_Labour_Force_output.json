@@ -1,13 +1,13 @@
 {
     "tests": [
         {
-            "key": "cd8a5876-cc29-4df1-abb6-c9650cc84afd",
+            "key": "b02486ad-e965-4d93-b7e3-416d8a46dcd4",
             "documents": [
-                "https://enterprise-h2ogpt-public-data.s3.amazonaws.com/h2o-evals/Singapore_Labour_Force.pdf"
+                "Singapore_Labour_Force.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "e7b2f907-5e79-4dee-b458-623327f03349",
+                    "key": "bc197289-6418-4350-99b4-bbee7c5eeee1",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the main focus of the report on the Labour Force in Singapore 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -28,7 +28,7 @@
                     "expected_output": "The main focus of the report is to provide a comprehensive review of the performance of the resident population in Singapore's labour market, with a focus on the continued recovery of the resident labour force from the impact of the pandemic and an assessment of patterns of improvement in relation to longer-term structural trends."
                 },
                 {
-                    "key": "298e9ea0-9c5c-406f-93c2-39ac2fa1931e",
+                    "key": "d733609a-f6f0-4b0b-a551-7de3e5bd93f7",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the employment rate for residents aged 15 and over in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -39,7 +39,7 @@
                     "expected_output": "The employment rate for residents aged 15 and over in Singapore in 2022 was 67.5%, which is 2.3%-points above the pre-COVID rate in 2019."
                 },
                 {
-                    "key": "de19e7e5-f81a-4c41-8c9f-b777d27d1714",
+                    "key": "2b104c56-34a8-4d16-a98a-bd16d955bfa3",
                     "prompt": "Respond to the following question.\n\nQuestion: How does Singapore's employment rate rank among OECD countries?\n",
                     "categories": [
                         "simple-questions"
@@ -47,15 +47,12 @@
                     "constraints": [
                         "Singapore",
                         "ranks",
-                        "third",
-                        "place",
-                        "second",
-                        "fourth"
+                        "third"
                     ],
                     "expected_output": "Singapore's employment rate ranks high among OECD countries, with a ranking of third place. Singapore ranks second for male employment rate and fourth for female employment rate."
                 },
                 {
-                    "key": "4ca9446e-bcde-4a89-896e-6dabcde98799",
+                    "key": "cdc5c578-ac28-4dde-bc35-6248087d2c7e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the employment rate for residents aged 25 to 64 in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -66,7 +63,7 @@
                     "expected_output": "The employment rate for residents aged 25 to 64 in Singapore in 2022 was 82.7%, which is higher than the previous year (81.8%) and a decade ago (78.8%)."
                 },
                 {
-                    "key": "89aa9f8c-89f0-409b-b0f4-5e49c4431d3e",
+                    "key": "619771d6-d4bf-4465-ae53-bdcbffa69f36",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the employment rate for seniors aged 65 and over in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -77,7 +74,7 @@
                     "expected_output": "The employment rate for seniors aged 65 and over in Singapore in 2022 was 31.0%, which is lower than the previous year (31.7%) but still higher than the average annual increase in the earlier period (+0.9%-points per year between 2012 and 2019)."
                 },
                 {
-                    "key": "cca7286a-46d1-47ca-954f-32fce7dd7734",
+                    "key": "12481416-69b5-41c4-b2fd-8d14476b0cce",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the employment rate for youths aged 15 to 24 in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -88,7 +85,7 @@
                     "expected_output": "The employment rate for youths aged 15 to 24 in Singapore in 2022 was 34.5%, which is lower than the previous year (37.2%) due to fewer students taking on part-time or temporary work."
                 },
                 {
-                    "key": "9e185f85-272a-4ebf-92cb-9ef66170574b",
+                    "key": "9e7a371d-4980-4878-b1b5-834bd6e43519",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the labour force participation rate for residents aged 15 and over in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -99,7 +96,7 @@
                     "expected_output": "The labour force participation rate for residents aged 15 and over in Singapore in 2022 was 70.0%, which is slightly lower than the high of 70.5% in 2021 but still higher than pre-COVID years."
                 },
                 {
-                    "key": "c88b968e-a94f-4a86-acf5-4685be4e2195",
+                    "key": "5b4c9877-5576-4215-a0ff-5bd9753e4699",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the reason for the slight decrease in labour force participation rate in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -123,7 +120,7 @@
                     "expected_output": "The slight decrease in labour force participation rate in 2022 was due to the easing of demand for temporary pandemic-related roles, such as temperature screeners and safe distancing ambassadors, which presented opportunities for residents outside the labour force to take on short-term jobs."
                 },
                 {
-                    "key": "30a139ac-b3d0-483b-9332-624529315f76",
+                    "key": "ec48eadb-26ce-464b-adaa-5f47e4f3cf0d",
                     "prompt": "Respond to the following question.\n\nQuestion: How does the employment rate of women in Singapore compare to that of men in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -135,7 +132,7 @@
                     "expected_output": "The employment rate of women in Singapore in 2022 was 76.2%, which is higher than the employment rate of men (89.6%). The increased involvement of women in the workforce reflects their rising educational profile as well as efforts to promote more progressive gender attitudes and facilitative workplace practices."
                 },
                 {
-                    "key": "88421ada-07c9-4829-9691-a4b1a4b5798c",
+                    "key": "2586398e-b68c-429c-8bd1-e90fc04ca878",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the likely trend for overall labour force participation in the future given the ageing population?\n",
                     "categories": [
                         "simple-questions"
@@ -152,7 +149,7 @@
                     "expected_output": "The labour force participation rate is likely to moderate in the future given the ageing population, as the increase in overall labour force participation will likely slow down."
                 },
                 {
-                    "key": "8f54ae87-2d48-4a3b-b8c0-6dd355f95af1",
+                    "key": "56ae925e-c08c-419f-9d0c-c8913d3722a7",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the labour force participation rate in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -163,7 +160,7 @@
                     "expected_output": "The labour force participation rate in 2022 was 63.4%."
                 },
                 {
-                    "key": "b262f708-056b-465a-ba58-04441b73e25a",
+                    "key": "25fef8ba-9a47-4dfb-b930-a32a30b5f79b",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the share of females in the resident labour force in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -174,7 +171,7 @@
                     "expected_output": "The share of females in the resident labour force in 2022 was 47%."
                 },
                 {
-                    "key": "e660b2b5-8029-452e-b2c3-552e97dbf24d",
+                    "key": "ecfa87c5-ab5c-4a97-86e7-9b177c0f5da6",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the share of seniors in the resident labour force in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -185,7 +182,7 @@
                     "expected_output": "The share of seniors in the resident labour force in 2022 was 27%."
                 },
                 {
-                    "key": "9122ebb7-6c64-4161-a27f-39487275e013",
+                    "key": "a78cfc42-2785-49cd-80fc-76f0478a06a8",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the labour force participation rate of residents aged 55 and over in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -196,7 +193,7 @@
                     "expected_output": "The labour force participation rate of residents aged 55 and over in 2022 was 51%."
                 },
                 {
-                    "key": "4d2b039a-01a4-4b2d-b9f5-91e612637120",
+                    "key": "3c09f2f1-78fd-4faf-b05e-446937da01e5",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the share of residents aged 55 and over in the working-age population in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -207,7 +204,7 @@
                     "expected_output": "The share of residents aged 55 and over in the working-age population in 2022 was 36%."
                 },
                 {
-                    "key": "bc4e62b7-73a3-42cb-a68d-b1e52f7dcac8",
+                    "key": "a5db8ff1-7b32-4ed7-81d6-783f921534c2",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the top industries among employed residents aged 55 and over in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -219,7 +216,7 @@
                     "expected_output": "The top industries among employed residents aged 55 and over in 2022 were Land Transport & Supporting Services, and Food & Beverage Services."
                 },
                 {
-                    "key": "68671005-a4f5-4c21-bfe1-c9130fe4f37c",
+                    "key": "f696a169-5bf9-4a8d-98b9-941f798d5f20",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the educational profile of the labour force in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -234,7 +231,7 @@
                     "expected_output": "The educational profile of the labour force in 2022 showed an increasing share of degree graduates, with around six in ten residents in the labour force holding a tertiary graduate qualification."
                 },
                 {
-                    "key": "c5a93439-b6d7-40e7-8b45-cdbab571a3db",
+                    "key": "d0217ef0-74b4-45ae-a99b-d6aa8fe0cb50",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the employment rate of degree holders aged 25 to 64 in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -245,7 +242,7 @@
                     "expected_output": "The employment rate of degree holders aged 25 to 64 in 2022 was 88.4%."
                 },
                 {
-                    "key": "0ce174bb-7428-4739-8c04-8f569193297f",
+                    "key": "547a04b0-7c96-49a7-a8b8-af0f78f7292b",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the median income of full-time employed degree holders in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -256,7 +253,7 @@
                     "expected_output": "The median income of full-time employed degree holders in 2022 was $8,190."
                 },
                 {
-                    "key": "97c8c1ec-3eed-4d03-86ea-7571f9a32295",
+                    "key": "82ed41b3-0b41-4b5f-95b9-d110c36f5ffe",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the growth rate of the median income of full-time employed degree holders from 2017 to 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -267,7 +264,7 @@
                     "expected_output": "The median income of full-time employed degree holders grew more slowly in real terms, at 0.6% per annum, from 2017 to 2022."
                 },
                 {
-                    "key": "f997a988-4f64-4592-8ee4-1d43c6d61f51",
+                    "key": "31b84cc4-ba85-44f7-ae92-00ef0f400b87",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage of employed residents in Singapore who were in permanent jobs in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -278,7 +275,7 @@
                     "expected_output": "According to Chart 14, the percentage of employed residents in Singapore who were in permanent jobs in 2022 was 86%."
                 },
                 {
-                    "key": "dee69847-9ac4-4f9e-a452-0df8e0f8e3ff",
+                    "key": "34b1a180-d7ef-42b7-9e5f-b5feb1fe8744",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the median income for full-time employed degree holders in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -289,7 +286,7 @@
                     "expected_output": "According to Chart 11, the median income for full-time employed degree holders in Singapore in 2022 was $4,500."
                 },
                 {
-                    "key": "e72027cc-3bf7-47d9-9a75-e6249381e6b4",
+                    "key": "4a6b653e-20ba-4d5f-9de9-172eea97e8b0",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the employment rate among resident degree holders aged 25 to 64 in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -300,7 +297,7 @@
                     "expected_output": "According to Chart 12, the employment rate among resident degree holders aged 25 to 64 in 2022 was 88.9%."
                 },
                 {
-                    "key": "8c8db5ea-8074-4315-b25d-37cf45f01555",
+                    "key": "0960bb70-da65-42b9-b751-3bf7f4bf88aa",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage of young resident tertiary graduates who were in employment in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -311,7 +308,7 @@
                     "expected_output": "According to Chart 12, the percentage of young resident tertiary graduates who were in employment in 2022 was 78%."
                 },
                 {
-                    "key": "f326a590-fb16-4b45-acaa-0b9b87ea67eb",
+                    "key": "32354ae0-de98-4397-89d3-2bc32c28bb45",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the median income for young resident tertiary graduates who were in employment in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -322,7 +319,7 @@
                     "expected_output": "According to Chart 13, the median income for young resident tertiary graduates who were in employment in 2022 was $3,500."
                 },
                 {
-                    "key": "60b032f1-cf4f-46e0-909c-0be347b34fbc",
+                    "key": "95bd84b3-c2ee-47ce-ba33-f6db2e8c5e52",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage of professionals, managers, executives, and technicians (PMETs) among employed residents in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -333,7 +330,7 @@
                     "expected_output": "According to Chart 14, the percentage of PMETs among employed residents in 2022 was 64%."
                 },
                 {
-                    "key": "24b3c921-1886-4458-885c-4592f12dce33",
+                    "key": "add61379-b227-4f5a-98a2-319a920efdf6",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage of workers in production and related positions in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -344,7 +341,7 @@
                     "expected_output": "According to Chart 14, the percentage of workers in production and related positions in 2022 was 36%."
                 },
                 {
-                    "key": "3474e161-ba00-445c-bc47-a175c4fb63b4",
+                    "key": "b82b9b87-c1ad-4fda-b4a0-380197ecdb26",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage of resident employees on fixed-term contracts in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -355,7 +352,7 @@
                     "expected_output": "According to Chart 15, the percentage of resident employees on fixed-term contracts in 2022 was 7.4%."
                 },
                 {
-                    "key": "5e8ac0dd-959b-44cc-9ee3-2a04c6550644",
+                    "key": "1606c10d-2fc9-4a31-82d2-da8c10de1856",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage of resident employees in non-permanent employment in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -366,7 +363,7 @@
                     "expected_output": "According to Chart 15, the percentage of resident employees in non-permanent employment in 2022 was 10.5%."
                 },
                 {
-                    "key": "d8768946-9b2c-404d-9a1f-abf1d206d9fe",
+                    "key": "b177b741-0deb-4613-ad1d-0c42a9b0ac6e",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the time-related under-employment rate in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -377,7 +374,7 @@
                     "expected_output": "According to Chart 16, the time-related under-employment rate in 2022 was around pre-COVID levels, at 2.1%."
                 },
                 {
-                    "key": "b5e0b214-00a9-4d56-a902-dc94caa606f5",
+                    "key": "cf1952ad-1290-4c58-bde7-c8053c034c2e",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the trend in the proportion of fixed-term contract employees in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -388,7 +385,7 @@
                     "expected_output": "The proportion of fixed-term contract employees declined across most age, sex, and education groups in Singapore in 2022."
                 },
                 {
-                    "key": "c6963336-5c67-43f2-80d7-080eabf013c2",
+                    "key": "27946479-60c6-480c-af56-f7199e7e36d5",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the resident time-related under-employment rate in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -399,7 +396,7 @@
                     "expected_output": "The resident time-related under-employment rate in Singapore declined from 3.5% in 2021 to 3.0% in 2022, which is back to the pre-COVID range."
                 },
                 {
-                    "key": "510981e2-0a11-412f-8ca4-0970c61d318a",
+                    "key": "d81b8835-5082-489e-9337-3353e6d45b8e",
                     "prompt": "Respond to the following question.\n\nQuestion: Which groups saw improvements in job search outcomes in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -421,7 +418,7 @@
                     "expected_output": "Those who were more adversely affected by the pandemic, such as those in their 50s and older, those with non-tertiary qualifications, as well as service & sales workers and cleaners, labourers & related workers, saw improvements in job search outcomes in Singapore in 2022."
                 },
                 {
-                    "key": "ea414662-d825-4e1a-abcf-43aeb6dd27e3",
+                    "key": "1e8e8928-dfa4-4b91-b6c8-928935a633c0",
                     "prompt": "Respond to the following question.\n\nQuestion: Why did the relaxation of pandemic-related restrictions and the re-opening of borders benefit part-time workers in Singapore?\n",
                     "categories": [
                         "simple-questions"
@@ -433,7 +430,7 @@
                     "expected_output": "The relaxation of pandemic-related restrictions and the re-opening of borders allowed more part-time workers in consumer-facing and tourism-related sectors, such as Food & Beverage Services, Retail Trade, Accommodation, and Arts, Entertainment & Recreation, to work the number of hours they desired."
                 },
                 {
-                    "key": "8a6f0535-d3b9-4746-b98f-675c7d9a64e4",
+                    "key": "44c86910-4172-4b23-b174-13df6bbb53f8",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the change in the proportion of self-employed workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -445,7 +442,7 @@
                     "expected_output": "The proportion of self-employed workers in Singapore declined in 2022, with a decrease in the share of own account workers, whose share of the resident workforce edged down for the second consecutive year following the high in 2020 at the height of the COVID-19 pandemic."
                 },
                 {
-                    "key": "193e302f-5fa0-4838-8c42-cbb5e9766189",
+                    "key": "18df1eed-5666-48cc-9e8d-3c213dbdc11b",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the decrease in own account workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -459,7 +456,7 @@
                     "expected_output": "The decrease in own account workers in Singapore in 2022 was largely due to a decline in the number of own account workers aged 60 and over."
                 },
                 {
-                    "key": "baca31fe-168e-481c-b476-47375309c91c",
+                    "key": "7e9d2678-de83-4101-bd1c-b3d59f1316d8",
                     "prompt": "Respond to the following question.\n\nQuestion: How many residents in Singapore did own account work as a regular form of employment over the one-year period from July 2021 to June 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -470,7 +467,7 @@
                     "expected_output": "There were 257,300 residents who did own account work as a regular form of employment over the one-year period from July 2021 to June 2022."
                 },
                 {
-                    "key": "64b0bfc5-b498-4280-98c3-ff715a30c88c",
+                    "key": "65d555a3-5b27-4e5d-9613-e1ac91076f77",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason why most own account workers in Singapore did own account work as a main job?\n",
                     "categories": [
                         "simple-questions"
@@ -482,7 +479,7 @@
                     "expected_output": "Most own account workers in Singapore did own account work as a main job by choice, as they prioritized flexibility and freedom associated with own account work, as well as having control over their career."
                 },
                 {
-                    "key": "86d50f5d-2485-4784-8e4c-90b91711309d",
+                    "key": "43ea666d-50bb-4d99-ab7b-145644d90325",
                     "prompt": "Respond to the following question.\n\nQuestion: How many job vacancies were there in Singapore in June 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -493,7 +490,7 @@
                     "expected_output": "There were 126,400 job vacancies in Singapore in June 2022, which is a significant increase from 91,700 in June 2021."
                 },
                 {
-                    "key": "b2ee6c77-7547-40ad-a811-a3812c2105f9",
+                    "key": "2707621c-8f9b-4ece-8854-9ddb55129e55",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the estimate of regular own account workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -504,7 +501,7 @@
                     "expected_output": "The estimate of regular own account workers in Singapore in 2022 was 202,700, which is 8.3% of all employed residents in 2022."
                 },
                 {
-                    "key": "1af0fa11-a3d6-4919-8c63-6f31b88500e1",
+                    "key": "0786e300-0a26-4459-94d3-7d8565b7389d",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the trend in the number of regular own account workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -520,7 +517,7 @@
                     "expected_output": "The number of regular own account workers in Singapore rose for the fourth consecutive year in 2022, but the rate of increase was smaller than the previous year."
                 },
                 {
-                    "key": "2d55cc4d-0bde-4db5-b9a0-99541a109052",
+                    "key": "9d0c5300-e6d5-425b-8970-bef47f5bd22a",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the estimate of regular primary own account workers based on?\n",
                     "categories": [
                         "simple-questions"
@@ -535,7 +532,7 @@
                     "expected_output": "The estimate of regular primary own account workers is based on the number of regular primary own account workers as a proportion of total resident employment (average over 12 months ending in the middle of the year)."
                 },
                 {
-                    "key": "90ce3074-8917-4bb5-ab7d-73291688c659",
+                    "key": "56f8cd7c-9ddd-479c-9820-5aebb660ca1d",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the likelihood of switching out of own account work for those who did own account work by choice in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -549,7 +546,7 @@
                     "expected_output": "The likelihood of switching out of own account work for those who did own account work by choice was higher in 2022 and 2021 when the labor market was comparatively tighter than earlier years."
                 },
                 {
-                    "key": "97c2e680-badf-487a-9f38-8da80057d27b",
+                    "key": "17faeab0-dfea-4e05-99f1-a9abbd878efa",
                     "prompt": "Respond to the following question.\n\nQuestion: How many regular own account workers utilized online matching platforms in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -561,7 +558,7 @@
                     "expected_output": "Three in five (60%) regular own account workers utilized online channels to advertise and obtain business, including more than a third (38%) who took up work via online matching platforms."
                 },
                 {
-                    "key": "f1827e2a-544d-4a19-83cd-4f23fb029e75",
+                    "key": "8486f4c3-5e1f-40e5-b5c2-de2221ac29b3",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the top occupations of primary own account workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -574,7 +571,7 @@
                     "expected_output": "Private-hire car drivers, taxi drivers, and delivery workers remained the top occupations of primary own account workers in Singapore in 2022."
                 },
                 {
-                    "key": "1a25cc78-88a8-4a79-99af-ac2aa4611335",
+                    "key": "6644a81f-5d57-47b1-a65d-c0b56cc08fee",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the age distribution of primary own account workers in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -586,7 +583,7 @@
                     "expected_output": "Majority of regular primary own account workers were residents aged 50 & over in 2022 (53%)."
                 },
                 {
-                    "key": "cfff6c1e-226c-4c62-bbb3-6483673efd8d",
+                    "key": "52573c5e-9c3e-4ab3-8fa5-2107f198d131",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the educational profile of primary own account workers in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -600,7 +597,7 @@
                     "expected_output": "There was a gradual increase in the share of tertiary educated among primary own account workers, in line with the trend for the general workforce."
                 },
                 {
-                    "key": "3afc87ba-624f-4369-acc5-b74a43d2aa5a",
+                    "key": "1b80842f-9092-4715-bd17-f82c477f656a",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the challenges faced by regular own account workers in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -612,7 +609,7 @@
                     "expected_output": "Healthcare and job uncertainty topped the list of challenges faced by regular own account workers in 2022."
                 },
                 {
-                    "key": "7372a8c7-34e1-4f59-bcac-8d729f685c46",
+                    "key": "b2c479b7-6ab0-4ec3-9afa-9fbc05a56067",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the number of private-hire car drivers change in 2022 compared to 2020?\n",
                     "categories": [
                         "simple-questions"
@@ -625,7 +622,7 @@
                     "expected_output": "The number of private-hire car drivers increased in 2022 as demand for point-to-point transport services increased when more employees commuted to work. However, it was still below the number in 2020 (34,400) when weaker labor market conditions drew in more own account workers, including private-hire car drivers."
                 },
                 {
-                    "key": "2b59d61b-43fe-43b5-97fc-37b6572f9390",
+                    "key": "50f41d74-a45a-450f-addd-d66f8e89ca7f",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the number of delivery workers change in 2022 compared to previous years?\n",
                     "categories": [
                         "simple-questions"
@@ -639,7 +636,7 @@
                     "expected_output": "The number of delivery workers continued to grow over the years and became the third most common occupation in 2022. Most of them did own account work as their main livelihood by choice."
                 },
                 {
-                    "key": "1868ee67-535c-4f59-91d0-7faab5d1db38",
+                    "key": "67676208-c58a-4cf0-9116-b3dbf5959de5",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the top challenges faced by regular own account workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -653,7 +650,7 @@
                     "expected_output": "The top challenges faced by regular own account workers in Singapore in 2022 were healthcare-related concerns (18%) and uncertainty of finding sufficient work (16%)."
                 },
                 {
-                    "key": "1451798a-f491-436e-90ce-e0ad48189791",
+                    "key": "a7165b05-198a-4b03-aa2d-f8afd364ae24",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the number of regular platform workers in Singapore change from 2021 to 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -666,7 +663,7 @@
                     "expected_output": "The number of regular platform workers in Singapore increased from 73,200 in 2021 to 88,400 in 2022."
                 },
                 {
-                    "key": "825ba4de-2aed-414f-afc6-936a14c2694d",
+                    "key": "a5771785-809e-4d44-a91a-fe732ad06505",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the demographics of regular platform workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -680,7 +677,7 @@
                     "expected_output": "Regular platform workers in Singapore in 2022 were more likely to be older or lower-educated, with 62% aged 50 and over and 77% having non-tertiary qualifications."
                 },
                 {
-                    "key": "718883fe-0e71-4235-9464-f2760f708f87",
+                    "key": "e571c4a1-ff0f-4ba5-ad6c-961b68f41fa6",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the median income of full-time platform-related occupations change from 2021 to 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -693,7 +690,7 @@
                     "expected_output": "The median income of full-time platform-related occupations increased from $1,500 in 2021 to $2,000 in 2022."
                 },
                 {
-                    "key": "f0840e8c-aabe-41ba-a47f-97aab339bfc3",
+                    "key": "b91c8c80-7fed-49d7-b7be-e5370d98fee0",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the top challenges faced by regular platform workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -708,7 +705,7 @@
                     "expected_output": "The top challenges faced by regular platform workers in Singapore in 2022 were lack of healthcare benefits (24%) and retirement security (22%)."
                 },
                 {
-                    "key": "f03ef596-947b-470c-873f-70fbe0a429b5",
+                    "key": "c022e2c6-3b5b-460f-9bcc-d83bc49e3895",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the proportion of regular platform workers who faced challenges in their work change from 2021 to 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -721,7 +718,7 @@
                     "expected_output": "The proportion of regular platform workers who faced challenges in their work declined from 58% in 2021 to 31% in 2022."
                 },
                 {
-                    "key": "3bd524d9-1863-43f0-b722-cccb1e5a59c2",
+                    "key": "8d45a336-3567-4439-b828-fb61af3a59f6",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the increase in median income earned by private-hire car drivers in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -740,7 +737,7 @@
                     "expected_output": "The increase in median income earned by private-hire car drivers in 2022 could be attributed to the increase in demand for point-to-point transport services as safe-distancing measures in society were gradually relaxed and removed."
                 },
                 {
-                    "key": "5d769917-140d-4ef6-83e6-6d5360dab127",
+                    "key": "4022a8bf-e722-4f66-80a3-8d3057b22ef2",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the proportion of workers who held multiple jobs in Singapore change from 2021 to 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -754,7 +751,7 @@
                     "expected_output": "The proportion of workers who held multiple jobs in Singapore declined from 2021 and remained low at 3%."
                 },
                 {
-                    "key": "099599fd-0844-4961-829c-43180fc0e0ad",
+                    "key": "88c88444-1686-4192-8d02-e535aff90d19",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the difference in work arrangements between regular own account workers and regular platform workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -767,7 +764,7 @@
                     "expected_output": "Regular platform workers in Singapore in 2022 had work arrangements that resembled those of employees, whereas regular own account workers were self-employed and had more autonomy in their work."
                 },
                 {
-                    "key": "aaf8f9a4-faaa-4532-823a-3650c5be31ec",
+                    "key": "7725255e-a952-40ed-81aa-288b04f54bee",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the number of taxi drivers, private-hire car drivers, and delivery workers using online matching platforms in Singapore change from 2021 to 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -784,7 +781,7 @@
                     "expected_output": "The number of taxi drivers, private-hire car drivers, and delivery workers using online matching platforms in Singapore increased from 25,400, 38,100, and 25,500 in 2021 to 25,500, 38,400, and 25,600 in 2022, respectively."
                 },
                 {
-                    "key": "2512e89e-124a-4f74-b15a-57e328ef923e",
+                    "key": "6805d9b0-9254-4f93-861d-b10f7ad4b1e1",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the proportion of workers who held multiple jobs in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -795,7 +792,7 @@
                     "expected_output": "The proportion of workers who held multiple jobs in Singapore in 2022 was 3.1%."
                 },
                 {
-                    "key": "ae57fc97-a29b-478b-98dc-74cf21856e83",
+                    "key": "dc77a0f1-2db3-4661-8352-5b3fcc00e523",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the decrease in multiple jobholding among workers in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -811,7 +808,7 @@
                     "expected_output": "The decrease in multiple jobholding among workers in Singapore in 2022 was broad-based, but rose for workers in Food & Beverage Services, Arts, Entertainment & Recreation, and Other Community, Social & Personal Services."
                 },
                 {
-                    "key": "cb648560-f62d-4367-8775-3e83bfdef92c",
+                    "key": "053e6c48-5b14-41ab-84ee-8e2c367cf1c0",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the training participation rate of resident labour force in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -822,7 +819,7 @@
                     "expected_output": "The training participation rate of resident labour force in Singapore in 2022 was almost one in two, or 49.5%."
                 },
                 {
-                    "key": "6d1cd883-9901-42a5-9d30-0e74e456b5e9",
+                    "key": "620836bc-3acd-43c2-95b7-3dce4553213a",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the pandemic change the way workers train in Singapore?\n",
                     "categories": [
                         "simple-questions"
@@ -835,7 +832,7 @@
                     "expected_output": "The pandemic changed the way workers train in Singapore, with a significant increase in online training."
                 },
                 {
-                    "key": "712bcc9e-a036-4291-a543-e1170f5f4c26",
+                    "key": "5305fd29-bb48-4f81-81dd-1a08257e25f4",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the proportion of structured training attendees who participated in online training in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -846,7 +843,7 @@
                     "expected_output": "The proportion of structured training attendees who participated in online training in Singapore in 2022 was 58.4%."
                 },
                 {
-                    "key": "02976bc5-8ccc-4589-af09-2cbbaf5a4b15",
+                    "key": "f607716d-97b6-4e09-8442-f3a10a70d2fb",
                     "prompt": "Respond to the following question.\n\nQuestion: How many days of training did the average trainee in Singapore receive in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -857,7 +854,7 @@
                     "expected_output": "The average trainee in Singapore received 5.4 days of training in 2022."
                 },
                 {
-                    "key": "09360c8b-f06a-44cf-a80a-abb48f04c206",
+                    "key": "2520e775-13bd-43ae-8395-6cb61507152c",
                     "prompt": "Respond to the following question.\n\nQuestion: Why did the training intensity, measured as the average number of training days per adult in the labour force, fall slightly in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -877,7 +874,7 @@
                     "expected_output": "The training intensity fell slightly in 2022 due to more time spent on easing back to the workplace as businesses resumed to pre-COVID normality, leaving less time for training."
                 },
                 {
-                    "key": "5ff95100-853c-4ba5-82a9-93cb962af682",
+                    "key": "7da4d6dc-e493-4073-9484-daf8cc6f3998",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the top reasons for non-trainees not attending training in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -896,7 +893,7 @@
                     "expected_output": "The top reasons for non-trainees not attending training in Singapore in 2022 were work and family responsibilities, followed by a lack of perceived need for training and/or satisfaction with current skills and knowledge."
                 },
                 {
-                    "key": "8463c2c6-590f-490d-91d1-43067cb5fd13",
+                    "key": "e0a4b0e5-7e26-4588-992e-afa98839ed0c",
                     "prompt": "Respond to the following question.\n\nQuestion: How has the training participation rate of unemployed residents in Singapore changed over time?\n",
                     "categories": [
                         "simple-questions"
@@ -911,7 +908,7 @@
                     "expected_output": "The training participation rate of unemployed residents in Singapore has increased over time, from 14% in 2012 to 39% in 2022."
                 },
                 {
-                    "key": "3d4cab1a-53d7-4e9b-b4ff-5d1266bb9059",
+                    "key": "d3f047e1-27ec-466a-b202-f2124cc9764b",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the importance of training for jobseekers in Singapore?\n",
                     "categories": [
                         "simple-questions"
@@ -925,7 +922,7 @@
                     "expected_output": "Training is vital for jobseekers in Singapore, as it enables them to acquire relevant work experience, skills, and networks that boost their employability."
                 },
                 {
-                    "key": "8d95a9f1-00c8-4c96-8044-069b4071e851",
+                    "key": "3754fe93-b74b-4372-b652-f5674b7f4a14",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the training participation rate of resident labour force in Singapore in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -936,7 +933,7 @@
                     "expected_output": "The training participation rate of resident labour force in Singapore in 2022 was 39%."
                 },
                 {
-                    "key": "82e61bd9-0989-479d-891c-abd987844dc9",
+                    "key": "2084d9b6-8690-4017-b2f3-abbccef2d272",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage of employed trainees who recognized the importance of attending job-related structured training?\n",
                     "categories": [
                         "simple-questions"
@@ -947,7 +944,7 @@
                     "expected_output": "92% of employed trainees recognized the importance of attending job-related structured training."
                 },
                 {
-                    "key": "80ebe071-8994-4c9a-b8a1-e444dc124cb6",
+                    "key": "d2391aa8-a793-4f06-9b34-6426bc0534f3",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the top reasons for not attending training among non-trainees?\n",
                     "categories": [
                         "simple-questions"
@@ -959,7 +956,7 @@
                     "expected_output": "The top reasons for not attending training among non-trainees were family commitments (15%) and work schedule conflicts (18%)."
                 },
                 {
-                    "key": "bf7c519d-6b87-4d95-8a24-c9c910b30962",
+                    "key": "dc6ce0e6-2448-42b1-94e8-63e76d807934",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the training participation rate of unemployed residents change from 2012 to 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -972,7 +969,7 @@
                     "expected_output": "The training participation rate of unemployed residents rose from 14% in 2012 to 39% in 2022."
                 },
                 {
-                    "key": "38bcc8f8-ebb1-4908-8528-64e4131e3254",
+                    "key": "51797694-56f4-4679-be22-d30249a30c16",
                     "prompt": "Respond to the following question.\n\nQuestion: Which occupation group had the highest training participation rate in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -988,7 +985,7 @@
                     "expected_output": "The tertiary educated had the highest training participation rate in 2022, forming the bulk of trainees (84%)."
                 },
                 {
-                    "key": "bd51215f-e55e-4eea-9124-d02308b7fcc4",
+                    "key": "cb9885e5-ae24-4ae0-93f4-bb08b852442e",
                     "prompt": "Respond to the following question.\n\nQuestion: Which occupation group had the lowest training participation rate in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1000,7 +997,7 @@
                     "expected_output": "The training participation rate for non-PMETs (plant & machine operators & assemblers, cleaners, labourers & related workers) was lower than PMETs (managers & administrators, professionals, associate professionals & technicians) in 2022."
                 },
                 {
-                    "key": "958803cd-80a1-4e67-b272-476cc66fd824",
+                    "key": "0631832b-a169-4901-97f1-ae8f101be5fd",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the most common tangible outcome of training for employed trainees?\n",
                     "categories": [
                         "simple-questions"
@@ -1011,7 +1008,7 @@
                     "expected_output": "The most common tangible outcome of training for employed trainees was being more productive on the job (51%)."
                 },
                 {
-                    "key": "efb0728f-b058-431e-a110-c17fc48eddeb",
+                    "key": "fd49c12d-ca69-485b-b9f9-8e4b3f12e6a6",
                     "prompt": "Respond to the following question.\n\nQuestion: How did training affect the employability of workers?\n",
                     "categories": [
                         "simple-questions"
@@ -1022,7 +1019,7 @@
                     "expected_output": "Training enhanced the employability of workers, with 12% stating that training has helped them retain their existing job or obtain a new job."
                 },
                 {
-                    "key": "b5028e4f-117a-42fa-ba5b-3b93588a78d0",
+                    "key": "816b5321-5b29-4657-b97b-1e1274eb138b",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the top digital skill taken up by employed trainees?\n",
                     "categories": [
                         "simple-questions"
@@ -1034,7 +1031,7 @@
                     "expected_output": "The top digital skill taken up by employed trainees was data analytics (27%)."
                 },
                 {
-                    "key": "6523e424-0df0-4c93-9efa-1eb70a58578d",
+                    "key": "2072bfb5-67f7-4875-a51f-2099538bf622",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the increase in training participation rate among plant & machine operators & assemblers?\n",
                     "categories": [
                         "simple-questions"
@@ -1046,7 +1043,7 @@
                     "expected_output": "The training participation rate among plant & machine operators & assemblers increased due to the lifting of COVID-19 restrictions, which enabled them to resume in-person training activities."
                 },
                 {
-                    "key": "50a9d9ff-190e-446c-9888-82591f3388da",
+                    "key": "33fc4b97-7bb8-43e5-ab08-920912f5fd87",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the proportion of employed residents who had changed jobs in the last two years in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1058,7 +1055,7 @@
                     "expected_output": "The proportion of employed residents who had changed jobs in the last two years rose to a six-year high of 17% in 2022. (Chart 38)"
                 },
                 {
-                    "key": "8594026d-62ee-4c75-a718-e2dc6ecf483d",
+                    "key": "10966b7a-2826-4f77-bc5c-54e84d398fee",
                     "prompt": "Respond to the following question.\n\nQuestion: Which age group had the highest incidence of job change in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1069,7 +1066,7 @@
                     "expected_output": "Younger workers aged below 30 had the highest incidence of job change, as they are more likely to explore different career options and gain more experience early in their working life. (Chart 39)"
                 },
                 {
-                    "key": "dff8e1b9-0bd9-47ff-b589-d74f360f9808",
+                    "key": "4958e0e1-ef01-4846-933e-5a27b59a1527",
                     "prompt": "Respond to the following question.\n\nQuestion: Which sectors saw a larger increase in the proportion of employees who changed their job in the last one year?\n",
                     "categories": [
                         "simple-questions"
@@ -1085,7 +1082,7 @@
                     "expected_output": "Sectors with a stronger demand for workers, such as Information & Communications, Financial & Insurance Services, Professional Services, and Health & Social Services, as well as tourism-related sectors such as Accommodation and Arts, Entertainment & Recreation, saw a larger increase in the proportion of employees who changed their job in the last one year. (Chart 40)"
                 },
                 {
-                    "key": "d94c45f4-133e-413a-8bd4-e23ee32cbf66",
+                    "key": "cb3f5288-4f37-4468-afa6-3021ccaa6407",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the proportion of employees who took up their current job in the recent year?\n",
                     "categories": [
                         "simple-questions"
@@ -1101,7 +1098,7 @@
                     "expected_output": "The proportion of employees who took up their current job in the recent year held steady, with fewer workers entering the labour force compared to a year ago. (4.4)"
                 },
                 {
-                    "key": "fe393ffe-3f8c-44ff-9a11-67e48658f0b4",
+                    "key": "3471042a-3258-455d-9484-65882358622e",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the distribution of resident employees by years in current job in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1115,7 +1112,7 @@
                     "expected_output": "About half of all employees have been in their job for at least five years, including a rising proportion with a job tenure of ten years or more. (Chart 41)"
                 },
                 {
-                    "key": "77d25ee4-b798-4530-ac26-df6ae3c2fe26",
+                    "key": "7deda8a5-22df-4232-ba98-e46140478402",
                     "prompt": "Respond to the following question.\n\nQuestion: Which age group had the highest proportion of employees with a job tenure of at least 10 years?\n",
                     "categories": [
                         "simple-questions"
@@ -1128,7 +1125,7 @@
                     "expected_output": "The proportion of employees with a job tenure of at least 10 years was highest among those in their 30s and over. (Chart 42)"
                 },
                 {
-                    "key": "c9e53572-c60d-48cd-abd9-e1de363d6104",
+                    "key": "b6bcc029-5825-4aad-82f1-87776ce266f0",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the average weekly usual hours worked among employed residents in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1141,7 +1138,7 @@
                     "expected_output": "The average weekly usual hours worked among employed residents declined in 2022, continuing the downward trend observed since 2010. (5.1)"
                 },
                 {
-                    "key": "d3f09b37-716e-4216-a01b-142b2e7dc650",
+                    "key": "b5014762-7540-4597-843f-aaead599d36a",
                     "prompt": "Respond to the following question.\n\nQuestion: Why did the average usual hours worked among full-timers decline in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1156,7 +1153,7 @@
                     "expected_output": "The decline in average usual hours worked among full-timers was driven by the falling hours of full-timers who formed a large majority of employed residents. (5.1)"
                 },
                 {
-                    "key": "fedda8ac-02bc-4218-b654-eb5e90e58f75",
+                    "key": "9a695841-816d-4fb5-834f-fd39f0e329da",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the share of employed residents who had worked from home change in 2022 compared to a year ago?\n",
                     "categories": [
                         "simple-questions"
@@ -1170,7 +1167,7 @@
                     "expected_output": "The share of employed residents who had worked from home fell (34%) in 2022, compared to a year ago (49%) during the Heightened Alert phases. (5.1)"
                 },
                 {
-                    "key": "a54e1d36-d6d1-404b-91c4-a2087a8b2290",
+                    "key": "14d810ea-0b4c-4ad8-a686-a3f3422f84e1",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the increase in the share of longer-tenured employees?\n",
                     "categories": [
                         "simple-questions"
@@ -1182,7 +1179,7 @@
                     "expected_output": "The increase in the share of longer-tenured employees was supported by skills and educational upgrading as well as policies such as the Retirement and Re-employment Act to keep older workers employable. (4.5)"
                 },
                 {
-                    "key": "b3ab09ee-fa8a-45b1-8615-0cc37f87524e",
+                    "key": "af041df4-e6e8-42ad-9c12-2fe55397af1a",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage increase in the nominal median income of full-time employed residents from 2021 to 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1195,7 +1192,7 @@
                     "expected_output": "The nominal median income of full-time employed residents grew by 8.3% from $4,680 in 2021 to $5,070 in 2022."
                 },
                 {
-                    "key": "74154ccd-ce3f-4985-8adc-fa462f720cc6",
+                    "key": "1de28620-fdf5-4fac-861f-43810a0695a5",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the proportion of full-time employed residents who usually worked over 48 hours a week change in 2022 compared to 2010?\n",
                     "categories": [
                         "simple-questions"
@@ -1206,7 +1203,7 @@
                     "expected_output": "The proportion of full-time employed residents who usually worked over 48 hours a week has been on a downward trend since 2010 and this continued in 2022."
                 },
                 {
-                    "key": "b061d838-4326-45e3-afa2-ab45ce380c7a",
+                    "key": "fe5514af-f5f8-4135-8045-2bebbec9f85a",
                     "prompt": "Respond to the following question.\n\nQuestion: Which industry saw a surge in demand as tourism activities resumed in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1220,7 +1217,7 @@
                     "expected_output": "Accommodation and Arts, Entertainment & Recreation industries saw a surge in demand as tourism activities resumed in 2022."
                 },
                 {
-                    "key": "950b502c-8a88-4473-b07a-f8632902356b",
+                    "key": "fc956b06-bbcf-4c23-925f-0cbce0b4c469",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the decrease in the proportion of full-time employed residents who worked from home in 2022 compared to 2021?\n",
                     "categories": [
                         "simple-questions"
@@ -1233,7 +1230,7 @@
                     "expected_output": "The decrease in the proportion of full-time employed residents who worked from home in 2022 compared to 2021 was due to the relaxation of pandemic-related restrictions."
                 },
                 {
-                    "key": "e9863e60-99bd-4a35-b938-c3cd18154c0b",
+                    "key": "b8f03fd9-2bea-4746-a4a7-9cb8d634b22d",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the impact of Workfare Income Supplement (WIS) payouts on the 20th percentile income level in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1250,7 +1247,7 @@
                     "expected_output": "The impact of Workfare Income Supplement (WIS) payouts on the 20th percentile income level was smaller in 2022 due to the strong growth in nominal income at the 20th percentile."
                 },
                 {
-                    "key": "814fd34b-5715-43c0-a44c-15d848c1dcaf",
+                    "key": "2b3f466d-3cab-4f99-acd1-be38a714fb95",
                     "prompt": "Respond to the following question.\n\nQuestion: Which industry had the highest proportion of workers who usually worked over 48 hours a week in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1261,7 +1258,7 @@
                     "expected_output": "Administrative & Support Services had the highest proportion of workers who usually worked over 48 hours a week in 2022."
                 },
                 {
-                    "key": "59f84a2d-8efa-47be-9b49-b15dfa8c4707",
+                    "key": "acae9d49-b6a6-4ac2-8b11-c2e0e6e5ecd4",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage increase in real median income growth in 2022 compared to 2021?\n",
                     "categories": [
                         "simple-questions"
@@ -1273,7 +1270,7 @@
                     "expected_output": "Real median income growth was 2.0% in 2022, an improvement from 0.9% in 2021."
                 },
                 {
-                    "key": "52276224-0635-4961-a2cc-5aa7011b8f20",
+                    "key": "b904f9c6-c3fd-41ea-af86-7d47179ada28",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the P20 to P50 income ratio change in 2022 compared to 2021?\n",
                     "categories": [
                         "simple-questions"
@@ -1288,7 +1285,7 @@
                     "expected_output": "The P20 to P50 income ratio increased from 0.53 in 2021 to 0.55 in 2022, the highest since 2004."
                 },
                 {
-                    "key": "fde16c10-9f11-4d1c-a502-2bacfbf1b9d4",
+                    "key": "5ee3344a-f350-4e0b-a7f9-01a6bfb853c8",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the narrowing of the gap between the P20 and P50 incomes in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1303,7 +1300,7 @@
                     "expected_output": "The gap between the P20 and P50 incomes narrowed in 2022 due to stronger income growth at the 20th percentile."
                 },
                 {
-                    "key": "63d5c279-9eef-4d2a-a1d4-33c1e5eab080",
+                    "key": "e6327d2e-2f33-41dc-9d32-b2a6aea32f72",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage increase in the Consumer Price Index for all items in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1314,7 +1311,7 @@
                     "expected_output": "The Consumer Price Index for all items increased by 6.1% in 2022."
                 },
                 {
-                    "key": "88c81bc8-5499-4c68-a414-c59e720dfc51",
+                    "key": "39ddc982-2ccd-4265-87c9-61855ef863ce",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the percentage increase in the Consumer Price Index for all items in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1325,7 +1322,7 @@
                     "expected_output": "The Consumer Price Index for all items increased by 6.1% in 2022."
                 },
                 {
-                    "key": "c94caef7-c691-460b-ab92-d4980aef218d",
+                    "key": "9197c731-1673-42dc-ac6b-9fa0d1bdfb38",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the Workfare Income Supplement (WIS) affect the 20th percentile income level in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1341,7 +1338,7 @@
                     "expected_output": "The impact of Workfare Income Supplement (WIS) -related payouts on the 20th percentile income level was smaller in 2022 due to the strong growth in nominal income at the 20th percentile."
                 },
                 {
-                    "key": "24858649-4ede-40b5-971f-74f40a69c908",
+                    "key": "88725214-e3bb-4834-bdb2-ed45a7db724e",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the qualifying monthly income cap for WIS in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1355,7 +1352,7 @@
                     "expected_output": "From 1 Jan 2023, there are enhancements to the WIS, including a rise in the qualifying monthly income cap for WIS."
                 },
                 {
-                    "key": "748b730b-7c41-459f-b6f2-88bffb1ad920",
+                    "key": "71973b67-8897-4194-bf36-0a63eba86d69",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the gross monthly income from work (including employer CPF contributions) of full-time employed residents in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1366,7 +1363,7 @@
                     "expected_output": "The gross monthly income from work (including employer CPF contributions) of full-time employed residents in 2022 was $4,446."
                 },
                 {
-                    "key": "3cc650b9-8a37-4b14-9d05-b7d7d684388d",
+                    "key": "9fc41b47-cb45-4ab3-8d88-4928b1290683",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the annualized change in real* gross monthly income from work (including employer CPF contributions) of full-time employed residents in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1377,7 +1374,7 @@
                     "expected_output": "The annualized change in real* gross monthly income from work (including employer CPF contributions) of full-time employed residents in 2022 was 6.4%."
                 },
                 {
-                    "key": "4938a537-ef9a-4ad2-b438-40b5ef1889bd",
+                    "key": "f9772e8d-d5c1-4be9-96f4-4e49cfe4e2d5",
                     "prompt": "Respond to the following question.\n\nQuestion: What were the top industries that lower-wage workers were commonly employed in?\n",
                     "categories": [
                         "simple-questions"
@@ -1392,7 +1389,7 @@
                     "expected_output": "The top industries that lower-wage workers were commonly employed in were Transportation & Storage (15%), Administrative & Support Services (11%), and Food & Beverage Services (11%)."
                 },
                 {
-                    "key": "812b60d1-c4f9-4936-ae3a-05c3327e25e1",
+                    "key": "96264d19-0531-42d7-9b65-24c39569420c",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the distribution of full-time employed residents with gross monthly income from work (excluding employer CPF contributions) at or below $2,492 by industry in June 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1405,7 +1402,7 @@
                     "expected_output": "In June 2022, 19% of full-time employed residents with gross monthly income from work (excluding employer CPF contributions) at or below $2,492 were in the Transportation & Storage industry, 11% were in the Administrative & Support Services industry, and 11% were in the Food & Beverage Services industry."
                 },
                 {
-                    "key": "f78eec0e-fb52-4ee2-b203-43dfb570dbb0",
+                    "key": "a60176e0-cd41-4cfc-b02f-b2203de9c5aa",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the unemployment rate for PMETs in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1416,7 +1413,7 @@
                     "expected_output": "The unemployment rate for PMETs in 2022 was 2.6%."
                 },
                 {
-                    "key": "63b487b1-ddbd-4c23-b34b-632faad276b4",
+                    "key": "84053192-da2a-49fc-8c81-72e82459c8fa",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the unemployment rate for non-PMETs in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1427,7 +1424,7 @@
                     "expected_output": "The unemployment rate for non-PMETs in 2022 was 4.4%."
                 },
                 {
-                    "key": "adac15da-5e94-4252-a7d9-058aa0470511",
+                    "key": "5411b398-35f6-4110-bd6c-a1170b7d585b",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the long-term unemployment rate for non-PMETs in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1438,7 +1435,7 @@
                     "expected_output": "The long-term unemployment rate for non-PMETs in 2022 was 0.7%."
                 },
                 {
-                    "key": "87c2fcfc-1b7e-49cb-af59-12effa7e2afb",
+                    "key": "737a0dc3-a56d-4955-8926-a8fcffa57ed3",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the unemployment rate for PMETs in the 25-34 age group in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1449,7 +1446,7 @@
                     "expected_output": "According to Chart 49, the unemployment rate for PMETs in the 25-34 age group was 3.4% in 2022."
                 },
                 {
-                    "key": "97af9a44-213c-420b-a389-48593c1d4c2d",
+                    "key": "eda963b2-67c3-420c-9c76-6cdad925183f",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the long-term unemployment rate for non-PMETs change between 2020 and 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1464,7 +1461,7 @@
                     "expected_output": "According to Chart 50, the long-term unemployment rate for non-PMETs decreased from 1.5% in 2020 to 1.1% in 2022."
                 },
                 {
-                    "key": "a6122a10-1ea0-4ae3-a577-38a7d1edca1b",
+                    "key": "c752bac2-f473-4219-af7d-df61e530bce9",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the increase in the share of unemployed PMETs aged below 30 who left their last job due to low pay or lack of interest?\n",
                     "categories": [
                         "simple-questions"
@@ -1488,7 +1485,7 @@
                     "expected_output": "According to the text, the increase was due to an improvement in the share of unemployed PMETs aged below 30 who left their last job due to low pay or lack of interest."
                 },
                 {
-                    "key": "d0e395ed-1576-44a0-8aaa-61d20e7a0702",
+                    "key": "65d2d5e8-3241-4b30-8a29-9e57c1d2759e",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the increase in the share of unemployed non-PMETs aged 30 to 39 who left their last job due to low pay, poor career prospects, or to provide care for their household or families?\n",
                     "categories": [
                         "simple-questions"
@@ -1501,7 +1498,7 @@
                     "expected_output": "According to the text, the increase was due to an increase in the share of unemployed non-PMETs aged 30 to 39 who left their last job due to low pay, poor career prospects, or to provide care for their household or families."
                 },
                 {
-                    "key": "449dcfa0-7348-4038-a305-7b4a0e305406",
+                    "key": "4f9bb6b1-451f-4aaf-b3e1-2ceb5398d889",
                     "prompt": "Respond to the following question.\n\nQuestion: Which industry had the highest unemployment rate among residents in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1513,7 +1510,7 @@
                     "expected_output": "According to Chart 53, the industry with the highest unemployment rate among residents in 2022 was Wholesale Trade, with a rate of 0.6%."
                 },
                 {
-                    "key": "77716f67-56da-498f-a5c9-c326d642372e",
+                    "key": "3db59806-00a1-4461-9202-50ed74cf74d9",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the long-term unemployment rate for residents in the Accommodation industry in 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1525,7 +1522,7 @@
                     "expected_output": "According to Chart 54, the long-term unemployment rate for residents in the Accommodation industry was 0.4% in 2022."
                 },
                 {
-                    "key": "913ec3b7-1ce7-499a-aeff-e5f835c74f46",
+                    "key": "1d152670-848f-466e-b968-61dddd626a40",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the decline in involuntary unemployment among residents between 2020 and 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1550,7 +1547,7 @@
                     "expected_output": "According to the text, the decline in involuntary unemployment among residents was attributed to a lower share of residents leaving their job due to retrenchment and temporary layoff without pay, which fell significantly over the year to pre-COVID levels."
                 },
                 {
-                    "key": "a7a36067-d56c-436b-9df2-5c69da4e709c",
+                    "key": "40907e06-ae25-49f1-a8e0-6981e24e2b9f",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the increase in the share of unemployed residents who left their last job due to low pay?\n",
                     "categories": [
                         "simple-questions"
@@ -1564,7 +1561,7 @@
                     "expected_output": "According to the text, the increase was due to a tighter labour market, which motivated workers who were dissatisfied with their work to quit and seek new job opportunities."
                 },
                 {
-                    "key": "56a985f2-e48f-4bef-a24c-de699a3cef5a",
+                    "key": "c591c61c-84b7-46c5-9307-35dd40075423",
                     "prompt": "Respond to the following question.\n\nQuestion: How did the share of unemployed residents who left their last job due to relationship problems with colleagues/boss or disliked previous job/lack of interest change between 2020 and 2022?\n",
                     "categories": [
                         "simple-questions"
@@ -1588,7 +1585,7 @@
                     "expected_output": "According to the text, there was an increased share of unemployed residents who left their last job due to relationship problems with colleagues/boss or disliked previous job/lack of interest between 2020 and 2022."
                 },
                 {
-                    "key": "d4c49b5e-acd8-4543-b0ad-49c10702e6da",
+                    "key": "9397d8dd-da10-4ba2-a4f6-b8ea58ec97fa",
                     "prompt": "Respond to the following question.\n\nQuestion: What was the reason for the increase in the share of non-PMETs who left their last job due to long working hours/demanding work in their previous employment?\n",
                     "categories": [
                         "simple-questions"

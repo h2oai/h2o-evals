@@ -1,13 +1,26 @@
 {
     "tests": [
         {
-            "key": "48e35901-dd46-41cf-84a3-b57034267195",
+            "key": "8c8e7cea-be8f-4847-af96-52188470b197",
             "documents": [
-                "https://enterprise-h2ogpt-public-data.s3.amazonaws.com/h2o-evals/Broker_Agreement.pdf"
+                "Broker_Agreement.pdf"
             ],
             "test_cases": [
                 {
-                    "key": "bf1e5072-8b24-4902-ab7b-e3e1a355fe83",
+                    "key": "8aeb910c-8cf9-4660-80d0-320309793e79",
+                    "prompt": "Respond to the following question.\n\nQuestion: What is the date of the agreement?\n",
+                    "categories": [
+                        "simple-questions"
+                    ],
+                    "constraints": [
+                        "[insert date]",
+                        "[insert month]",
+                        "20[insert year]"
+                    ],
+                    "expected_output": "The agreement is dated as of the [insert date] day of [insert month], 20[insert year]."
+                },
+                {
+                    "key": "bb731e65-8b2c-4f64-97bb-ce3c40b534c8",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -21,7 +34,7 @@
                     "expected_output": "The agreement is made between Liberty Savings Bank, FSB (LSB) and [insert name of seller] for the sale of loans."
                 },
                 {
-                    "key": "d0b68386-b626-40e7-b38e-283030a648cc",
+                    "key": "494737ef-53b4-4f93-9c19-f832318dc6f8",
                     "prompt": "Respond to the following question.\n\nQuestion: What representations and warranties does the seller make?\n",
                     "categories": [
                         "simple-questions"
@@ -38,7 +51,7 @@
                     "expected_output": "The seller makes several representations and warranties, including that it is a duly organized and existing entity, authorized to do business in the relevant states, and that it has the necessary licenses and approvals. The seller also represents that it is in compliance with applicable laws and regulations."
                 },
                 {
-                    "key": "4ccf1d4a-2257-493d-ba66-859b31b705cf",
+                    "key": "1033a08b-6a9f-412f-a8f5-0bd734eb1494",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the scope of the background checks that LSB may conduct?\n",
                     "categories": [
                         "simple-questions"
@@ -61,7 +74,7 @@
                     "expected_output": "LSB may conduct background checks on the owners, members, and senior officers of the seller, including obtaining credit bureau reports and updates to such background information on a periodic basis."
                 },
                 {
-                    "key": "428ce3d3-d003-445d-bd1d-648addedfd64",
+                    "key": "bc5d5f2e-8e17-4d94-b90b-aff6af00c01d",
                     "prompt": "Respond to the following question.\n\nQuestion: What laws and regulations must the seller comply with?\n",
                     "categories": [
                         "simple-questions"
@@ -74,7 +87,7 @@
                     "expected_output": "The seller must comply with all applicable Federal, State, and local laws and regulations directly or indirectly relating to its activities under this agreement."
                 },
                 {
-                    "key": "b762e84b-a58b-4e69-a849-acd0cdbe9437",
+                    "key": "1dc6d521-4e03-406a-b1e4-a5e937bf3700",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the seller's solvency status?\n",
                     "categories": [
                         "simple-questions"
@@ -85,7 +98,7 @@
                     "expected_output": "The seller represents that it is solvent and that the sale of loans will not cause it to become insolvent."
                 },
                 {
-                    "key": "74b9b076-8547-4874-bec1-d36243e295e1",
+                    "key": "3a60aae1-88ba-4cc0-8b24-1525cc63a5cf",
                     "prompt": "Respond to the following question.\n\nQuestion: Are there any pending or threatened actions, suits, proceedings, or investigations against the seller?\n",
                     "categories": [
                         "simple-questions"
@@ -96,7 +109,7 @@
                     "expected_output": "The seller represents that there are no such actions, suits, proceedings, or investigations pending or threatened against it."
                 },
                 {
-                    "key": "a40805c9-bd62-441d-84dd-4def40afb8e2",
+                    "key": "5bf74ea2-c348-4bc7-a88f-9825d684094b",
                     "prompt": "Respond to the following question.\n\nQuestion: Does the seller employ any entity or individual on the HUD, LDP, or FHLMC exclusionary list?\n",
                     "categories": [
                         "simple-questions"
@@ -107,7 +120,7 @@
                     "expected_output": "The seller represents that it does not currently and will not in the future employ any entity or individual on the HUD, LDP, or FHLMC exclusionary list or other similar lists."
                 },
                 {
-                    "key": "5f94aa55-0ac5-4fec-a927-c3d29e13ea86",
+                    "key": "351ba2b6-7a5e-4f3c-a150-f9360b54bd38",
                     "prompt": "Respond to the following question.\n\nQuestion: Does the agreement contain any misrepresentations or untrue statements of fact?\n",
                     "categories": [
                         "simple-questions"
@@ -122,7 +135,7 @@
                     "expected_output": "The seller represents that neither this agreement nor any statement, report, or other information provided or to be provided pursuant to this agreement contains or will contain any misrepresentation or untrue statement of fact or omits or will omit to state a fact necessary to make the information not misleading."
                 },
                 {
-                    "key": "70123055-f666-4d85-ae7f-422119fddbc4",
+                    "key": "139db26d-610e-4f78-8657-4e65db5627a2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the duration of the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -133,7 +146,7 @@
                     "expected_output": "The agreement is effective as of the date of execution and shall continue in effect until terminated by either party upon [insert number] days' written notice to the other party."
                 },
                 {
-                    "key": "8dc05a49-b5ac-4332-8827-9dd616cad0ec",
+                    "key": "071bca5a-ac16-4466-a53a-2d089c0065c5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the duration of the initial term of the agreement between LSB and the seller?\n",
                     "categories": [
                         "simple-questions"
@@ -144,7 +157,7 @@
                     "expected_output": "The initial term of the agreement between LSB and the seller is for one year."
                 },
                 {
-                    "key": "4e19b54d-e901-4528-9405-ed916387d1ec",
+                    "key": "10ee94f3-5168-46e8-99c3-ae1f78c41cd5",
                     "prompt": "Respond to the following question.\n\nQuestion: Can the seller use targeted advertising to solicit or encourage loan mortgagors to refinance their loans during the first twelve months after the loan is purchased by LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -155,7 +168,7 @@
                     "expected_output": "No, the seller cannot use targeted advertising to solicit or encourage loan mortgagors to refinance their loans during the first twelve months after the loan is purchased by LSB without LSB's prior written consent."
                 },
                 {
-                    "key": "5e399812-6763-49ba-af49-690f338135a6",
+                    "key": "63a40377-6f8c-4452-b110-b51bf8af0038",
                     "prompt": "Respond to the following question.\n\nQuestion: Is the seller required to maintain any licenses to perform its obligations under the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -166,7 +179,7 @@
                     "expected_output": "Yes, the seller is required to maintain all necessary licenses to perform its obligations under the agreement."
                 },
                 {
-                    "key": "93665de6-e615-4b88-b85b-2e4cba21ccd7",
+                    "key": "e7fd7b0d-f0f3-4837-a41c-4dcbdbfde4e9",
                     "prompt": "Respond to the following question.\n\nQuestion: Can the seller subcontract its obligations under the agreement to third parties?\n",
                     "categories": [
                         "simple-questions"
@@ -177,7 +190,7 @@
                     "expected_output": "No, the seller cannot subcontract its obligations under the agreement to third parties without LSB's prior written consent."
                 },
                 {
-                    "key": "3f3a9114-09ff-4c88-b70a-17b6a460f824",
+                    "key": "a237e960-387e-49e9-b66d-f3567f9257d3",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if the seller fails to maintain any licenses in violation of the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -193,7 +206,7 @@
                     "expected_output": "If the seller fails to maintain any licenses in violation of the agreement, LSB may terminate the agreement immediately."
                 },
                 {
-                    "key": "96ec7812-870f-4810-8ddf-5158861340c7",
+                    "key": "f25e9ed3-709d-45f3-ae6b-e3dcbb64db2e",
                     "prompt": "Respond to the following question.\n\nQuestion: Is the seller allowed to identify LSB in any advertising?\n",
                     "categories": [
                         "simple-questions"
@@ -204,7 +217,7 @@
                     "expected_output": "No, the seller is not allowed to identify LSB in any advertising unless otherwise required by applicable law and LSB has given its advance written approval."
                 },
                 {
-                    "key": "e8b0d713-fd76-4b12-a96d-f22547743aa5",
+                    "key": "619049ab-4bc4-4fb0-b133-9a5eb48df4b2",
                     "prompt": "Respond to the following question.\n\nQuestion: Can the seller respond to LSB's request for periodic financial statements?\n",
                     "categories": [
                         "simple-questions"
@@ -215,7 +228,7 @@
                     "expected_output": "Yes, the seller can respond to LSB's request for periodic financial statements."
                 },
                 {
-                    "key": "e3da4bdd-130d-4103-acbc-162d4ba74af7",
+                    "key": "fc5bd4c8-4b87-4755-aaab-4ea1d458d52e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the relationship between LSB and the seller under the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -226,7 +239,7 @@
                     "expected_output": "Under the agreement, the relationship between LSB and the seller is that of an independent contractor."
                 },
                 {
-                    "key": "0094de4d-afc9-4933-af15-a9ec3857c25a",
+                    "key": "598fbec7-ce82-44da-90be-d97afc71f88f",
                     "prompt": "Respond to the following question.\n\nQuestion: Can the seller act on behalf of LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -237,7 +250,7 @@
                     "expected_output": "No, the seller cannot act on behalf of LSB. The seller acknowledges that it does not have the authority, whether expressed or implied, to act on behalf of LSB."
                 },
                 {
-                    "key": "d1dd3e4a-4b8f-4370-b3cb-3fd2dae3ee5c",
+                    "key": "5eaa8165-fbee-41d9-af3f-22655f915221",
                     "prompt": "Respond to the following question.\n\nQuestion: Is LSB responsible for any actions or omissions by the seller?\n",
                     "categories": [
                         "simple-questions"
@@ -248,7 +261,7 @@
                     "expected_output": "No, LSB is not responsible for any actions or omissions by the seller. The seller agrees that LSB exercises no control over the methods, operations, and practices of the seller except as provided in the agreement and the Manual."
                 },
                 {
-                    "key": "a660315c-0114-4b6f-bc36-d09175442bca",
+                    "key": "2d5d056a-7d49-4828-8343-a3bbc1c1565c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the agreement between Seller and LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -262,7 +275,7 @@
                     "expected_output": "The purpose of the agreement is to outline the terms and conditions under which Seller will refer loans to LSB for purchase."
                 },
                 {
-                    "key": "216747d4-a1a9-4bbb-bf40-a540a1332f97",
+                    "key": "b987e5da-6803-45c4-b156-1bdb11f8822d",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the definition of \"Confidential Information\" in the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -278,7 +291,7 @@
                     "expected_output": "Confidential Information refers to any information provided by LSB to Seller that is not publicly known or accessible, including \"nonpublic personal information\" and \"personally identifiable financial information\" as defined in Section 573.3 of Title 12 of the Code of Federal Regulations."
                 },
                 {
-                    "key": "788237e5-a8f8-47d6-859a-32d77bcbac6f",
+                    "key": "b9e64742-9468-4f93-95ee-745446b28d26",
                     "prompt": "Respond to the following question.\n\nQuestion: What are Seller's obligations regarding Confidential Information?\n",
                     "categories": [
                         "simple-questions"
@@ -287,7 +300,7 @@
                     "expected_output": "Seller is prohibited from disclosing or using any Confidential Information for any purpose other than to carry out the purposes for which LSB disclosed the information. Seller must also limit access to Confidential Information within its organization on a strict \"need to know\" basis and maintain adequate security measures to protect the information."
                 },
                 {
-                    "key": "c91f6020-598f-4eb1-93cd-4fd528781ec0",
+                    "key": "686a6910-4129-4681-96a7-b1ef92a41544",
                     "prompt": "Respond to the following question.\n\nQuestion: Can Seller assign its responsibilities under the agreement to any affiliated entity?\n",
                     "categories": [
                         "simple-questions"
@@ -298,7 +311,7 @@
                     "expected_output": "No, Seller may not assign its responsibilities under the agreement to any affiliated entity."
                 },
                 {
-                    "key": "e7eb12e5-8a14-41b9-b49a-ea893adb3216",
+                    "key": "d9946d1e-4487-442a-b3af-2244995be9fa",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the duration of the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -325,7 +338,7 @@
                     "expected_output": "The agreement is non-exclusive and does not have a specified duration. Either party may terminate the agreement with ten (10) days' prior written notice to the other."
                 },
                 {
-                    "key": "34601b64-ee3f-42f4-9990-7edc52a8e1c6",
+                    "key": "63e9c104-3a14-4a58-a7eb-2ec7de76e64a",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens in the event of termination of the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -344,7 +357,7 @@
                     "expected_output": "In the event of termination, Seller shall fully cooperate with and assist LSB in obtaining the documentation necessary to complete the processing and full resolution of all matters relating to registered applications eligible for closing and all closed loans."
                 },
                 {
-                    "key": "b86659ca-f568-4f20-b7f1-1b75f2afd71d",
+                    "key": "b4d8a65d-5686-4d29-8f67-49e6052a4b78",
                     "prompt": "Respond to the following question.\n\nQuestion: Is Seller required to submit or refer Loans for purchase by LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -355,7 +368,7 @@
                     "expected_output": "No, Seller is under no obligation to submit or refer Loans for purchase by LSB. LSB is also under no obligation to purchase Loans from Seller."
                 },
                 {
-                    "key": "4840c731-0fd9-4beb-b9db-68ab17aef4f5",
+                    "key": "49c2b829-4cf4-4186-b02b-33e02409b2a5",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the governing law for the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -367,7 +380,7 @@
                     "expected_output": "The agreement shall be governed by the laws of the State of Ohio and applicable Federal law."
                 },
                 {
-                    "key": "45ab3adb-7ebf-42f3-bbff-43bb620ae0ef",
+                    "key": "7ad42aaf-9727-4c87-a2d0-092e6ceea681",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the definition of \"LSB\" in the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -379,7 +392,7 @@
                     "expected_output": "LSB refers to Loan Servicing Bureau, the party that enters into the agreement with Seller for the purchase of loans."
                 },
                 {
-                    "key": "f7975abd-149e-4e22-9993-3682f5bd8c8f",
+                    "key": "2535b32f-3948-4973-975d-138189fd177e",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the definition of \"Seller\" in the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -394,7 +407,7 @@
                     "expected_output": "Seller refers to the party that enters into the agreement with LSB for the referral of loans for purchase."
                 },
                 {
-                    "key": "2e52d333-52d3-47ee-9e07-a63717f32a7d",
+                    "key": "705edccf-1efd-4d73-ba43-c976c856f1f4",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the governing law for this agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -408,7 +421,7 @@
                     "expected_output": "The governing law for this agreement is the laws of the State of Ohio and applicable Federal law."
                 },
                 {
-                    "key": "7595816c-a3d1-4572-a1f8-f6fbb13433bd",
+                    "key": "bfe65936-8e87-4bfa-8e01-11e86bf6f98c",
                     "prompt": "Respond to the following question.\n\nQuestion: Where shall any action or proceeding brought with respect to this agreement be brought?\n",
                     "categories": [
                         "simple-questions"
@@ -419,7 +432,7 @@
                     "expected_output": "Any action or proceeding brought with respect to this agreement shall be brought in Clinton County, Ohio."
                 },
                 {
-                    "key": "54c8e957-7ff4-4cf7-a38c-8cc49b976564",
+                    "key": "ee7dd45c-d41c-4f7a-8e8a-ae4c948edc1a",
                     "prompt": "Respond to the following question.\n\nQuestion: How shall notices be sent between the parties?\n",
                     "categories": [
                         "simple-questions"
@@ -438,7 +451,7 @@
                     "expected_output": "Notices shall be sent in writing and shall be sent by registered, certified or first-class mail, postage fully prepaid."
                 },
                 {
-                    "key": "a220a12d-f6ba-423d-8622-14a68d9ae1ed",
+                    "key": "57ef1ba8-a117-4717-876c-8e74aeb30da2",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the address for notices to be sent to LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -456,7 +469,7 @@
                     "expected_output": "Notices to be sent to LSB shall be sent to Liberty Savings Bank, FSB, 3435 Airborne Rd, STE. B, Wilmington, OH 45177, Attention: Broker Approval."
                 },
                 {
-                    "key": "c8a9a927-e8f3-45f1-9c3d-2d0ca288d3a9",
+                    "key": "6349dc5f-cc96-427b-bab7-b55fb72a5812",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the email address for notices to be sent to Seller?\n",
                     "categories": [
                         "simple-questions"
@@ -476,7 +489,7 @@
                     "expected_output": "The email address for notices to be sent to Seller shall be designated in writing by Seller from time to time."
                 },
                 {
-                    "key": "ce667403-4a53-47f1-b23e-2044788af1ed",
+                    "key": "2d7dffa1-b0c5-49a3-b256-8bfccd0bb73e",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the requirements for adverse action notices?\n",
                     "categories": [
                         "simple-questions"
@@ -488,7 +501,7 @@
                     "expected_output": "Seller agrees to provide adverse action notices as appropriate in accordance with the requirements of the Federal Equal Credit Opportunity Act and Federal Reserve Regulation B."
                 },
                 {
-                    "key": "c9a95b50-0b0d-467a-837f-02f0d7bc3a17",
+                    "key": "78f51cb3-6ef1-4704-bf8a-0bce34cce863",
                     "prompt": "Respond to the following question.\n\nQuestion: Can this agreement be modified by Seller?\n",
                     "categories": [
                         "simple-questions"
@@ -499,7 +512,7 @@
                     "expected_output": "No, this agreement cannot be modified by Seller."
                 },
                 {
-                    "key": "78d020ab-ec3d-4d62-b496-a0597a69542c",
+                    "key": "9bbb2ba2-acd2-4f54-b936-f632acd0c73e",
                     "prompt": "Respond to the following question.\n\nQuestion: Can LSB change the terms and conditions of this agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -510,7 +523,7 @@
                     "expected_output": "Yes, LSB may change the terms and conditions of this agreement with 10 days written notice to Seller."
                 },
                 {
-                    "key": "8343a768-8bf1-4010-80e1-8f27f6d4793f",
+                    "key": "c3928fbd-0c7b-49c1-a36e-03f3cf1930f6",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens in the event of a merger between Seller and another entity?\n",
                     "categories": [
                         "simple-questions"
@@ -525,7 +538,7 @@
                     "expected_output": "In the event of a merger by and between Seller and another entity, the terms and conditions of this agreement shall remain in effect for its successors and assigns."
                 },
                 {
-                    "key": "dae27e4e-ad92-4ee5-a0d8-42b7a468c701",
+                    "key": "e5fec03c-be40-442b-96bc-4ee06a74d2a6",
                     "prompt": "Respond to the following question.\n\nQuestion: Can LSB contact loan mortgagors prior to the purchase of a loan?\n",
                     "categories": [
                         "simple-questions"
@@ -536,7 +549,7 @@
                     "expected_output": "Yes, LSB may contact any loan mortgagor if LSB considers such contact reasonably necessary and appropriate for processing the Loan purchase request."
                 },
                 {
-                    "key": "0b38a9b7-c182-4c2b-9a28-ca981d740582",
+                    "key": "e35bca3c-2560-4fc3-b684-dd56b7f0f44f",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the purpose of the agreement between Seller and LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -553,7 +566,7 @@
                     "expected_output": "The purpose of the agreement between Seller and LSB is to outline the terms and conditions for the purchase and sale of mortgage loans between the two parties."
                 },
                 {
-                    "key": "2117d3b8-1c5c-4abb-ba8b-d319e630efbb",
+                    "key": "2c90e94a-d330-4533-99f5-99240092043c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the process for purchasing loans from Seller by LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -568,7 +581,7 @@
                     "expected_output": "LSB may purchase loans from Seller with or without a complete review of the corresponding loan documentation. Seller will deliver loan documentation to LSB in accordance with the procedures and requirements set forth in the Manual."
                 },
                 {
-                    "key": "4e4cf196-8b3d-44ca-adb9-7c120532bdc2",
+                    "key": "c87f2e8f-b4ed-4af1-890d-10e568b794ab",
                     "prompt": "Respond to the following question.\n\nQuestion: How is the purchase price of a loan determined?\n",
                     "categories": [
                         "simple-questions"
@@ -594,7 +607,7 @@
                     "expected_output": "The purchase price of a loan is agreed upon by LSB and Seller in accordance with the procedures set forth in the Manual. LSB may offset against the purchase price any outstanding fees or other amounts owing from Seller to LSB in connection with the particular purchase or other transactions."
                 },
                 {
-                    "key": "333294a1-7ba0-447e-9eb2-c0c33876ed1d",
+                    "key": "10343ec8-9d37-44b5-a8de-5779e71a33d1",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if LSB determines that a loan was originated in violation of the agreement or applicable law?\n",
                     "categories": [
                         "simple-questions"
@@ -610,7 +623,7 @@
                     "expected_output": "If LSB determines that a loan was originated in violation of the agreement or applicable law, Seller must immediately correct or cure such defect within the time prescribed by LSB. If Seller fails to do so, LSB may repurchase the defective loan from Seller at the price required by LSB."
                 },
                 {
-                    "key": "40159d96-a926-4a9b-b8cc-9996a8653e4a",
+                    "key": "53f1db8a-6a3d-4438-84b4-b67ac2e53a0a",
                     "prompt": "Respond to the following question.\n\nQuestion: Can Seller refinance a loan that has been purchased by LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -621,7 +634,7 @@
                     "expected_output": "No, Seller cannot refinance a loan that has been purchased by LSB. The early payoff provision in the agreement does not apply if the loan is refinanced by a third party other than the original seller."
                 },
                 {
-                    "key": "33df6d35-1818-45dd-99d7-6ba37e5e18b6",
+                    "key": "898da933-f5ac-4cab-b438-76291d5cf3f0",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the recapture period for loans exceeding FNMA/FHLMC conforming loan limits?\n",
                     "categories": [
                         "simple-questions"
@@ -633,7 +646,7 @@
                     "expected_output": "The recapture period for loans exceeding FNMA/FHLMC conforming loan limits is within twelve (12) months after the loan close date."
                 },
                 {
-                    "key": "a0d9d3ea-82cd-4535-8c9f-5a7a27e20b31",
+                    "key": "9935803c-1deb-46a0-b5b6-2528c6c0ad47",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the recapture period for all other loans?\n",
                     "categories": [
                         "simple-questions"
@@ -645,7 +658,7 @@
                     "expected_output": "The recapture period for all other loans is one hundred-fifty (150) days after the loan close date."
                 },
                 {
-                    "key": "654b3b31-8279-4ef1-8c0a-4141dc1b80b3",
+                    "key": "ea537fb7-a532-414f-9a58-1d8cd842f415",
                     "prompt": "Respond to the following question.\n\nQuestion: What happens if LSB terminates the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -659,7 +672,7 @@
                     "expected_output": "In the event of termination, LSB will process loan registrations made on or before the termination date provided that all such registrations comply in all material respects with LSB\u2019s loan origination and/or closing requirements related to each such loan registration and that Seller is in compliance with Section 1 (Representations and Warranties) of the agreement."
                 },
                 {
-                    "key": "0e1b782e-4785-46c2-b48c-b4dd928be441",
+                    "key": "4a020bef-def4-4757-a0e1-60e7b33b2956",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the cure or repurchase provision in the agreement?\n",
                     "categories": [
                         "simple-questions"
@@ -682,7 +695,7 @@
                     "expected_output": "The cure or repurchase provision in the agreement states that if LSB determines that a loan purchased pursuant to the agreement was originated in violation of any term or condition of the agreement or the Manual, or was capable of being rescinded by the applicable mortgagor(s), or must be repurchased from any secondary market investor due to a breach by Seller of any representation or warranty contained in the agreement and/or the Manual, Seller must, upon notification by LSB and/or such secondary market investor, immediately correct or cure such defect within the time prescribed by LSB and/or any such secondary market investor, or repurchase such defective loan from LSB or such secondary market investor at the price required by LSB or such secondary market investor."
                 },
                 {
-                    "key": "28966121-beb2-4a89-9cc1-f6ebeebd0e4a",
+                    "key": "0a7d6505-ef4c-4a70-8f2b-442e2e01c446",
                     "prompt": "Respond to the following question.\n\nQuestion: How must Seller pay the Repurchase Price to LSB or such secondary market investor?\n",
                     "categories": [
                         "simple-questions"
@@ -697,7 +710,7 @@
                     "expected_output": "Seller must pay the Repurchase Price to LSB or such secondary market investor by cashier\u2019s check or wire transfer of immediately available federal funds within ten (10) business days of Seller\u2019s receipt of such repurchase request."
                 },
                 {
-                    "key": "f03e1b05-16d2-4f56-9eed-116022fec426",
+                    "key": "2a4fd033-dac8-4bc3-a277-e7689c318b63",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the timeframe for Seller to pay the Repurchase Price to LSB and/or secondary market investor upon request?\n",
                     "categories": [
                         "simple-questions"
@@ -710,7 +723,7 @@
                     "expected_output": "Within ten (10) business days of Seller\u2019s receipt of the repurchase request."
                 },
                 {
-                    "key": "2679457a-a8e3-44ef-994a-3fcbe07d8b5f",
+                    "key": "9e5e1f44-2400-4c86-93db-923fa86350db",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the method of payment for the Repurchase Price?\n",
                     "categories": [
                         "simple-questions"
@@ -724,7 +737,7 @@
                     "expected_output": "Cashier\u2019s check or wire transfer of immediately available federal funds."
                 },
                 {
-                    "key": "a99e14b8-bc84-42e3-b8c1-f98063875138",
+                    "key": "b9163860-a0b3-4180-a295-05bf5c79dae9",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the process for LSB to release the related Loan file and execute instruments of transfer or assignment upon receipt of the Repurchase Price?\n",
                     "categories": [
                         "simple-questions"
@@ -744,7 +757,7 @@
                     "expected_output": "LSB shall release the related Loan file and execute such instruments of transfer or assignment, in each case without recourse or warranty, as shall be necessary to vest in Seller or its designee title to the repurchased Loan."
                 },
                 {
-                    "key": "eb274255-f766-4581-bbe6-ecad83eeb139",
+                    "key": "6777540c-f4b0-4532-ae67-135c3d6086b4",
                     "prompt": "Respond to the following question.\n\nQuestion: Does this Agreement eliminate, diminish, or impair Seller\u2019s indemnification obligations contained in Section 8?\n",
                     "categories": [
                         "simple-questions"
@@ -755,7 +768,7 @@
                     "expected_output": "No, the provisions of this Section do not, in any way, eliminate, diminish, or impair Seller\u2019s indemnification obligations contained in Section 8."
                 },
                 {
-                    "key": "0b055951-1e61-40e6-99c7-590e097073c6",
+                    "key": "c98f85dd-8ea6-45b9-8bb8-221e53c934bc",
                     "prompt": "Respond to the following question.\n\nQuestion: Is LSB allowed to solicit bank customers for all bank products and services?\n",
                     "categories": [
                         "simple-questions"
@@ -766,7 +779,7 @@
                     "expected_output": "Yes, LSB, in the normal course of business, will solicit bank customers for all bank products and services, and there is nothing in this Agreement or relationship with Seller that precludes LSB from doing so."
                 },
                 {
-                    "key": "01d8fc4e-30ae-4d61-910e-b4fbcd750c52",
+                    "key": "fcd38ed4-1f5d-4c07-961b-261997a57081",
                     "prompt": "Respond to the following question.\n\nQuestion: What laws, rules, regulations, and/or provisions must Seller agree to be and remain in compliance with?\n",
                     "categories": [
                         "simple-questions"
@@ -778,7 +791,7 @@
                     "expected_output": "Seller must agree to be and remain in compliance with all laws, rules, regulations, and/or provisions of (i) the Dodd/Frank Wall Street Reform and Consumer Protection Act, and (ii) the Federal Reserve Board, in each case as the same may be enacted and/or amended from time to time."
                 },
                 {
-                    "key": "830df534-447d-4ad8-b5d0-0f82edb180ed",
+                    "key": "d9d2dcfb-199f-45cb-bc6b-bc6270d28675",
                     "prompt": "Respond to the following question.\n\nQuestion: What are the fees to be paid to Seller by LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -790,7 +803,7 @@
                     "expected_output": "The fees to be paid to Seller by LSB are: Clearly designate the appropriate fee and minimum option: \uf071 Opt Out of Minimum \uf071$1000 \uf071 $1500."
                 },
                 {
-                    "key": "62e23f3f-b8b9-46c5-90f0-c7b302ad7e93",
+                    "key": "a269166e-7742-4ee5-83fc-4ceca6c4bd24",
                     "prompt": "Respond to the following question.\n\nQuestion: How often can the fees be adjusted?\n",
                     "categories": [
                         "simple-questions"
@@ -812,7 +825,7 @@
                     "expected_output": "The fees can be adjusted prior to the end of each quarter on a go-forward basis by Seller completing, executing, and delivering to LSB a Broker Comp Change Form, substantially in the form as attached hereto as Exhibit \u201cA\u201d."
                 },
                 {
-                    "key": "a1ba7c1c-07ea-480c-a14f-e632afb2fbc8",
+                    "key": "f7099aa0-8724-4ccf-b116-f1f4fb69784c",
                     "prompt": "Respond to the following question.\n\nQuestion: What is the required notice period for Seller to deliver the Broker Comp Change Form to LSB?\n",
                     "categories": [
                         "simple-questions"
@@ -833,7 +846,7 @@
                     "expected_output": "Seller agrees to deliver the Broker Comp Change Form to LSB ten (10) business days prior to the end of the current calendar quarter to be effective for the subsequent quarter."
                 },
                 {
-                    "key": "f435364f-20af-4a23-8546-8ba7f04c7d98",
+                    "key": "7bb4053c-3f95-40da-845d-3ddb3f2597f5",
                     "prompt": "Respond to the following question.\n\nQuestion: Can the text of this Agreement be changed in any manner without the prior written consent of Liberty Savings Bank, FSB?\n",
                     "categories": [
                         "simple-questions"
