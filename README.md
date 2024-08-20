@@ -87,7 +87,6 @@ Following is the collection of 40 Datasets by different industries, different ev
 | 40. | [Legal_UPC_Agreement](https://github.com/h2oai/h2o-evals/tree/main/catalog/Legal_UPC_Agreement)| `Legal` | UPC Agreement | 141 | RAG |
 | 41. | [HR_HR_Policy](https://github.com/h2oai/h2o-evals/tree/main/catalog/HR_HR_Policy)| `HR` | HR Policy | 122 | RAG |
 | 42. | [Telcom_Telcom_Customer_Service_Information](https://github.com/h2oai/h2o-evals/tree/main/catalog/Telcom_Telcom_Customer_Service_Information)| `Telcom` | Telcom Customer Service Information | 133 | RAG |
-| 43. | [HR_HR_Policy_Procedures](https://github.com/h2oai/h2o-evals/tree/main/catalog/HR_HR_Policy_Procedures)| `HR` | HR Policy | 148 | RAG |
 
 ## Create your own Evaluation Dataset using LLM DataStudio 💡
 
